@@ -1,0 +1,1722 @@
+{
+ "statements": [
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "metaparticle quanta (the zero modes of the metastring) as th",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched abstract",
+   "verdict": "confirmed-in-part",
+   "correction": "The abstract states it as an implication of the formulation ('This generic formulation of string theory implies … metaparticle quanta … as the natural quanta of dark matter in this approach'), not as a proposal; 'proposal' is the word of §6.2."
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "metaparticle quanta (the zero modes of the metastring) repre",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "The proposal here is that the dual sector (as already indica",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Like their visible particle cousins, dark matter quanta shou",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "This is a Berry-phase like term that comes from a fully cova",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "If the quanta of modified dark matter are metaparticles, thi",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "In particular, the natural model for MDM quanta could be pro",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "where x\\equiv q/a and \\tilde{x}\\equiv p/b , and where ab=2\\p",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "the modular representation of quantum field theory introduce",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "and their (“magnetic”) duals",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "So even though one has formally doubled the number of variab",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "The question is whether Born reciprocity can be used as a cr",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "It also follows from this construction that the weakness of ",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "In general, for each particle at energy E there exists a dua",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "(where we have included the gravitational background as non-",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "associated with a particle, anti-particle pair there is a co",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "creates a fundamental ‘entanglement’ of these chiral particl",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "when no external fields are involved, it is possible to kine",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "As mentioned above, we see that the effect of the \\alpha^{\\p",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1905.08269",
+   "quote_start": "the curvature of the canonically conjugate dual space provid",
+   "quote_found": true,
+   "check_output": "FOUND: 1905.08269 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1905.08269",
+   "quote_start": "our discussion naturally relates to the observationally supp",
+   "quote_found": true,
+   "check_output": "FOUND: 1905.08269 — searched full text (https://arxiv.org/html/1905.08269)",
+   "verdict": "confirmed-in-part",
+   "correction": "Ref. [39] is a composite of the whole MDM series (Ho, Minić and Ng 2010–2012; Edmonds et al. 2014, 2017; IJMPD 27 (2017) 1830001 = 1709.04388; Bulg. J. Phys. 45 (2018) 138 = 1801.00160), not 1709.04388 alone."
+  },
+  {
+   "paper_id": "1905.09463",
+   "quote_start": "the canonically conjugate dual space, spanned by the differe",
+   "quote_found": true,
+   "check_output": "FOUND: 1905.09463 — searched full text (https://arxiv.org/html/1905.09463)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1905.09463",
+   "quote_start": "where \\lambda denotes the fundamental length scale, such as ",
+   "quote_found": true,
+   "check_output": "FOUND: 1905.09463 — searched full text (https://arxiv.org/html/1905.09463)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1905.09463",
+   "quote_start": "the curvature and size of the canonically conjugate dual spa",
+   "quote_found": true,
+   "check_output": "FOUND: 1905.09463 — searched full text (https://arxiv.org/html/1905.09463)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "[\\hat{x}^{\\mu},\\hat{\\tilde{x}}_{\\nu}]=i\\pi\\lambda^{2}\\delta^",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "In string theory, it happens to be the string scale \\lambda^",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "means that the dual symmetry is fundamentally broken at the ",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "The symmetry breaking happens at the level of the vacuum sec",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "'Spontaneous in substance' is the reader's inference, and the same passage weighs against it: the dual symmetry is 'fundamentally broken at the quantum level' because 'the dual Lorentz action is not a canonical transformation' (it does not preserve the λ² bracket), and only then is the breaking placed 'at the level of the vacuum sector'. The candidate decoupling coordinates (x, or x + αx̃ + …) lie in the λ²-doubled (x, x̃) space, not among the program's (x, p) polarizations."
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "We now propose that the expansion of the Universe can act as",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "as the Universe evolves, dual degrees of freedom increasingl",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "Location: the sentence is in the essay's opening paragraphs ('In this essay we explore …'), not its abstract. The abstract has 'string-dual degrees of freedom decouple as the Universe ages' and 'The mechanism seems to have potential for an entirely novel source for dark matter/energy.'"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "the mechanism that we have described here seems to have pote",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "the dual dimension shrinks to zero and one recovers the usua",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "The record does tie this rescaling to item 6: its C5 finding for Minic 2023 (review/literature-check/findings.json, 2305.12593) calls the same rescaling 'a kinematic analogue of founding supposition 6 (a·ã = 1), used here for the decoupling limit'. 'Not for item 6' is wrong; only the note's text omits it."
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "when the scale factor goes to zero the dual decoupling limit",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "This corresponds to a choice of how spacetime is interpreted",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "dark matter, on the other hand, comes from the degrees of fr",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "can be interpreted as the dark matter as well as providing a",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "the known Standard Model fields and their dark matter duals ",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "This correlation becomes invisible in effective field theory",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed-in-part",
+   "correction": "The paper qualifies the limit in the next sentence, 'Note that with a particular double scaling, this term can be finite!', and adds that λ⁸/L¹⁰ 'should not be naively considered to be trans-Planckian'. The vanishing limits are not its last word on the size of the term."
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "In the dual QED sector, we should find a dual photon that is",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "The correlation is proportional to the fundamental length, a",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "These type of correlations might be found in correlated even",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "For every fermion-dual fermion pair, there is a mass-matrix ",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "We note that, quite explicitly, the dark matter sector provi",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "[\\mathord{\\hat{x}}^{a},\\mathord{\\hat{\\tilde{x}}}_{b}]=2\\pi i",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "where \\lambda denotes the fundamental length scale, such as ",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "Hence, the weakness of gravity is determined by the size of ",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "Thus the entire SM would have a dual SM (which we propose, d",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "where x\\equiv q/a , \\tilde{x}\\equiv p/b , with ab=2\\pi\\hbar",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "Like their visible particle cousins, dark matter quanta shou",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "assuming that dark matter (whether traditional or metapartic",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "The above metaparticle-like dark matter quanta are by constr",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "These originally bi-local fields then give rise to both an E",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "i.e., the electro-magnetic dual [19, 20]!",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "between the visible E_{8} -fields and the dark \\widetilde{E}",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "each observed (canonical) particle should have a dual partic",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "First the fields and their duals are “canonically conjugate”",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "the dual particles are conjugate to the Standard Model parti",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "That is, the dual fields do not commute with Standard Model ",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "These fields are in general correlated, due to their non-com",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "In general the observed spacetime and its dual are correlate",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "one has both the visible sector and its dual/dark counterpar",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "This correlation is invisible to effective field theory, and",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "different cosmological scenarios result in differing estimat",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "Thus the usual detection analysis of particulate dark matter",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "is effectively spontaneously broken. Here the novel feature ",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "in the early (small) universe the dual (“dark”) degrees of f",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "Here the fact that dark and visible matter could be correlat",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "which could be resolved by changing the effective number of ",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "Thus, a Higgs field would have a dual Higgs field and the tw",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "the classical spacetime is defined as a null subspace for \\e",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed-in-part",
+   "correction": "The T-duality sentence is two sentences later (after the definition of H), not the next sentence; the reading is otherwise right."
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "These type of correlations might be found in correlated even",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "the Heisenberg algebras: [q,\\tilde{q}]=il_{P}^{2} , [q,p]=i ",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "[X^{a},\\tilde{X}^{b}]=i\\delta^{ab}\\ell_{s}^{2}",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "[X^{a},\\Pi_{b}]=i\\delta^{a}_{b}\\hbar,\\quad[\\tilde{X}^{a},\\ti",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "each Standard Model particle has a correlated “dual,” a cand",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "the dark matter sector can be seen as coming from a dual Sta",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "coming from the other E_{8} in heterotic string theory",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "the ensuing indeterminacy in the parameters of the dual Stan",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote_start": "which may well be subject to a third quantization indetermin",
+   "quote_found": true,
+   "check_output": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2303.15645",
+   "quote_start": "in which apart from spacetime coordinates x one has dual spa",
+   "quote_found": true,
+   "check_output": "FOUND: 2303.15645 — searched full text (https://arxiv.org/html/2303.15645)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2305.12593",
+   "quote_start": "are dual coordinates conjugate to x . These coordinates are ",
+   "quote_found": true,
+   "check_output": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2305.12593",
+   "quote_start": "the dual dimension shrinks to zero and one recovers the usua",
+   "quote_found": true,
+   "check_output": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)",
+   "verdict": "confirmed-in-part",
+   "correction": "'The rescaling behind #11 §10's a·ã = 1' overstates. Here it rescales a modular cell (x → ax, p → a⁻¹p) to reach the decoupling limit; it is not a constraint on cosmological scale factors, though it is the same area-preserving map. The record already has this passage and calls it 'a kinematic analogue of founding supposition 6' (findings.json, C5)."
+  },
+  {
+   "paper_id": "2305.12593",
+   "quote_start": "metaparticles (correlated objects of visible particles and t",
+   "quote_found": true,
+   "check_output": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)",
+   "verdict": "confirmed-in-part",
+   "correction": "Ref. [10] is a composite: BHM 2023 (2212.06086) first, then 'See also' 2111.14205, LHEP 2021 (2010.15610) and the 2019 papers; it is not BHM 2021 alone."
+  },
+  {
+   "paper_id": "2305.12593",
+   "quote_start": "This commutation relation can be deduced through a careful a",
+   "quote_found": true,
+   "check_output": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "(We will argue that dual particles, correlated to visible pa",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "( x\\equiv q/{\\lambda} , \\tilde{x}\\equiv p/{\\epsilon} , so [x",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Here it is natural to talk of dual spacetime \\tilde{x} , [x,",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Classical spacetime label x of canonical QFT corresponds to ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Therefore, one could say that dark matter is fuzzy from the ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Metaparticles can be understood as fuzzy dark matter, which ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed-in-part",
+   "correction": "HM 2024 first calls dark matter 'fuzzy' because visible φ and dark φ̃ do not commute (§3.3); the link to ultralight fuzzy dark matter is by citation [47, 48] (1709.04388, 2405.08744). The paper gives no mass and no wave dynamics, so 'a wave-like form' and the comparison with the X-condensate are the reader's own."
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "This suggest the origin (from dark matter) of the observed s",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "The dual spacetime labels can be understood as covariant “hi",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "Dual particles and fields in this picture model (fuzzy) dark",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "the familiar and directly observable canonical spacetime ( x",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "In principle, every Standard Model particle has a dual fuzzy",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "However, some dual fields, like the dual Higgs boson, might ",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "The reason for this is that fuzzy dark matter is in the non-",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "our claim is that such observed acceleration scale is eviden",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "Note also that quantum gravity picks the natural basis for m",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "In general one can contemplate a time-varying dark energy [1",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2610.19522",
+   "quote_start": "it is a candidate for the invisible matter sector (dual to t",
+   "quote_found": true,
+   "check_output": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2610.19522",
+   "quote_start": "which does not commute with its partner, and upon the integr",
+   "quote_found": true,
+   "check_output": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2610.19522",
+   "quote_start": "neutrinos could be viewed as “portals” between the Standard ",
+   "quote_found": true,
+   "check_output": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "Essentially, in this approach, dark matter should be viewed ",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "Recently we have explored a new picture of the vacuum select",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "leads to a dynamical dark energy [34]",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "refuted",
+   "correction": "Refuted: the reading's one claim is wrong. The paper's reference list reads '[34] V. Jejjala, M. Kavic and D. Minic, Adv. High Energy Phys. 2007, 21586 (2007) [arXiv:0705.4581 [hep-th]]. [35] V. Jejjala, M. J. Kavic, D. Minic and T. Takeuchi, [arXiv:2011.08852 [hep-th]]'. So [34] is Jejjala, Kavic and Minic 2007 (arXiv:0705.4581, 'Fine Structure of Dark Energy and New Physics'), not JKMT 2020; JKMT 2020 (2011.08852) is [35], cited for the H₀ tension."
+  },
+  {
+   "paper_id": "2202.06890",
+   "quote_start": "each observed quantum field has a “dual”, which could be ass",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.06890",
+   "quote_start": "(Dark matter, dark energy and visible matter are naturally c",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2011.08852",
+   "quote_start": "dark energy is realized as a dynamical geometry of the dual ",
+   "quote_found": true,
+   "check_output": "FOUND: 2011.08852 — searched full text (https://arxiv.org/html/2011.08852)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2011.08852",
+   "quote_start": "However, the dual part of the matter sector can be naturally",
+   "quote_found": true,
+   "check_output": "FOUND: 2011.08852 — searched full text (https://arxiv.org/html/2011.08852)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05266",
+   "quote_start": "The equation of state parameter w_{\\text{eff}}<-1 in this fr",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05266 — searched full text (https://arxiv.org/html/2202.05266)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05266",
+   "quote_start": "we find that the effective equation of state parameter for d",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05266 — searched full text (https://arxiv.org/html/2202.05266)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2503.20854",
+   "quote_start": "In this approach, dark energy originates from the curvature ",
+   "quote_found": true,
+   "check_output": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2503.20854",
+   "quote_start": "Note that w_{0}\\leq-1 and w_{a}\\leq 0 for all \\xi_{0}",
+   "quote_found": true,
+   "check_output": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2503.20854",
+   "quote_start": "as opposed to our first, naive guess that implied",
+   "quote_found": true,
+   "check_output": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2503.20854",
+   "quote_start": "Note that w(a)\\geq-1 in all cases",
+   "quote_found": true,
+   "check_output": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2503.20854",
+   "quote_start": "that the dark energy is dynamical, i.e., time-dependent, and",
+   "quote_found": true,
+   "check_output": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.00901",
+   "quote_start": "A choice of basis is equivalent to a choice of polarization ",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.00901",
+   "quote_start": "Heuristically one can say that the holographic bound on entr",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "We propose a duality between cold dark matter and modified N",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "(2) The couplings of MONDian dark matter to the Standard Mod",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "(3) In our proposal, the total mass of MONDian dark matter i",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1105.2916",
+   "quote_start": "Our arguments have been mainly thermodynamical, hence the pr",
+   "quote_found": true,
+   "check_output": "FOUND: 1105.2916 — searched full text (https://arxiv.org/html/1105.2916)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1105.2916",
+   "quote_start": "The dark matter profile we have obtained (at the galactic sc",
+   "quote_found": true,
+   "check_output": "FOUND: 1105.2916 — searched full text (https://arxiv.org/html/1105.2916)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "these unusual quanta of dark matter must obey the crucial pr",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "We naturally expect that such non-canonical dark matter quan",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "the concept of MDM realizes a deep duality",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched full text (https://arxiv.org/html/1308.3252)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "such unusual non-local quanta could be found in recent refor",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "A more concrete theory for MDM quanta will allow us to test ",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1602.00055",
+   "quote_start": "how strongly coupled is MDM to baryonic matter and how does ",
+   "quote_found": true,
+   "check_output": "FOUND: 1602.00055 — searched full text (https://arxiv.org/html/1602.00055)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "We expect that such non-local excitations (as part of a cova",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed-in-part",
+   "correction": "'Not in the record' is wrong. review/literature-check/findings.json (C1, recid:1623190) quotes 'can serve as unusual dark matter quanta' and the zero-mode sentence and labels the paper 'Precursor (2017)'. Only notes/literature-check.md §3 and flag 64 omit it."
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "Roughly, the zero mode sector looks like two entangled parti",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "which may lead to novel non-particle phenomenology and which",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "A more concrete theory for MDM quanta will allow us to test ",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "How strongly coupled is MDM to baryonic matter? How does MDM",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "But what is the microscopic basis for this correlation? We w",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "Thus, MDM quanta are not particle-like, but might be modeled",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "Thus, the fundamental origin of dark matter is tied to the t",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "A possible candidate for such quanta are metaparticles, whic",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "In this context, dark matter is correlated to the visible ba",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote_start": "could be pointing to a heretofore unknown property of dark m",
+   "quote_found": true,
+   "check_output": "FOUND: 2009.12915 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "we highlight the emergence of the observed acceleration scal",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "We further conjecture a relationship between the quantum pre",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text (https://arxiv.org/html/2405.08744)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "so we will refer to Y as coordinates in momentum space",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "In so doing, T-duality is cast essentially as a Fourier tran",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "now generalizes to 2d electromagnetism with electric and mag",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "The corresponding Dirac-Schwinger-Zwanziger quantization of ",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "Indeed, general relativity explicitly breaks this symmetry b",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "It is important to appreciate that this kinematical breaking",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "There is a preferred basis — the space-time basis.",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "In quantum gravity, if all probes agree on what we mean by s",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "What is new about this viewpoint is that it allows us to thi",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "What is conceptually remarkable here is that this target spa",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "Consistent with the diffeomorphism constraint, we will in ge",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "we propose to define Euclidean quantum space as a choice of ",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "introduce dimensionless coordinates x\\equiv q/\\lambda and \\t",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "precisely because the underlying algebra is non-commutative,",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1706.03305",
+   "quote_start": "the zero modes (x,\\tilde{x},p,\\tilde{p}) should be considere",
+   "quote_found": true,
+   "check_output": "FOUND: 1706.03305 — searched full text (https://arxiv.org/html/1706.03305)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1706.03305",
+   "quote_start": "Generally, T-dualities act within this framework as the oper",
+   "quote_found": true,
+   "check_output": "FOUND: 1706.03305 — searched full text (https://arxiv.org/html/1706.03305)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1707.00312",
+   "quote_start": "[\\hat{x},\\hat{\\tilde{x}}]=i\\pi R{\\tilde{R}}=2\\pi i\\lambda^{2",
+   "quote_found": true,
+   "check_output": "FOUND: 1707.00312 — searched full text (https://arxiv.org/html/1707.00312)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1707.00312",
+   "quote_start": "where the string length scale is denoted \\lambda\\equiv\\sqrt{",
+   "quote_found": true,
+   "check_output": "FOUND: 1707.00312 — searched full text (https://arxiv.org/html/1707.00312)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1707.00312",
+   "quote_start": "in which x decouples and an effective description can be ach",
+   "quote_found": true,
+   "check_output": "FOUND: 1707.00312 — searched full text (https://arxiv.org/html/1707.00312)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1707.00312",
+   "quote_start": "The algebraic structure that we are working with here has an",
+   "quote_found": true,
+   "check_output": "FOUND: 1707.00312 — searched full text (https://arxiv.org/html/1707.00312)",
+   "verdict": "confirmed",
+   "correction": ""
+  }
+ ],
+ "answers": [
+  {
+   "question": "Q1",
+   "verdict": "confirmed-in-part",
+   "correction": "Right in substance: in these 41 papers the identification is a proposal or a candidate from February 2020 on, never derived. Two imprecisions. Minic 2020's abstract states the clause as an implication of the formulation ('implies'); 'proposal' is the word of §6.2, and BHM 2021 §3 repeats that 'proposal' sentence verbatim. Snowmass 2022's 'dark matter should be viewed as a dual SM' is not weaker in wording than 'which we propose'. The record labels it partial because it does not say the dual is the momentum side.",
+   "counter_evidence": [
+    "2003.00318, abstract: 'This generic formulation of string theory implies a radiatively stable positive cosmological constant' … 'as well as metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach' (lit.py: FOUND, abstract)",
+    "2010.15610, §3 after eq. (8): 'The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector, which is correlated to the visible sector via the dark energy sector, as discussed in [18].' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q2",
+   "verdict": "confirmed",
+   "correction": "No correction. Three passages strengthen sense (ii). Even where the school defines x̃ ≡ p/b, it takes the dual (later dark) fields from the dual momentum p̃ of the doubled phase space. HM 2024 takes its 'dark matter' fields from the shift p̃ → p̃ + φ̃. BHM 2023 (Symmetry) introduces the dual coordinate q̃ through p̃ and obtains [q, q̃] ~ i l_P² from a gravitational (Schwarzschild-radius) argument.",
+   "counter_evidence": [
+    "2109.12763, §2.2 (the section that defines x̃ ≡ p/b): 'The dual momenta p and \\tilde{p} (to x and \\tilde{x} respectively) lead, via the canonical minimal-coupling prescription, not only to the usual fields \\phi but also to their duals \\tilde{\\phi} (see below).' (FOUND)",
+    "2407.06207, §3.3: 'Thus we have “dark matter” fields, \\tilde{\\phi}(x) , in the effective classical spacetime x description (after integrating over the dual spacetime \\tilde{x} ).' (FOUND)",
+    "2307.16712, §2.4: 'The indeterminacies \\delta p and \\delta\\tilde{p} thereby being interchangeable provides the first substitution in the chain' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q3",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": [
+    "2604.19418, §7 Conclusion (source of the answer's 'dual axion suited to fuzzy dark matter'): 'which could serve as the QCD axion, but with a dual partner more suited for a fuzzy dark matter excitation' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q4",
+   "verdict": "confirmed-in-part",
+   "correction": "'No paper says gravity only' is wrong. HM 2024 (2407.06207, §5.3, 'Neutrinos:') says the Berry-phase-like correlation term (cited to BHM 2021) has a mass scale that 'defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally'. It identifies that scale with M_SM ≈ 4.5×10¹⁴ GeV; recomputed from its Table 1 by scratch/r9-sweep-verify/bin/msm.py, 4.48×10¹⁴ GeV. The family-(a) patterns missed 'only gravitationally'. So one school paper assigns a scale to the coupling, though it does not compute it, and puts every accessible energy in a gravity-only regime. The answer also omits the school's own counterweights to reading the terms as suppressed: 'with a particular double scaling, this term can be finite!' and λ⁸/L¹⁰ 'should not be naively considered to be trans-Planckian' (BHM 2021 §4; BHM 2023 §6.4 likewise); 'the usual visible photon/dark photon coupling is subdominant to this term' (BHM 2021 §5, BHM 2023 §6.5); and the fermion mass gap 'may well be phenomenologically relevant — even for a minuscule numerical value' (BHM 2023 §6.5).",
+   "counter_evidence": [
+    "2407.06207, §5.3 'Neutrinos:': 'The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.' (FOUND)",
+    "2407.06207, same paragraph: 'M_{SM}\\simeq 4.5{\\times}10^{14}\\,\\text{GeV} is thus naturally identifiable with this dark-matter/visible-matter decoupling scale.' (FOUND)",
+    "2010.15610, §4 after eq. (19): 'Note that with a particular double scaling, this term can be finite!' (FOUND)",
+    "2010.15610, §4: 'However, the ratio \\frac{\\lambda^{8}}{L^{10}} should not be naively considered to be trans-Planckian' (FOUND)",
+    "2010.15610, §5: 'Also, the usual visible photon/dark photon coupling is subdominant to this term that is inherent in our story.' (FOUND)",
+    "2212.06086, §6.5 after eq. (6.36): 'may well be phenomenologically relevant — even for a minuscule numerical value of' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q5",
+   "verdict": "confirmed-in-part",
+   "correction": "Qualify 'no paper states a permanent null'. HM 2024 §5.3 confines dark–visible interaction below ~4.5×10¹⁴ GeV to gravity, 'as required'. In substance that means no direct-detection signal at accessible energies, though HM do not state it as a prediction. It also conflicts with BHM 2021 §5 and BHM 2023 §6.5, which expect correlated accelerator events at energies far below that scale, so the school is not consistent on detection.",
+   "counter_evidence": [
+    "2407.06207, §5.3 'Neutrinos:': 'The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.' (FOUND)",
+    "2010.15610, §5: 'These type of correlations might be found in correlated events in the accelerators, but which are not products of any standard particle decays.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q6",
+   "verdict": "confirmed-in-part",
+   "correction": "Right for BHM's effective action after the x̃-integration, which Minic 2020 writes with 'the gravitational background as non-dynamical'. Two additions. FKLM 2021 couples its metaparticle candidates to the extended Born metric ds² = g dx dx + g⁻¹ dx̃ dx̃ (eq. 3). That coupling is why the dual momentum shrinks as a_c grows (eq. 16) and why class II states decouple; so 'gravitates on the observed metric' is not the whole picture for FKLM's candidate. BHM 2023 §6.2 lets G_N vary with the volume of the dual spacetime.",
+   "counter_evidence": [
+    "2104.00802, before eq. (15): 'We now make use of the fact that the metaparticle couples to the extended metric (3)' (FOUND)",
+    "2212.06086, §6.2: 'Note also that our G_{N} could vary by varying the volume of the dual spacetime.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q7",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q8",
+   "verdict": "confirmed-in-part",
+   "correction": "'These duals are the later dark-matter fields' is stated as fact here, but in the reader's statement on 2003.00318 §3 it was labelled the reader's own reading, and the paper does not say it. §3's chiral doubling has 'no overcounting' and keeps the degrees of freedom of the purely electric formulation; §5's Ã carry a separate dark-matter Lagrangian. For (iii), 2111.14205 adds that the two E8 factors are 'physically indistinguishable', so the pairing involves no magnetically charged matter.",
+   "counter_evidence": [
+    "2003.00318, §3 after eq. (22): 'There is no overcounting here, because the action will turn out to be chiral.' (FOUND)",
+    "2111.14205, 'Born Heterosis:' item 2: 'Being simply laced, E_{8}^{\\vee}\\approx E_{8} , and they are physically indistinguishable.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q9",
+   "verdict": "confirmed",
+   "correction": "No correction. Several papers state outright that the other choice is available, as #11 P5 has it. FKLM 2021 grounds its breaking in the λ² bracket ('not a canonical transformation') before placing it in the vacuum sector. Its expansion mechanism yields a preferred frame only late, 'as the symmetry is restored as one goes back in time'.",
+   "counter_evidence": [
+    "1812.10821, §2: 'It should be clear though that there is nothing special about the x^{\\mu} ; we could have taken any linear subspace, such as \\tilde{x},p .' (FOUND)",
+    "2307.16712, §2.4: 'the space-time on which the metaparticle propagates is ambiguous, with different choices related by what in string theory we would call T-duality' (FOUND)",
+    "1707.00312, §2: 'Consequently, which compact coordinate, x or \\tilde{x} , plays the role of a spatial coordinate depends on context.' (FOUND)",
+    "1502.08005, §1: 'it is a fundamental property of quantum theory that this choice of polarization is immaterial' (FOUND)",
+    "2104.00802, after eq. (12): 'In other words the dual Lorentz action is not a canonical transformation.' (FOUND)",
+    "2104.00802, after eq. (17): 'the expansion of the Universe gives rise to a preferred frame and the infrared Lorentz violation appears only for an old Universe, as the symmetry is restored as one goes back in time' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q10",
+   "verdict": "confirmed-in-part",
+   "correction": "Two corrections. First, JKMT 2020 puts the time dependence in the leading term, so 'Beyond leading order it is time-dependent … (JKMT 2020)' misattributes it; the higher-order statement is Minic 2020 §6.1's. Second, the cell rescaling is structurally analogous to App. A item 6's a·ã = 1 but not the same thing: it rescales a modular cell for the decoupling limit, and FKLM 2021 then ties it to a_c. The record's C5 finding (findings.json, 2305.12593) already calls it 'a kinematic analogue of founding supposition 6'. The phantom-to-thawing sign history (2202.05266 → 2503.20854) and the absence of a contracting dual universe driving our acceleration are confirmed.",
+   "counter_evidence": [
+    "2011.08852, §2: 'In the leading term of the effective spacetime description, dark energy is realized as a dynamical geometry of the dual spacetime, and consequently, is inherently time dependent.' (FOUND)",
+    "2003.00318, §6.1: 'Higher order terms in \\lambda produce various forms of dark energy [85]' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q11",
+   "verdict": "confirmed-in-part",
+   "correction": "The earliest dual-of-visible statement in these 41 papers is Minic 2020 (2020-02-29), as the answer says. Additions:\n- Minic 2020 §7 also cites the unread FLM 2019 paper, alone ([10] = IJMPA 34 (2019) 1941004), for dark matter 'represented by metaparticles'.\n- FLM 2019's first public date is its publication, 2019-10-10 (print) or 2019-10-15 (online). The Julian Schwinger Centennial talk (Singapore, 7–12 February 2018) is earlier, but the text was not public before October 2019. It is closed access and was not retrieved; see 'retried'.\n- BHM 2021 credits 'the explicit appearance of dark matter in the general formulation of string theory' to [14]; EMT 2020's metaparticle candidate cites [50]. Both are composite citations of the whole FLM series, FLM 2019 and Minic 2020 included, so neither dates the identification.\n- Outside the 41, FLM's open-access J. Phys. Conf. Ser. 804 (2017) 012032 (online 2017-04-03) has one dark-matter sentence, a pointer with no identification.\n- 1601.00662 and 1709.04388 are already in the record's findings.json as precursors; 1801.00160 is not in any record file.",
+   "counter_evidence": [
+    "2003.00318, §7: 'dark matter correlated to visible matter and dark energy [12] and represented by metaparticles [10]' (FOUND); reference list: '[10] L. Freidel, R. G. Leigh and D. Minic, Int. J. Mod. Phys. A 34, no. 28, 1941004 (2019)'",
+    "2010.15610, §4 opening: 'In this section we elaborate on the dual matter degrees of freedom and the explicit appearance of dark matter in the general formulation of string theory [14].' (FOUND); [14] lists PLB 2014 … IJMPA 34 (2019) 1941004 … PRD 99 (2019) 066011, and arXiv:2003.00318",
+    "FLM, J. Phys. Conf. Ser. 804 (2017) 012032, closing remarks: 'Finally, we think that there are implications of the metastring for the problems of dark matter and the origin of the standard model of particle physics or the physics of the early universe.' (not code-checkable: read via the WebFetch-saved CC-BY PDF and pypdf; exact string match on the extracted text)"
+   ]
+  },
+  {
+   "question": "Family (a) coupling",
+   "verdict": "confirmed-in-part",
+   "correction": "The counts are reproduced by independent code (scratch/r9-sweep-verify/bin/famcount.py, famunion.py): 33 papers in all; per alternative 0, 0, 0, 0, 1, 0, 12, 30 and 15, with the same paper lists. But the alternatives missed 'only gravitationally'. That phrase is the substantive gravity-only statement in the corpus (2407.06207 §5.3, for dark–visible coupling); 1308.3252 and 2005.08927 also use it, for standard CDM. So the family's implied conclusion, that no paper states a gravity-only coupling, is wrong.",
+   "counter_evidence": [
+    "2407.06207, §5.3 'Neutrinos:': 'The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Family (b) detection",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Family (c) dynamics",
+   "verdict": "confirmed-in-part",
+   "correction": "'34 papers had a hit, but 30 come only from the substring gate' is imprecise. Thirty papers contain the substring, but for only 18 of the 34 is it the sole family-(c) hit: with \\bgates?\\b in place of 'gate', the family still hits 16 papers (code: famunion.py). The per-alternative counts and the noise readings are reproduced: S. J. Gates and Hübsch's 'jump gates' in reference lists, qubit-gate fidelities, WIMP and relic cross-sections or a geometric cross-sectional area, the Tully–Fisher 'asymptotic velocity depends', and tachyon or fermionic condensates.",
+   "counter_evidence": [
+    "code: scratch/r9-sweep-verify/bin/famunion.py prints 'family c: 34 papers' and 'family c_wordgate: 16 papers'"
+   ]
+  },
+  {
+   "question": "Family (d) monopoles",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Family (e) vacuum",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Family (f) identification",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  }
+ ],
+ "record_contradictions": [
+  {
+   "record_says": "notes/literature-check.md §3, 'What their dual is': 'In the foundations it is the momentum side. Freidel, Leigh and Minic 2014 (Phys. Lett. B): … Berglund, Hübsch and Minić 2021 speak of the “canonically conjugate dual space”.'",
+   "verdict": "confirmed",
+   "note": "Checked against the source. In BHM 2021 itself (2010.15610 §2) the coordinates X^A 'combine the sum ( x^{a} ) and the difference ( \\mathord{\\tilde{x}}_{a} ) of the left- and right-moving chiral bosons on the string', with [x̂, x̂̃] = 2πiλ² (eq. 3). The 'canonically conjugate dual space' sentence follows Tseytlin's leading limit, obtained 'effectively neglecting \\omega_{AB} in (2) by assuming that [\\hat{x},\\mathord{\\hat{\\tilde{x}}}]=0' (both FOUND). 1905.09463 footnote 4 defines the phrase the same way. So that citation does not support 'the momentum side'. FLM 2014's 'coordinates in momentum space' and x̃ ≡ p/b (Minic 2020 §3, EMT 2021 §2.2, FLM 2016 §1.1, HM 2024 §3.3) do support it. Flag 64 cites only FLM 2014 for the foundations, so the overstatement is in the note's §3 alone."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'The vacuum': 'The check found no such mechanism in the school's papers, where the classical spacetime label “corresponds to a choice” of polarization'; wiki/phase-space/reciprocity/broken-born-duality.md (description) and wiki/glossary.md: Freidel, Leigh and Minic 'gave no potential and no symmetry-breaking analysis' / 'wrote no potential for it'.",
+   "verdict": "confirmed-in-part",
+   "note": "The quotations are right, and no record file has them: no 'vacuum sector' or 'decoupling frame' in findings.json or panel/C1.evidence.json.\n- What the school does say: FKLM 2021 breaks a symmetry 'at the level of the vacuum sector', fixes the decoupling coordinate by 'a choice of ground state', and proposes cosmic expansion as 'a mechanism that selects the decoupling frame'. BHM 2023 §4.3 calls O(1,d−1)₂ 'effectively spontaneously broken'.\n- So 'no such mechanism' is too broad if 'such' means any vacuum mechanism that selects which commuting coordinates serve as spacetime. 'No symmetry-breaking analysis' is too broad for FKLM, who include all three FLM authors.\n- Where the reader overreaches: 'spontaneous in substance' is its inference. FKLM say the dual symmetry is 'fundamentally broken at the quantum level' because 'the dual Lorentz action is not a canonical transformation', i.e. broken by the λ² bracket. The symmetry is dual Lorentz, not ρ. The coordinates selected (x, x + αx̃ + …) live in the λ²-doubled space. The expansion yields 'a preferred frame' only late, 'as the symmetry is restored as one goes back in time'.\n- No potential and no order parameter appear (Goldstone: 0 hits). #11 §3's narrower claim, spontaneous breaking of ρ with η as the order parameter, stands."
+  },
+  {
+   "record_says": "notes/literature-check.md §3: 'All nine come from one group and carry one priority, Minic 2020, dated no later than its posting; two earlier items were not read, … a 2019 paper of Freidel, Leigh and Minic not on arXiv'; review/wiki-build-flags.md item 64 quotes Minic 2020's 'metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach'.",
+   "verdict": "confirmed-in-part",
+   "note": "Correct in substance.\n- The passages exist: 1709.04388 §5 (2017-09-13) and 1801.00160 §5 (2017-12-30) say metastring or metaparticle quanta may model dark matter, without the dual-of-visible identification. So 'one priority, Minic 2020' holds for the identification but not for the metaparticle clause flag 64 quotes.\n- But the record is not unaware. review/literature-check/findings.json already lists 1709.04388 as 'Precursor (2017): the school first suggests that the non-local zero-mode excitations of the metastring (metaparticles, …) can serve as unusual dark-matter quanta for modified dark matter'. It lists 1601.00662 as 'the earliest pointer from the metastring school to dark matter (Jan 2016)'. The inconsistency is between those findings and the wording of the note and the flag.\n- 1801.00160 is in no record file.\n- On FLM 2019: Minic 2020 §7 also cites it alone ([10]) for dark matter 'represented by metaparticles'. Its first public date is 2019-10-10 (print) or 2019-10-15 (online); February 2018 is the date of the talk, so the reader's '2018–2019' should read October 2019 for the text. It is closed access and was not retrieved."
+  },
+  {
+   "record_says": "notes/literature-check.md §3 (plain-language passage): the school's sector 'is correlated with ours by construction, where the program's couples to ours by gravity alone'; 'What differs': 'Their dual sector is correlated with ours by construction'; wiki/summary.md line 34: 'their sector correlated with ours'.",
+   "verdict": "confirmed-in-part",
+   "note": "Correct that BHM 2023 §6.2–§6.3 treat the two sectors as independent to first order in the fundamental length, and that the mixing is invisible in EFT and vanishes as λ → 0 or L → ∞.\n- The record does say part of this: note §3 reports the round-1 verifier's finding that the 2021 paper calls the correlation 'invisible in effective field theory, vanishing as λ → 0 or L → ∞'. 'Which the record's wording does not say' is therefore too strong.\n- The school does not present the correlation as negligible: 'with a particular double scaling, this term can be finite!' and λ⁸/L¹⁰ 'should not be naively considered to be trans-Planckian' (BHM 2021 §4); 'the usual visible photon/dark photon coupling is subdominant to this term' (BHM 2021 §5, BHM 2023 §6.5); the mass gap 'may well be phenomenologically relevant — even for a minuscule numerical value' (BHM 2023 §6.5); and such a correlation 'has been observed in astronomical data' (BHM 2021 §4). 'Suppressed by powers of λ' is therefore the reader's characterization, not the school's.\n- The strongest support for the reader's direction is a passage the reader missed: HM 2024 §5.3, gravity-only coupling below a decoupling energy (next entry)."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'What their dual is': 'The identification matches C1 in their foundations; their model doubles phase space where the program polarizes one.'",
+   "verdict": "confirmed-in-part",
+   "note": "The §6.4 passage exists, one section before the §6.5 sentence the record cites, and no record file has it ('canonically conjugate like': no hits).\n- It is a heuristic: the authors argue it from the Bohr–Sommerfeld-like form of the λ² mixing term ('This reasoning goes beyond the rules of effective field theory') and say it is 'induced from the domain-space canonical commutation relation between x and {\\mathord{\\tilde{x}}}', a λ² relation (both FOUND, §6.4). It is a conjugacy of field values inside the doubled model, and the record's 'their model doubles phase space' stays true.\n- What changes is the overlap in wording: 'the dual particles are conjugate to the Standard Model particles' is closer to 'conjugate matter' than anything the record quotes.\n- A further qualification of 'matches C1 in their foundations': even in EMT 2021 §2.2, where x̃ ≡ p/b, the dual fields come from 'the dual momenta p and \\tilde{p} (to x and \\tilde{x} respectively)', i.e. from the doubled phase space."
+  },
+  {
+   "record_says": "notes/literature-check.md §3: 'Their dual sector is correlated with ours by construction' versus the program's coupling 'by gravity alone'; review/wiki-build-flags.md item 64: 'Their dual sector is correlated with ours; #11's couples by gravity alone under strict P4 (row 7)'; wiki/summary.md line 34: 'their sector correlated with ours'.",
+   "verdict": "confirmed",
+   "note": "Found by this verification, not by the reader.\n- HM 2024 (2407.06207, posted 2024-07-03, before P.R.'s September 2026 notebook), §5.3 'Neutrinos:': dark and visible matter 'mix via a Berry phase-like correlation term[103]. The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.' M_SM ≈ 4.5×10¹⁴ GeV is 'naturally identifiable with this dark-matter/visible-matter decoupling scale' (both FOUND). Recomputed from its Table 1 by scratch/r9-sweep-verify/bin/msm.py: 4.48×10¹⁴ GeV.\n- So one prior paper of the school states, for all energies below ~10¹⁴ GeV, a coupling by gravity alone, which matches the program's P4 at accessible energies.\n- The contrast 'correlated with ours … where the program's couples by gravity alone' holds against BHM 2021 and BHM 2023 (a correlated dual photon, a dual Z, accelerator events) but not against HM 2024. The school is not consistent on the point, and the summary's clause understates the overlap.\n- No record file has the passage ('decoupling energy', 'interact as required': no hits)."
+  }
+ ],
+ "missed": [
+  {
+   "paper_id": "2407.06207",
+   "quote": "The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.",
+   "where": "§5.3, 'Neutrinos:' paragraph, after eq. (5.22)",
+   "bears_on": [
+    "coupling",
+    "detection"
+   ],
+   "why_it_matters": "The school's own statement of gravity-only coupling. Below a decoupling energy that HM identify with M_SM ≈ 4.5×10¹⁴ GeV (4.48×10¹⁴ GeV from their Table 1, by code), dark and visible matter interact only gravitationally. It refutes the reader's Q4 'No paper says gravity only', which its family-(a) patterns missed, qualifies Q5, and weakens the record's contrast 'correlated with ours … where the program's couples by gravity alone'. Posted 2024-07-03, so prior art; in no record file.",
+   "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote": "Note that with a particular double scaling, this term can be finite!",
+   "where": "§4, immediately after eq. (19) and the 'vanishes as either λ → 0 or L → ∞' sentence",
+   "bears_on": [
+    "coupling"
+   ],
+   "why_it_matters": "Both the reader and the record quote the vanishing limit; the authors qualify it in the very next sentence.",
+   "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote": "However, the ratio \\frac{\\lambda^{8}}{L^{10}} should not be naively considered to be trans-Planckian",
+   "where": "§4, after eq. (19)",
+   "bears_on": [
+    "coupling"
+   ],
+   "why_it_matters": "The school warns against reading the mixing as negligible; the reader's record contradiction 4 calls the terms 'suppressed'. BHM 2023 §6.4 repeats it for λ₄²/L⁴.",
+   "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote": "Such a correlation between visible and dark matter involving an IR scale (in this case, the Hubble scale) has been observed in astronomical data and has been studied in the context of modified dark matter in [18].",
+   "where": "§4, after eq. (19)",
+   "bears_on": [
+    "coupling",
+    "detection"
+   ],
+   "why_it_matters": "The authors present the visible–dark correlation as already observed (the MDM acceleration scale), not as an unobservable sub-leading term.",
+   "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote": "Also, the usual visible photon/dark photon coupling is subdominant to this term that is inherent in our story.",
+   "where": "§5, after the dual-photon sentence",
+   "bears_on": [
+    "coupling",
+    "detection"
+   ],
+   "why_it_matters": "The school holds its non-gravitational correlation to dominate ordinary kinetic mixing, in contrast with #11 P4's ε ≲ 10⁻¹³. BHM 2023 §6.5 repeats it. It contradicts HM 2024 §5.3 (above).",
+   "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "may well be phenomenologically relevant — even for a minuscule numerical value of",
+   "where": "§6.5, after eq. (6.36) (the fermion–dual-fermion mass gap 2δm)",
+   "bears_on": [
+    "coupling"
+   ],
+   "why_it_matters": "A further counterweight to 'suppressed': the authors say the mass gap can be visible even when the mixing is tiny.",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote": "The dual momenta p and \\tilde{p} (to x and \\tilde{x} respectively) lead, via the canonical minimal-coupling prescription, not only to the usual fields \\phi but also to their duals \\tilde{\\phi} (see below).",
+   "where": "§2.2, the section that defines x̃ ≡ p/b",
+   "bears_on": [
+    "what-dual-is",
+    "field-content"
+   ],
+   "why_it_matters": "Even in the 'foundations' presentation, where x̃ is rescaled momentum at ℏ, the dual (dark) fields come from p̃, the momentum conjugate to x̃: the doubled phase space. This narrows the record's 'The identification matches C1 in their foundations'.",
+   "quote_check": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)"
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote": "Thus we have “dark matter” fields, \\tilde{\\phi}(x) , in the effective classical spacetime x description (after integrating over the dual spacetime \\tilde{x} ).",
+   "where": "§3.3, after 'If we turn on backgrounds' p → p+φ, p̃ → p̃+φ̃",
+   "bears_on": [
+    "what-dual-is",
+    "identification"
+   ],
+   "why_it_matters": "HM 2024 makes the same move: the dark fields are background shifts of the metaparticle's dual momentum p̃, after the λ²-conjugate x̃ is integrated out, not the x̃ ≡ p/ε of the same section.",
+   "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote": "It should be clear though that there is nothing special about the x^{\\mu} ; we could have taken any linear subspace, such as \\tilde{x},p .",
+   "where": "§2 (The Metaparticle Defined), after eq. (9)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "In the founding metaparticle paper, spacetime is a choice of Lagrangian subspace and any other would do: the other polarization is equally lawful, as in #11 P5.",
+   "quote_check": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)"
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote": "the space-time on which the metaparticle propagates is ambiguous, with different choices related by what in string theory we would call T-duality",
+   "where": "§2.4, after eq. (2.49)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "No selection mechanism; the alternative spacetimes are equivalent under T-duality.",
+   "quote_check": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "We stress that there are really two ways in which we can extend the cell[245]: either we extensify modular space along the space directions or the dual space directions.",
+   "where": "§4.3 (extensification)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "Classical space emerges by extensifying along the space directions, and the school names the dual directions as the other option. The choice is posed, not explained (Q9).",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "In other words the dual Lorentz action is not a canonical transformation.",
+   "where": "after eq. (12)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "FKLM's own reason the dual symmetry is broken: it does not preserve the λ² bracket. This is a breaking by the symplectic structure, and it weighs against the reader's reading of the vacuum-sector breaking as 'spontaneous in substance'.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "the expansion of the Universe gives rise to a preferred frame and the infrared Lorentz violation appears only for an old Universe, as the symmetry is restored as one goes back in time",
+   "where": "after eq. (17)",
+   "bears_on": [
+    "polarization-selection",
+    "dynamics"
+   ],
+   "why_it_matters": "The expansion mechanism selects a frame only at late times, in the cosmological frame; earlier the symmetry is restored. Bears on Q9 and on the record's 'no such mechanism'.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "We see that although p,\\tilde{p} might resemble a doubling of momentum space, the propagator contains a simple pole along with a \\delta -function constraint.",
+   "where": "after eq. (8)",
+   "bears_on": [
+    "what-dual-is"
+   ],
+   "why_it_matters": "FKLM caution that (p, p̃) only resembles a doubled momentum space. This bears on how far the record's 'their model doubles phase space' goes.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "We now make use of the fact that the metaparticle couples to the extended metric (3)",
+   "where": "before eq. (15)",
+   "bears_on": [
+    "gravity"
+   ],
+   "why_it_matters": "FKLM's candidates gravitate through the extended Born metric (g on x, g⁻¹ on x̃), which is why the dual momenta redshift oppositely (eq. 16). Qualifies Q6's 'gravitates on the observed metric'.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "Note also that our G_{N} could vary by varying the volume of the dual spacetime.",
+   "where": "§6.2",
+   "bears_on": [
+    "gravity"
+   ],
+   "why_it_matters": "G_N is tied to the dual-space volume and may vary with it; an addition to Q6.",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote": "dark matter correlated to visible matter and dark energy [12] and represented by metaparticles [10]",
+   "where": "§7 (Conclusion); [10] = Freidel, Leigh, Minic, Int. J. Mod. Phys. A 34 (2019) 1941004",
+   "bears_on": [
+    "priority",
+    "identification"
+   ],
+   "why_it_matters": "Minic 2020 cites the unread, non-arXiv FLM 2019 paper alone for dark matter represented by metaparticles. With BHM 2023 §4.3's [254], it is the second single citation of that paper in a dark-matter context (Q11, flag 64).",
+   "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote": "The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector, which is correlated to the visible sector via the dark energy sector, as discussed in [18].",
+   "where": "§3, after eq. (8)",
+   "bears_on": [
+    "identification"
+   ],
+   "why_it_matters": "The record's second anchor paper repeats Minic 2020 §6.2's sentence verbatim, so in BHM 2021 too the identification is called a 'proposal'. Its 'correlated' runs 'via the dark energy sector' (MDM, [18]), not through an interaction term.",
+   "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "This reasoning goes beyond the rules of effective field theory.",
+   "where": "§6.4, between 'First the fields and their duals are “canonically conjugate” like q and p' and 'the dual particles are conjugate to the Standard Model particles'",
+   "bears_on": [
+    "what-dual-is"
+   ],
+   "why_it_matters": "Marks the field-space conjugacy (the reader's contradiction 5) as a heuristic argued from the Bohr–Sommerfeld-like form of the mixing term. The same paragraph says it is 'induced from the domain-space canonical commutation relation between x and x̃', a λ² relation (code-checked: FOUND).",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote": "Being simply laced, E_{8}^{\\vee}\\approx E_{8} , and they are physically indistinguishable.",
+   "where": "'Born Heterosis:' item 2, after 'the electro-magnetic dual [19, 20]!'",
+   "bears_on": [
+    "monopoles"
+   ],
+   "why_it_matters": "The 'electro-magnetic dual' of the record's C4 reading is a pairing of two gauge groups that the authors call physically indistinguishable; nothing magnetically charged is involved.",
+   "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote": "which halves the spacetime akin to the quantum-mechanical restriction of the classical phase space, (p,q) , in the coordinate or momentum representation",
+   "where": "'Introduction:' paragraph (the section condition)",
+   "bears_on": [
+    "polarization-selection",
+    "what-dual-is"
+   ],
+   "why_it_matters": "The school likens choosing half of the λ²-doubled space to choosing the coordinate or momentum representation of (p, q), 'or indeed any other' polarization: the program's language, applied to the doubled space.",
+   "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+  },
+  {
+   "paper_id": "2307.16712",
+   "quote": "The indeterminacies \\delta p and \\delta\\tilde{p} thereby being interchangeable provides the first substitution in the chain",
+   "where": "§2.4, the 'more elementary' argument for modular spacetime",
+   "bears_on": [
+    "what-dual-is"
+   ],
+   "why_it_matters": "Here the dual coordinate q̃ is introduced through the dual momentum p̃, and its l_P² conjugacy to q comes from combining quantum indeterminacy with the Schwarzschild radius. The 'dual' is a gravitationally motivated doubled coordinate, not the momentum at ℏ.",
+   "quote_check": "FOUND: 2307.16712 — searched full text (https://arxiv.org/html/2307.16712)"
+  }
+ ],
+ "retried": [
+  "FLM 2019: Freidel, Leigh and Minic, 'Manifest non-locality in quantum mechanics, quantum field theory and quantum gravity', Int. J. Mod. Phys. A 34 (2019) 1941004 (INSPIRE recid 1760046; DOI 10.1142/S0217751X19410045; also the book chapter DOI 10.1142/9789811213144_0004, Proceedings of the Julian Schwinger Centennial Conference (JS100), Singapore, 7–12 February 2018). This is the reader's lead; it was not read. Not retrieved on the second attempt either. Unpaywall and OpenAlex report both DOIs closed ('oa_status': 'closed', no repository copy, any_repository_has_fulltext false). The World Scientific article page returned HTTP 403 to WebFetch, the Semantic Scholar API answered 429 twice, and a web search found no copy. First public date: published 2019-10-10 (print) and 2019-10-15 (online) per Crossref, i.e. before Minic 2020 (2020-02-29). The INSPIRE and Crossref abstract mentions 'the new concept of metaparticles inherent to such an effective non-commutative description in terms of bi-local quantum fields', not dark matter. It is cited alone in a dark-matter context twice, by Minic 2020 §7 ([10]) and BHM 2023 §4.3 ([254], with Minic 2020). Its full text is still the one source that could move the identification's priority before February 2020.",
+  "Side find, outside the 41 papers: Freidel, Leigh and Minic, 'Modular Spacetime and Metastring Theory', J. Phys. Conf. Ser. 804 (2017) 012032 (ISQS conference; not on arXiv; CC-BY gold open access per Unpaywall; online 2017-04-03 per Crossref). curl on IOP's PDF URL returned a Radware bot-check page, which was not bypassed. WebFetch, the route the brief allows, then received the PDF normally; it was read with pypdf (scratch/r9-sweep-verify/dl/jpcs804/flm2017_jpcs.txt, 21 pages). Its only dark-matter mention: 'Finally, we think that there are implications of the metastring for the problems of dark matter and the origin of the standard model of particle physics or the physics of the early universe.' This is a pointer by the three FLM authors with no identification, so it changes no priority. It does qualify the record's findings.json remark (for 2104.00802) that the FLM 'core papers of 2013–2019 never mention dark matter', if this conference review counts as a core paper."
+ ],
+ "overall": "The reader's output can be relied on for its quotations: all 163 were found verbatim, and the 41 first-posted dates and the sweep counts reproduce under independent code. Most readings also hold; 11 need corrections and one is refuted (a misidentified reference). The serious gap is a missed passage. HM 2024 §5.3 states that below a decoupling energy of about 4.5×10¹⁴ GeV the school's dark and visible matter interact 'only gravitationally'; this refutes the reader's 'no paper says gravity only' and weakens the summary's contrast between 'correlated with ours' and gravity alone. The reader's record contradictions are right in substance, but several are overstated: the record's findings.json already holds the 2016–2017 precursors and the a·ã analogy, and the school does not treat its correlation as negligible."
+}

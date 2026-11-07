@@ -29,6 +29,8 @@ sources:
   - "review/round4/referee/audit-notes.md 'Step 3'"
   - "verify/toy_coset.py S3"
   - "verify/toy_gw.py"
+  - "notes/dual-sector.md §8"
+  - "review/wiki-build-flags.md item 70"
 ---
 
 *An order parameter is the quantity that tells a broken-symmetry state from a symmetric one, as a magnet's magnetization does: it is zero while the symmetry is intact, and once the symmetry is broken it takes a definite value that the symmetry would change. In the Comatter program that role belongs to the neutral metric η, the structure on phase space that marks which directions count as position and which as momentum. Born reciprocity reverses the sign of η, so a vacuum that carries a definite η is not reciprocity-symmetric, and its mirror image carries −η. The program has written this order parameter in three notations over its history, using J, η and K, and the documents do not agree on which of J and K to call "the real structure". An early description of the breaking as a discrete pattern has been replaced by the Goldstone-angle picture.*
@@ -67,7 +69,7 @@ The current postulate makes η the order parameter [P]:
 
 > **P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter, η = HJ, with the real structure J chosen spontaneously. (#11 §4)
 
-#11 adds that the correction from [the original P2](/wiki/program/postulates/original-p2), which had fixed η too, is "forced: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity), SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter); [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). On credit: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." (#11 §4; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)). The lab notebook's v0.3 addendum, which recorded the change in the axiom list, puts it as "η is emergent — the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1). See [P2′](/wiki/program/postulates/p2-prime).
+#11 adds that the correction from [the original P2](/wiki/program/postulates/original-p2), which had fixed η too, is "forced: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity), SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter); [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). On credit: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." (#11 §4; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)). The structure η = HJ itself is in the same authors' papers from 2013, where both elements (η, J) "of the chiral structure are dynamical" ([Freidel, Leigh and Minic 2014, Phys. Lett. B](https://arxiv.org/abs/1307.7080), posted in 2013), though not as an order parameter (`notes/dual-sector.md` §8; flag 70, pending). The lab notebook's v0.3 addendum, which recorded the change in the axiom list, puts it as "η is emergent — the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1). See [P2′](/wiki/program/postulates/p2-prime).
 
 [The field-equation note](/wiki/history/documents/field-equation-notes) gives the construction step by step: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ." (#5 §B). It also gives the reason for the assignment: "η is the structure that says which directions are position — of course that is what the vacuum decides, not the background."
 
@@ -86,6 +88,8 @@ In the language of waves: the position line and the momentum line carry the two 
 ## The vacuum manifold of the order parameter
 
 The values the order parameter can take form a [manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t). Under P2′, "The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian — π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B). [The Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) is the space of all Lagrangian subspaces of phase space, all possible choices of position. It is compact, of dimension d(d+1)/2, which is 10 for d = 4 (#1 §2 [T]). Its non-contractible loop, the Maslov circle, carries the program's [dark-energy](/wiki/cosmology/dark-energy) field τ ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)).
+
+The same space appears in the literature as the space of choices of η, with no potential on it: in [Freidel, Leigh and Minic 2016](https://arxiv.org/abs/1606.01829) (§2), U(d)/O(d) "represents the choice of inequivalent lifts" η "that preserve the symplectic structure and the vacuum state" (`notes/dual-sector.md` §8; flag 70, pending).
 
 In the toy models, with d = 1, the space is a circle. The coset model's vacua at H = 1 are
 
@@ -161,3 +165,4 @@ In #11 §5's algebra both J and K square to +1, so each is a real structure in t
 - `review/round4/referee/audit-notes.md` Step 3 — ρ and K → −K act identically on the circle; the residual {±1, ±ρ} and its Ising-type breaking; Step 2(c) — the residual symmetry found with sympy, and order without a universality class; Step 2(a), F3 — "a labelling choice"
 - `review/round4-adjudication.md` 'Revisions' 1 — "ordered Z₂ phase", not "Ising class"
 - `verify/toy_coset.py` — the S3 check of O = K₁₁; `verify/toy_gw.py` — Δ(β) = Δ(0) cos β
+- `notes/dual-sector.md` §8; `review/wiki-build-flags.md` item 70 — η = HJ in Freidel, Leigh and Minic from 2013, and U(d)/O(d) named in 2016 as the space of choices of η, with no potential or order parameter; pending

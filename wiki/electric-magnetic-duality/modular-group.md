@@ -176,7 +176,7 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 - A. Sen (1994) † — evidence for the SL(2, ℤ) duality of N = 4 super Yang–Mills theory from bound states of monopoles.
 - C. M. Hull and P. K. Townsend (1995) † — U-duality.
 
-As the documents cite them: C. Montonen and D. Olive (1977) and N. Seiberg (1995), #11 [18]†; J. A. Harvey, hep-th/9603086, #14 [8], quoted through the round-3 audit; A. Betz, R. Blumenhagen, D. Lüst and F. Rennecke (2014), arXiv:1402.1686, the toy-model note's [12], live-searched in the worklog.
+As the documents cite them: C. Montonen and D. Olive (1977) and N. Seiberg (1995), #11 [18]†; J. A. Harvey, [hep-th/9603086](https://arxiv.org/abs/hep-th/9603086), #14 [8], quoted through the round-3 audit; A. Betz, R. Blumenhagen, D. Lüst and F. Rennecke (2014), [arXiv:1402.1686](https://arxiv.org/abs/1402.1686), the toy-model note's [12], live-searched in the worklog.
 
 ## Used by
 

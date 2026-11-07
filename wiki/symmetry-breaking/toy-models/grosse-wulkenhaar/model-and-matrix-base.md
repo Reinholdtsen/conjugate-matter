@@ -61,7 +61,7 @@ An anchor is a check against something independent of the claim being checked: a
 **In the gate [V].** The section "Anchors: the explicit matrix base" of `verify/toy_gw.py` checks:
 
 - "H * f_mn = theta (m+1/2) f_mn for m, n <= 2 (exact)" and the same from the right, computed symbolically with the exact star product of H (for a quadratic function the series stops at second order; see [the star product](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory#the-star-product));
-- "f_00 = 2 exp(-x^2/theta) as in 0709.3950 (A.2)", the literature value;
+- "f_00 = 2 exp(-x^2/theta) as in [0709.3950](https://arxiv.org/abs/0709.3950) (A.2)", the literature value;
 - orthogonality on a numerical grid, "int conj(f_kl) f_mn = 2 pi theta delta delta", with "max dev 4.6e-14", and "int f_mn = 2 pi theta delta_mn".
 
 The two grid checks assert deviations below 1e-8.
@@ -110,7 +110,7 @@ The duality is taken from Grosse and Wulkenhaar's eq. 1, adapted to two dimensio
 
 ## Where the inputs come from
 
-The worklog records the sources of every input: "Inputs come from the sources: the matrix base from de Goursac–Tanasa–Wallet App. A; the duality from Grosse–Wulkenhaar hep-th/0402093 eq. 1" ('Chunk 2 results'); the script's docstring says "Inputs taken from the sources, not from memory". The rule followed from chunk 1, where conventions recalled from memory could not be reconciled with Grosse and Wulkenhaar's stated invariance: "So a recalled convention is wrong somewhere." ('Chunk 1 results'). The episode is told on [the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma#how-the-result-was-found).
+The worklog records the sources of every input: "Inputs come from the sources: the matrix base from de Goursac–Tanasa–Wallet App. A; the duality from Grosse–Wulkenhaar [hep-th/0402093](https://arxiv.org/abs/hep-th/0402093) eq. 1" ('Chunk 2 results'); the script's docstring says "Inputs taken from the sources, not from memory". The rule followed from chunk 1, where conventions recalled from memory could not be reconciled with Grosse and Wulkenhaar's stated invariance: "So a recalled convention is wrong somewhere." ('Chunk 1 results'). The episode is told on [the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma#how-the-result-was-found).
 
 ## What is built on it
 

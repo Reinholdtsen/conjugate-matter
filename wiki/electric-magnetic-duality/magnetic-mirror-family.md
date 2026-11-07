@@ -114,7 +114,7 @@ The supposition's fate includes a second element, which is open: the family's pl
 As #11 cites them, all from model memory (†):
 
 - [17]† P. A. M. Dirac, Proc. R. Soc. Lond. A 133, 60 (1931); J. Schwinger, Phys. Rev. 144, 1087 (1966); D. Zwanziger, Phys. Rev. 176, 1489 (1968).
-- [18]† C. Montonen, D. Olive, "Magnetic monopoles as gauge particles?" Phys. Lett. B 72, 117 (1977); N. Seiberg, "Electric–magnetic duality in supersymmetric non-abelian gauge theories," Nucl. Phys. B 435, 129 (1995), hep-th/9411149.
+- [18]† C. Montonen, D. Olive, "Magnetic monopoles as gauge particles?" Phys. Lett. B 72, 117 (1977); N. Seiberg, "Electric–magnetic duality in supersymmetric non-abelian gauge theories," Nucl. Phys. B 435, 129 (1995), [hep-th/9411149](https://arxiv.org/abs/hep-th/9411149).
 - 't Hooft–Mandelstam†, named in §11.2 with no entry in the reference list.
 
 ## Used by

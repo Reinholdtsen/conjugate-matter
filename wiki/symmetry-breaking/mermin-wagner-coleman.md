@@ -122,7 +122,7 @@ The toy-model note's references, as it gives them; the note marks none, and the 
 
 - [13] N. D. Mermin, H. Wagner, Phys. Rev. Lett. 17, 1133 (1966).
 - [14] S. Coleman, "There are no Goldstone bosons in two dimensions," Commun. Math. Phys. 31, 259 (1973).
-- [15] M. Niedermaier, E. Seiler, Ann. Henri Poincaré 6, 1025 (2005), hep-th/0312293; A. Duncan, M. Niedermaier, E. Seiler, "Vacuum orbit and spontaneous symmetry breaking in hyperbolic sigma models," Nucl. Phys. B 720, 235 (2005), erratum Nucl. Phys. B 758, 330 (2006), hep-th/0405163. Round 4 corrected the first author's initial to A. Duncan and added the erratum.
+- [15] M. Niedermaier, E. Seiler, Ann. Henri Poincaré 6, 1025 (2005), [hep-th/0312293](https://arxiv.org/abs/hep-th/0312293); A. Duncan, M. Niedermaier, E. Seiler, "Vacuum orbit and spontaneous symmetry breaking in hyperbolic sigma models," Nucl. Phys. B 720, 235 (2005), erratum Nucl. Phys. B 758, 330 (2006), [hep-th/0405163](https://arxiv.org/abs/hep-th/0405163). Round 4 corrected the first author's initial to A. Duncan and added the erratum.
 - [17] J. V. José, L. P. Kadanoff, S. Kirkpatrick, D. R. Nelson, "Renormalization, vortices, and symmetry-breaking perturbations in the two-dimensional planar model," Phys. Rev. B 16, 1217 (1977), cited as background only.
 
 Added by the wiki from model memory (†):

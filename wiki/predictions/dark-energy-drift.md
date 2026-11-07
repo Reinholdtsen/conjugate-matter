@@ -29,6 +29,8 @@ sources:
   - "review/closed-universe/analyses/observations.json C21"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
 ---
 
 *Row 4 is the program's prediction for how dark energy, the cause of the accelerating cosmic expansion, changes over time. The program identifies dark energy with [τ](/wiki/cosmology/dark-energy/tau-quintessence), the angle that locates the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) on a circle; τ has a periodic potential and starts near its maximum, a setup called hilltop [quintessence](/wiki/cosmology/dark-energy/quintessence). Such a field makes dark energy weaken slowly ("[thaw](/wiki/cosmology/dark-energy/thawing-and-freezing)") and keeps its [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, its pressure divided by its energy density, at or above −1, the value of a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant), so it can never enter the "[phantom](/wiki/cosmology/dark-energy/phantom-divide)" regime w < −1. The test is the [Dark Energy Spectroscopic Instrument (DESI)](/wiki/cosmology/dark-energy/desi). Its Data Release 3 (DR3), dated "late 2026" by the handoff and unverified, is the decisive one. Its Data Release 2 (DR2) already favours a phantom phase in the past, so the sector is under real pressure. Row 4 is one of the three rows [the checkpoint](/wiki/history/documents/checkpoint) names as the program's near-term falsification exposure.*
@@ -114,19 +116,23 @@ DESI's second data release reports, in #11's quotation (§10, from [21S]), that 
 
 > "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4"
 
-and that this preference "is thus rather independent of parametrization choices made in the analysis". [21S] is DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025).
+and that this preference "is thus rather independent of parametrization choices made in the analysis". [21S] is DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," [arXiv:2503.14738](https://arxiv.org/abs/2503.14738) (2025).
 
 The favoured curve contains both behaviours the row distinguishes. Its low-redshift phase, w above −1 and weakening dark energy, is what the row requires. Its phase above z ≃ 0.4, w below −1, is what the row excludes. #11 §10, in the paragraph "Under pressure (v2.1)":
 
 > "The framework's strict w ≥ −1 therefore stands against the direct reading of the data. It survives on two points: non-phantom quintessence fits remain compatible [19S], and w(z) is inferred from distances rather than observed, as [21S] also notes. DR3 is the decisive test (§13, row 4)."
 
-The first point rests on fits without a phantom phase, "non-phantom compatible at ~2σ" (#11 §10), citing Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542 [19S]. The second is the distinction the kill condition already draws between a fitted and an intrinsic w < −1. In this wiki's reading, both points concern whether the data meet the kill condition; neither is evidence for the bound.
+The first point rests on fits without a phantom phase, "non-phantom compatible at ~2σ" (#11 §10), citing Gialamas et al., "Quintessence and phantoms in light of DESI 2025," [arXiv:2506.21542](https://arxiv.org/abs/2506.21542) [19S]. The second is the distinction the kill condition already draws between a fitted and an intrinsic w < −1. In this wiki's reading, both points concern whether the data meet the kill condition; neither is evidence for the bound.
 
 The finding reached the program through the [round-3](/wiki/method/review/round-3) review, which accepted it as ruling 11 ([round-3 rulings](/wiki/method/review/round-3/rulings)), and #11 states it in the "Under pressure" paragraph of §10 and the DR2 clause of this row. #11 §15 lists "DESI DR2's phantom crossing against §10's strict w ≥ −1" among the program's degeneration risks. The root `CLAUDE.md`, which ranks first among the sources, states the position: "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3."
 
 Flag 43 in `review/wiki-build-flags.md` bears, in the flags file's words, "on how row 4's pressure is stated, not on whether it exists". In CPL terms DR2's fits have w₀ > −1 and w₀ + wₐ < −1, and so does every point of the corridor quoted above; in the flag's audit, fields with τ's potential that never fall below −1 also gave fits in that region under every fitting convention tried. In the flag's account, what separates the corridor from DR2's fits is the slope, which sets where the line crosses −1: at z = 2 for every point of the corridor, at z ≈ 0.35–0.50 for DR2's fits. The flag concludes that the pressure stands: "It rests on the crossing redshift (DR2 calls the preference 'rather independent of parametrization choices'), not on the quadrant", the region of the plane both share. Its audit confirmed it by two independent checks ([the corridor and DR2's crossing](/wiki/cosmology/dark-energy/cpl-parametrization#the-corridor-and-dr2s-crossing)).
 
 The full record, including an italic passage of #11 §10 that still reads DESI's hints as "exactly the required drift" and is unreconciled with the paragraph above, is on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing#an-unreconciled-sentence-in-11-10).
+
+## In the literature
+
+In the Born-geometry literature, dark energy from a dual spacetime is published with either sign of 1 + w. [Hur, Jejjala, Kavic, Minic and Takeuchi 2025](https://arxiv.org/abs/2503.20854) find, under the group's earlier ultraviolet–infrared relation, "Clearly, w(a)<-1 for all a as anticipated", w(a) being w as a function of the scale factor, and "this model is clearly disfavored" by DESI's second data release (the paper's §3.3); under an alternative relation, w(a) ≥ −1 in all cases (its §3.4). The sign follows from an assumed relation, so the paper makes no fixed prediction on this row (`notes/dual-sector.md` §9; flag 72, pending; [further overlaps with the program](/wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program)).
 
 ## What the row does not depend on
 
@@ -162,4 +168,5 @@ The row moved from 5 to 4 when the two clumping rows were withdrawn after [the c
 - `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn, with its addendum on the closed turnaround; item 46 — the over-constraint moved to Ω_k; item 52 — the wedge sector's guarantee and the omitted G_eff step; item 6 — the vacuum-energy identity's dependence on the flatness condition; item 43 — the corridor in the region of DR2's fits, the slope that separates them, and the crossing redshift on which the pressure rests
 - `notes/closed-universe.md` §2 — the closed turnaround and t_turn's dependence on Ω_k; §6 — the bimetric branch relation and G_eff = 2G_N
 - `review/closed-universe/analyses/observations.json` — claim C21 and the open list: no DR3 cosmology result on arXiv as of 2026-10-27, and DR3's release date unverified
+- `notes/dual-sector.md` §9; `review/wiki-build-flags.md` item 72 — Hur et al. 2025's two models of dark energy from a dual spacetime, with both signs of 1 + w, and no fixed prediction on this row
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field' and `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — "three doors" and the popsci-only "constant is impossible"; not status sources

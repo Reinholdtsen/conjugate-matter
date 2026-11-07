@@ -166,8 +166,8 @@ Through the potential, τ and the Stückelberg fields can still mix. Calc note #
 Added by the wiki from model memory (†); the program's documents cite none of them.
 
 - E. C. G. Stueckelberg (1938)†: the scalar field that restores the gauge symmetry of a massive vector field.
-- N. Arkani-Hamed, H. Georgi, M. D. Schwartz, "Effective field theory for massive gravitons and gravity in theory space," Annals of Physics 305, 96 (2003), hep-th/0210184†: Stückelberg fields for massive gravity, the four scalars, and the high-energy behaviour of the helicity-0 mode.
-- K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. 84, 671 (2012), arXiv:1105.3735†: a review, including the Stückelberg form of the Fierz–Pauli theory and its helicity decomposition.
+- N. Arkani-Hamed, H. Georgi, M. D. Schwartz, "Effective field theory for massive gravitons and gravity in theory space," Annals of Physics 305, 96 (2003), [hep-th/0210184](https://arxiv.org/abs/hep-th/0210184)†: Stückelberg fields for massive gravity, the four scalars, and the high-energy behaviour of the helicity-0 mode.
+- K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. 84, 671 (2012), [arXiv:1105.3735](https://arxiv.org/abs/1105.3735)†: a review, including the Stückelberg form of the Fierz–Pauli theory and its helicity decomposition.
 - H. van Dam, M. Veltman, Nucl. Phys. B (1970)†; V. I. Zakharov, JETP Lett. (1970)†: the discontinuity of massive spin-2 exchange.
 - C. de Rham, G. Gabadadze (2010)†: the potential built in the limit that isolates the helicity-0 mode.
 

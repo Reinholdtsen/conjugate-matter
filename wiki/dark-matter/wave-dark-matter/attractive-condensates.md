@@ -68,7 +68,7 @@ No `verify/` script covers any number on this page; of the clumping numbers, the
 
 ## References
 
-- The checkpoint's [14]†: P.-H. Chavanis, "Mass–radius relation of self-gravitating Bose–Einstein condensates with attractive self-interaction," Phys. Rev. D 84, 043531 (2011), arXiv:1103.2050.
+- The checkpoint's [14]†: P.-H. Chavanis, "Mass–radius relation of self-gravitating Bose–Einstein condensates with attractive self-interaction," Phys. Rev. D 84, 043531 (2011), [arXiv:1103.2050](https://arxiv.org/abs/1103.2050).
 - The checkpoint's [13]† includes D. G. Levkov, A. G. Panin, I. I. Tkachev, "Relativistic axions from collapsing Bose stars," Phys. Rev. Lett. 118, 011301 (2017).
 
 Added by the wiki from model memory (†):

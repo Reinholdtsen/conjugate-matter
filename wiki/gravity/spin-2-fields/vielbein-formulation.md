@@ -76,7 +76,7 @@ Hinterbichler and Rosen built interacting spin-2 theories from such wedge produc
 
 The checkpoint's entry for the work (#11, reference list):
 
-- [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), arXiv:1203.5783.
+- [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), [arXiv:1203.5783](https://arxiv.org/abs/1203.5783).
 
 Calc note #7 cites the construction as [T] and #8 names it, neither with a reference entry; #11 supplies the entry and marks it †, cited from model memory. Checking every † reference against its source is open problem 10 of #11 §14, [the † literature battery (OP10)](/wiki/method/literature-battery).
 
@@ -109,7 +109,7 @@ A pass did not yet fix the potential's coefficients: "What a pass does **not** y
 
 ## Standard references
 
-- [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), arXiv:1203.5783 — cited by #11.
+- [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), [arXiv:1203.5783](https://arxiv.org/abs/1203.5783) — cited by #11.
 - C. W. Misner, K. S. Thorne, J. A. Wheeler, *Gravitation* (1973)†: orthonormal frames (tetrads) in general relativity. Added by the wiki from model memory.
 
 ## Used by

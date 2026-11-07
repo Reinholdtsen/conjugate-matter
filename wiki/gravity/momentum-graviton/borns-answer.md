@@ -30,6 +30,8 @@ sources:
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
   - "review/wiki-build-flags.md item 55"
   - "notes/gate-mechanism.md §2"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
 ---
 
 *Born's answer is the program's summary of what its gravity results say about the question Max Born raised in 1938, which [calc note #8](/wiki/history/documents/field-equation-notes) states as "what is the dynamics of momentum-space geometry?" ([Born's question](/wiki/program/borns-question)). In [general relativity](/wiki/gravity/spin-2-fields/general-relativity) the space of momenta at each point is flat. The program's answer is that momentum-space geometry is dynamical: it is carried by [X = Re Z](/wiki/gravity/momentum-graviton), a massive spin-2 field that changes sign under [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), with two free parameters and no vacuum energy from its interaction potential. Conjugate matter couples to X through the [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), while ordinary matter feels it only at gravitational strength and over a short range, which the program gives as the reason no second metric has been observed. The answer assembles derived results and stands as a structural statement: [checkpoint #11](/wiki/history/documents/checkpoint) §15 holds back the word "theory" until [open problems](/wiki/status/open-problems) 1–3 are settled, and [the founding supposition](/wiki/program/founding-suppositions) that momentum space has its own gravity is recorded as "vindicated, transformed".*
@@ -107,6 +109,8 @@ The answer and its standing were stated more strongly before #11, in three respe
 
 The tenth of the founding suppositions audited in #11 Appendix A, P.R.'s original intuitions, reads: "Momentum space has its own gravity — **vindicated, transformed**: dynamical, massive, reciprocity-odd (§7)." ([Founding suppositions and their fates](/wiki/program/founding-suppositions).)
 
+That momentum space curves as space-time does is stated in the [Born-geometry papers](/wiki/phase-space/reciprocity/broken-born-duality) on which the program builds: "not only will space-time become curved, but momentum space as well" ([Freidel, Leigh and Minic 2014](https://arxiv.org/abs/1307.7080), Phys. Lett. B [S]), an idea they trace to Born ([Freidel, Leigh and Minic 2015](https://arxiv.org/abs/1502.08005), §1 [S]). App. A item 10 does not cite them, and the program's form, a massive spin-2 field X odd under reciprocity, has no counterpart in their papers (`notes/dual-sector.md` §9; flag 72, pending; [the lineage of curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space#the-lineage-11-cites)).
+
 The popular article #12 tells the same story in its section "The second geometry, and why it has never been seen": "A massive field mediates only short-range effects, so the second geometry is invisible to every experiment performed to date — while the familiar graviton remains exactly massless, in agreement with gravitational-wave observations." #12 presents the framework as if confirmed and is not a source for its status ([the popular articles](/wiki/history/documents/popular-articles)). The masslessness of the ordinary graviton is tested by [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton).
 
 ## Sources
@@ -122,3 +126,4 @@ The popular article #12 tells the same story in its section "The second geometry
 - `HANDOFF.md` §3 — #8 "closes the field-equation problem (structural)"
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the popular account (not a status source)
 - `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — exchanging #11 §7's X cannot produce the gate; the proposed tags [P] for the gate and μ, [O] for the mechanism (pending)
+- `notes/dual-sector.md` §9 and `review/wiki-build-flags.md` item 72 — curved momentum space in Freidel, Leigh and Minic 2014 (Phys. Lett. B), traced by them to Born, uncited at App. A item 10; the program's form without a counterpart there; searched and verified by independent agents, not reviewed; the flag pending

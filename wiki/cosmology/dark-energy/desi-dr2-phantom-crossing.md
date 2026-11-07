@@ -37,7 +37,7 @@ and this preference
 
 > "is thus rather independent of parametrization choices made in the analysis" [21S].
 
-The paper is #11's reference [21][S]: DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025).
+The paper is #11's reference [21][S]: DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," [arXiv:2503.14738](https://arxiv.org/abs/2503.14738) (2025).
 
 Three terms in the quotation need a gloss.
 
@@ -53,7 +53,7 @@ The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessenc
 
 The two points are these.
 
-1. **Non-phantom fits remain compatible.** Fits of quintessence models that never cross −1 are still acceptable: #11 §10 gives the current state as "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ)" [19S, 20S, 21S], and cites the survival point to [19S], Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542.
+1. **Non-phantom fits remain compatible.** Fits of quintessence models that never cross −1 are still acceptable: #11 §10 gives the current state as "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ)" [19S, 20S, 21S], and cites the survival point to [19S], Gialamas et al., "Quintessence and phantoms in light of DESI 2025," [arXiv:2506.21542](https://arxiv.org/abs/2506.21542).
 2. **w(z) is inferred.** A fitted phantom phase can arise without any component that is intrinsically phantom ([the phantom divide](/wiki/cosmology/dark-energy/phantom-divide)). The program's kill condition counts only "robust intrinsic w < −1" (#11 §13 row 4), and the [lab notebook](/wiki/history/documents/lab-notebook) spelled out the distinction: w < −1 "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background" (#1 §7 item 1), ΛCDM being the standard model of a cosmological constant plus cold [dark matter](/wiki/dark-matter).
 
 In this wiki's reading, both points concern whether the data meet the kill condition; neither is evidence for the bound. The weakening at low redshift, "a phase of w > −1", is the behaviour the program requires; the phantom phase at higher redshift is the behaviour it excludes; and the favoured w(z) contains both.

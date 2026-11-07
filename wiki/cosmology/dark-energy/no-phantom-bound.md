@@ -22,6 +22,8 @@ sources:
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "notes/closed-universe.md §6"
   - "review/wiki-build-flags.md item 52"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
 ---
 
 *The no-phantom bound is the program's requirement that the dark-energy [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, its pressure divided by its energy density, never fall below −1, the value of a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant). It holds because the program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is an ordinary (canonical) scalar field, whose energy density can fall or hold steady as space expands but never rise, while w < −1, the phantom regime, would make it rise. The bound makes the dark-energy sector a sharp test: in the words of the program's predictions table a robust intrinsic w < −1 "kills outright", which the handoff reads as the whole framework. The second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI) favours a phase with w < −1 at [redshifts](/wiki/cosmology/scale-factor-duality/redshift) above about 0.4, so the bound stands against the direct reading of current data and is under real pressure; it survives only because fits without a phantom phase remain compatible and because w is inferred rather than observed.*
@@ -89,6 +91,10 @@ The fits without a phantom phase are "non-phantom compatible at ~2σ" (#11 §10)
 
 The bound is alive because the data do not yet meet the kill condition: the crossing is a preference of fitted models, not a robust measurement of an intrinsic w < −1. If DR3 confirms an intrinsic phantom phase, the bound fails and, by #11's row 4, the kill is outright. How the finding entered the program, and the italic passage of #11 §10 that still reads DESI's hints as "exactly the required drift", are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing).
 
+## In the literature
+
+In the Born-geometry literature, dark energy from a dual spacetime is published with both signs of 1 + w: [Hur, Jejjala, Kavic, Minic and Takeuchi 2025](https://arxiv.org/abs/2503.20854) publish two models. Under the group's earlier ultraviolet–infrared relation, "Clearly, w(a)<-1 for all a as anticipated", w(a) being w as a function of the scale factor, and "this model is clearly disfavored" by DESI's second data release (the paper's §3.3); under an alternative relation, w(a) ≥ −1 in all cases (its §3.4). The sign follows from an assumed relation, so the paper makes no fixed prediction on [row 4](/wiki/predictions/dark-energy-drift), the bound's test (`notes/dual-sector.md` §9; flag 72, pending; [further overlaps with the program](/wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program)).
+
 ## The popular gloss
 
 Both popular articles explain the bound through the sign of kinetic energy ([the popular articles](/wiki/history/documents/popular-articles)). #12: phantom behaviour "would require the orientation's kinetic energy to be negative, and kinetic energy is the square of a rate of change; a square of a real quantity cannot be negative" ('Dark energy as the orientation of the split'). #10: dark energy "can never strengthen past the constant line, because exceeding it would require negative kinetic energy, a square of a real number coming out below zero" ('The referee is already on the field'). These are explanations of step 2 above, not sources for the bound's status.
@@ -115,3 +121,4 @@ Both popular articles explain the bound through the sign of kinetic energy ([the
 - `notes/knot-dark-matter-standalone.md` §5 — exclusion condition 6 (withdrawn manuscript)
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split', `popsci/angle-of-the-mirror.md` 'The referee is already on the field' — the plain-language gloss (popular articles)
 - `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 52 — where the wedge sector's guarantee comes from
+- `notes/dual-sector.md` §9; `review/wiki-build-flags.md` item 72 — Hur et al. 2025's two models of dark energy from a dual spacetime, with both signs of 1 + w, and no fixed prediction on row 4

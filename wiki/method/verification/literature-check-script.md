@@ -14,12 +14,14 @@ sources:
   - "review/literature-check/README.md"
   - "review/literature-check/checks/c5_dictionary_check.py"
   - "review/wiki-build-flags.md items 64–69"
+  - "review/wiki-build-flags.md item 64 (addendum)"
+  - "review/wiki-build-flags.md 'Found by the dual-sector investigation (2026-11-06)'"
   - "scripts/check.sh"
 ---
 
 *The literature-check script, `verify/literature_check.py`, checks [the note on the literature check](/wiki/method/literature-check) of P.R.'s conjectures against the record that the check left in `review/literature-check/`. The check's results are judgments by agents of how close a published paper comes to a conjecture, and no script can recompute a judgment. What the script can do is confirm that the note reports the record faithfully: that each verdict follows from the stored findings by the rule fixed in advance, that the counts it holds are right, that each quotation is found again in its source, and that each citation matches the bibliographic record of the paper it names. Its section G is a calculation instead: the algebra behind flag 66, which finds the program's [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) to be, as a map of fluid variables, the scale-factor duality of string cosmology with sources.*
 
-**Status:** Method, in force — eleventh and last in the list of scripts that [the gate](/wiki/method/verification/the-gate), `scripts/check.sh`, runs. It runs offline against the stored record; `--online` also fetches every source again. The run recorded below printed 534 lines marked `PASS` and none marked `FAIL`, and ended "OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.".
+**Status:** Method, in force — eleventh of the twelve scripts that [the gate](/wiki/method/verification/the-gate), `scripts/check.sh`, runs, before [the dual-sector script](/wiki/method/verification/dual-sector-script). It runs offline against the stored record; `--online` also fetches every source again. The run recorded below printed 543 lines marked `PASS` and none marked `FAIL`, and ended "OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.".
 
 ## What it checks
 
@@ -28,7 +30,7 @@ sources:
 - **C. Quotations.** Every passage of three or more words in double quotes in the note's body must be found again, either in a document of the repository or among the quotations taken from the literature. Each of those must appear in the note and in its source: the stored abstract (INSPIRE and arXiv release their metadata into the public domain) or, for a quotation from a full text, the excerpt stored when code found it.
 - **D. Citations.** Every reference with an identifier must match its metadata snapshot from INSPIRE, arXiv, Crossref or OpenAlex: each author's surname and the number of authors, the title, the year, and the volume and page.
 - **E. The pre-registration.** The verdicts predicted before the search agents were launched are scored against the recomputed ones: four of seven.
-- **F. The flags.** Every quotation in flags 64–69 of `review/wiki-build-flags.md` must be found again in a repository document or among the note's quotations from the literature.
+- **F. The flags.** Every quotation in flags 64–69 of `review/wiki-build-flags.md`, flag 64's addendum among them, must be found again in a repository document or among the note's quotations from the literature. The script reads the flags file from the heading of these flags to the heading of the dual-sector investigation's flags, and one check fails if that heading is missing, another if the span does not hold exactly flags 64–69. Flags 70–73 lie outside the span: [the dual-sector script](/wiki/method/verification/dual-sector-script) checks their quotations, and those of flag 64's addendum as well.
 - **G. The algebra behind flag 66.** The checks that the panel judge for conjugate collapse ran on the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), repeated in the gate ([below](#section-g-the-algebra-behind-flag-66)).
 
 ## Section G: the algebra behind flag 66
@@ -46,13 +48,13 @@ The anchors are published equations, not the program's results, so the compariso
 
 ## What a pass means
 
-A pass confirms that the note matches its record and that the record matches its stored sources, and, in section G, the algebra behind flag 66. It does not confirm that a paper anticipates a conjecture: the verifiers and the panel judged that, and the script takes their labels as given. Full texts are not stored, being copyrighted, so offline the script compares a quotation from a full text with the short excerpt kept when code first found it; the option `--online` fetches every abstract and full text again and finds each quotation in it. The passages of two sources, Henry-Couannier 2018 and Goldhaber 2017, were read only through a web fetch, since the code cannot read them, and the note paraphrases them instead of quoting.
+A pass confirms that the note matches its record and that the record matches its stored sources, and, in section G, the algebra behind flag 66. It does not confirm that a paper anticipates a conjecture: the verifiers and the panel judged that, and the script takes their labels as given. Full texts are not stored, being copyrighted, so offline the script compares a quotation from a full text with the short excerpt kept when code first found it; the option `--online` fetches every abstract and full text again and finds each quotation in it. The passages of two sources, [Henry-Couannier 2018](https://doi.org/10.22323/1.335.0047) and [Goldhaber 2017](https://doi.org/10.1063/PT.3.3571), were read only through a web fetch, since the code cannot read them, and the note paraphrases them instead of quoting.
 
 The script was tested against copies of the note with five planted errors, a changed quotation, a wrong coauthor, a wrong verdict, a wrong count and a wrong year, and failed on each (`review/literature-check/README.md`). The wrong coauthor is the error one agent made during the check.
 
 ## The recorded output
 
-The run of 2026-11-03, after the write-up, printed 534 lines marked `PASS` and none marked `FAIL` (a count of its output lines). Below, each section's `PASS` lines are replaced by their number; the other lines are as printed.
+The run of 2026-11-06, after the dual-sector investigation's corrections to the note and the narrowing of section F's span, printed 543 lines marked `PASS` and none marked `FAIL` (a count of its output lines). Below, each section's `PASS` lines are replaced by their number; the other lines are as printed.
 
 ```text
 A. Verdicts recomputed from findings.json
@@ -71,7 +73,7 @@ B. Counts
      workflow 4: 7 agents, 2,107,543 tokens
 [32 lines marked PASS]
 C. Quotations
-     76 quoted passages: 60 from the literature, 16 from repository documents
+     87 quoted passages: 60 from the literature, 27 from repository documents
 [113 lines marked PASS]
 D. Citations against their metadata snapshots
      86 references checked against INSPIRE, arXiv, Crossref or OpenAlex snapshots
@@ -86,8 +88,8 @@ E. The pre-registration, scored
      C7: predicted 'related only', found 'related only': hit
 [1 line marked PASS]
 F. Quotations in flags 64–69 (review/wiki-build-flags.md)
-     22 quoted passages
-[22 lines marked PASS]
+     29 quoted passages
+[31 lines marked PASS]
 G. The algebra behind flag 66: the duality dictionary as scale-factor duality with sources
 [16 lines marked PASS]
 
@@ -96,10 +98,10 @@ OK — the literature-check note matches its record: verdicts, counts, quotation
 
 ## Sources
 
-- `verify/literature_check.py` — the script and its docstring
+- `verify/literature_check.py` — the script and its docstring; section F — the span of the flags file it reads, from the heading of flags 64–69 to the heading of the dual-sector investigation's flags
 - `notes/literature-check.md` header — the note's statement of what the script checks; §1 — the method and the verdict rule; §2 — the tables the script recomputes; §11 — the scale and the pre-registration's score
 - `review/literature-check/README.md` — the stored record, how `sources.json` and `quotes.json` were built, and the test with planted errors
-- `review/wiki-build-flags.md` items 64–69 — the flags whose quotations the script checks
+- `review/wiki-build-flags.md` items 64–69 — the flags whose quotations the script checks, flag 64's addendum among them; the heading 'Found by the dual-sector investigation (2026-11-06)', where its scan ends, before items 70–73
 - `notes/literature-check.md` §6 — the dictionary as scale-factor duality with sources, which section G checks
 - `review/literature-check/checks/` — the two agents' scripts; section G repeats the judge's
-- `scripts/check.sh` — the gate that runs it
+- `scripts/check.sh` — the gate that runs it, eleventh of twelve

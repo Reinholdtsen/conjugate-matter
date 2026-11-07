@@ -16,6 +16,10 @@ sources:
   - "notes/geometric-core.md §A"
   - "notes/geometric-core.md §C"
   - "notes/knot-dark-matter-standalone.md §1"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
+  - "papers/broken-born-checkpoint-v2.md App. A item 10"
+  - "papers/broken-born-checkpoint-v2.md §5"
 ---
 
 *Curved momentum space is the idea, developed in a line of quantum-gravity research, that the space of momenta can carry a geometry of its own instead of being flat. Snyder used it in 1947 to build a quantized space-time; in quantum gravity with two space dimensions, which can be solved exactly, the momenta of a particle live on a curved space; and "relative locality" made the geometry of momentum space a principle. [General relativity](/wiki/gravity/spin-2-fields/general-relativity) curves space-time but leaves momentum space flat, which the program counts as an assumption rather than a measurement; its own version of momentum-space geometry is [the momentum graviton X](/wiki/gravity/momentum-graviton). One known difficulty of the idea, the soccer-ball problem, was listed as open in the [lab notebook](/wiki/history/documents/lab-notebook) and never resolved.*
@@ -33,10 +37,12 @@ In a curved momentum space the set of possible momenta is a curved manifold [T].
 #11 §3 names three steps, all cited from model memory:
 
 - **Snyder.** [4]† H. S. Snyder, "Quantized space-time," Phys. Rev. 71, 38 (1947). Snyder made the space-time coordinates non-commuting while keeping Lorentz invariance, by taking momentum space to be a space of constant curvature [T].
-- **Gravity in 2+1 dimensions.** [5]† H.-J. Matschull, M. Welling, "Quantum mechanics of a point particle in 2+1 dimensional gravity," Class. Quantum Grav. 15, 2981 (1998), gr-qc/9708054. With two space dimensions, gravity has no propagating waves and can be solved exactly; the momenta of a point particle take values in a group manifold, which is curved [T]. #11's wording: "the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†])". The v1 paper states the same result as [T] without a reference (#9 §1).
-- **Relative locality.** [6]† G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "The principle of relative locality," Phys. Rev. D 84, 084010 (2011), arXiv:1101.0931. It takes momentum space as the primary arena; its geometry fixes how momenta compose, and whether two events coincide can then depend on the observer [T].
+- **Gravity in 2+1 dimensions.** [5]† H.-J. Matschull, M. Welling, "Quantum mechanics of a point particle in 2+1 dimensional gravity," Class. Quantum Grav. 15, 2981 (1998), [gr-qc/9708054](https://arxiv.org/abs/gr-qc/9708054). With two space dimensions, gravity has no propagating waves and can be solved exactly; the momenta of a point particle take values in a group manifold, which is curved [T]. #11's wording: "the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†])". The v1 paper states the same result as [T] without a reference (#9 §1).
+- **Relative locality.** [6]† G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "The principle of relative locality," Phys. Rev. D 84, 084010 (2011), [arXiv:1101.0931](https://arxiv.org/abs/1101.0931). It takes momentum space as the primary arena; its geometry fixes how momenta compose, and whether two events coincide can then depend on the observer [T].
 
 None of the three has been checked against its source; they are part of [the † literature battery](/wiki/method/literature-battery) (OP10).
+
+**Born geometry [S].** The lineage #11 cites leaves out a statement in the Born-geometry papers on which the program builds. [Freidel, Leigh and Minic 2014](https://arxiv.org/abs/1307.7080), the first paper of #11's [3]†, which #11 cites for Born geometry (§5), write that "not only will space-time become curved, but momentum space as well", an idea they trace to Born ([Freidel, Leigh and Minic 2015](https://arxiv.org/abs/1502.08005), §1). Neither #11 §3's lineage nor App. A item 10, "Momentum space has its own gravity", cites them. The program's form of momentum-space geometry, a massive spin-2 field X odd under reciprocity, has no counterpart in their papers (`notes/dual-sector.md` §9; flag 72, pending; [further overlaps with the program](/wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program)).
 
 ## The program's framing
 
@@ -69,6 +75,10 @@ The program's momentum geometry is thus a dynamical metric on momentum space, sh
 
 - G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "Relative locality and the soccer ball problem" (2011)†.
 
+The dual-sector note retrieved one more by live search (§9):
+
+- [S] L. Freidel, R. G. Leigh, D. Minic, "Born Reciprocity in String Theory and the Nature of Spacetime," Phys. Lett. B 730, 302 (2014), [arXiv:1307.7080](https://arxiv.org/abs/1307.7080) — the first paper of #11's [3]†, there cited for Born geometry.
+
 ## Used by
 
 - [Born's question](/wiki/program/borns-question) — general relativity's flat momentum fibers as one source of the asymmetry.
@@ -84,3 +94,5 @@ The program's momentum geometry is thus a dynamical metric on momentum space, sh
 - `notes/broken-born-program-v1.md` §1, §10 — the 2+1 statement tagged [T]; v1's open-problem list, without extensivity.
 - `notes/broken-born-theory.md` §3, §11 item 6 — H split into g and g̃; the soccer-ball problem as #1 stated it.
 - `notes/knot-dark-matter-standalone.md` §1 — independent momentum-space geometry resides in X (withdrawn paper).
+- `notes/dual-sector.md` §9; `review/wiki-build-flags.md` item 72 — curved momentum space in Freidel, Leigh and Minic 2014, traced to Born in their 2015 paper, uncited in #11 §3 and App. A item 10 (pending)
+- `papers/broken-born-checkpoint-v2.md` App. A item 10 — "Momentum space has its own gravity"; §5 — Born geometry [3†]

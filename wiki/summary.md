@@ -17,11 +17,12 @@ sources:
   - "review/round3-adjudication.md 'Verdict'"
   - "review/wiki-build-flags.md items 27, 55, 59, 62, 64, 69"
   - "notes/literature-check.md §2–§8"
+  - "notes/dual-sector.md §2"
 ---
 
 *The Comatter program takes the exchange of position and momentum, [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), to be an exact symmetry of the laws of physics that the vacuum breaks spontaneously, and follows the consequences into gravity, dark matter, dark energy and electric–magnetic duality. It is a research program, not a theory: its central ideas are conjectures, and its results are theoretical and mostly untested by observation.*
 
-**Status:** Record, current to 2026-11-03 — a summary of [checkpoint #11](/wiki/history/documents/checkpoint) and [the status registers](/wiki/status); it adds no results. [Tags](/wiki/method/provenance-tags) are as the sources give them; [V] checks the arithmetic, not the physics.
+**Status:** Record, current to 2026-11-06 — a summary of [checkpoint #11](/wiki/history/documents/checkpoint) and [the status registers](/wiki/status); it adds no results. [Tags](/wiki/method/provenance-tags) are as the sources give them; [V] checks the arithmetic, not the physics.
 
 ## Where the program stands
 
@@ -31,14 +32,14 @@ A live research program in its own assessment; the word "theory" waits on [three
 
 None of P.R.'s conjectures is derived. A [literature check](/wiki/method/literature-check) finds the first published in its core, three in part; the two on monopoles were not found, one provisionally.
 
-- **[Dark matter is conjugate matter](/wiki/dark-matter/conjugate-matter)**, organized around momentum, as [particles](/wiki/dark-matter/candidates/chi-particles) with a velocity-gated self-force or the monopoles below, each open [O]. Its core is published (Minic and coauthors, 2020), their sector correlated with ours; neither form was found.
+- **[Dark matter is conjugate matter](/wiki/dark-matter/conjugate-matter)**, organized around momentum, as [particles](/wiki/dark-matter/candidates/chi-particles) with a velocity-gated self-force or monopoles, each open [O]. [Minic and coauthors](https://arxiv.org/abs/2003.00318) [proposed it first](/wiki/dark-matter/conjugate-matter/dual-standard-model), in a doubled phase space, coupled beyond gravity in most papers; neither form was found.
 - **[Magnetic monopoles are abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)** [O], a third candidate beside [particles](/wiki/dark-matter/candidates/chi-particles) and [a condensate](/wiki/dark-matter/candidates/x-condensate). Momentum localization is not yet modeled.
 - **[That is why none has been found](/wiki/electric-magnetic-duality/monopole-explanation)** [O]: searches are made in position space. Against it: the duality that governs magnetic charge is electric–magnetic, not position–momentum, and standard histories also expect the null result. It needs P4 restated and a way to hide the objects, not yet computed.
 - **[The magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)** [O]: each electrically charged particle of ours has a magnetically charged analog in the momentum sector. The [mirror family](/wiki/electric-magnetic-duality/magnetic-mirror-family) is established [T]; its placement in momentum was not found.
 - **[Conjugate collapse drives our accelerating expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)** [O], if the contracting conjugate universe is kinetic-dominated (open). Two versions failed: w = −2 ([pressure over energy density](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state)), excluded by data, and dual dust.
 - **[Matter clumps in momentum space](/wiki/dark-matter/momentum-clumping/founding-image)** [O], the founding image. As collective dynamics it falls short by 10²⁸–10³¹ for particles, the faintest dwarf galaxies weigh against it where mandatory for waves, and elsewhere it is optional; a single topological object localized in momentum is untested.
 
-Derived results that may be new, unassessed by experts: [a second graviton with mass](/wiki/gravity/momentum-graviton/borns-answer) for momentum-space geometry [D + T]; [an identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) by which its potential adds no vacuum energy in a flat aligned vacuum, leaving matter's vacuum energy unaddressed [D][V]; and [toy models](/wiki/symmetry-breaking/toy-models) of spontaneously broken reciprocity [D][V]. Literature checks have moved [others](/wiki/program/assessment) to prior art.
+Possibly new derived results, unassessed by experts: [a second graviton with mass](/wiki/gravity/momentum-graviton/borns-answer) for momentum-space geometry [D + T]; [an identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) by which its potential adds no vacuum energy in a flat aligned vacuum, leaving matter's vacuum energy unaddressed [D][V]; and [toy models](/wiki/symmetry-breaking/toy-models) of spontaneously broken reciprocity [D][V]. Literature checks have moved [others](/wiki/program/assessment) to prior art.
 
 ## Core hypotheses still standing
 
@@ -78,3 +79,4 @@ No observation in the record favours the program specifically.
 - `review/round5-adjudication.md` 'Verdict' — the referees' scale, and round 5's grades; `review/round4-adjudication.md` 'Verdict' and `review/round3-adjudication.md` 'Verdict' — the grades of rounds 4 and 3
 - `review/wiki-build-flags.md` items 27, 55, 59, 62, 64, 69 — the turnaround's premise; the gate's mechanism; the grounds against the monopole explanation; the argument from searches in position space; the published identification of dark matter as a dual sector; two fits at cluster speeds
 - `notes/literature-check.md` §2–§8 — what is published of P.R.'s conjectures; §3 — the two fits at cluster speeds
+- `notes/dual-sector.md` §2 — the published identification: a proposal, its dates, the doubled phase space and the coupling

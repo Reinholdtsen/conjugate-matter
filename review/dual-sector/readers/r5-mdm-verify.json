@@ -1,0 +1,1207 @@
+{
+ "statements": [
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "We propose a duality between cold dark matter and modified N",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched abstract (also in v1 PDF, FOUND loose)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "On one hand, we can interpret Eq. (11) to mean that there is",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "The above computation suggests that one can in principle hav",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537); also in v1 PDF (FOUND)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "The couplings of MONDian dark matter to the Standard Model p",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537); also in v1 PDF (FOUND)",
+   "verdict": "confirmed-in-part",
+   "correction": "This is not the paper's only mention of couplings to Standard Model particles. The opening of the same section describes the usual analysis, which starts by assuming 'some couplings to the Standard Model particles' and goes through cross sections and relic abundance, and ends 'This logic should be repeatable in our case.' (FOUND; in v1). So in 2010 the authors expected the ordinary coupling-and-relic analysis to apply as well as the spin-orbit speculation. The reader quotes that opening sentence itself as a separate statement."
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "In our proposal, the total mass of MONDian dark matter is re",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "Apparently, at the galactic scale, the MONDian dark matter q",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote_start": "The usual way of determining the effective mass of CDM parti",
+   "quote_found": true,
+   "check_output": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1105.2916",
+   "quote_start": "while the second form means that there is dark matter (which",
+   "quote_found": true,
+   "check_output": "FOUND: 1105.2916 — searched full text (https://arxiv.org/html/1105.2916)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1105.2916",
+   "quote_start": "in terms of an ensemble sum over the entangled left and righ",
+   "quote_found": true,
+   "check_output": "FOUND: 1105.2916 — searched full text (https://arxiv.org/html/1105.2916)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1105.2916",
+   "quote_start": "In addition we have argued that the inertia of matter is qua",
+   "quote_found": true,
+   "check_output": "FOUND: 1105.2916 — searched full text (https://arxiv.org/html/1105.2916)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1105.2916",
+   "quote_start": "That same relation seems to suggest that the microscopic MON",
+   "quote_found": true,
+   "check_output": "FOUND: 1105.2916 — searched full text (https://arxiv.org/html/1105.2916)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "We then argue that these unconventional quanta of MONDian da",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched abstract (v3). v1 and v2 PDFs (pypdf): the abstract ends 'must obey infinite statistics. Finally, we provide a possible top-down approach...' (FOUND loose); the clause ', and the theory must be fundamentally non-local' is absent",
+   "verdict": "confirmed-in-part",
+   "correction": "(1) Dating: the clause 'and the theory must be fundamentally non-local' entered the abstract in v3 (28 Apr 2012). It is absent from the v1 (11 Jan 2012) and v2 abstracts, although v1's body already says 'any theory of infinite statistics is fundamentally non-local'. (2) The reading says 'The 2017 review offers this property as the microscopic basis of the dark–baryon correlation.' In 1709.04388 §4, 'this correlation' is defined by the sentence before it: Eqs. (3) and (35) 'indicate that modified dark matter profile is sensitive to the cosmological constant, or equivalently, the Hubble parameter. But what is the microscopic basis for this correlation?' (FOUND). The review links the dark–baryon relation to the metaparticle zero-mode sector instead (§5, 'perhaps naturally')."
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "Since we keep the equivalence principle intact in our argume",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365); in v1 with 'new local degrees of freedom' in place of 'new local gravitational degrees of freedom' (v1 PDF, FOUND loose)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "Such phenomenological studies will crucially rely on a non-l",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (v3, https://arxiv.org/html/1201.2365). v1 and v2 PDFs: NOT FOUND ('Standard Model particles' 0 matches in each)",
+   "verdict": "confirmed-in-part",
+   "correction": "The sentence was added in v3 (28 Apr 2012). In v1 and v2 the toy model is judged differently: 'We thus conclude that this toy model is not very helpful since it does not capture the essential properties of non-locality' (v1 PDF, FOUND). v3 instead calls it 'illuminating to some extent, and indeed it could serve as a preliminary model for MONDian dark matter' (FOUND). The reading itself (the interactions are needed but not specified) stands."
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "is the relevant standard model operator that describes the n",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365); present in v1 as Eq. (31) and v2 as Eq. (30) (PDFs, FOUND loose)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "We naturally expect that such non-canonical dark matter quan",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365); in v1 (FOUND loose)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "Naturally we are led to conjecture that the application of t",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365); in v1 (FOUND loose)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "At the moment, it seems prohibitive to check this prediction",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365); in v1 and v2 (FOUND)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote_start": "we first point out a surprising connection between the MONDi",
+   "quote_found": true,
+   "check_output": "FOUND: 1201.2365 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "we provide the first observational test of MDM by fitting ro",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched abstract (v2). The v1 abstract has different wording: 'We fit rotation curves to a sample of 30 local spiral galaxies'",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "We find that all three models fit the data well. The rotatio",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "instead of continuing to rise sharply, the MDM mass density ",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched abstract (v2). v1 PDF: NOT FOUND ('turns over' 0 matches; no Milky Way passage)",
+   "verdict": "confirmed-in-part",
+   "correction": "The central-turnover prediction and the Milky Way r < 1 kpc estimate first appear in v2 (15 Jul 2014). The v1 abstract (14 Aug 2013) says only 'We find that discrepancies between MDM and MOND occur at radii smaller than typically observed.' (v1 PDF, FOUND loose). The prediction dates from July 2014, not from the paper's first-posted date."
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "Whether such a dark matter profile can be realized dynamical",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched full text (https://arxiv.org/html/1308.3252); in v1 (FOUND loose)",
+   "verdict": "confirmed-in-part",
+   "correction": "The next sentence qualifies 'left to the unknown nature of the quanta': 'We have presented several ideas on how this may be arranged in previous publications' [31, 32, 33] (FOUND). Those are the Ho–Minic–Ng papers on infinite statistics and the Born–Infeld analogy. No interaction term is given."
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "Our approach differs from these papers in the crucial fact t",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched full text (v2). v1 PDF: NOT FOUND ('traditional' 0, 'local eff' 0)",
+   "verdict": "confirmed-in-part",
+   "correction": "This sentence was added in v2 (15 Jul 2014). v1 (14 Aug 2013) has only a conditional: 'If MDM quanta obey infinite statistics (in some sense a middle quantum statistics between the usual Bose-Einstein and Fermi-Dirac statistics), they should not be described by a local quantum field theory of particles.' (v1 PDF, FOUND loose; FOUND in v2)."
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "In the CDM paradigm, accelerations are determined by General",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched full text (v2). v1 PDF: NOT FOUND",
+   "verdict": "confirmed-in-part",
+   "correction": "This sentence and the paragraph contrasting CDM, MOND and MDM were added in v2 (15 Jul 2014); they are not in v1 (14 Aug 2013). The reading stands for v2."
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "in the hopes that the model's predictions can be checked aga",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched full text (https://arxiv.org/html/1308.3252); in v1 (FOUND)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1308.3252",
+   "quote_start": "Besides obeying different statistics, MDM has some unusual i",
+   "quote_found": true,
+   "check_output": "FOUND: 1308.3252 — searched full text; in v1 (FOUND). The Bovy & Tremaine caveat the reading mentions is v2-only",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "so the dark matter must track the baryonic matter",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "Despite its appearance, Eq. (18) does not modify General Rel",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text; cH0 = 6.5814e-10 m/s^2 for H0 = 67.74 (my code)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "is conveyed to the dark-matter via the temperature of the de",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "This choice is, of course, arbitrary and a case of reverse e",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "Thus the energy momentum tensor of the extra sources (which ",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "Our dark matter mass profile thus “knows” about the visible ",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "We have shown that MDM performs as well as CDM, and consider",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "needs to change by two orders of magnitude. This is not comp",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text; log10(100) = 2.0 (my code)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "A more concrete theory for MDM quanta will allow us to test ",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "For example, such unusual non-local quanta could be found in",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text. My counts of 'Freidel', 'metastring' and 'metaparticle' in 1005.3537, 1105.2916, 1201.2365 and 1308.3252: 0 each",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote_start": "we plan to study the constraints from gravitational lensing ",
+   "quote_found": true,
+   "check_output": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1602.00055",
+   "quote_start": "Modified dark matter (MDM, formerly known as MoNDian dark ma",
+   "quote_found": true,
+   "check_output": "FOUND: 1602.00055 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1602.00055",
+   "quote_start": "Unlike cold dark matter models, the MDM mass profile depends",
+   "quote_found": true,
+   "check_output": "FOUND: 1602.00055 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1602.00055",
+   "quote_start": "how strongly coupled is MDM to baryonic matter and how does ",
+   "quote_found": true,
+   "check_output": "FOUND: 1602.00055 — searched full text (https://arxiv.org/html/1602.00055)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1602.00055",
+   "quote_start": "We show that dynamical and observed masses agree in a sample",
+   "quote_found": true,
+   "check_output": "FOUND: 1602.00055 — searched abstract; 2*pi = 6.283 (my code)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1602.00055",
+   "quote_start": "Note added: This discussion has since been superseded by mor",
+   "quote_found": true,
+   "check_output": "FOUND: 1602.00055 — searched full text (https://arxiv.org/html/1602.00055)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "The defining feature of the MDM proposal is that the modifie",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "However, we also aim to have enough flexibility not to corre",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "On the other hand, this correlation could be pointing to a y",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text. My code: 1/(abar0 G) = 62.8 Msun s^4/km^4; A = 41, 47, 53 give a0 = 1.84, 1.60, 1.42 x 10^-10 m/s^2",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "since some dispersion might be expected between the collisio",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed-in-part",
+   "correction": "The concession is accurate, but it sits under the authors' framing two paragraphs earlier: 'The second, and in our view more serious, tension is the set of observations at the galactic scale which strongly suggests that DM may not simply be extra, independent degrees of freedom.' (§1, FOUND). The same item also calls the correlation 'difficult to motivate within purely collision-less CDM'. The authors allow a CDM reconciliation; their own stated view is the other way."
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "Here we emphasize one very important point. Given the fact t",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "To summarize: dark matter exists in our scheme, but its mass",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "Such dark matter is most probably of a non-local, non-partic",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "But what is the microscopic basis for this correlation? We w",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed-in-part",
+   "correction": "The sentence before it defines 'this correlation' as the profile's sensitivity to Λ: Eqs. (3) and (35) 'indicate that modified dark matter profile is sensitive to the cosmological constant, or equivalently, the Hubble parameter.' (FOUND). So §4 gives non-locality as the basis of the dark-matter–Λ link, not of the dark–baryon tie. The review links the dark–baryon relation to the metaparticle zero-mode sector (§5, 'perhaps naturally') and, in §2.2, infers non-locality from the tie. The reading 'not in an interaction' stands."
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "It is very hard to see why the mass profiles coming from par",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed-in-part",
+   "correction": "The reader's own observation, that §4 'sits uneasily with section 1', overstates the tension. Section 1 grants a possible CDM reconciliation, but it states the authors' view that the data strongly suggest 'DM may not simply be extra, independent degrees of freedom'. It also says the a0 dependence 'has to go beyond the classical Einstein theory and the usual local effective quantum field theory' (§1, FOUND). Section 4 is consistent with both statements."
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "At the moment the MDM proposal is not rooted in any fundamen",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "We expect that such non-local excitations (as part of a cova",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text; refs [131] = 1706.03305, [132] = 1707.00312",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "Roughly, the zero mode sector looks like two entangled parti",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "How strongly coupled is MDM to baryonic matter? How does MDM",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "which may explain why, so far, dark matter detection experim",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "A more concrete theory for MDM quanta will allow us to test ",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "it is possible that there are (dark) stars made of such quan",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "Note that we will be treating the dark energy as the cosmolo",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "Our central observation is that Milgrom's scaling implies a ",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "for such extended excitations the change in momentum is prop",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text; the passage opens 'We can speculate about the extended nature of MDM as follows'",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote_start": "The black squares are 386 data points from a sample of 30 ga",
+   "quote_found": true,
+   "check_output": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "The aforementioned MDAR indicates a coupling between DM and ",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "One of the attributes of the MDM model is that it must decou",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "We do not, however, expect the correlation between DM and BM",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "the correlations could be pointing to yet unknown properties",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "This is true for galaxies, but we do not expect an accelerat",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote_start": "Thus, MDM quanta are not particle-like, but might be modeled",
+   "quote_found": true,
+   "check_output": "FOUND: 1801.00160 — searched full text; refs [57] = 1707.00312, [58] = 1706.03305; both full texts: 'dark matter' 0, 'dark energy' 0, 'entangl' 0 (my grep)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "The properties of CDM are completely unknown, and the only a",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "are strongly correlated via an acceleration scale which appe",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "We would like to emphasize here we are quoting an observatio",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "At this point in time, Occam's razor would favor the first o",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text; in v1 PDF (FOUND), where it reads 'given that the scale a0 = 10^-10 m/s^2 does indeed seem to emerge in recent simulations [24]'",
+   "verdict": "confirmed-in-part",
+   "correction": "The Occam preference concerns galaxies, and the essay turns from it at once: 'However, what if the same acceleration scale appeared in structures at vastly larger length-scales as well?' (FOUND; v1 has 'different' for 'larger'). For clusters it calls the emergent account hard: 'it is difficult to imagine that any' memory of a0 'would be maintained or transferred to the cluster intact' (FOUND). The abstract, already in v1, concludes that the multi-scale presence 'strongly supports the existence of a fundamental acceleration scale governing the observed gravitational physics' (FOUND, abstract). The essay ends open: 'On the other hand, it could still be that' a0 emerges in ΛCDM. 'For galaxies the authors prefer, for now, the gravity-only option' is right. 'This weighs against reading the correlation as evidence of a non-gravitational tie' holds for galaxies only; for clusters the essay leans toward a fundamental scale, though it never calls the tie non-gravitational."
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "In Ref. [41], Zhang et al. analyze 62 of the 64 galaxy clust",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text; refs [43] Belli, Newman, Ellis 2014 and [44] Meylan & Pryor confirmed",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "Let us speculate: The BTFR and BFJR imply that the dark matt",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "The dark-matter quanta are therefore inherently non-local. A",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text; 'A possible candidate for such quanta are metaparticles' also in v1 PDF (FOUND)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "In this context, dark matter is correlated to the visible ba",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text. My counts: 'non-gravit' 0, 'dual' 0, 'Born' 0, 'reciproc' 0, 'momentum' 0, 'entangl' 0; refs [51] BHM 2019 (three papers), [52] Minic arXiv:2003.00318",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote_start": "we would expect that there will be no evidence for it in col",
+   "quote_found": true,
+   "check_output": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote_start": "is implicit in the baryonic Tully-Fisher and baryonic Faber-",
+   "quote_found": true,
+   "check_output": "FOUND: 2009.12915 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote_start": "though we can see from inspection that the n=4 line is not a",
+   "quote_found": true,
+   "check_output": "FOUND: 2009.12915 — searched full text (https://arxiv.org/html/2009.12915)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote_start": "The simplest one is, of course, that it is emergent in the s",
+   "quote_found": true,
+   "check_output": "FOUND: 2009.12915 — searched full text (https://arxiv.org/html/2009.12915)",
+   "verdict": "confirmed-in-part",
+   "correction": "The same paragraph qualifies 'simplest'. It adds 'We are not aware of similar results for ellipticals' and that the appearance of a0 'in simulations does not immediately mean an understanding of why the same' a0 'emerges over many decades of scale' in ΛCDM (FOUND). The abstract concludes that the result 'could be pointing to a heretofore unknown property of dark matter' (FOUND, abstract)."
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote_start": "proposes a DM which is made aware of",
+   "quote_found": true,
+   "check_output": "FOUND: 2009.12915 — searched full text. My counts: 'dual' 0, 'metaparticle' 0, 'Born' 0, 'metastring' 0, 'non-commut' 0; refs [66]–[68] are Ho–Minic–Ng 2010–2012",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote_start": "Both modified DM and modified gravity theories have a variet",
+   "quote_found": true,
+   "check_output": "FOUND: 2009.12915 — searched full text (https://arxiv.org/html/2009.12915)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "we discuss a possible relationship between the acceleration ",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text; my counts: 'MDM' 0, 'modified dark matter' 0",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "particles, perhaps axion-like, with de Broglie wavelength ar",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text; my counts: 'dual' 0, 'metaparticle' 0, 'metastring' 0, 'Born' 0, 'non-commut' 0",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "This is an interesting acceleration scale, of the same order",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text. My code: hbar^2/(m^2 lambda^3) = 4.41e-10 m/s^2, with 1/2: 2.21e-10 m/s^2 (m = 1e-22 eV, lambda = 300 pc)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "with the gravitational potential providing a link between th",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text; ref [3] Lee, Kim, Lee, PLB 795, 206 (2019)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "Similarly, by self-consistency of the above equations of mot",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text (https://arxiv.org/html/2405.08744)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "We further conjecture a relationship between the quantum pre",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text; refs [26] FKLM PRD 107 126016 (2023), [27] BHM IJMPD 32 2330002 (2023); sqrt(1e-34*1e28) = 1.00e-3 eV (my code)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "could be associated with the heavier soliton degrees of free",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text; sqrt(1e-34*1e-3) = 3.16e-19 eV (my code)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote_start": "the current data are consistent with no change in accelerati",
+   "quote_found": true,
+   "check_output": "FOUND: 2405.08744 — searched full text (https://arxiv.org/html/2405.08744)",
+   "verdict": "confirmed-in-part",
+   "correction": "The redshift test does not by itself separate the essay's fuzzy-dark-matter account from CDM. The same paragraph says 'CDM simulations indicate that the acceleration scale increases with redshift, though the amount of change depends on details of the feedback implementation.' (FOUND). Both accounts expect a0 to change with z, and the data show no change to z ∼ 2.5."
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Like their visible particle cousins, dark matter quanta shou",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "This is a Berry-phase like term that comes from a fully cova",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text; ref [12] in this passage is the MDM papers",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Modified dark matter (MDM) is, at the moment, a phenomenolog",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "In particular, the natural model for MDM quanta could be pro",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text; §5 heading 'Quantum gravity, metaparticles and dark matter' confirmed",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "In what follows, we argue the dual part of the matter sector",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text; ref [18] lists Ho–Minic–Ng 2010–2012, Edmonds et al. 2014, 2017, 2017, Bulg. J. Phys. 45 (2018) 138 (= 1801.00160) and 2005.08927",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "In other words, in the observable spacetime, the visible sec",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed-in-part",
+   "correction": "The limit is not the whole statement. Two sentences on, the paper adds: 'Note that with a particular double scaling, this term can be finite!' (FOUND). The mixing term vanishes as λ → 0 or L → ∞ taken separately, but it can stay finite in a joint limit."
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "Such a correlation between visible and dark matter involving",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "Hence, the weakness of gravity is determined by the size of ",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "Thus the entire SM would have a dual SM (which we propose, d",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "The proposal here is that the dual sector (as already indica",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text; Ref. 12 = Ho–Minic–Ng 2010–2012 and Edmonds et al. 2014, 2017, 2017 (verified)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "The above metaparticle-like dark matter quanta are by constr",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote_start": "Like their visible particle cousins, dark matter quanta shou",
+   "quote_found": true,
+   "check_output": "FOUND: 2109.12763 — searched full text; the passage lies at the end of §4 (character offset 39689, before the §5 heading at 39978)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "In general, visible and dark matter degrees of freedom are c",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "This suggest the origin (from dark matter) of the observed s",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Metaparticles can be understood as fuzzy dark matter, which ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text; refs [42] = 1812.10821, [47] = 1709.04388, [48] = 2405.08744 (verified)",
+   "verdict": "confirmed",
+   "correction": ""
+  }
+ ],
+ "answers": [
+  {
+   "question": "Q1",
+   "verdict": "confirmed",
+   "correction": "No correction. Two additions. (1) The 2017 MDM texts point to metaparticle theory for their 'two entangled particles'. In that theory (Freidel, Kowalski-Glikman, Leigh, Minic, arXiv:1812.10821, posted 27 Dec 2018), the 'entanglement' joins the two chiral components of one metaparticle, with chiral momenta p± = ½(p ± h p̃), and it 'prevents an interpretation as two particle species'. That paper never mentions dark matter (my grep: 0). So the 2017 phrase models the dark quantum by itself, not a visible particle paired with a dark partner. This supports the reader's 'not yet the identification'. (2) 'No MDM paper' depends on where the line is drawn. The MDM authors Edmonds, Minic and Takeuchi state the dual-SM proposal in 2109.12763 (Sep 2021), whose §6.1 reviews MDM. Edmonds also co-signs the 2022 Snowmass paper 2202.05104, which the record lists as partial.",
+   "counter_evidence": [
+    "1812.10821 §3.1: 'creates a fundamental ‘entanglement’ of these chiral particles which prevents an interpretation as two particle species' (FOUND)",
+    "1812.10821 §3.1: 'it is possible to kinematically decouple the metaparticle system as a sum of two free relativistic particles' (FOUND)",
+    "2109.12763 §4: 'The generic prediction here is the existence of a dual field' [Ã, 'which is correlated (entangled), with the original A field'] (FOUND)"
+   ]
+  },
+  {
+   "question": "Q2",
+   "verdict": "confirmed",
+   "correction": "No correction. One addition: 1005.3537 also uses 'dual' for the holographic degrees of freedom of dS/CFT. The quanta's nature is said to be constrained by non-gravitational boundary degrees of freedom 'dual to the bulk modified theory of gravity'. None of the eleven texts gives a commutator [x, x̃] or a dual coordinate (my counts of 'commut': only infinite-statistics oscillator relations, a kernel that 'commutes with the isometries', and 'non-commutative' in 1709.04388 §5 and 2005.08927).",
+   "counter_evidence": [
+    "1005.3537 Phenomenological Implications (1): 'The nature of MONDian dark matter quanta is constrained by the holographic non-gravitational degrees of freedom dual to the bulk modified theory of gravity.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q3",
+   "verdict": "confirmed-in-part",
+   "correction": "Dating. 'not of a traditional particle type (i.e. it is not described by a local effective quantum field theory)' first appears in 1308.3252 v2 (15 Jul 2014). v1 (14 Aug 2013) has only a conditional: if MDM quanta obey infinite statistics, 'they should not be described by a local quantum field theory of particles' (v1 PDF read with pypdf, FOUND loose; FOUND in v2). The 1201.2365 toy scalar was judged 'not very helpful' in v1 and v2. Only v3 (28 Apr 2012) calls it 'a preliminary model for MONDian dark matter'. The rest of the answer stands.",
+   "counter_evidence": [
+    "1201.2365 v1 §4: 'We thus conclude that this toy model is not very helpful since it does not capture the essential properties of non-locality' (v1 PDF, FOUND)",
+    "1201.2365 v3 §4: 'We thus conclude that this toy model is illuminating to some extent, and indeed it could serve as a preliminary model for MONDian dark matter.' (FOUND)",
+    "1308.3252 v1 §4: 'If MDM quanta obey infinite statistics (in some sense a middle quantum statistics between the usual Bose-Einstein and Fermi-Dirac statistics), they should not be described by a local quantum field theory of particles.' (v1 PDF, FOUND loose)"
+   ]
+  },
+  {
+   "question": "Q4",
+   "verdict": "confirmed-in-part",
+   "correction": "(a) In 1709.04388 §4, 'this correlation' means the profile's sensitivity to Λ (H0), as the sentence before it says. It is not the dark–baryon tie. The review attributes that tie to the metaparticle zero-mode sector (§5, 'perhaps naturally') and, in §2.2, infers non-locality from it. (b) The answer quotes the MDM authors' concessions to ΛCDM but omits their own reading of the data. In 2017 and 2018 they say the galactic data 'strongly suggests that DM may not simply be extra, independent degrees of freedom'. In 2017 they add that the a0 dependence 'has to go beyond the classical Einstein theory and the usual local effective quantum field theory'. In 2016 they call Kaplinghat–Turner's gravity-only route 'more of a numerical accident' and require the dark matter to know cH0 'via some fundamental principle and not by accident'. The 2020 abstract says the multi-scale data 'strongly supports the existence of a fundamental acceleration scale'. So the closing inference, that the MDM authors themselves allow their data to arise by gravity alone, is true as 'allow' but is not their preferred reading. Their beyond-local-EFT requirement also matches BHM 2021's term 'invisible in effective field theory', a continuity the answer does not note. (c) Where MDM names a channel for the tie, it is a temperature in gravitational thermodynamics. (d) In 2010 the authors also expected the ordinary analysis of couplings to Standard Model particles and relic abundance to apply ('This logic should be repeatable in our case'), not only the spin-orbit speculation. (e) The BHM term vanishes as λ → 0 or L → ∞ taken separately, but 'with a particular double scaling, this term can be finite!'. (f) Dating: 1201.2365's sentence on 'interactions with the Standard Model particles' entered in v3 (28 Apr 2012). The matrix-model coupling g V(𝕄) O_SM is already in v1 (11 Jan 2012).",
+   "counter_evidence": [
+    "1709.04388 §1: 'The second, and in our view more serious, tension is the set of observations at the galactic scale which strongly suggests that DM may not simply be extra, independent degrees of freedom.' (FOUND)",
+    "1709.04388 §1: 'So, whatever one does to implement the dependence of the dark matter profile on some fundamental acceleration, it has to go beyond the classical Einstein theory and the usual local effective quantum field theory without violating these two pillars of modern physics in their domains of validity.' (FOUND)",
+    "1709.04388 §4: 'which indicate that modified dark matter profile is sensitive to the cosmological constant, or equivalently, the Hubble parameter. But what is the microscopic basis for this correlation?' (FOUND)",
+    "1709.04388 §2: 'Note that according to this proposal any excess source and the usual visible matter sources could be related via the corresponding temperature.' (FOUND)",
+    "1601.00662 §1.3: 'is more of a numerical accident' and 'via some fundamental principle and not by accident' (both FOUND)",
+    "1801.00160 §3: 'We will focus on two observations at the galactic scale which strongly suggests that DM may not simply be extra, independent degrees of freedom.' (FOUND)",
+    "2005.08927 abstract: 'strongly supports the existence of a fundamental acceleration scale governing the observed gravitational physics' (FOUND)",
+    "2010.15610 §3: 'Note that with a particular double scaling, this term can be finite!' (FOUND)",
+    "1005.3537 Phenomenological Implications: 'This logic should be repeatable in our case.' (FOUND; in v1)"
+   ]
+  },
+  {
+   "question": "Q5",
+   "verdict": "confirmed-in-part",
+   "correction": "(a) Minic 2020 reads 'If the quanta of modified dark matter are metaparticles, this may explain why, so far, dark matter detection experiments have failed to detect dark matter particles.' (FOUND). The wording 'If the quanta of MDM are metaparticles' is Edmonds–Minic–Takeuchi 2021's only (NOT FOUND in 2003.00318). (b) A redshift dependence of a0 does not separate the school's account from CDM: 2405.08744 says CDM simulations also predict a0 rising with redshift. (c) 1801.00160 §5 reports the galactic acceleration floor also from 'ΛCDM numerical simulations (Frenk)'. Only its absence in clusters is specific to MDM. (d) The central-turnover prediction and the Milky Way r < 1 kpc estimate of 1308.3252 first appear in v2 (15 Jul 2014). The v1 abstract (14 Aug 2013) says only that discrepancies between MDM and MOND 'occur at radii smaller than typically observed'. (e) notes/literature-check.md also has no 'MOND', 'Tully', 'Milgrom' or 'Faber' (my grep: 0). Its one MDM mention is 'modified dark matter' (line 205), so the '(literature-check.md aside)' exception is unnecessary and the claim holds for the whole record. (f) In the body of 1709.04388 the null-result explanation is posed as a question, which matches the hedged 'may explain' of its abstract. All numbers reproduce in my code: cH0/2π = 1.0475e-10 m/s², and the ratio to 1.20e-10 is 1.146.",
+   "counter_evidence": [
+    "2003.00318 §5: 'If the quanta of modified dark matter are metaparticles, this may explain why, so far, dark matter detection experiments have failed to detect dark matter particles.' (FOUND)",
+    "2405.08744 essay text: 'CDM simulations indicate that the acceleration scale increases with redshift, though the amount of change depends on details of the feedback implementation.' (FOUND)",
+    "1801.00160 §5: the acceleration floor is found in 'observational data (McGaugh), ΛCDM numerical simulations (Frenk), or modified gravity (Mannheim)' (read in context; tool-checked part: 'This is true for galaxies, but we do not expect an acceleration floor in galaxy clusters.' FOUND)",
+    "1308.3252 v1 abstract: 'We find that discrepancies between MDM and MOND occur at radii smaller than typically observed.' (v1 PDF, FOUND loose)",
+    "1709.04388 §5: 'Is this scaling compatible with a non-particle nature of dark matter, thus explaining why we have, so far, not seen the assumed particle quanta of dark matter?' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q6",
+   "verdict": "confirmed",
+   "correction": "No correction. One addition: 2009.12915 §V places both of its options inside gravity, introducing them with 'Following the standard assumption that structure formation proceeds via gravity'.",
+   "counter_evidence": [
+    "2009.12915 §V: 'Following the standard assumption that structure formation proceeds via gravity' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q7",
+   "verdict": "confirmed",
+   "correction": "No correction. One addition: in the cited metaparticle theory (1812.10821), 'two entangled particles' are the chiral components of a single metaparticle and are not two species (see Q1). Nothing in these papers localizes matter in momentum or gates its self-interaction by velocity. Colliding clusters (Bullet, A520) were planned in 2016–2017 and proposed again as a test in 2020.",
+   "counter_evidence": [
+    "1812.10821 §3.1: 'creates a fundamental ‘entanglement’ of these chiral particles which prevents an interpretation as two particle species' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q8",
+   "verdict": "confirmed",
+   "correction": "No correction. My counts over the eleven arXiv HTML texts: 'monopole' 0, 'magnetic charge' 0, 'dyon' 0.",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q9",
+   "verdict": "confirmed",
+   "correction": "No correction. My counts of 'polari[sz]': 1 in 1308.3252 (Blanchet & Le Tiec's gravitational polarization, a v2 addition absent from v1), 1 in 1709.04388 (the title of ref. [123]), 0 elsewhere.",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q10",
+   "verdict": "confirmed",
+   "correction": "No correction. Two additions. 1709.04388 §5 calls MDM 'a unification between the dark energy, dark matter and baryonic matter sectors'. 2405.08744 obtains its vacuum-energy scale from 'the relation between the vacuum energy and the volume of phase space, together with the Bekenstein bound' (refs [26], [27], FKLM 2023 and BHM 2023). The essay thus borrows the school's dual-space dark-energy argument while making no dual-sector dark-matter claim. No equation of state other than Λ appears (my counts: 'equation of state' only in a reference title of 1709.04388; 'phantom' only as MOND's 'phantom dark matter' or as LaTeX \\phantom).",
+   "counter_evidence": [
+    "1709.04388 §5: 'Also, the MDM proposal can be viewed as a unification between the dark energy, dark matter and baryonic matter sectors.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q11",
+   "verdict": "confirmed",
+   "correction": "No correction to the priority finding. Additions: (1) MDM has a precursor inside the school. 1201.2365 ref. [35] cites 'Previous work on toy models of infinite statistics and dark energy/dark matter': Ng 2007 and Jejjala, Kavic and Minic 2007 (arXiv:0705.4581, posted 31 May 2007). The latter already asks whether infinite statistics gives 'both dark energy and dark matter in one go', citing dark-matter scaling relations 'apparently sensitive to the vacuum parameters, such as the cosmological constant'. It is not a dual-sector identification: 'dual' occurs only as 'dual quantum and classical nature' and 'dualism'. (2) Milgrom 1999 (astro-ph/9805346, posted 28 May 1998), which MDM credits, already has T(a) − T(0) with T ∝ (a² + a0²)^{1/2}, a0 = (Λ/3)^{1/2}. Its abstract already ties a0 to cosmology through the vacuum. (3) The metaparticle paper behind 'two entangled particles' (1812.10821) was posted after 1801.00160 and does not mention dark matter. (4) 1801.00160 is listed among the MDM papers in BHM 2021's ref. [18] ('Bulg. J. Phys. 45 (2), (2018) 138–151'), yet the record nowhere mentions it (my grep: no '1801.00160', and no 'Bulg' except for a different 2024 Minic paper). The count of 0 for 'Freidel', 'metastring' and 'metaparticle' in the 2010–2013 texts is confirmed.",
+   "counter_evidence": [
+    "1201.2365 ref. [35]: 'Previous work on toy models of infinite statistics and dark energy/dark matter' (FOUND)",
+    "0705.4581 §5: 'it is natural to ask whether within our discussion one can get both dark energy and dark matter in one go' (FOUND) and 'This would also imply that infinite statistics is relevant for dark matter as well!' (FOUND)",
+    "astro-ph/9805346 abstract: 'Either cosmology enters local dynamics by affecting the vacuum, and inertia in turn, through a0' (FOUND)"
+   ]
+  }
+ ],
+ "record_contradictions": [
+  {
+   "record_says": "review/literature-check/findings.json, C1 finding for 2005.08927 (recid:1796841), 'difference': \"It proposes metaparticles, quanta of the Born-reciprocal metastring, as dark matter ... Its dark matter knows about the baryons through a0, a non-gravitational correlation against strict P4.\" (verified verbatim in the file)",
+   "verdict": "confirmed-in-part",
+   "note": "The reader is right that 'non-gravitational' is the record's word, not the essay's. My count of 'non-gravit' is 0. Where the essay names MDM's channel it says 'In MDM, the CDM quanta is informed of the cosmological constant Λ via gravitational thermodynamics' (FOUND). Its abstract speaks of 'a fundamental acceleration scale governing the observed gravitational physics' (FOUND). The record's word is presumably an inference from refs [51], [52] (BHM 2019; Minic 2020), where the string-side terms are non-EFT. The record's 'proposes metaparticles ... as dark matter' is also stronger than the essay's 'Let us speculate ... A possible candidate'. But the reader's counter-reading, that the essay 'prefers for now its emergence within gravity-only ΛCDM', is too strong too. The Occam preference concerns galaxies. It is followed at once by 'However, what if the same acceleration scale appeared in structures at vastly larger length-scales as well?'. The cluster result is called 'difficult to imagine' as a memory of the galaxies' a0, and the abstract concludes the data 'strongly supports the existence of a fundamental acceleration scale'. All of these are in v1 (18 May 2020)."
+  },
+  {
+   "record_says": "review/literature-check/findings.json, C1 'difference' field (verified verbatim in the findings for 2109.12763, 2003.00318, 2212.06086, 2307.16712, 2010.15610, 2407.06207 and 2604.19418): \"(2) Coupling: the dual (dark) sector is 'correlated'/'entangled' with visible matter through non-gravitational terms and is tied to modified dark matter's acceleration-scale correlation with baryons; the school expects it to be detectable.\"",
+   "verdict": "confirmed-in-part",
+   "note": "As a description of the string-side papers the record is accurate. Minic 2020 has the Berry-phase-like term α′A dÃ/dt and BHM 2021 the mixing term ∝ λ⁸/L¹⁰, and both tie them to MDM (their refs [12] and [18], verified). The reader is right that MDM's own papers write no interaction between dark matter and baryons. My count of 'coupl' and 'interact' finds only open questions, plus 1201.2365's matrix-model g V(𝕄) O_SM, which is unconnected to the correlation. The reader is also right that the 2024 fuzzy-dark-matter essay links baryons and dark matter through the gravitational potential. But the qualification goes too far when it implies MDM treats the correlation as gravity-only. 1709.04388 §1 and 1801.00160 §3 say the data 'strongly suggests that DM may not simply be extra, independent degrees of freedom'. 1709.04388 §1 says the dependence 'has to go beyond the classical Einstein theory and the usual local effective quantum field theory', which anticipates BHM's 'invisible in effective field theory'. So 'on MDM's own papers it is not [evidence]' holds for an interaction term, not for how the MDM authors read their data. BHM also add 'with a particular double scaling, this term can be finite!'."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'What differs', the coupling (line 201ff., verified verbatim): \"All three judges for C1 read this as predicting couplings between dark and visible matter beyond gravity: Minic 2020 expects dark quanta to be detectable through a Berry-phase-like entanglement with visible matter, and Berglund, Hübsch and Minić 2021 a dual photon correlated with ours, correlated events at accelerators and a dark–visible correlation at the Hubble scale, which they tie to modified dark matter.\"",
+   "verdict": "confirmed-in-part",
+   "note": "The record accurately reports the judges' reading of the string-side papers. The same paragraph already records the round-1 verifier's narrower reading, and the record calls the observational question open. The reader's point is documented: the MDM authors allow a ΛCDM origin of the correlation (1709.04388 §1; 1801.00160 §2; 2005.08927; 2009.12915 §V). But the same authors also call Kaplinghat–Turner's CDM route 'more of a numerical accident' and demand knowledge of cH0 'via some fundamental principle and not by accident' (1601.00662 §1.3). In 2018 they argue that a cluster-scale relation 'should have significance beyond coincidences of galactic dynamics within a DM halo composed of WIMPs' (1801.00160 §2). The 2020 abstract says the data 'strongly supports the existence of a fundamental acceleration scale'. Two of the four discriminators the reader lists do not separate the school's tie from gravity-only dark matter by themselves. A redshift change of a0 is predicted by 'CDM simulations' too (2405.08744). The galactic acceleration floor is also reported from 'ΛCDM numerical simulations (Frenk)' (1801.00160 §5); only its absence in clusters is MDM-specific. The colliding-cluster test (2005.08927) is the one the authors frame as separating an emergent a0 from a fundamental one."
+  },
+  {
+   "record_says": "review/literature-check/findings.json, C1 finding for 2407.06207, 'difference' (verified verbatim): \"New here: dark matter as fuzzy (non-commuting with visible fields), linked to fuzzy-dark-matter phenomenology (cf. Edmonds, Erlich, Minic, Takeuchi 2024, arXiv:2405.08744).\"",
+   "verdict": "confirmed",
+   "note": "Confirmed. 2405.08744 has no 'dual', 'metaparticle', 'metastring', 'Born', 'non-commut', 'MDM' or 'modified dark matter' (my counts: 0 each). Its fuzzy dark matter is an ultralight 'perhaps axion-like' boson tied to baryons by the gravitational potential. The identification of metaparticles with fuzzy dark matter is Hübsch and Minić's (2407.06207 §3.4, citing [47] = 1709.04388 and [48] = 2405.08744), who also use 'fuzzy' for the non-commutativity of visible and dual fields. The record's 'cf.' is a pointer rather than a claim about the essay, so this is a matter of precision. One link the reader omits: the essay's dark-energy conjecture rests on the school's own argument ('the relation between the vacuum energy and the volume of phase space', refs [26] FKLM 2023 and [27] BHM 2023)."
+  }
+ ],
+ "missed": [
+  {
+   "paper_id": "1709.04388",
+   "quote": "The second, and in our view more serious, tension is the set of observations at the galactic scale which strongly suggests that DM may not simply be extra, independent degrees of freedom.",
+   "where": "§1 Introduction and Overview, before items 1–2",
+   "bears_on": [
+    "coupling",
+    "detection"
+   ],
+   "why_it_matters": "This is the authors' own reading of the correlation they model. The reader quotes only the concession two paragraphs later ('may be possible to reconcile this result with CDM models'). It weighs against the reader's Q4 inference and its contradicts_record items 1–3.",
+   "quote_check": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)"
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote": "So, whatever one does to implement the dependence of the dark matter profile on some fundamental acceleration, it has to go beyond the classical Einstein theory and the usual local effective quantum field theory without violating these two pillars of modern physics in their domains of validity.",
+   "where": "§1, after 'The defining feature of the MDM proposal'",
+   "bears_on": [
+    "coupling",
+    "field-content",
+    "gravity"
+   ],
+   "why_it_matters": "MDM already requires the dark matter's dependence on a0 to lie outside local effective field theory. BHM 2021 later give their visible–dark mixing term the same property ('invisible in effective field theory'). This continuity between MDM and the string-side coupling is missing from the reader's account.",
+   "quote_check": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)"
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote": "We will focus on two observations at the galactic scale which strongly suggests that DM may not simply be extra, independent degrees of freedom.",
+   "where": "§3 Further Constraining CDM Models, the sentence before 'The aforementioned MDAR indicates a coupling between DM and BM'",
+   "bears_on": [
+    "coupling"
+   ],
+   "why_it_matters": "This sentence frames the reader's quoted 'coupling between DM and BM'. The authors read the MDAR as evidence that dark matter is not independent of baryons, not merely as a phenomenological profile.",
+   "quote_check": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)"
+  },
+  {
+   "paper_id": "1801.00160",
+   "quote": "If so, the correlation of mass profiles of DM and BM should have significance beyond coincidences of galactic dynamics within a DM halo composed of WIMPs.",
+   "where": "§2, after 'Does the MDAR hold in galaxy clusters?'",
+   "bears_on": [
+    "coupling",
+    "detection"
+   ],
+   "why_it_matters": "It states the authors' test logic: a cluster-scale relation would count against a gravity-only, WIMP-halo origin. That bears on whether the school's observable can separate a correlated dual sector from the program's gravity-only one (contradicts_record item 3).",
+   "quote_check": "FOUND: 1801.00160 — searched full text (https://arxiv.org/html/1801.00160)"
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote": "The presence of the same acceleration scale found at very different scales and in very different astrophysical objects strongly supports the existence of a fundamental acceleration scale governing the observed gravitational physics.",
+   "where": "abstract (INSPIRE; also in the v1 PDF of 18 May 2020)",
+   "bears_on": [
+    "coupling",
+    "detection",
+    "gravity"
+   ],
+   "why_it_matters": "It is the essay's conclusion. It weighs against the reader's claim that the essay prefers ΛCDM emergence. Its phrase 'gravitational physics' weighs against the record's 'non-gravitational correlation'.",
+   "quote_check": "FOUND: 2005.08927 — searched abstract"
+  },
+  {
+   "paper_id": "2005.08927",
+   "quote": "However, what if the same acceleration scale appeared in structures at vastly larger length-scales as well?",
+   "where": "essay text, the sentence after 'At this point in time, Occam's razor would favor the first option' (v1: 'vastly different length-scales')",
+   "bears_on": [
+    "coupling",
+    "detection"
+   ],
+   "why_it_matters": "It turns the essay away from its Occam preference at once. The cluster result that follows is read against emergence: 'it is difficult to imagine that any' memory of a0 'would be maintained or transferred to the cluster intact' (both fragments FOUND).",
+   "quote_check": "FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927); v1 PDF wording with 'different' FOUND"
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote": "We suggest that the CDM mass profiles can be reorganized in a form suggested by the MDM mass profile.",
+   "where": "§4 Discussion (with the abstract: 'We discuss the possibility that the cold dark matter mass profiles contain information on the cosmological constant', FOUND)",
+   "bears_on": [
+    "identification",
+    "coupling"
+   ],
+   "why_it_matters": "In 2016, MDM is framed as information about Λ carried by cold dark matter profiles, not as a new sector. This bears on Q1 (no dual sector) and on Q4 (the tie as a profile property).",
+   "quote_check": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)"
+  },
+  {
+   "paper_id": "1601.00662",
+   "quote": "via some fundamental principle and not by accident",
+   "where": "§1.3, 'First and foremost, the dark matter must know about cH0 via some fundamental principle and not by accident.'; the same section says Kaplinghat–Turner's coincidence 'is more of a numerical accident' (FOUND)",
+   "bears_on": [
+    "coupling",
+    "priority"
+   ],
+   "why_it_matters": "MDM's founding premise rejects the gravity-only route to a0 that the 2020 papers call 'simplest'. The authors' position moved between 2016 and 2020, and the reader cites only the later concessions.",
+   "quote_check": "FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)"
+  },
+  {
+   "paper_id": "2009.12915",
+   "quote": "in simulations does not immediately mean an understanding of why the same",
+   "where": "§V, after 'The simplest one is, of course, that it is emergent in the standard' ΛCDM model; the sentence continues 'a0 emerges over many decades of scale in ΛCDM'. The section also says 'Following the standard assumption that structure formation proceeds via gravity' (FOUND)",
+   "bears_on": [
+    "coupling",
+    "gravity"
+   ],
+   "why_it_matters": "It qualifies 'simplest'. Both of the paper's options are framed within gravity, the option of modifying dark matter included.",
+   "quote_check": "FOUND: 2009.12915 — searched full text (https://arxiv.org/html/2009.12915)"
+  },
+  {
+   "paper_id": "2405.08744",
+   "quote": "CDM simulations indicate that the acceleration scale increases with redshift, though the amount of change depends on details of the feedback implementation.",
+   "where": "essay text, high-redshift paragraph; the first paragraph also says CDM emergence of the scale 'is not currently understood, although simulations of CDM models hint at such behavior' (FOUND)",
+   "bears_on": [
+    "detection"
+   ],
+   "why_it_matters": "A redshift dependence of a0 is predicted by CDM as well as by the essay's fuzzy-dark-matter account, so it does not discriminate between them. This corrects the reader's list of discriminators (Q5; contradicts_record item 3).",
+   "quote_check": "FOUND: 2405.08744 — searched full text (https://arxiv.org/html/2405.08744)"
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote": "Note that with a particular double scaling, this term can be finite!",
+   "where": "§3, after Eq. (19) and 'it vanishes as either λ → 0 or L → ∞'",
+   "bears_on": [
+    "coupling"
+   ],
+   "why_it_matters": "The visible–dual mixing term need not vanish in a joint limit, which qualifies the limit the reader reports in Q4.",
+   "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote": "which indicate that modified dark matter profile is sensitive to the cosmological constant, or equivalently, the Hubble parameter. But what is the microscopic basis for this correlation?",
+   "where": "§4 Non-local aspects of MDM, opening",
+   "bears_on": [
+    "coupling",
+    "dark-energy"
+   ],
+   "why_it_matters": "It defines the 'correlation' whose basis the review seeks in non-locality as the Λ (H0) sensitivity of the profile. The reader treats it as the dark–baryon correlation in Q4 and in its reading of 1201.2365.",
+   "quote_check": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)"
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote": "Note that according to this proposal any excess source and the usual visible matter sources could be related via the corresponding temperature.",
+   "where": "§2 Constructing Modified Dark Matter, before §2.1",
+   "bears_on": [
+    "coupling",
+    "gravity"
+   ],
+   "why_it_matters": "It is the closest MDM comes to a mechanism for the dark–visible relation: a temperature in gravitational thermodynamics, not an interaction.",
+   "quote_check": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)"
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote": "Note that the modified dark matter profile can be related to the classic CDM mass profiles, such as the NFW mass profile [117, 118], in certain limits, which might be viewed as another justification for the MDM proposal.",
+   "where": "§5 Summary and Discussion; next sentence: 'Also, the MDM proposal can be viewed as a unification between the dark energy, dark matter and baryonic matter sectors.' (FOUND)",
+   "bears_on": [
+    "coupling",
+    "dark-energy"
+   ],
+   "why_it_matters": "In certain limits MDM is presented as relatable to ordinary CDM profiles, and MDM describes itself as a unification of three sectors (Q4, Q10).",
+   "quote_check": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)"
+  },
+  {
+   "paper_id": "1709.04388",
+   "quote": "Is this scaling compatible with a non-particle nature of dark matter, thus explaining why we have, so far, not seen the assumed particle quanta of dark matter?",
+   "where": "§5 Summary and Discussion",
+   "bears_on": [
+    "detection"
+   ],
+   "why_it_matters": "In the body the explanation of the direct-detection null is posed as a question, consistent with the abstract's 'may explain'. No permanent null is claimed (Q5).",
+   "quote_check": "FOUND: 1709.04388 — searched full text (https://arxiv.org/html/1709.04388)"
+  },
+  {
+   "paper_id": "1005.3537",
+   "quote": "The nature of MONDian dark matter quanta is constrained by the holographic non-gravitational degrees of freedom dual to the bulk modified theory of gravity.",
+   "where": "Phenomenological Implications, item (1)",
+   "bears_on": [
+    "what-dual-is",
+    "field-content"
+   ],
+   "why_it_matters": "In 2010, 'dual' also means the holographic dual of dS/CFT. The quanta are constrained by non-gravitational boundary degrees of freedom; nothing here is a conjugate coordinate (Q2, Q3).",
+   "quote_check": "FOUND: 1005.3537 — searched full text (https://arxiv.org/html/1005.3537)"
+  },
+  {
+   "paper_id": "1201.2365",
+   "quote": "Previous work on toy models of infinite statistics and dark energy/dark matter",
+   "where": "reference [35] (cites Y. J. Ng, PLB 657, 10 (2007); V. Jejjala, M. Kavic and D. Minic, Adv. High Energy Phys. 2007, 21586 = arXiv:0705.4581)",
+   "bears_on": [
+    "priority",
+    "field-content"
+   ],
+   "why_it_matters": "This is MDM's prehistory inside the school. Jejjala, Kavic and Minic (posted 31 May 2007) ask whether 'one can get both dark energy and dark matter in one go' and conclude 'This would also imply that infinite statistics is relevant for dark matter as well!' (both FOUND in 0705.4581). They cite dark-matter scaling relations 'apparently sensitive to the vacuum parameters'. None of this is a dual-sector identification (Q11).",
+   "quote_check": "FOUND: 1201.2365 — searched full text (https://arxiv.org/html/1201.2365)"
+  },
+  {
+   "paper_id": "2109.12763",
+   "quote": "The generic prediction here is the existence of a dual field",
+   "where": "§4; the sentence continues 'Ã, which is correlated (entangled), with the original A field.' Minic 2020 §4.3 has 'Thus, the generic prediction here is the existence of a dual field' Ã 'which is entangled, with the original A field' (FOUND in 2003.00318)",
+   "bears_on": [
+    "coupling",
+    "identification"
+   ],
+   "why_it_matters": "Edmonds, Minic and Takeuchi use 'correlated' and 'entangled' as synonyms for the relation between a field and its dual. This answers Q4's question of what the school means by the two words. The reader quotes only the next sentence.",
+   "quote_check": "FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)"
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote": "creates a fundamental ‘entanglement’ of these chiral particles which prevents an interpretation as two particle species",
+   "where": "§3.1 (a lead the reader named but did not read); just before it: 'it is possible to kinematically decouple the metaparticle system as a sum of two free relativistic particles', with chiral momenta p± = ½(p ± h p̃) (FOUND)",
+   "bears_on": [
+    "identification",
+    "coupling",
+    "what-dual-is"
+   ],
+   "why_it_matters": "It fixes what the 2017 MDM papers mean by 'two entangled particles (in momentum space)': the two chiral halves of one metaparticle, each mixing p and p̃. They are not a visible particle and its dark dual. The paper (arXiv 27 Dec 2018; PRD 99, 066011) never mentions dark matter (my grep: 0).",
+   "quote_check": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)"
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote": "If the quanta of modified dark matter are metaparticles, this may explain why, so far, dark matter detection experiments have failed to detect dark matter particles.",
+   "where": "§5 Quantum gravity, metaparticles and dark matter",
+   "bears_on": [
+    "detection"
+   ],
+   "why_it_matters": "This is the correct wording of the conditional the reader attributes to Minic 2020 in Q5. Its version, 'If the quanta of MDM are metaparticles', is Edmonds–Minic–Takeuchi 2021's only.",
+   "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+  }
+ ],
+ "retried": [
+  "1201.2365 v1 (11 Jan 2012) and v2, which the reader did not read: downloaded as arXiv PDFs (arxiv.org/pdf/1201.2365v1, v2) into scratch/r5-mdm-verify/dl/ and read with pypdf. Present in v1: the matrix model with the 'Yukawa' coupling g to O_SM and 'the necessary coupling to the dark matter sector' (Eq. 31 in v1, Eq. 30 in v2); 'dramatic signatures'; 'At the moment, it seems prohibitive...'; the primordial-black-hole conjecture; and 'Since we keep the equivalence principle intact ...', with 'new local degrees of freedom' in place of v3's 'new local gravitational degrees of freedom'. Absent before v3 (28 Apr 2012): the abstract clause 'and the theory must be fundamentally non-local' (v1 and v2 end at 'must obey infinite statistics.'; v1's body already calls infinite statistics 'fundamentally non-local'), and the sentence on 'interactions with the Standard Model particles' ('Standard Model particles' 0 matches in v1 and v2). The toy-model verdict changes: v1 and v2 'not very helpful since it does not capture the essential properties of non-locality'; v3 'illuminating to some extent ... a preliminary model for MONDian dark matter'.",
+  "1308.3252 v1 (14 Aug 2013), which the reader did not read: downloaded from arxiv.org/pdf/1308.3252v1 and read with pypdf. The v1 abstract reads 'We fit rotation curves to a sample of 30 local spiral galaxies ... All three models fit the data well ... We find that discrepancies between MDM and MOND occur at radii smaller than typically observed.' Added in v2 (15 Jul 2014) and absent from v1: 'first observational test', the central-turnover sentence, 'Our approach differs ... not described by a local effective quantum field theory', 'In the CDM paradigm ... interact only gravitationally', the Milky Way r < 1 kpc estimate, the NGC 4389 virial-mass remark, Blanchet & Le Tiec's gravitational polarization and the Bovy & Tremaine caveat. Present in v1: 'Whether such a dark matter profile can be realized dynamically ...', Fermi-LAT, the conditional that infinite-statistics quanta 'should not be described by a local quantum field theory of particles', 'Besides obeying different statistics ...', the External Field Effect and Solar-system remark, and 'which is our only fitting parameter' (without 'for MDM and MOND').",
+  "1005.3537 v1 and 2005.08927 v1, re-downloaded to check the reader's dating: all key sentences of 1005.3537 are in v1 (19 May 2010). In 2005.08927 v1 (18 May 2020), the Occam sentence ('given that the scale a0 = 10^-10 m/s^2 does indeed seem to emerge in recent simulations'), the pivot ('However, what if ... at vastly different length-scales as well?'), 'difficult to imagine that any', the metaparticle passage and the abstract's 'strongly supports the existence of a fundamental acceleration scale' are all present.",
+  "Leads the reader named but did not read: 1812.10821 ('Theory of metaparticles', arXiv 27 Dec 2018, PRD 99 066011), full text via arXiv HTML. 'dark matter' 0, 'dark energy' 0. Its 'entanglement' joins the two chiral components of one metaparticle and 'prevents an interpretation as two particle species'. For 1707.00312 and 1706.03305 I confirmed the reader's grep: 'dark matter', 'dark energy' and 'entangl' all 0.",
+  "Further sources: astro-ph/9805346 (Milgrom, posted 28 May 1998, PLA 253, 273). It contains T(a) ∝ (a² + Λ/3)^{1/2} and 'it is not really clear why ΔT should be a measure of inertia' (FOUND), which MDM quotes, and its abstract already ties a0 to cosmology through the vacuum (FOUND). 0705.4581 (Jejjala, Kavic, Minic, posted 31 May 2007), cited as 1201.2365 ref. [35]: an infinite-statistics precursor for dark matter and dark energy, with no dual-sector identification. 2109.12763 read further: its Ref. 12 is the MDM papers, and §4 calls Ã 'correlated (entangled)' with A. BHM 2021 ref. [18] includes 1801.00160.",
+  "Metadata: the arXiv API first-posted dates of all fifteen papers match the reader's, and every INSPIRE journal reference the reader gives matches. All of the reader's computed numbers reproduce in scratch/r5-mdm-verify/scripts/numbers.py (output in numbers.out)."
+ ],
+ "overall": "The reader's output can be relied on for quotations and numbers. Of its 138 quoted passages, 137 are found by the tool; the one miss is a wording slip ('MDM' for 'modified dark matter' in Minic 2020). Every computed number reproduces, and the first-posted dates and citations match arXiv and INSPIRE. Its readings are accurate but lean toward the gravity-only side. It omits the MDM authors' own statements that the galactic data 'strongly suggests that DM may not simply be extra, independent degrees of freedom', that the dependence must go 'beyond ... the usual local effective quantum field theory', and the 2020 essay's abstract and post-Occam pivot. So its contradicts_record items 1–3 hold only in part: the record's 'non-gravitational' for 2005.08927 is indeed the record's inference, but 'the essay prefers ΛCDM emergence' is equally too strong. In addition, 1709.04388 §4's 'this correlation' means the profile's sensitivity to Λ, not the dark–baryon tie; the z-dependence test does not discriminate against CDM; and several passages it quotes from 1201.2365 and 1308.3252 first appear in later versions (April 2012; July 2014)."
+}

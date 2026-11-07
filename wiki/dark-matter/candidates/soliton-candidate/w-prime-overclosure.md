@@ -76,7 +76,7 @@ The check requires the base-10 logarithms of the smallest and largest of the fou
 
 ## The annihilation coefficient by detailed balance
 
-v3 did not compute the W′⁺W′⁻ annihilation cross-section; it bracketed the coefficient κ between 1 and 10. The round-3 referee computed it, using detailed balance [T]: the cross-sections of a two-body process and of its inverse are related by the ratio of their phase-space and spin-counting factors, so a known pair-production cross-section fixes the annihilation cross-section of the same pair. The referee took the published cross-section for photon–photon production of a W pair, γγ → W⁺W⁻ (hep-ph/9405359 eq. 5.15), and obtained near threshold (`review/round3/referee/ggww.out`):
+v3 did not compute the W′⁺W′⁻ annihilation cross-section; it bracketed the coefficient κ between 1 and 10. The round-3 referee computed it, using detailed balance [T]: the cross-sections of a two-body process and of its inverse are related by the ratio of their phase-space and spin-counting factors, so a known pair-production cross-section fixes the annihilation cross-section of the same pair. The referee took the published cross-section for photon–photon production of a W pair, γγ → W⁺W⁻ ([hep-ph/9405359](https://arxiv.org/abs/hep-ph/9405359) eq. 5.15), and obtained near threshold (`review/round3/referee/ggww.out`):
 
 ```text
 near threshold: sigma(gg->WW)/beta = 14.9998 pi a^2/M^2 ; sigma v_rel (W+W- -> gg) = 6.6666 pi a^2/M^2
@@ -84,7 +84,7 @@ near threshold: sigma(gg->WW)/beta = 14.9998 pi a^2/M^2 ; sigma v_rel (W+W- -> g
 
 Here gg denotes the pair of gauge bosons (hidden photons, in the application to W′), a the coupling and beta the velocity. In the audit table (Step 2) the row reads:
 
-> W' overclosure | 1e16-1e17 (coef x10 bracket) | c=1..10: 9.4e15-1.95e17; with c=6.67 (W+W- -> gg at threshold, own detailed balance of hep-ph/9405359 eq. 5.15; scalar check gives textbook 2.000): 1.3e16-4.0e16 | CONFIRMED (bracket reasonable)
+> W' overclosure | 1e16-1e17 (coef x10 bracket) | c=1..10: 9.4e15-1.95e17; with c=6.67 (W+W- -> gg at threshold, own detailed balance of [hep-ph/9405359](https://arxiv.org/abs/hep-ph/9405359) eq. 5.15; scalar check gives textbook 2.000): 1.3e16-4.0e16 | CONFIRMED (bracket reasonable)
 
 The "scalar check" is the referee's test of the method on scalar pair production, where it reproduced the textbook coefficient 2. On the brackets the referee adds: "annihilation coefficient factor-10 bracket - reasonable (my W'W'->g'g' threshold coefficient 6.67 pi a^2/m^2 lies inside 1-10; extra channels h'h', g'h' push up)". The extra channels h′h′ and g′h′ are final states containing the hidden Higgs boson h′ (the wiki's reading of the labels); they add to the rate. With the computed coefficient the overclosure is "1.3e16-4.0e16", inside the gated range.
 

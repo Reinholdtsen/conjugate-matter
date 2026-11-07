@@ -28,6 +28,8 @@ sources:
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
   - "review/wiki-build-flags.md item 6"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
 ---
 
 *The cosmological-constant problem is the mismatch between the energy density of empty space that quantum field theory predicts, from the zero-point fluctuations and loops of matter fields, and the far smaller value that the accelerating expansion of the universe indicates. No accepted mechanism explains the gap, and [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is no better placed than [general relativity](/wiki/gravity/spin-2-fields/general-relativity) to explain it. For the program this page marks a boundary. The program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) sets to zero only the vacuum energy of the spin-2 interaction potential at the aligned point; it does not by itself address the vacuum energy of matter loops. The program assigns the observed [dark energy](/wiki/cosmology/dark-energy) to a separate field, [τ](/wiki/cosmology/dark-energy/tau-quintessence). A bound due to Cohen, Kaplan and Nelson ties the highest energy at which field theory can be trusted to the size of the region it describes, and for a region the size of the Hubble radius it puts that energy within a factor of two of the observed dark-energy scale; by its authors' own statement it does not predict the cosmological constant's value.*
@@ -86,7 +88,7 @@ The same length is the cell length of the Born-geometry papers of Freidel, Kowal
 
 ### Holographic dark energy
 
-If the infrared length follows the expansion, a vacuum energy set at the bound changes with time [T]. With the Hubble radius as that length, the vacuum energy tracks the matter density, which is excluded [S: Hsu 2004]; holographic dark energy with the event horizon as its infrared length is the variant that survives [S: Li 2004] (note §7). In the Born-geometry lineage, a dual-spacetime model with ultraviolet–infrared mixing gives a dark energy whose [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, the ratio of its pressure to its energy density, varies in time with w > −1 (−1 is the value for a cosmological constant), and its authors find it compatible with the data of the [Dark Energy Spectroscopic Instrument (DESI)](/wiki/cosmology/dark-energy/desi) [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025] (note §7). The root `CLAUDE.md` lists the paper among the leads of the note's literature sweep that bear on reading DESI's data against the program's strict w ≥ −1, not on the work queue ('Since the handoff').
+If the infrared length follows the expansion, a vacuum energy set at the bound changes with time [T]. With the Hubble radius as that length, the vacuum energy tracks the matter density, which is excluded [S: [Hsu 2004](https://arxiv.org/abs/hep-th/0403052)]; holographic dark energy with the event horizon as its infrared length is the variant that survives [S: [Li 2004](https://arxiv.org/abs/hep-th/0403127)] (note §7). In the Born-geometry lineage, a dual-spacetime model with ultraviolet–infrared mixing gives a dark energy whose [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, the ratio of its pressure to its energy density, varies in time with w > −1 (−1 is the value for a cosmological constant), and its authors find it compatible with the data of the [Dark Energy Spectroscopic Instrument (DESI)](/wiki/cosmology/dark-energy/desi) [S: [Hur, Jejjala, Kavic, Minic and Takeuchi 2025](https://arxiv.org/abs/2503.20854)] (note §7). That is the second of the paper's two models. Under an ultraviolet–infrared relation from its authors' earlier work the same paper finds the opposite sign, "Clearly, w(a)<-1 for all a as anticipated", and "this model is clearly disfavored" by DESI's second data release (the paper's §3.3); w(a) ≥ −1 holds in all cases only under the alternative relation (its §3.4). The sign follows from an assumed relation, so the authors make no fixed prediction on the program's [row 4](/wiki/predictions/dark-energy-drift), the test of w ≥ −1 (`notes/dual-sector.md` §9; flag 72, pending; [further overlaps with the program](/wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program)). The root `CLAUDE.md` lists the paper among the leads of the note's literature sweep that bear on reading DESI's data against the program's strict w ≥ −1, not on the work queue ('Since the handoff').
 
 ## Bimetric theory and the problem
 
@@ -98,7 +100,7 @@ If the infrared length follows the expansion, a vacuum energy set at the bound c
 
 On matter-loop vacuum energy, the checkpoint states, "bimetric theory is otherwise no better placed than GR [22S]" (#11 §7.3), GR being general relativity. Its reference:
 
-- [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021.
+- [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), [arXiv:1512.00021](https://arxiv.org/abs/1512.00021).
 
 ### The no-protecting-symmetry statement
 
@@ -147,10 +149,10 @@ The checkpoint replaced these with a narrower statement. The cancellation concer
 
 ## Standard references
 
-- [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021 — cited by #11.
-- [S] A. G. Cohen, D. B. Kaplan, A. E. Nelson, "Effective field theory, black holes, and the cosmological constant," Phys. Rev. Lett. 82, 4971 (1999), arXiv:hep-th/9803132 — retrieved for the phase-space-diameter note.
-- [S] S. D. H. Hsu, "Entropy bounds and dark energy," Phys. Lett. B 594, 13 (2004), arXiv:hep-th/0403052; M. Li, "A model of holographic dark energy," Phys. Lett. B 603, 1 (2004), arXiv:hep-th/0403127 — retrieved for the same note.
-- [S] S. Hur, V. Jejjala, M. J. Kavic, D. Minic, T. Takeuchi, "Dynamical dark energy, dual spacetime, and DESI," JCAP 11 (2025) 054, arXiv:2503.20854 — retrieved for the same note.
+- [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), [arXiv:1512.00021](https://arxiv.org/abs/1512.00021) — cited by #11.
+- [S] A. G. Cohen, D. B. Kaplan, A. E. Nelson, "Effective field theory, black holes, and the cosmological constant," Phys. Rev. Lett. 82, 4971 (1999), [arXiv:hep-th/9803132](https://arxiv.org/abs/hep-th/9803132) — retrieved for the phase-space-diameter note.
+- [S] S. D. H. Hsu, "Entropy bounds and dark energy," Phys. Lett. B 594, 13 (2004), [arXiv:hep-th/0403052](https://arxiv.org/abs/hep-th/0403052); M. Li, "A model of holographic dark energy," Phys. Lett. B 603, 1 (2004), [arXiv:hep-th/0403127](https://arxiv.org/abs/hep-th/0403127) — retrieved for the same note.
+- [S] S. Hur, V. Jejjala, M. J. Kavic, D. Minic, T. Takeuchi, "Dynamical dark energy, dual spacetime, and DESI," JCAP 11 (2025) 054, [arXiv:2503.20854](https://arxiv.org/abs/2503.20854) — retrieved for the same note; its two models, of opposite signs of 1 + w, are read in `notes/dual-sector.md` §9.
 - Added by the wiki from model memory (†): S. Weinberg, "The cosmological constant problem," Rev. Mod. Phys. 61, 1 (1989)†, the classic review; J. Martin (2012)†, a more recent review of the problem.
 
 ## Used by
@@ -177,3 +179,4 @@ The checkpoint replaced these with a narrower statement. The cancellation concer
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the hundred-and-twenty-orders figure (a popular article, never a status source).
 - `popsci/angle-of-the-mirror.md` 'What refused to die' — the cancellation framed through the cosmological constant (a popular article).
 - `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, and #11 §7.3's "by symmetry" marked for checking (pending).
+- `notes/dual-sector.md` §9; `review/wiki-build-flags.md` item 72 — Hur et al. 2025's two models, w(a) < −1 under the group's earlier ultraviolet–infrared relation and w(a) ≥ −1 under the alternative, of which the diameter note cites the second (pending)

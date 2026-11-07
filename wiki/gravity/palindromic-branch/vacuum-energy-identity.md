@@ -113,7 +113,7 @@ T = 0 removes one more of the five βₙ: "five βₙ → palindrome (−2) → 
 
 ## Scope
 
-#11 §7.3: "Scope, stated carefully: this cancels the spin-2 interaction potential's vacuum contribution at the aligned point — it does **not** by itself address matter-loop vacuum energy, the "old" cosmological-constant problem, on which bimetric theory is otherwise no better placed than GR [22S]." GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity). Matter-loop vacuum energy is the zero-point energy of quantum matter fields, which gravitates like a cosmological constant and is estimated far above the observed value [T]; that problem is on [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem). Reference [22][S] is A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021.
+#11 §7.3: "Scope, stated carefully: this cancels the spin-2 interaction potential's vacuum contribution at the aligned point — it does **not** by itself address matter-loop vacuum energy, the "old" cosmological-constant problem, on which bimetric theory is otherwise no better placed than GR [22S]." GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity). Matter-loop vacuum energy is the zero-point energy of quantum matter fields, which gravitates like a cosmological constant and is estimated far above the observed value [T]; that problem is on [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem). Reference [22][S] is A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), [arXiv:1512.00021](https://arxiv.org/abs/1512.00021).
 
 The statement carries three limits:
 

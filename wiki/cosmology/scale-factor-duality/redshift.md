@@ -102,7 +102,7 @@ A pulse of light that crosses an expanding universe is stretched along its direc
 
 The phase-space-diameter note states, with live-searched sources, what the expansion conserves for a region that expands with the universe, a fixed comoving region (`papers/phase-space-diameter.md` §3):
 
-- **Phase-space density.** A freely moving particle's momentum, measured by comoving observers, falls as 1/a, and "the distribution of free-streaming particles in phase space is conserved along their paths (Liouville's theorem)" [S: Ma and Bertschinger 1995; Tsagas, Challinor and Maartens 2008]. A blackbody spectrum stays Planckian with T ∝ 1/a.
+- **Phase-space density.** A freely moving particle's momentum, measured by comoving observers, falls as 1/a, and "the distribution of free-streaming particles in phase space is conserved along their paths (Liouville's theorem)" [S: [Ma and Bertschinger 1995](https://arxiv.org/abs/astro-ph/9506072); [Tsagas, Challinor and Maartens 2008](https://arxiv.org/abs/0705.4397)]. A blackbody spectrum stays Planckian with T ∝ 1/a.
 - **A fixed comoving region.** For a fixed comoving region of a homogeneous bath of radiation, the region's diameter grows as a and the radiation's momentum spread falls as 1/a, so the area of phase space the radiation occupies, which counts its occupied quantum cells, is constant. That area is [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter). It is not the bounding box of a fixed set of photons, which spreads as they stream, and not the area of a region that grows in comoving size, such as the particle horizon or the Hubble sphere [T][D].
 - **Photon number since annihilation.** The region's photon number is conserved once electron–positron annihilation is over (k_BT ≪ m_e c², with m_e the electron mass); before it, the region held 4/11 of today's comoving photon number [T][V].
 - **Entropy since reheating.** Throughout, from reheating on, the conserved quantity is the comoving entropy, S ∝ g_s(T)(aT)³, where g_s is the effective number of relativistic degrees of freedom counted for entropy (g\*s on [the radiation era](/wiki/cosmology/early-universe/radiation-era#entropy-and-the-yield-y--ns-t)). The product aT, and with it the radiation's phase-space area, therefore changes as g_s^{−1/3} when species annihilate: by (11/4)^{1/3} = 1.40 for the photons across electron–positron annihilation, and by (106.75/3.909)^{1/3} = 3.01 across all the Standard Model's thresholds [V].
@@ -183,7 +183,7 @@ The popular article #12 connects the two in plain language:
 - V. M. Slipher (1917) †: the spectral shifts of spiral nebulae.
 - G. Lemaître (1927) †; E. Hubble (1929) †: the linear relation between redshift and distance, derived from an expanding solution and found in the data.
 - S. Weinberg, *Cosmology* (Oxford University Press, 2008) †: redshift, the decay of free-particle momenta and the distance measures of a homogeneous universe.
-- D. W. Hogg, "Distance measures in cosmology", arXiv:astro-ph/9905116 (1999) †: the conversions from redshift to distances and times.
+- D. W. Hogg, "Distance measures in cosmology", [arXiv:astro-ph/9905116](https://arxiv.org/abs/astro-ph/9905116) (1999) †: the conversions from redshift to distances and times.
 
 None of these is cited in the program's documents; they are given here from memory and are unverified.
 

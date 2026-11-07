@@ -71,7 +71,7 @@ Discrete symmetries are not covered: "In 1+1, a discrete symmetry can break (as 
 
 ## Hyperbolic sigma models: the non-compact exception
 
-"Non-compact hyperbolic models are an exception [15]" (toy-model note §1). A hyperbolic sigma model takes as target the hyperbolic space SO(1, N)/SO(N), which is one sheet of a two-sheeted hyperboloid with the positive metric described above, and whose symmetry group SO(1, N) is non-compact [T]. Reference [15] is two papers: M. Niedermaier and E. Seiler, Ann. Henri Poincaré 6, 1025 (2005), hep-th/0312293; and A. Duncan, M. Niedermaier and E. Seiler, "Vacuum orbit and spontaneous symmetry breaking in hyperbolic sigma models", Nucl. Phys. B 720, 235 (2005), with an erratum in Nucl. Phys. B 758, 330 (2006), hep-th/0405163.
+"Non-compact hyperbolic models are an exception [15]" (toy-model note §1). A hyperbolic sigma model takes as target the hyperbolic space SO(1, N)/SO(N), which is one sheet of a two-sheeted hyperboloid with the positive metric described above, and whose symmetry group SO(1, N) is non-compact [T]. Reference [15] is two papers: M. Niedermaier and E. Seiler, Ann. Henri Poincaré 6, 1025 (2005), [hep-th/0312293](https://arxiv.org/abs/hep-th/0312293); and A. Duncan, M. Niedermaier and E. Seiler, "Vacuum orbit and spontaneous symmetry breaking in hyperbolic sigma models", Nucl. Phys. B 720, 235 (2005), with an erratum in Nucl. Phys. B 758, 330 (2006), [hep-th/0405163](https://arxiv.org/abs/hep-th/0405163).
 
 The second paper's abstract, as the round-4 referee retrieved it: "(ii) the SO(1,N) symmetry is spontaneously broken. For D=2 this shows that the systems evade the Mermin-Wagner theorem." (`review/round4/referee/audit-notes.md`, Step 1). The worklog's summary of the second paper: "SO(1,N) broken in D ≥ 2, evading Mermin–Wagner" ('Chunk 1 results', citations retrieved [S]).
 
@@ -93,8 +93,8 @@ The worklog had listed the hyperbolic route as one way to pass criterion S4, "Or
 
 The worklog's prior-art survey, with every citation retrieved [S], found related models but "no existing action has Born reciprocity exactly symmetric and spontaneously broken with η or K as order parameter" ('Chunk 1 results'). The two closest:
 
-- **Born sigma models.** "Born sigma models choose the polarization by gauging [3]" (note §1; V. E. Marotta and R. J. Szabo, Rev. Math. Phys. 33, 2150031 (2021), arXiv:1910.09997). The referee: they "treat Born geometry as target structure, not as dynamical (H,K) fields", and an INSPIRE search for "Born geometry", coset and "order parameter" "returned 0" (Step 3).
-- **Broken O(D,D) in [double field theory](/wiki/phase-space/born-geometry/double-field-theory).** Angus, Kim and Park (arXiv:2111.07947): "there H is the order parameter, with η fixed" (worklog, 'Chunk 1 results'). In model I, by contrast, the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η = ωK is the order parameter ([the order parameter](/wiki/symmetry-breaking/order-parameter)).
+- **Born sigma models.** "Born sigma models choose the polarization by gauging [3]" (note §1; V. E. Marotta and R. J. Szabo, Rev. Math. Phys. 33, 2150031 (2021), [arXiv:1910.09997](https://arxiv.org/abs/1910.09997)). The referee: they "treat Born geometry as target structure, not as dynamical (H,K) fields", and an INSPIRE search for "Born geometry", coset and "order parameter" "returned 0" (Step 3).
+- **Broken O(D,D) in [double field theory](/wiki/phase-space/born-geometry/double-field-theory).** Angus, Kim and Park ([arXiv:2111.07947](https://arxiv.org/abs/2111.07947)): "there H is the order parameter, with η fixed" (worklog, 'Chunk 1 results'). In model I, by contrast, the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η = ωK is the order parameter ([the order parameter](/wiki/symmetry-breaking/order-parameter)).
 
 ## Standard references
 

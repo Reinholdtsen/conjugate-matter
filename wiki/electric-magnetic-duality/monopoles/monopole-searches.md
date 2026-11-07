@@ -25,7 +25,7 @@ sources:
 
 *The monopole flux bounds are upper limits on how many [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) pass through the Galaxy, stated as a flux per square centimetre per second per steradian. The Parker bound comes from the Galaxy's magnetic field: monopoles moving through it would gain energy from the field and drain it faster than the galactic dynamo regenerates it, so the field's survival caps the flux; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy. Direct searches, among them the Monopole, Astrophysics and Cosmic Ray Observatory (MACRO) whose limit the withdrawn #14 quotes, have found none. The program uses these bounds counterfactually. They showed that the withdrawn manuscript #14's soliton model could not have been magnetically charged under our electromagnetism, and the same counterfactual constrains one form of P.R.'s open [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification), the setting of his open explanation of the null result: its magnetic analogs must be spread out in position, in their field profile rather than their quantum state, or bound into magnetically neutral composites.*
 
-**Status:** Established — [T] — limits from the literature, cited without tags in [#14](/wiki/dark-matter/candidates/soliton-candidate) as [20] (the Particle Data Group's 2024 monopole review by Milstead and Weinberg; Turner–Parker–Bogdan 1982; Parker 1970), [21] (MACRO's final result, 2002) and [22] (Adams et al. 1993). [The round-3 audit](/wiki/method/review/round-3/rulings) checked each figure #14 quotes against its source and found it supported (Step 1). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
+**Status:** Established — [T] — limits from the literature, cited without tags in [#14](/wiki/dark-matter/candidates/soliton-candidate) as [20] (the Particle Data Group's 2024 monopole review by Milstead and Weinberg; Turner–Parker–Bogdan 1982; Parker 1970), [21] (MACRO's final result, 2002) and [22] ([Adams et al. 1993](https://doi.org/10.1103/PhysRevLett.70.2511)). [The round-3 audit](/wiki/method/review/round-3/rulings) checked each figure #14 quotes against its source and found it supported (Step 1). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
 ## What a flux limit measures [T]
 
@@ -53,7 +53,7 @@ Adams, Fatuzzo, Freese, Tarlé, Watkins and Turner (1993) applied the argument t
 
 The same item notes the variants: "Others quote a 1.2×10⁻¹⁶ prefactor, and PDG 2024 Eq. 95.10 adds a low-mass floor." The round-3 audit found the abstract supporting #14's figure exactly, and judged the added term small: "(PDG eq. 95.10 adds a +3e-6 term inside the bracket - negligible here.)" (Step 1). The worklog's literature report read only the abstract of this paper: "Adams et al. 1993 full text (paywalled; abstract only)".
 
-**Charge.** Both Parker bounds are stated for a monopole of the Dirac charge g_D ([Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization)). A larger charge drains more energy per monopole, so the bounds tighten; worklog R3 gives the scaling "(g/g_D)⁻² at high mass, (g/g_D)⁻¹ at low mass [Kobayashi–Perri 2023, arXiv:2307.07553]".
+**Charge.** Both Parker bounds are stated for a monopole of the Dirac charge g_D ([Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization)). A larger charge drains more energy per monopole, so the bounds tighten; worklog R3 gives the scaling "(g/g_D)⁻² at high mass, (g/g_D)⁻¹ at low mass [Kobayashi–Perri 2023, [arXiv:2307.07553](https://arxiv.org/abs/2307.07553)]".
 
 ## Direct searches: MACRO [T]
 
@@ -62,7 +62,7 @@ A monopole passing through matter can be detected in two standard ways [T]:
 - **Induction.** A monopole passing through a superconducting loop changes the magnetic flux through the loop by an amount fixed by its magnetic charge, and so changes the loop's persistent current by a fixed step, whatever the monopole's speed or mass. For a Dirac monopole the step is set by g_D = 2π/e.
 - **Ionization.** A magnetic charge g moving at speed v acts on atomic electrons like an electric charge of size g v (in units with c = 1). Since g_D is large in units of e, g_D/e = 1/(2α), a fast Dirac monopole ionizes matter far more strongly than a singly charged particle at the same speed, and leaves a distinctive track; a slow one deposits much less and needs detectors built for slow particles.
 
-MACRO, the Monopole, Astrophysics and Cosmic Ray Observatory, was a large underground detector at the Gran Sasso laboratory in Italy† that combined several detection techniques to cover a wide range of monopole speeds†. Its final result is #14's reference [21] (M. Ambrosio et al., Eur. Phys. J. C 25, 511 (2002), hep-ex/0207020). The round-3 audit read its Table 2 as "<= 2.8e-16 for m >~ 1e10 GeV, beta > 1e-4", with a global limit of 1.4e-16, and found that it supports #14's 2.8e-16 exactly (Step 1). The limit is F ≤ 2.8×10⁻¹⁶ cm⁻² s⁻¹ sr⁻¹ for masses above about 10¹⁰ GeV and speeds above 10⁻⁴ c (β = v/c). Which line of the table applies depends on the mass: when #14's benchmark moved to 3×10¹³ GeV, the worklog recorded that "the counterfactual MACRO limit is ≤ 2.8×10⁻¹⁶ (m ≳ 10¹⁰ GeV row), not 1.4×10⁻¹⁶ (m ≳ 10¹⁶ GeV row)" (finding F1). The Particle Data Group's review, #14's reference [20], collects the limits of MACRO and of later searches.
+MACRO, the Monopole, Astrophysics and Cosmic Ray Observatory, was a large underground detector at the Gran Sasso laboratory in Italy† that combined several detection techniques to cover a wide range of monopole speeds†. Its final result is #14's reference [21] (M. Ambrosio et al., Eur. Phys. J. C 25, 511 (2002), [hep-ex/0207020](https://arxiv.org/abs/hep-ex/0207020)). The round-3 audit read its Table 2 as "<= 2.8e-16 for m >~ 1e10 GeV, beta > 1e-4", with a global limit of 1.4e-16, and found that it supports #14's 2.8e-16 exactly (Step 1). The limit is F ≤ 2.8×10⁻¹⁶ cm⁻² s⁻¹ sr⁻¹ for masses above about 10¹⁰ GeV and speeds above 10⁻⁴ c (β = v/c). Which line of the table applies depends on the mass: when #14's benchmark moved to 3×10¹³ GeV, the worklog recorded that "the counterfactual MACRO limit is ≤ 2.8×10⁻¹⁶ (m ≳ 10¹⁰ GeV row), not 1.4×10⁻¹⁶ (m ≳ 10¹⁶ GeV row)" (finding F1). The Particle Data Group's review, #14's reference [20], collects the limits of MACRO and of later searches.
 
 The three limits #14 used:
 
@@ -100,12 +100,12 @@ The shared-photon form of P.R.'s magnetic-mirror conjecture is the exception (#1
 As #14 cites them (without tags; the round-3 audit checked each against its source):
 
 - [20] Particle Data Group, Review of Particle Physics (2024), "Magnetic Monopoles" review (D. Milstead, E. J. Weinberg); M. S. Turner, E. N. Parker, T. J. Bogdan, Phys. Rev. D 26, 1296 (1982); E. N. Parker, Astrophys. J. 160, 383 (1970).
-- [21] MACRO Collaboration (M. Ambrosio et al.), Eur. Phys. J. C 25, 511 (2002), hep-ex/0207020.
+- [21] MACRO Collaboration (M. Ambrosio et al.), Eur. Phys. J. C 25, 511 (2002), [hep-ex/0207020](https://arxiv.org/abs/hep-ex/0207020).
 - [22] F. C. Adams, M. Fatuzzo, K. Freese, G. Tarlé, R. Watkins, M. S. Turner, Phys. Rev. Lett. 70, 2511 (1993).
 
 From the v3 worklog's literature report:
 
-- Kobayashi–Perri, Phys. Rev. D 108, 083005 (2023), arXiv:2307.07553 — the charge scaling of the Parker bounds.
+- Kobayashi–Perri, Phys. Rev. D 108, 083005 (2023), [arXiv:2307.07553](https://arxiv.org/abs/2307.07553) — the charge scaling of the Parker bounds.
 
 ## Used by
 

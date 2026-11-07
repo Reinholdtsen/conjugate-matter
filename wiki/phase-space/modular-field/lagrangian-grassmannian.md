@@ -23,6 +23,8 @@ sources:
   - "notes/closed-universe.md §8"
   - "verify/closed_universe.py section F"
   - "review/wiki-build-flags.md flag 61"
+  - "notes/dual-sector.md §8"
+  - "review/wiki-build-flags.md item 70"
 ---
 
 *The Lagrangian Grassmannian Λ(d) is the space of all ways to split a 2d-dimensional phase space into a "position" half and a "momentum" half. Each [Lagrangian subspace](/wiki/phase-space/reciprocity/lagrangian-polarizations), a d-dimensional plane on which the symplectic form vanishes, is one point of it. For d = 1 it is the set of lines through the origin of the (x, p) plane, which is a circle; in general it is the compact manifold U(d)/O(d), of dimension 10 when d = 4. It contains a loop that cannot be shrunk to a point, the Maslov circle, so any angle measured around that loop is periodic. At d = 4 its topology also allows point defects and textures, and whether the early universe made any is an open question of the program. It also forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain). In the program it is the space of possible vacuum polarizations, and its circle direction carries the dark-energy field. The mathematics is standard.*
@@ -107,6 +109,8 @@ In the d = 1 coset model of the toy-model note, the vacua at H = 1 are the real 
 
 The program's documents cite none of these; they tag the facts [T] or "[standard]".
 
+In the physics nearest the program, the same space is named as the space of choices of the neutral metric η of [Born geometry](/wiki/phase-space/born-geometry/born-structures), with no potential on it: in [Freidel, Leigh and Minic 2016](https://arxiv.org/abs/1606.01829) (§2) U(d)/O(d) "represents the choice of inequivalent lifts" η "that preserve the symplectic structure and the vacuum state" [S]. It is the manifold over which the order parameter of [P2′](/wiki/program/postulates/p2-prime) ranges, though the paper names no order parameter (`notes/dual-sector.md` §8; flag 70, pending).
+
 ## Used by
 
 - [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) and [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the dark-energy field is the angle around the Maslov circle.
@@ -139,3 +143,4 @@ The program's documents cite none of these; they tag the facts [T] or "[standard
 - `papers/reciprocity-toy-models.md` §1, §2 — Lagrangian null lines; Λ(1) in model I's Goldstone spectrum.
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — the compact Goldstone as the checkpoint's Maslov circle.
 - `verify/toy_coset.py` — the rank-1 Hessian: three flat directions, one massive.
+- `notes/dual-sector.md` §8; `review/wiki-build-flags.md` item 70 — U(d)/O(d) named in Freidel, Leigh and Minic 2016 as the space of choices of η, with no potential on it; pending.

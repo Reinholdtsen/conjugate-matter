@@ -72,7 +72,7 @@ Hassan and Rosen showed that the bimetric theory with this potential is free of 
 
 ## The spectrum [T]
 
-The simplest backgrounds have the two metrics proportional, f = c²g with c a constant. Linearizing about such a background, the fluctuations of g and f combine into one massless spin-2 mode and one massive spin-2 mode. The massless mode is a graviton with the gauge symmetry of [general relativity](/wiki/gravity/spin-2-fields/general-relativity); the massive one has a [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass set by m and a combination of the βₙ. Matter coupled to g feels both modes in proportions set by the two Planck masses and the background ratio c: the massive mode's Yukawa strength relative to gravity is (4/3)(M_f c/M_g)² (Lüben, Mörtsell and Schmidt-May 2020, eq. 9 [S], and Enander and Mörtsell 2013, eq. 4.1 [S], as round-5 ruling R1 reads them; the phase-space-diameter note writes c as u; [a massive spin-2 mediator](/wiki/gravity/spin-2-fields/yukawa-forces#a-massive-spin-2-mediator)).
+The simplest backgrounds have the two metrics proportional, f = c²g with c a constant. Linearizing about such a background, the fluctuations of g and f combine into one massless spin-2 mode and one massive spin-2 mode. The massless mode is a graviton with the gauge symmetry of [general relativity](/wiki/gravity/spin-2-fields/general-relativity); the massive one has a [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass set by m and a combination of the βₙ. Matter coupled to g feels both modes in proportions set by the two Planck masses and the background ratio c: the massive mode's Yukawa strength relative to gravity is (4/3)(M_f c/M_g)² ([Lüben, Mörtsell and Schmidt-May 2020](https://arxiv.org/abs/1812.08686), eq. 9 [S], and [Enander and Mörtsell 2013](https://arxiv.org/abs/1306.1086), eq. 4.1 [S], as round-5 ruling R1 reads them; the phase-space-diameter note writes c as u; [a massive spin-2 mediator](/wiki/gravity/spin-2-fields/yukawa-forces#a-massive-spin-2-mediator)).
 
 Calc note #7 §4 applies these "Standard bimetric facts" [T] to the program, for Standard Model (SM) matter: "one massless combination (our graviton, coupling to SM stress) and one massive (X); safety requires the massless combination to dominate SM couplings — a parametric check to log". It logged graviton-mass bounds from gravitational-wave observations ("m_g ≲ 10⁻²³ eV territory") as a check on the mixing angle.
 
@@ -103,12 +103,12 @@ After the palindrome, #8 §3 quantifies the truncation: "HR bimetric's five-func
 
 As the documents give them:
 
-- [10]† S. F. Hassan, R. A. Rosen, "Resolving the ghost problem in non-linear massive gravity," Phys. Rev. Lett. 108, 041101 (2012), arXiv:1106.3344 (#11).
-- [11]† S. F. Hassan, R. A. Rosen, "Bimetric gravity from ghost-free massive gravity," JHEP 1202, 126 (2012), arXiv:1109.3515 (#11). #14 lists both papers, unmarked, as its [3].
-- [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), arXiv:1203.5783 (#11).
-- [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021 (#11): a review of the theory, which #11 cites for its §7.3 statement on the cosmological-constant problem.
-- [24][S] "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515" (#11, which gives no authors; see flag 9 in `review/wiki-build-flags.md`).
-- [25][S] S. Hossenfelder, "A bi-metric theory with exchange symmetry," Phys. Rev. D 78, 044015 (2008), arXiv:0807.2838 (#11).
+- [10]† S. F. Hassan, R. A. Rosen, "Resolving the ghost problem in non-linear massive gravity," Phys. Rev. Lett. 108, 041101 (2012), [arXiv:1106.3344](https://arxiv.org/abs/1106.3344) (#11).
+- [11]† S. F. Hassan, R. A. Rosen, "Bimetric gravity from ghost-free massive gravity," JHEP 1202, 126 (2012), [arXiv:1109.3515](https://arxiv.org/abs/1109.3515) (#11). #14 lists both papers, unmarked, as its [3].
+- [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), [arXiv:1203.5783](https://arxiv.org/abs/1203.5783) (#11).
+- [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), [arXiv:1512.00021](https://arxiv.org/abs/1512.00021) (#11): a review of the theory, which #11 cites for its §7.3 statement on the cosmological-constant problem.
+- [24][S] "Partially massless bimetric gravity and its exchange-symmetric parameter point, [arXiv:1609.09515](https://arxiv.org/abs/1609.09515)" (#11, which gives no authors; see flag 9 in `review/wiki-build-flags.md`).
+- [25][S] S. Hossenfelder, "A bi-metric theory with exchange symmetry," Phys. Rev. D 78, 044015 (2008), [arXiv:0807.2838](https://arxiv.org/abs/0807.2838) (#11).
 
 Added by the wiki from model memory (†):
 

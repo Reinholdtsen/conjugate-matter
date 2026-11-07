@@ -29,6 +29,9 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 5"
   - "papers/broken-born-checkpoint-v2.md §14 item 12"
   - "CLAUDE.md 'Since the handoff'"
+  - "notes/dual-sector.md §4"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
 ---
 
 *A closed universe is one whose space is finite in volume and curved like the surface of a sphere, one dimension up: the spatial curvature is positive, k = +1, and a traveller going straight ahead would in principle return to the start. The closed-universe note of 2026-10-27 works out what closure would mean for the Comatter program. Nothing in the program derives closure, but the program's dark-energy potential never goes negative, and with such a potential only a closed universe stops expanding and falls back; the turnaround that the program identifies with the [conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) therefore needs a closed universe. Current data, fitted with the program's own class of dark-energy models, disfavour closure at about two standard deviations. If the universe is closed, the data set only a minimum on its largest size, not a maximum. Momentum space does not close with it: the allowed momenta become discrete, as a string of fixed length holds only certain wavelengths, and their spacing is finest at the turnaround.*
@@ -88,7 +91,7 @@ The second is the condition that the acceleration is not positive at the maximum
 
 ### Prior art [T]
 
-Recollapse of a closed universe with oscillating quintessence is published: Barrow 1987 †; Tipler et al., gr-qc/0003082, §7 [S] (§2; flag 50). The τ potential itself is the pseudo-Nambu–Goldstone potential of Frieman, Hill, Stebbins and Waga 1995 (astro-ph/9505060) [S], which neither #1 nor #11 cites (flag 54; [axion-like fields](/wiki/cosmology/dark-energy/axion-like-fields)).
+Recollapse of a closed universe with oscillating quintessence is published: Barrow 1987 †; Tipler et al., [gr-qc/0003082](https://arxiv.org/abs/gr-qc/0003082), §7 [S] (§2; flag 50). The τ potential itself is the pseudo-Nambu–Goldstone potential of Frieman, Hill, Stebbins and Waga 1995 ([astro-ph/9505060](https://arxiv.org/abs/astro-ph/9505060)) [S], which neither #1 nor #11 cites (flag 54; [axion-like fields](/wiki/cosmology/dark-energy/axion-like-fields)).
 
 ### The over-constraint moves [D][V]
 
@@ -98,8 +101,8 @@ The [dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) c
 
 **Published values [S]** (§2):
 
-- DESI DR2 with the cosmic microwave background (CMB), in ΛCDM with free curvature: Ω_K = 0.0023 ± 0.0011 (arXiv:2503.14738, Table 5). DESI is the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi), DR2 its Data Release 2, and ΛCDM the standard model of a cosmological constant plus cold dark matter.
-- Exponential quintessence with free curvature: Ω_K = 0.003 ± 0.001 (Akrami, Alestas and Nesseris, arXiv:2504.04226, abstract).
+- DESI DR2 with the cosmic microwave background (CMB), in ΛCDM with free curvature: Ω_K = 0.0023 ± 0.0011 ([arXiv:2503.14738](https://arxiv.org/abs/2503.14738), Table 5). DESI is the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi), DR2 its Data Release 2, and ΛCDM the standard model of a cosmological constant plus cold dark matter.
+- Exponential quintessence with free curvature: Ω_K = 0.003 ± 0.001 (Akrami, Alestas and Nesseris, [arXiv:2504.04226](https://arxiv.org/abs/2504.04226), abstract).
 
 A positive Ω_K is the open side; closure is Ω_K < 0.
 
@@ -111,7 +114,7 @@ A positive Ω_K is the open side; closure is Ω_K < 0.
 
 **The wrong proxy.** The family w₀wₐ+Ω_K, with the [CPL](/wiki/cosmology/dark-energy/cpl-parametrization) form w(a) = w₀ + wₐ(1 − a), gives Ω_K = +0.00071 ± 0.00151 in the same fit, with probability of closure 0.32. Its looser bound comes from the phantom crossing, w₀ + wₐ < −1 at w₀ > −1. The program's w ≥ −1 forbids that crossing (flag 43; [the no-phantom bound](/wiki/cosmology/dark-energy/no-phantom-bound)), so w₀wₐ+Ω_K is not a proxy for the program's model (§2).
 
-**Limits of measurement [S].** Curvature below |Ω_k| ≈ 10⁻⁴ is not measurable against cosmic variance (Leonard, Bull and Allison 2016, arXiv:1604.01410). A measured closed curvature with |Ω_k| > 10⁻⁴ would exclude eternal inflation in our past (Kleban and Schillo 2012, arXiv:1202.5037; Guth and Nomura 2012, arXiv:1203.6876) (§2).
+**Limits of measurement [S].** Curvature below |Ω_k| ≈ 10⁻⁴ is not measurable against cosmic variance (Leonard, Bull and Allison 2016, [arXiv:1604.01410](https://arxiv.org/abs/1604.01410)). A measured closed curvature with |Ω_k| > 10⁻⁴ would exclude eternal inflation in our past (Kleban and Schillo 2012, [arXiv:1202.5037](https://arxiv.org/abs/1202.5037); Guth and Nomura 2012, [arXiv:1203.6876](https://arxiv.org/abs/1203.6876)) (§2).
 
 **Result.** "Closure is a requirement of the turnaround story, not a consequence of the program. In the program's model class the data disfavour it at about 2σ." (§2). The fit is a background fit without supernovae; a fit of the actual potential against full likelihoods is open (below).
 
@@ -178,7 +181,7 @@ The reading also contradicts the record's k̃ = 0, and it rests on the underived
 
 ## The dual frame: what closure fixes and what it does not
 
-**The term is underived [O].** The dual Einstein–Hilbert term in ã, with its mass M̃, is used in #1 §6 under a [D] tag, but no document derives it from the geometric action S_H. The a⁻⁶ step in G_eff of #11 §10 and row 10 rests on it (§7; flag 49). Until it is derived, every bound on the dual frame tests a postulate.
+**The term is underived [O].** The dual Einstein–Hilbert term in ã, with its mass M̃, is used in #1 §6 under a [D] tag, but no document derives it from the geometric action S_H. The a⁻⁶ step in G_eff of #11 §10 and row 10 rests on it (§7; flag 49). Until it is derived, every bound on the dual frame tests a postulate. A dual Einstein term is treated in the literature, in string theory's [doubled phase space](/wiki/dark-matter/conjugate-matter/dual-standard-model#what-dual-means-there), whose dual coordinate is not momentum but a coordinate with a momentum of its own: [Berglund, Hübsch and Minić 2019](https://arxiv.org/abs/1905.08269) (Phys. Lett. B) [S] integrate the doubled gravitational action over that coordinate, and "the curvature of the canonically conjugate dual space provides for a positive cosmological constant to leading order", the opposite assignment to #11 §10's "dual curvature ↦ negative dark radiation" (`notes/dual-sector.md` §4, §9; flag 72, pending).
 
 **Only two combinations are physical [D][V].** Under the record's dictionary only vM̃²C³, the coefficient of the a⁻⁶ term, and vM̃²k̃C, the dual curvature, are physical, so "M̃ = M_P" constrains nothing unless the comoving unit C is fixed. Closure fixes the normalization a = R/λ, but not the a⁻⁶ coefficient (§7).
 
@@ -215,7 +218,7 @@ The note's §9 lists [O]:
 3. **The remaining calculations:** inflation and the bimetric sector together (G_eff = 2G_N during inflation, two light gravitons); the energy splitting between the ±K_ref polarizations that closure induces; perturbations, and X's L = 2 modes, through the recollapse.
 4. **Defects of the polarization** (flag 61). If a transition in the early universe selected the polarization, the ℤ₂ point defects and the τ-strings above could form at it; the gravity-sector analysis lists their fate as open. Whether such a transition happened, what it left, and whether the point defects would pose a monopole problem of the program's own are not computed. They are defects of the program's own order parameter, unlike conjugate-sector solitons, whose existence depends on gauge content the record does not specify. #11 lists the question as §14 item 12 ([Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
 
-The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 2019 as a lead, as "Open from the closed-universe note, not queued", and the fourth among those "Open from the monopole discussion, not queued". All four are on [open problems and the queue](/wiki/status/open-problems).
+The root `CLAUDE.md` lists the first two, and [Artigas, Mielczarek and Rovelli 2019](https://arxiv.org/abs/1904.11338) as a lead, as "Open from the closed-universe note, not queued", and the fourth among those "Open from the monopole discussion, not queued". All four are on [open problems and the queue](/wiki/status/open-problems).
 
 ## Record of the investigation
 
@@ -240,3 +243,4 @@ The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 20
 - `review/round5-adjudication.md` 'Rulings' R11 and `papers/phase-space-diameter.md` §6 — a closed universe can turn around without negative energy
 - `papers/broken-born-checkpoint-v2.md` §10, §13 row 5 — "eventually goes negative" and the row the turnaround tests
 - `CLAUDE.md` 'Since the handoff' — the note's results and its open items, not queued; the polarization's defects among the monopole discussion's open items; the symmetric reading, under review
+- `notes/dual-sector.md` §9 and `review/wiki-build-flags.md` item 72 — a dual Einstein term in the literature, the dual space's curvature giving a positive cosmological constant (Berglund, Hübsch and Minić 2019); §4 — their dual space spanned by the doubled coordinate, not by momentum; searched and verified by independent agents, not reviewed; the flag pending

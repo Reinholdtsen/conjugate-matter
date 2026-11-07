@@ -57,8 +57,8 @@ The round-3 audit quotes the stable regime from Akrami et al. (p. 7): "the alpha
 
 The works, as #14's reference list gives them (unmarked there; full entries on [the references page](/wiki/references)):
 
-- [4] D. Comelli, M. Crisostomi, L. Pilo, JHEP 06 (2012) 085, arXiv:1202.1986; F. Könnig, Y. Akrami, L. Amendola, M. Motta, A. R. Solomon, Phys. Rev. D 90, 124014 (2014), arXiv:1407.4331; M. Lagos, P. G. Ferreira, JCAP 12 (2014) 026, arXiv:1410.0207.
-- [5] Y. Akrami, S. F. Hassan, F. Könnig, A. Schmidt-May, A. R. Solomon, Phys. Lett. B 748, 37 (2015), arXiv:1503.07521.
+- [4] D. Comelli, M. Crisostomi, L. Pilo, JHEP 06 (2012) 085, [arXiv:1202.1986](https://arxiv.org/abs/1202.1986); F. Könnig, Y. Akrami, L. Amendola, M. Motta, A. R. Solomon, Phys. Rev. D 90, 124014 (2014), [arXiv:1407.4331](https://arxiv.org/abs/1407.4331); M. Lagos, P. G. Ferreira, JCAP 12 (2014) 026, [arXiv:1410.0207](https://arxiv.org/abs/1410.0207).
+- [5] Y. Akrami, S. F. Hassan, F. Könnig, A. Schmidt-May, A. R. Solomon, Phys. Lett. B 748, 37 (2015), [arXiv:1503.07521](https://arxiv.org/abs/1503.07521).
 - [6] A. Higuchi, Nucl. Phys. B 282, 397 (1987).
 
 ## Why the program cannot use the escape
@@ -71,7 +71,7 @@ The program's case therefore falls in neither studied regime. X is heavy, unlike
 
 - **A large mass at equal Planck masses.** The worklog's open question, with its one lead: "(De Felice et al. 2014, cited in Akrami et al.: 'the instability becomes negligible for large values of m'; not yet read)". No document gives the reference's details or reports reading it.
 - **Beyond linear order.** The stable regime "holds at linear order only, with tuned βₙ". The program's own coefficients are fixed to the [palindromic branch](/wiki/gravity/palindromic-branch/palindrome) with two free parameters ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)); no document compares them with the tuned coefficients of that regime.
-- **The early universe.** "the strong-coupling era H > H⋆ is unresolved" (R7; the worklog does not define H⋆), and [the handoff](/wiki/history/documents/handoff)'s summary of the round-2 finding ends "early universe remains open" (`HANDOFF.md` §6). The phase-space-diameter note lists the same gap among the caveats of its bound on X's range: "Bimetric cosmologies are unstable while H exceeds the spin-2 mass" (Lüben, Mörtsell and Schmidt-May 2020 [S]), "so the early universe is a separate question, open in the record" (§8.2; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
+- **The early universe.** "the strong-coupling era H > H⋆ is unresolved" (R7; the worklog does not define H⋆), and [the handoff](/wiki/history/documents/handoff)'s summary of the round-2 finding ends "early universe remains open" (`HANDOFF.md` §6). The phase-space-diameter note lists the same gap among the caveats of its bound on X's range: "Bimetric cosmologies are unstable while H exceeds the spin-2 mass" ([Lüben, Mörtsell and Schmidt-May 2020](https://arxiv.org/abs/1812.08686) [S]), "so the early universe is a separate question, open in the record" (§8.2; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 
 ## The closed-universe note: a concrete instability
 

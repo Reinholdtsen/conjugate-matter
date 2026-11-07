@@ -100,8 +100,8 @@ The vacuum's selection of a polarization could itself leave point defects of the
 ## References
 
 - J. Preskill, Phys. Rev. Lett. 43, 1365 (1979) — #14 [19], without a tag; read from a scan for the v3 worklog, and its abstract checked by the round-3 audit.
-- H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), arXiv:0905.1720 — #11 [28S].
-- D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," arXiv:2607.20843 (2026) — #11 [29S].
+- H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), [arXiv:0905.1720](https://arxiv.org/abs/0905.1720) — #11 [28S].
+- D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," [arXiv:2607.20843](https://arxiv.org/abs/2607.20843) (2026) — #11 [29S].
 - E. W. Kolb, M. S. Turner, *The Early Universe* (Addison-Wesley, 1990) — #14 [17], cited there for freeze-out; a standard textbook account of the monopole problem.
 
 Added by the wiki from model memory (†):

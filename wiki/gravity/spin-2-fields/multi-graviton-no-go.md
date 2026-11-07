@@ -97,13 +97,13 @@ The [popular articles](/wiki/history/documents/popular-articles) give the same s
 
 The checkpoint cites the theorem as [8†], from model memory, so #11's own entry has not been checked against the source; that check belongs to the open literature battery. The same paper is reference [2] of #14, with the same journal, volume, page, year and arXiv identifier. The round-3 audit resolved all 23 of #14's references (37 individual items) on INSPIRE "with matching authors / journal / volume / page / year / arXiv id", read the abstract of this one, and marked it as supporting "massless X coupled to gravity is excluded" ([round-3 rulings and citation audit](/wiki/method/review/round-3/rulings)).
 
-The date differs between documents: #12 says the theorem was "proved in 2000", while #11 cites the 2001 journal paper. The arXiv identifier, hep-th/0007220, is the preprint; the two years are the preprint year and the journal year of the same work, not a disagreement of substance ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+The date differs between documents: #12 says the theorem was "proved in 2000", while #11 cites the 2001 journal paper. The arXiv identifier, [hep-th/0007220](https://arxiv.org/abs/hep-th/0007220), is the preprint; the two years are the preprint year and the journal year of the same work, not a disagreement of substance ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
 ## References
 
 As the documents give them:
 
-- [8]† N. Boulanger, T. Damour, L. Gualtieri, M. Henneaux, "Inconsistency of interacting, multi-graviton theories," Nucl. Phys. B 597, 127 (2001), hep-th/0007220 (#11). #14 lists the same paper, unmarked, as [2].
+- [8]† N. Boulanger, T. Damour, L. Gualtieri, M. Henneaux, "Inconsistency of interacting, multi-graviton theories," Nucl. Phys. B 597, 127 (2001), [hep-th/0007220](https://arxiv.org/abs/hep-th/0007220) (#11). #14 lists the same paper, unmarked, as [2].
 - For the massive escape: [9]† de Rham–Gabadadze–Tolley, [10]† and [11]† Hassan–Rosen, [12]† Hinterbichler–Rosen (#11); see [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity), [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) and [the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation).
 
 ## Used by

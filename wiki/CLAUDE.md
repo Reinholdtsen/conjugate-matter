@@ -29,8 +29,10 @@ It is written for three readers:
      (2026-10-27, not reviewed) is current for its scope, a closed universe; `notes/velocity-gated-gravity.md`
      and `notes/gate-mechanism.md` (2026-10-28, not reviewed) are current for theirs, momentum gravity as a
      velocity-dependent force and the gate's mechanism; `notes/literature-check.md` (2026-11-02, not reviewed) is
-     current for its scope, which of P.R.'s conjectures are already published; #1 and #9 are superseded
-     as reference; #14 is withdrawn;
+     current for its scope, which of P.R.'s conjectures are already published; `notes/dual-sector.md`
+     (2026-11-06, not reviewed) is current for its scope, the published work of Minic and coauthors on dark
+     matter as the dual of visible matter, where it qualifies the literature-check note; #1 and #9 are
+     superseded as reference; #14 is withdrawn;
   7. `popsci/`. #12 presents the framework as if it were confirmed. It is never a source
      for a claim's status.
 - **No new numbers.** Every number on a page is copied from a source document or a
@@ -281,13 +283,27 @@ gate checks for this. Code spans and `text` fences need no escaping.
 
 ## Links
 
-- Use absolute `/wiki/...` links only. Repo files are not linked; cite them as inline
+- Internal links are absolute `/wiki/...` links only. Repo files are not linked; cite them as inline
   code paths (`papers/broken-born-checkpoint-v2.md` §5), which the gate checks exist.
   The prefix is a settled choice (Paul, 2026-10-22), matching `bitsy-services/wiki`; do not
   switch forms. The trade-off: these links do not resolve when the raw Markdown is browsed
   (on GitHub, for example). In a Hugo site they work as written at the domain root. Under a
   subpath they work in `site/`, whose `BookPortableLinks = 'error'` resolves each link to its
   page's URL (`site/CLAUDE.md`).
+- **A cited paper links to itself** (Paul, 2026-11-06: "whenever referenced include a link to the
+  paper itself if possible"). Every paper identifier in prose is a link to the paper:
+  `[arXiv:2003.00318](https://arxiv.org/abs/2003.00318)`, `[doi:10.1103/PhysRevLett.45.1](https://doi.org/10.1103/PhysRevLett.45.1)`,
+  `[handle 1773/45542](https://hdl.handle.net/1773/45542)`. A paper cited by author and year is linked
+  at its first mention on a page when its identifier is known: `[Minic 2020](https://arxiv.org/abs/2003.00318)`.
+  Link the arXiv abstract page when the paper is on arXiv, else its DOI, else its INSPIRE record
+  (`https://inspirehep.net/literature/N`) or handle. A † citation, from model memory, gets a link only
+  once its identifier has been retrieved: a remembered identifier can point at another paper. The
+  gate's `paper` check requires every identifier in prose to be such a link and checks each link offline
+  against `scripts/wiki-papers.tsv`: the label must name the linked identifier (an INSPIRE record as
+  `[INSPIRE N](https://inspirehep.net/literature/N)`), or else the paper's registered first author, with
+  any year in the label one of the paper's registered years. A label that names another identifier fails.
+  `scripts/wiki-papers.py` adds a new identifier to the registry from INSPIRE, arXiv or Crossref (it
+  needs the network; the gate does not).
 - Link every wiki concept on its first mention on each page. When the concept is a
   section of a larger page, deep-link the section (`/wiki/a/b#heading-slug`). Slugs are
   Hugo's GitHub-style IDs: lowercase, punctuation dropped, each space a hyphen. Letters of
@@ -349,7 +365,7 @@ if such a page also uses the letter in the wiki's sense.
 `scripts/check-wiki.py` runs inside `scripts/check.sh` and checks links, anchors, markup
 in headings, section maps, source paths, frontmatter, the italic opening, the status line, a
 page's title, status line and register against its status, the wording of "State the claim, not
-the discussion", the summary's length and links, fences, acronyms and symbols. Run it on the files you touched with
+the discussion", the summary's length and links, fences, acronyms, symbols and paper links. Run it on the files you touched with
 `.venv/bin/python scripts/check-wiki.py wiki/x/y.md`; links still resolve wiki-wide.
 `scripts/check.sh` must pass before work is called finished. Do not weaken a check to
 make it pass.

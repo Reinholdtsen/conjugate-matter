@@ -13,3 +13,5 @@ work/
 
 # The literature check's search tool caches fetched pages (copyrighted full texts) beside itself if run from the record
 review/literature-check/cache/
+# The same tool's copy in the dual-sector record does the same
+review/dual-sector/cache/

@@ -68,7 +68,7 @@ The note marks this result "from the critic alone, not independently verified" (
 
 **No product works.** No product X × M is symplectic when X is a k = +1 position space, S³ or any spherical space form, and M is any closed 3-manifold. In the product the second cohomology comes from M alone, so the cube of the symplectic form's class would be pulled back from the sixth cohomology of M, which vanishes; a symplectic form on a six-dimensional closed space needs that cube to be nonzero (§5). So Born's position sphere times a momentum sphere cannot be a phase space. Born 1938 had paired the radius of Einstein's closed universe with a momentum-space hypersphere of radius b fixed from the classical electron radius (§2; [Born's papers](/wiki/phase-space/reciprocity/born-reciprocity#borns-papers)).
 
-**A non-product one exists [S][V; the critic's construction, one agent].** Gr̃(2,5) = SO(5)/(SO(2)×SO(3)), the Euclidean Snyder–de Sitter orbit, is a compact Kähler space, and Born reciprocity is the inner SO(5) automorphism that exchanges its position and momentum generators (Mignemi and Štrajn 2015, arXiv:1501.01447 [S]; §5). It belongs to the Snyder lineage of [curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space). The script checks that Gr̃(2,5) is the quadric Q₃ in CP⁴, on which the Fubini–Study form is non-degenerate, and that the automorphism maps X to P and P to −X. Its existence corrected an analyst's claim that "a doubly compact reciprocal phase space must be torus-like" (§10).
+**A non-product one exists [S][V; the critic's construction, one agent].** Gr̃(2,5) = SO(5)/(SO(2)×SO(3)), the Euclidean Snyder–de Sitter orbit, is a compact Kähler space, and Born reciprocity is the inner SO(5) automorphism that exchanges its position and momentum generators (Mignemi and Štrajn 2015, [arXiv:1501.01447](https://arxiv.org/abs/1501.01447) [S]; §5). It belongs to the Snyder lineage of [curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space). The script checks that Gr̃(2,5) is the quadric Q₃ in CP⁴, on which the Fubini–Study form is non-degenerate, and that the automorphism maps X to P and P to −X. Its existence corrected an analyst's claim that "a doubly compact reciprocal phase space must be torus-like" (§10).
 
 **Its reciprocity length.** λ = √(Rħ/κ), with κ the momentum-sphere radius. With κ = m_P·c this is √(R₀ l_P) = 1.489×10⁻⁴ m at |Ω_k| = 10⁻², which the diameter note's two tests exclude (§5): as the [Born length](/wiki/phase-space/reciprocity/born-length) it gives a [maximum force](/wiki/conjugate-relativity/maximum-force) that every atom exceeds, and as the range of [X](/wiki/gravity/momentum-graviton/range-bound) it is excluded by torsion balances ([Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary)).
 
@@ -84,9 +84,9 @@ The script evaluates "today" at |Ω_k| = 1.13×10⁻³, the 95% bound given clos
 
 Found by a verifier of the investigation (§5):
 
-- Artigas, Mielczarek and Rovelli 2019 (arXiv:1904.11338): compactifying the minisuperspace phase space makes the universe recollapse. The paper cites Born reciprocity. The root `CLAUDE.md` lists it as a lead, not queued.
-- Moffat 2004 (gr-qc/0401117) writes a closed momentum-space FRW metric following Born, FRW being Friedmann–Robertson–Walker.
-- Tseytlin 1992 (hep-th/9112004) bounds the size of a toroidal universe by duality.
+- Artigas, Mielczarek and Rovelli 2019 ([arXiv:1904.11338](https://arxiv.org/abs/1904.11338)): compactifying the minisuperspace phase space makes the universe recollapse. The paper cites Born reciprocity. The root `CLAUDE.md` lists it as a lead, not queued.
+- Moffat 2004 ([gr-qc/0401117](https://arxiv.org/abs/gr-qc/0401117)) writes a closed momentum-space FRW metric following Born, FRW being Friedmann–Robertson–Walker.
+- Tseytlin 1992 ([hep-th/9112004](https://arxiv.org/abs/hep-th/9112004)) bounds the size of a toroidal universe by duality.
 
 ## Where it bears
 

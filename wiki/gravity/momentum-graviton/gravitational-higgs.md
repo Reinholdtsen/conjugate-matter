@@ -146,14 +146,14 @@ The label "gravitational Higgs" is used in calc note #6 §3, in the v1 paper ("X
 
 As #11 cites them, all from model memory (†):
 
-- [9]† C. de Rham, G. Gabadadze, A. J. Tolley, "Resummation of massive gravity," Phys. Rev. Lett. 106, 231101 (2011), arXiv:1011.1232.
-- [10]† S. F. Hassan, R. A. Rosen, "Resolving the ghost problem in non-linear massive gravity," Phys. Rev. Lett. 108, 041101 (2012), arXiv:1106.3344.
-- [11]† S. F. Hassan, R. A. Rosen, "Bimetric gravity from ghost-free massive gravity," JHEP 1202, 126 (2012), arXiv:1109.3515.
+- [9]† C. de Rham, G. Gabadadze, A. J. Tolley, "Resummation of massive gravity," Phys. Rev. Lett. 106, 231101 (2011), [arXiv:1011.1232](https://arxiv.org/abs/1011.1232).
+- [10]† S. F. Hassan, R. A. Rosen, "Resolving the ghost problem in non-linear massive gravity," Phys. Rev. Lett. 108, 041101 (2012), [arXiv:1106.3344](https://arxiv.org/abs/1106.3344).
+- [11]† S. F. Hassan, R. A. Rosen, "Bimetric gravity from ghost-free massive gravity," JHEP 1202, 126 (2012), [arXiv:1109.3515](https://arxiv.org/abs/1109.3515).
 
 Added here for the Stückelberg background, also from memory (†), and cited by no project document:
 
-- N. Arkani-Hamed, H. Georgi, M. D. Schwartz, "Effective field theory for massive gravitons and gravity in theory space," Annals of Physics 305, 96 (2003), hep-th/0210184 †.
-- K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. 84, 671 (2012), arXiv:1105.3735 †.
+- N. Arkani-Hamed, H. Georgi, M. D. Schwartz, "Effective field theory for massive gravitons and gravity in theory space," Annals of Physics 305, 96 (2003), [hep-th/0210184](https://arxiv.org/abs/hep-th/0210184) †.
+- K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. 84, 671 (2012), [arXiv:1105.3735](https://arxiv.org/abs/1105.3735) †.
 
 ## Sources
 

@@ -1,0 +1,1415 @@
+{
+ "statements": [
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "The Born reciprocity principle states that the validity of q",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "Thus, we see that it is a matter of convention that we have ",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed-in-part",
+   "correction": "The convention named is that the dual momentum vanishes (p̄ = 0: Y carries no dual momenta), a boundary condition. The sentence does not say that which of X or Y is spacetime is conventional; the next ones say that in the compact case the Fourier transform is T-duality and the boundary conditions can be relaxed to finite (p, p̄)."
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "And finally, we relax the condition on \\eta to be a flat met",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed-in-part",
+   "correction": "'These generalizations' are three taken together: H depending on both X and Y, quasi-periods along both X and Y, and a curved η. The curved η alone is not said to restore Born duality."
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "One can show [15] that solutions of the classical string EOM",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "In this formulation both elements (\\eta,J) of the chiral str",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "We have presented a new viewpoint on string theory, with wid",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1307.7080",
+   "quote_start": "Note that the 2d electrostatic picture of the correlation fu",
+   "quote_found": true,
+   "check_output": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "One of the central insights of Born, 75 years ago [3], was t",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "It is important to appreciate that this kinematical breaking",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "There is a preferred basis — the space-time basis. According",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "In pure quantum mechanics, H is a kinematical structure, whi",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "Moreover if we introduce quantum theory in gravity, we have ",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "It is important to note that the kinematical nature of \\eta ",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed-in-part",
+   "correction": "'Opposite directions' overstates. FLM tie a kinematical (fixed) η to absolute locality and say a dynamical η relaxes it; #11 §3 ties local physics to a selected polarization. Both tie locality to a definite η. The difference is that the program's vacuum fixes η, where FLM accept relaxed (relative) locality."
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "Moreover, the purely kinematical splitting of phase space in",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "This formulation does not require the presence of a bi-Lagra",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "This null subspace is the effective space-time experienced b",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "When this Lagrangian manifold is assumed to be a fixed kinem",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "In order to generalize one of the key properties of T-dualit",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "the usual dynamical space-time picture appears only as an in",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1405.3949",
+   "quote_start": "The first two equations show that both metrics H and \\eta ar",
+   "quote_found": true,
+   "check_output": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "In ordinary quantum mechanics we may, depending on convenien",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "In the absence of interactions amongst strings, it is perhap",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "Colloquially, it is only when probes talk to one another, th",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "In the context of the metastring, the rigidity of the quantu",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "However, the Born proposal is not enough. As we have pointed",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "It is relative locality that suggests that both \\eta and H b",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "When we introduce quantum theory into gravity, we have to ma",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "not only the constant Q-metric H^{0} is promoted to an arbit",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "This generalization is one of the most interesting and will ",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "By keeping the property of maximal degeneracy, we keep the c",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "In that respect it is interesting to note that the condition",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "What is new about this viewpoint is that it allows us to thi",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "What is conceptually remarkable here is that this target spa",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "Allowing the notion of space-time to be dynamical goes hand ",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "Also, in this formulation T-duality exchanges the Lagrangian",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote_start": "it may offer new insights into standard problems in string t",
+   "quote_found": true,
+   "check_output": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "The paradox is resolved by recognizing that an observer’s no",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "The basic definition that we propose for a quantum space is ",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "As a summary, we have seen that the choice of modular quanti",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "This is indeed the most natural choice and it shows that we ",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "Although we are using the term “Hamiltonian” here, the reade",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "the different vacua measure effectively in which quantum ref",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "We also see that the zeroes of the extensified vacuum states",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed-in-part",
+   "correction": "Not the closest text: 2104.00802, read by the same reader, places the breaking tied to the choice of polarization 'at the level of the vacuum sector'. The rest of the reading stands (not in the record: 0 repository hits)."
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "Within such an application, the lattice (and consequently a ",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "Consequently, if we do make this identification, in most exp",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "A choice of quantum polarization is a choice of basis, unita",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote_start": "We also discuss how the usual classical notion of space come",
+   "quote_found": true,
+   "check_output": "FOUND: 1606.01829 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "recid:1590124",
+   "quote_start": "In other words, spacetime can be thought of as a choice of b",
+   "quote_found": true,
+   "check_output": "not code-checkable (not on arXiv): re-read via the IOP open-access PDF (curl, pypdf, scratch/r7-vacuum-verify/pdfcheck.py): found verbatim (normalized) on PDF p. 3",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "recid:1590124",
+   "quote_start": "Born reciprocity is the simple observation that the change o",
+   "quote_found": true,
+   "check_output": "not code-checkable: re-read via the IOP open-access PDF (pypdf): found in two parts across the page break, PDF pp. 3 and 4 (running head between)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "recid:1590124",
+   "quote_start": "T-duality can be thought of as acting non-trivially on a cho",
+   "quote_found": true,
+   "check_output": "not code-checkable: re-read via the IOP open-access PDF (pypdf): found on PDF p. 5 with punctuation stripped (the PDF hyphenates 'non-trivially' across a line)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "recid:1590124",
+   "quote_start": "Relative locality implies that this breaking cannot take pla",
+   "quote_found": true,
+   "check_output": "not code-checkable: re-read via the IOP open-access PDF (pypdf): found verbatim (normalized) on PDF p. 17",
+   "verdict": "confirmed-in-part",
+   "correction": "'This breaking' is the breaking of the Lorentz group to a discrete subgroup by the modular lattice. The passage argues that a choice of polarization does not break Lorentz symmetry, because the symmetry acts on the choice. Two sentences earlier (PDF p. 17) the paper names the space of such choices: 'The space U(d)/O(d) represents the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state' (also 1606.01829 §2, FOUND)."
+  },
+  {
+   "paper_id": "recid:1590124",
+   "quote_start": "Fixed points which are Lorentz invariant but not free (i.e. ",
+   "quote_found": true,
+   "check_output": "not code-checkable: re-read via the IOP open-access PDF (pypdf): found verbatim (normalized) on PDF p. 19",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1706.03305",
+   "quote_start": "From this viewpoint, strings propagating on a compact space-",
+   "quote_found": true,
+   "check_output": "FOUND: 1706.03305 — searched full text (https://arxiv.org/html/1706.03305)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "Because of its interpretation as a particle model on Born ge",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "In the quantum theory, we specify this as a choice of transi",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1812.10821",
+   "quote_start": "Quantum transition amplitudes involve a choice of polarizati",
+   "quote_found": true,
+   "check_output": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1902.08617",
+   "quote_start": "In any worldsheet field theory underlying string theory, the",
+   "quote_found": true,
+   "check_output": "FOUND: 1902.08617 — searched full text (https://arxiv.org/html/1902.08617)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "1902.08617",
+   "quote_start": "By mirror symmetry, neither of the two factors is a preferre",
+   "quote_found": true,
+   "check_output": "FOUND: 1902.08617 — searched full text (https://arxiv.org/html/1902.08617)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Finally, we comment on the problem of vacuum selection. Born",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "The question is whether Born reciprocity can be used as a cr",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "The underlying physical principle here is relative locality ",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Only in a singular limit in which one neglects the intrinsic",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "As we will see, in the context of metastring theory, a choic",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Normally, we think of this as a choice of basis in phase spa",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Finally, when we choose a classical Lagrangian L , there is ",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Finally, the polarization (or locality metric) \\eta encodes ",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "The observed classical spacetime emerges as an “extensificat",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "This ordering can be seen to be related to the choice of an ",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed-in-part",
+   "correction": "The paper does not call it a convention. The frame is the operator ordering in the vertex operators (x on the left, x̃ on the right), and the paper says it 'is entirely encoded into the choice of symplectic potential ω'."
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "To lowest (zeroth) order of the expansion in the non-commuta",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed-in-part",
+   "correction": "Wrong on placement. Eq. (49) puts both sectors on the doubled space, L_m(A(x, x̃)) + L̃_dm(Ã(x, x̃)) with measure √(g(x) g̃(x̃)), and eq. (50) puts both on x: 'Note that after integrating over the “hidden variable parameters x̃ we get an effective theory of visible and dual (dark) matter in the observed spacetime x' (§5, code-checked FOUND). The dark sector is not placed on x̃. 'Could be interpreted' (a proposal) and 'set by this assignment' stand."
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "Thus, the generic prediction here is the existence of a dual",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "as well as in condensed matter physics (as new quantum order",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote_start": "This generic formulation of string theory implies a radiativ",
+   "quote_found": true,
+   "check_output": "FOUND: 2003.00318 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2010.15610",
+   "quote_start": "This new view of string theory should bring about a differen",
+   "quote_found": true,
+   "check_output": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "In the metastring theory on the other hand, such a spacetime",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "we argue, within a simple cosmological model, that as the Un",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "x^{\\mu} are the usual spacetime coordinates while \\tilde{x}_",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "In string theory, it happens to be the string scale \\lambda^",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "A central element of our proposal is the fact that the modul",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "In the limit of large expansion a\\to\\infty , the dual dimens",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "To proceed with a Hilbert space description of metaparticle ",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "This corresponds to a choice of how spacetime is interpreted",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "It is clear from (9) that the spectrum is invariant under th",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "In eq. (9) a is the scale factor of the compactification radius, R = aλ, of the compactified string spectrum, so the a → 0 'dual universe' is the T-dual limit of that spectrum. The cosmological scale factor is written a_c (eqs. 15–17). The reading's comparison to App. A item 2 should carry this distinction."
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "This means that the value of this mass depends on the choice",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "To understand how to resolve this problem, one first needs t",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "Now since the modular fields and their decoupling limit are ",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "Add the essay's own reason, two sentences earlier: 'This follows from the fact that the dual Lorentz symmetry maps x̂^μ onto its conjugate variable and therefore the commutativity of the spacetime coordinate is not preserved' and 'In other words the dual Lorentz action is not a canonical transformation' (both FOUND; also in v1). The broken symmetry does not preserve the commutator [x̂, x̂̃] = iπλ². It is not a symmetry of the essay's quantum theory, whereas the program's ρ and its U(1) preserve ω (P2′, P3). 'They do not use the word spontaneous' holds for this essay only. 2212.06086 §4.3 calls the same group, O(1,d−1)₂, 'effectively spontaneously broken'."
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "Once a dual boost is performed the new commuting decoupling ",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "The commuting coordinate after a dual boost is 'x^μ + α^μν x̃_ν + ⋯', with corrections. The boost itself 'is not a canonical transformation' and moves x 'into the non-commutative realm'. So the family is not reached by symplectic maps at fixed ω, as the program's U(1) family of polarizations is."
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "We now propose that the expansion of the Universe can act as",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "We clearly see from the first equation of (16) that the only",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "It simply comes from the fact that the expansion of the Univ",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed-in-part",
+   "correction": "The symmetry restored 'as one goes back in time' is the Lorentz symmetry violated by the infrared dispersion relation (17) in the cosmological frame. The paragraph opens 'The dispersion relation (17) is Lorentz violating' (FOUND). The essay does not say that the dual Lorentz symmetry is restored in the past. It calls that symmetry 'fundamentally broken at the quantum level'."
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "One can imagine more elaborate scenarios in which the geomet",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote_start": "the mechanism that we have described here seems to have pote",
+   "quote_found": true,
+   "check_output": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "For local diffeomorphisms (implemented by the Dorfman genera",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "The Born geometry of \\mathscr{M} explicitly includes mirror ",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "which identifies \\widetilde{E}_{8} as the Langlands dual, E^",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "These originally bi-local fields then give rise to both an E",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2111.14205",
+   "quote_start": "between the visible E_{8} -fields and the dark \\widetilde{E}",
+   "quote_found": true,
+   "check_output": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "The vacuum selection principle in string theory: One of the ",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "Recently we have explored a new picture of the vacuum select",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "Essentially, in this approach, dark matter should be viewed ",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2202.05104",
+   "quote_start": "Essentially, dark energy is realized as the geometry of the ",
+   "quote_found": true,
+   "check_output": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "This affords a continuum of distinct polarizations, i.e., “r",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "This might seem to be in conflict with the Coleman-Mandula t",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed-in-part",
+   "correction": "O(1,d−1)₂ is the dual Lorentz group of 2104.00802. In both papers δ = ½(p̃² − p²) labels its orbits ('Thus, we can interpret the states as elements of an orbit of O(1,d{-}1)_{2}', FOUND), and the paragraph cites 2104.00802 as [250]. The breaking is stated for states labelled by p with p̃ read as 'internal' quantum numbers, the labelling 2104.00802 calls 'a choice of how spacetime is interpreted to appear within Born geometry'. So the school calls the symmetry it ties to the choice of polarization 'effectively spontaneously broken'. It does so for a sector of fixed nonzero p̃ and to evade Coleman–Mandula, with no potential or order parameter. The word is not absent from the school's treatment of that breaking."
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "Also, given the fact that the \\mu=0 superselection sector be",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "Given the intrinsic non-commutativity of the metaparticle, t",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "In particular, we could have picked the dual, {\\mathord{\\til",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "Thus, in either case we get the following “seesaw” formula f",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "the doubled metric structure is related to the choice of qua",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "The observed classical spacetime is only an emergent feature",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "In particular, the usual spacetime interpretation of the zer",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "For local diffeomorphisms (implemented by the Dorfman genera",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "The Born geometry of the metastring (chirally and non-commut",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote_start": "the curvature of the dual spacetime is the cosmological cons",
+   "quote_found": true,
+   "check_output": "FOUND: 2212.06086 — searched abstract",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Classical spacetime label x of canonical QFT corresponds to ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Therefore, the classical spacetime of EFT is just one polari",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Because of its interpretation as a particle model on Born ge",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "it becomes apparent that the essential new ingredient of qua",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "and the fields \\eta,H,\\omega are all dynamical (i.e., genera",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "The metastring has dynamical Born geometry, \\omega_{ab}(\\mat",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "x\\equiv q/{\\lambda} , \\tilde{x}\\equiv p/{\\epsilon} , so [x,\\",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "In the above expression one needs to integrate over the dual",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "The dual momentum \\tilde{p} could be understood from the poi",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Metaparticles can be understood as fuzzy dark matter, which ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote_start": "Coupling the symmetry breaking order parameter, \\phi , to a ",
+   "quote_found": true,
+   "check_output": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2503.20854",
+   "quote_start": "with \\lambda a fundamental length parameter, making the very",
+   "quote_found": true,
+   "check_output": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "We note that spacetime physics is classical and background-i",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "Note: Spacetime physics (gravity) is classical and has a fix",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "By combining the two central featues of spacetime and quantu",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "For example, by fixing the polarization of spacetime, in the",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "Similarly, modular variables are contextual: for example, in",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "Dual spacetime labels can be viewed as covariant, non-local,",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2604.19418",
+   "quote_start": "and directly observable canonical spacetime ( x ) has a dual",
+   "quote_found": true,
+   "check_output": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2610.19522",
+   "quote_start": "(Note that in general relativity the spacetime polarization ",
+   "quote_found": true,
+   "check_output": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)",
+   "verdict": "confirmed",
+   "correction": ""
+  },
+  {
+   "paper_id": "2610.19522",
+   "quote_start": "Note that from this viewpoint the classical spacetime polari",
+   "quote_found": true,
+   "check_output": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)",
+   "verdict": "confirmed",
+   "correction": ""
+  }
+ ],
+ "answers": [
+  {
+   "question": "Q9",
+   "verdict": "confirmed-in-part",
+   "correction": "These parts hold. No school text gives a potential, an order parameter or Goldstone modes for the choice of polarization. FLM call GR's breaking kinematical and propose a dynamical splitting. 'Vacuum selection' means the string-vacuum problem. The other choice is equally lawful. 2104.00802 (v1 2021-04-01; the passage is in the v1 PDF, pp. 5–6) puts a breaking tied to the choice of polarization 'at the level of the vacuum sector', and no record file quotes it. Corrections: (1) 'The symmetry is restored as one goes back in time' concerns the Lorentz symmetry violated by the infrared dispersion relation (17) in the cosmological frame, not the dual Lorentz symmetry. The essay calls the dual symmetry 'fundamentally broken at the quantum level'. (2) The essay gives its own reason for that breaking: 'the dual Lorentz action is not a canonical transformation' (eq. 12). It does not preserve [x̂, x̂̃] = iπλ², so it is not a symmetry of the essay's quantum theory. The program's ρ and its U(1) preserve ω (P2′, P3). So 2104.00802 anticipates the phrase 'symmetry breaking ... at the level of the vacuum sector', said of a non-canonical symmetry of a doubled (x, x̃) space, together with 'a choice of ground state' and the expansion as selector. It does not anticipate the program's structure, an exact ω-preserving symmetry broken by the vacuum. The reader's test of #11 §3 ('does not hold for the vacuum as the place where the breaking occurs') is too strong. (3) 'None calls that choice spontaneous', and the test's 'holds for the word spontaneous', need qualifying. Berglund, Hübsch and Minic 2022 (2212.06086 §4.3, citing 2104.00802 as [250]) call O(1,d−1)₂ 'effectively spontaneously broken' within the sector of fixed nonzero p̃. That is the same dual Lorentz group, whose orbits δ labels. It is the symmetry tied to the polarization, though not ρ, and it comes with no order parameter or potential. (4) Missed: 1606.01829 §2 (2016; also J. Phys. Conf. Ser. 804 012032 §6) names the coset over which the program's order parameter ranges: 'The space U(d)/O(d) represents the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state'. It is named as a space of choices, with no potential. The same section argues that choosing a modular polarization does not break a canonical symmetry, since 'any other modular space is related to the original one by a change of polarization, i.e., a canonical transformation'. (5) 'The one school text' that places the breaking in the vacuum: add 2212.06086 §4.3 as its restatement in 'spontaneous' terms.",
+   "counter_evidence": [
+    "2104.00802, after eq. (11) (v1 PDF p. 5): 'This follows from the fact that the dual Lorentz symmetry maps \\hat{x}^{\\mu} onto its conjugate variable and therefore the commutativity of the spacetime coordinate is not preserved' (FOUND)",
+    "2104.00802, after eq. (12) (v1 PDF p. 5): 'In other words the dual Lorentz action is not a canonical transformation.' (FOUND)",
+    "2104.00802, after eq. (17) (v1 PDF p. 7): 'The dispersion relation (17) is Lorentz violating. What is interesting is that this Lorentz violation comes from a fundamental theory which is fully Lorentz covariant. In fact this relation follows from the general covariant dispersion (16) in the case of an old Universe and holds in the cosmological frame only.' (FOUND)",
+    "2104.00802, after eq. (10): 'The last combination \\delta is not fixed but is modified by the action of \\tilde{O}(1,d-1) . This means that \\delta parameterizes the orbit of \\tilde{O}(1,d-1) .' (FOUND)",
+    "2212.06086 §4.3: 'two combinations of these are fixed by the constraints, while \\delta=\\frac{1}{2}({\\mathord{\\tilde{p}\\mkern 1.0mu}}^{2}-p^{2}) is not, and this is not an invariant of O(1,d{-}1)_{2} . Thus, we can interpret the states as elements of an orbit of O(1,d{-}1)_{2}' (FOUND)",
+    "2212.06086 §4.3: 'However, within the sector of fixed non-zero {\\mathord{\\tilde{p}\\mkern 1.0mu}} , O(1,d{-}1)_{2} is effectively spontaneously broken. Here the novel feature is that the internal symmetry is non-compact' (FOUND; the paragraph cites 2104.00802 as [250])",
+    "1606.01829 §2, after eq. (74): 'The space {\\rm U}(d)/{\\rm O}(d) represents the choice of inequivalent lifts \\eta that preserve the symplectic structure and the vacuum state, while the quotient of the double orthogonal group by O (d) represent the choice of inequivalent symplectic structures, hence Weyl groups, that possess the same Hilbert space with the same vacuum.' (FOUND)",
+    "1606.01829 §2, after eq. (78): 'So indeed the rotation maps one modular space T_{\\Lambda} into another T_{\\mathbb{O}\\Lambda} , but since by construction, a modular space is a choice of polarization, any other modular space is related to the original one by a change of polarization, i.e., a canonical transformation.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q11",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": [
+    "Supporting, not contradicting: INSPIRE full text 'vacuum sector' with a D.Minic.1 returns only 2104.00802 and 1606.01829 (the latter uses the phrase for Hilbert-space degeneracies); 'dual Lorentz' with a D.Minic.1 returns only 2104.00802. 1405.3949 §1.3's 'This is our addition to Born’s argument [1]' cites [1] = Phys. Lett. B 730 302 (2014), i.e. 1307.7080.",
+    "Addition: the observer-dependent reading the school later calls relative locality is older than 1307.7080. 1101.0931 abstract (Amelino-Camelia, Freidel, Kowalski-Glikman, Smolin; arXiv v1 2011-01-05): 'different observers, separated from each other by translations, construct different spacetime projections from the invariant phase space' (FOUND). It is not a dynamical or vacuum choice."
+   ]
+  },
+  {
+   "question": "Q1",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q2",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q3",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q4",
+   "verdict": "confirmed-in-part",
+   "correction": "The two items hold: 2111.14205 item 4 ('The metastring non-commutativity implies the correlation ... between the visible E8-fields and the dark Ẽ8-fields', there with Ã a function of x̃ and a prefactor λ₄²/L⁴), and 'entangled' (2003.00318 §5). Missed, in a paper the reader read: Minic 2020 §5 writes the coupling as the eq. (47) term α′A_μ dÃ^μ/dt, a 'Berry-phase like term' distinct from effective-field-theory interactions. It says the dark quanta 'are correlated to visible matter and have been discussed in the literature as Modified dark matter [12]', and §7 has 'dark matter correlated to visible matter and dark energy [12]'. [12] is Ho, Minic and Ng 2010, 'Cold Dark Matter with MOND Scaling' (arXiv:1005.3537), with Edmonds et al. In Minic 2020, then, 'correlated' is tied to the entanglement term and to modified dark matter's critical acceleration ~cH.",
+   "counter_evidence": [
+    "2003.00318 §5: 'This is a Berry-phase like term that comes from a fully covariant description, and is uniquely different from the usual effective field theory interaction terms between visible and dark matter particles.' (FOUND)",
+    "2003.00318 §5: 'Such dark matter quanta are correlated to visible matter and have been discussed in the literature as Modified dark matter [12].' (FOUND)",
+    "2003.00318 §7: 'In particular, some of the implications for the real world are dark energy as curvature of the dual spacetime [11], and dark matter correlated to visible matter and dark energy [12] and represented by metaparticles [10].' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q5",
+   "verdict": "refuted",
+   "correction": "Detection is addressed in two of these papers. Minic 2020 §5, read by the reader, says dark quanta 'should be detectable through their particular metaparticle entanglement to visible matter'. It ties them to modified dark matter, whose critical acceleration '∼cH' ('of the order of 10^{-10}m/s^{2}', the paper's figure) 'is found in correlations between dark matter and baryonic matter in galaxy rotation curves'. That is the acceleration scale near cH₀ the brief asks about. 2212.06086 §4.3 fn. 32 proposes revisiting detection analyses for metaparticle kinematics; the reader listed it only as an unchecked lead. Neither paper states a direct-detection rate. #11 §13 row 7 requires a 'Permanent null'.",
+   "counter_evidence": [
+    "2003.00318 §5, after eq. (50): 'Like their visible particle cousins, dark matter quanta should be detectable through their particular metaparticle entanglement to visible matter, as indicated by equation (47)' (FOUND)",
+    "2003.00318 §5: 'Such a critical acceleration is an effective phenomenological manifestation of MDM, and it is found in correlations between dark matter and baryonic matter in galaxy rotation curves.' (FOUND)",
+    "2212.06086 §4.3, fn. 32: 'Thus the usual detection analysis of particulate dark matter should be revisited in the context of metaparticle kinematics and representation theory.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q6",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q7",
+   "verdict": "confirmed-in-part",
+   "correction": "The two items hold. Add three. (a) A force law between metaparticles: 2212.06086 fn. 31 gives a scalar potential of 'Friedel form' e^{−αr}/r^β cos(γr), from unpublished FKLM work, with no stated dependence on relative velocity. (b) The stated reason dark matter is 'fuzzy': the visible and dark fields do not commute (2407.06207 §3.3). (c) 2212.06086 §4.3: the dual ('dark') degrees of freedom dominate the early universe and the visible ones the late.",
+   "counter_evidence": [
+    "2212.06086 §4.3, fn. 31: 'One can also deduce the corresponding scalar potential from this propagator, which is of the Friedel form \\frac{e^{-\\alpha r}}{r^{\\beta}}\\cos(\\gamma r) , where \\alpha,\\beta,\\gamma are functions of m,\\mu,d (unpublished work of Freidel, Kowalski-Glikman, Leigh and Minic).' (FOUND)",
+    "2407.06207 §3.3: 'However, the visible \\phi and invisible (dark matter) {\\tilde{\\phi}} do not commute. Therefore, one could say that dark matter is fuzzy from the point of view of classical spacetime.' (FOUND)",
+    "2212.06086 §4.3: 'we can deduce[250] that in the early (small) universe the dual (“dark”) degrees of freedom dominate, and that in the old (large) universe the visible degrees of freedom are dominant.' (FOUND)"
+   ]
+  },
+  {
+   "question": "Q8",
+   "verdict": "confirmed",
+   "correction": "",
+   "counter_evidence": []
+  },
+  {
+   "question": "Q10",
+   "verdict": "confirmed-in-part",
+   "correction": "(a) 2202.05104 says dark energy is 'realized as the geometry of the dual spacetime', not its curvature; 2003.00318 and 2212.06086 say curvature. (b) In 2104.00802 the a → 0 'dual universe made of dual particles' is said of the compactified string spectrum (9). There a is the scale factor of the compactification radius R = aλ, so the statement is a T-duality statement. The cosmological statements concern a_c: the dual momentum falls as a_c grows (after eq. 16), and class II states decouple late. The comparison with #11 §10's a·ã = 1 and App. A items 2 and 6 is the reader's own. It should rest on eq. (2), on the a_c sentence, and on 2212.06086 §4.3's restatement, 'in the early (small) universe the dual (“dark”) degrees of freedom dominate'. (c) Missed: 2104.00802 bounds the duality scale for neutrinos, μ_ν ≲ 10⁻² eV², and remarks that 'this characteristic energy is very close to the scale of dark energy'. These are the paper's numbers, not recomputed here.",
+   "counter_evidence": [
+    "2202.05104: 'Essentially, dark energy is realized as the geometry of the dual spacetime in the general formulation of string theory [36, 37, 38].' (FOUND)",
+    "2104.00802, before eq. (9): 'consider the spectrum of string theory compactified along timelike and spacelike directions with radius of compactification given by R=a\\lambda , where \\lambda is the string scale and a a scale factor in conformally flat coordinates.' (FOUND)",
+    "2104.00802, after eq. (16): 'Note that as the scale factor a_{c} gets larger the dual momentum becomes smaller, and for a Universe of small size a_{c} the dual momentum is larger.' (FOUND)",
+    "2104.00802, after eq. (17): 'It follows then from (13) that for neutrinos the parameter \\mu_{\\nu}\\lesssim 10^{-2}\\,eV^{2} . Note that this characteristic energy is very close to the scale of dark energy.' (FOUND)"
+   ]
+  }
+ ],
+ "record_contradictions": [
+  {
+   "record_says": "#11 §3: 'They treat the breaking as kinematical and call the choice \"a dynamical question\".' wiki/phase-space/reciprocity/broken-born-duality.md: 'treated the breaking as kinematical, not as spontaneous symmetry breaking'. notes/toy-lagrangian.md, Chunk 1 results: 'call Born's breaking kinematical, not spontaneous.'",
+   "verdict": "confirmed-in-part",
+   "note": "The sources are as quoted (1405.3949 §1.1, §1.3, §2; 1502.08005 §2.1 p. 11; all FOUND). 'Kinematical' is FLM's word for GR's breaking, and their proposal makes the splitting dynamical. So the wiki's 'treated the breaking as kinematical', beside its own 'made η dynamical', misdescribes the proposal. Against #11 §3 the item is weaker than the reader says. (i) The same sentence reports the dynamical side, accurately ('a dynamical question', p. 47). (ii) The selector [26S] itself exhibits is a consistency condition: worldsheet locality selects L-projectability (§6.1 p. 39; §7 p. 47). The reader's own reading of that passage calls it 'a kinematical selection, as #11 §3 says'. (iii) 'Kinematical breaking' is 1405.3949's phrase; [26S] uses 'kinematical' only for η in GR. (iv) §3 and P2′ do not conflict: one reports FLM's view of the breaking, the other credits [26S] with a dynamical η. The worklog's sentence is scoped to 1307.7080 and 1405.3949 and is accurate for them."
+  },
+  {
+   "record_says": "#11 §3: 'This program's addition is to read it as spontaneous breaking, with η as the order parameter'. Wiki description: 'they gave no potential and no symmetry-breaking analysis'. Worklog: 'They write no potential and do no symmetry-breaking analysis'.",
+   "verdict": "confirmed-in-part",
+   "note": "Confirmed: 2104.00802 (v1 2021-04-01, v1 PDF pp. 5–6) ties a symmetry breaking to the choice of polarization and places it 'at the level of the vacuum sector'. No record file quotes it: a repository grep for 'vacuum sector', 'decoupling frame' and 'choice of ground state' gives 0 hits, and the literature check cites the essay only for C1. Corrections: (1) 'the symmetry is restored as one goes back in time' is the Lorentz symmetry of dispersion relation (17), not the dual symmetry. (2) The essay's reason for the breaking is 'In other words the dual Lorentz action is not a canonical transformation': the broken symmetry does not preserve the commutator, whereas #11's ρ preserves ω. Two paragraphs with no vacua compared and no potential are a statement, not a symmetry-breaking analysis. So 'no symmetry-breaking analysis' survives narrowly; 'nothing on a breaking tied to the polarization' would not. (3) 'The word spontaneous is absent' holds for 2104.00802 only. 2212.06086 §4.3 (2022, citing 2104.00802 as [250]) calls the same group O(1,d−1)₂ 'effectively spontaneously broken'. So the program's own addition is narrower than the reader's list: an exact ω-preserving symmetry (ρ inside its U(1)) broken by the vacuum, η as order parameter, the potential, the Goldstone angle and the K-sign lock. The bare word 'spontaneous' has a school precedent. The coset U(d)/O(d) of η-choices at fixed ω and vacuum is named, as a space of choices, in 1606.01829 §2. (4) The worklog's sentence is scoped to 1307.7080 and 1405.3949 and stays accurate. What 2104.00802 and 2212.06086 contradict is the wiki's generalization to FLM's metastring work."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'The vacuum': 'The check found no such mechanism in the school's papers, where the classical spacetime label \"corresponds to a choice\" of polarization.' §2 plain-language passage: 'a vacuum that selects a polarization, and a dark sector coupled to ours by gravity alone'.",
+   "verdict": "confirmed-in-part",
+   "note": "§3's 'such mechanism' points back to 'the spontaneous reading, with η as the order parameter'. Neither 2104.00802 nor 2212.06086 has that, so §3 stands as written. The §2 sentence does need narrowing. 2104.00802 joins a vacuum-level fixing of the spacetime frame to a hedged dark-sector speculation ('seems to have potential for an entirely novel source for dark matter/energy, with states of class II being remnants'). But the reader overstates when it says 'a vacuum that selects a polarization' joined to a dual dark sector is published. In the essay the ground state is chosen ('a choice of ground state fixes a value of δ'). The selector it proposes is the expansion, an outside input. The broken symmetry is non-canonical, in a doubled (x, x̃) space at λ² = ℏα′. The candidates are 'dark matter/energy', undecided. The reader is right that 'corresponds to a choice' ends 'with a contextuality parameter λ' (2407.06207 §3.3)."
+  },
+  {
+   "record_says": "Root CLAUDE.md, 2026-11-02 entry: 'with the polarization selected by the vacuum'. review/wiki-build-flags.md flag 64: 'and its polarization is selected spontaneously (P5).'",
+   "verdict": "confirmed-in-part",
+   "note": "Agreed that 'selected by the vacuum' does not mark a clean difference from the school, given 2104.00802. Flag 64's 'selected spontaneously' needs narrowing too, since 2212.06086 §4.3 calls the dual Lorentz group, the one 2104.00802 ties to the polarization, 'effectively spontaneously broken'. Three differences survive the sources read here. The broken symmetry is a canonical, ω-preserving ρ, against a non-canonical dual Lorentz group. η is an order parameter with a potential and a Goldstone angle; the school has neither. One vacuum holds for all matter. On scope, 2104.00802's own selection is universal ('the expansion of the Universe gives rise to a preferred frame'). The observer- and context-dependent readings the reader cites (804 012032 §6, 2407.06207 §3.5, 2503.20854 §1) are the school's other line."
+  },
+  {
+   "record_says": "notes/toy-lagrangian.md, S5 literature: 'Claimed only in words: that the choice is dynamical.' and 'Open: a mechanism that picks L over L̃. Each candidate in the literature either selects the pair only, or uses outside input...'. Wiki: 'the worklog finds that a mechanism picking one section over its partner is open in the literature'.",
+   "verdict": "confirmed-in-part",
+   "note": "Confirmed: the worklog does not cite 2104.00802 (repository grep), and its 'Claimed only in words' list omits FKLM 2021, which works a simple model (eqs. 13–17: dual-momentum states decouple as a_c → ∞). Not confirmed: the charge that the wiki overstates. FKLM's mechanism falls in the worklog's own class 'uses outside input: which modes are light', so the worklog's 'Open' stands as written. The wiki's paraphrase matches the worklog, whose S5 conclusion says of the strong form 'It is also open in the literature'. The wiki drops information, that outside-input candidates exist; it does not overstate."
+  }
+ ],
+ "missed": [
+  {
+   "paper_id": "1606.01829",
+   "quote": "The space {\\rm U}(d)/{\\rm O}(d) represents the choice of inequivalent lifts \\eta that preserve the symplectic structure and the vacuum state, while the quotient of the double orthogonal group by O (d) represent the choice of inequivalent symplectic structures, hence Weyl groups, that possess the same Hilbert space with the same vacuum.",
+   "where": "§2 Rotation and Translation Invariance in the Face of Discreteness, after eq. (74); the same sentences are in J. Phys. Conf. Ser. 804 012032 §6, PDF p. 17",
+   "bears_on": [
+    "polarization-selection",
+    "priority"
+   ],
+   "why_it_matters": "In 2016 the school names U(d)/O(d), the Lagrangian Grassmannian, as the space of η-choices compatible with a fixed ω and a fixed vacuum. That is the coset over which #11 P2′'s order parameter ranges at fixed ω and H. The toy-model worklog's compact Goldstone is 'the Lagrangian Grassmannian Λ(1)', and flag 61 uses Λ(4). The school treats it as a space of choices, with no potential. The cosets that move ω at fixed η and H are, in its words, 'the choice of inequivalent symplectic structures'. It is not in the record ('inequivalent lifts': 0 repository hits).",
+   "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+  },
+  {
+   "paper_id": "1606.01829",
+   "quote": "So indeed the rotation maps one modular space T_{\\Lambda} into another T_{\\mathbb{O}\\Lambda} , but since by construction, a modular space is a choice of polarization, any other modular space is related to the original one by a change of polarization, i.e., a canonical transformation.",
+   "where": "§2, after eq. (78)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "This is the school's own analysis of a symmetry acting on the choice of polarization. The lattice 'naively breaks rotational invariance', but 'this is not the right conclusion if space is modular' (same section). With 2104.00802's 'not a canonical transformation', the school's line is that a canonical change of polarization is not broken by choosing one, and that the symmetry it calls broken is non-canonical. #11 reads the canonical ρ as spontaneously broken by the vacuum (§3, P5).",
+   "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "This follows from the fact that the dual Lorentz symmetry maps \\hat{x}^{\\mu} onto its conjugate variable and therefore the commutativity of the spacetime coordinate is not preserved",
+   "where": "after eq. (11), introducing eq. (12); v1 PDF p. 5",
+   "bears_on": [
+    "polarization-selection",
+    "other"
+   ],
+   "why_it_matters": "This is the essay's stated reason that 'the dual symmetry is fundamentally broken at the quantum level'; eq. (12), δ([x̂^μ, x̂^ν]) = 2πi α̃^μν, follows. The reader quoted the conclusion but not the reason.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "In other words the dual Lorentz action is not a canonical transformation.",
+   "where": "after eq. (12), immediately before the 'vacuum sector' passage; v1 PDF p. 5",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "The symmetry whose breaking 'happens at the level of the vacuum sector' does not preserve the commutator [x̂, x̂̃] = iπλ², so it is not a symmetry of the essay's quantum theory. #11's ρ and its U(1) preserve ω (P2′, P3). The vacuum-sector sentence is therefore about an explicitly broken symmetry, which limits how far it anticipates #11 §3's spontaneous breaking. The reader's Q9 answer and contradicts_record items 2–4 omit this.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "The dispersion relation (17) is Lorentz violating. What is interesting is that this Lorentz violation comes from a fundamental theory which is fully Lorentz covariant. In fact this relation follows from the general covariant dispersion (16) in the case of an old Universe and holds in the cosmological frame only.",
+   "where": "after eq. (17); v1 PDF p. 7",
+   "bears_on": [
+    "polarization-selection",
+    "dynamics"
+   ],
+   "why_it_matters": "This paragraph ends 'as the symmetry is restored as one goes back in time'. The symmetry is the Lorentz symmetry that (17) violates in the cosmological frame. The reader's summary, Q9 point 4 and contradicts_record item 2 attribute the restoration to the dual symmetry that moves the commuting coordinate, which the essay does not say.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "Note that such states are naively in conflict with the Coleman-Mandula theorem [26]. However, given that the dual Lorentz is broken and in consideration of the following discussion, we expect that this conflict can be resolved and in any case deserves careful consideration.",
+   "where": "footnote 7, in the classification of states after eq. (13)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "The essay meets the Coleman–Mandula objection with the breaking of the dual Lorentz symmetry. 2212.06086 §4.3 meets the same objection by calling that group 'effectively spontaneously broken'. Together the two passages form one line of the school's argument, which the reader treated as unrelated.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "The last combination \\delta is not fixed but is modified by the action of \\tilde{O}(1,d-1) . This means that \\delta parameterizes the orbit of \\tilde{O}(1,d-1) .",
+   "where": "after eq. (10)",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "δ = ½(p̃² − p²), which 'a choice of ground state fixes', is the orbit parameter of the dual Lorentz group. 2212.06086 §4.3 uses the same δ for the orbits of O(1,d−1)₂, so the two papers speak of one group.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "two combinations of these are fixed by the constraints, while \\delta=\\frac{1}{2}({\\mathord{\\tilde{p}\\mkern 1.0mu}}^{2}-p^{2}) is not, and this is not an invariant of O(1,d{-}1)_{2} . Thus, we can interpret the states as elements of an orbit of O(1,d{-}1)_{2}",
+   "where": "§4.3 Metaparticles, Metastrings and Modular Spacetime, after eqs. (4.20)–(4.21)",
+   "bears_on": [
+    "polarization-selection",
+    "priority"
+   ],
+   "why_it_matters": "This identifies O(1,d−1)₂ with 2104.00802's dual Lorentz group. The constraints are 'invariant under O(1,d{-}1)_{1}\\ltimes O(1,d{-}1)_{2}', and O(1,d−1)₁ 'can be identified with the usual Lorentz symmetry' (same paragraph, FOUND). The 'effectively spontaneously broken' a few sentences later (posted 2022-12-12) is therefore said of the symmetry that 2104.00802 ties to the choice of polarization and the vacuum sector. The reader read it as unrelated to the polarization.",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "However, within the sector of fixed non-zero {\\mathord{\\tilde{p}\\mkern 1.0mu}} , O(1,d{-}1)_{2} is effectively spontaneously broken. Here the novel feature is that the internal symmetry is non-compact",
+   "where": "§4.3",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "The second sentence, which the reader did not quote, calls O(1,d−1)₂ an internal, non-compact symmetry. This is the school's one use of 'spontaneously broken' for the dual group. It is stated for a sector of fixed p̃, with no potential or order parameter. The program's ρ sits in a compact U(1) (P2′ refinement).",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "we can deduce[250] that in the early (small) universe the dual (“dark”) degrees of freedom dominate, and that in the old (large) universe the visible degrees of freedom are dominant.",
+   "where": "§4.3, after eq. (4.23)",
+   "bears_on": [
+    "identification",
+    "dynamics",
+    "dark-energy"
+   ],
+   "why_it_matters": "Berglund, Hübsch and Minic restate 2104.00802 ([250]) with the dual degrees of freedom labelled dark, dominant early and subdominant late. It bears on Q1, on App. A items 2 and 6, and on the timing in C5. The reader's Q10 comparison rests on 2104.00802 alone.",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "One can also deduce the corresponding scalar potential from this propagator, which is of the Friedel form \\frac{e^{-\\alpha r}}{r^{\\beta}}\\cos(\\gamma r) , where \\alpha,\\beta,\\gamma are functions of m,\\mu,d (unpublished work of Freidel, Kowalski-Glikman, Leigh and Minic).",
+   "where": "§4.3, footnote 31",
+   "bears_on": [
+    "dynamics",
+    "coupling"
+   ],
+   "why_it_matters": "A damped, oscillating metaparticle-exchange potential, attributed to unpublished FKLM work. It is the only force law between metaparticles in these papers (Q7). No dependence on relative velocity is stated, so it supplies no gate like #11 §8's.",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2212.06086",
+   "quote": "Thus the usual detection analysis of particulate dark matter should be revisited in the context of metaparticle kinematics and representation theory.",
+   "where": "§4.3, footnote 32",
+   "bears_on": [
+    "detection"
+   ],
+   "why_it_matters": "The reader answered Q5 'Not addressed' and listed this sentence only as an unchecked lead. It is a proposal, with no prediction, to redo detection analyses for metaparticle kinematics. #11 §13 row 7 requires a 'Permanent null'.",
+   "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote": "Note that after integrating over the “hidden variable parameters \\tilde{x} we get an effective theory of visible and dual (dark) matter in the observed spacetime x",
+   "where": "§5, between eqs. (49) and (50)",
+   "bears_on": [
+    "what-dual-is",
+    "gravity",
+    "identification"
+   ],
+   "why_it_matters": "It corrects the reader's reading that Minic 2020 puts the dark sector on x̃. In eq. (49) both A and Ã depend on (x, x̃), under the measure √(g(x) g̃(x̃)); after integrating over x̃, both live in x. 2407.06207 §3.4 has the same structure, as the reader quoted correctly there.",
+   "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote": "Like their visible particle cousins, dark matter quanta should be detectable through their particular metaparticle entanglement to visible matter, as indicated by equation (47)",
+   "where": "§5, after eq. (50)",
+   "bears_on": [
+    "detection",
+    "coupling"
+   ],
+   "why_it_matters": "Detection is addressed two sentences after a passage the reader quoted, so its Q5 answer is wrong. The coupling is the eq. (47) term α′A_μ dÃ^μ/dt, 'a Berry-phase like term ... uniquely different from the usual effective field theory interaction terms between visible and dark matter particles' (FOUND). The record already has this (notes/literature-check.md §3).",
+   "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote": "Such a critical acceleration is an effective phenomenological manifestation of MDM, and it is found in correlations between dark matter and baryonic matter in galaxy rotation curves.",
+   "where": "§5",
+   "bears_on": [
+    "detection",
+    "coupling"
+   ],
+   "why_it_matters": "Minic 2020 ties its dark quanta ('correlated to visible matter and have been discussed in the literature as Modified dark matter [12]', FOUND) to modified dark matter's critical acceleration, '∼cH' and 'of the order of 10^{-10}m/s^{2}' (the paper's figures). That is the acceleration scale near cH₀ that Q5 asks about, and one thing 'correlated' means in this paper.",
+   "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+  },
+  {
+   "paper_id": "2003.00318",
+   "quote": "In particular, some of the implications for the real world are dark energy as curvature of the dual spacetime [11], and dark matter correlated to visible matter and dark energy [12] and represented by metaparticles [10].",
+   "where": "§7 Conclusion",
+   "bears_on": [
+    "coupling",
+    "identification",
+    "dark-energy"
+   ],
+   "why_it_matters": "The conclusion's 'correlated' cites [12], the modified-dark-matter papers: Ho, Minic and Ng, Phys. Lett. B 693, 567 (2010), arXiv:1005.3537, 'Cold Dark Matter with MOND Scaling', and Edmonds et al. It bears on clause 2 of the summary sentence under test ('their sector correlated with ours'). In Minic 2020 the correlation is with visible matter and with dark energy.",
+   "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+  },
+  {
+   "paper_id": "2407.06207",
+   "quote": "However, the visible \\phi and invisible (dark matter) {\\tilde{\\phi}} do not commute. Therefore, one could say that dark matter is fuzzy from the point of view of classical spacetime.",
+   "where": "§3.3, last paragraph",
+   "bears_on": [
+    "coupling",
+    "dynamics"
+   ],
+   "why_it_matters": "It gives the stated reason the school's dark matter is 'fuzzy': the visible and dark fields do not commute. This bears on Q4 (coupling through the non-commutativity of x and x̃) and Q7. The reader quoted only the later 'Metaparticles can be understood as fuzzy dark matter'.",
+   "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "Note that as the scale factor a_{c} gets larger the dual momentum becomes smaller, and for a Universe of small size a_{c} the dual momentum is larger.",
+   "where": "after eq. (16)",
+   "bears_on": [
+    "dark-energy",
+    "dynamics"
+   ],
+   "why_it_matters": "This is the cosmological, a_c-dependent statement behind the selection mechanism. The reader's a → 0 'dual universe' quotation concerns the compactification-radius scale factor of eq. (9), R = aλ ('a a scale factor in conformally flat coordinates', FOUND). Comparisons with #11 §10's a·ã = 1 and App. A item 6 should rest on this sentence and on eq. (2).",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "2104.00802",
+   "quote": "It follows then from (13) that for neutrinos the parameter \\mu_{\\nu}\\lesssim 10^{-2}\\,eV^{2} . Note that this characteristic energy is very close to the scale of dark energy.",
+   "where": "after eq. (17)",
+   "bears_on": [
+    "dark-energy"
+   ],
+   "why_it_matters": "The essay links its infrared duality scale μ to the dark-energy scale through a neutrino bound. The numbers are the paper's and were not recomputed here. It bears on Q10 and is absent from the reader's output.",
+   "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+  },
+  {
+   "paper_id": "1502.08005",
+   "quote": "Indeed we will later see that the metastring admits in its spectrum vertex operators which are the seeds of deformation of the polarization metric \\eta .",
+   "where": "§1 Introduction",
+   "bears_on": [
+    "polarization-selection"
+   ],
+   "why_it_matters": "[26S]'s introduction already gives η vertex operators of its own, i.e. field excitations. This is the nearest [26S] comes to η as a field with modes, the role #11 P2′ gives the order parameter; no potential or vacuum value is given. The reader quoted only the §8 version.",
+   "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+  }
+ ],
+ "retried": [
+  "The reader's not_retrieved list was empty. I tried two papers it named as leads but did not read. recid:1923123, Y. Yargic, 'Born Reciprocal Representations of the Quantum Algebra' (PhD thesis, Waterloo; INSPIRE imprint 2021-08-26; supervisor L. Smolin, L. Freidel on the committee): retrieved from the open PDF at https://inspirehep.net/files/2608a1223245727b7f44c414203a4d8d (handle 10012/17266) and read with pypdf. It has no 'spontaneous', 'order parameter', 'Goldstone', 'dual Lorentz' or 'vacuum selection'. In §2.8, p. 19 (PDF p. 30), a speculation: 'The observation that the Schrödinger and momentum representations require different gauge fixings might be useful for developing quantum theories that break the Born reciprocity. If the modular U(1) gauge symmetry is somehow broken, this may be used as a mechanism to fix the quantum configuration space.' Of a cosmological-scale modular length it says 'This would break the Born reciprocity in favor of the position variables spanning the configuration space', and it adds that the scenario 'is not possible in the simple system we discuss here because of the Stone-von Neumann theorem'. It also calls η 'the geometric construct that singles out the position and momentum spaces'. These passages are not code-checkable: they are thesis-only, absent from its arXiv source 2002.01604 (lit.py quote: NOT FOUND). The thesis is later than 2104.00802 and earlier than the program.",
+  "recid:1411938, Freidel, Leigh and Minic, 'Modular spacetime', Int. J. Mod. Phys. D 24, 1544028 (2015), a Gravity Research Foundation essay not on arXiv: not retrieved. worldscientific.com returned a Cloudflare bot check (HTTP 403, 'Just a moment...'), which I did not get around. The Foundation's essay list (gravityresearchfoundation.org/year) hosts PDFs of other prize essays, the 2021 FKLM essay among them, but not this one. Its INSPIRE abstract mentions modular spacetime and a formulation without an a priori spacetime interpretation, and nothing on vacuum selection.",
+  "Also read by grep for Q9. Papers the reader named but did not read: 1707.00312 (no hits for polariz, vacuum, broken, spontan) and 1806.05992 (no hits for spontan, vacuum, choice of or preferred polarization). School citers of 2104.00802 outside the reader's set (2203.17137, 2307.16712, 2305.12593, 2303.15645, 2202.06890, 2212.00901, 2202.05266, 2109.12763, 2602.21407): no hits for spontaneous, dual Lorentz, vacuum sector, decoupling frame, choice of ground state or Goldstone; 2307.16712's one 'order parameter' is the Higgs field. INSPIRE full text: 'vacuum sector' with a D.Minic.1 returns 2104.00802 and 1606.01829; 'dual Lorentz' with a D.Minic.1 returns only 2104.00802."
+ ],
+ "overall": "The reader's quotations, dates, pages and sections can be relied on. All 133 quotations were found, 128 by lit.py and 5 in the IOP PDF of 804 012032. Its central find also holds: 2104.00802, in v1 of 2021-04-01, ties a dual-Lorentz breaking to the choice of polarization 'at the level of the vacuum sector', and the record never quotes it. Its interpretation of that find overreaches and must be corrected before use. The symmetry 'restored as one goes back in time' is Lorentz symmetry. The broken symmetry 'is not a canonical transformation', so this is not an exact ω-preserving symmetry broken by a vacuum. 2212.06086 calls the same group 'effectively spontaneously broken'. 1606.01829 §2 names U(d)/O(d) as the space of η-choices. Outside Q9 it misplaces Minic 2020's dark sector on x̃ and wrongly answers Q5 as not addressed."
+}

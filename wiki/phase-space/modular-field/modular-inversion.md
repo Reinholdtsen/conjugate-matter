@@ -79,7 +79,7 @@ The phase-space-diameter note (`papers/phase-space-diameter.md`) realizes the ma
 PASS  Fourier transform maps Z = 0.3 + 0.7i to -1/Z = -0.5172 + 1.2069i (numerical FFT)  [-0.517241+1.206897j]
 ```
 
-The labelling of Gaussian states by the Siegel upper half-space, with the symplectic group acting by Möbius maps in any number of dimensions, is literature (Ohsawa 2015; de Gosson 2013 [S], cited by the note), and the script's check covers one packet with one coordinate. The packets and the program's field read the imaginary part in opposite directions: a packet that widens in position has a smaller Y, while the program reads Im Z = g as a metric that grows with the scale factor (round-5 ruling R14). The labelling, the widths, the three loci and the distance from Z = i are on [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states).
+The labelling of Gaussian states by the Siegel upper half-space, with the symplectic group acting by Möbius maps in any number of dimensions, is literature ([Ohsawa 2015](https://arxiv.org/abs/1504.03963); [de Gosson 2013](https://arxiv.org/abs/1305.1025) [S], cited by the note), and the script's check covers one packet with one coordinate. The packets and the program's field read the imaginary part in opposite directions: a packet that widens in position has a smaller Y, while the program reads Im Z = g as a metric that grows with the scale factor (round-5 ruling R14). The labelling, the widths, the three loci and the distance from Z = i are on [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states).
 
 ## What follows
 

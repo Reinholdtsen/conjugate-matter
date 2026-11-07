@@ -18,7 +18,7 @@ fi
 
 status=0
 
-for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py verify/toy_gw.py verify/toy_s4.py verify/toy_s5.py verify/phase_space_diameter.py verify/closed_universe.py verify/velocity_gated_gravity.py verify/gate_mechanism.py verify/literature_check.py; do
+for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py verify/toy_gw.py verify/toy_s4.py verify/toy_s5.py verify/phase_space_diameter.py verify/closed_universe.py verify/velocity_gated_gravity.py verify/gate_mechanism.py verify/literature_check.py verify/dual_sector.py; do
   if ! "$py" "$script"; then
     echo "$script FAILED"
     status=1
@@ -27,7 +27,7 @@ for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py v
 done
 
 # The wiki: internal links, anchors, section maps, source paths, frontmatter,
-# page shape, acronyms and symbols. Hugo would render a dead link without complaint.
+# page shape, acronyms, symbols and paper links. Hugo would render a dead link without complaint.
 if ! "$py" scripts/check-wiki.py; then
   echo "scripts/check-wiki.py FAILED"
   status=1

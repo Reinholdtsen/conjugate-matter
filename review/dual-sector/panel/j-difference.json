@@ -1,0 +1,521 @@
+{
+ "elements": [
+  {
+   "element": "E1 identification",
+   "program": "#11 App. A item 4: 'Dark matter is conjugate matter — alive, P.R.'s core conjecture: as χ particles (x-clumping, gated self-force) or, since v2.4, as conjugate monopoles localized in momentum'. §8: 'Dark matter, here, is ordinary matter's mirror-polarized cousin'. P4 (§4): 'Matter comes in x-polarized (Standard Model) and p-polarized (χ) representations'. First written statement: lab notebook #1, 'Version 0.1, September 2026'.",
+   "school": "Proposed, never derived. Minic 2020 (arXiv:2003.00318, posted 2020-02-29) §6.2: 'The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector'; §5: 'their duals (that could be interpreted as dark matter Lagrangian L_dm)'. Berglund, Hübsch and Minić 2021 (arXiv:2010.15610, posted 2020-10-29), abstract: 'dark matter, on the other hand, comes from the degrees of freedom dual to the visible matter'. Berglund, Hübsch and Minic 2023 (arXiv:2212.06086) §6.4: 'the dual particles are conjugate to the Standard Model particles in analogy with the canonical fact that momenta p are conjugate to coordinates q'. Restated to April 2026 (2604.19418) and after the notebook (2610.19522 §3.2, 2026-10-14, a restatement: 'it is a candidate for the invisible matter sector'). Earliest public form: Belgrade talk slides, 9 Sep 2019, slide 5: 'DUAL PARTICLES → DUAL STANDARD MODEL (HIDDEN SECTOR?)' (image-only slides, read by eye by two agents; not code-checkable). All other quotations: lit.py FOUND.",
+   "relation": "same",
+   "note": "Case for difference: the school's dark field is the x̃-face of the same bi-local field whose x-face is visible ('they both stem from the same bi-local function', 2212.06086 §6.4), and its own formalism says the doubling adds no degrees of freedom ('There is no overcounting here, because the action will turn out to be chiral', 2003.00318 §3) and that the metaparticle's entanglement 'prevents an interpretation as two particle species' (1812.10821 §3.1); the paper does not reconcile these with a separate dark sector (verifier's reading). Two readings alternate: the whole metaparticle as the dark quantum (a 2017 claim) or the dual partner alone. The program's χ is a separate species by postulate. On that case the two share a sentence. My verdict: E1 asks about the identification itself, and that sentence is the identification. The school states it from September 2019, as a proposal, once in nearly C1's own words. Same, as a proposal. What 'dual' means is E2, where the difference sits; the 'no overcounting' point is unresolved inside the school and is not a difference from C1."
+  },
+  {
+   "element": "E2 what conjugate or dual means",
+   "program": "#11 §3, P2′, P4, P5: matter in the other Lagrangian polarization of one phase space (x, p); 'Only ω is rigid (symplectic rigidity ≡ constancy of ℏ)'; ρ: (x,p) → (p,−x), which 'the Fourier transform implements ... unitarily' (§3). No coordinate x̃ distinct from p, and no p̃.",
+   "school": "Three senses. (i) Foundations: x̃ is rescaled momentum, 'x≡q/a, x̃≡p/b, with ab=2πħ' (2109.12763 §2.2; same in 1606.01829 §1.1, 2407.06207 §3.2). (ii) Metastring and metaparticle, where the dark fields are built: x̃ = x_L − x_R ('In terms of the left- and right-moving 0-modes of the twenty-six dimensional bosonic string, one defines', 2407.06207 eq. 3.11); 'the canonically conjugate dual space, spanned by the difference of the left- and right-movers' (1905.09463); '[x,x̃]=iλ², ... [p,p̃]=0 . (Also, [x,p]=iħ=[x̃,p̃] .)' (2407.06207 §3.3); 'the classical motion would apparently be that of a particle in a doubled space-time' (1812.10821 §2). The dark fields are shifts of p̃: 'If we turn on backgrounds p→p+φ and p̃→p̃+φ̃. Thus we have “dark matter” fields' (2407.06207 §3.3); Minic 2020 §5 eq. 45, '(p̃+Ã(x,x̃))', with (x, x̃) as configuration variables; even in the foundations-style section, 'The dual momenta p and p̃ (to x and x̃ respectively) lead, via the canonical minimal-coupling prescription, not only to the usual fields φ but also to their duals φ̃' (2109.12763 §2.2). (iii) Field space: the fields' 'canonical conjugateness' 'is induced from the domain-space canonical commutation relation between x and x̃' (2212.06086 §6.4). The authors read the doubled side as momentum: 'Y can be thought of as a momentum coordinate' (1502.08005 §2); the length-and-radius reading 'is deeply misleading' (§7.1); 'the dual (momentum-like) spacetime' (2307.16712 §4.1); the x̃ ≡ p/ε description 'will appear in what follows in the metastring formulation' (2407.06207 §3.2). All lit.py FOUND.",
+   "relation": "partial",
+   "note": "Case for difference: every dark-matter statement uses a doubled phase space in which x̃ has a momentum p̃ of its own and [x, x̃] is set by a length λ (string, Planck or 'contextual'), and the dark fields are shifts of p̃. My inference: a rescaled momentum of x cannot have its own conjugate in one phase space, so even the passage that sets x̃ ≡ p/b builds the dual fields from the doubling. The record's support for 'the momentum side', BHM 2021's 'canonically conjugate dual space', names the winding space (1905.09463). FKLM themselves say (p, p̃) 'might resemble a doubling of momentum space' (2104.00802). My verdict: partial. The school means its dual to be the momentum side and says so, and on the reduced (x, x̃) space x̃/2πλ² 'plays the role of the variable conjugate to x' (1706.03305 §4.2). But the construction that carries the identification is a doubled phase space at λ², not one phase space at ℏ, and the ordinary p stays a separate variable."
+  },
+  {
+   "element": "E3 field content",
+   "program": "#11 P4: x-polarized (Standard Model) and p-polarized (χ) representations. §12: three candidates, χ particles, an X-condensate and conjugate monopoles. §11.4 (C4): 'each electrically charged x-polarized particle having a magnetically charged p-polarized analog', in a separate-photon form (the p-sector's own gauge field) or a shared-photon form (our photon, P4 restated). §8's benchmark: m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3}.",
+   "school": "A proposed dual for every Standard Model field: 'Thus the entire SM would have a dual SM (which we propose, describes the dark matter sector)' (2109.12763 §4); 'every Standard Model field' is doubled as φ(x,x̃) and φ̃(x,x̃) (2407.06207 §3.5); 'every Standard Model particle has a dual fuzzy counterpart' (2604.19418 §5.1); a dual photon correlated with ours, 'distinct from the dark photon of effective field theory' (2010.15610 §5); a dual Z, dual QCD, dual neutrino, dual Higgs, dual axion. No dual charges. The duals rest on a gauging the authors flag: 'There is a possible ambiguity in this gauging which depends on which configuration variables one decides to work with' (2003.00318 §5). Heterotic placements differ: dark duals of each E8 'valued in the same E8 algebra' (2212.06086 §6.6) against 'its dual Standard Model of the dark sector, coming from the other' E8 (2307.16712 §4.3). lit.py FOUND.",
+   "relation": "partial",
+   "note": "Case for difference: the program's dark-matter candidates are not a dual Standard Model. χ is one benchmark species beside a condensate and monopoles; the program's one-analog-per-particle structure is C4, whose analogs carry magnetic charge, which the school's duals lack. My verdict: partial. The school's dual per field, with a photon of its own, has the outline of C4's separate-photon form without the magnetic charge; χ itself has no counterpart in the school's spectrum."
+  },
+  {
+   "element": "E4 coupling between the sectors",
+   "program": "#11 P4: 'both couple universally to H; gauge forces do not cross polarizations', taken strictly since v2.1: no kinetic mixing beyond the gravity-induced, 'ε ≲ 10⁻¹³'. §13 row 7: 'Permanent null', killed by 'Any confirmed non-gravitational DM–SM coupling'. Exception: §11.4's shared-photon form needs P4 restated.",
+   "school": "At zeroth order both sectors sit on one metric (2003.00318 eqs. 49–50, '(where we have included the gravitational background as non-dynamical)'), and 'to first order in the fundamental length, we can treat them as independent' (2212.06086 §6.3). Beyond that, non-gravitational terms: −(λ⁸/L¹⁰)f⟦A,Ã⟧ and scalar and fermion bilinears (2010.15610 eqs. 19–21), 'as predicted by the doubled/non-commutative set-up, and provides an explicit correlation between the dark matter sector and a visible sector' (§5); 'This correlation becomes invisible in effective field theory, and it vanishes as either λ→0 or L→∞. Note that with a particular double scaling, this term can be finite!' (§4); 'Also, the usual visible photon/dark photon coupling is subdominant to this term that is inherent in our story.' (§5); a Berry-phase-like term 'uniquely different from the usual effective field theory interaction terms between visible and dark matter particles' (2003.00318 §5); non-commuting visible and dark fields (2407.06207 §3.3). Strength unfixed: 'so here we leave them unspecified' (2212.06086 fn. 43). One paper puts the coupling above a decoupling energy: 'below which the dark and visible matter interact as required, only gravitationally', M_SM ≈ 4.5×10¹⁴ GeV (2407.06207 §5.3; 4.484×10¹⁴ GeV recomputed by two verifiers). lit.py FOUND.",
+   "relation": "different",
+   "note": "Case for difference (here the record understates it): 'correlated' names couplings that BHM 2021 says dominate ordinary kinetic mixing, which P4 bounds at ε ≲ 10⁻¹³, and each is a coupling row 7 names as killing the program's candidates. My verdict: different, with two qualifications. At leading order in λ the two agree: one metric, and no cross term among the displayed terms. Hübsch and Minic 2024 §5.3 states gravity-only interaction below ~4.5×10¹⁴ GeV, the program's situation at accessible energies; but the same paper has 'the CP violating phases would come from the SM calculation and the dual SM sector' (§5.4, FOUND), and the source it cites for the term keeps the dual photon's correlation 'finite even in the limit of zero momenta (deep infrared)' (2010.15610 §5). So the school's papers disagree with one another; the program differs from all of them in admitting no coupling beyond gravity at any energy. 2202.06890's 'naturally correlated in this description' cites the modified-dark-matter papers, whose 'correlation' is the observed tie of dark to baryonic mass profiles (1709.04388 §2: 'its mass profile is tied to the baryonic mass profile'), not a coupling term."
+  },
+  {
+   "element": "E5 detection",
+   "program": "#11 §13 row 7: 'Permanent null (both dark-sector candidates SM-decoupled; P4 strict)'. Row 1: a knee in σ_T(v) at v* ~ 10² km/s and 'zero cluster signal (particle χ)'. #11, #1 and the literature-check note never mention Milgrom, MOND or a₀ (two agents' greps).",
+   "school": "Detection expected; nulls explained only conditionally; no permanent null stated. 'dark matter quanta should be detectable through their particular metaparticle entanglement to visible matter' and 'If the quanta of modified dark matter are metaparticles, this may explain why, so far, dark matter detection experiments have failed' (2003.00318 §5); 'These type of correlations might be found in correlated events in the accelerators' (2010.15610 §5); 'A more concrete theory for MDM quanta will allow us to test the whole scheme of MDM at colliders' (1709.04388, conclusion); 'Thus the usual detection analysis of particulate dark matter should be revisited' (2212.06086 fn. 32); the acceleration scale offered as evidence: 'such observed acceleration scale is evidence for' the correlation (2604.19418 §5.1, on 'the so-called Milgrom’s scaling'). lit.py FOUND.",
+   "relation": "different",
+   "note": "Case for difference and verdict agree: the program predicts no non-gravitational signal and no a₀ tie to baryons; the school predicts signals and cites the a₀ scaling as evidence. This is where observation could separate them, the open question in root CLAUDE.md: a confirmed non-gravitational dark–visible coupling would kill the program's candidates (row 7) and is what BHM 2021 expects. Caveats: Hübsch and Minic 2024 §5.3's gravity-only regime implies no signal at accessible energies, though not stated as a prediction; and the MDM authors allow the a₀ correlation to arise in gravity-only ΛCDM ('it may be possible to reconcile this result with CDM models', 1709.04388 §1, FOUND) while preferring a fundamental scale, so a₀ alone does not discriminate."
+  },
+  {
+   "element": "E6 gravity",
+   "program": "#11 §8: 'χ propagates on g (equivalence principle; Bullet-Cluster-safe)'; P4: both couple universally to H. §7 and App. A item 10: momentum space's own gravity is a massive, reciprocity-odd spin-2 field X, whose exchange is the gate. §10: the dual Einstein term is 'an a⁻⁶ step in G_eff' (flag 49: not derived).",
+   "school": "Dark matter falls on the observed metric after the x̃-integration: 'In the above expression one needs to integrate over the dual space coordinates x̃ to get an effective description of visible matter, A(x), and dark matter, Ã(x), in classical x spacetime' (2407.06207 §3.4; also 2003.00318 eqs. 49–50). Newton's constant from the dual volume: 'the weakness of gravity is determined by the size of the canonically conjugate dual space' (2010.15610 §2); 'Note also that our G_N could vary by varying the volume of the dual spacetime.' (2212.06086 §6.2). A dual gravity sector R̃(x̃) that gives Λ; no massive dual graviton. FKLM's candidates: 'We now make use of the fact that the metaparticle couples to the extended metric (3)' (2104.00802). lit.py FOUND.",
+   "relation": "partial",
+   "note": "Case for difference: the program's dual gravity is a massive spin-2 field that mediates χ's gate; the school's is the curvature of a dual spacetime that sets Λ, with G_N from the dual volume, which the program does not claim. My verdict: partial. Both have dark matter falling on the ordinary metric universally, as visible matter does (the same), and both give the dual side a gravity of its own, of different kinds."
+  },
+  {
+   "element": "E7 dynamics and self-interaction",
+   "program": "#11 §8: amplitude M(k,q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²), 'k the incoming relative momentum', 'delivered by X-exchange between dual-stress bilinears'; σ_T(v) = σ₀F(v²/v*²), a knee at v*. App. A item 3: clumping in momentum space, P.R.'s open conjecture.",
+   "school": "No self-interaction law, no dependence on relative velocity or momentum overlap, no localization in x̃ or momentum (r9-sweep code over 41 papers, reproduced: 'relative velocit' 0 hits; 'self-interact' only as open questions). 'how does MDM self-interact' (1602.00055); collisionless dark matter 'whether traditional or metaparticle' (2109.12763 §6.2). The one force law is static, a potential 'which is of the Friedel form' e^{−αr}/r^β cos(γr), from unpublished work (2212.06086 fn. 31). The form proposed: 'the visible φ and invisible (dark matter) φ̃ do not commute. Therefore, one could say that dark matter is fuzzy from the point of view of classical spacetime.' (2407.06207 §3.3). Localization posed, not answered: 'It is natural to wonder about the mechanisms for localization of strings' (1812.10821 §1). lit.py FOUND.",
+   "relation": "absent-in-school",
+   "note": "Case for difference and verdict agree: nothing like §8's gate. The school's fuzzy form is a wave-like form, nearer §12's X-condensate than χ; its 'fuzzy' means non-commutation with visible fields, while 2405.08744 uses ordinary ultralight fuzzy dark matter with a gravity-only link to baryons."
+  },
+  {
+   "element": "E8 monopoles",
+   "program": "#11 §12: conjugate monopoles, 'magnetically charged topological solitons of the p-polarized sector, localized in momentum'. §11.4: the magnetic-mirror conjecture. App. A item 5: monopoles in conjugate space explaining non-detection.",
+   "school": "No magnetically charged or dyonic matter, and nothing localized in x̃ or momentum. Magnetic language only: worldsheet dyons, whose 'quantization of the dyon charges is equivalent to satisfying the diffeomorphism constraint' (1307.7080); 'the modular representation of quantum field theory introduces dual “electric” and “magnetic” variables, which are in general, non-commuting' (2003.00318 §3; same in 2109.12763 §2.2); Ẽ8 as 'i.e., the electro-magnetic dual' of E8, 'and they are physically indistinguishable' (2111.14205); 'The dual spacetime x̃ is associated with conserved dual (magnetic) charges in the same context' (2407.06207 fn. 11, gravitational corner symmetries). lit.py FOUND.",
+   "relation": "absent-in-school",
+   "note": "Verdict: absent. The 'magnetic' duals in quotation marks and the Langlands pairing are verbal parallels to C4 and §11.3, with no magnetic charge; the worldsheet-dyon remark is already in flag 67. Outside the school, Ran's dark state carries a momentum-space winding, topological and not magnetic."
+  },
+  {
+   "element": "E9 vacuum and the choice of polarization",
+   "program": "#11 §3: ρ exact and spontaneously broken; 'The breaking is mandatory: [x,p] = iℏ forbids joint locality'; credits Freidel, Leigh and Minic with 'the idea that a preferred polarization breaks Born duality' and claims 'to read it as spontaneous breaking, with η as the order parameter'. P2′: only ω rigid; 'η = HJ, with the real structure J chosen spontaneously'; ρ inside a continuous U(1), the polarization a Goldstone angle needing a ρ-preserving potential. P5: 'The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful.'",
+   "school": "Spacetime is a choice of polarization, and the other is equally available: 'there is nothing special about the x^μ; we could have taken any linear subspace, such as x̃,p' (1812.10821 §2, 2018). In ordinary QM 'it is a fundamental property of quantum theory that this choice of polarization is immaterial' (1502.08005 §1); in quantum gravity 'a dynamical question' (§7); 'spacetime is a derived dynamical concept' (1307.7080, 2013), with the space–momentum split found 'when we look at solutions of string theory' (1405.3949 §2). 'The space U(d)/O(d) represents the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state' (1606.01829 §2). One vacuum-level breaking, of the dual Lorentz symmetry: 'The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of δ', with the expansion proposed as selector, though 'In other words the dual Lorentz action is not a canonical transformation.' (2104.00802, 2021-04-01); that group 'is effectively spontaneously broken' within a sector of fixed p̃ (2212.06086 §4.3). ω, η and H all dynamical, and 'the rigidity of the quantum theory is encoded into the flatness of the polarization metric' η (1502.08005 §1). No potential, order parameter or Goldstone mode for the polarization (greps). lit.py FOUND.",
+   "relation": "partial",
+   "note": "Case for difference: the program's addition, an exact ω-preserving ρ broken by the vacuum, η its order parameter with a potential and a Goldstone angle, and a breaking made mandatory by [x,p] = iℏ, has no counterpart. The school's vacuum-level breaking is of a non-canonical symmetry of a doubled space; it calls the choice immaterial in ordinary QM; it holds η rather than ω rigid. My verdict: partial. Published before the program: spacetime as a polarization; the other polarization equally lawful (P5's mirror, held as a symmetry or a free choice, not as a vacuum); η dynamical, with the chiral structure (η, J) and 'generalized metric H=ηJ' (1307.7080); the space U(d)/O(d) of η choices; a vacuum-level breaking tied to which coordinate is spacetime; the word 'spontaneously' for that group. Not published: the spontaneous breaking of ρ with η as order parameter. So 'selected by the vacuum' marks no clean difference; 'spontaneously, with η as order parameter' does."
+  },
+  {
+   "element": "E10 dark energy",
+   "program": "#11 §10: τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], 'strictly w ≥ −1' (w the equation of state, pressure over energy density), thawing wₐ ≈ −1.5(1 + w₀); 'a·ã = 1' from ω-rigidity; the dictionary 'Dual stiff ↦ Λ; dual Λ ↦ stiff; dual curvature ↦ negative dark radiation; dust ↦ dust'. App. A item 9 (C5): 'Their collapse is our acceleration', open, with the kept route dual stiff ↦ Λ.",
+   "school": "Dark energy from the dual geometry: 'dark energy is generated by the dynamical geometry of the dual spacetime' (2010.15610 abstract), a positive Λ at leading order (w = −1). Beyond it both signs of 1 + w are published: 'The equation of state parameter w_eff < −1 in this framework' (2202.05266 abstract, read via lit.py show; its text adds 'this rules out quintessence models'); 'Clearly, w(a)<-1 for all a as anticipated' and 'this model is clearly disfavored' (2503.20854 §3.3), but under an alternative UV–IR relation 'its effective equation-of-state parameter satisfies w(a)>-1' (§4). Reciprocal scale: 'relate the dual spacetime volume to the observed spacetime volume as' Ṽ ∼ V⁻¹ (1905.08269); 'the dual dimension shrinks to zero' as a → ∞ (2104.00802). No contracting dual universe drives our acceleration (greps for collapse, contraction, bounce). lit.py FOUND.",
+   "relation": "related",
+   "note": "Case for difference: the mechanisms differ. The school's dual curvature is Λ; the program's dictionary sends dual curvature to negative dark radiation and uses τ for dark energy; C5's collapse is absent. My verdict: related. Both put dark energy's origin on the dual side. One 2025 model shares row 4's sign pattern (w ≥ −1, wₐ < 0) by another mechanism, with DESI best fits at wₐ/(1 + w₀) = −3.0 to −3.8, off #11's corridor (r4-pheno's computation, reproduced by its verifier). Ṽ ∼ V⁻¹ parallels a·ã = 1 as an assumption at a string scale, not as a consequence of a rigid ω at ℏ."
+  }
+ ],
+ "propositions": [
+  {
+   "id": "P1 core published",
+   "verdict": "holds-with-qualification",
+   "confidence": "high",
+   "reason": "The identification, dark matter as the dual counterpart of visible matter in a Born-reciprocal phase-space framework, is published by the school as a proposal, never derived. It was public in Minic's talk of 9 September 2019 (slides, hedged 'HIDDEN SECTOR?'), 173 days (computed) before the first written statement, Minic 2020 (29 February 2020) §5 and §6.2, and was restated through April 2026; the October 2026 paper is a restatement, not prior art. Qualifications: (a) '2020' is right for print but not for the first public statement; (b) the published 'dual' is the doubled-phase-space x̃ at a fundamental length, with the dark fields built as shifts of x̃'s own momentum p̃, not the other polarization of one phase space at ℏ, so 'core' holds only if the meaning of 'conjugate' is not part of C1's core; (c) the Minic 2020 abstract clause the record quotes (metaparticle quanta as dark matter) is an earlier claim of 2017 (1709.04388), and §6.2 carries the identification; (d) a closed-access FLM paper (IJMPA 34, 1941004, online 15 October 2019) that Minic 2020 §7 cites for dark matter 'represented by metaparticles' is unread. Prior art changes no claim's status.",
+   "evidence": [
+    "talk:mphys10-2019-Minic, slide 5 (talk 9 Sep 2019; file Last-Modified 10 Sep 2019): 'DUAL PARTICLES → DUAL STANDARD MODEL (HIDDEN SECTOR?)' (slide image, two agents; not code-checkable)",
+    "2003.00318 §6.2 (posted 2020-02-29): 'The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector' (FOUND)",
+    "2003.00318 §5: 'their duals (that could be interpreted as dark matter Lagrangian' (FOUND)",
+    "2010.15610 abstract (posted 2020-10-29): 'dark matter, on the other hand, comes from the degrees of freedom dual to the visible matter' (FOUND)",
+    "2212.06086 §6.4: 'the dual particles are conjugate to the Standard Model particles in analogy with the canonical fact that momenta p are conjugate to coordinates q' (FOUND)",
+    "1709.04388 §5 (2017-09-13): 'it could be viewed as a model for modified dark matter quanta discussed in this review' (FOUND) — the metaparticle claim of Minic 2020's abstract, two and a half years earlier",
+    "2109.12763 §2.2: 'The dual momenta p and p̃ (to x and x̃ respectively) lead, via the canonical minimal-coupling prescription, not only to the usual fields φ but also to their duals φ̃' (FOUND)",
+    "2003.00318 §3: 'There is no overcounting here, because the action will turn out to be chiral.' (FOUND)"
+   ],
+   "suggested_wording": "Minic and coauthors proposed the identification in a talk of 9 September 2019 and in writing in February 2020 (Minic 2020 §5, §6.2): dark matter as the dual of visible matter in a doubled, Born-reciprocal phase space. It is a proposal, not a derivation, and their dual coordinate is not the momentum of one phase space at ℏ."
+  },
+  {
+   "id": "P2 their sector correlated with ours",
+   "verdict": "holds-with-qualification",
+   "confidence": "high",
+   "reason": "As a difference from the program it holds against Minic 2020, Berglund, Hübsch and Minić 2021, Edmonds, Minic and Takeuchi 2021 and Berglund, Hübsch and Minic 2023: their dark sector couples to ours beyond gravity, through mixing terms of unspecified strength, a dual photon correlated with ours and said to dominate ordinary kinetic mixing, correlated accelerator events, non-commuting fields and an observed a₀ correlation; each is a coupling #11 §13 row 7 names as killing the program's candidates. It does not hold at accessible energies against Hübsch and Minic 2024 §5.3, which puts the coupling above ~4.5×10¹⁴ GeV and has gravity alone below; the school's papers disagree. At leading order in λ the school's two sectors share only the metric, as the program's do. 'Correlated' is the school's word, but it understates explicit coupling terms, and 2202.06890's 'naturally correlated' refers to the observed modified-dark-matter relation, not to a term.",
+   "evidence": [
+    "2010.15610 §5: 'as predicted by the doubled/non-commutative set-up, and provides an explicit correlation between the dark matter sector and a visible sector' (FOUND)",
+    "2010.15610 §5: 'Also, the usual visible photon/dark photon coupling is subdominant to this term that is inherent in our story.' (FOUND)",
+    "2010.15610 §4: 'This correlation becomes invisible in effective field theory, and it vanishes as either λ→0 or L→∞. Note that with a particular double scaling, this term can be finite!' (FOUND)",
+    "2010.15610 §5: 'These type of correlations might be found in correlated events in the accelerators' (FOUND)",
+    "2003.00318 §5: 'uniquely different from the usual effective field theory interaction terms between visible and dark matter particles' (FOUND)",
+    "2407.06207 §5.3 (posted 2024-07-03): 'below which the dark and visible matter interact as required, only gravitationally' (FOUND); M_SM ≈ 4.5×10¹⁴ GeV, recomputed 4.484×10¹⁴ GeV by two verifiers",
+    "2407.06207 §5.4: 'the CP violating phases would come from the SM calculation and the dual SM sector' (FOUND)",
+    "2212.06086 §6.3: 'to first order in the fundamental length, we can treat them as independent' (FOUND)",
+    "2202.06890 'Observations': 'Dark matter, dark energy and visible matter are naturally correlated in this description' (FOUND; its refs [45, 46] are the modified-dark-matter papers)",
+    "#11 §4 P4: 'ε ≲ 10⁻¹³'; §13 row 7: killed by 'Any confirmed non-gravitational DM–SM coupling'"
+   ],
+   "suggested_wording": "In most of the school's papers their dark sector couples to ours beyond gravity, through mixing terms of unspecified strength, a dual photon correlated with ours and accelerator events; one paper (Hübsch and Minic 2024) puts that coupling above about 4.5×10¹⁴ GeV and has gravity alone below it. The program's sector couples to ours by gravity alone at every energy."
+  },
+  {
+   "id": "P3 neither form found",
+   "verdict": "holds",
+   "confidence": "high",
+   "reason": "In some 45 school papers and the outside searches, no dark-matter self-interaction depends on relative velocity or momentum overlap, nothing is localized in x̃ or in momentum, and no magnetically charged or dyonic dark matter appears. The school's one force law between metaparticles is static; its dark matter is collisionless or 'fuzzy'. Its magnetic language (worldsheet dyons, 'magnetic' duals in quotation marks, the Langlands pairing of E8 factors, corner-symmetry charges) carries no magnetically charged matter. Outside, Ran's dark state has a momentum-space winding but no magnetic charge and no gate. Limits: the FLM 2019 IJMPA paper and the school's 2026 book are unread, literature not in English was not searched, and OpenAlex queries did not run.",
+   "evidence": [
+    "r9-sweep term counts over 41 papers (code, reproduced by its verifier): 'relative velocit' 0; localization in x̃ or momentum 0; 'gate(s)' only as author names, titles and qubit gates",
+    "2212.06086 §4.3 fn. 31: a scalar potential 'which is of the Friedel form' e^{−αr}/r^β cos(γr), from unpublished work, with no velocity dependence (FOUND)",
+    "1602.00055: 'how does MDM self-interact' (open question; FOUND)",
+    "2407.06207 fn. 11: 'is associated with conserved dual (magnetic) charges in the same context' (corner symmetries, not matter; FOUND)",
+    "2111.14205: Ẽ8 as 'i.e., the electro-magnetic dual' of E8, 'and they are physically indistinguishable' (FOUND)",
+    "1812.10821 §1: 'It is natural to wonder about the mechanisms for localization of strings' (posed, not answered; FOUND)",
+    "r8-outside and its verifier: no outside paper with a velocity-gated dark self-interaction or magnetically charged dark objects localized in momentum"
+   ],
+   "suggested_wording": "Neither of the program's forms is in the literature found: no dark-matter self-interaction gated by relative velocity or momentum overlap, and no magnetically charged objects localized in momentum, inside or outside the school."
+  },
+  {
+   "id": "P4 overlap beyond C1",
+   "verdict": "holds",
+   "confidence": "medium",
+   "reason": "Before the program the school published several things the program states or uses: the equal standing of the other polarization (P5's mirror, as a symmetry or free choice), a dynamical η with the chiral structure H = ηJ (P2′'s formula, 2013), the space U(d)/O(d) of η choices preserving ω and the vacuum (the Λ(d) of #11 §10 and §14 item 12), the positive form of the compatibility theorem in group form, a vacuum-level breaking tied to which coordinate is spacetime (2021) and the word 'spontaneously' for that group (2022), a reciprocal scaling of the dual volume analogous to a·ã = 1, de Sitter as an entangled state of visible and dual descriptions (App. A items 2 and 8), a gravity of the dual side (App. A item 10), and dark energy from the dual side with a w ≥ −1, wₐ < 0 model. Not published: the spontaneous breaking of an exact ω-preserving ρ with η as order parameter, a rigid ω (the school makes ω dynamical), C2, C5's collapse, C7 and the gate. Several of these are judgment calls on how close a structural parallel is, hence medium.",
+   "evidence": [
+    "1812.10821 §2 (2018-12-27): 'we could have taken any linear subspace, such as' x̃, p (FOUND)",
+    "1307.7080 (2013-07-26): 'We call (η,J) a chiral structure on P, with generalized metric H=ηJ' (FOUND)",
+    "1606.01829 §2 (2016-06-06): 'The space U(d)/O(d) represents the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state' and 'the space of vacuum metrics associated with a given Hilbert space is encoded in' GL(d)/O(d) (both FOUND)",
+    "2104.00802 (2021-04-01): 'The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of' δ; 'In other words the dual Lorentz action is not a canonical transformation.' (FOUND)",
+    "2212.06086 §4.3: 'is effectively spontaneously broken' (FOUND)",
+    "1905.08269 (2019-05-20): 'relate the dual spacetime volume to the observed spacetime volume as' Ṽ ∼ V⁻¹ (FOUND)",
+    "2212.06086 §5.3: 'Thus de Sitter space should be given as a BCS-like entangled state between two CFTs' (FOUND)",
+    "2503.20854 (2025-03-26) §4: 'its effective equation-of-state parameter satisfies w(a)>-1'; §3.3: 'Clearly, w(a)<-1 for all a as anticipated' (FOUND)",
+    "1502.08005 §1: 'the rigidity of the quantum theory is encoded into the flatness of the polarization metric' (FOUND) — a difference from P2′"
+   ],
+   "suggested_wording": "Beyond the identification, the school published before the program the equal standing of the other polarization, a dynamical η with the structure η = HJ, the space U(d)/O(d) of polarizations, a vacuum-level breaking tied to which coordinate is spacetime, a reciprocal scaling of the dual volume like a·ã = 1, and dark energy from the dual side. It did not publish the spontaneous breaking of reciprocity with η as order parameter, a rigid ω, monopoles in momentum space, conjugate collapse powering our acceleration or the velocity gate."
+  }
+ ],
+ "priority": {
+  "earliest_public": "Djordje Minic, invited talk 'From string theory and quantum gravity to dark matter and dark energy', 10th Mathematical Physics Meeting, Belgrade, Monday 9 September 2019 (slides www.mphys10.ipb.ac.rs/slides/Minic.pdf; PDF created 29 Aug 2019, server Last-Modified 10 Sep 2019; abstract announcing 'a new picture of dark matter and dark energy' archived 25 Aug 2019). Slide 5: '1) EACH PARTICLE OF THE STANDARD MODEL HAS A \"DUAL\" PARTICLE ... DUAL PARTICLES → DUAL STANDARD MODEL (HIDDEN SECTOR?)' and '3) METAPARTICLES φ(x,x̃) → DARK MATTER QUANTA CORRELATED TO VISIBLE (BARYONIC/STANDARD MODEL) QUANTA'; slide 6 sets L_m(x̃) ≈ L̃_m(x) beside 'DARK MATTER SENSITIVE TO Λ AND L_m(x)'. Hedged ('HIDDEN SECTOR?'). Read by eye from the image-only slides by the r1-priority reader and confirmed by its verifier; not code-checkable. 173 days before the arXiv posting (computed, scratch/j-difference/day_counts.out).",
+  "earliest_in_print": "Minic, arXiv:2003.00318, posted 29 February 2020 (proceedings of the same Belgrade meeting, SFIN XXXIII A1 (2020) 183): §5 'their duals (that could be interpreted as dark matter Lagrangian L_dm)'; §6.2 'The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector' (both lit.py FOUND). A possibly earlier written statement, Freidel, Leigh and Minic, Int. J. Mod. Phys. A 34 (2019) 1941004 (talk February 2018; online 15 October 2019, after the Belgrade talk), is closed access and unread; Minic 2020 §7 cites it alone for dark matter 'represented by metaparticles'. The first written statement precedes the program's notebook v0.1 (September 2026) by 2376 days, about 6.5 years (computed from the earliest day of September 2026).",
+  "precursors": [
+   "Jejjala, Kavic and Minic, arXiv:0705.4581 (31 May 2007): infinite statistics giving 'both dark energy and dark matter in one go', and 'Could this mean that the standard model matter is just a collective excitation around the dark matter condensate?' (FOUND). No dual sector.",
+   "Ho, Minic and Ng, arXiv:1005.3537 (19 May 2010): modified dark matter, 'a duality between cold dark matter and modified Newtonian dynamics (MOND)'. A different duality.",
+   "Edmonds et al., arXiv:1601.00662 (4 Jan 2016): MDM quanta 'could be found in recent reformulations of quantum gravity and string theory' (FLM 2013–2015). A pointer (FOUND).",
+   "Chang, Minic, Sun and Takeuchi, arXiv:1605.04361 (14 May 2016): 'Universality of gravity also suggests that all quantum fields, including those in the SM, should have extended non-local excitations'; charged ones 'would not be “dark”'. Dipole-like excitations of the same fields, not duals (FOUND).",
+   "Freidel, Leigh and Minic, J. Phys. Conf. Ser. 804 (2017) 012032 (talk June 2016, online 3 Apr 2017): 'implications of the metastring for the problems of dark matter', a pointer (read by a verifier in the INSPIRE-hosted PDF; not code-checkable).",
+   "Miami 2016 slides (December 2016; posting date not established): 'non-particle (metaparticle) excitations ⇒ (modified dark matter)' (slide image).",
+   "Edmonds, Farrah, Minic, Ng and Takeuchi, arXiv:1709.04388 (13 Sep 2017) §5: metastring excitations 'can serve as unusual dark matter quanta', and the zero-mode sector 'could be viewed as a model for modified dark matter quanta discussed in this review' (FOUND) — the claim Minic 2020's abstract repeats.",
+   "Same authors, arXiv:1801.00160 (30 Dec 2017) §5: MDM quanta 'might be modeled as metaparticles, excitations of metastrings, which look roughly like two entangled particles in momentum space' (FOUND); in no record file. The two 'entangled particles' are the chiral halves of one metaparticle (1812.10821 §3.1), not visible and dark partners.",
+   "Wojanów slides (26 Sep 2018): 'non-particle dark matter with Milgrom's scaling' (slide image).",
+   "Freidel, Kowalski-Glikman, Leigh and Minic, 'Theory of metaparticles', arXiv:1812.10821 (27 Dec 2018): a dual particle/dual antiparticle pair of poles; no dark matter ('dark' 0 hits).",
+   "Berglund, Hübsch and Minić, arXiv:1905.08269 and 1905.09463 (20 and 22 May 2019): their discussion 'naturally relates to the observationally supported proposal for dark matter quanta that are sensitive to dark energy'. A pointer to modified dark matter."
+  ],
+  "independent": [
+   "Sheng Ran (Washington University in St. Louis), 'Dark Matter from Dual-Manifold Coupling', ResearchHub report, posted 24 Dec 2025 (doi:10.55277/researchhub.unu7fof1.1; framework arXiv:2511.20907, 25 Nov 2025). One quantum state with 'two conjugate dynamical descriptions—one on the familiar space–time manifold and one on a complementary momentum–energy manifold'; 'dark matter arises naturally as a structural consequence of the coupling between these two dynamical sectors'; it 'is not a new particle species' but 'an evanescent projection of a single quantum state across two dynamically conjugate manifolds' (re-read here in the v1 PDF). Nearest outside statement in the meaning of 'conjugate' (the ordinary Fourier conjugate at ℏ), not a counterpart of ordinary matter; it cites neither the school nor Born; 251 days before the notebook (computed); the record's round 3 labeled it related.",
+   "Häuser and Dröscher, Z. Naturforsch. A 74 (online 10 Apr 2019), doi:10.1515/zna-2018-0559: 'Dark matter is assumed to reside in' a dual de Sitter space with imaginary time, 'principally invisible', its gravitational interaction 'directly perceptible' (Crossref abstract, FOUND). A dual spacetime, not momentum space; 325 days before Minic 2020 (computed); not in the record.",
+   "Houlden 2015, Unified Field Mechanics (INSPIRE recid:2836370): vacuum states in Rowlands' 'dual space to the real space where Standard Model fundamental fermions (and we) reside', 'which interacts gravitationally' (FOUND). Not a Born dual; not in the record.",
+   "Nishimura, arXiv:2212.13131 (16 Dec 2022): a negative-norm sector assigned to a dual isospin spacetime, with no gauge interactions with ours, interacting through gravity after symmetry breaking, proposed for dark matter and dark energy, and conditionally holding almost all antiparticles. A counterpart in a dual space coupled by gravity, not a Born dual; not in the record.",
+   "Bolognesi, arXiv:1207.5514 (2012) and 1506.02187 (2015): an x↔p duality with a new scale M, the one matter field 'to be identified with dark matter' (FOUND), and a dual momentum-space universe with its own Einstein equations. Born-reciprocal, but its dark matter is not a counterpart of visible matter (record: round-2 anchor).",
+   "Kadyshevsky, Mateev, Rodionov and Sorin, arXiv:0708.4205 (2007): 'exotic fermions with no analogues in the SM, which may be candidate for dark matter constituents' from de Sitter momentum space (FOUND; record: related).",
+   "Finkelstein, arXiv 2006 (journal 2008): one sentence that the momentum-energy coordinates of quantum events may contribute to dark matter (record: related).",
+   "Vasconcellos and Hadjimichef, arXiv:1404.0409 (2014): dark fermions charged only under the electric–magnetic dual partner of the photon, in position space. Related to C4's separate-photon form.",
+   "Pavšič, arXiv:2205.02787 (2022): a copy of Standard Model fermions under a second gauge group, 'For us it is thus “dark matter”' (FOUND). A copy, not a Born dual (record: related).",
+   "Mirror and twin matter (in the record): copies of ordinary matter coupled to ours mainly or only by gravity, without reciprocity.",
+   "Huang and Huang, astro-ph/9909321 (1999): 'are described in a dual SM or two-fold SM' (FOUND). A phrase collision (in the record)."
+  ]
+ },
+ "overlaps_beyond_c1": [
+  {
+   "program_claim": "P5 (#11 §4): 'the mirror vacuum is equally lawful'",
+   "school_work": "Freidel, Kowalski-Glikman, Leigh and Minic, arXiv:1812.10821 (2018-12-27) §2: 'It should be clear though that there is nothing special about the x^μ; we could have taken any linear subspace, such as x̃,p.'; Berglund, Hübsch and Minic, arXiv:2307.16712 (2023) §2.4: 'different choices related by what in string theory we would call T-duality' (both FOUND)",
+   "relation": "close-variant",
+   "before_program": true,
+   "note": "The other polarization is held to be equally available, as a T-duality or a free choice of analysis; the school does not call it a second vacuum."
+  },
+  {
+   "program_claim": "#11 §3: a preferred polarization breaks Born duality (credited to FLM [26S])",
+   "school_work": "FLM, arXiv:1502.08005 (2015-02-27) §1: 'if all probes agree on what we mean by space-time, then we have broken Born duality' (FOUND; #11's [26S]); earlier, 1405.3949 (2014-05-15) §1.1: 'There is a preferred basis' (FOUND), and FLM credit Born: 'One of the central insights of Born, 75 years ago' (FOUND)",
+   "relation": "same",
+   "before_program": true,
+   "note": "Already credited. FLM's earliest statement is 2014, and by their account the observation that gravity breaks the symmetry is Born's."
+  },
+  {
+   "program_claim": "P2′ (#11 §4): η dynamical, 'η = HJ, with the real structure J'",
+   "school_work": "FLM, arXiv:1307.7080 (2013-07-26): 'We call (η,J) a chiral structure on P, with generalized metric H=ηJ' and 'both elements (η,J) of the chiral structure are dynamical' (FOUND); restated after the notebook in 2610.19522 §3.2 (2026-10-14): 'so K is the real structure' (FOUND)",
+   "relation": "partial",
+   "before_program": true,
+   "note": "The structure and its dynamical status are FLM's from 2013; #11 credits only [26S] (2015). The order-parameter reading is not in the school. The school also makes ω dynamical ('The mutually compatible dynamical fields', 2011.08852 §2, FOUND), where P2′ keeps ω rigid: a difference."
+  },
+  {
+   "program_claim": "#11 §10 (Λ(1), τ's circle), §14 item 12 (Λ(4)): the space of polarizations Λ(d) = U(d)/O(d)",
+   "school_work": "FLM, arXiv:1606.01829 (2016-06-06) §2: 'The space U(d)/O(d) represents the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state' (FOUND)",
+   "relation": "partial",
+   "before_program": true,
+   "note": "Named as a set of choices, not as a vacuum manifold with a potential. Its use as the range of an order parameter is the program's."
+  },
+  {
+   "program_claim": "#11 §5 compatibility theorem: positive H compatible with ω and η are exactly diag(g, g⁻¹)",
+   "school_work": "FLM, arXiv:1606.01829 §2: frames 'determining the vacuum metric' H(x,x̃) = x q x + x̃ q⁻¹ x̃, with 'the space of vacuum metrics associated with a given Hilbert space is encoded in' GL(d)/O(d) (FOUND); §3: 'a symmetric bilinear form' η 'of split signature and a positive definite form H' (FOUND)",
+   "relation": "same",
+   "before_program": true,
+   "note": "The positive form, stated in group form; a verifier checked by code that Sp(2d) ∩ O(d,d) gives diag(AᵀA, (AᵀA)⁻¹). #11 cites only the Lorentzian statement of [26S] §2.1. The block proof of the 'exactly' direction and its machine check stay the program's."
+  },
+  {
+   "program_claim": "Hard core and P5: the vacuum breaks the symmetry and selects the polarization (#11 §3's 'spontaneous' reading)",
+   "school_work": "FKLM, arXiv:2104.00802 (2021-04-01): 'The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of' δ; 'We now propose that the expansion of the Universe can act as a mechanism that selects the decoupling frame'; but 'the dual symmetry is fundamentally broken at the quantum level' and 'In other words the dual Lorentz action is not a canonical transformation.' (all FOUND). BHM, arXiv:2212.06086 (2022-12-12) §4.3: 'is effectively spontaneously broken' (FOUND). School-adjacent: Yargic thesis (INSPIRE recid:1923123, 2021) §2.8: 'If the modular U(1) gauge symmetry is somehow broken, this may be used as a mechanism to fix the quantum configuration space' (re-read in the verifier's PDF)",
+   "relation": "related",
+   "before_program": true,
+   "note": "A vacuum-level breaking tied to which coordinate is spacetime, and the word 'spontaneously', are published; the broken symmetry is non-canonical, in a doubled space, with no potential, order parameter or Goldstone mode. The program's exact ω-preserving ρ broken spontaneously, with η as order parameter, was not found. No record file quotes these passages."
+  },
+  {
+   "program_claim": "#11 §3: 'The breaking is mandatory: [x,p] = iℏ forbids joint locality'",
+   "school_work": "FLM, arXiv:1502.08005 §1, the sentence before #11's quotation: 'it is a fundamental property of quantum theory that this choice of polarization is immaterial' (FOUND); against it, BHM arXiv:2111.14205 (2021): 'by virtue of having to polarize on one half' (FOUND)",
+   "relation": "different",
+   "before_program": true,
+   "note": "The source #11 cites puts the breaking in quantum gravity, when all probes agree, not in [x,p] = iℏ alone; the mandatory argument is the program's. BHM's 'having to polarize' concerns the section condition, not locality (verifier's comparison)."
+  },
+  {
+   "program_claim": "#11 §10 constraint a·ã = 1 and App. A item 6 ('Conjugate universe shrinks as ours expands')",
+   "school_work": "BHM, arXiv:1905.08269 (2019-05-20): 'relate the dual spacetime volume to the observed spacetime volume as' Ṽ ∼ V⁻¹ (FOUND); FKLM, arXiv:2104.00802: 'the dual dimension shrinks to zero' as the scale factor grows (FOUND)",
+   "relation": "related",
+   "before_program": true,
+   "note": "A reciprocal scaling of the dual side, assumed or kinematic and at a string scale, not derived from a rigid ω at ℏ; the record's own C5 finding calls Minic 2023's version 'a kinematic analogue of founding supposition 6'."
+  },
+  {
+   "program_claim": "App. A item 2 ('A coexisting conjugate universe — one state, two descriptions') and item 8 ('Synchronized, not causal; Fourier/holography')",
+   "school_work": "BHM, arXiv:2212.06086 §5.3: 'Thus de Sitter space should be given as a BCS-like entangled state between two CFTs' with the one in the infinite past 'formulated in terms of dual degrees of freedom' (FOUND); FLM, arXiv:1502.08005 §2: the map X → Y 'corresponds to the string Fourier transformation' (FOUND)",
+   "relation": "related",
+   "before_program": true,
+   "note": "One universe in visible and dual descriptions, related by holography and a Fourier-type map; not the program's synchronized conjugate universe under a·ã = 1."
+  },
+  {
+   "program_claim": "App. A item 10 and #11 §7: 'Momentum space has its own gravity' (a massive, reciprocity-odd spin-2 X)",
+   "school_work": "BHM, arXiv:2212.06086 §4.3: 'this approach predicts a dual gravity sector (associated with a dynamical dual spacetime)' (FOUND); FLM, arXiv:1502.08005 §1: the dual momentum-energy space becomes curved, 'an idea that goes back to Max Born' (FOUND)",
+   "relation": "partial",
+   "before_program": true,
+   "note": "A gravity of the dual side is published (dual curvature giving Λ; curved momentum space, traced by FLM to Born); a massive spin-2 momentum graviton is not. #11 §3 traces curved momentum space to Snyder without Born."
+  },
+  {
+   "program_claim": "#11 §10 dark energy and §13 row 4 (strictly w ≥ −1, thawing, wₐ < 0)",
+   "school_work": "Hur, Jejjala, Kavic, Minic and Takeuchi, arXiv:2503.20854 (2025-03-26) §4: 'its effective equation-of-state parameter satisfies w(a)>-1', against §3.3: 'Clearly, w(a)<-1 for all a as anticipated' (FOUND); Jejjala, Kavic, Minic and Takeuchi, arXiv:2202.05266 (2022-02-10) abstract: 'The equation of state parameter w_eff < −1 in this framework'",
+   "relation": "related",
+   "before_program": true,
+   "note": "Dark energy from the dual geometry, with both signs of 1 + w published, set by an assumed UV–IR relation; one model shares row 4's sign pattern by a mechanism unlike τ. The record gives only the w > −1 result (diameter note §7)."
+  },
+  {
+   "program_claim": "C5, App. A item 9: 'Their collapse is our acceleration' (kept route dual stiff ↦ Λ)",
+   "school_work": "BHM, arXiv:2010.15610 abstract: 'dark energy is generated by the dynamical geometry of the dual spacetime' (FOUND); no school paper read has a contracting or collapsing dual universe driving our acceleration (readers' greps for collaps, contract, bounce)",
+   "relation": "absent-in-school",
+   "before_program": true,
+   "note": "The school's acceleration is the dual curvature acting as a constant Λ at leading order; nothing contracts."
+  },
+  {
+   "program_claim": "C4 (#11 §11.4) and App. A item 11: a magnetic analog for each electrically charged particle",
+   "school_work": "Minic, arXiv:2003.00318 §3: 'the modular representation of quantum field theory introduces dual “electric” and “magnetic” variables, which are in general, non-commuting', with (“electric”) fields φ and (“magnetic”) duals φ̃ (FOUND); BHM, arXiv:2111.14205 (2021-11-28): Ẽ8 'i.e., the electro-magnetic dual' of E8, 'and they are physically indistinguishable' (FOUND); HM, arXiv:2407.06207 fn. 11: dual spacetime 'is associated with conserved dual (magnetic) charges in the same context' (FOUND)",
+   "relation": "related",
+   "before_program": true,
+   "note": "One dual per field and an electric–magnetic vocabulary for the duals, with no magnetically charged matter. The 2003.00318 §3 passage is in no record file."
+  },
+  {
+   "program_claim": "#11 §11.3: the DSZ pairing as a symplectic form, and the bridge between S-duality and Born's ρ",
+   "school_work": "FLM, arXiv:1307.7080 (2013): 'quantization of the dyon charges is equivalent to satisfying the diffeomorphism constraint' (FOUND); BHM, arXiv:2212.06086 §6.6: the Born geometry of the metastring formalism, 'besides being inherently T-dual, also involves' S-duality (FOUND loose, math stripped)",
+   "relation": "related",
+   "before_program": true,
+   "note": "The first is already in flag 67; the second is not, and the note's 'repeats the passage' understates the 2023 review."
+  },
+  {
+   "program_claim": "#11 §13 row 7 'Permanent null' (strict P4) joined to the identification",
+   "school_work": "HM, arXiv:2407.06207 (2024-07-03) §5.3: 'below which the dark and visible matter interact as required, only gravitationally', with M_SM ≈ 4.5×10¹⁴ GeV (FOUND; 4.484×10¹⁴ GeV recomputed by two verifiers)",
+   "relation": "partial",
+   "before_program": true,
+   "note": "The identification joined to gravity-only interaction at accessible energies appears once, before the program. It is not stated as a detection prediction, it conflicts with BHM 2021's accelerator correlations, and the same paper's §5.4 lets the dual SM supply visible CP phases. The record's 'not found' for this combination needs narrowing."
+  },
+  {
+   "program_claim": "C2 (monopoles abundant in momentum space) and C3 (why none has been found; App. A item 5)",
+   "school_work": "No school paper; the nearest is Minic, arXiv:2003.00318 §5: 'If the quanta of modified dark matter are metaparticles, this may explain why, so far, dark matter detection experiments have failed' (FOUND)",
+   "relation": "absent-in-school",
+   "before_program": true,
+   "note": "The school's conditional explanation of a null result concerns dark-matter quanta and their non-locality, not monopoles or a placement in momentum."
+  },
+  {
+   "program_claim": "C6 (App. A item 3, matter clumps in momentum space) and C7 / #11 §8's velocity gate",
+   "school_work": "Edmonds et al., arXiv:1801.00160 (2017-12-30) §5: MDM quanta 'might be modeled as metaparticles, excitations of metastrings, which look roughly like two entangled particles in momentum space' (FOUND); Jejjala, Kavic and Minic, arXiv:0705.4581: 'the dark matter condensate' (FOUND); no velocity-gated attraction (0 hits)",
+   "relation": "related",
+   "before_program": true,
+   "note": "The 'two entangled particles in momentum space' are the chiral halves of one metaparticle (1812.10821 §3.1), not matter clumping in momentum; the condensate is a speculation with no momentum clumping. C7 and the gate are absent."
+  },
+  {
+   "program_claim": "App. A item 1 and P3: symmetrize QM around conjugate variables; the action invariant under the Born rotation",
+   "school_work": "FLM, arXiv:1405.3949 §1.1: 'a theory of quantum gravity ought to restore the kinematical duality principle'; arXiv:1307.7080: 'These generalizations restore the Born duality symmetry.'; HM, arXiv:2407.06207 §3: 'spacetime and momentum space appear on equal footing as slices of phase space' (all FOUND)",
+   "relation": "partial",
+   "before_program": true,
+   "note": "Restoring Born's duality as a symmetry of the laws is the school's program, in a doubled setting with T-duality as the symmetry; keeping it exact in the action and broken by the vacuum, with ω alone rigid, is the program's."
+  }
+ ],
+ "summary_line": {
+  "verdict": "Accurate as far as its three clauses go, but compressed too far to show the difference. 'Its core is published (Minic and coauthors, 2020)': the identification is published as a proposal, never derived; it is first in print on 29 Feb 2020 (Minic 2020 §5, §6.2) and was first made public in a talk of 9 Sep 2019. 'Core' does not say that the published 'dual' is a doubled phase space at a fundamental length, with the dark fields built as shifts of x̃'s own momentum, not the other polarization of one phase space at ℏ. 'their sector correlated with ours': this is the school's word, but in its equations it means couplings beyond gravity of unspecified strength (mixing terms; a dual photon said to dominate ordinary kinetic mixing; accelerator events; non-commuting fields). The clause does not say that, does not say that the program's sector couples by gravity alone, and omits that Hübsch and Minic 2024 has gravity alone below about 4.5×10¹⁴ GeV, so the school does not agree with itself. 'neither form was found' holds.",
+  "suggested": "Its identification is published, as a proposal, by Minic and coauthors (2019 talk, 2020 paper), in a doubled phase space and with couplings beyond gravity that the program's sector lacks; neither form was found."
+ },
+ "record_changes": [
+  {
+   "file": "wiki/summary.md, 'Is anything new?', first bullet (line 34)",
+   "passage": "Its core is published (Minic and coauthors, 2020), their sector correlated with ours; neither form was found.",
+   "change": "Replace with: 'Its identification is published, as a proposal, by Minic and coauthors (2019 talk, 2020 paper), in a doubled phase space and with couplings beyond gravity that the program's sector lacks; neither form was found.' (34 words, counted by code). Link the 2020 paper to arXiv:2003.00318 and the talk to its slides, following wiki/CLAUDE.md 'Links' (the gate's paper check), and update the summary's 'current to' date in the same change; the 800-word limit is gate-checked.",
+   "evidence": "Belgrade slides 9 Sep 2019, slide 5; 2003.00318 §5, §6.2 ('could be interpreted', 'The proposal here'); 2407.06207 §3.3 ([x,x̃]=iλ², [x,p]=iħ=[x̃,p̃]; dark fields as p̃ backgrounds); 2010.15610 §4–§5 (mixing terms; 'subdominant'); 2407.06207 §5.3 (gravity only below ~4.5×10¹⁴ GeV, coupling above).",
+   "severity": "medium"
+  },
+  {
+   "file": "CLAUDE.md (root), 'Since the handoff', 2026-11-02 entry, first sub-bullet",
+   "passage": "Minic and coauthors have identified dark matter with the degrees of freedom dual to visible matter in Born-reciprocal (metastring) string theory since 2020 (Minic 2020; Berglund, Hübsch and Minić 2021; restated to April 2026, and in October 2026, after the program's first statement of it in September 2026). Their dual sector is correlated with ours.",
+   "change": "Say 'have proposed, without deriving it, that dark matter is the dual of visible matter', first in a talk of 9 September 2019 (Belgrade; slides public), in writing in Minic 2020 (§5, §6.2) and Berglund, Hübsch and Minić 2021. Add that their dual coordinate belongs to a doubled phase space, with its own momentum p̃ and a commutator with x at a fundamental length λ, and that the dark fields are shifts of p̃. Replace 'correlated with ours' by: in most of their papers coupled to ours beyond gravity (mixing terms of unspecified strength, a dual photon correlated with ours, accelerator events); Hübsch and Minic 2024 §5.3 has gravity alone below about 4.5×10¹⁴ GeV. Since this section heads the wiki's source precedence, also add a dated entry recording the dual-sector investigation of 2026-11-06.",
+   "evidence": "talk:mphys10-2019-Minic slides 5–6; 2003.00318 §5 eq. 45, §6.2; 2109.12763 §2.2; 2407.06207 §3.3, §5.3; 2010.15610 §4–§5; r1-priority record points 0, 1; r3-gravitized record points 0, 1; r9-sweep-verify record point 5.",
+   "severity": "medium"
+  },
+  {
+   "file": "CLAUDE.md (root), 'Since the handoff', 2026-11-02 entry, first sub-bullet, continued",
+   "passage": "The program's couples by gravity alone (P4 strict, row 7; not in §11.4's shared-photon form, which needs P4 restated, flag 63), with the polarization selected by the vacuum, and neither its χ form nor its monopole form was found in the literature;",
+   "change": "Narrow 'with the polarization selected by the vacuum' to 'with the polarization selected spontaneously, an exact ρ broken by the vacuum with η as order parameter (a vacuum-level breaking of a non-canonical dual Lorentz symmetry tied to the choice of spacetime is published: Freidel, Kowalski-Glikman, Leigh and Minic 2021)'. Note that gravity-only coupling joined to the identification appears once in the school, below ~4.5×10¹⁴ GeV (Hübsch and Minic 2024).",
+   "evidence": "2104.00802 after eqs. (11)–(12) ('at the level of the vacuum sector'; 'not a canonical transformation'); 2212.06086 §4.3 ('effectively spontaneously broken'); 2407.06207 §5.3; r7-vacuum record point 3 and its verifier.",
+   "severity": "medium"
+  },
+  {
+   "file": "CLAUDE.md (root), 'Open from the literature check', last bullet",
+   "passage": "whether observation can tell the program's dark sector from the Minic school's dual sector, which is correlated with ours.",
+   "change": "Name the candidate discriminators the evidence holds: the school's expected non-gravitational signals (accelerator events and a dual photon correlated with ours, BHM 2021 §5) against row 7's permanent null; the galaxy-scale a₀ ~ cH₀/2π correlation the school offers as evidence (HM 2024 §3.4; HM 2026a §5.1), which the program does not predict and which the MDM authors allow to arise in ΛCDM; and note that HM 2024 §5.3 has gravity alone below ~4.5×10¹⁴ GeV, so the school's position is not single.",
+   "evidence": "2010.15610 §5; 2604.19418 §5.1 ('such observed acceleration scale is evidence for'); 1709.04388 §1 ('it may be possible to reconcile this result with CDM models'); 2407.06207 §5.3; r2-dual-sm Q5; r5-mdm record point 2 and its verifier.",
+   "severity": "low"
+  },
+  {
+   "file": "notes/literature-check.md §3, opening plain-language passage",
+   "passage": "a group around Djordje Minic has proposed since 2020 that dark matter is the dual of the Standard Model in a Born-reciprocal formulation of string theory, where the dual coordinates are the momentum-like half of a doubled phase space. That is P.R.'s identification. Their dark sector differs from the program's: it is correlated with ours by construction, where the program's couples to ours by gravity alone",
+   "change": "'since 2019 (a talk; in writing 2020)'. After 'That is P.R.'s identification', add: in their model the dual coordinate has a momentum of its own and fails to commute with position at a fundamental length, and their dark fields do not commute with the visible ones. Replace 'correlated with ours by construction' by: in most of their papers coupled to ours beyond gravity, by terms whose strength they leave unspecified; one paper has gravity alone below about 4.5×10¹⁴ GeV.",
+   "evidence": "talk:mphys10-2019-Minic; 2407.06207 §3.3; 2212.06086 §6.4; 2010.15610 §4–§5; 2407.06207 §5.3; r2-dual-sm record point 3 and its verifier.",
+   "severity": "medium"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What is published', first bullet and the priority sentence",
+   "passage": "Minic 2020 (arXiv, 29 February 2020), abstract: \"metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach\". ... All nine come from one group and carry one priority, Minic 2020, dated no later than its posting; two earlier items were not read, the September 2019 talk behind it, whose content is unknown, and a 2019 paper of Freidel, Leigh and Minic not on arXiv, whose abstract mentions metaparticles but not dark matter.",
+   "change": "Replace the abstract quotation by §6.2, 'The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector', with §5's 'could be interpreted as dark matter Lagrangian'; note that the abstract's metaparticle clause is the earlier claim of 1709.04388 §5 (13 Sep 2017) and 1801.00160 §5 (30 Dec 2017). Replace 'whose content is unknown' by the slides' content: public since 10 Sep 2019 (talk 9 Sep 2019), slide 5 'DUAL PARTICLES → DUAL STANDARD MODEL (HIDDEN SECTOR?)', 173 days before the posting. Keep FLM 2019 (IJMPA 34, 1941004; online 15 Oct 2019; closed, unread) and add that Minic 2020 §7 cites it alone for dark matter 'represented by metaparticles'. Add the precursors 1605.04361 (2016), 1709.04388 and 1801.00160 (the last in no record file). A new quotation needs an entry in review/literature-check/quotes.json (verify/literature_check.py section C); a new finding changes the counts section A recomputes.",
+   "evidence": "2003.00318 §5, §6.2, §7; 1709.04388 §5; 1801.00160 §5; 1605.04361 §5; r1-priority record points 0–3; r9-sweep record point 2 and their verifiers.",
+   "severity": "medium"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What is published', independence sentence",
+   "passage": "No statement independent of the group was found; Finkelstein 2008 (arXiv 2006) only speculates, in one sentence, that the momentum-energy coordinates of quantum events may contribute to dark matter (related, one agent's label).",
+   "change": "Add the outside statements, each related and none the identification: Ran's report (posted 24 Dec 2025, before the notebook; the record's round 3 labeled it related), in which dark matter 'arises naturally as a structural consequence of the coupling' between a state's space–time and momentum–energy descriptions and is 'not a new particle species'; Häuser and Dröscher 2019 (dark matter in a dual de Sitter space, gravitationally perceptible); Houlden 2015 (gravitating vacuum states in a 'dual space'); Nishimura 2022 (a gravity-coupled negative-norm sector of a dual isospin spacetime); Kadyshevsky et al. 2007. 'Removed' for Ran's report is inexact: its CC-BY PDFs still download.",
+   "evidence": "Ran report v1 PDF (re-read); doi:10.1515/zna-2018-0559 abstract; recid:2836370; 2212.13131; 0708.4205; r8-outside Q1, Q11 and record points 0, 1 with their verifier.",
+   "severity": "low"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What is published', last bullet",
+   "passage": "A review with 162 authors (Addazi et al. 2022) and Jejjala, Kavic, Minic and Takeuchi 2022 are partial too.",
+   "change": "Date by first posting: Jejjala, Kavic, Minic and Takeuchi, arXiv:2011.08852, posted 17 Nov 2020 (journal 2022), distinct from their 2022-posted arXiv:2202.05266, which has no dual dark matter and gives w_eff < −1; Addazi et al., arXiv:2111.05659, posted 10 Nov 2021.",
+   "evidence": "arXiv API v1 dates (scratch/r9-sweep/dates.json); r4-pheno record point 2 and its verifier.",
+   "severity": "low"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What their \"dual\" is', first and second bullets",
+   "passage": "In the foundations it is the momentum side. ... Berglund, Hübsch and Minić 2021 speak of the \"canonically conjugate dual space\". ... The identification matches C1 in their foundations; their model doubles phase space where the program polarizes one.",
+   "change": "Drop BHM 2021's phrase as support: it names the left-minus-right winding space (1905.09463: 'the canonically conjugate dual space, spanned by the difference of the left- and right-movers'). Support the foundations' momentum reading with 2109.12763 §2.2 ('x≡q/a, x̃≡p/b, with ab=2πħ') and FLM 2015 §2 ('Y can be thought of as a momentum coordinate'). Replace 'The identification matches C1 in their foundations' by: the foundations papers (2013–2018) contain no dark matter; the identification is made in the model, where even the section that defines x̃ ≡ p/b builds the dual fields from p̃, the momentum of x̃ (2109.12763 §2.2), and the authors present the doubled x̃ as the realization of the rescaled momentum (2407.06207 §3.2). Add the papers' definition x̃ = x_L − x_R (2407.06207 eq. 3.11) and the field-space conjugacy of 2212.06086 §6.4, which is 'induced from the domain-space canonical commutation relation between' x and x̃.",
+   "evidence": "1905.09463; 2010.15610 §2; 2109.12763 §2.2; 2407.06207 §3.2, §3.3, eq. 3.11; 2212.06086 §6.4; r1-priority record point 4; r2-dual-sm record point 0; r9-sweep record points 0, 4; r6-foundations record point 1 and their verifiers.",
+   "severity": "medium"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What their \"dual\" is', third bullet",
+   "passage": "The judge asked to argue for novelty found the duality the same, not a shared word: the school's dual coordinates are the canonical conjugate of x.",
+   "change": "Qualify: true on the reduced (x, x̃) space at the string scale, where x̃/2πλ² 'plays the role of the variable conjugate to x' (1706.03305 §4.2); in the full zero-mode phase space x's conjugate is p, and x̃ = q̃ + πα′p (1706.03305 eq. 69). The same qualification applies to flag 64.",
+   "evidence": "1706.03305 §3, §4 eq. (69), §4.2; r6-foundations record point 0 and its verifier.",
+   "severity": "low"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What differs', the coupling",
+   "passage": "Their dual sector is correlated with ours by construction: \"the dark matter sector can be seen as coming from a dual Standard Model with a dynamics that is entangled/correlated with the visible Standard Model\" (Berglund, Hübsch and Minic 2023, Symmetry); \"Dark matter, dark energy and visible matter are naturally correlated in this description\" (Berglund, Freidel et al. 2022).",
+   "change": "Rest 'by construction' on BHM 2021's term, which is 'as predicted by the doubled/non-commutative set-up, and provides an explicit correlation between the dark matter sector and a visible sector' (§5). Say that 2202.06890's sentence cites the modified-dark-matter papers [45, 46], whose 'correlation' is the observed tie of dark to baryonic mass profiles through a₀. Add the school's own statements against reading the terms as negligible ('Note that with a particular double scaling, this term can be finite!'; 'the usual visible photon/dark photon coupling is subdominant to this term that is inherent in our story', BHM 2021 §4–§5), and the opposite statements: BHM 2023 §6.3, 'to first order in the fundamental length, we can treat them as independent', and HM 2024 §5.3, 'below which the dark and visible matter interact as required, only gravitationally', M_SM ≈ 4.5×10¹⁴ GeV. State that the school's papers disagree with one another.",
+   "evidence": "2010.15610 §4–§5; 2202.06890 refs [45, 46] and 1709.04388 §2; 2212.06086 §6.3; 2407.06207 §5.3, §5.4; r4-pheno record point 0; r3-gravitized record points 0, 1; r9-sweep record point 3; r9-sweep-verify record point 5.",
+   "severity": "high"
+  },
+  {
+   "file": "notes/literature-check.md §3, 'What differs', the coupling",
+   "passage": "the school, like the program, expects no standard direct-detection signal.",
+   "change": "Drop 'like the program'. The school expects detection ('dark matter quanta should be detectable through their particular metaparticle entanglement to visible matter', Minic 2020 §5; accelerator events, BHM 2021 §5; future collider and direct-detection tests, 1709.04388), while the program requires a permanent null (row 7).",
+   "evidence": "2003.00318 §5; 2010.15610 §5; 1709.04388 conclusion; r4-pheno-verify record point 4.",
+   "severity": "low"
+  },
+  {
+   "file": "notes/literature-check.md §3 'What differs', the vacuum, and §2 plain-language passage",
+   "passage": "The check found no such mechanism in the school's papers, where the classical spacetime label \"corresponds to a choice\" of polarization. ... (§2:) What the check did not find in the literature is mostly the program's setting joined to the identification: a vacuum that selects a polarization, and a dark sector coupled to ours by gravity alone",
+   "change": "Narrow to what was not found: the spontaneous breaking of an exact, ω-preserving ρ with η as order parameter, a potential and a Goldstone angle. Add what was found: FKLM 2021, 'The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of δ', with the expansion as selector, of a dual Lorentz symmetry that 'is not a canonical transformation', joined to a hedged dark-sector remark ('states of class II being remnants'); and BHM 2023 §4.3's 'effectively spontaneously broken'. In §2, say that gravity-only coupling joined to the identification appears once, in HM 2024 below ~4.5×10¹⁴ GeV. Complete the quoted sentence: it ends 'with a contextuality parameter λ'.",
+   "evidence": "2104.00802 after eqs. (11)–(12) and final paragraph; 2212.06086 §4.3; 2407.06207 §3.3, §5.3; r1-priority record point 5; r7-vacuum record point 2; r9-sweep record point 1 and their verifiers.",
+   "severity": "medium"
+  },
+  {
+   "file": "notes/literature-check.md §2, table row C1, 'Not found'",
+   "passage": "the identification joined to a gravity-only, never-detected sector (mirror and twin matter couple by gravity without reciprocity); the χ form with a velocity gate; the monopole form",
+   "change": "'the identification joined to a sector coupled by gravity alone at every energy and never detected (Hübsch and Minic 2024 has gravity alone below about 4.5×10¹⁴ GeV; mirror and twin matter couple by gravity without reciprocity); the χ form with a velocity gate; the monopole form'. Make the same change in wiki/method/literature-check.md's table.",
+   "evidence": "2407.06207 §5.3; r9-sweep-verify record point 5.",
+   "severity": "medium"
+  },
+  {
+   "file": "notes/literature-check.md §6, C5, 'Related'",
+   "passage": "Hur et al. 2025, \"In our model, dark energy stems from the curvature of the dual spacetime\";",
+   "change": "Add that Hur et al. tie our Λ to our scale factor through δxδx̃ ∼ λ² (§2) and publish both signs: under the 2022 letter's UV–IR relation 'Clearly, w(a)<-1 for all a as anticipated', 'this model is clearly disfavored'; under an alternative, w(a) > −1 (§3.4, §4). The same group's 2202.05266 'rules out quintessence models'.",
+   "evidence": "2503.20854 §2, §3.3, §3.4, §4; 2202.05266; r4-pheno record point 1 and r4-pheno-verify record point 3.",
+   "severity": "low"
+  },
+  {
+   "file": "notes/literature-check.md §5, 'The bridge between the two dualities'",
+   "passage": "Their 2023 review, which the record cites for another result (§3), repeats the passage.",
+   "change": "'repeats the passage and adds that the Born geometry of the metastring formalism, besides being inherently T-dual, also involves S-duality (§6.6), with a footnote on S-duality patching through winding and \"momentum\" space (§3.2 fn. 24)'. Under C4, add that Minic 2020 §3 and 2109.12763 §2.2 call the modular fields and their duals “electric” and “magnetic” variables, in quotation marks, with no magnetic charge.",
+   "evidence": "2212.06086 §6.6, §3.2 fn. 24; 2003.00318 §3; 2109.12763 §2.2; r2-dual-sm record point 2 and its verifier; r9-sweep Q8.",
+   "severity": "low"
+  },
+  {
+   "file": "review/wiki-build-flags.md, item 64",
+   "passage": "Minic and coauthors identify dark matter with the degrees of freedom dual to visible matter in Born-reciprocal (metastring) string theory. Minic 2020 (arXiv:2003.00318): \"metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach\". ... In their foundations the dual coordinates are the canonical conjugate of x (Freidel, Leigh and Minic, Phys. Lett. B 730, 302 (2014): \"so we will refer to Y as coordinates in momentum space\"). Their dual sector is correlated with ours; #11's couples by gravity alone under strict P4 (row 7), ... and its polarization is selected spontaneously (P5).",
+   "change": "'propose to identify', with the dates (talk 9 Sep 2019; Minic 2020 §5, §6.2). Replace the abstract quotation by §6.2's sentence. Qualify 'the canonical conjugate of x' as in the change to note §3's third bullet. Replace 'correlated with ours' by the coupling's content and HM 2024's exception. Keep 'selected spontaneously' and add that FKLM 2021 puts a breaking of a non-canonical dual Lorentz symmetry in the vacuum sector and BHM 2023 calls that group effectively spontaneously broken. In 'Suggested', cite §6.2 (not the abstract), the 2019 slides and BHM 2021, and state the differences (a doubled phase space at λ; coupling beyond gravity in most papers). verify/literature_check.py section F checks the flag's quotations.",
+   "evidence": "As for the note §3 changes; r1-priority record points 3, 6; r3-gravitized record point 1; r6-foundations record point 0; r7-vacuum record point 3 and their verifiers.",
+   "severity": "medium"
+  },
+  {
+   "file": "review/wiki-build-flags.md, item 67",
+   "passage": "Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod. Phys. D 32, 2330002 (2023), which `papers/phase-space-diameter.md` cites) make the heterotic string's two E8 factors each other's Langlands, electric–magnetic, duals",
+   "change": "'repeated, and extended, in ... (2023), which adds that the Born geometry of the metastring formalism also involves S-duality'; add Minic 2020 §3's “electric” fields and “magnetic” duals as related to §11.4.",
+   "evidence": "2212.06086 §6.6 Further Remarks, §3.2 fn. 24; 2003.00318 §3.",
+   "severity": "low"
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md, App. A item 4 and §12 (proposal for P.R.'s ruling, flag 64)",
+   "passage": "4. Dark matter is conjugate matter — **alive**, P.R.'s core conjecture: as χ particles (x-clumping, gated self-force) or, since v2.4, as conjugate monopoles localized in momentum, two of the three candidates of §12.",
+   "change": "Proposal for P.R.'s ruling: add '[S] prior art: proposed by Minic and coauthors (talk 2019; Minic 2020 §5, §6.2; Berglund, Hübsch and Minić 2021), as the dual of visible matter in a doubled phase space at a fundamental length, coupled beyond gravity in most of their papers; neither of this program's forms is published.' The status is unchanged.",
+   "evidence": "As for flag 64.",
+   "severity": "medium"
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md §3, attribution (proposal for P.R.'s ruling; as a new flag in review/wiki-build-flags.md)",
+   "passage": "They treat the breaking as kinematical and call the choice \"a dynamical question\". This program's addition is to read it as *spontaneous* breaking, with η as the order parameter",
+   "change": "Proposal for P.R.'s ruling: 'They call general relativity's breaking kinematical, after Born, who noticed that gravity breaks the symmetry, and propose to make the choice dynamical, \"a dynamical question\", with the space–momentum split carried by solutions rather than the action. A later paper (Freidel, Kowalski-Glikman, Leigh and Minic 2021) places a breaking of the dual Lorentz symmetry, which fixes which commuting coordinate is spacetime, \"at the level of the vacuum sector\"; that symmetry is not a canonical transformation, and no potential or order parameter is given. This program's addition is the spontaneous breaking of an exact, ω-preserving ρ, with η as the order parameter.' Also note, for 'The breaking is mandatory', that FLM call the choice of polarization immaterial in ordinary quantum mechanics in the sentence before #11's quotation, so the mandatory argument is the program's.",
+   "evidence": "1405.3949 §1.1, §1.3, §2; 1502.08005 §1, §7; 2104.00802 after eqs. (11)–(12); 2212.06086 §4.3; r6-foundations record points 2, 3; r7-vacuum record points 0, 1 and their verifiers.",
+   "severity": "medium"
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md §4, P2′ credit (proposal for P.R.'s ruling)",
+   "passage": "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's.",
+   "change": "Proposal for P.R.'s ruling: credit the earliest statements, Freidel, Leigh and Minic 2013 (arXiv:1307.7080: (η, J) 'a chiral structure ... with generalized metric H=ηJ'; 'both elements (η,J) of the chiral structure are dynamical') and 2014 (1405.3949: 'This is our addition to Born's argument'). State the difference that the school makes ω dynamical too and puts quantum rigidity in η's flatness (1502.08005 §1), where P2′ keeps ω rigid.",
+   "evidence": "1307.7080; 1405.3949 §1.3; 1502.08005 §1, §2.3; 2011.08852 §2; r6-foundations record point 3 and 'Other' (rigidity); r4-pheno 'Other' (ω dynamical).",
+   "severity": "low"
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md §5, compatibility theorem attribution (proposal for P.R.'s ruling)",
+   "passage": "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1].",
+   "change": "Proposal for P.R.'s ruling: add Freidel, Leigh and Minic 2016 (arXiv:1606.01829 §2) for the positive form: vacuum metrics H(x, x̃) = x q x + x̃ q⁻¹ x̃, with 'the space of vacuum metrics associated with a given Hilbert space ... encoded in GL(d)/O(d)'; and the same section's U(d)/O(d) as 'the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state' (the Λ(d) of §10 and §14 item 12). The block proof and the machine check stay the program's.",
+   "evidence": "1606.01829 §2, §3; r6-foundations record point 5 and its verifier's code (verify_numbers.py E, gl_intersection.py).",
+   "severity": "low"
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md §10, 'Constraint [D]' (proposal for P.R.'s ruling; could join flag 65)",
+   "passage": "**Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus.",
+   "change": "Proposal for P.R.'s ruling: cite related prior art at a string scale: Berglund, Hübsch and Minić 2019 relate 'the dual spacetime volume to the observed spacetime volume as' Ṽ ∼ V⁻¹, and FKLM 2021 rescale x → ax, x̃ → a⁻¹x̃ ('the dual dimension shrinks to zero'). The derivation from a rigid ω at ℏ is the program's.",
+   "evidence": "1905.08269 after eq. (6); 2104.00802 eq. (2); r1-priority Q10; r9-sweep-verify Q10.",
+   "severity": "low"
+  },
+  {
+   "file": "wiki/method/literature-check.md, 'The first conjecture' (line 53) and the C1 table row (line 45)",
+   "passage": "A group around Djordje Minic has proposed since 2020 that dark matter is the dual of the Standard Model ... Their dual sector is correlated with ours by construction. ... its polarization is chosen by the vacuum ([P5](/wiki/program/postulates/p5-spontaneous-selection))",
+   "change": "Follow the note: 'since 2019 (a talk; in writing 2020)'; the dark fields come from the doubled phase space's p̃; coupling beyond gravity in most papers, gravity alone below ~4.5×10¹⁴ GeV in one; the polarization 'chosen spontaneously, with η as order parameter', and a vacuum-level breaking of a non-canonical dual Lorentz symmetry is published. Change the table's 'Not found' as for the note's §2 table. Keep to the wiki's Voice: state claims, not how the record's wording changed.",
+   "evidence": "As for the note §2–§3 changes.",
+   "severity": "medium"
+  },
+  {
+   "file": "wiki/program/founding-suppositions.md, supposition 4, 'In the literature' (line 93)",
+   "passage": "Minic and coauthors have proposed since 2020 that dark matter is the dual of the Standard Model in a Born-reciprocal formulation of string theory (Minic 2020; Berglund, Hübsch and Minić 2021 [S]). ... Their dual sector is correlated with ours by construction. ... counting as its own only the spontaneous reading, which the check did not find in the school's papers; neither coupling by gravity alone nor the spontaneous reading was found joined to the identification.",
+   "change": "As for wiki/method/literature-check.md; and replace the last clause by: 'coupling by gravity alone at every energy, and the spontaneous breaking of ρ with η as order parameter, were not found joined to the identification; one school paper has gravity alone below about 4.5×10¹⁴ GeV, and another places a breaking tied to the choice of spacetime in the vacuum sector'.",
+   "evidence": "2407.06207 §5.3; 2104.00802; as for the note changes.",
+   "severity": "medium"
+  },
+  {
+   "file": "wiki/status/conjectures.md (line 77), wiki/status/open-problems.md (lines 219, 330), wiki/history/documents/project-instructions.md (line 89)",
+   "passage": "with a dark sector correlated with ours (flag 64, pending) / from the dual sector of Minic and coauthors, which is correlated with ours / their dual sector is correlated with ours, the program's couples by gravity alone except in the shared-photon form / with a dual sector correlated with ours, where the program's couples to ours by gravity alone",
+   "change": "'coupled to ours beyond gravity in most of their papers' and 'since 2019'; at open-problems line 219 add the candidate discriminators (as for root CLAUDE.md's open question). project-instructions.md mirrors root CLAUDE.md and changes with it.",
+   "evidence": "As above.",
+   "severity": "low"
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/broken-born-duality.md, description (line 5) and opening (line 29)",
+   "passage": "they gave no potential and no symmetry-breaking analysis ... they wrote no potential for η and treated the breaking as kinematical, not as spontaneous symmetry breaking.",
+   "change": "'They call general relativity's breaking kinematical and propose to make the split dynamical, with no potential for η; a later paper of the three with Kowalski-Glikman places a breaking of the dual Lorentz symmetry tied to the choice of spacetime \"at the level of the vacuum sector\", a symmetry that is not a canonical transformation, with no potential or order parameter.' Add FKLM 2021 and BHM 2023 §4.3 under 'Neighbours in the literature'. The pages that quote #11 §3 verbatim (program/postulates/p5-spontaneous-selection.md, symmetry-breaking/mandatory-breaking.md, program/hard-core.md, program/borns-question.md) change only if P.R. rules on the §3 proposal.",
+   "evidence": "1405.3949 §1.1, §1.3, §2; 2104.00802; 2212.06086 §4.3; r6-foundations record point 2; r7-vacuum record points 0, 1; r9-sweep record point 1 and their verifiers.",
+   "severity": "medium"
+  },
+  {
+   "file": "notes/toy-lagrangian.md, 'S5 literature'",
+   "passage": "- **Claimed only in words:** that the choice is dynamical.",
+   "change": "Add FKLM 2021 (arXiv:2104.00802): a simple model in which the expansion selects the decoupling frame, since states with dual momentum decouple at late times. It falls under the worklog's 'uses outside input: which modes are light', so 'Open' stands. Add the school-adjacent speculation of Yargic's thesis (2021) that breaking the modular U(1) gauge symmetry 'may be used as a mechanism to fix the quantum configuration space'.",
+   "evidence": "2104.00802 eqs. (13)–(17); recid:1923123 §2.8 (re-read in the verifier's PDF); r7-vacuum record point 4 and its verifier; r8-outside-verify Q9.",
+   "severity": "low"
+  },
+  {
+   "file": "papers/phase-space-diameter.md §7 and wiki/gravity/spin-2-fields/cosmological-constant-problem.md (line 89)",
+   "passage": "A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025].",
+   "change": "Add that under its first UV–IR relation the same paper finds w < −1 for all a, 'clearly disfavored' by DESI DR2, that the w > −1 result follows from an alternative relation, and that the group's 2022 letter (arXiv:2202.05266) had w_eff < −1. This completes a citation in a reviewed paper.",
+   "evidence": "2503.20854 §3.3, §3.4, §4; 2202.05266 abstract; r4-pheno-verify record point 3.",
+   "severity": "low"
+  },
+  {
+   "file": "papers/reciprocity-toy-models.md §1, 'The idea' (proposal: a reviewed paper)",
+   "passage": "but give no potential for η and no symmetry-breaking analysis.",
+   "change": "Add after it that Freidel, Kowalski-Glikman, Leigh and Minic (2021) place a breaking of the dual Lorentz symmetry tied to the choice of spacetime in the vacuum sector, a symmetry that is not a canonical transformation, with no potential or order parameter, and that Berglund, Hübsch and Minic (2022) call that group 'effectively spontaneously broken'. The abstract's 'we found no explicit model of ρ itself being spontaneously broken' stands.",
+   "evidence": "2104.00802; 2212.06086 §4.3; r7-vacuum-verify record point 1.",
+   "severity": "low"
+  }
+ ],
+ "dissent": "1. Where my case for difference survives my own verdicts. On E2 and E4 the school's proposal differs from C1 in substance. Its dual is a coordinate of a doubled phase space, with a momentum p̃ of its own and a commutator with x at a fundamental length λ, and its dark fields are built as shifts of p̃ wherever they are built: 2003.00318 §5 eq. 45 ('(p̃+Ã(x,x̃))', with (x, x̃) as configuration variables), 2010.15610 eq. 14, 2109.12763 §2.2 and 2407.06207 §3.3, all re-read. Its sectors couple beyond gravity in most of its papers. So the record's 'The identification matches C1 in their foundations' is unsupported: the foundations papers (2013–2018) contain no dark matter ('dark' 0 hits in seven texts), and where the identification is made the doubling is used even in the section that defines x̃ as rescaled momentum. On this evidence the content judge's reading (a close variant, so partly anticipated) is as well supported as 'anticipated'. Which one holds depends on whether one phase space at ℏ belongs to C1's substance, and the summary's 'core' picks a reading without saying so; my suggested wording avoids the word.\n\n2. Where the evidence goes against my case. Hübsch and Minic 2024 §5.3 joins the identification to gravity-only interaction below ~4.5×10¹⁴ GeV, before the program, so the record's 'not found' for the identification joined to a gravity-only sector (note §2–§3, flag 64, root CLAUDE.md, wiki) is too strong. FKLM 2021 places a breaking tied to the choice of spacetime in the vacuum sector, so 'selected by the vacuum' is not a clean difference either. The overlap beyond C1 (P5's mirror, η = HJ from 2013, U(d)/O(d), the positive compatibility form) is larger than the record states.\n\n3. Against r2-dual-sm-verify (record point 1), and with r4-pheno-verify (record point 4): the note's 'the school, like the program, expects no standard direct-detection signal' should lose 'like the program'. The school expects detection through the entanglement and correlated accelerator events, and its MDM line plans direct-detection tests; the program requires a permanent null (row 7). The paraphrase 'no standard signal' can be defended, but 'like the program' overstates the likeness.\n\n4. A qualification of r9-sweep-verify's statement that HM 2024 'matches the program's P4 at accessible energies'. The same paper says 'the CP violating phases would come from the SM calculation and the dual SM sector' (§5.4, re-read). By my reading that is a non-gravitational effect of the dark sector on low-energy observables. The paper also cites, for its mixing term, BHM 2021, which keeps the dual photon's correlation finite in the deep infrared. The gravity-only statement is one sentence, not the paper's whole account.\n\n5. A generalization, not a reversal, of r3-gravitized-verify's correction that the p̃-background construction 'holds only for 2407.06207 §3.3 and 2604.19418 §5.1'. That was right for its six texts, but across the school it holds wherever the dark fields are constructed (point 1).\n\n6. No other verifier correction is overturned. Every passage a verdict here rests on was re-read by code: scratch/j-difference/quotes.out and quotes2.out, all FOUND except a LaTeX-form query whose abstract I read through lit.py show. Ran's report and Yargic's thesis were re-read in the verifiers' PDFs. The Belgrade slides are image-only and rest on two agents' readings."
+}

@@ -32,8 +32,12 @@ below gives their paths.
   - `velocity-gated-gravity.md` — the momentum-gravity note (2026-10-28): whether the velocity-clumping obituary is premature, and whether momentum gravity is a relative-velocity perturbation of gravity. Computed and verified by independent agents; not reviewed. Its record is `review/momentum-gravity/`.
   - `gate-mechanism.md` — whether exchanging X produces #11 §8's dark-matter gate (2026-10-28). Two derivations, the second blind; not reviewed. Its record is `review/momentum-gravity/`; its result is flag 55.
   - `literature-check.md` — the literature check of P.R.'s conjectures (2026-11-02): which of seven are already published. Searched and verified by independent agents; not reviewed. Its record is `review/literature-check/`; its results for #11 are flags 64–69.
-- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`; the literature check's (2026-11-02) is `review/literature-check/`.
-- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); `literature_check.py` (the literature-check note: its quotations, citations, verdicts and main counts against its record, and in section G the algebra behind flag 66); arbitration and audit scripts go here.
+  - `dual-sector.md` — the dual-sector note (2026-11-06): what Minic and coauthors published on dark matter as the
+    dual of visible matter, and where it meets P.R.'s conjectures. Read and verified by independent agents, weighed by
+    a panel; not reviewed. Its record is `review/dual-sector/`; its results for #11 are flags 70–73 and an
+    addendum to flag 64.
+- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`; the literature check's (2026-11-02) is `review/literature-check/`; the dual-sector investigation's (2026-11-06) is `review/dual-sector/`.
+- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); `literature_check.py` (the literature-check note: its quotations, citations, verdicts and main counts against its record, and in section G the algebra behind flag 66); `dual_sector.py` (the dual-sector note: its quotations, citations, dates and counts against its record, and the quotations of its flags and wiki page); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page, at most 800 words, and must be updated in the same change whenever what it says changes (`wiki/CLAUDE.md`, "Keeping it current").
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
@@ -185,7 +189,8 @@ only as a task needs them.
   - dark matter is conjugate matter (App. A item 4) is published in its core. Minic and coauthors have identified dark
     matter with the degrees of freedom dual to visible matter in Born-reciprocal (metastring) string theory since 2020
     (Minic 2020; Berglund, Hübsch and Minić 2021; restated to April 2026, and in October 2026, after the program's first
-    statement of it in September 2026). Their dual sector is correlated with ours.
+    statement of it in September 2026). Their dual sector is correlated with ours. (The 2026-11-06 entry qualifies
+    the date, "identified", "correlated" and the vacuum as a difference; "neither form" stands.)
     The program's couples by gravity alone (P4 strict, row 7; not in §11.4's shared-photon form, which needs P4
     restated, flag 63), with the polarization selected by the vacuum, and
     neither its χ form nor its monopole form was found in the literature;
@@ -212,6 +217,44 @@ only as a task needs them.
   defined in words beside their first use on every wiki page, and `scripts/check-wiki.py` gained the check `symbol`
   (`wiki/CLAUDE.md`, 'Symbols'). #11 and the phase-space-diameter note gained notation items without a change of
   version: #11's header and §10's technical record, the note's header and §7.
+- 2026-11-06: the dual-sector investigation (Paul, of the summary's sentence "Its core is published (Minic and
+  coauthors, 2020), their sector correlated with ours; neither form was found.": "Please investigate the highlighted
+  claim more thoroughly. Create a page for it at the minimum, especially if the claim is true that there is overlap
+  between our conjectures and theirs. Also, whenever referenced include a link to the paper itself if possible.";
+  `notes/dual-sector.md`; 27 agents in three workflows, then 8 that carried the findings into the record, one that
+  linked the papers, and 12 that finished the propagation and reviewed the whole change; not through a blind review
+  round). No claim's status changed. Its results:
+  - the core of C1 is published, as a proposal never derived: Minic's talk of 9 September 2019 (slides public),
+    Minic 2020 §5–§6.2 (posted 29 February 2020), restated by him and coauthors to April 2026. Where the group builds
+    its dark sector, its dual is a coordinate of a doubled phase space at the string length, with a momentum of its
+    own; in its quantum-mechanics papers it is momentum rescaled at ℏ. Earlier papers (2016–2017) proposed only that
+    non-local quanta of quantum gravity make up dark matter. Whether C1's substance includes the program's one phase space at ℏ
+    and strict P4 stays Paul's reading (note §2);
+  - "correlated with ours" holds for most of the group's papers, beyond leading order in the string length and of
+    uncomputed strength; at leading order the sectors are independent, and Hübsch and Minic 2024 §5.3 have gravity
+    alone below about 4.5×10¹⁴ GeV. The group explains past nulls and expects detection; the program requires a
+    permanent null (row 7);
+  - neither form was found, inside the group or outside it;
+  - beyond C1, published before the program: a breaking tied to the choice of polarization "at the level of the
+    vacuum sector" (Freidel, Kowalski-Glikman, Leigh and Minic 2021), for a dual Lorentz symmetry that is not a
+    canonical transformation; U(d)/O(d) as the space of η-choices and η = HJ (Freidel, Leigh and Minic, 2013–2016);
+    the positive form of #11 §5's compatibility statement (2016); inverse scalings like a·ã = 1; dark energy from the
+    dual space, with both signs of 1 + w. Not found: the spontaneous breaking of the exact ρ with η as order parameter
+    and a potential;
+  - outside the group, Winn (arXiv 2012; talks and posters of 2025–2026) gives every charged Standard Model particle a
+    magnetically charged partner under our own photon, bound into neutral composites as dark matter: partial for the
+    magnetic mirror's shared-photon form (C4; in the verifier's words a close variant), without the momentum
+    placement, and related to C1, C2, C3 and C6 (flag 73). A sweep of conference abstracts found the identification,
+    in its phase-space sense, only in the group's talks, and neither form;
+  - flags 70–73 in `review/wiki-build-flags.md`, pending, and an addendum to flag 64; the wiki page
+    `wiki/dark-matter/conjugate-matter/dual-standard-model.md`; corrections to `notes/literature-check.md` (header,
+    §2–§6, references), the summary and the pages that carried the claim;
+  - Paul's link request is applied wiki-wide: every arXiv, DOI and handle identifier in the wiki is a link to the
+    paper, and author–year citations of verified papers are linked at first mention. `scripts/wiki-papers.tsv`
+    registers each linked paper (built online by `scripts/wiki-papers.py`), and `scripts/check-wiki.py` gained the
+    check `paper` (`wiki/CLAUDE.md`, Links);
+  - `verify/dual_sector.py` checks the note's quotations, citations, dates and counts against `review/dual-sector/`,
+    the quotations of the wiki page and of the flags, and in section F the bracket behind "twice the dimension".
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -279,8 +322,20 @@ only as a task needs them.
     in English, not searched; Castro Perelman's output, read in part;
   - not assessed: Bordes, Chan and Tsou 2018 and Mathur and Sharatchandra 1991 (C4); Szabo 2017, arXiv:1709.10080
     (C2, C3); Comay 1985 (C3, behind a sign-in); the backreaction literature (C5);
-  - whether observation can tell the program's dark sector from the Minic school's dual sector, which is correlated
-    with ours.
+  - whether observation can tell the program's dark sector from the Minic school's dual sector: the school names a
+    dual photon correlated with ours, correlated accelerator events and the a₀ ∼ cH₀ correlation in galaxies, which
+    ΛCDM may also produce, while Hübsch and Minic 2024 have gravity alone below about 4.5×10¹⁴ GeV, so the school's
+    position is not single (`notes/dual-sector.md` §5–§6).
+- Open from the dual-sector investigation, not queued (`notes/dual-sector.md` §2, §12):
+  - Paul's rulings on flags 70–73 and on flag 64's addendum;
+  - the full text of Freidel, Leigh and Minic, Int. J. Mod. Phys. A 34, 1941004 (2019), closed access, which may hold a
+    written statement of the identification before Minic 2020 (Paul could ask an author for a copy); the Hübsch–Minić
+    book *The Weight of Quantum* (2026); Freidel, Leigh and Minic's 2015 essay "Modular spacetime"; talks of 2018–2019
+    with no surviving material; outside items read only in their abstracts (note §12); conference venues that refused
+    automated access (Fermilab Indico, the APS meeting archive, INFN Indico) and Winn's slides behind bot checks;
+  - resting on one agent, the critic, and unseen by the judges: the April 2026 paper's want of a coupling term (a
+    search of its text), and the link of Freidel, Leigh and Minic's conversion factor (2014) and gravitational tension
+    c⁴/G_N (2016) to #13 (both quotations found by code; the passages themselves were in the panel's evidence).
 
 ## The gate
 

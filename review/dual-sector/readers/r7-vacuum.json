@@ -1,0 +1,1590 @@
+{
+ "papers": [
+  {
+   "id": "1307.7080",
+   "citation": "Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Born Reciprocity in String Theory and the Nature of Spacetime, Phys.Lett.B 730 302 (2014), arXiv:1307.7080",
+   "first_posted": "2013-07-26 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1), read whole (33k characters; a letter without numbered sections)",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "The Born reciprocity principle states that the validity of quantum mechanics implies a fundamental symmetry between space and momentum space. This symmetry results from the freedom to choose a basis of states. General relativity fundamentally breaks this symmetry because it states that spacetime is curved, while energy-momentum space, defined as a cotangent space, is linear and flat.",
+     "where": "opening, second paragraph",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "FLM place the breaking of Born reciprocity in general relativity's flat momentum space, not in a vacuum. #11 §3 makes the same diagnosis ('general relativity's flat momentum fibers — the last an architectural assumption'); FLM had it in 2013.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "quote": "Thus, we see that it is a matter of convention that we have taken \\bar{p} to vanish.",
+     "where": "'Quasi-Periodicity and generalized T-duality' paragraphs",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "For the flat string, which of X and its Fourier dual Y carries the quasi-period, and so which is read as spacetime, is a convention. The two are related by a Fourier transform, which is T-duality in the compact case. The choice is called conventional, not physical.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "quote": "And finally, we relax the condition on \\eta to be a flat metric, i.e. we allow it to be arbitrary curved. These generalizations restore the Born duality symmetry.",
+     "where": "'First order formalism and the phase space action' paragraphs",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "A curved, dynamical η is said to restore Born duality. The breaking is blamed on the fixed flat structures of the usual formulation, not on a vacuum.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "quote": "One can show [15] that solutions of the classical string EOM associated with a chiral structure (\\eta,J) on \\cal P are in correspondence with transversal bi-Lagrangian distributions.",
+     "where": "'Born Geometry and bi-Lagrangians' paragraphs",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The choice of bi-Lagrangian, which fixes which Lagrangian is spacetime, labels solutions of the equations of motion. My reading: this makes the choice a property of a solution, which is where a vacuum would carry it, but FLM neither call it a vacuum choice nor analyse it as symmetry breaking.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "quote": "In this formulation both elements (\\eta,J) of the chiral structure are dynamical. The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept.",
+     "where": "Conclusion paragraph",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "This is the earliest school statement found that the choice of spacetime inside phase space is dynamical (2013). The record already quotes it (notes/toy-lagrangian.md; the wiki page on broken Born duality). It gives no potential, no order parameter and no vacuum analysis.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "quote": "We have presented a new viewpoint on string theory, with wide ramifications and applications ranging from the stringy uncertainty principle [6, 9, 8] to “non-compact” T-duality [25], including the vacuum problem in string theory.",
+     "where": "Conclusion paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "'The vacuum problem' here means the string-vacuum problem, listed as an application. Nothing in the letter ties it to the choice of polarization.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "quote": "Note that the 2d electrostatic picture of the correlation functions of the usual vertex operators [6] (see also [8]) now generalizes to 2d electromagnetism with electric and magnetic charges (dyons), if we allow vertices with both p,\\bar{p} . The corresponding Dirac-Schwinger-Zwanziger quantization of the dyon charges is equivalent to satisfying the diffeomorphism constraint in the presence of these operators [15].",
+     "where": "'Quasi-Periodicity and generalized T-duality', paragraph on relaxed boundary conditions",
+     "bears_on": [
+      "monopoles",
+      "other"
+     ],
+     "reading": "These are worldsheet (2d) charges. Momentum p acts as electric charge and winding p̄ as magnetic charge of dyonic vertex operators, and their Dirac–Schwinger–Zwanziger quantization is the diffeomorphism (level-matching) constraint. They are not magnetically charged objects in spacetime or in momentum space. My comparison: this is a school precedent for #11 §11.3's symplectic charge lattice, not for §11.4.",
+     "quote_check": "FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    }
+   ],
+   "summary": "In this 2013 letter, Born reciprocity is a basis-choice symmetry that GR's flat momentum space breaks. Making η curved restores it. Solutions of the string equations are labelled by bi-Lagrangians, so 'spacetime is a derived dynamical concept'. In flat space, which of X and Y is spacetime is 'a matter of convention'. There is no vacuum mechanism, potential, order parameter or spontaneous breaking, and no dark matter."
+  },
+  {
+   "id": "1405.3949",
+   "citation": "Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Quantum Gravity, Dynamical Phase Space and String Theory, Int.J.Mod.Phys.D 23 1442006 (2014), arXiv:1405.3949 (Gravity Research Foundation essay)",
+   "first_posted": "2014-05-15 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1), read whole (26k characters)",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "One of the central insights of Born, 75 years ago [3], was to notice that the kinematical symmetry generated by I is fundamentally broken in the presence of gravity.",
+     "where": "§1.1 Born reciprocity",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "This is where the word 'kinematical' comes from. The Born symmetry is kinematical, and gravity breaks it. FLM credit the observation to Born.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "It is important to appreciate that this kinematical breaking is different from the dynamical breaking that arises in Schrödinger’s quantum mechanics, due to the choice of a particular Hamiltonian. In the latter case we can still change the basis of states.",
+     "where": "§1.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "FLM separate two cases. 'Kinematical breaking' is GR's, where no change of basis is possible. 'Dynamical breaking' is the explicit breaking by a chosen Hamiltonian in quantum mechanics. Neither is spontaneous breaking in the program's sense, a symmetric law with an asymmetric vacuum.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "There is a preferred basis — the space-time basis. According to Born, the clash between the kinematical duality symmetry of quantum mechanics and the presence of dynamical space-time curvature is what prevents us from a theory of quantum gravity. In other words, a theory of quantum gravity ought to restore the kinematical duality principle.",
+     "where": "§1.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "FLM aim to restore the duality, not to break it. Their preferred spacetime basis is a defect of GR that quantum gravity should remove. Compare #11 §3, where the breaking is mandatory and spontaneous.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "In pure quantum mechanics, H is a kinematical structure, while \\eta or the choice of preferred polarization, can be modified by unitary dynamics. Alternatively, in pure gravity \\eta is a kinematical structure (space-time provides a preferred polarization that cannot be modified), while H , or at least its space-time part, becomes dynamical.",
+     "where": "§1.3 Summary: Quantum gravity and dynamical phase space",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η is identified with 'the choice of preferred polarization'. In GR it is kinematical; in quantum mechanics it can be changed by unitary evolution.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "Moreover if we introduce quantum theory in gravity, we have to make \\eta dynamical. This is our addition to Born’s argument [1].",
+     "where": "§1.3",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "FLM claim a dynamical η, the structure that encodes the polarization, as their own addition (2013–2014). #11 P2′ credits this: 'That η should be dynamical rather than fixed was argued independently in metastring theory'.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "It is important to note that the kinematical nature of \\eta in gravity is tied up with the assumption of locality, i.e., the existence of a single well-defined space-time for all matter probes. Therefore a dynamical \\eta necessarily leads to a relaxation of locality and a breakdown of effective field theory.",
+     "where": "§1.3",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "For FLM a dynamical η relaxes locality. My comparison: in #11 §3 the selection of a polarization is what makes local physics possible ('any world with local physics must select a Lagrangian polarization'). The two treat the link between η and locality in opposite directions.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "Moreover, the purely kinematical splitting of phase space into space and momentum space has to be made dynamical, and thus both the phase space metric H_{AB} and the neutral metric \\eta_{AB} have to be dynamical in the context of quantum gravity.",
+     "where": "§1.3",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The splitting, that is the polarization, is to be made dynamical. This is FLM's proposal, against the kinematical splitting of GR.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "This formulation does not require the presence of a bi-Lagrangian structure K . However when we look at solutions of string theory, we find this extra structure.",
+     "where": "§2 String Theory and Dynamical Phase Space",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The action carries no K, the structure that tells space from momentum, but solutions do. My inference: a law without K whose solutions carry K is the logical form of a symmetry broken by the solution, the structure the program calls spontaneous breaking. FLM do not use that word, do not compare solutions by energy, and give no potential. This sentence is not in the record.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "This null subspace is the effective space-time experienced by the string solution and is defined to be the Lagrangian sub-manifold with K=+1 . In this sense, different strings propagate in different space-time backgrounds which are made consistent via string interactions and through a dynamical momentum space [6], thus giving a sharp example of relative locality [5].",
+     "where": "§2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime is a property of each string solution and can differ from probe to probe (relative locality). Agreement comes from interactions. This differs from P5, where one vacuum selects for all matter.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "When this Lagrangian manifold is assumed to be a fixed kinematical \\eta -null subspace (which requires \\eta to be kinematical) then we recover the usual Polyakov formulation where all strings propagate in the same fixed Lagrangian subspace, called space-time. But we see that this special case happens only when \\eta is kinematical, and not dynamical.",
+     "where": "§2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The usual, universal spacetime is the special case of a kinematical η. FLM's general case has a dynamical η.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "In order to generalize one of the key properties of T-duality, it is natural to demand that J maps the space-time Lagrangian K=1 onto the momentum space Lagrangian K=-1 .",
+     "where": "§2.1 String theory and Born geometry",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "T-duality (J) exchanges the spacetime and momentum-space Lagrangians, so the other choice is related to this one by a symmetry. Compare P5's 'the mirror vacuum is equally lawful'.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "the usual dynamical space-time picture appears only as an induced concept (the choice of a Lagrangian submanifold in a dynamical bi-Lagrangian structure) on equal footing with its complementary and likewise induced dynamical momentum space picture (the choice of a dual Lagrangian submanifold in the same dynamical bi-Lagrangian structure).",
+     "where": "§2.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime and momentum-space pictures are 'on equal footing', and both are induced by a choice inside a dynamical structure.",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    },
+    {
+     "quote": "The first two equations show that both metrics H and \\eta are indeed dynamical. Since schematically \\Box_{\\eta}H=\\partial_{X}\\partial_{P}H , the last equation essentially says that the phase space metric can depend only on X or only on P . In the first case, we recover the usual graviton mode propagation on this space-time.",
+     "where": "§2.2 Two scale Renormalization Group, after eq. (2)",
+     "bears_on": [
+      "polarization-selection",
+      "gravity"
+     ],
+     "reading": "These are linearized background equations from a fixed point of a double RG. They restrict H to depend on X only or on P only: the field equations confine it to one section but do not say which. Only the X case is developed. The record has this (notes/toy-lagrangian.md: 'solved along either null line').",
+     "quote_check": "FOUND: 1405.3949 — searched full text (https://arxiv.org/html/1405.3949)"
+    }
+   ],
+   "summary": "This is the key text for 'kinematical'. FLM call GR's breaking of the Born symmetry 'kinematical breaking' and credit it to Born. They argue that quantum gravity should restore the symmetry by making the splitting of phase space dynamical ('we have to make η dynamical. This is our addition to Born's argument'). In their string formulation the action needs no K and solutions carry it, and linearized background equations make H depend 'only on X or only on P'. There is no potential, order parameter, Goldstone mode or 'spontaneous', and no dark matter."
+  },
+  {
+   "id": "1502.08005",
+   "citation": "Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Metastring Theory and Modular Space-time, JHEP 06 006 (2015), arXiv:1502.08005 (#11's ref. [26S])",
+   "first_posted": "2015-02-27 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1, 246k characters): headings, then every hit for polariz, Lagrangian, dynamical, select, vacuum, spontaneous, broken, order parameter, Goldstone, potential, section, preferred and choice of space-time, read in context; page numbers from the v1 PDF (pypdf, scratch/r7-vacuum/pdfpage.py)",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "In ordinary quantum mechanics we may, depending on convenience, choose a position or momentum basis of states; it is a fundamental property of quantum theory that this choice of polarization is immaterial. In quantum gravity, if all probes agree on what we mean by space-time, then we have broken Born duality — there is a preferred choice of polarization, the space-time one.",
+     "where": "§1 Introduction, p. 3 (v1 PDF)",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "This is the passage #11 §3 quotes, and it is on p. 3 as cited. The preferred polarization comes from agreement among probes (absolute locality), not from a vacuum.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "In the absence of interactions amongst strings, it is perhaps not obvious that different strings should view the same Lagrangian submanifold as space-time.",
+     "where": "§1 Introduction",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Without interactions each probe could pick its own Lagrangian. Here the choice is per probe, not per vacuum.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "Colloquially, it is only when probes talk to one another, through interactions, that they compare their choices.",
+     "where": "§1 Introduction",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Agreement on a spacetime is made by interactions between probes (relative locality). No mechanism or vacuum is given.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "In the context of the metastring, the rigidity of the quantum theory is encoded into the flatness of the polarization metric \\eta",
+     "where": "§1 Introduction",
+     "bears_on": [
+      "polarization-selection",
+      "other"
+     ],
+     "reading": "FLM put the rigidity of quantum theory in a flat η, and they mean to relax it. P2′ puts rigidity in ω ('symplectic rigidity ≡ constancy of ℏ') and makes η emergent. Both make η non-rigid, but they disagree on what stays rigid.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "However, the Born proposal is not enough. As we have pointed out in [3], in the metastring theory we must take \\eta to be dynamical as well. As we have seen above, it is \\eta that governs the splitting of phase space into space and momentum space.",
+     "where": "§2.1 More General Backgrounds and Born Geometries, p. 11",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η governs the splitting, and in [26S] itself it must be dynamical.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "It is relative locality that suggests that both \\eta and H be dynamical. In particular, in canonical quantum theory H is a purely kinematical structure and \\eta , which describes the choice of polarization, can be modified by unitary dynamics. Conversely, in the context of gravitational dynamics, \\eta is a purely kinematical structure (because space-time provides the preferred basis or polarization), while H , through its space-time part, can be made dynamical.",
+     "where": "§2.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η 'describes the choice of polarization'. It is kinematical only in GR.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "When we introduce quantum theory into gravity, we have to make the neutral metric \\eta dynamical, and thus in the context of quantum gravity, both H and \\eta have to be dynamical.",
+     "where": "§2.1, p. 11",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The paper #11 cites for the 'kinematical' attribution makes the polarization metric dynamical in quantum gravity. #11 P2′ credits this, which #11 §3's 'They treat the breaking as kinematical' does not reflect.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "not only the constant Q-metric H^{0} is promoted to an arbitrarily curved metric H , but also the P-metric and symplectic structure are allowed to be dynamical.",
+     "where": "§2.3 Usual string viewed from phase space",
+     "bears_on": [
+      "polarization-selection",
+      "other"
+     ],
+     "reading": "In the metastring ω is dynamical as well as η and H (eq. 41 calls all three 'dynamical'). P2′ keeps ω rigid, so the school's dynamical η comes in a setting that P2′ excludes.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "This generalization is one of the most interesting and will need to be dynamically constrained in order to give admissible backgrounds. In particular, it implies considering the new possibility where \\eta is no longer a flat metric. This entails relaxing the condition that the splitting between space-time and energy-momentum is universal.",
+     "where": "§2.3",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "A curved η means the splitting is no longer universal. The constraints are to come from dynamics and are not given.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "By keeping the property of maximal degeneracy, we keep the concept of a preferred Lagrangian defined by the metastring fields.",
+     "where": "§2.3",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The preferred Lagrangian is ker(η+ω), a property of the background fields of the sigma model. It is defined, not selected.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "In that respect it is interesting to note that the condition of absolute locality follows from the demand of worldsheet locality of observables.",
+     "where": "§6.1 Poisson bracket of observables",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "A consistency condition, worldsheet locality, leads to a single spacetime for all fields, the L-projectability condition. This is a kinematical selection, as #11 §3 says, though it confines fields to one section without saying which.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "What is new about this viewpoint is that it allows us to think about the choice of space-time inside phase space as a dynamical question.",
+     "where": "§7 Quantum Lagrangians and Modular Space-time, p. 47 (v1 PDF)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the phrase #11 §3 quotes. It is on p. 47, not p. 3, and #11 gives no page for it. The words are 'the choice of space-time inside phase space', not 'the breaking'.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "What is conceptually remarkable here is that this target space locality condition is selected by demanding worldsheet locality.",
+     "where": "§7",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The selector actually exhibited in this paper is a consistency requirement (worldsheet locality), not an energetic or vacuum mechanism.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "Allowing the notion of space-time to be dynamical goes hand in hand with allowing the \\eta metric to become dynamical. In the metastring formulation new CFT deformation modes are allowed, including the winding modes, whose collective excitations correspond to deformations of the \\eta background.",
+     "where": "§8 Conclusion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η has field excitations: winding-mode collective excitations deform it. This is the nearest thing in the paper to η as a field with its own modes. No potential or vacuum analysis is given.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "Also, in this formulation T-duality exchanges the Lagrangian sub-manifold with its orthogonal complement.",
+     "where": "§8 Conclusion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The other choice is the T-dual one, related by a symmetry of string theory and so equally lawful.",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    },
+    {
+     "quote": "it may offer new insights into standard problems in string theory, such as vacuum selection.",
+     "where": "§8 Conclusion, p. 56",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the only use of 'vacuum selection': a hope about the string-vacuum problem, not about the polarization. The paper has no 'spontaneous', 'order parameter' or 'Goldstone' (0 hits).",
+     "quote_check": "FOUND: 1502.08005 — searched full text (https://arxiv.org/html/1502.08005)"
+    }
+   ],
+   "summary": "This is #11's [26S]. The §3 quotation is on p. 3 and 'a dynamical question' is on p. 47 (§7). The paper makes η, which 'describes the choice of polarization', dynamical (§2.1), and ω and H as well (§2.3). The selector it exhibits is worldsheet locality (§6.1, §7), and T-duality exchanges L with its complement (§8). 'Vacuum selection' appears once, as a hope about string vacua. There is no 'spontaneous', order parameter, potential on η or Goldstone mode, and no dark matter."
+  },
+  {
+   "id": "1606.01829",
+   "citation": "Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Quantum Spaces are Modular, Phys.Rev.D 94 104052 (2016), arXiv:1606.01829",
+   "first_posted": "2016-06-06 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v2, 2016-11-04): headings, then all hits for vacuum (41), broken, choice of polarization, dynamical, select, spontaneous, order parameter and Goldstone, read in context",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "The paradox is resolved by recognizing that an observer’s notion of space corresponds to a choice of basis (a choice of polarization), and such a notion is acted upon by rotations. However, precisely because the underlying algebra is non-commutative, any such choice is unitarily equivalent to any other, and thus the action of rotations induces a superposition of modular spaces.",
+     "where": "introduction (before §1)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "A polarization is the observer's choice of basis, and every choice is unitarily equivalent to every other. In this paper the polarization is not a physical vacuum choice.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "The basic definition that we propose for a quantum space is that it is a choice of polarization for the representation of the Heisenberg algebra.",
+     "where": "§1.1 Quantum space",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Space is defined as a choice of polarization. The paper does not say what makes the choice.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "As a summary, we have seen that the choice of modular quantization \\alpha_{\\eta} is associated with the choice of a polarization metric \\eta which determines a bilagrangian lattice (\\Lambda,\\eta) , also called Narain lattices.",
+     "where": "§1.2 Modular Space as Quantum Polarization",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η enters as a parameter of the quantization, a choice, not as a field with a vacuum value.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "This is indeed the most natural choice and it shows that we cannot fully disentangle the kinematics (i.e., the definition of translation generators) from the dynamics.",
+     "where": "§1.6 Modular Translations (end)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The modular vacuum is defined as the ground state of an 'energy' E_H = H^{AB}P_A P_B, so it depends on a chosen H. FLM say this mixes kinematics with dynamics.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "Although we are using the term “Hamiltonian” here, the reader should not confuse it with the Hamiltonian of some particle system. Instead, it is a tool that we use to identify a “vacuum state of empty modular space.”",
+     "where": "§1.6, footnote 8",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The 'Hamiltonian' that defines the vacuum is a device. Nothing dynamical selects it.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "the different vacua measure effectively in which quantum reference frame the system finds itself",
+     "where": "§1.7 Modular Vacua",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Vacua for different complex structures are related by squeezing, and FLM liken them to Unruh-type frame dependence. A vacuum here labels a quantum reference frame.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "We also see that the zeroes of the extensified vacuum states \\Theta_{(\\Lambda,k)}^{(N)} are aligned along a Lagrangian manifold given by the condition x:=(z-\\bar{z})/2i=k/N ( see Fig. 3). The choice of Lagrangian is controlled by the choice of complex structure that enters the definition of the “Hamiltonian”.",
+     "where": "§2.1 Extensification: Many is Large!",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the closest any text read comes to a vacuum picking a Lagrangian. The zeroes of the large-N vacuum line up along a Lagrangian, and the complex structure in the 'Hamiltonian' controls which one. But that complex structure is chosen, not determined by dynamics, and no potential or energetic comparison is made. Not in the record.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "Within such an application, the lattice (and consequently a length scale) associated with the maximally commutative sub-group is set contextually by some experimental apparatus (such as a slit spacing).",
+     "where": "§3 Discussion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "In laboratory quantum mechanics the polarization lattice is set by the apparatus. The choice is contextual.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "Consequently, if we do make this identification, in most experiments we can safely ignore the presence of a fundamental scale, as fluctuations along momentum directions are negligible compared to fluctuations in position directions.",
+     "where": "§3 Discussion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Position directions look classical because the gravitational tension ε/λ ~ c⁴/G is large. This is a scale hierarchy offered as the reason, not a vacuum selection.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "A choice of quantum polarization is a choice of basis, unitarily equivalent to any other. To reconcile these ideas, we must retool our thinking in terms of the superpositions of quantum spaces. This should be thought of as an implementation of the idea of relative locality [37].",
+     "where": "§3 Discussion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Every polarization is equally lawful, in fact unitarily equivalent. The discussion is framed by relative locality, not by a selected vacuum.",
+     "quote_check": "FOUND: 1606.01829 — searched full text (https://arxiv.org/html/1606.01829)"
+    },
+    {
+     "quote": "We also discuss how the usual classical notion of space comes out as a form of thermodynamical limit of modular space while the Schrodinger space is a singular limit.",
+     "where": "abstract",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Classical space arises as a limit (extensification). The paper has no 'spontaneous', 'order parameter' or 'Goldstone' (0 hits).",
+     "quote_check": "FOUND: 1606.01829 — searched abstract"
+    }
+   ],
+   "summary": "A polarization is an observer's choice of basis, unitarily equivalent to any other. The modular vacuum is the ground state of a chosen 'Hamiltonian' E_H and depends on H. In extensified vacua the zeroes lie along a Lagrangian 'controlled by the choice of complex structure' in that 'Hamiltonian'. That is a link from vacuum to Lagrangian, but the complex structure is chosen, with no dynamics, potential or order parameter behind it. No dark matter."
+  },
+  {
+   "id": "recid:1590124",
+   "citation": "Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Modular Spacetime and Metastring Theory, J.Phys.Conf.Ser. 804 012032 (2017), doi:10.1088/1742-6596/804/1/012032 (not on arXiv)",
+   "first_posted": "2017-04-03 (INSPIRE imprint date; Crossref published-online; not on arXiv)",
+   "read_how": "full text: IOP open-access PDF downloaded with curl (no bot check) to scratch/r7-vacuum/dl_jpcs804/, text extracted with pypdf, grepped for the Q9 terms and read in context; page numbers by scratch/r7-vacuum/pdfpage.py (journal page = PDF page − 1)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "In other words, spacetime can be thought of as a choice of basis, that is, a choice of polarization of phase space. This means that Born reciprocity [17] can be built into the theory: a given space-time is only one choice of polarization, and energy-momentum space is on the same footing as spacetime, within a fully consistent quantum gravity.",
+     "where": "§1, journal p. 2 (PDF p. 3)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Spacetime is one choice of polarization, on the same footing as momentum space. The other choice is equally lawful.",
+     "quote_check": "not code-checkable: read via the IOP open-access PDF (doi:10.1088/1742-6596/804/1/012032), text extracted with pypdf; found on PDF p. 3 by scratch/r7-vacuum/pdfpage.py"
+    },
+    {
+     "quote": "Born reciprocity is the simple observation that the change of basis from the position to the energy basis (P → Q and Q → −P) is a fundamental kinematical symmetry of quantum mechanics (QM). However, Born reciprocity is broken in general relativity (GR). In GR there is a preferred polarization: the spacetime one. Thus Born reciprocity is broken by the choice of the principle of absolute locality, the statement that the same spacetime is shared by all probes independently of their energy state or history.",
+     "where": "§2 Born Reciprocity, String theory and T-duality, journal pp. 2–3 (PDF pp. 3–4; the page break falls after 'In GR there')",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "GR's breaking comes from choosing a principle, absolute locality. This supports #11 §3's 'kinematical' for what FLM say of GR.",
+     "quote_check": "not code-checkable: read via the IOP open-access PDF, pypdf text; the two parts found on PDF pp. 3 and 4 by scratch/r7-vacuum/pdfpage.py"
+    },
+    {
+     "quote": "T-duality can be thought of as acting non-trivially on a choice of polarization.",
+     "where": "§2, journal p. 4 (PDF p. 5)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "T-duality maps one polarization to another, so the two are related by a symmetry. The PDF text breaks 'non-trivially' across a line.",
+     "quote_check": "not code-checkable: read via the IOP open-access PDF, pypdf text; found on PDF p. 5 by scratch/r7-vacuum/pdfpage.py"
+    },
+    {
+     "quote": "Relative locality implies that this breaking cannot take place: a spacetime is a choice of polarization, and thus each observer makes his/her own choice. Each observer sees the discreteness, but Lorentz symmetry acts to change the polarization, restoring Lorentz invariance.",
+     "where": "§6 Modular Spacetime and Metastring Theory, journal p. 16 (PDF p. 17)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Here the polarization is chosen by each observer, not by one vacuum for all matter as in P5. This is the clearest statement of the school's observer-dependent reading.",
+     "quote_check": "not code-checkable: read via the IOP open-access PDF, pypdf text; found on PDF p. 17 by scratch/r7-vacuum/pdfpage.py"
+    },
+    {
+     "quote": "Fixed points which are Lorentz invariant but not free (i.e. have non-trivial Lorentz dimensions) correspond to backgrounds where η is curved, in the same way that fixed points which are conformally invariant but not free, correspond to backgrounds where H is curved.",
+     "where": "§7 Metastring theory and the two scale Renormalizaton Group (RG), journal p. 18 (PDF p. 19)",
+     "bears_on": [
+      "polarization-selection",
+      "gravity"
+     ],
+     "reading": "η's dynamics is fixed by fixed points of a double RG, with flow equations (66)–(67). This is a dynamical principle for η, not a selection of x over x̃. The paper has no 'spontaneous', 'order parameter', 'Goldstone' or 'vacuum selection' (0 hits).",
+     "quote_check": "not code-checkable: read via the IOP open-access PDF, pypdf text; found on PDF p. 19 by scratch/r7-vacuum/pdfpage.py"
+    }
+   ],
+   "summary": "A 2017 review talk. GR breaks Born reciprocity 'by the choice of the principle of absolute locality'. In the metastring 'each observer makes his/her own choice' of polarization (relative locality). η's dynamics comes from double-RG fixed points. Dark matter is mentioned only as an expected implication. There is no vacuum selection, potential or order parameter."
+  },
+  {
+   "id": "1706.03305",
+   "citation": "Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Intrinsic non-commutativity of closed string theory, JHEP 09 060 (2017), arXiv:1706.03305",
+   "first_posted": "2017-06-11 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v2): headings and grep for choice of polarization, spontaneous, order parameter, Goldstone, vacuum selection, dynamical, broken and dark, hits read in context (not in my assigned list; found by INSPIRE full-text search)",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "From this viewpoint, strings propagating on a compact space-time involve a choice of (modular) polarization for an effective description based on string zero modes. Generally, T-dualities act within this framework as the operations that change the choice of polarization.",
+     "where": "§5 Conclusion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "T-dualities change the polarization, so different choices are related by a symmetry. No selection mechanism is given.",
+     "quote_check": "FOUND: 1706.03305 — searched full text (https://arxiv.org/html/1706.03305)"
+    }
+   ],
+   "summary": "The polarization is a choice for an effective description, and T-dualities change it. There is no vacuum selection, 'spontaneous', order parameter or Goldstone mode, and no dark matter."
+  },
+  {
+   "id": "1812.10821",
+   "citation": "Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G.; Minic, Djordje — Theory of metaparticles, Phys.Rev.D 99 066011 (2019), arXiv:1812.10821",
+   "first_posted": "2018-12-27 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v2): headings and grep for polariz, choice of, spontaneous, broken, order parameter, Goldstone, vacuum, ambiguous, dynamical, dark and section, hits read in context",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "Because of its interpretation as a particle model on Born geometry, the space-time on which the metaparticle propagates is ambiguous, with different choices related by what in string theory we would call T-duality.",
+     "where": "abstract",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime is ambiguous, and different choices are related by T-duality, so they are equally lawful.",
+     "quote_check": "FOUND: 1812.10821 — searched abstract"
+    },
+    {
+     "quote": "In the quantum theory, we specify this as a choice of transition amplitude, related to world-lines with fixed x,\\tilde{p} at its endpoints. As we will see, this has an interesting interpretation in which the x^{\\mu} coordinatize space-time, with \\tilde{p}^{\\mu} representing additional quantum numbers. It should be clear though that there is nothing special about the x^{\\mu} ; we could have taken any linear subspace, such as \\tilde{x},p .",
+     "where": "§2 The Metaparticle Defined",
+     "bears_on": [
+      "polarization-selection",
+      "what-dual-is"
+     ],
+     "reading": "The polarization is the authors' choice of transition amplitudes ('nothing special about the x^μ'), not something nature or a vacuum selects.",
+     "quote_check": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)"
+    },
+    {
+     "quote": "Quantum transition amplitudes involve a choice of polarization of phase space. For the most part, we have confined our attention in this paper to the x,\\tilde{p} polarization, for which one might expect there to be a simple interpretation in terms of which x coordinatizes a notion of space-time.",
+     "where": "§6 Conclusion",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The (x, p̃) polarization is used for convenience. Other polarizations are left for later work. No 'spontaneous', 'order parameter', 'Goldstone' or 'vacuum' (0 hits).",
+     "quote_check": "FOUND: 1812.10821 — searched full text (https://arxiv.org/html/1812.10821)"
+    }
+   ],
+   "summary": "The metaparticle's spacetime is ambiguous up to T-duality. The authors work in the (x, p̃) polarization by choice and say there is 'nothing special about the x^μ'. There is no selection mechanism and no dark matter."
+  },
+  {
+   "id": "1902.08617",
+   "citation": "Berglund, Per; Hübsch, Tristan; Minic, Djordje — On Stringy de Sitter Spacetimes, JHEP 12 166 (2019), arXiv:1902.08617",
+   "first_posted": "2019-02-21 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v2): grep for polariz, spontaneous, order parameter, Goldstone, vacuum selection, section condition, choice of and mirror, hits read in context (cited by 2111.14205; not in my assigned list)",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "In any worldsheet field theory underlying string theory, the large modes (with wavelengths \\lambda>\\ell_{s}\\mathop{:=}\\sqrt{\\alpha^{\\prime}} ) of both coordinate fields \\hat{X}^{\\mu}_{L} , \\hat{X}^{\\mu}_{R} probe the target space \\mathscr{X} , whereas stringy-small modes (with \\lambda<\\ell_{s}\\mathop{:=}\\sqrt{\\alpha^{\\prime}} ) of both \\hat{X}^{\\mu}_{L} , \\hat{X}^{\\mu}_{R} probe \\widetilde{\\mathscr{X}} , the mirror spacetime.",
+     "where": "'Seeing Double' paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Which space a mode probes, X or its mirror X̃, is set by its wavelength against the string length. This is a scale-based assignment, not a vacuum choice.",
+     "quote_check": "FOUND: 1902.08617 — searched full text (https://arxiv.org/html/1902.08617)"
+    },
+    {
+     "quote": "By mirror symmetry, neither of the two factors is a preferred base of a fibration, and the total space may well be singular",
+     "where": "'Seeing Double' paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Neither X nor its mirror is preferred, so both are equally lawful. No polarization word, 'spontaneous', 'order parameter' or 'vacuum selection' appears (0 hits).",
+     "quote_check": "FOUND: 1902.08617 — searched full text (https://arxiv.org/html/1902.08617)"
+    }
+   ],
+   "summary": "The target space is locally X times its mirror X̃. Large modes probe X and stringy-small modes probe X̃, and by mirror symmetry neither factor is preferred. There is no vacuum selection mechanism and no dark matter."
+  },
+  {
+   "id": "2003.00318",
+   "citation": "Minic, Djordje — From quantum foundations of quantum field theory, string theory and quantum gravity to dark matter and dark energy, conference paper, 183 (2020), arXiv:2003.00318",
+   "first_posted": "2020-02-29 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1, 111k characters): headings, then all hits for vacuum selection, polariz (25), Lagrangian (24), section, spontaneous, broken, order parameter, Goldstone, potential, dynamical question and observed spacetime, read in context",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "Finally, we comment on the problem of vacuum selection. Born reciprocity [16] demands a symmetric dynamical geometric structures in spacetime and energy momentum space.",
+     "where": "§7 Conclusion: Quantum gravity and the real world",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the paper's vacuum-selection passage. It opens with Born reciprocity as a demand for symmetric dynamical structures, not with a choice of polarization.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "The question is whether Born reciprocity can be used as a criterion for vacuum selection in quantum gravity, which selects “maximally symmetric solutions” both in spacetime (de Sitter space) and in the matter sector (Standard Model and its dual, describing the dark matter sector).",
+     "where": "§7",
+     "bears_on": [
+      "polarization-selection",
+      "identification"
+     ],
+     "reading": "'Vacuum selection' here means choosing the string vacuum: de Sitter space and a matter sector made of the Standard Model and its dual, with the dual as dark matter. It is posed as a question, a speculation. It does not ask what picks which half of phase space is spacetime, and it continues with an attractor and 'horizontal information transfer' analogy.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "The underlying physical principle here is relative locality - different observers probe different spacetimes; these different spacetimes are sections of a quantum (modular) spacetime - implying, in general, a dynamical momentum space",
+     "where": "§7",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Spacetimes are sections of modular spacetime, chosen per observer.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "Only in a singular limit in which one neglects the intrinsic non-commutativity and works only within a spacetime section of the general doubled description does one find the usual effective field theory, with a spacetime interpretation",
+     "where": "§6.3 Dark energy and radiative stability",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime section is a limit in which the non-commutativity is neglected. It is not selected by a vacuum.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "As we will see, in the context of metastring theory, a choice of polarization is a choice of a spacetime within \\cal{P} but the most general choice is a modular polarization that we have discussed above.",
+     "where": "§2.2 Modular spacetime and Born geometry of quantum theory",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "A polarization is a choice of spacetime. The paper says nothing about what makes the choice.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "Normally, we think of this as a choice of basis in phase space (a choice of polarization or classical Lagrangian), and all such choices are related by Fourier transform.",
+     "where": "§2.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "All choices are unitarily related (Stone–von Neumann), so they are equally lawful.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "Finally, when we choose a classical Lagrangian L , there is a special state that we associate with the vacuum: it is translation invariant (which in our context can be interpreted as “empty space”). In modular quantization there is no such translation invariant state (because of the lattice structure).",
+     "where": "§2.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Here the choice of L fixes the vacuum, the reverse of P5, where the vacuum selects the polarization. In modular quantization the vacuum is the ground state of E_H instead, and 'the vacuum state depends on H' (same section).",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "Finally, the polarization (or locality metric) \\eta encodes the distinction between spacetime-like and energy-momentum-like aspects of phase space (and in this sense it defines an analog of the “causal” structure in phase space)",
+     "where": "§2.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η is the polarization. In the program η is the order parameter (P2′); here it is a structure of Born geometry and has no vacuum value.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "The observed classical spacetime emerges as an “extensification” [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], in a particular limit, out of the basic building blocks of quantum spacetime.",
+     "where": "§4.2 Non-perturbative formulation of quantum gravity",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The observed spacetime emerges in a limit, not from a vacuum choice.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "This ordering can be seen to be related to the choice of an O (d,d) frame, where we place the operator associated with {x} on the left and the operator associated with the dual space \\tilde{x} on the right. The key point is that this choice of frame is entirely encoded into the choice of symplectic potential \\omega",
+     "where": "§4.3 Metastrings, quantum fields and metaparticles",
+     "bears_on": [
+      "polarization-selection",
+      "what-dual-is"
+     ],
+     "reading": "The choice of an x/x̃ frame is encoded in a chosen ω, a convention of the formulation.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "To lowest (zeroth) order of the expansion in the non-commutative parameter \\lambda the effective action for Standard Model matter Lagrangian ( L_{m} ) and their duals (that could be interpreted as dark matter Lagrangian L_{dm} ) S_{eff} takes the following form (where we have included the gravitational background as non-dynamical)",
+     "where": "§5 Quantum gravity, metaparticles and dark matter",
+     "bears_on": [
+      "identification",
+      "polarization-selection",
+      "gravity"
+     ],
+     "reading": "The visible sector is put on x and the dark sector on x̃ in the effective action, and the dual Lagrangian 'could be interpreted' as dark matter, a proposal. Which sector is visible is set by this assignment, not derived from a vacuum.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "Thus, the generic prediction here is the existence of a dual field \\tilde{A} , which is entangled, with the original A field",
+     "where": "§5",
+     "bears_on": [
+      "field-content",
+      "coupling"
+     ],
+     "reading": "An incidental find for Q3 and Q4: the dual field is 'entangled' with the visible one.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "as well as in condensed matter physics (as new quantum order parameters for highly entangled and strongly correlated phases of quantum matter)",
+     "where": "§4.3 (footnote-adjacent text)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the only 'order parameter' in the paper, and it concerns condensed-matter phases, not the polarization. There are no hits for 'spontaneous' or 'Goldstone'.",
+     "quote_check": "FOUND: 2003.00318 — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "This generic formulation of string theory implies a radiatively stable positive cosmological constant (viewed as a curvature of the dual spacetime) as a model of dark energy in the observed classical spacetime, as well as metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach.",
+     "where": "abstract",
+     "bears_on": [
+      "identification",
+      "dark-energy"
+     ],
+     "reading": "An incidental find for Q1 and Q10. Metaparticles are 'the natural quanta of dark matter', stated as an implication, and dark energy is the curvature of the dual spacetime.",
+     "quote_check": "FOUND: 2003.00318 — searched abstract"
+    }
+   ],
+   "summary": "Minic 2020 has 'vacuum selection' only in the sense of choosing the string vacuum (de Sitter and the SM with its dual), posed as a question in §7. The polarization is a choice of spacetime, all choices are related by Fourier transform, and spacetime is a 'section' reached in a 'singular limit'. Here the chosen L or H fixes the vacuum, not the reverse. There is no potential, order parameter, Goldstone mode or 'spontaneous'."
+  },
+  {
+   "id": "2010.15610",
+   "citation": "Berglund, Per; Hübsch, Tristan; Minic, Djordje — String Theory, the Dark Sector, and the Hierarchy Problem, LHEP 2021 186 (2021), arXiv:2010.15610",
+   "first_posted": "2020-10-29 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v2): grep for polariz, spontaneous, order parameter, Goldstone, vacuum selection, section condition, choice of and mirror, hits read in context (not in my assigned list)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "This new view of string theory should bring about a different viewpoint on the vacuum selection problem (along the lines of the attractor solutions found in [53]), as well as the selection of a robust quantum matter sector which is mutually consistent with the quantum gravitational sector and their respective duals.",
+     "where": "§8 Concluding remarks",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "'Vacuum selection' again means the string-vacuum and matter-sector problem, as in Minic 2020 §7. The paper has one 'polarization' hit (naming η the polarization metric) and no 'spontaneous', 'order parameter' or 'Goldstone'.",
+     "quote_check": "FOUND: 2010.15610 — searched full text (https://arxiv.org/html/2010.15610)"
+    }
+   ],
+   "summary": "For Q9 this paper offers only the string-vacuum sense of 'vacuum selection' and a dynamical η named 'the symmetric polarization metric'. It was not read for the identification, which other readers cover."
+  },
+  {
+   "id": "2104.00802",
+   "citation": "Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G.; Minic, Djordje — Quantum gravity phenomenology in the infrared, Int.J.Mod.Phys.D 30 2141002 (2021), arXiv:2104.00802 (Gravity Research Foundation essay, second prize)",
+   "first_posted": "2021-04-01 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v2, 2022-05-17), read whole (29k characters); the key passages also confirmed in the v1 PDF (arxiv.org/pdf/2104.00802v1, pypdf; scratch/r7-vacuum/findin.py)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "In the metastring theory on the other hand, such a spacetime only appears through decoupling, in the large scale limit. In this essay we describe a novel mechanism in which cosmological evolution is seen as a process within the larger context of modular spacetime.",
+     "where": "introduction",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Spacetime appears through decoupling at large scale, and cosmological evolution is the process that produces it.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+    },
+    {
+     "quote": "we argue, within a simple cosmological model, that as the Universe evolves, dual degrees of freedom increasingly decouple and may play the role of dark energy/matter.",
+     "where": "introduction",
+     "bears_on": [
+      "identification",
+      "polarization-selection"
+     ],
+     "reading": "An incidental find for Q1, hedged ('may play the role of dark energy/matter'). It ties the selection mechanism to a dual dark sector.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+    },
+    {
+     "quote": "x^{\\mu} are the usual spacetime coordinates while \\tilde{x}_{\\nu} are dual coordinates conjugate to x .",
+     "where": "after eq. (1)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "x̃ is 'conjugate to x' with [x̂, x̂̃] = iπλ², and in string theory λ² = ℏα′ (next quote). Separate momenta p and p̃ exist (eq. 5). The doubled space is (x, x̃) at the string scale, not the program's (x, p) at ℏ, and the frame selection below is stated in this setting.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF"
+    },
+    {
+     "quote": "In string theory, it happens to be the string scale \\lambda^{2}=\\hbar\\alpha^{\\prime} [16].",
+     "where": "after eq. (1)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The scale of the x–x̃ non-commutativity is λ² = ℏα′.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+    },
+    {
+     "quote": "A central element of our proposal is the fact that the modular cell can be rescaled in a way that respects the commutation relation through",
+     "where": "before eq. (2), which is x → ax, x̃ → a⁻¹x̃",
+     "bears_on": [
+      "dark-energy",
+      "other"
+     ],
+     "reading": "Keeping the commutator fixed forces x → ax and x̃ → a⁻¹x̃. My comparison: this is the same inverse scaling as #11 §10's a·ã = 1, which the program derives from ω-rigidity, here at λ² rather than ℏ, published in 2021. It bears on App. A item 6 ('Conjugate universe shrinks as ours expands').",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+    },
+    {
+     "quote": "In the limit of large expansion a\\to\\infty , the dual dimension shrinks to zero and one recovers the usual spacetime notions. This is the decoupling limit where a modular field restricts to the usual notion of a spacetime field.",
+     "where": "after eq. (2)",
+     "bears_on": [
+      "polarization-selection",
+      "dark-energy"
+     ],
+     "reading": "Expansion of the scale factor is what makes x the spacetime: a dynamical, scale-driven selection.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF"
+    },
+    {
+     "quote": "To proceed with a Hilbert space description of metaparticle states, one must choose a polarization of the phase space, and the simplest example is to regard states as provisionally labeled by p and \\tilde{p} , as |p,\\tilde{p}\\rangle .",
+     "where": "after eq. (5)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "A polarization must be chosen to have a Hilbert-space description.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+    },
+    {
+     "quote": "This corresponds to a choice of how spacetime is interpreted to appear within Born geometry and can be thought of as a property of the decoupling limit.",
+     "where": "after eq. (5)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The choice of spacetime is tied to the decoupling limit, which the expansion produces.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF (loose match)"
+    },
+    {
+     "quote": "It is clear from (9) that the spectrum is invariant under the exchange p\\leftrightarrow\\tilde{p} which corresponds to T-duality. Accordingly, when the scale factor goes to zero the dual decoupling limit means that a dual universe made of dual particles is accessed.",
+     "where": "after eq. (9)",
+     "bears_on": [
+      "polarization-selection",
+      "identification",
+      "other"
+     ],
+     "reading": "The other choice is equally lawful (the spectrum is T-duality invariant) and is realized in the opposite limit: as a → 0 'a dual universe made of dual particles' appears. My comparison: this is close to P5's 'mirror vacuum is equally lawful' and to App. A item 2's coexisting conjugate universe.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF"
+    },
+    {
+     "quote": "This means that the value of this mass depends on the choice of the dual frame of reference and can be modified by the action of a dual boost! It is clear that if one wants to get phenomenologically acceptable predictions from a theory of metaparticles, we need a mechanism to fix the value of \\delta in the universe we live in today.",
+     "where": "after eq. (11)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "FKLM pose the selection problem explicitly: a mechanism is needed to fix the dual frame.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802)"
+    },
+    {
+     "quote": "To understand how to resolve this problem, one first needs to appreciate that the presence of the non-commutativity scale \\lambda means that the dual symmetry is fundamentally broken at the quantum level.",
+     "where": "before eq. (12)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The dual symmetry is also said to be broken 'fundamentally at the quantum level' by λ, which reads as explicit breaking. Together with the next quote, the essay does not separate explicit breaking from breaking by the vacuum.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF"
+    },
+    {
+     "quote": "Now since the modular fields and their decoupling limit are obtained by a choice of polarization it is clear that they do not transform covariantly under the dual Lorentz symmetry. In other words the dual Lorentz symmetry that acts on the free one metaparticle state is broken. The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of \\delta .",
+     "where": "after eq. (12)",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "This is the key text for Q9. A symmetry of the free metaparticle's constraints, the dual Lorentz group, which moves which combination of x and x̃ is the commuting spacetime coordinate (next quote), is broken by the choice of polarization, 'at the level of the vacuum sector', and 'a choice of ground state fixes' δ, the orbit parameter. It is posted 2021-04-01 and present in v1. They do not use the words 'spontaneous' or 'order parameter', and they mention no potential or Goldstone modes. My inference: δ plays the role an order parameter would, and a continuous broken symmetry would usually bring Goldstone modes, which are not discussed. Not in the record.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF (loose match: pypdf splits words)"
+    },
+    {
+     "quote": "Once a dual boost is performed the new commuting decoupling coordinate is no longer x , but x^{\\mu}+\\alpha^{\\mu\\nu}\\tilde{x}_{\\nu}+\\cdots , and the particle mass is the mass with respect to the momentum conjugate to this new decoupling coordinate.",
+     "where": "after eq. (12)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The broken symmetry rotates the spacetime Lagrangian within phase space (x → x + αx̃). The vacuum therefore fixes which Lagrangian, within this continuous non-compact family, is spacetime. My comparison: the program's toy models put the polarization in a compact U(1) (P2′ refinement).",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF (loose match)"
+    },
+    {
+     "quote": "We now propose that the expansion of the Universe can act as a mechanism that selects the decoupling frame and thus a value of \\delta .",
+     "where": "after eq. (12)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is a proposed dynamical selection mechanism for the spacetime frame: the expansion of the Universe. In the toy-Lagrangian worklog's terms it uses outside input (the scale factor). Not in the record.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF (loose match)"
+    },
+    {
+     "quote": "We clearly see from the first equation of (16) that the only states that survive at late times when a_{c}\\to\\infty are the states where the dual momentum \\tilde{\\mathbf{p}} vanishes. This means that all metaparticles of class II decouple and that the metaparticles of class I become particles",
+     "where": "after eq. (16)",
+     "bears_on": [
+      "polarization-selection",
+      "dynamics"
+     ],
+     "reading": "The mechanism is worked in a simple model: in an expanding background, states carrying dual momentum decouple at late times. It is a computation, not only words.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF ('a → ∞' there)"
+    },
+    {
+     "quote": "It simply comes from the fact that the expansion of the Universe gives rise to a preferred frame and the infrared Lorentz violation appears only for an old Universe, as the symmetry is restored as one goes back in time.",
+     "where": "after eq. (17)",
+     "bears_on": [
+      "polarization-selection",
+      "dynamics"
+     ],
+     "reading": "The symmetry is restored at early times, the cosmological pattern of a broken symmetry restored in the past. The preferred frame is cosmological.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF"
+    },
+    {
+     "quote": "One can imagine more elaborate scenarios in which the geometry (3) is replaced by a solution with an evolving duality frame.",
+     "where": "final paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The duality frame is suggested to be a dynamical, evolving property of a solution. This is a suggestion only.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF"
+    },
+    {
+     "quote": "the mechanism that we have described here seems to have potential for an entirely novel source for dark matter/energy, with states of class II being remnants, and introduces new notions of Universe evolution, with dual degrees of freedom being more relevant early on and decoupling at late time.",
+     "where": "final paragraph",
+     "bears_on": [
+      "identification",
+      "polarization-selection",
+      "dark-energy"
+     ],
+     "reading": "The frame-selection mechanism is joined to a dark sector of dual degrees of freedom (class II remnants), as a speculation. The candidates are a class of metaparticle states, not a dual Standard Model. There are no hits for 'spontaneous', 'order parameter' or 'Goldstone'.",
+     "quote_check": "FOUND: 2104.00802 — searched full text (https://arxiv.org/html/2104.00802); also in the v1 PDF (loose match)"
+    }
+   ],
+   "summary": "This is the one school text found that places the breaking tied to the choice of polarization in the vacuum, and the most important text for Q9. The dual Lorentz symmetry, which moves the commuting spacetime coordinate from x to x + αx̃, 'is broken. The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of δ'. The expansion of the Universe is 'a mechanism that selects the decoupling frame', and the symmetry is restored in the past. In the T-dual limit a → 0 'a dual universe made of dual particles is accessed', and the dual remnants may be dark matter/energy. Limits: the doubled space is (x, x̃) at λ² = ℏα′, not (x, p) at ℏ; the breaking is also called 'fundamental at the quantum level'; there is no potential, order parameter, Goldstone mode or 'spontaneous'. Posted 2021-04-01, before the program. The earlier check read this paper only for C1 and did not quote these passages."
+  },
+  {
+   "id": "2111.14205",
+   "citation": "Berglund, Per; Hübsch, Tristan; Minic, Djordje — Mirror Symmetry, Born Geometry and String Theory, conference paper (2021), arXiv:2111.14205",
+   "first_posted": "2021-11-28 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1), read whole (17k characters)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "For local diffeomorphisms (implemented by the Dorfman generalization of the Lie derivative) to be integrable to finite translations, the so-called “section condition” is imposed, which halves the spacetime akin to the quantum-mechanical restriction of the classical phase space, (p,q) , in the coordinate or momentum representation",
+     "where": "Introduction",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The halving of the doubled space is 'imposed' for integrability, a kinematical consistency condition likened to choosing a representation in quantum mechanics.",
+     "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "quote": "The Born geometry of \\mathscr{M} explicitly includes mirror symmetry by virtue of having to polarize on one half of \\mathscr{M} , such that polarizing on the complementary half swaps the corresponding tangent and cotangent spaces.",
+     "where": "Mirror Doubling",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "One must polarize on one half (compare #11 §3, 'The breaking is mandatory'), and polarizing on the other half gives the mirror. Both choices are lawful and related by mirror symmetry. Nothing selects between them.",
+     "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "quote": "which identifies \\widetilde{E}_{8} as the Langlands dual, E^{\\vee}_{8} [18], i.e., the electro-magnetic dual [19, 20]! Being simply laced, E_{8}^{\\vee}\\approx E_{8} , and they are physically indistinguishable.",
+     "where": "Born Heterosis, item 2",
+     "bears_on": [
+      "monopoles",
+      "field-content"
+     ],
+     "reading": "An incidental find for Q8. The gauge group of the dual (x̃, 'dark') sector is the electromagnetic (Langlands) dual of the visible one, and for E8 the two are indistinguishable. My comparison: this is a published link between the x̃ sector and electromagnetic duality, near #11 §11.4's magnetic mirror, though it places no magnetically charged objects in x̃.",
+     "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "quote": "These originally bi-local fields then give rise to both an E_{8} -gauge field plus the dual (“dark”) field valued in the same E_{8} algebra.",
+     "where": "Born Heterosis, item 3",
+     "bears_on": [
+      "field-content",
+      "identification"
+     ],
+     "reading": "An incidental find for Q3: each gauge field has a dual 'dark' partner.",
+     "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "quote": "between the visible E_{8} -fields and the dark \\widetilde{E}_{8} -fields, as well as the analogous correlation term with E_{8}\\leftrightarrow\\widetilde{E}_{8} swapped [21].",
+     "where": "Born Heterosis, item 4",
+     "bears_on": [
+      "coupling"
+     ],
+     "reading": "An incidental find for Q4: the non-commutativity implies a correlation term between visible and dark fields.",
+     "quote_check": "FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    }
+   ],
+   "summary": "The section condition is 'imposed' for integrability. One must polarize on one half of the doubled space, and polarizing on the other half is mirror symmetry. The dual sector's Ẽ8 is the electromagnetic (Langlands) dual. There is no vacuum selection, 'spontaneous', order parameter or potential."
+  },
+  {
+   "id": "2202.05104",
+   "citation": "Berglund, Per; Dai, De-Chang; Edmonds, Douglas; He, Yang-Hui; Hubsch, Tristan; Jejjala, Vishnu; Kavic, Michael J.; Minic, Djordje; Powers, Samuel; Simonetti, John H.; Stojkovic, Dejan; Takeuchi, Tatsu — Quantum Gravity and Phenomenology: Dark Matter, Dark Energy, Vacuum Selection, Emergent Spacetime, and Wormholes, conference paper (Snowmass 2022), arXiv:2202.05104",
+   "first_posted": "2022-02-10 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1), read whole (21k characters)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "The vacuum selection principle in string theory: One of the fundamental questions of high energy physics is the origin of the SM, i.e. understanding the origins of its particle content and interactions.",
+     "where": "paragraph 'The vacuum selection principle in string theory'",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "'Vacuum Selection' in the title means the origin of the Standard Model among string vacua. It has nothing to do with which half of phase space is spacetime.",
+     "quote_check": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)"
+    },
+    {
+     "quote": "Recently we have explored a new picture of the vacuum selection principle [50, 51] motivated by ideas from biophysics, which argue for the universality of the genetic code based on the idea of horizontal gene transfer [52]. We are interested in applying these ideas in the context of string theory, where the horizontal transfer of information between different perturbative string vacua is modeled by string interactions.",
+     "where": "same paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The proposed selector is information transfer between string vacua, by analogy with the genetic code. The text has no 'polariz', 'Lagrangian', 'spontaneous', 'order parameter', 'Goldstone', 'symmetry breaking' or 'section' (0 hits).",
+     "quote_check": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)"
+    },
+    {
+     "quote": "Essentially, in this approach, dark matter should be viewed as a dual SM, where “dual” refers to the dual spacetime that is found in such a general formulation of string theory.",
+     "where": "paragraph 'Constraints on the nature of dark matter'",
+     "bears_on": [
+      "identification",
+      "field-content"
+     ],
+     "reading": "An incidental find for Q1 and Q3: dark matter is a 'dual SM', stated.",
+     "quote_check": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)"
+    },
+    {
+     "quote": "Essentially, dark energy is realized as the geometry of the dual spacetime in the general formulation of string theory [36, 37, 38].",
+     "where": "paragraph 'Origin of dark energy in string theory'",
+     "bears_on": [
+      "dark-energy"
+     ],
+     "reading": "An incidental find for Q10.",
+     "quote_check": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)"
+    }
+   ],
+   "summary": "The 'Vacuum Selection' of the title is the string-vacuum and SM-origin problem, modelled on horizontal gene transfer. It says nothing about polarization. Dark matter is 'a dual SM', and dark energy is the geometry of the dual spacetime."
+  },
+  {
+   "id": "2212.06086",
+   "citation": "Berglund, Per; Hübsch, Tristan; Minic, Djordje — On de Sitter Spacetime and String Theory, Int.J.Mod.Phys.D 32 2330002 (2023), arXiv:2212.06086",
+   "first_posted": "2022-12-12 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (latest version, v3 2023-02-08; 378k characters): headings, then all hits for polariz (33), spontaneous, broken (36), order parameter, Goldstone, vacuum selection, section, equal footing and Lagrangian, read in context",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "This affords a continuum of distinct polarizations, i.e., “representations” or “pictures.” The usual string theory (including double field theory) is a commutative limit of this non-commutative formulation.",
+     "where": "§2.2.2 Evading the Difficulties",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "There is a continuum of polarizations, and the usual theory is a limit of the non-commutative one.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "This might seem to be in conflict with the Coleman-Mandula theorem[265]; however, within the sector of fixed non-zero {\\mathord{\\tilde{p}\\mkern 1.0mu}} , O(1,d{-}1)_{2} is effectively spontaneously broken.",
+     "where": "§4.3 Metaparticles, Metastrings and Modular Spacetime",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the only 'spontaneously broken' in the school texts read. It concerns a second Lorentz factor in a metaparticle sector with fixed nonzero p̃, not the choice of polarization. The other 'spontaneous' hits are supersymmetry breaking in KKLT and references.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "Also, given the fact that the \\mu=0 superselection sector belongs to usual particles, the metaparticle extension ( \\mu\\neq 0 ) should be explored in connection with phenomenology of dark matter.",
+     "where": "§4.3",
+     "bears_on": [
+      "identification",
+      "dynamics"
+     ],
+     "reading": "An incidental find for Q1, a proposal: the μ ≠ 0 metaparticle sector is to be explored for dark matter.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "Given the intrinsic non-commutativity of the metaparticle, the spacetime polarization is not fixed. Still one can pick a particular, “chiral” spacetime polarization in the above “doubled” formulation.",
+     "where": "§4.4 Vacuum Energy of Metaparticles and Metastrings",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime polarization is not fixed, and one 'can pick' one. The choice is made by the authors, not selected.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "In particular, we could have picked the dual, {\\mathord{\\tilde{x}}},p polarization, because of the commutativity of that pair of variables.",
+     "where": "§4.4",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The dual choice (x̃, p) is equally available.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "Thus, in either case we get the following “seesaw” formula for the observed",
+     "where": "§4.4 (introducing eq. 4.38)",
+     "bears_on": [
+      "polarization-selection",
+      "dark-energy"
+     ],
+     "reading": "Either choice gives the same seesaw formula for the vacuum energy, so the other choice is equally lawful in this result.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "the doubled metric structure is related to the choice of quantum vacuum in this generic modular polarization.",
+     "where": "§6.1 General String Theory and Quantum Gravity",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "H, not η, is linked to the choice of vacuum. The polarization (η) is not said to be selected by it.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "The observed classical spacetime is only an emergent feature (extensification) of this quantum spacetime.",
+     "where": "§6.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The observed spacetime emerges by extensification.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "In particular, the usual spacetime interpretation of the zero mode sector of string theory[13] is tied to the solution of the diffeomorphism constraint (6.7) by level matching.",
+     "where": "§6.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime interpretation is tied to how a constraint is solved, which places it in the solution rather than the law.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "For local diffeomorphisms (implemented by the Dorfman generalization of the Lie derivative) to be integrable to finite translations, it is necessary to impose the so-called “section condition,” which halves the spacetime akin to the quantum-mechanical restriction of the classical phase space, (p,q) , in the coordinate or momentum representation",
+     "where": "§6.6 Re-Bosonized Heterotic Strings and the Standard Model",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The section is 'necessary to impose', a kinematical consistency condition, as in 2111.14205.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "The Born geometry of the metastring (chirally and non-commutatively doubled) target spacetime thus explicitly includes mirror symmetry by virtue of having to “polarize” on one half of the spacetime, such that polarizing on the complementary half swaps the corresponding tangent and cotangent spaces.",
+     "where": "§6.6",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Polarizing is necessary, and the complementary choice is the mirror, equally lawful.",
+     "quote_check": "FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    },
+    {
+     "quote": "the curvature of the dual spacetime is the cosmological constant of the observed spacetime, while the size of the dual spacetime is the gravitational constant of the same observed spacetime",
+     "where": "abstract",
+     "bears_on": [
+      "dark-energy",
+      "gravity"
+     ],
+     "reading": "An incidental find for Q6 and Q10.",
+     "quote_check": "FOUND: 2212.06086 — searched abstract"
+    }
+   ],
+   "summary": "'The spacetime polarization is not fixed'. One 'can pick' (x, p̃) or (x̃, p), and 'in either case' the same seesaw follows. The section condition is 'necessary to impose', and the complementary polarization is the mirror. H is tied to 'the choice of quantum vacuum'. 'Spontaneously broken' appears only for O(1,d−1)₂ in a metaparticle sector. There is no potential or order parameter for the polarization."
+  },
+  {
+   "id": "2407.06207",
+   "citation": "Hübsch, Tristan; Minic, Djordje — Quantum Gravity as Gravitized Quantum Theory (2024), arXiv:2407.06207",
+   "first_posted": "2024-07-03 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1, 186k characters): headings, then all hits for polariz (16), spontaneous, broken, order parameter, Goldstone, vacuum selection, choice of, dynamical (45), section and dark matter, read in context",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "Classical spacetime label x of canonical QFT corresponds to a choice of (classical spacetime) polarization in modular (quantum) spacetime with a contextuality parameter \\lambda .",
+     "where": "§3.3 Modular Spacetime, Born Geometry and Quantum Physics",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the sentence the record quotes ('corresponds to a choice'). The full sentence ties the choice to 'a contextuality parameter λ'.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Therefore, the classical spacetime of EFT is just one polarization allowed in the more fundamental description, and it is tied to the contextual nature of quantum measurement.",
+     "where": "§3.5 Dynamical Born Geometry: Realization in String Theory",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The school's stated selector here is the measurement context, not a vacuum.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Because of its interpretation as a particle model on Born geometry, associated with the modular representation of quantum theory, the space-time on which the metaparticle propagates is ambiguous, with different choices related by what in string theory we would call T-duality.",
+     "where": "§3.5",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The choices are related by T-duality and equally lawful.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "it becomes apparent that the essential new ingredient of quantum gravity is a dynamical quantum phase space, given the dynamical nature of spacetime as well as the fact that spacetime and momentum space appear on equal footing as slices of phase space.",
+     "where": "§3 Quantum Gravity (QG) = Gravitized Quantum (GQ)",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Spacetime and momentum space are 'on equal footing'.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "and the fields \\eta,H,\\omega are all dynamical (i.e., generally \\mathbb{X} -dependent) target spacetime fields",
+     "where": "§3.5, after eq. (3.10)",
+     "bears_on": [
+      "polarization-selection",
+      "other"
+     ],
+     "reading": "η, H and ω are all dynamical, against P2′'s rigid ω.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The metastring has dynamical Born geometry, \\omega_{ab}(\\mathbb{X}),\\eta_{ab}(\\mathbb{X}),H_{ab}(\\mathbb{X}) , but Born geometry is the geometry of the modular spacetime formulation of quantum theory. Thus by making Born geometry dynamical we can “gravitize quantum theory”",
+     "where": "§4.1 Gravitized Quantum Theory: Top-Down and Bottom-Up",
+     "bears_on": [
+      "polarization-selection",
+      "other"
+     ],
+     "reading": "The motive for a dynamical η is to 'gravitize' quantum theory, not to break a symmetry.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "x\\equiv q/{\\lambda} , \\tilde{x}\\equiv p/{\\epsilon} , so [x,\\tilde{x}]=i , \\lambda\\epsilon=\\hbar",
+     "where": "§3.3, after eq. (3.4)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "An incidental find for Q2. In the modular-variable foundations x̃ is momentum rescaled, conjugate at ℏ.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "In the above expression one needs to integrate over the dual space coordinates \\tilde{x} to get an effective description of visible matter, A(x) , and dark matter, \\tilde{A}(x) , in classical x spacetime.",
+     "where": "§3.4 Some Consequences of Modular Spacetime",
+     "bears_on": [
+      "identification",
+      "gravity"
+     ],
+     "reading": "An incidental find for Q1 and Q6: both sectors are described in x spacetime after integrating over x̃.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The dual momentum \\tilde{p} could be understood from the point of view on conserved (electric) charges and corner symmetries in quantum gravity[56, 57, 58, 59]. The dual spacetime \\tilde{x} is associated with conserved dual (magnetic) charges in the same context.",
+     "where": "§3.5, footnote 11",
+     "bears_on": [
+      "monopoles"
+     ],
+     "reading": "An incidental find for Q8, a lead: x̃ is associated with conserved magnetic charges, from corner symmetries. It is a remark, not magnetically charged matter.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Metaparticles can be understood as fuzzy dark matter, which in turn does point to a natural relation of vacuum energy (dark energy) and fuzzy dark matter",
+     "where": "§3.4–3.5",
+     "bears_on": [
+      "dynamics",
+      "identification"
+     ],
+     "reading": "An incidental find for Q7: metaparticles as fuzzy dark matter.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Coupling the symmetry breaking order parameter, \\phi , to a gauge field renders it massive in the classic Higgs mechanism.",
+     "where": "§2.3 The Vacuum Energy in QFT and Phase Space",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This is the only 'order parameter', in a textbook Landau–Ginzburg/Higgs example (2307.16712 §2.3 has the same). 'Spontaneous' appears only in a reference title (Coleman–Weinberg), and 'Goldstone' not at all.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    }
+   ],
+   "summary": "The classical spacetime 'corresponds to a choice of (classical spacetime) polarization ... with a contextuality parameter λ' and 'is tied to the contextual nature of quantum measurement'. The choices are related by T-duality and 'on equal footing'. η, H and ω are all dynamical. There is no vacuum selection, potential, order parameter or 'spontaneous' for the polarization."
+  },
+  {
+   "id": "2503.20854",
+   "citation": "Hur, Sunhaeng; Jejjala, Vishnu; Kavic, Michael J.; Minic, Djordje; Takeuchi, Tatsu — Dynamical dark energy, dual spacetime, and DESI, JCAP 11 054 (2025), arXiv:2503.20854",
+   "first_posted": "2025-03-26 (arXiv v1)",
+   "read_how": "full text, arXiv HTML: grep for vacuum sector, decoupling frame, spontaneous, order parameter, Goldstone, polarization and dual universe (found among the citers of 2104.00802; not in my assigned list)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "with \\lambda a fundamental length parameter, making the very notion of spacetime polarization observer dependent.",
+     "where": "§1 Introduction",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime polarization is observer dependent: the relative-locality reading, not a global vacuum. There is no vacuum-sector or decoupling-frame language and no 'spontaneous' (0 hits).",
+     "quote_check": "FOUND: 2503.20854 — searched full text (https://arxiv.org/html/2503.20854)"
+    }
+   ],
+   "summary": "For Q9 this paper offers only that the spacetime polarization is 'observer dependent'. It was not read for its dark-energy fits, which are Q10's subject."
+  },
+  {
+   "id": "2604.19418",
+   "citation": "Hübsch, Tristan; Minic, Djordje — Quantum Spacetime, Quantum Gravity and Gravitized Quantum Theory, conference paper (2026), arXiv:2604.19418",
+   "first_posted": "2026-04-21 (arXiv v1)",
+   "read_how": "full text, arXiv HTML (v1, 125k characters): headings, then all hits for polariz (15), spontaneous, broken, order parameter, Goldstone, vacuum selection, contextual (23), equal footing and mirror, read in context",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "We note that spacetime physics is classical and background-independent, with fixed spacetime polarization and dynamical geometry of spacetime, whereas quantum physics is intrinsically probabilistic, with a dynamical polarization and fixed geometry of the space of states, and the fixed rule for computing probabilities—the Born rule.",
+     "where": "§1.1 From Foundations to a Gravitized Quantum Spacetime",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "In GR the polarization is fixed; in quantum theory it is dynamical.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Note: Spacetime physics (gravity) is classical and has a fixed polarization (spacetime), but has dynamical geometry and is deterministic. In turn, quantum physics (physics of matter) is intrinsically probabilistic and has a dynamical polarization \\psi\\to U\\psi",
+     "where": "§1.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "In their usage a 'dynamical polarization' is ψ → Uψ, a unitary change of basis. It is not a vacuum selection or an order parameter.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "By combining the two central featues of spacetime and quantum physics, we are led to suggest that a self-consistent quantum theory of both spacetime and matter (also known as quantum gravity) should have both a dynamical polarization and a dynamical geometry, and should be intrinsically probabilistic.",
+     "where": "§1.1",
+     "bears_on": [
+      "polarization-selection",
+      "priority"
+     ],
+     "reading": "Quantum gravity 'should have ... a dynamical polarization'. This is a suggestion, posted 2026-04-21, before the program's notebook (September 2026), and gives no mechanism.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "For example, by fixing the polarization of spacetime, in the fundamental commutation relations [x,\\tilde{x}]=i\\lambda^{2} , one recovers the usual local quantum field theory, in which all observers see the same background spacetime. Modular fields are contextual. The classical spacetime label x of canonical QFT corresponds to the choice of (classical spacetime) polarization in modular (quantum) spacetime with a contextuality parameter \\lambda .",
+     "where": "§5.1 Modular Polarization, Metaparticles, Modular Fields and Observation",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Fixing the polarization yields local QFT with a shared spacetime. The fixing is done, not derived.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Similarly, modular variables are contextual: for example, in a double slit experiment the parameters \\lambda and \\epsilon are contextual and depend on the experimental setup.",
+     "where": "§5",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The modular cell, and with it the polarization, is set by the experimental context.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Dual spacetime labels can be viewed as covariant, non-local, and non-commutative hidden variables. However, by picking the spacetime polarization, the dual spacetime looks completely invisible.",
+     "where": "§7 Conclusion",
+     "bears_on": [
+      "polarization-selection",
+      "detection"
+     ],
+     "reading": "Picking the spacetime polarization hides the dual spacetime. The choice is a 'picking', with no mechanism.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "and directly observable canonical spacetime ( x ) has a dual/conjugate partner—the dual spacetime ( \\tilde{x} ), such that [x,\\tilde{x}]=i\\lambda^{2} , where \\lambda denotes the fundamental length/time.",
+     "where": "§1.1",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "An incidental find for Q2: a 'dual/conjugate partner' at the fundamental length λ.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    }
+   ],
+   "summary": "Quantum gravity 'should have both a dynamical polarization and a dynamical geometry', where a dynamical polarization is ψ → Uψ. The spacetime polarization is fixed, picked or chosen 'with a contextuality parameter λ'. There is no vacuum mechanism, potential, order parameter or 'spontaneous' (the four 'spontaneous' hits are spontaneous emission)."
+  },
+  {
+   "id": "2610.19522",
+   "citation": "Hübsch, Tristan; Minic, Djordje — Nambu's Dynamics, Strings and Gravitized Quantum Theory (2026), arXiv:2610.19522",
+   "first_posted": "2026-10-14 (arXiv v1; after the program's notebook, September 2026, so a restatement, not prior art)",
+   "read_how": "full text, arXiv HTML: grep for vacuum sector, decoupling frame, spontaneous, order parameter, Goldstone, polarization, dual universe and dynamical polarization (found among the citers of 2104.00802; not in my assigned list)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "(Note that in general relativity the spacetime polarization is fixed and the metric is dynamical, whereas in quantum theory polarization is dynamical and the metric, given by the Born rule, is fixed. Gravitized quantum theory (or background independent quantum theory [21, 23] makes both its polarization and its probability rule dynamical.)",
+     "where": "§3.2 Metastrings and Modular Spacetime",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "This restates 2604.19418's 'dynamical polarization'. The paper has no 'spontaneous', 'order parameter', 'Goldstone' or 'vacuum sector'.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "Note that from this viewpoint the classical spacetime polarization of perturbative string theory is just one of many, and in metastring theory, different observers see different spacetimes.",
+     "where": "§3.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Observer-dependent spacetimes, one polarization of many.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    }
+   ],
+   "summary": "Posted after the program's first statement. It restates the dynamical-polarization and observer-dependence readings and adds no selection mechanism."
+  }
+ ],
+ "answers": [
+  {
+   "question": "Q9",
+   "answer": "No school text read gives a potential, an order parameter or Goldstone modes for the choice of polarization, and none calls that choice spontaneous. But the school does not treat the choice only as kinematical, and one paper puts its breaking in the vacuum.\n1. GR's breaking is called kinematical, after Born. 1405.3949 §1.1 (2014): 'this kinematical breaking is different from the dynamical breaking ... due to the choice of a particular Hamiltonian'. J. Phys. Conf. Ser. 804 012032 §2 (2017): 'Born reciprocity is broken by the choice of the principle of absolute locality'. Quantum gravity 'ought to restore the kinematical duality principle' (1405.3949 §1.1).\n2. Their proposal makes the splitting dynamical. 'the purely kinematical splitting of phase space into space and momentum space has to be made dynamical' (1405.3949 §1.3). 'in the context of quantum gravity, both H and η have to be dynamical' (1502.08005 §2.1, p. 11). 'the choice of space-time inside phase space as a dynamical question' (1502.08005 §7, p. 47). 'spacetime is a derived dynamical concept' (1307.7080). Quantum gravity 'should have both a dynamical polarization and a dynamical geometry' (2604.19418 §1.1), where a 'dynamical polarization' is ψ → Uψ, a unitary change of basis.\n3. The splitting sits in solutions, not in the law. 'This formulation does not require the presence of a bi-Lagrangian structure K. However when we look at solutions of string theory, we find this extra structure' (1405.3949 §2). Solutions 'are labelled by bi-Lagrangians' (1307.7080). Linearized background equations from a double RG say H 'can depend only on X or only on P' (1405.3949 §2.2), and 804 012032 §7 gives flow equations for η. My inference: a law without K and solutions with K is the logical form of spontaneous breaking, but FLM neither name it so nor compare vacua.\n4. The one vacuum-level statement is Freidel, Kowalski-Glikman, Leigh and Minic 2021 (2104.00802, v1 1 April 2021, checked in the v1 PDF). The dual Lorentz symmetry, which moves the commuting spacetime coordinate from x to x + αx̃, 'is broken. The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of δ'. They 'propose that the expansion of the Universe can act as a mechanism that selects the decoupling frame', and work it in a simple model: at late times only states without dual momentum survive. 'the symmetry is restored as one goes back in time', and at a → 0 'a dual universe made of dual particles is accessed'. They tie this to dark matter/energy ('states of class II being remnants').\n   Limits of this statement:\n   - the same essay says the dual symmetry 'is fundamentally broken at the quantum level' by λ, so it does not separate explicit from vacuum breaking;\n   - there is no potential, order parameter, Goldstone mode or the word 'spontaneous';\n   - the broken group is the non-compact dual Lorentz group, not ρ;\n   - the doubled space is (x, x̃) at λ² = ℏα′, with separate momenta p and p̃, not the program's (x, p) at ℏ.\n5. Modular vacua: the vacuum is the ground state of a chosen 'Hamiltonian' E_H and depends on H (1606.01829 §1.6; 2003.00318 §2.2). In extensified vacua 'The choice of Lagrangian is controlled by the choice of complex structure that enters the definition of the “Hamiltonian”' (1606.01829 §2.1), and that 'Hamiltonian' is 'a tool' (fn. 8). H 'is related to the choice of quantum vacuum' (2212.06086 §6.1). So a chosen H fixes the vacuum and the Lagrangian, and nothing dynamical chooses H.\n6. Other selectors the school names:\n   - consistency: worldsheet locality (1502.08005 §6.1, §7); a section condition 'imposed' for integrability (2111.14205; 2212.06086 §6.6);\n   - observer or context: 'each observer makes his/her own choice' (804 012032 §6); 'tied to the contextual nature of quantum measurement' (2407.06207 §3.5); 'observer dependent' (2503.20854 §1); a lattice 'set contextually by some experimental apparatus' (1606.01829 §3);\n   - scale: large modes probe X and stringy-small modes probe its mirror (1902.08617); the decoupling limit a → ∞ (2104.00802); a 'thermodynamical limit' (1606.01829); a 'singular limit' (2003.00318 §6.3);\n   - the authors' convenience: 'nothing special about the x^μ' (1812.10821 §2); 'one can pick' (2212.06086 §4.4).\n7. 'Vacuum selection' in the school's titles and texts means the string-vacuum problem, not the polarization. 2003.00318 §7 asks, as a question, 'whether Born reciprocity can be used as a criterion for vacuum selection in quantum gravity, which selects “maximally symmetric solutions” both in spacetime (de Sitter space) and in the matter sector (Standard Model and its dual, describing the dark matter sector)'. The 'vacuum selection principle' of 2202.05104 is 'the origin of the SM', modelled on horizontal gene transfer. 1502.08005 §8, 2010.15610 §8 and 1307.7080's 'vacuum problem' use the same sense.\n8. The other choice is equally lawful throughout:\n   - T-duality exchanges L with its complement (1502.08005 §8; 1706.03305 §5; 1405.3949 §2.1);\n   - the two are 'on equal footing' (1405.3949 §2.1; 2407.06207 §3; 804 012032 §1);\n   - the spectrum is invariant under p ↔ p̃ (2104.00802);\n   - 'we could have picked the dual, x̃,p polarization', and 'in either case' the same seesaw formula follows (2212.06086 §4.4);\n   - swapping the polarization is mirror symmetry (2111.14205);\n   - 'neither of the two factors is a preferred base' (1902.08617).\n   This is, in substance, P5's 'the mirror vacuum is equally lawful', held as a symmetry of the theory.\n9. What is rigid differs. The school makes ω dynamical too (1502.08005 §2.3; 2407.06207 §3.5, §4.1) and puts 'the rigidity of the quantum theory' in 'the flatness of the polarization metric η' (1502.08005 §1). P2′ keeps ω rigid and makes η emergent. For FLM a dynamical η 'necessarily leads to a relaxation of locality' (1405.3949 §1.3); in the program, selecting a polarization is what makes local physics possible (#11 §3).\nTest of #11 §3:\n- 'They treat the breaking as kinematical' fits what FLM say of GR, not what they propose (points 2 and 3). [26S] itself makes η dynamical (p. 11), which #11 P2′ already credits.\n- 'call the choice \"a dynamical question\"' is accurate: 1502.08005 §7, p. 47. The §3 quotation is on p. 3, as cited.\n- 'This program's addition is to read it as spontaneous breaking, with η as the order parameter' holds for the word 'spontaneous', for η as order parameter, for a potential, for the U(1) Goldstone angle and for the K-sign lock (P4). It does not hold for the vacuum as the place where the breaking occurs: FKLM 2021 state that, in the doubled (x, x̃) setting, before the program.",
+   "confidence": "high",
+   "evidence": [
+    "1405.3949 §1.1, §1.3, §2, §2.1, §2.2",
+    "1502.08005 §1 (p. 3), §2.1 (p. 11), §2.3, §6.1, §7 (p. 47), §8 (p. 56)",
+    "1307.7080 'Born Geometry and bi-Lagrangians' and Conclusion",
+    "2104.00802 after eqs. (2), (5), (9), (11), (12), (16), (17) and final paragraph; v1 PDF confirms the key passages",
+    "1606.01829 introduction, §1.1, §1.2, §1.6 (fn. 8), §1.7, §2.1, §3",
+    "recid:1590124 (J. Phys. Conf. Ser. 804 012032) §1–§2 (journal pp. 2–4), §6 (p. 16), §7 (p. 18)",
+    "2003.00318 §2.2, §4.2, §4.3, §6.3, §7",
+    "2202.05104 'The vacuum selection principle in string theory'",
+    "2212.06086 §2.2.2, §4.3, §4.4, §6.1, §6.6",
+    "2111.14205 Introduction, Mirror Doubling",
+    "2407.06207 §2.3, §3, §3.3, §3.5, §4.1",
+    "2604.19418 §1.1, §5, §5.1, §7",
+    "1812.10821 abstract, §2, §6",
+    "1706.03305 §5",
+    "1902.08617 'Seeing Double'",
+    "2010.15610 §8",
+    "2503.20854 §1",
+    "2610.19522 §3.2",
+    "negative findings: full-text greps of all 18 texts for spontaneous, order parameter, Goldstone and potential; INSPIRE full-text searches (Minic and Freidel with spontaneously broken plus polarization, order parameter plus polarization, Goldstone plus metaparticle or Born geometry, preferred polarization, decoupling frame, dynamical polarization, dual universe, dual Lorentz) found nothing beyond the papers listed"
+   ]
+  },
+  {
+   "question": "Q11",
+   "answer": "For Q9:\n- The earliest school statement that the choice of spacetime in phase space is dynamical is 1307.7080 (posted 26 July 2013): 'spacetime is a derived dynamical concept'.\n- 1405.3949 (15 May 2014) claims the dynamical η as 'our addition to Born's argument' and credits Born with GR's 'kinematical' breaking.\n- The earliest vacuum-level statement found is 2104.00802 (1 April 2021). It cites no earlier statement of that idea.\n- 2604.19418 (21 April 2026) also precedes the program's notebook (September 2026). 2610.19522 (14 October 2026) is a later restatement.\nFor C1 itself these papers give Minic 2020 (29 February 2020; metaparticles 'as the natural quanta of dark matter') and 2104.00802 ('may play the role of dark energy/matter'). I did not search for earlier statements of C1; other readers cover it.",
+   "confidence": "medium",
+   "evidence": [
+    "1307.7080 Conclusion",
+    "1405.3949 §1.1, §1.3",
+    "2104.00802 after eq. (12) (v1 PDF)",
+    "2604.19418 §1.1",
+    "2610.19522 §3.2",
+    "2003.00318 abstract",
+    "arXiv API v1 dates (scratch/r7-vacuum/v1dates.py)"
+   ]
+  },
+  {
+   "question": "Q1",
+   "answer": "Not the focus of this reading, which was Q9. Incidental, verified statements:\n- Minic 2020 calls metaparticle quanta 'the natural quanta of dark matter in this approach' (abstract; stated as an implication) and says the dual Lagrangians 'could be interpreted as dark matter Lagrangian' (§5; proposed).\n- 2202.05104: 'dark matter should be viewed as a dual SM' (stated).\n- 2104.00802: dual degrees of freedom 'may play the role of dark energy/matter' (speculative).\n- 2111.14205: 'the dual (“dark”) field'.\n- 2212.06086 §4.3: the metaparticle extension 'should be explored in connection with phenomenology of dark matter' (proposal).\n- 2407.06207 §3.4: integrating over x̃ gives 'visible matter, A(x), and dark matter, Ã(x), in classical x spacetime'.",
+   "confidence": "medium",
+   "evidence": [
+    "2003.00318 abstract, §5",
+    "2202.05104 'Constraints on the nature of dark matter'",
+    "2104.00802 introduction",
+    "2111.14205 Born Heterosis item 3",
+    "2212.06086 §4.3",
+    "2407.06207 §3.4"
+   ]
+  },
+  {
+   "question": "Q2",
+   "answer": "Incidental to Q9, but it limits how far 2104.00802's vacuum statement anticipates P5. These papers use the dual coordinate in two ways.\n- In the modular-variable foundations x̃ is momentum rescaled: 'x ≡ q/λ, x̃ ≡ p/ε, so [x,x̃]=i, λε=ℏ' (2407.06207 §3.3; same in 2604.19418 §5.1). 1307.7080 calls Y 'coordinates in momentum space'.\n- In the metaparticle and metastring, x̃ is 'conjugate to x' with [x̂, x̂̃] = iπλ² and 'the string scale λ²=ℏα′', and the theory has separate momenta p and p̃ (2104.00802, eqs. 1 and 5). 2604.19418 calls x̃ 'a dual/conjugate partner' with [x,x̃]=iλ².\nFKLM's vacuum-sector breaking is stated in the second, doubled setting.",
+   "confidence": "medium",
+   "evidence": [
+    "2407.06207 §3.3",
+    "2604.19418 §1.1",
+    "2104.00802 after eq. (1)",
+    "1307.7080 (record's quotation; also 1812.10821 §2)"
+   ]
+  },
+  {
+   "question": "Q3",
+   "answer": "Not read for this question; the assignment was Q9. Incidental, verified statements:\n- 'a dual field Ã, which is entangled, with the original A field' (2003.00318 §5).\n- E8 and 'the dual (“dark”) field valued in the same E8 algebra', with Ẽ8 'the Langlands dual ... i.e., the electro-magnetic dual' (2111.14205).\n- dark matter as a 'dual SM' (2202.05104).",
+   "confidence": "low",
+   "evidence": [
+    "2003.00318 §5",
+    "2111.14205 Born Heterosis items 2–3",
+    "2202.05104"
+   ]
+  },
+  {
+   "question": "Q4",
+   "answer": "Not read for this question. Incidental, verified statements:\n- the metastring non-commutativity 'implies the correlation ... between the visible E8-fields and the dark Ẽ8-fields' (2111.14205 item 4);\n- the dual field is 'entangled' with the visible one (2003.00318 §5).",
+   "confidence": "low",
+   "evidence": [
+    "2111.14205 Born Heterosis item 4",
+    "2003.00318 §5"
+   ]
+  },
+  {
+   "question": "Q5",
+   "answer": "Not addressed in these papers as read; I did not search them for detection.",
+   "confidence": "low",
+   "evidence": []
+  },
+  {
+   "question": "Q6",
+   "answer": "Not read for this question. Incidental, verified statements:\n- 'the size of the dual spacetime is the gravitational constant of the same observed spacetime' (2212.06086 abstract);\n- Minic 2020 §5 writes the visible and dark Lagrangians in one effective action 'where we have included the gravitational background as non-dynamical';\n- 1405.3949 §2.2: H 'can depend only on X or only on P', and in the X case 'we recover the usual graviton mode propagation'.",
+   "confidence": "low",
+   "evidence": [
+    "2212.06086 abstract",
+    "2003.00318 §5",
+    "1405.3949 §2.2"
+   ]
+  },
+  {
+   "question": "Q7",
+   "answer": "Not read for this question. Incidental, verified: 'Metaparticles can be understood as fuzzy dark matter' (2407.06207). 2104.00802 has dual-momentum states that decouple as the universe expands, 'class II being remnants'.",
+   "confidence": "low",
+   "evidence": [
+    "2407.06207 §3.4–3.5",
+    "2104.00802 after eq. (16) and final paragraph"
+   ]
+  },
+  {
+   "question": "Q8",
+   "answer": "Not the focus. Three leads for the Q8 reader:\n- 2407.06207 §3.5 fn. 11: 'The dual spacetime x̃ is associated with conserved dual (magnetic) charges'.\n- 2111.14205: the dual sector's Ẽ8 is 'the Langlands dual, E8^∨, i.e., the electro-magnetic dual', and for E8 the two are 'physically indistinguishable'.\n- 1307.7080: worldsheet dyonic vertex operators, whose Dirac–Schwinger–Zwanziger quantization 'is equivalent to satisfying the diffeomorphism constraint'.\nNone of these places magnetically charged objects in x̃ or in momentum as dark matter.",
+   "confidence": "low",
+   "evidence": [
+    "2407.06207 §3.5 fn. 11",
+    "2111.14205 Born Heterosis item 2",
+    "1307.7080 'Quasi-Periodicity and generalized T-duality'"
+   ]
+  },
+  {
+   "question": "Q10",
+   "answer": "Not read for w. Incidental, verified statements:\n- dark energy is 'a curvature of the dual spacetime' (2003.00318 abstract; 2202.05104; 2212.06086 abstract).\n- 2104.00802 rescales x → ax and x̃ → a⁻¹x̃, and 'the dual dimension shrinks to zero' as a → ∞. Dual degrees of freedom are 'more relevant early on and decoupling at late time', and at a → 0 'a dual universe made of dual particles is accessed'.\nMy comparison: this is the picture of #11 §10's a·ã = 1 and of App. A items 2 and 6, published in 2021, though FKLM's commutator is [x, x̃] at λ² and the program's ω acts at ℏ. Its bearing on C5 ('Their collapse is our acceleration') was not assessed.",
+   "confidence": "low",
+   "evidence": [
+    "2003.00318 abstract",
+    "2202.05104",
+    "2212.06086 abstract",
+    "2104.00802 eq. (2) and after eq. (9); final paragraph"
+   ]
+  }
+ ],
+ "contradicts_record": [
+  {
+   "record_says": "papers/broken-born-checkpoint-v2.md (#11 v2.5) §3: \"They treat the breaking as kinematical and call the choice \\\"a dynamical question\\\".\" Also wiki/phase-space/reciprocity/broken-born-duality.md (opening passage): \"they wrote no potential for η and treated the breaking as kinematical, not as spontaneous symmetry breaking\"; notes/toy-lagrangian.md 'Chunk 1 results': \"call Born's breaking kinematical, not spontaneous.\"",
+   "source_says": "1405.3949 §1.1: 'One of the central insights of Born, 75 years ago [3], was to notice that the kinematical symmetry generated by I is fundamentally broken in the presence of gravity.' §1.3: 'Moreover, the purely kinematical splitting of phase space into space and momentum space has to be made dynamical, and thus both the phase space metric H_{AB} and the neutral metric \\eta_{AB} have to be dynamical in the context of quantum gravity.' §2: 'This formulation does not require the presence of a bi-Lagrangian structure K . However when we look at solutions of string theory, we find this extra structure.' And [26S] itself, 1502.08005 §2.1, p. 11: 'When we introduce quantum theory into gravity, we have to make the neutral metric \\eta dynamical, and thus in the context of quantum gravity, both H and \\eta have to be dynamical.'",
+   "why": "'Kinematical' is FLM's word for the breaking by general relativity, which they credit to Born and want quantum gravity to undo. Their own proposal makes the splitting dynamical: K is absent from the action and present in solutions. 'They treat the breaking as kinematical' therefore describes what they say of GR, not what they propose, and understates them. The second clause is accurate (1502.08005 §7, p. 47). #11 P2′ already credits [26S] with a dynamical η, so §3 and P2′ say different things about the same paper."
+  },
+  {
+   "record_says": "papers/broken-born-checkpoint-v2.md §3: \"This program's addition is to read it as *spontaneous* breaking, with η as the order parameter\". wiki/phase-space/reciprocity/broken-born-duality.md (description): \"they gave no potential and no symmetry-breaking analysis\". notes/toy-lagrangian.md 'Chunk 1 results': \"They write no potential and do no symmetry-breaking analysis\".",
+   "source_says": "2104.00802 (Freidel, Kowalski-Glikman, Leigh, Minic; v1 1 April 2021, the passage present in the v1 PDF): 'Now since the modular fields and their decoupling limit are obtained by a choice of polarization it is clear that they do not transform covariantly under the dual Lorentz symmetry. In other words the dual Lorentz symmetry that acts on the free one metaparticle state is broken. The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of \\delta .' Also: 'Once a dual boost is performed the new commuting decoupling coordinate is no longer x , but x^{\\mu}+\\alpha^{\\mu\\nu}\\tilde{x}_{\\nu}+\\cdots' and 'the infrared Lorentz violation appears only for an old Universe, as the symmetry is restored as one goes back in time.'",
+   "why": "The school does analyse a symmetry breaking tied to the choice of polarization, published before the program. A symmetry that moves which phase-space coordinate is the commuting spacetime coordinate is broken 'at the level of the vacuum sector', the ground state fixes the frame, and the symmetry is restored in the past. 'No symmetry-breaking analysis' is therefore too strong.\nWhat holds: there is no potential, the word 'spontaneous' is absent, nothing is called an order parameter (δ is what the ground state fixes, but they do not name it so), and no Goldstone modes appear. The essay also says the dual symmetry 'is fundamentally broken at the quantum level' by λ, so it does not separate explicit from vacuum breaking. The broken group is the non-compact dual Lorentz group of the doubled (x, x̃) space at λ², not ρ on (x, p) at ℏ.\nThe program's own addition narrows to the spontaneous formulation proper: the name, η as order parameter, the potential, the toy models' U(1) Goldstone angle and the K-sign lock. The record nowhere quotes these passages; the earlier check read 2104.00802 only for C1."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'What differs', 'The vacuum': \"The check found no such mechanism in the school's papers, where the classical spacetime label \\\"corresponds to a choice\\\" of polarization.\" And §2 (plain-language passage): \"What the check did not find in the literature is mostly the program's setting joined to the identification: a vacuum that selects a polarization, and a dark sector coupled to ours by gravity alone\".",
+   "source_says": "2104.00802: 'We now propose that the expansion of the Universe can act as a mechanism that selects the decoupling frame and thus a value of \\delta .' Final paragraph: 'the mechanism that we have described here seems to have potential for an entirely novel source for dark matter/energy, with states of class II being remnants, and introduces new notions of Universe evolution, with dual degrees of freedom being more relevant early on and decoupling at late time.' And: 'when the scale factor goes to zero the dual decoupling limit means that a dual universe made of dual particles is accessed.'",
+   "why": "A school paper posted before the program proposes a mechanism that selects the spacetime frame, both in the vacuum (the ground state) and dynamically (the expansion), and joins it to dual degrees of freedom as a candidate dark sector. It is a hedged proposal: a simple cosmological model, 'dark matter/energy' undecided, class II metaparticles rather than a dual Standard Model, and the doubled (x, x̃) space.\n'No such mechanism' therefore holds only for a spontaneous-breaking mechanism with an order parameter and a potential. 'A vacuum that selects a polarization' joined to a dual dark sector is published, in this hedged form.\nThe quotation 'corresponds to a choice' is accurate (2407.06207 §3.3), but the sentence ends 'with a contextuality parameter λ', and §3.5 ties the polarization to 'the contextual nature of quantum measurement'. That is what this school paper says does the choosing."
+  },
+  {
+   "record_says": "CLAUDE.md (root), 'Since the handoff', 2026-11-02 entry: \"The program's couples by gravity alone (P4 strict, row 7; not in §11.4's shared-photon form, which needs P4 restated, flag 63), with the polarization selected by the vacuum, and neither its χ form nor its monopole form was found in the literature\". review/wiki-build-flags.md flag 64: \"...and its polarization is selected spontaneously (P5).\"",
+   "source_says": "2104.00802: 'The symmetry breaking happens at the level of the vacuum sector, and thus a choice of ground state fixes a value of \\delta .' And: 'We now propose that the expansion of the Universe can act as a mechanism that selects the decoupling frame and thus a value of \\delta .' Also J. Phys. Conf. Ser. 804 012032 §6 (journal p. 16): 'a spacetime is a choice of polarization, and thus each observer makes his/her own choice.'",
+   "why": "As a difference from the school, 'selected by the vacuum' needs narrowing: the school has a vacuum-level selection of the spacetime frame, in its doubled setting. Two differences remain. One is the spontaneous-breaking formulation (η as order parameter, a potential, a Goldstone angle). The other is scope: elsewhere the school makes the polarization observer- or context-dependent ('each observer makes his/her own choice'), where P5 has one vacuum for all matter."
+  },
+  {
+   "record_says": "notes/toy-lagrangian.md, 'S5 literature': \"Claimed only in words: that the choice is dynamical.\" and \"Open: a mechanism that picks L over L̃. Each candidate in the literature either selects the pair only, or uses outside input: which modes are light, distance-dependent interactions, or a curved position space.\" (labels in bold in the source). wiki/phase-space/reciprocity/broken-born-duality.md, 'Neighbours in the literature': \"the worklog finds that a mechanism picking one section over its partner is open in the literature\".",
+   "source_says": "2104.00802: 'We clearly see from the first equation of (16) that the only states that survive at late times when a_{c}\\to\\infty are the states where the dual momentum \\tilde{\\mathbf{p}} vanishes. This means that all metaparticles of class II decouple and that the metaparticles of class I become particles'. Also: 'In the limit of large expansion a\\to\\infty , the dual dimension shrinks to zero and one recovers the usual spacetime notions.' 'We now propose that the expansion of the Universe can act as a mechanism that selects the decoupling frame and thus a value of \\delta .' 'when the scale factor goes to zero the dual decoupling limit means that a dual universe made of dual particles is accessed.'",
+   "why": "FKLM 2021 work a simple model, not only words. In the metaparticle dispersion relation in an expanding background (their eqs. 15–17), states with dual momentum decouple at late times, so the expansion picks the x frame over its T-dual partner, and the a → 0 limit gives the partner.\nIn the worklog's terms this uses outside input (the scale factor sets which modes are light), so its 'open' verdict stands only with that proviso. The wiki's paraphrase drops the proviso and says the mechanism is 'open in the literature', which overstates. The worklog does not cite 2104.00802."
+  }
+ ],
+ "leads": [
+  "2104.00802 (FKLM 2021), eq. (2): x → ax, x̃ → a⁻¹x̃ 'respects the commutation relation'. The 'dual dimension shrinks to zero' as a → ∞, dual degrees of freedom are 'more relevant early on and decoupling at late time', and a 'dual universe made of dual particles' appears at a → 0. This is prior art (2021) for the picture of #11 §10's a·ã = 1 and of App. A items 2, 6 and 7, not cited by #11; for the Q10/C5 reader.",
+  "recid:1411938 — Freidel, Leigh, Minic, 'Modular spacetime', Int.J.Mod.Phys.D 24 1544028 (2015), doi:10.1142/S0218271815440289. A Gravity Research Foundation essay, not on arXiv; not read (publisher page not attempted). It may state the polarization choice in essay form.",
+  "recid:1923123 — Y. Yargic, 'Born Reciprocal Representations of the Quantum Algebra' (2021 thesis, not on arXiv). It cites 2104.00802 and treats dynamics in Born-reciprocal modular representations; it may bear on how the polarization is chosen. Not read.",
+  "1806.05992 — Freidel, Rudolph, Svoboda, 'A Unique Connection for Born Geometry' (Commun. Math. Phys. 372 (2019) 119). 2111.14205 cites it for the foliation and section structure. Not read.",
+  "1707.00312 — Freidel, Leigh, Minic, 'Noncommutativity of closed string zero modes' (Phys. Rev. D 96 066003, 2017). It may discuss the choice of ω and frame. Not read.",
+  "1706.07089 — Freidel, Rudolph, Svoboda: the choice 'might be subject to a dynamical selection rule'. The record already has it; not re-read.",
+  "Checked by grep only, with no Q9 content beyond restatements: 2202.06890 (Berglund, Freidel, Hübsch et al., Snowmass 2022; no vacuum-sector, decoupling-frame, spontaneous or order-parameter hits); 2109.12763 (Edmonds, Minic, Takeuchi 2021: 'a choice of polarization is a choice of a spacetime'); 2212.00901 (FKLM et al. 2022: 'A choice of basis is equivalent to a choice of polarization of phase space'); 2307.16712 (Berglund, Hübsch, Minic 2023: 'order parameter' only for the Higgs field).",
+  "2212.06086 §4.3, seen in context but not code-checked: 'the usual detection analysis of particulate dark matter should be revisited in the context of metaparticle kinematics and representation theory'. For the Q5 reader.",
+  "For the Q8 reader: 2407.06207 §3.5 fn. 11 (x̃ associated with conserved magnetic charges, after refs. 56–59 on corner symmetries) and 2111.14205 item 2 (Ẽ8 of the dark sector as the electromagnetic/Langlands dual)."
+ ],
+ "not_retrieved": []
+}

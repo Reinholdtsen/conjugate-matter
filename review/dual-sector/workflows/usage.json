@@ -1,0 +1,57 @@
+{
+ "note": "As the workflow tool and the Agent tool reported them on completion (task notifications, 2026-11-06).",
+ "workflow_A": {
+  "script": "dual-sector-read-verify-wf_c9a159be-379.js",
+  "run": "wf_c9a159be-379",
+  "agents": 18,
+  "errors": 0,
+  "subagent_tokens": 8467862,
+  "tool_uses": 2092,
+  "duration_ms": 5423089
+ },
+ "workflow_B": {
+  "script": "dual-sector-panel-wf_37362a3d-f8b.js",
+  "run": "wf_37362a3d-f8b",
+  "agents": 5,
+  "errors": 0,
+  "subagent_tokens": 2815320,
+  "tool_uses": 499,
+  "duration_ms": 2083939
+ },
+ "links_agent": {
+  "what": "author-year citations linked across the wiki (one Agent call)",
+  "agents": 1,
+  "subagent_tokens": 537646,
+  "tool_uses": 116,
+  "duration_ms": 2597966
+ },
+ "round_2": {
+  "script": "dual-sector-round2-wf_0eee439e-102.js",
+  "run": "wf_0eee439e-102",
+  "agents": 4,
+  "errors": 0,
+  "subagent_tokens": 1731258,
+  "tool_uses": 513,
+  "duration_ms": 5111618
+ },
+ "workflow_D": {
+  "what": "the propagation of the findings to notes/literature-check.md and 25 wiki pages",
+  "script": "dual-sector-propagate-wf_2cdea7d1-67a.js",
+  "run": "wf_2cdea7d1-67a",
+  "agents": 8,
+  "errors": 0,
+  "subagent_tokens": 2748341,
+  "tool_uses": 774,
+  "duration_ms": 3455825
+ },
+ "workflow_E": {
+  "what": "the second propagation round, then the review of the whole change",
+  "script": "dual-sector-finish-wf_94d1449f-64c.js",
+  "run": "wf_94d1449f-64c",
+  "agents": 12,
+  "errors": 0,
+  "subagent_tokens": 4624620,
+  "tool_uses": 1519,
+  "duration_ms": 8380753
+ }
+}

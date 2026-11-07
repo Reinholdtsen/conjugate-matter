@@ -1,0 +1,1255 @@
+{
+ "papers": [
+  {
+   "id": "2203.17137",
+   "citation": "Berglund, Per; Hübsch, Tristan; Mattingly, David; Minic, Djordje. Gravitizing the quantum. Int.J.Mod.Phys.D 31 (2022) 2242024, doi:10.1142/S021827182242024X. arXiv:2203.17137 (Gravity Research Foundation essay 2022)",
+   "first_posted": "2022-03-31 (arXiv v1, the only version)",
+   "read_how": "full text, read whole (arXiv HTML v1 via tools/lit.py text; 26,672 characters)",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "We propose that quantum geometry (by which me mean the actual geometry typically imposed on Hilbert spaces by quantum mechanical axioms and not a quantized spacetime geometry) becomes dynamical in quantum gravity in a way that is consistent with the principles of unitarity and that captures some fundamental aspects of gravity, such as topology change.",
+     "where": "essay text, second paragraph (the essay has no numbered sections)",
+     "bears_on": [
+      "other"
+     ],
+     "reading": "Defines what the later papers call gravitized quantum theory: the geometry of quantum state space (the Fubini–Study metric), not spacetime, becomes dynamical. It concerns a different object from #11's rigid symplectic form ω on phase space (P2′) (my comparison).",
+     "quote_check": "FOUND: 2203.17137 — searched full text (https://arxiv.org/html/2203.17137)"
+    },
+    {
+     "quote": "(which includes a useful phenomenological limit, called the metaparticle [30]) that captures intrinsic non-commutative (as well as non-associative [36]) features of string theory",
+     "where": "essay text, paragraph on string field theory and the metastring",
+     "bears_on": [
+      "other"
+     ],
+     "reading": "The essay's only mention of metaparticles, as context. It has no dark-matter statement: 'dark' occurs 0 times in the full text (executed grep). It also has no dual coordinate x̃ and no polarization.",
+     "quote_check": "FOUND: 2203.17137 — searched full text (https://arxiv.org/html/2203.17137)"
+    }
+   ],
+   "summary": "Gravity Research Foundation essay. It proposes that the geometry of quantum state space becomes dynamical in quantum gravity: topology change in a worldline toy model gives a non-linear Wheeler–DeWitt equation. The proposed tests are triple-path interference (Sorkin's I₃) and optical-clock redshift bounds. No dark matter, dark energy, dual coordinate or polarization, so it bears directly on none of Q1–Q11. It is where the label 'gravitized quantum theory' used by the later papers comes from."
+  },
+  {
+   "id": "2303.15645",
+   "citation": "Berglund, Per; Geraci, Andrew; Hübsch, Tristan; Mattingly, David; Minic, Djordje. Triple interference, non-linear Talbot effect and gravitization of the quantum. Class.Quant.Grav. 40 (2023) 155008, doi:10.1088/1361-6382/ace14a. arXiv:2303.15645",
+   "first_posted": "2023-03-28 (arXiv v1); the text read is v2 of 2023-06-26, the published version",
+   "read_how": "full text (arXiv HTML v2 via lit.py, 87,256 characters). §5–§7 read in full; the rest searched by grep for dark, dual, polarization, metaparticle and metastring. 'dark' occurs 0 times.",
+   "mentions_dark_matter": false,
+   "statements": [
+    {
+     "quote": "Born geometry requires two distinct sets of coordinates to describe, x and \\tilde{x} . In such a scenario, one can establish that commutators of local operators e.g. [x,y] commute, preserving our familiar spacetime causality, but commutators of the form [x,\\tilde{x}] do not, which allows for a violation of factorizability and a modification of the Born rule.",
+     "where": "§5 'There be dragons: the robustness of the Born rule'",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "x̃ is a second set of coordinates of Born geometry, and [x, x̃] ≠ 0 is what lets the Born rule be modified without breaking spacetime causality. This passage gives x̃ no scale and does not say whether it is a momentum or a winding coordinate.",
+     "quote_check": "FOUND: 2303.15645 — searched full text (https://arxiv.org/html/2303.15645)"
+    },
+    {
+     "quote": "in which apart from spacetime coordinates x one has dual spacetime coordinates \\tilde{x} which do not commute with x . The pair x and \\tilde{x} is put together into a doublet \\mathbb{X} .",
+     "where": "§6.1 'Top-down view from string theory' (metastring matrix model, eq. 18)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "In the metastring matrix model, x̃ are 'dual spacetime coordinates' that do not commute with x and are paired with x in the doublet 𝕏. No dark sector appears. §7 uses the vacuum-energy see-saw l_λ ~ √(l l_P), which the record already treats as prior art (phase-space-diameter note), to put the triple-interference scale near the Higgs scale.",
+     "quote_check": "FOUND: 2303.15645 — searched full text (https://arxiv.org/html/2303.15645)"
+    }
+   ],
+   "summary": "CQG paper on triple interference in a varying gravitational field and the non-linear Talbot effect as tests of gravitized quantum theory. It argues the relevant scale may be the Higgs scale. x̃ appears only as dual spacetime coordinates that do not commute with x. No dark matter or dark sector."
+  },
+  {
+   "id": "2305.12593",
+   "citation": "Minic, Djordje. The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles. Conference paper (talk at BASIC 2023), arXiv:2305.12593; published as Bulg.J.Phys. 51 (2024) 060 (recid:2778134)",
+   "first_posted": "2023-05-21 (arXiv v1, the only version)",
+   "read_how": "full text, read whole (arXiv HTML v1 via lit.py; 32,362 characters)",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "Here we note that modular spacetime is a notion of quantum spacetime, corresponding to a generic polarization of quantum theory [11]. Note that in the context of modular spacetime, x^{\\mu} are the usual spacetime coordinates, while p_{\\nu} are dual coordinates conjugate to x .",
+     "where": "§2 'Vacuum Energy and Quantum Gravity'",
+     "bears_on": [
+      "what-dual-is",
+      "polarization-selection"
+     ],
+     "reading": "In modular spacetime the 'dual coordinates conjugate to x' are the momenta p, with the canonical [x̂, p̂] = i (ℏ = 1). That is the single phase space of #11 (P1, P2′). 'Polarization' here means the modular (Zak) representation, called generic; it is not a choice between x and p.",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    },
+    {
+     "quote": "In the limit of large expansion a\\to\\infty , the dual dimension shrinks to zero and one recovers the usual spacetime.",
+     "where": "§2",
+     "bears_on": [
+      "polarization-selection",
+      "other"
+     ],
+     "reading": "The preceding sentence rescales x → ax, p → a⁻¹p, which keeps the commutator. This is the kinematics of #11 §10's a·ã = 1 (App. A item 6), used here as a limit that recovers classical spacetime, not as an evolution in time. The record's C5 finding for this paper reads it the same way.",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    },
+    {
+     "quote": "As already stated, in the context of metastring theory apart from the usual spacetime coordinates x^{\\mu} one also encounters \\tilde{x}_{\\nu} , dual coordinates conjugate to x . These coordinates are the eigenvalues of operators which do not commute (in addition to the usual canonical commutators between coordinates and dual momenta),",
+     "where": "§2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The same words, 'dual coordinates conjugate to x', now name x̃ in the metastring. x̃ fails to commute with x 'in addition to' the canonical commutators with the 'dual momenta', so here x̃ is a further coordinate beside p, not p itself.",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    },
+    {
+     "quote": "[\\hat{x}^{\\mu},\\hat{\\tilde{x}}_{\\nu}]=i\\pi\\lambda^{2}\\delta^{\\mu}_{\\nu}\\hat{I}. This commutation relation can be deduced through a careful analysis of the zero mode sector of string theory where \\lambda^{2}=\\hbar\\alpha^{\\prime} [18], but in general, the scale \\lambda depends on the context.",
+     "where": "§2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The scale is λ² = ħα′ from the string zero modes, but λ 'depends on the context'. The factor π is this paper's normalization; the other papers give iλ², 2πiλ² and 2πiℓ_s².",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    },
+    {
+     "quote": "This is the decoupling limit where a modular field \\phi(x,\\tilde{x}) is restricted to the usual notion of a spacetime field \\phi(x) (for example, a SM field), as considered in the context of EFT. In this limit metaparticles (correlated objects of visible particles and their duals, which, in turn, represent natural candidates for dark matter [10]) are reduced to canonical particles.",
+     "where": "§2, end",
+     "bears_on": [
+      "identification",
+      "coupling"
+     ],
+     "reading": "The paper's only statement of the identification: a parenthesis, proposed ('natural candidates'), citing [10]. [10] is BHM arXiv:2212.06086, plus arXiv:2111.14205, LHEP 2021 and two 2019 papers. Grammatically the antecedent of 'which' may be either the duals or the metaparticles (my reading). The 'decoupling limit' is a limit of the dual cell's size (b → ∞), not an energy scale; in it the dual sector drops out of the effective field theory.",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    },
+    {
+     "quote": "Also, in the limit of large expansion b\\to\\infty , the dual spacetime dimension shrinks to zero and one recovers the usual spacetime notions.",
+     "where": "§2",
+     "bears_on": [
+      "coupling",
+      "polarization-selection"
+     ],
+     "reading": "The same rescaling, now applied to (x, x̃) through x → bx, x̃ → b⁻¹x̃. It is the limit in which the dark (dual) sector disappears from the effective theory.",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    },
+    {
+     "quote": "Finally we note that, apart from metaparticles, the most spectacular empirical prediction of our approach to quantum gravity as “gravitization of the quantum” [16] is represented by the phenomena of intrinsic triple and higher order interference [29].",
+     "where": "§4 'Conclusion'",
+     "bears_on": [
+      "detection"
+     ],
+     "reading": "Metaparticles are counted as an empirical prediction, but the paper names no detection channel for dark matter.",
+     "quote_check": "FOUND: 2305.12593 — searched full text (https://arxiv.org/html/2305.12593)"
+    }
+   ],
+   "summary": "A talk on the phase-space computation of the vacuum energy (unit cells with λε = 2π, N ~ l²/l_P², λ ~ √(l l_P)), extended to see-saw estimates of the Higgs and fermion masses. The dark-matter identification is a single parenthesis citing BHM. The paper calls both the momentum p (in modular spacetime) and x̃ (in the metastring, [x, x̃] = iπλ² with λ contextual) 'dual coordinates conjugate to x'."
+  },
+  {
+   "id": "recid:2778134",
+   "citation": "Minic, Djordje. The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles. Bulg.J.Phys. 51 (2024) 060–071, doi:10.55318/bgjp.2024.51.1.060",
+   "first_posted": "INSPIRE earliest date: 2024. The PDF itself says 'Received: 21st of May 2023', the arXiv v1 date of 2305.12593.",
+   "read_how": "full text: open-access PDF https://www.bjp-bg.com/papers/bjp2024_1_060-071.pdf (publisher page https://www.bjp-bg.com/paper.php?id=1633), downloaded to scratch/r3-gravitized/downloads/bjp/ and extracted with pypdf. The passages bearing on Q1–Q11 were compared with 2305.12593 and are unchanged.",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "In this limit metaparticles (correlated objects of visible particles and their duals, which, in turn, represent natural candidates for dark matter [10]) are reduced to canonical particles.",
+     "where": "§2, p. 65",
+     "bears_on": [
+      "identification"
+     ],
+     "reading": "Word for word the sentence of arXiv:2305.12593 §2. The journal version adds nothing on the dark sector.",
+     "quote_check": "not code-checkable by lit.py (recid:2778134 has no arXiv text; lit.py reads only the INSPIRE abstract). Read via the open-access PDF; local check with lit.norm/lit.loose on its pypdf text: FOUND"
+    },
+    {
+     "quote": "Received: 21st of May 2023",
+     "where": "title page, p. 60",
+     "bears_on": [
+      "priority"
+     ],
+     "reading": "Dates the text to the 2023 talk. For priority it is the 2305.12593 statement of May 2023, not a separate 2024 one.",
+     "quote_check": "not code-checkable by lit.py (no arXiv text). Local check with lit.norm on the pypdf text of the open-access PDF: FOUND"
+    },
+    {
+     "quote": "Here we note that modular spacetime is a notion of quantum spacetime, corresponding to a generic polarization of quantum theory [11].",
+     "where": "§2, p. 62",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Same as the arXiv text.",
+     "quote_check": "not code-checkable by lit.py (no arXiv text). Local check with lit.norm on the pypdf text of the open-access PDF: FOUND"
+    }
+   ],
+   "summary": "The journal version of 2305.12593. The passages on the dual coordinates, the polarization and dark matter are word for word the same, checked by normalized matching on the PDF text. It adds nothing."
+  },
+  {
+   "id": "2407.06207",
+   "citation": "Hübsch, Tristan; Minic, Djordje. Quantum Gravity as Gravitized Quantum Theory. arXiv:2407.06207 (2024). INSPIRE: conference contribution (3rd Conference on Nonlinearity, Belgrade, Sept 2023; cnum C23-09-04.14, parent record 2871851), no journal reference. arXiv notes substantial text overlap with arXiv:2307.16712.",
+   "first_posted": "2024-07-03 (arXiv v1, the only version)",
+   "read_how": "full text (arXiv HTML v1 via lit.py, 186,498 characters). Read in full: §3 and §6. Also read: the §5 introduction, the opening of §5.1, the §5.3 'Neutrinos' paragraph and the end of §5.4. §1, §2 and §4 searched by grep (dark, dual, polariz, correlat, entangl, detect, decoupl, spontan, magnetic, velocity).",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "Metaparticles appear as natural dark matter quanta and the geometry of dual spacetime as the natural origin of dark energy.",
+     "where": "§3.1 'Quantum Spacetime and Quantum Relativity', item C",
+     "bears_on": [
+      "identification",
+      "dark-energy"
+     ],
+     "reading": "Stated as part of the authors' programme: metaparticles (the metastring's zero modes) are dark-matter quanta, and the geometry of dual spacetime is dark energy. Here the whole metaparticle, not the dual partner alone, is called dark matter.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "This description (intrinsically non-commutative, since [x,\\tilde{x}]=i , where x\\equiv q/\\lambda and \\tilde{x}\\equiv p/\\epsilon and \\lambda\\epsilon=\\hbar )",
+     "where": "§3.2 'Modular Variables and Polarization'",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "In the modular description of ordinary quantum mechanics, x̃ is the canonical momentum divided by an energy scale (x̃ ≡ p/ε), conjugate to x ≡ q/λ at ħ = λε. This is one phase space (q, p), as in #11 P1–P2′. Executed check: a rank-2 change of variables (scratch/r3-gravitized/scripts/bracket_rank.out, case A).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "In our present case, this involves momenta p and their duals \\tilde{p} , provided that these commute [p,\\tilde{p}]=0 .",
+     "where": "§3.2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "In the 'more elementary argument' the momenta get separate duals p̃ that commute with them. p̃ is a second momentum, not a rescaling of p.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "This implies a new fundamental non-commutativity between spacetime and dual spacetime coordinates [q,\\tilde{q}]\\sim il_{P}^{2} .",
+     "where": "§3.2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "A heuristic (Schwarzschild radius proportional to energy, combined with the uncertainty relation) gives a dual coordinate whose scale is the Planck length, not the string length.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Here it is natural to talk of dual spacetime \\tilde{x} , [x,\\tilde{x}]=i\\lambda^{2} , and dual momentum space \\tilde{p} , [p,\\tilde{p}]=0 . (Also, [x,p]=i\\hbar=[\\tilde{x},\\tilde{p}] .)",
+     "where": "§3.3 'Modular Spacetime, Born Geometry and Quantum Physics' (metaparticle)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "For the metaparticle, x̃ is an independent coordinate with its own conjugate p̃. Executed check on the paper's Poisson brackets (eq. 3.15): the bracket matrix has rank 4 per dimension, so x̃ is not a function of (x, p), and the phase space is doubled. Every dark-matter statement in the paper sits in this setting; #11 instead polarizes one phase space.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Different observers see different spacetimes (slices of modular spacetime). However, different spacetimes are in linear superposition, and so fundamental length/time is consistent with the Lorentz symmetry.",
+     "where": "§3.3",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Other spacetimes (slices) are allowed and superposed, through relative (observer-dependent) locality. They are not alternative vacua.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Classical spacetime label x of canonical QFT corresponds to a choice of (classical spacetime) polarization in modular (quantum) spacetime with a contextuality parameter \\lambda .",
+     "where": "§3.3",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Classical spacetime is one polarization of modular spacetime, and λ is called a 'contextuality parameter'. The record quotes this sentence (notes/literature-check.md §3).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "(We will argue that dual particles, correlated to visible particles, represent dark matter.) If we turn on backgrounds p\\to p+\\phi and \\tilde{p}\\to\\tilde{p}+\\tilde{\\phi} . Thus we have “dark matter” fields, \\tilde{\\phi}(x) , in the effective classical spacetime x description (after integrating over the dual spacetime \\tilde{x} ).",
+     "where": "§3.3",
+     "bears_on": [
+      "identification",
+      "coupling",
+      "what-dual-is"
+     ],
+     "reading": "A proposal ('we will argue'). The dark fields φ̃ are backgrounds of the dual momentum p̃, as the visible fields φ are backgrounds of p. My comparison: in #11, χ is matter in the p-polarization of the one (x, p) (P4); here dark matter attaches to a second momentum p̃ of a doubled space.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "However, the visible \\phi and invisible (dark matter) {\\tilde{\\phi}} do not commute. Therefore, one could say that dark matter is fuzzy from the point of view of classical spacetime.",
+     "where": "§3.3, end",
+     "bears_on": [
+      "coupling",
+      "dynamics"
+     ],
+     "reading": "The 'correlation' is stated as non-commutativity of the visible and dark fields, and 'fuzzy' follows from it. No force between the sectors is named here.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Classical spacetime emerges from the process of extensification (imagine one unit length in dual direction and many, N , modular cells in the spacetime direction). Spacetime emerges, in the large N limit, as a natural pointer basis in quantum theory [31].",
+     "where": "§3.4 'Some Consequences of Modular Spacetime'",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "An account of how the spacetime polarization emerges: extensification, with one cell in the dual direction and N in the spacetime direction, makes spacetime the pointer basis at large N (citing FLM 2016). It is neither spontaneous breaking nor a potential (compare #11 P5).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The dual spacetime labels can be understood as covariant “hidden variables” associated with the spacetime pointer basis, selected by quantum gravity.",
+     "where": "§3.4",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "What selects the polarization: quantum gravity selects the spacetime pointer basis, and the dual labels play the role of hidden variables.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The modular cells are not simply connected (there is a unit flux through each cell — this could be considered as the origin of matter/fermionic degrees of freedom; the deformations of each cell could be understood as the origin of bosonic degrees of freedom, i.e. interaction quanta).",
+     "where": "§3.4",
+     "bears_on": [
+      "other"
+     ],
+     "reading": "Topological language for visible matter in phase space: fermions as unit flux through a cell, bosons as deformations of cells. Not linked to dark matter or to monopoles. Relevant only as background to C2's topological objects in momentum (my comparison).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Similarly, cosmology is an interplay between visible and dual (invisible) degrees of freedom [45].",
+     "where": "§3.4",
+     "bears_on": [
+      "dark-energy",
+      "other"
+     ],
+     "reading": "Cites FKGLM 2021. The wording is close to #11 App. A item 2 ('one state, two descriptions'), but no dynamics are given (my comparison).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "For each particle at energy E there exists a dual particle at energy \\frac{\\mu}{E} .",
+     "where": "§3.4, after eq. 3.7",
+     "bears_on": [
+      "dynamics"
+     ],
+     "reading": "From the metaparticle dispersion relation E² + μ²/E² = p² + m²: a pairing of energies E ↔ μ/E, likened to antiparticles. The text does not link it to dark matter.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The canonical particle propagator is a highly singular \\tilde{p}\\to 0 (and \\mu\\to 0 ) limit of this expression.",
+     "where": "§3.4, after eq. 3.6",
+     "bears_on": [
+      "coupling"
+     ],
+     "reading": "Ordinary particles are the p̃ → 0, μ → 0 limit of metaparticles, the limit in which the dual degrees of freedom vanish.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Note that dual “particles” (dual fields) are natural candidates for dark matter because to leading order in \\lambda",
+     "where": "§3.4, before eq. 3.8",
+     "bears_on": [
+      "identification"
+     ],
+     "reading": "The identification is justified by the leading-order effective action that follows (eq. 3.8).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Here the A fields denote the usual Standard Model fields, and the \\tilde{A} are their duals, as predicted by the general (modular) formulation of quantum theory that is sensitive to the minimal length.",
+     "where": "§3.4, after eq. 3.8",
+     "bears_on": [
+      "field-content",
+      "coupling"
+     ],
+     "reading": "One dual Ã for each SM field A. Eq. 3.8 reads S_eff = −∫√(g(x)g̃(x̃))[R(x) + R̃(x̃) + L_m(A(x,x̃)) + L̃_dm(Ã(x,x̃))] and writes no A–Ã cross term. To this order the two sectors share only the gravitational measure (my reading of the displayed action; whether the x–x̃ non-commutativity induces a cross term is not discussed).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "In this leading limit, the \\tilde{x} -integration in the first term defines the gravitational constant G_{N} , and in the second term produces a positive cosmological constant constant!",
+     "where": "§3.4, after eq. 3.9",
+     "bears_on": [
+      "gravity",
+      "dark-energy"
+     ],
+     "reading": "Integrating over x̃ fixes G_N (from R(x)) and gives a positive Λ (from R̃(x̃)), to leading order in λ. My comparison: #11 §10's corrected dictionary maps dual curvature to negative dark radiation instead. The two constructions differ: a doubled-space action integrated over x̃ here, a dual-frame fluid with a·ã = 1 and one lapse in #11.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "In general, visible and dark matter degrees of freedom are correlated (via the minimal length \\lambda ). This suggest the origin (from dark matter) of the observed scaling (found in galaxies, clusters, superclusters) and the universal acceleration a_{0}\\sim cH/(2\\pi)",
+     "where": "§3.4",
+     "bears_on": [
+      "coupling",
+      "detection"
+     ],
+     "reading": "The correlation, 'via the minimal length λ', is proposed as the origin of Milgrom-type scaling and a₀ ~ cH/(2π). This is the paper's only stated dark-matter observable, and it is astrophysical. #11, #1 and the literature-check note do not mention Milgrom, MOND or a₀ (case-sensitive grep).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Metaparticles can be understood as fuzzy dark matter, which in turn does point to a natural relation of vacuum energy (dark energy) and fuzzy dark matter [47, 48].",
+     "where": "§3.4, end",
+     "bears_on": [
+      "dynamics",
+      "dark-energy"
+     ],
+     "reading": "The form of the dark matter is fuzzy (wave-like), tied to the vacuum energy, citing Edmonds et al. 2017 (modified dark matter) and Edmonds, Erlich, Minic, Takeuchi 2024.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Thus every Standard Model field \\phi(x) is doubled as \\phi(x,\\tilde{x}) and \\tilde{\\phi}(x,\\tilde{x}) , with doubled and non-commutative arguments [x^{a},{\\tilde{x}}_{b}]=i\\ell_{s}^{2}\\,\\delta^{a}{}_{b} .",
+     "where": "§3.5 'Dynamical Born Geometry: Realization in String Theory'",
+     "bears_on": [
+      "field-content",
+      "what-dual-is"
+     ],
+     "reading": "A dual copy of the whole SM, one partner per field. Here the commutator scale is the string length.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "\\{\\tilde{x}_{\\mu},x^{\\nu}\\}=\\pi\\alpha^{\\prime}\\,\\delta_{\\mu}^{\\nu},\\quad\\alpha^{\\prime}\\sim\\ell_{s}^{2}.",
+     "where": "§3.5, eq. 3.15",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "A further normalization in the same paper: πα′, beside iλ² (§3.3), iℓ_s² (§3.5) and 2πiℓ_s² (§5.1). The executed rank check used the three non-zero brackets of this equation.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The dual momentum \\tilde{p} could be understood from the point of view on conserved (electric) charges and corner symmetries in quantum gravity[56, 57, 58, 59]. The dual spacetime \\tilde{x} is associated with conserved dual (magnetic) charges in the same context.",
+     "where": "§3.5, footnote 11",
+     "bears_on": [
+      "monopoles"
+     ],
+     "reading": "A one-line remark in the context of corner symmetries of gravity (Strominger; Freidel, Geiller and Pranzetti; Ciambelli and Leigh): p̃ goes with conserved electric charges, x̃ with conserved dual (magnetic) charges. No magnetically charged matter, monopole or dark-matter object is proposed. It is the closest any of these papers comes to #11 §11.4's pairing of the dual polarization with magnetic charge, and only a loose echo of it (my comparison).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Because of its interpretation as a particle model on Born geometry, associated with the modular representation of quantum theory, the space-time on which the metaparticle propagates is ambiguous, with different choices related by what in string theory we would call T-duality.",
+     "where": "§3.5",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Other choices of spacetime are allowed and related by T-duality. The sentence nearly repeats the abstract of FKGLM 2018 (arXiv:1812.10821; code-checked FOUND). Compare #11 P5, 'the mirror vacuum is equally lawful': here the other choices are frames related by T-duality, not vacua.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Therefore, the classical spacetime of EFT is just one polarization allowed in the more fundamental description, and it is tied to the contextual nature of quantum measurement.",
+     "where": "§3.5",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime polarization is one of several allowed, and the choice is tied to measurement context.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The non-commutative algebraic structure of the effective metaparticle description (fixed by Born geometry) is realized in metastring theory[13, 30, 5], merely with “softening” the indeterminacy by replacing, l_{s}\\to l_{eff} , where l_{eff} is the relevant effective length-scale in (3.15).",
+     "where": "§3.5",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The scale of [x, x̃] is not fixed at the string length: it may be an effective length l_eff.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "How could we “observe” modular spacetime? Instead of scattering particles, we could entwine them.",
+     "where": "§3.5",
+     "bears_on": [
+      "detection"
+     ],
+     "reading": "The proposed laboratory signature of modular spacetime is exchange ('entwining', an R-matrix) rather than scattering. It tests the non-commutativity, not dark matter.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Given the fundamental commutator, [x,\\tilde{x}]=il_{P}^{2} , between spacetime x and dual spacetime \\tilde{x} , discussed in Section 3,",
+     "where": "§4.3 'Infinite Statistics and Spacetime Quanta'",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Here the commutator scale is the Planck length.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "(3) the mass-scale of the Standard Model decoupling from dark matter, M_{SM}\\sim 4.5{\\times}10^{14}\\,\\text{GeV} .",
+     "where": "§5 introduction, item (3)",
+     "bears_on": [
+      "coupling"
+     ],
+     "reading": "A named scale at which the SM decouples from dark matter.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "[x^{\\mu},\\tilde{x}_{\\nu}]=2\\pi i\\ell_{s}^{2}\\,\\delta^{\\mu}_{\\nu} , etc., corresponding to (3.15)",
+     "where": "§5.1 'Quantum Gravitational Roots of the Higgs Mass'",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Another normalization, 2πiℓ_s².",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The non-commutativity of the dual coordinates is implied by a constant and nonzero Kalb-Ramond B_{\\mu\\nu} -field (the axion in 4-dimensional spacetime), while dynamical backgrounds correspond to intrinsic non-associativity[41].",
+     "where": "§5.1",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Here the x–x̃ non-commutativity is attributed to a constant B-field, a background, rather than to the canonical structure.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Correspondingly, the zero modes in this metastring formulation of string theory are rigid length- \\ell_{s} strings that correlate each Standard Model particle with its dual,",
+     "where": "§5.1",
+     "bears_on": [
+      "identification",
+      "coupling"
+     ],
+     "reading": "One meaning of 'correlated': each metaparticle is a rigid string pairing a particle with its dual. The sentence continues after footnote 18 (next statement).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "the latter of which furnishing the most obvious candidate dark matter[103, 104].",
+     "where": "§5.1, after footnote 18",
+     "bears_on": [
+      "identification"
+     ],
+     "reading": "Here the dual partner alone is the dark-matter candidate (citing LHEP 2021 and BHM 2021, Universe).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "This M_{SM} also appears in Vafa’s analysis[112], postulated as the scale at which decaying dark matter “gives a small kick to its decay products.” The fully T-dual, chirally doubled description of stringy spacetime[5], dark and visible matter mix via a Berry phase-like correlation term[103]. The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.",
+     "where": "§5.3, 'Neutrinos' paragraph (after eq. 5.22)",
+     "bears_on": [
+      "coupling",
+      "detection"
+     ],
+     "reading": "The key coupling statement. Dark and visible matter mix through a Berry-phase-like correlation term whose mass scale is a decoupling energy; below it the two 'interact as required, only gravitationally'. I read 'as required' as an appeal to observation; the paper does not say what requires it. Vafa's decaying-dark-matter scale is reported as Vafa's postulate, not as the authors' claim. Below ~10^14 GeV this is #11's strict-P4 situation, gravity only. Greps: not repeated in 2604.19418 or 2610.19522; not in 2307.16712 v2; the cited LHEP 2021 has the Berry-phase-like term but no decoupling energy.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "M_{SM}\\simeq 4.5{\\times}10^{14}\\,\\text{GeV} is thus naturally identifiable with this dark-matter/visible-matter decoupling scale.",
+     "where": "§5.3, 'Neutrinos'",
+     "bears_on": [
+      "coupling"
+     ],
+     "reading": "Table 1 defines M_SM := M_CH^{1/14} M_P^{13/14}. Executed check (msm_check.out): with M_P = 1.22×10^28 eV and M_CH fixed by the table's M_Λ = 1.1×10^-3 eV, M_SM = 4.48×10^14 GeV. With round values (10^-34 eV, 10^28 eV) it is 3.7×10^14 GeV. This checks the paper's arithmetic, not its physics.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "In our approach the CP violating phases would come from the SM calculation and the dual SM sector as well from the intrinsic CP violation of quantum gravity in the non-perturbative metastring theory.",
+     "where": "§5.4, 'The PMNS Matrix'",
+     "bears_on": [
+      "coupling"
+     ],
+     "reading": "The dual SM contributes CP-violating phases to the visible mixing matrices. That is an influence of the dark sector on visible-sector parameters, not a force (my reading).",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "(and its dual Standard Model of the dark sector, coming from the other E_{8} in heterotic string theory).",
+     "where": "§5.4, end",
+     "bears_on": [
+      "field-content"
+     ],
+     "reading": "The dual SM of the dark sector comes from the heterotic string's second E8.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "The invisible (dark) sector is spanned by the dual fields \\tilde{\\phi}(x,\\tilde{x}) , which may well be subject to a third quantization indeterminacy because of an induced non-commutativity between visible \\phi and dual (invisible/dark) \\tilde{\\phi} fields (fuzzy dark matter).",
+     "where": "§6 'Outlook: Quantum Gravity and Observation'",
+     "bears_on": [
+      "dynamics",
+      "coupling"
+     ],
+     "reading": "The dark fields are 'fuzzy', subject to an extra indeterminacy, because of their non-commutativity with the visible fields.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "the ensuing indeterminacy in the parameters of the dual Standard Model (the dark sector) should then be reciprocal to the relatively high precision (small indeterminacy) of the SM parameters.",
+     "where": "§6",
+     "bears_on": [
+      "dynamics"
+     ],
+     "reading": "A qualitative prediction about the dark sector's parameters: their indeterminacy is reciprocal to the SM's precision. Not quantified.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "We stress that metaparticles[42] (zero modes of the metastring) represent a generic prediction of metastring theory and the dark matter sector can be seen as coming from a dual Standard Model with a dynamics that is entangled/correlated with the visible Standard Model[49]. The dark matter degrees of freedom are thus tied to the dual particles to the visible SM particles[9].",
+     "where": "§6",
+     "bears_on": [
+      "identification",
+      "coupling"
+     ],
+     "reading": "Restates LHEP 2021's 'entangled/correlated' dynamics, which is not defined further here. The record quotes the same sentence from BHM 2023 (Symmetry), whose text this section shares.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    },
+    {
+     "quote": "Furthermore, this approach shows dark energy (modeled as the cosmological constant) to be the curvature of the dual spacetime, and naturally small[9].",
+     "where": "§6",
+     "bears_on": [
+      "dark-energy"
+     ],
+     "reading": "Dark energy is a cosmological constant from dual-spacetime curvature. No w and no time dependence in this paper.",
+     "quote_check": "FOUND: 2407.06207 — searched full text (https://arxiv.org/html/2407.06207)"
+    }
+   ],
+   "summary": "The fullest statement of the school's dark sector in this set (proceedings of a September 2023 conference, posted July 2024; it overlaps BHM 2023, Symmetry). New relative to the 2020–2021 statements the record quotes:\n- dark-matter fields as backgrounds of the dual momentum p̃;\n- dark matter 'fuzzy' because visible and dual fields do not commute;\n- a leading-order effective action with no written cross term, in which integrating over x̃ fixes G_N and gives a positive Λ;\n- a dark–visible correlation 'via the minimal length λ' proposed as the origin of a₀ ~ cH/(2π);\n- a dual SM from the other E8, CP phases from the dual SM, and dark-sector parameters with indeterminacy reciprocal to the SM's;\n- only here: a Berry-phase-like mixing whose scale M_SM ≈ 4.5×10^14 GeV is a decoupling energy below which dark and visible matter interact only gravitationally.\nThe spacetime polarization is selected by quantum gravity through extensification (the pointer basis at large N), not spontaneously. x̃ is both the rescaled momentum of one phase space (modular polarization) and an independent coordinate of a doubled phase space (metaparticle), at scales l_P, ℓ_s or l_eff."
+  },
+  {
+   "id": "2604.19418",
+   "citation": "Hübsch, Tristan; Minic, Djordje. Quantum Spacetime, Quantum Gravity and Gravitized Quantum Theory. arXiv:2604.19418 (2026). INSPIRE type: conference paper (International Conference 'Nonlinearity, Nonlocality and Ultrametricity'), no journal reference.",
+   "first_posted": "2026-04-21 (arXiv v1, the only version)",
+   "read_how": "full text (arXiv HTML v1 via lit.py, 124,996 characters). Read in full: §1.1, §5.1–§5.2 and §7. §2–§4 and §6 searched by grep.",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "We note that spacetime physics is classical and background-independent, with fixed spacetime polarization and dynamical geometry of spacetime, whereas quantum physics is intrinsically probabilistic, with a dynamical polarization and fixed geometry of the space of states, and the fixed rule for computing probabilities—the Born rule.",
+     "where": "§1.1, 'Motivation'",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "In GR the spacetime polarization is fixed and the geometry dynamical; in quantum mechanics it is the reverse.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "In turn, quantum physics (physics of matter) is intrinsically probabilistic and has a dynamical polarization \\psi\\to U\\psi ( U^{\\dagger}=U^{-1} , which preserves |\\psi|^{2} ), but the geometry of quantum theory is rigidly fixed:",
+     "where": "§1.1, 'Note:' paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "What 'dynamical polarization' means here: quantum mechanics' unitary change of basis ψ → Uψ. My comparison: this is a different notion from #11's polarization, a vacuum's choice of Lagrangian subspace (P5).",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "By combining the two central featues of spacetime and quantum physics, we are led to suggest that a self-consistent quantum theory of both spacetime and matter (also known as quantum gravity) should have both a dynamical polarization and a dynamical geometry, and should be intrinsically probabilistic.",
+     "where": "§1.1, 'Note:' paragraph",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "In quantum gravity the polarization is to be dynamical. The paper gives no spontaneous selection, potential or order parameter.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Dual particles and fields in this picture model (fuzzy) dark matter, and dark energy is identified with the curvatures of the dual spacetime.",
+     "where": "§1.1, 'Summary of the main points of the paper'",
+     "bears_on": [
+      "identification",
+      "dark-energy"
+     ],
+     "reading": "The identification restated as a summary claim.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "In this description, the familiar and directly observable canonical spacetime ( x ) has a dual/conjugate partner—the dual spacetime ( \\tilde{x} ), such that [x,\\tilde{x}]=i\\lambda^{2} , where \\lambda denotes the fundamental length/time.",
+     "where": "§1.1",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The dual spacetime is called x's 'dual/conjugate partner', at the scale λ² (λ the fundamental length/time), not at ħ.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Thus the measured scale of dark energy is, we propose, the scale at which gravitized quantum theory should be observed with massive quantum probes and such experiments are within reach!",
+     "where": "§1.1",
+     "bears_on": [
+      "detection",
+      "dark-energy"
+     ],
+     "reading": "The dark-energy scale (~10^-3 eV) is proposed as the scale for laboratory tests of gravitized quantum theory (triple interference). It is a test of the framework, not of dark matter.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "(where x\\equiv q/{\\lambda} , \\tilde{x}\\equiv p/{\\epsilon} , so [x,\\tilde{x}]=i , \\lambda\\epsilon=\\hbar ).",
+     "where": "§5.1, after eq. 5.4 (modular wave function)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "As in 2407.06207 §3.3: in the modular polarization, x̃ is the rescaled momentum of the one phase space.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "We emphasize the explicit appearance of dual spacetime \\tilde{x} , [x,\\tilde{x}]=i\\lambda^{2} , and dual momentum space \\tilde{p} , [p,\\tilde{p}]=0 . (Also, [x,p]=i\\hbar=[\\tilde{x},\\tilde{p}] .) So spacetime x is quantized, and it is canonically conjugate to dual spacetime \\tilde{x} .",
+     "where": "§5.1, after eq. 5.5 (metaparticle)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Same metaparticle algebra as in 2024, now with the words 'canonically conjugate'. In it x has two conjugates: p at ħ and x̃ at λ². It sits two lines after the x̃ ≡ p/ε definition, with nothing separating the two uses.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "In the limit in which the physics of dual spacetime is neglected, one recovers local quantum field theory.",
+     "where": "§5.1",
+     "bears_on": [
+      "coupling"
+     ],
+     "reading": "The limit in which the dual sector disappears.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "For example, by fixing the polarization of spacetime, in the fundamental commutation relations [x,\\tilde{x}]=i\\lambda^{2} , one recovers the usual local quantum field theory, in which all observers see the same background spacetime.",
+     "where": "§5.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Fixing the spacetime polarization gives local QFT with one background for all observers. 'Fixing' is the authors' word; no selection mechanism is given here.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "In what follows we will argue that dual particles, correlated to visible particles, represent dark matter.",
+     "where": "§5.1",
+     "bears_on": [
+      "identification"
+     ],
+     "reading": "Word for word 2407.06207 §3.3 (a proposal).",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "In principle, every Standard Model particle has a dual fuzzy counterpart. However, some dual fields, like the dual Higgs boson, might be relevant for modeling other phenomena, such as the Starobinsky-like inflation.",
+     "where": "§5.1",
+     "bears_on": [
+      "field-content",
+      "dynamics"
+     ],
+     "reading": "New relative to 2024: not every dual is dark matter. The dual Higgs 'might' drive Starobinsky-like inflation (speculative).",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "This indicates that integration over dual spacetime variables (in the limit in which the fundamental length can be neglected) leads to a classical description.",
+     "where": "§5.1, after eq. 5.7",
+     "bears_on": [
+      "coupling",
+      "polarization-selection"
+     ],
+     "reading": "Integrating out x̃ gives the classical description, and with it the effective dark fields in x.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Note also that quantum gravity picks the natural basis for measurement and classical description - the spacetime basis.",
+     "where": "§5.1",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "What selects the polarization: quantum gravity picks the spacetime basis. Not called spontaneous.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "In general one can contemplate a time-varying dark energy [11].",
+     "where": "§5.1, after eq. 5.8",
+     "bears_on": [
+      "dark-energy"
+     ],
+     "reading": "Time variation is contemplated, citing Hur, Jejjala, Kavic, Minic, Takeuchi 2025 (DESI). This paper gives no w.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "We emphasize that, in principle, visible and dark matter degrees of freedom are correlated (via the minimal length \\lambda ) which might serve as the physical origin (arising from fuzzy dark matter and its correlation to visible matter) of the so-called Milgrom’s scaling in galaxies, clusters, superclusters and the so-called fundamental acceleration a_{0}\\sim cH/(2\\pi) ,",
+     "where": "§5.1",
+     "bears_on": [
+      "coupling",
+      "detection"
+     ],
+     "reading": "As in 2024, now naming Milgrom's scaling and citing Edmonds, Erlich, Minic, Takeuchi 2024 [66]. The correlation's observable is a dark–visible relation in galaxies.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "The reason for this is that fuzzy dark matter is in the non-relativistic description sensitive to the quantum pressure, which in turn, is directly sensitive to the vacuum energy.",
+     "where": "§5.1",
+     "bears_on": [
+      "dynamics"
+     ],
+     "reading": "New in 2026: a mechanism for a₀, the quantum pressure of fuzzy dark matter linked to the vacuum energy.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "whereas our claim is that such observed acceleration scale is evidence for the existence of modular spacetime, modular fields, as well as the correlation of dual fields of fuzzy dark matter to the observed Standard Model fields of visible matter.",
+     "where": "§5.1",
+     "bears_on": [
+      "detection",
+      "coupling"
+     ],
+     "reading": "The school's one observational claim for its dark sector: the observed acceleration scale counts as evidence for the dark–visible correlation, against modified-gravity readings. It is astrophysical, not direct detection.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "[\\mathbb{X}^{a},\\mathbb{X}^{b}]=il_{s}^{2}\\omega^{ab}\\implies[X^{a},\\tilde{X}^{b}]=i\\delta^{ab}l_{s}^{2}.",
+     "where": "§5.2, eq. 5.13",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Metastring commutator at the string length.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "(Note that intuitively, \\delta q\\sim G_{N}\\delta p\\to\\delta q\\sim G_{N}\\delta{\\tilde{p}}\\sim G_{N}\\frac{1}{\\delta{\\tilde{q}}}\\to\\delta q\\delta{\\tilde{q}}\\sim G_{N}\\to[q,\\tilde{q}]\\sim il_{P}^{2} ),",
+     "where": "§5.2, after eq. 5.13",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The heuristic chain through G_N gives the Planck length. In 2610.19522 the same chain gives ℓ_s².",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "According to our previous discussion, each SM particle has a correlated “dual” particle leading naturally to a fuzzy dark matter approach [64, 65].",
+     "where": "§5.2",
+     "bears_on": [
+      "identification"
+     ],
+     "reading": "Restated, citing LHEP 2021 and arXiv:2111.14205.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "One way would be that instead of scattering particles we should try to entwine them.",
+     "where": "§5.2, 'Observing modular spacetime'",
+     "bears_on": [
+      "detection"
+     ],
+     "reading": "The same laboratory idea as 2024, a test of modular spacetime, not of dark matter.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Particles (for example, the fundamental particle of visible matter as described by the Standard Model) are singular limits of metaparticles—correlated particles and dual particles, where dual particles (necessarily fuzzy, and thus, field-like, because of the fundamental noncommutativity of visible fields, which describe visible particles, and dual fields) can be associated with (fuzzy) dark matter excitations.",
+     "where": "§7 'Conclusion'",
+     "bears_on": [
+      "identification",
+      "dynamics"
+     ],
+     "reading": "Dual particles are 'necessarily fuzzy, and thus, field-like' because of the non-commutativity, and 'can be associated with' dark matter.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Metaparticles (zero modes of the metastring) and dual particles and dual fields as models of fuzzy dark matter with implications for the observed fundamental acceleration in galaxies, clusters of galaxies and other structures.",
+     "where": "§7, list of implications",
+     "bears_on": [
+      "identification",
+      "detection"
+     ],
+     "reading": "Both metaparticles and dual particles are listed as models of fuzzy dark matter.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "(Dual Higgs as a model of Starobinsky inflation? Similarly, the axion is ubiquitous in string theory, and the metastring, which could serve as the QCD axion, but with a dual partner more suited for a fuzzy dark matter excitation.)",
+     "where": "§7, list of implications",
+     "bears_on": [
+      "field-content",
+      "dynamics"
+     ],
+     "reading": "Speculation, partly posed as a question: the axion's dual partner as a fuzzy dark matter excitation.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Dark energy (a cosmological constant plus a possible time variable part) as the curvature of the dual spacetime, with observable implications for time dependent vacuum energy.",
+     "where": "§7, list of implications",
+     "bears_on": [
+      "dark-energy"
+     ],
+     "reading": "Dual-spacetime curvature as a cosmological constant plus a possibly time-variable part. No w is given and no collapse of a dual universe.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "The first point is not widely appreciated and the concept of dual spacetime that is conjugate, in the sense of canonical commutation relations, to classical spacetime is not the usual textbook stuff.",
+     "where": "§7",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Dual spacetime is conjugate to classical spacetime 'in the sense of canonical commutation relations'.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "However, by picking the spacetime polarization, the dual spacetime looks completely invisible.",
+     "where": "§7",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Once the spacetime polarization is picked, the dual side is invisible.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    },
+    {
+     "quote": "Also, this viewpoint implies that the emergent measurement basis is the spacetime basis, as provided by the general structure of quantum gravity as gravitized quantum theory of quantum spacetime.",
+     "where": "§7",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The spacetime basis is emergent and is provided by quantum gravity. No spontaneous breaking.",
+     "quote_check": "FOUND: 2604.19418 — searched full text (https://arxiv.org/html/2604.19418)"
+    }
+   ],
+   "summary": "Conference paper (April 2026) that restates 2407.06207 §3 nearly word for word. Additions:\n- x is 'canonically conjugate to dual spacetime x̃';\n- fixing the spacetime polarization recovers local QFT;\n- the dual Higgs might drive Starobinsky-like inflation, and the axion's dual partner might be fuzzy dark matter (speculative, partly as questions);\n- a mechanism for a₀ (fuzzy dark matter's quantum pressure, sensitive to the vacuum energy), and the claim that the observed acceleration scale is evidence for the dark–visible correlation;\n- time-varying dark energy contemplated (citing Hur et al. 2025);\n- quantum gravity picks the spacetime basis, and quantum gravity should have both a dynamical polarization (in QM's sense, ψ → Uψ) and a dynamical geometry.\nIt does not repeat the 2024 decoupling scale and does not retract it."
+  },
+  {
+   "id": "2610.19522",
+   "citation": "Hübsch, Tristan; Minic, Djordje. Nambu's Dynamics, Strings and Gravitized Quantum Theory. arXiv:2610.19522 (2026). INSPIRE type: article, no journal reference.",
+   "first_posted": "2026-10-14 (arXiv v1, the only version). This is after the program's lab notebook v0.1 (September 2026), so it is a restatement, not prior art.",
+   "read_how": "full text (arXiv HTML v1 via lit.py, 134,819 characters). Read in full: §3.2. Also read: §3.1, §4.1 and §5. The rest searched by grep.",
+   "mentions_dark_matter": true,
+   "statements": [
+    {
+     "quote": "the origin of visible and invisible (dark) matter as well as dark energy [70, 71, 72, 73, 74, 75, 28, 76].",
+     "where": "§1 'Introduction and Overview'",
+     "bears_on": [
+      "identification"
+     ],
+     "reading": "The introduction lists the origin of dark matter among the problems the view may bear on.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "This action is weighted with \\alpha^{\\prime} instead of 1/\\alpha^{\\prime} because Y naturally lives in momentum space.",
+     "where": "§3.2 'Metastrings and Modular Spacetime'",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Y comes from integrating out X in the first-order Polyakov action, and 'naturally lives in momentum space': ∂_σY = P, and its quasi-period is the string's momentum.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "(where we are relabeling Y as the dual coordinate \\tilde{X} ),",
+     "where": "§3.2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The dual coordinate X̃ is that momentum-space coordinate Y. This is the most explicit statement in these papers that the dual side is the momentum side.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "[\\hat{X}(\\tau,\\sigma_{1}),\\hat{\\tilde{X}}(\\tau,\\sigma_{2})]=2\\pi i\\lambda^{2},",
+     "where": "§3.2, eq. 3.3",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Normalization 2πiλ².",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "which can be interpreted as coming from an integration constant obtained by integrating the canonical equal-time commutator",
+     "where": "§3.2, before eq. 3.4",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "[X, X̃] is obtained by integrating the canonical commutator [X, ∂_τX] = [X, ∂_σX̃] = 2πiħα′δ(σ₁₂). So the X–X̃ non-commutativity comes from the canonical X–momentum commutator, with α′ ~ λ².",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "[\\mathbb{X}^{a},\\mathbb{X}^{b}]=i\\ell_{s}^{2}\\omega^{ab}\\implies[X^{a},\\tilde{X}^{b}]=i\\delta^{ab}\\ell_{s}^{2},",
+     "where": "§3.2, eq. 3.10",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The next words are 'where we use the string length \\ell_{s} as \\lambda .' (code-checked FOUND separately): here λ is set to ℓ_s.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "Intuitively, for a non-local, string-like probe \\delta q\\sim G_{N}\\delta p\\to\\delta q\\sim G_{N}\\delta{\\tilde{p}}\\sim G_{N}\\frac{1}{\\delta{\\tilde{q}}}\\to\\delta q\\delta{\\tilde{q}}\\sim G_{N}\\to[q,\\tilde{q}]\\sim i\\ell_{s}^{2}",
+     "where": "§3.2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The same heuristic chain as in 2604.19418 §5.2, but now ending at iℓ_s² 'for a non-local, string-like probe' instead of il_P².",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "with \\frac{1}{2}\\omega_{AB}dX^{A}dX^{B}=\\frac{1}{\\hbar}d\\tilde{x}_{a}\\wedge dx^{a} , where \\omega_{AB}=-\\omega_{BA} is the canonical symplectic form on phase space \\cal{P} .",
+     "where": "§3.2, after eq. 3.12",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "x̃ placed as x's conjugate in 'the canonical symplectic form on phase space'. This is #11's ω with x̃ in the role of p.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "is encoded in the canonical commutator between x^{a} and \\tilde{x}_{a} (or the canonical commutator between q and p in quantum theory).",
+     "where": "§3.2",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "Makes explicit the analogy between x̃ and p: ω is encoded in [x, x̃] just as in [q, p].",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "For weak gravity, this metric reduces to the spacetime metric (where spacetime can be viewed as a specific polarization in modular spacetime)",
+     "where": "§3.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Spacetime is 'a specific polarization' of modular spacetime.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "The polarization (or locality) metric \\eta encodes the distinction between spacetime-like and dual-spacetime-like aspects of phase space (and in this sense it defines an analog of the “causal” structure in modular spacetime)",
+     "where": "§3.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "η is named 'the polarization (or locality) metric'. This is the statement in these papers closest to #11 P2′'s η as the order parameter of the polarization, but η is not called an order parameter and there is no potential or spontaneous breaking. It postdates September 2026.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "When \\eta is constant we have absolute locality. Curving \\eta means “gravitizing the quantum” [26]. (Note that in general relativity the spacetime polarization is fixed and the metric is dynamical, whereas in quantum theory polarization is dynamical and the metric, given by the Born rule, is fixed. Gravitized quantum theory (or background independent quantum theory [21, 23] makes both its polarization and its probability rule dynamical.)",
+     "where": "§3.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "Constant η means absolute locality; curved η means gravitized quantum theory, citing FLM 2014 [26]. The polarization is dynamical, not spontaneously selected.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "Note that from this viewpoint the classical spacetime polarization of perturbative string theory is just one of many, and in metastring theory, different observers see different spacetimes.",
+     "where": "§3.2",
+     "bears_on": [
+      "polarization-selection"
+     ],
+     "reading": "The other polarizations are lawful as observer-dependent spacetimes in superposition, not as alternative vacua (compare #11 P5).",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "Note also, that \\tilde{x} , [x,\\tilde{x}]=i\\lambda^{2} , \\tilde{p} , [p,\\tilde{p}]=0 , and [x,p]=i\\hbar=[\\tilde{x},\\tilde{p}] .",
+     "where": "§3.2, after eq. 3.17 (metaparticle)",
+     "bears_on": [
+      "what-dual-is"
+     ],
+     "reading": "The doubled metaparticle algebra repeated, in the same section that derives X̃ as the momentum-space coordinate.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "For each field {\\phi}_{\\lambda}(x,\\tilde{x}) there is a dual field {\\tilde{\\phi}}_{\\lambda}(x,\\tilde{x}) which does not commute with its partner, and upon the integration over the dual spacetime label, it is a candidate for the invisible matter sector (dual to the observed, visible, Standard Model sector) [27, 70].",
+     "where": "§3.2",
+     "bears_on": [
+      "identification",
+      "field-content"
+     ],
+     "reading": "The identification, hedged as 'a candidate for the invisible matter sector', citing Minic 2020 and LHEP 2021. The record quotes it.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "In some sense, fermions can be viewed as “defects or kinks” in modular spacetime.",
+     "where": "§3.2",
+     "bears_on": [
+      "other"
+     ],
+     "reading": "Topological language for visible fermions, as in 2407.06207 §3.4. Not about dark matter.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "The theory has both spacetime and its dual, and thus the features required for addressing the question of quantum measurement, as well as the physics of the dual spacetime associated with dark matter and dark energy.",
+     "where": "§5 'Conclusion: String Theory as Gravitized Quantum Theory'",
+     "bears_on": [
+      "identification",
+      "dark-energy"
+     ],
+     "reading": "Dual spacetime is 'associated with' dark matter and dark energy.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "It also has the potential to describe the dual (invisible) matter sector, given the existence of dual fields that do not commute with standard local quantum fields of the Standard Model [70, 27, 129]. Similarly, curvature of dual spacetime can lead to a dynamical origin of dark energy [130, 70, 131].",
+     "where": "§5",
+     "bears_on": [
+      "identification",
+      "coupling",
+      "dark-energy"
+     ],
+     "reading": "Hedged ('the potential to describe'; 'can lead to'). The coupling stated is the non-commutativity alone. Dark energy cites BHM 2019, LHEP 2021 and Hur et al. 2025.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    },
+    {
+     "quote": "Thus, neutrinos could be viewed as “portals” between the Standard Model and the dark energy sector.",
+     "where": "§5",
+     "bears_on": [
+      "dark-energy"
+     ],
+     "reading": "New in this paper: the neutrino mass scale is tied to the vacuum-energy scale. This is a dark-energy link, not a dark-matter coupling.",
+     "quote_check": "FOUND: 2610.19522 — searched full text (https://arxiv.org/html/2610.19522)"
+    }
+   ],
+   "summary": "Paper of October 2026, after the program's September 2026 notebook, so a restatement. It recasts string theory as gravitized quantum theory via Nambu dynamics and a non-perturbative (cubic matrix) metastring.\n- Most explicit derivation of 'dual = momentum side': the dual coordinate is the string's momentum-space coordinate Y, relabeled X̃, with [X, X̃] = 2πiλ² obtained by integrating the canonical commutator; the symplectic form is (1/ħ) dx̃ ∧ dx.\n- η is named 'the polarization (or locality) metric', and gravitized quantum theory makes the polarization dynamical.\n- The identification is hedged ('a candidate for the invisible matter sector'; 'the potential to describe').\n- Dual curvature 'can lead to' dark energy; neutrinos are 'portals' to the dark-energy sector.\nNo new dark-sector dynamics, and no decoupling scale."
+  },
+  {
+   "id": "recid:3204269",
+   "citation": "Hübsch, Tristan; Minic, Djordje. The Weight of Quantum (subtitle per Crossref: Quantum Theory and the Structure of Physics). CRC Press (2026), book, doi:10.1201/9781003710196",
+   "first_posted": "INSPIRE earliest date 2026-07-21 (CRC Press imprint). Crossref gives online publication 2026-06-04. Both are before the program's notebook v0.1 (September 2026).",
+   "read_how": "not retrieved: a commercial CRC Press monograph with no license and no open copy found (details under not_retrieved)",
+   "mentions_dark_matter": false,
+   "statements": [],
+   "summary": "Not read, so whether it states the identification is unknown; mentions_dark_matter is false only because nothing was read. The Routledge page lists 14 chapters, including ch. 11 'cGh, or, Quantum Gravity, so far', ch. 12 'Coda: What is Quantum Theory of Gravity?' and ch. 13 'Epilogue: Beyond Quantum Gravity'; its text mentions no dark matter. 2604.19418 [1] and 2610.19522 [30] cite the book only for 'ameres' (atoms of spacetime), for string theory's history, and for 'String theory is Gravitized Quantum Theory of Modular Spacetime'. If it does state the identification, it is another restatement before September 2026, not a priority earlier than Minic 2020."
+  }
+ ],
+ "answers": [
+  {
+   "question": "Q1",
+   "answer": "Yes, in four of the six texts read. The strength ranges from a parenthesis to a repeated proposal, and the latest text is the most hedged.\n- 2203.17137 (2022) and 2303.15645 (2023): no mention of dark matter ('dark' occurs 0 times in either full text).\n- Minic 2023 (2305.12593; the same text in Bulg. J. Phys. 51, 2024): one parenthesis. Metaparticles are 'correlated objects of visible particles and their duals, which, in turn, represent natural candidates for dark matter' (proposed; the antecedent of 'which' is open).\n- Hübsch–Minic 2024 (2407.06207): the most frequent statement, as a proposal the authors 'will argue'. 'Metaparticles appear as natural dark matter quanta' (§3.1); 'dual particles, correlated to visible particles, represent dark matter' (§3.3); dual fields are 'natural candidates for dark matter' (§3.4); each SM particle's dual is 'the most obvious candidate dark matter' (§5.1); 'the dark matter sector can be seen as coming from a dual Standard Model' (§6).\n- Hübsch–Minic April 2026 (2604.19418): repeats this nearly word for word. 'Dual particles and fields in this picture model (fuzzy) dark matter'; 'every Standard Model particle has a dual fuzzy counterpart'.\n- Hübsch–Minic October 2026 (2610.19522): hedged. The dual field 'is a candidate for the invisible matter sector' (§3.2); the theory 'has the potential to describe' it (§5).\nTwo formulations alternate without comment: dark matter as the whole metaparticle (2407.06207 §3.1, §3.4; 2604.19418 §7), or as the dual partner alone (2407.06207 §3.3, §5.1; 2604.19418 §5.1, §7). In every case the dark field φ̃ is a second field on a doubled space that does not commute with φ, and it is the background of a dual momentum p̃. In #11, χ is matter in the other polarization of the one phase space (P4, P5).",
+   "confidence": "high",
+   "evidence": [
+    "2203.17137 full text: 'dark' 0 occurrences (executed grep)",
+    "2303.15645 full text v2: 'dark' 0 occurrences",
+    "2305.12593 §2, end: 'metaparticles (correlated objects of visible particles and their duals, which, in turn, represent natural candidates for dark matter [10])'",
+    "recid:2778134 p. 65: same sentence",
+    "2407.06207 §3.1: 'Metaparticles appear as natural dark matter quanta'",
+    "2407.06207 §3.3: '(We will argue that dual particles, correlated to visible particles, represent dark matter.)'",
+    "2407.06207 §3.4: 'dual “particles” (dual fields) are natural candidates for dark matter'",
+    "2407.06207 §5.1: 'the latter of which furnishing the most obvious candidate dark matter[103, 104]'",
+    "2407.06207 §6: 'the dark matter sector can be seen as coming from a dual Standard Model'",
+    "2604.19418 §1.1 and §5.1",
+    "2610.19522 §3.2: 'it is a candidate for the invisible matter sector'",
+    "2610.19522 §5: 'has the potential to describe the dual (invisible) matter sector'"
+   ]
+  },
+  {
+   "question": "Q2",
+   "answer": "Both, in the same papers, with nothing separating the two uses.\n(a) The canonical conjugate, on one phase space. In the modular polarization of ordinary quantum mechanics, x̃ is the rescaled canonical momentum: 'x≡q/λ and x̃≡p/ε and λε=ħ', so '[x,x̃]=i' (2407.06207 §3.2–§3.3; 2604.19418 §5.1). Minic 2023 calls the momenta p 'dual coordinates conjugate to x', with [x̂, p̂] = i. 2610.19522 §3.2 derives X̃ as Y, the coordinate that 'naturally lives in momentum space', writes the symplectic form as (1/ħ) dx̃∧dx, and says ω is 'encoded in the canonical commutator between x and x̃ (or the canonical commutator between q and p in quantum theory)'. This is #11's single phase space with ω rigid at ħ.\n(b) An independent coordinate of a doubled phase space. For the metaparticle and the metastring, on which every dark-matter statement rests: '[x,x̃]=iλ², ... [p,p̃]=0 ... [x,p]=iħ=[x̃,p̃]' (2407.06207 §3.3; 2604.19418 §5.1; 2610.19522 §3.2). 2604.19418 calls x 'canonically conjugate to dual spacetime x̃', and in §7 'conjugate, in the sense of canonical commutation relations'. Executed check: the metaparticle Poisson brackets (2407.06207 eq. 3.15) have rank 4 per dimension, so x̃ is not a function of (x, p); the modular change of variables has rank 2.\nScales: λ is 'contextual'.\n- λ² = ħα′ (Minic 2023);\n- ℓ_s (2407.06207 §3.5, §5.1; 2610.19522 eq. 3.10);\n- l_P (2407.06207 §3.2 and §4.3; 2604.19418 §5.2). The same heuristic chain gives ℓ_s² in 2610.19522;\n- l_eff (2407.06207 §3.5).\nNormalizations vary: iλ², iπλ² (Minic 2023), 2πiλ² (2610.19522 eq. 3.3), 2πiℓ_s² (2407.06207 §5.1), πα′ (eq. 3.15). One more source of the non-commutativity is named: 'a constant and nonzero Kalb-Ramond B-field' (2407.06207 §5.1). Dark fields are backgrounds of p̃ ('p→p+φ and p̃→p̃+φ̃').",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.2: 'since [x,\\tilde{x}]=i , where x\\equiv q/\\lambda and \\tilde{x}\\equiv p/\\epsilon and \\lambda\\epsilon=\\hbar'",
+    "2407.06207 §3.3: '[x,\\tilde{x}]=i\\lambda^{2} , ... [p,\\tilde{p}]=0 . (Also, [x,p]=i\\hbar=[\\tilde{x},\\tilde{p}] .)'",
+    "2407.06207 §3.2: '[q,\\tilde{q}]\\sim il_{P}^{2}'; §3.5 eq. 3.15: '\\{\\tilde{x}_{\\mu},x^{\\nu}\\}=\\pi\\alpha^{\\prime}'; §3.5: 'l_{s}\\to l_{eff}'; §5.1: '2\\pi i\\ell_{s}^{2}'",
+    "2604.19418 §5.1: 'So spacetime x is quantized, and it is canonically conjugate to dual spacetime \\tilde{x}'",
+    "2610.19522 §3.2: 'because Y naturally lives in momentum space' and '(where we are relabeling Y as the dual coordinate \\tilde{X} )'",
+    "2610.19522 §3.2: '(or the canonical commutator between q and p in quantum theory)'",
+    "2305.12593 §2: 'while p_{\\nu} are dual coordinates conjugate to x' and '[\\hat{x}^{\\mu},\\hat{\\tilde{x}}_{\\nu}]=i\\pi\\lambda^{2}...'",
+    "work/dual-sector/scratch/r3-gravitized/scripts/bracket_rank.out (rank 2 vs rank 4)"
+   ]
+  },
+  {
+   "question": "Q3",
+   "answer": "A dual copy of the whole Standard Model, one partner per field.\n- 'every Standard Model field φ(x) is doubled as φ(x,x̃) and φ̃(x,x̃)' (2407.06207 §3.5); 'the Ã are their duals' (§3.4);\n- 'its dual Standard Model of the dark sector, coming from the other E8 in heterotic string theory' (§5.4);\n- 'every Standard Model particle has a dual fuzzy counterpart' (2604.19418 §5.1).\nNot every dual is dark matter. 'Some dual fields, like the dual Higgs boson, might be relevant for modeling other phenomena, such as the Starobinsky-like inflation' (2604.19418 §5.1). The conclusion also floats the axion's dual partner as 'more suited for a fuzzy dark matter excitation' (§7, speculative).\nThe dual SM also contributes CP-violating phases to the visible mixing matrices (2407.06207 §5.4).\nThese papers name no dual photon. Charges: one footnote associates the dual momentum p̃ with conserved (electric) charges and the dual spacetime x̃ with 'conserved dual (magnetic) charges', in the context of gravitational corner symmetries (2407.06207 §3.5, fn. 11). No dual charges of matter are assigned.",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.5: 'Thus every Standard Model field \\phi(x) is doubled as \\phi(x,\\tilde{x}) and \\tilde{\\phi}(x,\\tilde{x})'",
+    "2407.06207 §3.4: 'the \\tilde{A} are their duals'",
+    "2407.06207 §5.4: '(and its dual Standard Model of the dark sector, coming from the other E_{8} in heterotic string theory)'",
+    "2407.06207 §5.4: 'the CP violating phases would come from the SM calculation and the dual SM sector'",
+    "2604.19418 §5.1: 'some dual fields, like the dual Higgs boson, might be relevant for modeling other phenomena'",
+    "2604.19418 §7: '(Dual Higgs as a model of Starobinsky inflation? ...)'",
+    "2407.06207 §3.5 fn. 11"
+   ]
+  },
+  {
+   "question": "Q4",
+   "answer": "The coupling comes in three layers, stated differently across the papers.\n(i) Kinematic correlation. The visible φ and dark φ̃ do not commute ('dark matter is fuzzy from the point of view of classical spacetime', 2407.06207 §3.3; 2604.19418 §5.1), and 'visible and dark matter degrees of freedom are correlated (via the minimal length λ)'. Metaparticles are 'correlated objects of visible particles and their duals' (Minic 2023), 'rigid length-ℓ_s strings that correlate each Standard Model particle with its dual' (2407.06207 §5.1).\n(ii) Leading-order effective action. S_eff = −∫√(g g̃)[R + R̃ + L_m(A) + L̃_dm(Ã)] writes no cross term (2407.06207 eq. 3.8; 2604.19418 eq. 5.7). My reading: to this order the sectors share only the gravitational measure.\n(iii) A mixing with a scale, in 2407.06207 §5.3 only. 'Dark and visible matter mix via a Berry phase-like correlation term[103]. The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally'. The scale is identified with M_SM ≈ 4.5×10^14 GeV; executed check from the paper's definition and Table 1 inputs: 4.48×10^14 GeV. The statement is absent from 2604.19418, 2610.19522 and 2307.16712 v2. Its cited source, LHEP 2021 (arXiv:2010.15610), has the Berry-phase-like [[A, Ã]] term but no decoupling energy (greps).\n'Entangled/correlated' dynamics (2407.06207 §6, from LHEP 2021) is not defined further in these papers.\nLimits in which the dual sector vanishes:\n- b → ∞ shrinks the dual dimension, and metaparticles 'are reduced to canonical particles' (Minic 2023);\n- the canonical propagator is the 'highly singular p̃ → 0 (and μ → 0) limit' (2407.06207 §3.4);\n- 'In the limit in which the physics of dual spacetime is neglected, one recovers local quantum field theory' (2604.19418 §5.1).\nAgainst #11: below ~10^14 GeV the 2024 restatement has gravity-only interaction, as under #11's strict P4. The differences left are the non-commutativity at O(λ), the dual SM's contribution to visible CP phases, and the claimed galaxy-scale correlation (Q5).",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §5.3 'Neutrinos': 'The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.'",
+    "2407.06207 §5.3: 'M_{SM}\\simeq 4.5{\\times}10^{14}\\,\\text{GeV} is thus naturally identifiable with this dark-matter/visible-matter decoupling scale.'",
+    "2407.06207 §5 introduction, item (3)",
+    "work/dual-sector/scratch/r3-gravitized/scripts/msm_check.out: case (b) M_SM = 4.484e+14 GeV",
+    "2407.06207 §3.3: 'the visible \\phi and invisible (dark matter) {\\tilde{\\phi}} do not commute'",
+    "2407.06207 §3.4, eq. 3.8 and 'In general, visible and dark matter degrees of freedom are correlated (via the minimal length \\lambda )'",
+    "2407.06207 §5.1: 'rigid length- \\ell_{s} strings that correlate each Standard Model particle with its dual'",
+    "2305.12593 §2: 'in the limit of large expansion b\\to\\infty , the dual spacetime dimension shrinks to zero'",
+    "2604.19418 §5.1: 'In the limit in which the physics of dual spacetime is neglected, one recovers local quantum field theory.'",
+    "greps: 'decoupl|gravitationally' absent in this sense from 2604.19418, 2610.19522, 2307.16712 v2 and 2010.15610"
+   ]
+  },
+  {
+   "question": "Q5",
+   "answer": "None of the six texts predicts a dark-matter signal in direct detection or at colliders. A grep for direct detection, collider, LHC, accelerator and detectab finds only LHC planar jets from a 2d reduction of spacetime (2604.19418 §6–§7; 2407.06207 §3.5), which is not a dark-matter signal.\nNo explanation of the direct-detection nulls is offered, beyond 2407.06207's 'interact as required, only gravitationally' below the decoupling energy. I read 'as required' as an appeal to the nulls; the paper does not say what requires it.\nThe stated prediction is astrophysical:\n- the λ-correlation 'suggest[s] the origin (from dark matter) of the observed scaling (found in galaxies, clusters, superclusters) and the universal acceleration a₀ ~ cH/(2π)' (2407.06207 §3.4);\n- 2604.19418 §5.1 calls it 'Milgrom's scaling', offers a mechanism ('fuzzy dark matter is in the non-relativistic description sensitive to the quantum pressure, which in turn, is directly sensitive to the vacuum energy'), and claims the observed acceleration scale 'is evidence for ... the correlation of dual fields of fuzzy dark matter to the observed Standard Model fields of visible matter'.\nThe laboratory tests in these papers are of gravitized quantum theory and modular spacetime, not of dark matter: triple and higher-order interference, 'entwining' (R-matrix) instead of scattering, gravitational-wave echoes.\n#11, the lab notebook #1 and the literature-check note never mention Milgrom, MOND or a₀ (case-sensitive grep). My inference: a dark–visible correlation at a₀ ~ cH/(2π) is a candidate observable for telling the school's sector from the program's, which the root CLAUDE.md lists as open.",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.4: '... and the universal acceleration a_{0}\\sim cH/(2\\pi)'",
+    "2604.19418 §5.1: 'the so-called Milgrom’s scaling ...'; 'The reason for this is that fuzzy dark matter ... sensitive to the quantum pressure'; 'such observed acceleration scale is evidence ...'",
+    "2407.06207 §5.3: 'interact as required, only gravitationally'",
+    "2407.06207 §3.5: 'Instead of scattering particles, we could entwine them.'",
+    "2305.12593 §4: metaparticles and triple interference as empirical predictions",
+    "greps across the six texts for direct detection/collider/LHC/accelerator/detectab",
+    "grep of papers/broken-born-checkpoint-v2.md, notes/broken-born-theory.md, notes/literature-check.md for Milgrom|MOND|a₀|a_0: only σ_0 substrings"
+   ]
+  },
+  {
+   "question": "Q6",
+   "answer": "Both sectors sit in one effective action with measure √(g(x) g̃(x̃)) and curvature terms R(x) + R̃(x̃) (2407.06207 eqs. 3.8–3.9; 2604.19418 eqs. 5.7–5.8). After integrating over x̃, both visible A(x) and dark Ã(x) are described 'in classical x spacetime'. My reading: the effective dark matter gravitates on x as ordinary matter does, like #11 §8's 'χ propagates on g'.\nNewton's constant: 'the x̃-integration in the first term defines the gravitational constant G_N' (2407.06207 §3.4; 2604.19418 §5.1). G_N is thus set by the dual space; BHM 2019 (arXiv:1905.09463, abstract) says 'the size of the above dual space is the gravitational constant'.\nNo separate dynamics of a dual metric for the dark sector is given beyond the R̃(x̃) term, which gives the cosmological constant (Q10).",
+   "confidence": "medium",
+   "evidence": [
+    "2407.06207 §3.4: 'In this leading limit, the \\tilde{x} -integration in the first term defines the gravitational constant G_{N} , and in the second term produces a positive cosmological constant constant!'",
+    "2407.06207 §3.4, after eq. 3.8: 'integrate over the dual space coordinates \\tilde{x} to get an effective description of visible matter, A(x), and dark matter, \\tilde{A}(x), in classical x spacetime' (paraphrase of the passage; the code-checked quote is the sentence on G_N)",
+    "2604.19418 §5.1, eqs. 5.7–5.8 (same statements)",
+    "1905.09463 abstract (BHM 2019; read via INSPIRE abstract)"
+   ]
+  },
+  {
+   "question": "Q7",
+   "answer": "Not found in any of the papers: self-interaction, dependence on relative velocity, a momentum-overlap gate, or localization in x̃ or momentum ('self-interact' occurs 0 times; 'velocit' only in unrelated contexts).\nThe form given is 'fuzzy dark matter', from the non-commutativity of φ and φ̃ (2407.06207 §3.3–§3.4; 2604.19418 throughout; 'necessarily fuzzy, and thus, field-like', 2604.19418 §7). It is tied to quantum pressure and the vacuum energy (2604.19418 §5.1) and to Edmonds, Erlich, Minic, Takeuchi 2024 (arXiv:2405.08744).\nOther dynamical statements:\n- a dual particle at energy μ/E for each particle at energy E (2407.06207 eq. 3.7);\n- a 'third quantization indeterminacy' of the dark fields, with dark-sector parameters whose indeterminacy is 'reciprocal' to the SM's precision (2407.06207 §6);\n- the dual Higgs as Starobinsky-like inflation and the axion's dual partner as fuzzy dark matter (2604.19418, speculative, the latter partly a question);\n- Vafa's decaying-dark-matter scale, reported for M_SM (2407.06207 §5.3; Vafa's postulate, not the authors' claim).\nThe dual spacetime 'looks completely invisible' once the spacetime polarization is picked (2604.19418 §7). Visible fermions are described topologically, as unit flux through modular cells (2407.06207 §3.4) or 'defects or kinks' (2610.19522 §3.2), but nothing of the kind is said of dark matter.\nMy comparison: there is nothing like #11 §8's velocity gate (the χ form). The school's fuzzy form is a wave form, nearer #11's wave-dark-matter and X-condensate lines.",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.3: 'one could say that dark matter is fuzzy from the point of view of classical spacetime'",
+    "2407.06207 §3.4: 'Metaparticles can be understood as fuzzy dark matter...'",
+    "2407.06207 §3.4: 'For each particle at energy E there exists a dual particle at energy \\frac{\\mu}{E}'",
+    "2407.06207 §6: 'third quantization indeterminacy'; 'reciprocal to the relatively high precision ... of the SM parameters'",
+    "2604.19418 §5.1: 'fuzzy dark matter is in the non-relativistic description sensitive to the quantum pressure'",
+    "2604.19418 §5.1 and §7: dual Higgs, axion's dual partner",
+    "term counts (executed grep): self-interact 0 in all texts; velocit only in unrelated contexts"
+   ]
+  },
+  {
+   "question": "Q8",
+   "answer": "None. 'monopol' occurs 0 times in every text read. The only magnetic statement is footnote 11 of 2407.06207 §3.5: 'The dual momentum p̃ could be understood from the point of view on conserved (electric) charges and corner symmetries in quantum gravity[56–59]. The dual spacetime x̃ is associated with conserved dual (magnetic) charges in the same context.' This is a one-line remark about gravitational corner-symmetry charges (citing Strominger; Freidel, Geiller and Pranzetti; Ciambelli and Leigh). It pairs the dual-spacetime side with magnetic-type charges, a loose echo of #11 §11.4's pairing of the p-polarization with magnetic charge (my comparison). It proposes no magnetically charged or dyonic matter, no monopoles as dark matter, and nothing localized in x̃ or momentum. C2 and the monopole form of C1 are not addressed.",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.5 fn. 11: 'The dual spacetime \\tilde{x} is associated with conserved dual (magnetic) charges in the same context.'",
+    "term counts (executed grep): 'monopol' 0 in 2203.17137, 2303.15645, 2305.12593, recid:2778134, 2407.06207, 2604.19418, 2610.19522; 'magnetic' only fn. 11 plus unrelated NMR/electromagnetic uses"
+   ]
+  },
+  {
+   "question": "Q9",
+   "answer": "Classical spacetime is called a choice of polarization. The papers say what selects it, but never call the selection spontaneous.\nThe choice: 'Classical spacetime label x of canonical QFT corresponds to a choice of (classical spacetime) polarization in modular (quantum) spacetime with a contextuality parameter λ' (2407.06207 §3.3; repeated in 2604.19418 §5.1 and 2610.19522 §3.2).\nSelection:\n- 'Classical spacetime emerges from the process of extensification (imagine one unit length in dual direction and many, N, modular cells in the spacetime direction). Spacetime emerges, in the large N limit, as a natural pointer basis'; the dual labels are hidden variables 'associated with the spacetime pointer basis, selected by quantum gravity' (2407.06207 §3.4, citing FLM 2016);\n- 'quantum gravity picks the natural basis for measurement and classical description - the spacetime basis' (2604.19418 §5.1); 'the emergent measurement basis is the spacetime basis' (§7).\nDynamical polarization:\n- 'quantum gravity ... should have both a dynamical polarization and a dynamical geometry' (2604.19418 §1.1), where quantum mechanics' 'dynamical polarization' is ψ → Uψ;\n- 2610.19522 §3.2 names η 'the polarization (or locality) metric' that 'encodes the distinction between spacetime-like and dual-spacetime-like aspects of phase space'; 'Curving η means gravitizing the quantum'; gravitized quantum theory 'makes both its polarization and its probability rule dynamical'.\nOther choices: 'just one polarization allowed', 'different choices related by ... T-duality' (2407.06207 §3.5), 'just one of many, and in metastring theory, different observers see different spacetimes', in superposition (2610.19522 §3.2). These are lawful as observer-dependent frames (relative locality), not as a mirror vacuum.\nNo potential, order parameter or spontaneous breaking is given for the polarization. 'spontan' occurs only as 'spontaneous emission' and in a reference title; the one 'order parameter' is a thermal Higgs-like field in 2407.06207 §2.3.\nAgainst #11: P5's vacuum selection and P2′'s η as order parameter are not in these papers. The closest statement is 2610.19522's η as 'polarization (or locality) metric', posted after September 2026.",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.3: 'Classical spacetime label x of canonical QFT corresponds to a choice of (classical spacetime) polarization ...'",
+    "2407.06207 §3.4: 'Classical spacetime emerges from the process of extensification ...' and '... selected by quantum gravity.'",
+    "2407.06207 §3.5: '... different choices related by what in string theory we would call T-duality.' and 'the classical spacetime of EFT is just one polarization allowed'",
+    "2604.19418 §1.1: dynamical polarization ψ → Uψ; 'should have both a dynamical polarization and a dynamical geometry'",
+    "2604.19418 §5.1: 'quantum gravity picks the natural basis ... - the spacetime basis.'",
+    "2604.19418 §7: 'by picking the spacetime polarization, the dual spacetime looks completely invisible'",
+    "2610.19522 §3.2: 'The polarization (or locality) metric \\eta encodes ...'; 'Curving \\eta means “gravitizing the quantum” [26].'; 'just one of many'",
+    "term counts (executed grep): spontan / order parameter / vacuum selection"
+   ]
+  },
+  {
+   "question": "Q10",
+   "answer": "Dark energy is the curvature of the dual spacetime. At leading order in λ, integrating R̃(x̃) over x̃ 'produces a positive cosmological constant' (2407.06207 §3.4; 2604.19418 §5.1). Other statements:\n- 'Metaparticles appear as natural dark matter quanta and the geometry of dual spacetime as the natural origin of dark energy' (2407.06207 §3.1);\n- dark energy, 'modeled as the cosmological constant', is 'the curvature of the dual spacetime, and naturally small' (§6);\n- 2604.19418 adds 'In general one can contemplate a time-varying dark energy [11]' (Hur et al. 2025, DESI) and 'a cosmological constant plus a possible time variable part ... with observable implications for time dependent vacuum energy' (§7); it proposes the dark-energy scale as the scale for laboratory tests of gravitized quantum theory;\n- 2610.19522: 'curvature of dual spacetime can lead to a dynamical origin of dark energy', and neutrinos as 'portals' to the dark-energy sector.\nThese six texts give no w value, no phantom statement, and no contraction or collapse of a dual universe (grep). Minic 2023's rescaling x → ax, p → a⁻¹p, with the dual dimension shrinking as a → ∞, is kinematics of the modular cell used as a decoupling limit; it parallels #11's a·ã = 1 (App. A item 6) but describes no evolution in time.\nAgainst #11 §10: the program's dark energy is τ (hilltop quintessence on the Maslov circle, w ≥ −1). Its corrected dictionary maps dual curvature to negative dark radiation and dual stiff matter to Λ, whereas these papers make dual curvature the cosmological constant. The constructions differ (x̃-integration of a doubled-space action, versus a dual-frame fluid under a·ã = 1 with one lapse), so this contrasts two claims rather than testing either (my reading). Against C5 ('their collapse is our acceleration'): nothing in these papers.",
+   "confidence": "high",
+   "evidence": [
+    "2407.06207 §3.1: '... the geometry of dual spacetime as the natural origin of dark energy.'",
+    "2407.06207 §3.4: '... in the second term produces a positive cosmological constant constant!'",
+    "2407.06207 §6: 'dark energy (modeled as the cosmological constant) to be the curvature of the dual spacetime, and naturally small[9]'",
+    "2604.19418 §5.1: 'In general one can contemplate a time-varying dark energy [11].'",
+    "2604.19418 §7: 'Dark energy (a cosmological constant plus a possible time variable part) as the curvature of the dual spacetime'",
+    "2610.19522 §5: 'curvature of dual spacetime can lead to a dynamical origin of dark energy'; neutrinos as 'portals'",
+    "2305.12593 §2: 'In the limit of large expansion a\\to\\infty , the dual dimension shrinks to zero'",
+    "greps for phantom, equation of state, DESI, w_0, collaps, contract, bounce: none in a dark-energy sense"
+   ]
+  },
+  {
+   "question": "Q11",
+   "answer": "None of my papers is the first statement, and all cite earlier papers of the school for it:\n- Minic 2023 cites [10]: BHM arXiv:2212.06086, with arXiv:2111.14205, LHEP 2021, PLB 798 (2019) and IJMPD 28 (2019);\n- 2407.06207 cites LHEP 2021 [49, 103], BHM 2212.06086 [9], FKGLM 2019 (metaparticles) [42] and BHM 2021 Universe [104];\n- 2604.19418 cites LHEP 2021, arXiv:2111.14205 and 2212.06086;\n- 2610.19522 cites Minic 2020 (arXiv:2003.00318) [27] and LHEP 2021 [70].\nNone cites anyone outside the school for the identification.\nI checked the earliest items they cite:\n- the 2019 BHM papers (arXiv:1905.08269, PLB 798, 134950; arXiv:1905.09463, IJMPD 28, 1944018) mention dark matter only in 'our discussion naturally relates to the observationally supported proposal for dark matter quanta that are sensitive to dark energy', citing Edmonds et al. 2017;\n- 'Theory of metaparticles' (FKGLM, arXiv:1812.10821, v1 2018-12-27) has no occurrence of 'dark'.\nIn the citation chains of these papers, Minic 2020 therefore remains the earliest statement, consistent with the record.\nDates against the program's notebook v0.1 (September 2026): 2203.17137 (2022-03-31) through 2604.19418 (2026-04-21), and the unread book (2026-06-04 online; INSPIRE 2026-07-21), are earlier; 2610.19522 (2026-10-14) is later, a restatement.",
+   "confidence": "medium",
+   "evidence": [
+    "2305.12593 ref. [10] (BHM 2212.06086; 2111.14205; LHEP 2021; IJMPD 28 (2019) 1944018; PLB 798 (2019) 134950)",
+    "2407.06207 refs [9], [42], [49], [103], [104]",
+    "2610.19522 refs [27] (Minic 2020), [70] (LHEP 2021)",
+    "1905.08269 full text and 1905.09463 full text: 'Finally, our discussion naturally relates to the observationally supported proposal for dark matter quanta that are sensitive to dark energy' (FOUND in both)",
+    "1812.10821 full text (v2): 'dark' 0 matches",
+    "arXiv API v1 dates (scratch/r3-gravitized/scripts/arxiv_dates.py)"
+   ]
+  },
+  {
+   "question": "Evolution 2022–2026",
+   "answer": "How the statement develops across these papers:\n- March 2022 (GRF essay): nothing on dark matter.\n- March/June 2023 (CQG): nothing on dark matter; x̃ only as non-commuting dual coordinates.\n- May 2023 (Minic talk; journal 2024): one parenthesis. Metaparticles are correlated visible/dual pairs, 'natural candidates'; the dual sector drops out in the b → ∞ decoupling limit.\n- July 2024 (Hübsch–Minic): the fullest account:\n  - dark fields as backgrounds of the dual momentum p̃, fuzzy through [φ, φ̃] ≠ 0;\n  - an effective action in which the x̃-integration gives G_N and Λ;\n  - the λ-correlation proposed as the origin of a₀ ~ cH/(2π);\n  - a dual SM from the other E8, CP phases from it, and reciprocal indeterminacy of its parameters;\n  - a decoupling energy M_SM ≈ 4.5×10^14 GeV, below which dark and visible matter interact only gravitationally;\n  - the spacetime polarization selected by quantum gravity through extensification.\n- April 2026: §3 repeated, adding the dual Higgs as Starobinsky-like inflation and the axion's dual partner as fuzzy dark matter (speculative); the quantum-pressure mechanism for a₀ and the claim that a₀ is evidence; time-varying dark energy; x 'canonically conjugate' to x̃; quantum gravity picking the spacetime basis. The decoupling scale is not repeated.\n- June/July 2026 (book): not read.\n- October 2026: the identification hedged ('a candidate', 'the potential to describe'); X̃ derived as the string's momentum-space coordinate; η named the polarization metric; neutrinos as portals to dark energy; nothing new on the dark sector's dynamics.\nAcross the period: no self-interaction, no velocity dependence, no monopoles, no localization in momentum, no spontaneous selection of the polarization.",
+   "confidence": "high",
+   "evidence": [
+    "2203.17137 and 2303.15645: 'dark' 0 occurrences",
+    "2305.12593 §2",
+    "2407.06207 §3, §5.1, §5.3, §5.4, §6",
+    "2604.19418 §1.1, §5.1, §5.2, §7",
+    "2610.19522 §3.2, §5"
+   ]
+  }
+ ],
+ "contradicts_record": [
+  {
+   "record_says": "notes/literature-check.md §3, 'What differs': 'All three judges for C1 read this as predicting couplings between dark and visible matter beyond gravity' and 'The scope judge answers that the school still expects a detection, through the entanglement, and states no permanent null.' Also review/literature-check/findings.json, the C1 findings for 2407.06207 and 2604.19418, 'difference' (2): 'the dual (dark) sector is 'correlated'/'entangled' with visible matter through non-gravitational terms and is tied to modified dark matter's acceleration-scale correlation with baryons; the school expects it to be detectable.'",
+   "source_says": "2407.06207 (Hübsch and Minic 2024) §5.3, 'Neutrinos': 'The fully T-dual, chirally doubled description of stringy spacetime[5], dark and visible matter mix via a Berry phase-like correlation term[103]. The mass-scale of this correlation term defines the decoupling energy, below which the dark and visible matter interact as required, only gravitationally.' and 'M_{SM}\\simeq 4.5{\\times}10^{14}\\,\\text{GeV} is thus naturally identifiable with this dark-matter/visible-matter decoupling scale.' §5 introduction: '(3) the mass-scale of the Standard Model decoupling from dark matter'.",
+   "why": "This qualifies the record, from a paper its own finding cites.\n- The non-gravitational term exists, but 2407.06207 puts it above a decoupling energy of about 4.5×10^14 GeV (4.48×10^14 GeV from the paper's definition M_CH^{1/14} M_P^{13/14} and its Table 1 inputs; executed, scratch/r3-gravitized/scripts/msm_check.out).\n- Below that energy the sectors interact 'only gravitationally', which at laboratory energies is #11's strict-P4 situation.\n- None of the six texts states a direct-detection, collider or accelerator expectation for dark matter (grep). The only observable named for the correlation is astrophysical: Milgrom's scaling and a₀ ~ cH/(2π) (2407.06207 §3.4; 2604.19418 §5.1, which calls the observed acceleration scale 'evidence'). 'Expects it to be detectable' holds for these papers only in that astrophysical sense.\n- 'States no permanent null' is literally true: no paper uses the words.\n- The decoupling statement appears only in 2407.06207: not in 2604.19418, 2610.19522 or 2307.16712 v2 (which names Vafa only in its references). The LHEP 2021 paper it cites (arXiv:2010.15610) has the Berry-phase-like [[A, Ã]] term but no decoupling energy. Neither later paper retracts it."
+  },
+  {
+   "record_says": "wiki/summary.md line 34: 'Its core is published (Minic and coauthors, 2020), their sector correlated with ours; neither form was found.' review/wiki-build-flags.md item 64: 'Their dual sector is correlated with ours; #11's couples by gravity alone under strict P4 (row 7)'. Root CLAUDE.md, 2026-11-02 entry: 'Their dual sector is correlated with ours. The program's couples by gravity alone (P4 strict, row 7 ...)'.",
+   "source_says": "2407.06207 §5.3: 'below which the dark and visible matter interact as required, only gravitationally.' 2407.06207 §3.3: 'However, the visible \\phi and invisible (dark matter) {\\tilde{\\phi}} do not commute. Therefore, one could say that dark matter is fuzzy from the point of view of classical spacetime.' 2604.19418 §5.1: 'visible and dark matter degrees of freedom are correlated (via the minimal length \\lambda ) which might serve as the physical origin (arising from fuzzy dark matter and its correlation to visible matter) of the so-called Milgrom’s scaling'.",
+   "why": "This qualifies the contrast the summary draws. In these papers 'correlated' means three things:\n- the dark field does not commute with its visible partner, at order λ;\n- each particle is paired with its dual in one metaparticle ('rigid length-ℓ_s strings that correlate each Standard Model particle with its dual', 2407.06207 §5.1);\n- a Berry-phase-like mixing term whose mass scale is a decoupling energy.\nBelow ~10^14 GeV the 2024 restatement has gravity-only interaction, like #11's P4. What remains as a difference is the non-commutative pairing, the dual SM's contribution to visible CP phases, and the claimed galaxy-scale correlation at a₀, which #11 does not have (grep: no Milgrom, MOND or a₀ in #11, #1 or the literature-check note). It is not a non-gravitational force at accessible energies. A reader of 'correlated with ours … by gravity alone' would infer a difference in forces that the 2024 restatement excludes below about 4.5×10^14 GeV."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'What their \"dual\" is': 'In the model their dark-matter statements rest on, the metaparticle, the dual coordinate x̃ is a coordinate of a doubled phase space at the string scale, with [x, x̃] = iλ², beside an ordinary momentum p with [x, p] = iħ = [x̃, p̃] (Hübsch and Minic 2024, §3).'",
+   "source_says": "2407.06207 §3.2: 'This description (intrinsically non-commutative, since [x,\\tilde{x}]=i , where x\\equiv q/\\lambda and \\tilde{x}\\equiv p/\\epsilon and \\lambda\\epsilon=\\hbar )'; §3.3: '... polarization in modular (quantum) spacetime with a contextuality parameter \\lambda .'; §3.2: '[q,\\tilde{q}]\\sim il_{P}^{2}'; §3.5: '[x^{a},{\\tilde{x}}_{b}]=i\\ell_{s}^{2}\\,\\delta^{a}{}_{b}', '\\{\\tilde{x}_{\\mu},x^{\\nu}\\}=\\pi\\alpha^{\\prime}\\,\\delta_{\\mu}^{\\nu}' and 'merely with “softening” the indeterminacy by replacing, l_{s}\\to l_{eff}'; §5.1: '[x^{\\mu},\\tilde{x}_{\\nu}]=2\\pi i\\ell_{s}^{2}\\,\\delta^{\\mu}_{\\nu}'.",
+   "why": "This qualifies the record.\n- The doubled phase space is right for the metaparticle. Executed: the brackets of eq. 3.15 have rank 4 per dimension, so x̃ is not a function of x and p (scratch/r3-gravitized/scripts/bracket_rank.out).\n- But the same §3 also uses x̃ for the rescaled canonical momentum of one phase space (x̃ ≡ p/ε, [x, x̃] = i at ħ = λε), which is the program's (x, p). It moves between the two uses without a separating statement, and so does 2604.19418 §5.1 (eqs. 5.4–5.5).\n- The paper does not fix the scale at the string length. λ is 'a contextuality parameter', set to ℓ_s, l_P or an effective l_eff in different places, with normalizations iλ², 2πiℓ_s² and πα′ in this one paper (iπλ² in Minic 2023; 2πiλ² in 2610.19522 eq. 3.3). 'At the string scale' is one of the paper's settings, not a statement it makes.\n- The dark fields are backgrounds of the dual momentum p̃ ('p\\to p+\\phi and \\tilde{p}\\to\\tilde{p}+\\tilde{\\phi}', §3.3). The record does not mention this, and it bears on how the school's 'dual' compares with #11's p-polarized χ."
+  },
+  {
+   "record_says": "notes/literature-check.md §3, 'What differs', on the vacuum: 'The check found no such mechanism in the school's papers, where the classical spacetime label \"corresponds to a choice\" of polarization.' Also review/literature-check/findings.json, C1 findings for 2407.06207 and 2604.19418, 'difference' (1): 'reciprocity is built into the formulation, not an exact symmetry broken spontaneously by a vacuum-selected polarization with η as order parameter (#11 P2′, P5)'.",
+   "source_says": "2407.06207 §3.4: 'Classical spacetime emerges from the process of extensification (imagine one unit length in dual direction and many, N , modular cells in the spacetime direction). Spacetime emerges, in the large N limit, as a natural pointer basis in quantum theory [31].' and 'The dual spacetime labels can be understood as covariant “hidden variables” associated with the spacetime pointer basis, selected by quantum gravity.' 2604.19418 §5.1: 'Note also that quantum gravity picks the natural basis for measurement and classical description - the spacetime basis.' 2610.19522 §3.2: 'The polarization (or locality) metric \\eta encodes the distinction between spacetime-like and dual-spacetime-like aspects of phase space' and 'Gravitized quantum theory (or background independent quantum theory [21, 23] makes both its polarization and its probability rule dynamical.)'",
+   "why": "This qualifies the record.\n- 'No spontaneous mechanism' stands for these papers: none gives a potential, an order parameter or spontaneous breaking for the polarization. 'spontan' appears only as 'spontaneous emission' and in a reference title; the one 'order parameter' is a thermal Higgs-like field in 2407.06207 §2.3.\n- But the papers say more than 'corresponds to a choice'. The spacetime polarization is selected by quantum gravity as the emergent pointer basis, through extensification at large N, and gravitized quantum theory makes the polarization dynamical.\n- In October 2026, η is named 'the polarization (or locality) metric' that distinguishes spacetime-like from dual-spacetime-like directions, and curving η is 'gravitizing the quantum'. This is the school's statement closest to #11 P2′'s η as order parameter. It postdates September 2026 and cites FLM 2014 for curved η. Whether FLM's earlier papers already call η a polarization metric was not checked (lead)."
+  },
+  {
+   "record_says": "review/literature-check/findings.json, C1 finding for 2305.12593 (a single-agent label, 'verified': []): 'metaparticles are \"correlated objects of visible particles and their duals\", and the duals \"represent natural candidates for dark matter\".'",
+   "source_says": "2305.12593 §2 (and Bulg. J. Phys. 51, p. 65): 'In this limit metaparticles (correlated objects of visible particles and their duals, which, in turn, represent natural candidates for dark matter [10]) are reduced to canonical particles.'",
+   "why": "A minor qualification. Grammatically, 'which' may refer either to the metaparticles or to their duals; the finding takes the duals. The school uses both readings elsewhere: 'Metaparticles appear as natural dark matter quanta' (2407.06207 §3.1) and 'dual particles ... represent dark matter' (§3.3). The identification holds either way, and my full reading supports the finding's label (anticipates, as a restatement)."
+  }
+ ],
+ "leads": [
+  "arXiv:2405.08744 — Edmonds, Erlich, Minic, Takeuchi 2024, 'Universal acceleration and fuzzy dark matter'. Cited by 2407.06207 [48] and 2604.19418 [66] for a₀ ~ cH/(2π) and the fuzzy-dark-matter form. It should hold the worked-out version of the only observable these papers give the school's dark sector. Not read.",
+  "arXiv:1709.04388 — Edmonds, Farrah, Minic, Ng, Takeuchi 2017, 'Modified Dark Matter: Relating Dark Energy, Dark Matter and Baryonic Matter' (IJMPD 27, 1830001). Cited by 2407.06207 [47] for fuzzy dark matter and vacuum energy, and by both 2019 BHM papers as 'dark matter quanta that are sensitive to dark energy'. It predates Minic 2020; whether it uses dual or conjugate language was not checked.",
+  "arXiv:2503.20854 — Hur, Jejjala, Kavic, Minic, Takeuchi 2025, 'Dynamical dark energy, dual spacetime, and DESI' (JCAP 11, 054). Cited by 2604.19418 [11] for time-varying dark energy and by 2610.19522 [131]. Holds the school's w predictions to compare with #11 §10 (τ, w ≥ −1).",
+  "arXiv:2109.01122 — Berglund, Hübsch, Minic 2021, 'Stringy Bubbles Solve de Sitter Troubles' (Universe 7, 363; v1 2021-09-02). Cited by 2407.06207 [104], with LHEP 2021, for 'the most obvious candidate dark matter'. Not read.",
+  "arXiv:2104.00802 — Freidel, Kowalski-Glikman, Leigh, Minic 2021, 'Quantum Gravity Phenomenology in the Infrared' (IJMPD 30, 2141002). Cited by 2407.06207 [45] for 'cosmology is an interplay between visible and dual (invisible) degrees of freedom'. Bears on App. A item 2 and C5. Not read.",
+  "arXiv:1606.01829 — Freidel, Leigh, Minic 2016, 'Quantum Spaces are Modular' (PRD 94, 104052). Cited as [31] for extensification and 'Spacetime emerges, in the large N limit, as a natural pointer basis'. The source of the school's account of how the spacetime polarization is selected (Q9; the record's 'no such mechanism').",
+  "arXiv:1405.3949, 1307.7080, 1502.08005, 1706.03305, 1707.00312 — Freidel, Leigh, Minic 2014–2017. Two things to check: whether they already call η the 'polarization metric' (2610.19522 §3.2 cites FLM 2014 [26] for curving η), which bears on #11 P2′'s claim that η as order parameter is the program's own reading; and where the differing [x, x̃] normalizations come from (πα′, 2πλ², iλ²).",
+  "arXiv:2402.00981 — Vafa 2024, 'Swamplandish unification of the dark sector'. 2407.06207 [112] takes its decaying-dark-matter scale as the dark–visible decoupling scale M_SM.",
+  "arXiv:1905.08269 (PLB 798, 134950) and arXiv:1905.09463 (IJMPD 28, 1944018) — BHM 2019, checked here by abstract and grep only. Their abstracts already use 'canonically conjugate dual space' (May 2019), a phrase the record quotes from BHM 2021; the abstract quote is FOUND for 1905.08269. Their only dark-matter sentence, FOUND in both, does not state the identification.",
+  "arXiv:1812.10821 — Freidel, Kowalski-Glikman, Leigh, Minic, 'Theory of metaparticles' (PRD 99, 066011; v1 2018-12-27). A grep of the full text (v2) finds no 'dark': metaparticles were introduced without the identification. 2407.06207 §3.5 repeats its abstract's sentence on T-duality-related choices of spacetime (FOUND in the 1812.10821 abstract).",
+  "arXiv:2307.16712 — BHM 2023 (Symmetry 15, 1660). 2407.06207 overlaps it substantially, but its v2 (2023-08-14) lacks the decoupling-scale passage. It has 'each Standard Model particle has a correlated “dual,” a candidate dark matter companion' (FOUND), which the record does not quote.",
+  "arXiv:1201.2365 — Ho, Minic, Ng 2012, 'Dark Matter, Infinite Statistics and Quantum Gravity' (PRD 85, 104033). An earlier Minic line on dark matter, cited in 2407.06207 [85] only for infinite statistics. Not read; the citing context gives no sign it states the identification."
+ ],
+ "not_retrieved": [
+  "recid:3204269 — Hübsch, Minic, 'The Weight of Quantum: Quantum Theory and the Structure of Physics' (CRC Press 2026, doi:10.1201/9781003710196; Crossref online 2026-06-04; INSPIRE earliest date 2026-07-21). A commercial monograph with no license and no open copy found:\n- the Routledge product page lists chapter titles only, and its 'Preview Book' button yields no text;\n- Crossref holds 14 chapter DOIs (10.1201/9781003710196-1 to -14) with no abstracts and no license;\n- the Taylor & Francis page returned HTTP 503 to curl and no content to WebFetch;\n- the Google Books API answered HTTP 429.\nNo workaround was attempted. Whether the book states the identification is unknown. It predates the program's notebook (September 2026), so a statement there would be one more prior restatement, not a priority earlier than Minic 2020. Its likely chapters are 11 ('cGħ, or, Quantum Gravity, so far') and 12 ('Coda: What is Quantum Theory of Gravity?')."
+ ]
+}

@@ -1,0 +1,551 @@
+{
+ "e3-hard-core": {
+  "files_changed": [
+   "wiki/phase-space/reciprocity/broken-born-duality.md",
+   "wiki/program/postulates/p2-prime.md",
+   "wiki/program/postulates/p5-spontaneous-selection.md",
+   "wiki/program/hard-core.md",
+   "wiki/phase-space/born-geometry/compatibility-theorem.md",
+   "wiki/symmetry-breaking/order-parameter.md",
+   "wiki/phase-space/modular-field/lagrangian-grassmannian.md",
+   "wiki/program/borns-question.md",
+   "scripts/wiki-papers.tsv"
+  ],
+  "changes": [
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "what": "Rewrote the description and the italic opening. They no longer say the authors 'treated the breaking as kinematical' or gave 'no symmetry-breaking analysis'. They now say the authors call GR's split kinematical and propose to make it dynamical, carried by solutions; that a later paper places a breaking tied to the polarization in the vacuum, for another symmetry of the doubled phase space, not Born duality; that none gives a potential or an order parameter; and that what was not found is the spontaneous breaking of exact Born duality with η as order parameter and a potential. 'The statement': kept #11 §3's quotation verbatim and added the qualification beside it, quoting FLM 2014 IJMPD §1.3 ('the purely kinematical splitting ... has to be made dynamical'), with flag 70. 'What FLM built': new bullet 'The split carried by solutions' (§2 quotations); flag 71 added to the compatibility-statement bullet (positive form in FLM 2016, linked). 'What they did not do': kept the worklog quotation verbatim and added a paragraph beside it with flag 70 (two later papers with Minic among the authors; 'effectively spontaneously broken'; no potential, order parameter or Goldstone angle). 'The program's addition': added beside #11's sentence what was not found (the spontaneous breaking of the exact, ω-preserving ρ with η as order parameter, a potential and a Goldstone angle, and the toy action), flag 70. 'Is there an earlier explicit model?': added one sentence saying the dual-sector reading found none either. 'Neighbours in the literature': new intro, three new bullets (FKLM 2021 vacuum-sector breaking, linked arXiv:2104.00802; BHM 2023 §4.3 'is effectively spontaneously broken', linked arXiv:2212.06086; Yargic 2021 thesis, linked INSPIRE 1923123), and a closing link to /wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program. Also added a references entry for the four new papers, and frontmatter and Sources entries for notes/dual-sector.md §8, §9 and flags 70, 71. Status line and title unchanged."
+   },
+   {
+    "file": "wiki/program/postulates/p2-prime.md",
+    "what": "'Precedent and credit': kept #11 §4 and the toy note's quotations verbatim. Added a list, flag 70: η = HJ is theirs from 2013 ('of the chiral structure are dynamical', FLM 2014 Phys. Lett. B, posted 2013, linked); U(d)/O(d) is named in FLM 2016 §2 as the space of choices of η ('represents the choice of inequivalent lifts' η 'that preserve the symplectic structure and the vacuum state', linked); a later paper with Kowalski-Glikman places a breaking in the vacuum, for a dual Lorentz symmetry that is not ρ (deep link to broken-born-duality#neighbours-in-the-literature). Added one sentence from note §8 'Not found': ω-only rigidity was not found; they encode rigidity in η's flatness (FLM 2015 §1 quotation, linked) and Minic 2020 §2.2 (linked) makes all three structures dynamical. Frontmatter and Sources: notes/dual-sector.md §8, flag 70."
+   },
+   {
+    "file": "wiki/program/postulates/p5-spontaneous-selection.md",
+    "what": "In the italic opening, the program's addition now reads 'the spontaneous breaking of Born's symmetry itself, with an order parameter', and the opening mentions that a later paper places a breaking tied to the choice in the vacuum, for another symmetry. 'Credit': kept #11 §3's quotation verbatim and added a qualification beside it, flag 70 (kinematical as their word for GR's split, made dynamical, FLM 2014 linked; 'at the level of the vacuum sector', a dual Lorentz symmetry that is not ρ). Added a paragraph saying the other polarization's equal standing is stated by them as a symmetry of the theory: 'there is nothing special about the' x^μ and 'we could have taken any linear subspace' (FKLM 2018 §2, linked arXiv:1812.10821); 'we could have picked the dual' (BHM 2023 §4.4, linked). Calling the choice a vacuum is the program's. Frontmatter and Sources updated."
+   },
+   {
+    "file": "wiki/program/hard-core.md",
+    "what": "'What is the program's own': kept #11's quotation verbatim and appended one sentence: kinematical as their word for GR's split, which they propose to make dynamical (FLM 2014 linked); their papers also contain η = HJ, name U(d)/O(d) as the space of choices of η, and place a breaking tied to the choice in the vacuum, for a dual Lorentz symmetry that is not ρ, none with a potential, an order parameter or a Goldstone angle. The sentence links /wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program and carries flag 70. Frontmatter and Sources: notes/dual-sector.md §8, flag 70."
+   },
+   {
+    "file": "wiki/phase-space/born-geometry/compatibility-theorem.md",
+    "what": "'Attribution history': added a paragraph, flag 71. #11's [26S, §2.1] is a statement for a Lorentzian H with B set to zero. The positive form is in FLM 2016 §2, in group language ('the group of transformations that preserves the symplectic structure and the polarization metric' η is GL(d) = Sp(2d) ∩ O(d, d), frames 'determining the vacuum metric' H = diag(q, q⁻¹)), without the block proof, so the proof and T1 stay the program's. Added the 2016 paper to the reference line (linked), and flag 71 and note §9 to the frontmatter and Sources. Opening and status line unchanged."
+   },
+   {
+    "file": "wiki/symmetry-breaking/order-parameter.md",
+    "what": "'The postulate': after #11's credit quotation, added that η = HJ is in FLM's papers from 2013 ('of the chiral structure are dynamical', FLM 2014 Phys. Lett. B, linked), though not as an order parameter, flag 70. 'The vacuum manifold': added that FLM 2016 §2 (linked) name U(d)/O(d) as the space of choices of η, with no potential on it, flag 70. Frontmatter and Sources updated."
+   },
+   {
+    "file": "wiki/phase-space/modular-field/lagrangian-grassmannian.md",
+    "what": "'Standard references' (the literature section): added a paragraph after the existing line, flag 70. FLM 2016 §2 (linked) name U(d)/O(d) as the space of choices of the neutral metric η, with no potential and no order parameter; it is the manifold over which P2′'s order parameter ranges. Frontmatter and Sources updated."
+   },
+   {
+    "file": "wiki/program/borns-question.md",
+    "what": "The page quotes #11's 'treat the breaking as kinematical', so I added the flag-70 qualification beside it: in the metastring paper and FLM 2014 IJMPD, 'kinematical' names GR's split, which they credit to Born and propose to make dynamical (§1.3 quotation, linked). Frontmatter and Sources updated. Nothing else changed, per the 'only if' instruction."
+   },
+   {
+    "file": "scripts/wiki-papers.tsv",
+    "what": "Added recid:1923123 (Yargic, 2021, 'Born Reciprocal Representations of the Quantum Algebra', INSPIRE) with .venv/bin/python scripts/wiki-papers.py recid:1923123. A diff against a snapshot taken just before showed only this row added. The file is untracked, from the earlier link work."
+   }
+  ],
+  "other_files_needing_change": [
+   "wiki/symmetry-breaking/mandatory-breaking.md line 55: quotes #11 §3's 'They treat the breaking as kinematical ...' and 'This program's addition is to read it as spontaneous breaking' with no flag 70. It needs the same qualification beside the quotation: kinematical is their word for GR's split, which they propose to make dynamical; FKLM 2021 places a breaking tied to the polarization in the vacuum, for a dual Lorentz symmetry that is not ρ.",
+   "wiki/symmetry-breaking/toy-models/success-criteria.md line 82: quotes the worklog's 'write no potential and do no symmetry-breaking analysis, and call Born's breaking kinematical, not spontaneous' with no flag 70 beside it.",
+   "wiki/references.md: no entries for FLM 2016 (arXiv:1606.01829), FKLM 2021 (arXiv:2104.00802), FKLM 2018 (arXiv:1812.10821) or the Yargic thesis (INSPIRE 1923123), all now cited on my pages. Its line 169 (round-4 referee, 'no symmetry-breaking analysis in parts (a)–(c)') is still accurate for the papers it names.",
+   "wiki/program/postulates/original-p2.md line 74 and wiki/program/postulates/nontriviality-theorem.md: they credit the compatibility statement to FLM [26S, §2.1] and could point to flag 71 (positive form in FLM 2016). Low priority. kalb-ramond-field.md line 106, double-field-theory.md line 94 and compatibility-corollaries.md line 63 quote the B-vanishing statement, which is accurate as cited, so flag 71 is optional there.",
+   "wiki/phase-space/reciprocity/curved-momentum-space.md (if no other agent has it): flag 72's 'not only will space-time become curved, but momentum space as well' (FLM 2014 Phys. Lett. B, traced to Born) belongs beside #11 §3's Snyder and relative-locality lineage."
+  ],
+  "gate_output": "wiki/phase-space/reciprocity/broken-born-duality.md: wiki OK — 330 pages, no problems\nwiki/program/postulates/p2-prime.md: wiki OK — 330 pages, no problems\nwiki/program/postulates/p5-spontaneous-selection.md: wiki OK — 330 pages, no problems\nwiki/program/hard-core.md: wiki OK — 330 pages, no problems\nwiki/phase-space/born-geometry/compatibility-theorem.md: wiki OK — 330 pages, no problems\nwiki/symmetry-breaking/order-parameter.md: wiki OK — 330 pages, no problems\nwiki/phase-space/modular-field/lagrangian-grassmannian.md: wiki OK — 330 pages, no problems\nwiki/program/borns-question.md: wiki OK — 330 pages, no problems\nwhole wiki: wiki OK — 330 pages, no problems\n(registry: \"added recid:1923123: Yargic (2021) Born Reciprocal Representations of the Quantum Algebra; 1 added, 0 not found\")\n(quotation check, work/dual-sector/scratch/e3-hard-core/check_quotes.py: every added quotation is found in notes/dual-sector.md or in the page's own earlier text. The 10 'missing' hits are frontmatter strings and the Yargic title, which the note gives without the trailing comma.)",
+  "doubts": [
+   "Registry race: scripts/wiki-papers.py reads the whole registry, does a lookup (about 1 s) and rewrites the file. A row another agent wrote inside that window would be lost. The whole-wiki gate passed afterwards, so every paper link in the wiki still resolves, and other agents have added about 14 rows since.",
+   "p2-prime.md goes beyond the assignment by one sentence, from note §8 'Not found': ω-only rigidity was not found, with the FLM 2015 §1 quotation and Minic 2020 §2.2. Drop it if it is out of scope.",
+   "The p5 italic opening changed as well as the Credit section. I judged fact 6 requires it: the opening's 'the program's addition is to treat the choice as spontaneous symmetry breaking' needs narrowing once BHM 2023 call the dual Lorentz group 'effectively spontaneously broken' and FKLM 2021 place a breaking at the vacuum level.",
+   "I scoped 'kinematical' to the two papers the note counted (the metastring paper and FLM 2014 IJMPD). Flag 70 says only 'In their papers'.",
+   "On broken-born-duality.md I glossed the 'bi-Lagrangian structure' K as the structure whose two eigenspaces are the position and momentum halves of phase space. That is general knowledge [T], not from the note.",
+   "No status line was changed. broken-born-duality's status line still lists its [S] sources as '#11 ref. [26]; the worklog's prior-art search', without the dual-sector note.",
+   "p5 writes x^μ with a caret, as borns-question.md already writes p_μp^μ.",
+   "Backups of the eight pages before editing, a registry snapshot and the quotation-check script are in work/dual-sector/scratch/e3-hard-core/ (gitignored). Clear it once the change lands."
+  ]
+ },
+ "e1-record": {
+  "files_changed": [
+   "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+   "/home/paul/git/reinholdtsen/conjugate-matter/review/literature-check/README.md"
+  ],
+  "changes": [
+   {
+    "file": "notes/literature-check.md",
+    "what": "Italic header: added the dated line \"2026-11-06: `notes/dual-sector.md`, a closer reading of the papers of Minic and coauthors, qualifies §2, §3 and one line of §6 (flag 64's addendum, flags 70–72)\". It adds that those statements are corrected in place, that the quotations added were found by code for that note (`review/dual-sector/quotes.json`), and that the verdicts, counts and reference list are unchanged. I named §6 as well as §2 and §3 because the Hur et al. correction is in §6."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§2 plain-language passage: 'not found' is narrowed to a vacuum that selects a polarization by breaking ρ spontaneously (η as order parameter), and to a dark sector coupled by gravity alone at every energy and never detected. Added that, within the group, one 2024 paper has gravity alone below about 4.5×10¹⁴ GeV without a permanent null, and another places a symmetry breaking tied to the polarization in the vacuum, for a symmetry other than ρ (`notes/dual-sector.md` §5, §8). Dropped 'their combination with the identification was not found'."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§2 table, C1 'Not found' cell only: same narrowing. Added Hübsch and Minic 2024 (gravity alone below about 4.5×10¹⁴ GeV, without a permanent null, §5) and a new item, the spontaneous breaking of ρ with η as order parameter (the group has a vacuum breaking tied to the polarization, for another symmetry, §8). The verdict cell and the counts table are unchanged."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§3 plain-language passage: 'proposed since 2020' becomes 'first in a talk of September 2019 and in writing since February 2020', with 'a proposal, never derived' added. 'Correlated with ours by construction' is kept, qualified: beyond gravity only at higher orders in a string-scale length, with a strength no paper computes. Gravity-only coupling joined to the identification is now 'published once' (2024, below a very high energy), never with a permanent null."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§3 'What is published', first bullet: the identification is now carried by Minic 2020 §6.2, 'The proposal here is that the dual sector … via the dark energy sector', and Minic 2020 is described as the proceedings of the talk of 9 September 2019. The abstract's metaparticle clause stays (quotes.json requires it) and is described as the narrower claim of 2017 (Edmonds, Farrah, Minic, Ng and Takeuchi, arXiv, 13 September 2017)."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§3 third bullet: the account of the talk as 'unknown' is replaced. The talk (10th Mathematical Physics Meeting, Belgrade, 9 September 2019) is the first public statement; its slides are public, and their content is paraphrased, with no slide quotation, so no images caveat is needed. Added that every statement is a proposal and none is derived. The unread 2019 paper of Freidel, Leigh and Minic is now dated online 15 October 2019, after the talk, and may hold an earlier written statement."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§3 'What their dual is': the 'canonically conjugate dual space' citation is kept and corrected. The phrase names the doubled coordinate, defined in Berglund, Hübsch and Minic 2019 (Int. J. Mod. Phys. D; arXiv:1905.09463 per quotes.json, not the 1905.08269 in the reference list). In the full string phase space the canonical partner of x is p (Freidel, Leigh and Minic 2017, eq. 69). The momentum side in one phase space is the group's quantum mechanics, x̃ ≡ p/ε with λε = ℏ. The judge's 'the canonical conjugate of x' is kept verbatim, with one qualifying sentence (flag 64 addendum (b))."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§3 'What differs': the label becomes '(not found joined to the identification in the program's form)'. Coupling: the couplings beyond gravity appear beyond leading order and their strength is uncomputed; at leading order the sectors are independent (Berglund, Hübsch and Minic 2023, Int. J. Mod. Phys. D, §6.3 quotation). 'The school, like the program, expects no standard direct-detection signal' is kept and qualified: past nulls only. Gravity-only coupling joined to the identification is published once (Hübsch and Minic 2024 §5.3 quotation, about 4.5×10¹⁴ GeV, not repeated in 2026, same paper names an astrophysical signature). 'Not found' is narrowed to every energy with a permanent null."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§3 vacuum: 'The check found no such mechanism' is kept and narrowed as fact 6 does. The program's form (the spontaneous breaking of the exact, ω-preserving ρ with η as order parameter and a potential) was not found; the school places a breaking tied to the polarization in the vacuum, for another symmetry. Added quotations from Freidel, Leigh and Minic 2014 (IJMPD §1.3) and Freidel, Kowalski-Glikman, Leigh and Minic 2021; the broken symmetry is a dual Lorentz symmetry, not ρ; U(d)/O(d) is the space of η-choices (Freidel, Leigh and Minic 2016); no potential, order parameter or Goldstone angle. Flag 70."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "what": "§6 'Related': the Hur et al. 2025 item now gives both signs of 1 + w, with w defined. It is w(a) < −1 in the model on the group's earlier ultraviolet–infrared relation (\"this model is clearly disfavored\" by DESI's second release) and w(a) ≥ −1 in the other (`notes/dual-sector.md` §9; flag 72). New papers are cited by name with pointers to `notes/dual-sector.md`; no reference entries were added. All 9 new quoted passages are copied verbatim from `notes/dual-sector.md` (checked by script) and no existing quotation was removed."
+   },
+   {
+    "file": "review/literature-check/README.md",
+    "what": "Under 'What came of it', one dated bullet: 2026-11-06, `notes/dual-sector.md` qualifies the note's §2, §3 and one line of §6 (flag 64's addendum, flags 70–72) and the note is corrected in place. Its record is `review/dual-sector/`; the verdicts, counts and reference list are unchanged."
+   }
+  ],
+  "other_files_needing_change": [
+   "CLAUDE.md (root), entry of 2026-11-06: it says 'corrections to `notes/literature-check.md` §2–§3', but the corrections also touch one line of §6 (Hur et al. 2025's two signs of 1 + w, flag 72). Its placeholders DS-AGENTS, DS-REVIEW, DS-ROUND2 and DS-LASTFLAG are still unfilled.",
+   "wiki/dark-matter/conjugate-matter/dual-standard-model.md line 47: the unlinked '(Edmonds et al. 2017)' carries 'at colliders, dark matter direct detection experiments and indirect detection experiments'. That quotation is from arXiv:1601.00662 (review/dual-sector/quotes.json), which the same page links as 'Edmonds et al. 2016' at line 43. Line 24 links 'Edmonds, Farrah, Minic, Ng and Takeuchi 2017' to arXiv:1709.04388, so the label reads as the wrong paper. The same split is in notes/dual-sector.md (§5 'Edmonds et al., January 2016' and §6 'Edmonds et al. 2017' are one paper). work/dual-sector/inputs/propagation.md maps 'Edmonds et al. 2017' to 1709.04388, which is right only for the narrower-claim context.",
+   "notes/dual-sector.md §4 vs §9: 'Berglund, Hübsch and Minić 2019' names two papers. The §4 definition 'the canonically conjugate dual space, spanned by the difference of the left- and right-movers' is arXiv:1905.09463 (Int. J. Mod. Phys. D, per quotes.json); §9's dual-curvature quotation is arXiv:1905.08269 (Phys. Lett. B). propagation.md links the label only to 1905.08269, so a page that quotes the §4 definition by following it would link the wrong paper. No wiki page quotes that definition yet.",
+   "wiki/history/documents/checkpoint.md line 176 (unmodified in the working tree): it lists the literature check's items 64–69 but nothing on flag 64's addendum or flags 70–72 of the dual-sector investigation. Its 'published … since 2020' is right for the written record; the first public statement was the talk of 9 September 2019.",
+   "wiki/method/lakatosian-methodology.md line 81 (unmodified): the novelty paragraph cites flags 64, 66 and 67 as lost novelty. Flag 70 (narrowing #11 §3's 'This program's addition') and flag 71 (the positive compatibility statement in Freidel, Leigh and Minic 2016) bear on the same grading."
+  ],
+  "gate_output": ".venv/bin/python verify/literature_check.py -> exit 0, 558 PASS, 0 FAIL: 'OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.' (section C: 89 quoted passages; the new ones are found in notes/dual-sector.md)\n.venv/bin/python verify/dual_sector.py -> exit 1, 35 PASS: 'FAIL  the pre-registration is in the record  [/home/paul/git/reinholdtsen/conjugate-matter/review/dual-sector/preregistration.md]' / \"dual_sector FAILED: 1 check(s): ['the pre-registration is in the record']\". This is the same single failure as at baseline, before any edit. Sections A (quotations) and E (dependent texts, which quote this note's wording) pass.\n.venv/bin/python scripts/check-wiki.py notes/literature-check.md review/literature-check/README.md -> 'wiki OK — 330 pages, no problems' (exit 0). The script only checks files under wiki/, so these two have no targets.\n.venv/bin/python scripts/check-wiki.py -> 'wiki OK — 330 pages, no problems' (exit 0)\nbash scripts/check.sh -> exit 1. Every verify script prints OK except verify/dual_sector.py (the same pre-registration check); the wiki step prints 'wiki OK — 330 pages, no problems'. Full output: /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/e1-record-check.out (gitignored).",
+  "doubts": [
+   "verify/dual_sector.py and therefore scripts/check.sh are red on one check, 'the pre-registration is in the record': review/dual-sector/preregistration.md is absent. It was already absent before my edits and is outside my files. notes/dual-sector.md §13 says it was kept outside the repository until the agents were done, so the main session, not an agent, should add it.",
+   "I kept five phrases of the old wording verbatim and qualified each in place rather than deleting it: 'the school, like the program, expects no standard direct-detection signal', 'correlated with ours by construction', 'no such mechanism', 'the canonical conjugate of x', 'selected spontaneously (P5)'. notes/dual-sector.md (§4, §6, §11) or flag 64's addendum quote them, and verify/dual_sector.py (sections A and E) fails if a quoted passage occurs in no repository document. Two of them occurred nowhere but this note. Rewriting them away would mean rewording those quotations in notes/dual-sector.md and the flags first.",
+   "'Since 2020' and the talk's content as unknown were removed outright; neither is a quoted span of three or more words in any dependent text. 'Published … since 2020' in the README and '2020 on' in the note's §9 were left, since both are true of the written record.",
+   "The new quotations are checked by verify/literature_check.py section C only as passages found in a repository document (notes/dual-sector.md), not against review/literature-check/quotes.json. They are full-text quotations in review/dual-sector/quotes.json, which verify/dual_sector.py checks against stored excerpts. The header line says so.",
+   "I did not quote the talk's slides (read from images, set in capitals in the original); the third bullet paraphrases them. I added no links to the note body, because the note's style and its reference-list parser (literature_check.py section D) use bare identifiers; the new papers point to notes/dual-sector.md, whose reference list links each one."
+  ]
+ },
+ "e2-c1-pages": {
+  "files_changed": [
+   "/home/paul/git/reinholdtsen/conjugate-matter/wiki/program/founding-suppositions.md",
+   "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/literature-check.md",
+   "/home/paul/git/reinholdtsen/conjugate-matter/wiki/status/conjectures.md",
+   "/home/paul/git/reinholdtsen/conjugate-matter/wiki/status/open-problems.md"
+  ],
+  "changes": [
+   {
+    "file": "wiki/program/founding-suppositions.md",
+    "what": "Rewrote supposition 4's 'In the literature' bullet so it carries facts 1-5 and 9-10 plus the vacuum point of flag 70. It now says: a proposal that none of its authors derives; first stated in the Belgrade talk of 9 September 2019 (slides linked); in writing in Minic 2020, posted 29 February 2020, with the §6.2 quotation; restated to April 2026. It gives the three senses of 'dual', so their model doubles phase space where the program polarizes one. It keeps the existing readings sentence and adds that which reading is P.R.'s conjecture is open. 'Correlated' is the group's own word: independent at leading order in the string length, coupled beyond gravity beyond it with a strength no paper computes, and 'only gravitationally' below about 4.5×10¹⁴ GeV in Hübsch and Minic 2024 §5.3, which the 2026 papers do not repeat. The group explains past nulls and expects detection, against the program's permanent null. So the identification joined to gravity alone is published once, and never joined to a permanent null. Neither form was found, inside or outside the group, and no one outside the group states the identification. The old 'the spontaneous reading, which the check did not find in the school's papers' is replaced: Freidel, Kowalski-Glikman, Leigh and Minic 2021 place a breaking 'at the level of the vacuum sector' for a symmetry that is not ρ; what was not found is the spontaneous breaking of ρ with η as order parameter (flag 70, pending). The bullet links the new page and its reading section, row 7, the order parameter and broken Born duality, and links every paper at first mention. Added notes/dual-sector.md §2–§8, §10 and flags 64 (addendum) and 70 to the frontmatter and the Sources list; literature-check §3 became §2, §3."
+   },
+   {
+    "file": "wiki/method/literature-check.md",
+    "what": "C1 table row: the closest-work cell now reads Minic 2020, first stated in a talk of 9 September 2019; Berglund, Hübsch and Minić 2021; the same group to April 2026; each a proposal, in a doubled phase space; with links to the papers and the new page. The 'Not found' cell now reads 'the identification joined to coupling by gravity alone at every energy and a permanent null', noting the one paper with gravity alone below about 4.5×10¹⁴ GeV. Rewrote 'The first conjecture': dates; proposal, not derived; the Freidel, Leigh and Minic 2014 quotation kept, now linked, with its two settings (momentum at ℏ in their quantum mechanics, a doubled phase space where the dark sector is built); 'correlated' qualified as above, with Hübsch and Minic 2024; detection expected against the permanent null; the vacuum-level breaking for another symmetry with no order parameter (flag 70, pending); neither form found, inside or outside the group; pointer to the new page. Added that which reading is P.R.'s is open for each of the four conjectures. The pointer sentence now names the new page for C1. Flag 64's line names its addendum's added citations (the talk, Minic 2020 §5–§6.2, Hübsch and Minic 2024). The status line names notes/dual-sector.md and its script. Frontmatter and Sources gained notes/dual-sector.md, flags 64 (addendum) and 70, and verify/dual_sector.py. The author-year retrofit had skipped this page, so I linked its registered papers: rows C5–C7, Brümmer et al. (flag 68) and Goldhaber 2017."
+   },
+   {
+    "file": "wiki/status/conjectures.md",
+    "what": "Rewrote the C1 sentence of 'In the literature': a proposal never derived, first in a talk of 9 September 2019 and in writing in Minic 2020 (linked), in a doubled phase space, with a link to the new page. Added the qualified coupling (independent at leading order, beyond gravity beyond it with uncomputed strength, gravity alone below about 4.5×10¹⁴ GeV in one paper); detection expected against a permanent null (linked to row 7); neither form found, inside or outside the group; 'flag 64, pending, with its addendum'. The first conjecture's literature is now said to be on the group's page as well as in its audit entry. Added a sentence on the overlap beyond C1: much of the program's geometric setting, though not its central move, and none of it one of the other conjectures (flags 70–72, pending, linked to the further-overlaps section). The status line is now current to 2026-11-06. Frontmatter and Sources gained notes/dual-sector.md and flags 64 (addendum) and 70–72."
+   },
+   {
+    "file": "wiki/status/open-problems.md",
+    "what": "The description, italic opening, status line and 'Pending rulings' now count 72 flags. Flags 1–58 and 63–72 await a ruling; flags 64–72 are suspected omissions or understatements of published work; audit dates for 70–72 and the flag-64 addendum (2026-11-06); the register is current to 2026-11-06 and to flag 72. Its 'Two dark sectors' item no longer says 'correlated with ours'. It now gives the coupling beyond gravity beyond leading order, of uncomputed strength, and gravity alone below about 4.5×10¹⁴ GeV in one paper. It adds the root CLAUDE.md's signals (a dual photon correlated with ours, correlated accelerator events, the galactic acceleration-scale correlation near cH₀, which the standard cosmological model may also produce), and links the new page. New section 'Open from the dual-sector investigation' mirrors the root CLAUDE.md list. Its first item is the rulings on flags 70–72 and flag 64's addendum. Its second is what the reading did not reach: the closed-access Freidel, Leigh and Minic 2019 (DOI linked), the Hübsch–Minić book, and talks of 2018–2019. A sentence ties the open reading of C1 to the new page. The paragraph on who added which flags gained the dual-sector investigation and verify/dual_sector.py. Flag 64's line drops 'since 2020' and 'correlated with ours' and summarizes the addendum. Added lines for flags 70, 71 and 72 with linked citations. Added Hur et al. 2025's second model ('Clearly, w(a)<-1 for all a as anticipated', 'this model is clearly disfavored'; flag 72) to the diameter-note lead. Linked Brümmer et al. in flag 68's line. Updated frontmatter and Sources."
+   }
+  ],
+  "other_files_needing_change": [
+   "wiki/status/alive.md (assigned to me; left unchanged because it does not mention the school or C1's prior art; it cites Freidel, Kowalski-Glikman, Leigh and Minic only for the self-dual length). Stale details: the status line says 'current to 2026-11-03' and 'machine checks are the eleven scripts in verify/', with literature_check.py as 'the eleventh'. 'What the machine checks cover' lacks verify/dual_sector.py, now the twelfth script in scripts/check.sh. Flag 70 bears on its hard-core, P2′ and P5 lines (lines 103, 106, 109). Flag 72 bears on the a·ã = 1 line (230), the maximum-force line (260) and the τ / no-phantom lines (241, 243). Route to the overlaps/registers worker.",
+   "wiki/method/lakatosian-methodology.md line 81 ('published in its core, by Minic and coauthors since 2020') and its Sources line 135 ('the identification published since 2020'). Needed: first public in the talk of 9 September 2019, in writing 2020, a proposal; notes/dual-sector.md as a source; a link to the new page.",
+   "wiki/history/documents/checkpoint.md line 176: 'item 64, ... published by Minic and coauthors since 2020'. The same paragraph lists the flags on #11, so it needs the addendum's date and flags 70–72.",
+   "wiki/history/timeline.md: has the literature check of 2026-11-02 (lines 99, 450) but no entry for the dual-sector investigation of 2026-11-06.",
+   "After round 2: if flags 73–76 land (root CLAUDE.md placeholder DS-LASTFLAG), update wiki/status/open-problems.md (the counts '72' and '1–58 and 63–72', 'current to flag 72', the dual-sector section's flags item, and new flag lines) and wiki/status/conjectures.md ('flags 70–72').",
+   "wiki/method/literature-check.md C4 table row: Govaerts 2023, Vento 2025 and García-Moreno and Vento 2026 are still unlinked. I left the row alone because work/dual-sector/STATE.md reserves it until round 2. All three are registered (arXiv:2302.03526, 2507.06697, 2610.02083).",
+   "wiki/electric-magnetic-duality/monopole-explanation.md and the C3 entry of wiki/status/conjectures.md: note §6's point that the group's explanation of the dark-matter null 'has the shape of' C3 is not carried there. I did not add it because the state file reserves C3's page until round 2."
+  ],
+  "gate_output": "Per file (.venv/bin/python scripts/check-wiki.py FILE): wiki/program/founding-suppositions.md, wiki/method/literature-check.md, wiki/status/conjectures.md and wiki/status/open-problems.md each gave 'wiki OK — 330 pages, no problems'.\nWhole wiki (.venv/bin/python scripts/check-wiki.py): wiki OK — 330 pages, no problems\nFull scripts/check.sh (for information), last lines:\nFAIL  the pre-registration is in the record  [/home/paul/git/reinholdtsen/conjugate-matter/review/dual-sector/preregistration.md]\ndual_sector FAILED: 1 check(s): ['the pre-registration is in the record']\nverify/dual_sector.py FAILED\n\nwiki OK — 330 pages, no problems\nAll other verify scripts passed.",
+  "doubts": [
+   "The full scripts/check.sh is red, though not because of these edits: verify/dual_sector.py fails 'the pre-registration is in the record'. work/dual-sector/STATE.md says the pre-registration stays sealed outside the repo until all agents finish. The wiki gate itself is green.",
+   "I wrote flags 70–72 everywhere, since 72 is the last item now in review/wiki-build-flags.md. The note's §11 and the root CLAUDE.md (DS-LASTFLAG) expect flags up to 76 from round 2, so the counts will need updating then.",
+   "I moved the 'current to' date on the conjectures and open-problems status lines from 2026-11-03 to 2026-11-06. Those registers now reflect the investigation, but not round 2.",
+   "The author-year retrofit skipped literature-check.md and founding-suppositions.md, so I linked their registered author-year citations myself. Exceptions: the C4 row, reserved for round 2, and Khademi 2009, whose handle is not in scripts/wiki-papers.tsv and is unlinked across the wiki. No registry entries were added.",
+   "notes/literature-check.md §2–§3 had not yet been corrected when I worked (no diff). My literature-check.md text follows notes/dual-sector.md and names it as a source, so it may need small alignment with the record-note worker's wording.",
+   "On literature-check.md I kept the existing Freidel, Leigh and Minic 2014 (Phys. Lett. B) quotation 'coordinates in momentum space' and added 'a name the group gives them in two settings'. The qualifier rests on note §4 ('The group joins the senses'). The note does not discuss that particular quotation.",
+   "chi-particles.md and direct-detection-null.md are unchanged: grep finds no mention of the Minic school or of C1's prior art in either. Their 'M' in git status comes from the earlier link retrofit, not from me."
+  ]
+ },
+ "e3-hard-core-check": {
+  "problems_found": [
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "problem": "'#11's sentence gives their description of general relativity, not their proposal' applies the note's correction to the whole quoted sentence. That sentence includes 'call the choice a dynamical question', which is their proposal. Note §8 limits the correction to 'They treat the breaking as kinematical'.",
+    "fixed": true,
+    "fix": "Now reads: #11's \"They treat the breaking as kinematical\" gives their description of general relativity, not their proposal."
+   },
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "problem": "The new paragraph in 'The statement' cites 'the metastring paper' without a link. This is now the paper's first mention outside #11's quotation, and the page linked it only further down.",
+    "fixed": true,
+    "fix": "Added [arXiv:1502.08005](https://arxiv.org/abs/1502.08005) at that mention."
+   },
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "problem": "The gloss of K ('the structure whose two eigenspaces are the position and momentum halves of phase space') is not in the note, is untagged general knowledge, and is too specific. The wiki's own [T] statement (lagrangian-polarizations) is that K's eigenspaces are a transverse pair of Lagrangian subspaces.",
+    "fixed": true,
+    "fix": "Now reads: K, the structure whose two eigenspaces are a transverse pair of Lagrangian subspaces, such as the position and momentum halves of phase space [T]."
+   },
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "problem": "In 'What they did not do', the flag-70 paragraph beside the worklog's quotation covers 'no symmetry-breaking analysis' but not the quotation's last clause, 'call Born's breaking kinematical, not spontaneous'. The task asked for flag 70 beside the worklog's quotation.",
+    "fixed": true,
+    "fix": "Added one sentence at the start of the paragraph: In their papers \"kinematical\" names general relativity's split, which they propose to make dynamical, linking #the-statement."
+   },
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "problem": "The same paragraph quotes Berglund, Hübsch and Minic 2023 ('effectively spontaneously broken') and describes Freidel, Kowalski-Glikman, Leigh and Minic 2021 without citing either at its first mention. Both were linked only later, in 'Neighbours in the literature'.",
+    "fixed": true,
+    "fix": "Linked both papers there: arXiv:2104.00802, and arXiv:2212.06086 with §4.3."
+   },
+   {
+    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+    "problem": "The FKLM 2021 bullet describes the doubled phase space (a dual coordinate x̃ with its own momentum that does not commute with x). That rests on note §4, which neither the frontmatter sources nor the Sources list named; both cited only §8 and §9.",
+    "fixed": true,
+    "fix": "Added notes/dual-sector.md §4 to the frontmatter and to the Sources entry, with what it supports."
+   },
+   {
+    "file": "wiki/program/postulates/p5-spontaneous-selection.md",
+    "problem": "'the metastring paper [26S]' is cited outside #11's quotation, and the paper is linked nowhere on the page.",
+    "fixed": true,
+    "fix": "Added [arXiv:1502.08005](https://arxiv.org/abs/1502.08005)."
+   },
+   {
+    "file": "wiki/program/postulates/p5-spontaneous-selection.md",
+    "problem": "'a later paper of theirs places ... \"at the level of the vacuum sector\"' quotes FKLM 2021 without naming or linking the paper.",
+    "fixed": true,
+    "fix": "Linked [Freidel, Kowalski-Glikman, Leigh and Minic 2021](https://arxiv.org/abs/2104.00802)."
+   },
+   {
+    "file": "wiki/program/postulates/p5-spontaneous-selection.md",
+    "problem": "'is stated by them as well' credits the Berglund, Hübsch and Minic 2023 quotation ('we could have picked the dual') to 'them', which in context means Freidel, Leigh and Minic.",
+    "fixed": true,
+    "fix": "Now reads: is stated as well, as a symmetry of the theory, in papers by Minic and coauthors. True of both cited papers."
+   },
+   {
+    "file": "wiki/program/hard-core.md",
+    "problem": "Two problems in the added sentence. 'the metastring paper [26S]' is cited and the paper is linked nowhere on the page. And '[Freidel, Leigh and Minic 2014]' does not say which of the two 2014 papers it means; propagation.md's form names the journal.",
+    "fixed": true,
+    "fix": "Added the arXiv:1502.08005 link and '(Int. J. Mod. Phys. D)' after the 2014 link."
+   },
+   {
+    "file": "wiki/program/borns-question.md",
+    "problem": "The added qualification cites 'the metastring paper' without a link, and the paper is linked nowhere on the page.",
+    "fixed": true,
+    "fix": "Added [arXiv:1502.08005](https://arxiv.org/abs/1502.08005)."
+   },
+   {
+    "file": "wiki/program/postulates/p2-prime.md",
+    "problem": "The 'A breaking in the vacuum' bullet describes FKLM 2021 ('a later paper of theirs, with Kowalski-Glikman') without linking it.",
+    "fixed": true,
+    "fix": "Now reads: A later paper of theirs, [Freidel, Kowalski-Glikman, Leigh and Minic 2021](https://arxiv.org/abs/2104.00802), places ..."
+   },
+   {
+    "file": "wiki/symmetry-breaking/mandatory-breaking.md",
+    "problem": "Not an assigned file; the editor listed it. #11 §3's 'They treat the breaking as kinematical' still appears with no flag-70 qualification (0 mentions of flag 70 on the page).",
+    "fixed": false,
+    "fix": "Not edited, since it is outside e3-hard-core's files. It needs the same qualification as p5 and hard-core."
+   },
+   {
+    "file": "wiki/symmetry-breaking/toy-models/success-criteria.md",
+    "problem": "Not an assigned file; the editor listed it. It quotes the worklog's 'write no potential and do no symmetry-breaking analysis, and call Born's breaking kinematical, not spontaneous' with no flag 70 beside it.",
+    "fixed": false,
+    "fix": "Not edited, since it is outside e3-hard-core's files."
+   },
+   {
+    "file": "review/dual-sector/preregistration.md",
+    "problem": "verify/dual_sector.py fails one check, 'the pre-registration is in the record', because review/dual-sector/preregistration.md does not exist yet. work/dual-sector/STATE.md keeps the pre-registration sealed outside the repo until all agents finish. These edits did not cause it, and the script's other sections, including E (dependent texts), pass.",
+    "fixed": false,
+    "fix": "None, deliberately. It clears when the orchestrator moves the pre-registration into review/dual-sector/ as STATE.md plans. scripts/check.sh stays red until then."
+   }
+  ],
+  "gate_output": "Run after the last edit:\nwiki/phase-space/reciprocity/broken-born-duality.md: wiki OK — 330 pages, no problems\nwiki/program/postulates/p2-prime.md: wiki OK — 330 pages, no problems\nwiki/program/postulates/p5-spontaneous-selection.md: wiki OK — 330 pages, no problems\nwiki/program/hard-core.md: wiki OK — 330 pages, no problems\nwiki/phase-space/born-geometry/compatibility-theorem.md: wiki OK — 330 pages, no problems\nwiki/symmetry-breaking/order-parameter.md: wiki OK — 330 pages, no problems\nwiki/phase-space/modular-field/lagrangian-grassmannian.md: wiki OK — 330 pages, no problems\nwiki/program/borns-question.md: wiki OK — 330 pages, no problems\nwhole wiki (.venv/bin/python scripts/check-wiki.py): wiki OK — 330 pages, no problems\nRun for completeness, though notes/literature-check.md was not touched:\n.venv/bin/python verify/literature_check.py: OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.\n.venv/bin/python verify/dual_sector.py: dual_sector FAILED: 1 check(s): ['the pre-registration is in the record']. The file is not yet in the repo, by design; every other section, including E (dependent texts), passes.\nOwn checks, in work/dual-sector/scratch/e3-hard-core-check/:\nquotes_strict.py: every double-quoted span on an added body line, of any length, is compared with notes/dual-sector.md and with the page before the edit. 50 match verbatim. The 5 that do not are reference-list titles with the trailing comma the pages' reference style uses; they match the note's reference list.\nnumbers.py: every number on an added line is in the note or in the page's earlier text.",
+  "overall": "The editor did the assigned work, and the statements, quotations and numbers it added are supported by notes/dual-sector.md. I compared the eight pages with the editor's backups in work/dual-sector/scratch/e3-hard-core/before/ to separate its changes from the earlier link retrofit.\n\nWhat the editor got right:\n- broken-born-duality's description and italic opening no longer say the authors treated the breaking as kinematical or gave no symmetry-breaking analysis. They now say the authors made the split dynamical, carried by solutions, and that a later paper places a breaking tied to the polarization in the vacuum, for a dual Lorentz symmetry that is not ρ, with no potential or order parameter.\n- #11's and the worklog's quotations are verbatim, and flag 70 sits beside each.\n- FKLM 2021, BHM 2023 and the Yargic thesis are under 'Neighbours in the literature'.\n- η = HJ (2013) and the 2016 naming of U(d)/O(d) are on p2-prime and order-parameter, and the 2016 naming is in lagrangian-grassmannian's references section.\n- p5 has the other polarization's equal standing; hard-core has its sentence and the link to #further-overlaps-with-the-program; compatibility-theorem has flag 71's positive form; borns-question has the qualification.\n- No status, title or status line changed; w is not used and no new acronym appears.\n- The editor's registry row (recid:1923123, Yargic) is correct. The other new rows in scripts/wiki-papers.tsv came from other agents.\n\nOn the editor's doubts:\n- The extra p2-prime sentence (ω-only rigidity not found) is supported by note §8, so I kept it.\n- The change to p5's opening is required by fact 6.\n- Scoping 'kinematical' to two papers matches the note.\n- The K gloss was the one real problem; I corrected it.\n\nThe problems I fixed were mostly missing paper links: the metastring paper on four pages, and FKLM 2021 and BHM 2023 at the points where they are first quoted or described. The others were one correction applied to too much of #11's sentence, one quotation credited to the wrong authors, a missing source section, and an incomplete qualification beside the worklog's quotation. I edited five pages: broken-born-duality, p2-prime, p5-spontaneous-selection, hard-core and borns-question. compatibility-theorem, order-parameter, lagrangian-grassmannian and the registry needed no change. Nothing was committed.\n\nOutside my files:\n- mandatory-breaking.md and toy-models/success-criteria.md still lack flag 70 beside their #11 and worklog quotations.\n- references.md and curved-momentum-space.md, which the editor also listed, have since been updated by another agent.\n- verify/dual_sector.py stays red until the pre-registration is moved into review/dual-sector/, which STATE.md plans as a later step. Until then scripts/check.sh will not pass, whatever the wiki's state.\n\nMy two check scripts are in work/dual-sector/scratch/e3-hard-core-check/, which is gitignored. The editor's backups in work/dual-sector/scratch/e3-hard-core/ can be cleared once the change lands."
+ },
+ "e4-overlaps": {
+  "files_changed": [
+   "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+   "wiki/gravity/spin-2-fields/cosmological-constant-problem.md",
+   "wiki/cosmology/scale-factor-duality/self-dual-cosmic-box.md",
+   "wiki/conjugate-relativity/maximum-force.md",
+   "wiki/phase-space/reciprocity/curved-momentum-space.md",
+   "wiki/references.md",
+   "wiki/history/timeline.md",
+   "wiki/history/documents/project-instructions.md",
+   "wiki/method/verification/the-gate.md",
+   "wiki/method/verification/literature-check-script.md",
+   "scripts/wiki-papers.tsv"
+  ],
+  "changes": [
+   {
+    "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+    "what": "New paragraph 'Related scalings in the literature [S]' in the derivation section: Freidel, Leigh and Minic 2016 §1.4 ('squeezes the modular cell along the momentum direction and stretches it in the space direction'), Freidel, Kowalski-Glikman, Leigh and Minic 2021 eq. 2, and Hur et al. 2025 §2 (δx δx̃ ∼ λ²), related to a·ã = 1, with the program's derivation from ω-rigidity [D] and flag 72, pending. The x̃ gloss gives both senses of the group's dual coordinate, links the new page's #what-dual-means-there section, and links the modular cell to the self-dual cosmic box's 'Born geometry' section. In the 'What follows' bullet that carries flag 49: Berglund, Hübsch and Minić 2019's published dual Einstein term ('the curvature of the canonically conjugate dual space provides for a positive cosmological constant to leading order'; the dual space's size sets Newton's constant), the opposite assignment to #11 §10's 'dual curvature ↦ negative dark radiation'; their dual space is the doubled coordinate, not momentum. Frontmatter sources and Sources list extended (notes/dual-sector.md §4, §9; flags item 72)."
+   },
+   {
+    "file": "wiki/gravity/spin-2-fields/cosmological-constant-problem.md",
+    "what": "Beside the diameter note's statement of Hur et al. 2025's w > −1 model: it is the second of the paper's two models. The first, under an ultraviolet–infrared relation from the authors' earlier work, gives 'Clearly, w(a)<-1 for all a as anticipated' and 'this model is clearly disfavored' by DESI's second data release (the paper's §3.3); w(a) ≥ −1 only under the alternative (its §3.4). The sign follows from an assumed relation, so the authors make no fixed prediction on row 4. Added flag 72, pending, and a link to the new page's #further-overlaps-with-the-program. The Standard-references entry notes the two models; sources extended."
+   },
+   {
+    "file": "wiki/cosmology/scale-factor-duality/self-dual-cosmic-box.md",
+    "what": "Same addition as on the cosmological-constant-problem page, after the quoted w > −1 sentence: the paper's two models, the sign following from an assumed relation, row 4 linked, flag 72, pending, and a link to the new page. Frontmatter sources and Sources list extended."
+   },
+   {
+    "file": "wiki/conjugate-relativity/maximum-force.md",
+    "what": "New subsection '### Newton's constant between space and momentum space' under 'Comparison with the literature': Freidel, Leigh and Minic 2014 (Int. J. Mod. Phys. D, §1.2) say Newton's constant 'can be considered as a universal conversion factor between the seemingly different concepts of space and momentum space, in the same way that the speed of light is a universal conversion factor between space and time.' #13 builds its momentum-space scale and c⁴/G from the same constant without citing them; they state no maximum force and no momentum-space light cone (flag 72, pending; link to the new page). Sources extended."
+   },
+   {
+    "file": "wiki/phase-space/reciprocity/curved-momentum-space.md",
+    "what": "New paragraph 'Born geometry [S]' after the lineage #11 cites: Freidel, Leigh and Minic 2014 (Phys. Lett. B, the first paper of #11's [3]†) write 'not only will space-time become curved, but momentum space as well', an idea they trace to Born (Freidel, Leigh and Minic 2015 §1). Neither #11 §3's lineage nor App. A item 10 ('Momentum space has its own gravity') cites them, and X has no counterpart in their papers (flag 72, pending; link to the new page). Standard references gains the paper [S]; frontmatter and Sources extended (#11 App. A item 10 and §5 included)."
+   },
+   {
+    "file": "wiki/references.md",
+    "what": "New group '## Literature the dual-sector investigation found' before 'Photon dispersion', listing all works of notes/dual-sector.md's reference list with links in six entries. The entries cover: the identification and its restatements; earlier narrower claims and Modified Dark Matter; Born geometry, metastrings and the choice of polarization; dark energy from the dual space; a self-interaction that falls with velocity; and dark matter in other dual spaces outside the group. Each entry has Marks, Cited for (with note sections and flags 64 addendum, 70–72) and Cited on built from the wiki's links. Works with entries above are marked 'also above', and their Cited on counts only pages drawing on the note. The 'Cited on' lists of existing entries were completed: Freidel, Leigh and Minic 2014 (+9 pages incl. the new page, maximum-force and curved-momentum-space), 2015 (+curved-momentum-space), Berglund, Hübsch and Minic 2023 (+3), Hur et al. 2025 (+new page, cosmological-constraint), and the two literature-check entries (+new page). Those entries also gain the dual-sector note's marks and uses. Hur et al.'s Checks line now records both of the paper's models, and the literature-check entry's Cited for gives the corrected date and the doubled-phase-space sense. Frontmatter and Sources extended."
+   },
+   {
+    "file": "wiki/history/timeline.md",
+    "what": "New section '## The dual-sector investigation: 2026-11-06' with an intro and three dated rows. Row 1, the workflows and the verdicts: talk of 9 September 2019 and Minic 2020 linked, Hübsch and Minic 2024's gravity-only regime, neither form found, the geometric setting. Row 2, the write-up: note, verify/dual_sector.py as twelfth gate script, flag 64 addendum and flags 70–72 pending, the new page. Row 3, the paper links and the new 'paper' check with scripts/wiki-papers.tsv. Description, italic opening and status line now run to 2026-11-06. 'Pending' now says 72 items, 63–72 pending, flags 70–72 and the addendum to item 64. New bullet under 'What the record does not date'; sources extended."
+   },
+   {
+    "file": "wiki/history/documents/project-instructions.md",
+    "what": "New bullet '**The dual-sector investigation.**' summarizing the root CLAUDE.md entry of 2026-11-06 in the page's manner, with slides, Minic 2020, Hübsch and Minic 2024 and Freidel, Kowalski-Glikman, Leigh and Minic 2021 linked; flags 70–72 pending, the addendum, the new page, verify/dual_sector.py and the paper links. The literature-check bullet points to the 2026-11-06 entry for the date and correlation. The layout bullets for notes/ and review/ add the dual-sector note and review/dual-sector/, and the gate section links the dual-sector script. Sources extended."
+   },
+   {
+    "file": "wiki/method/verification/the-gate.md",
+    "what": "Eleven → twelve throughout (description, opening, explicit list, 'names all twelve', 'After the twelve scripts', 'All twelve' check helpers); the opening now names the dual-sector note. 'The rule' paragraph: the eleventh script's span now includes flag 64's addendum and flags 70–72. A twelfth sentence says verify/dual_sector.py reads the note, the new wiki page (the only wiki page a verify/ script reads) and the flags, and says what trips it; section F is anchored in Minic 2020 eq. 27. New table row for verify/dual_sector.py, and a [V]-tag paragraph saying it backs no tag. New 'What is not gated' bullet (judgments taken as given, slide passages counted, --online not in the gate, tools not run). New '**paper**' bullet in 'The wiki check', with a sentence that the paper check compares labels with the registry. New 2026-11-06 entry in 'How the script list grew'; 'A recorded run' now says six later scripts. Sources extended."
+   },
+   {
+    "file": "wiki/method/verification/literature-check-script.md",
+    "what": "Status line: 'eleventh of the twelve scripts that the gate … runs, before the dual-sector script' (linked). Section F description corrected: the script reads the flags file from the heading of flags 64–69 to the closing paragraph, a span that also holds flag 64's addendum and flags 70–72, which the dual-sector script checks as well. Frontmatter and Sources extended."
+   },
+   {
+    "file": "scripts/wiki-papers.tsv",
+    "what": "Registered 14 papers of the note's list that the registry lacked: arXiv:2111.05659, 1905.09463, 2202.05104, 2202.06890, 2307.16712, 1801.00160, 2005.08927, 2405.08744, 1706.03305, 1005.3537, 2610.19522, 0705.4581, 2202.05266, and doi:10.1088/1742-6596/804/1/012032. The rows come from the tool's own lookup and write functions, with the registry re-read just before writing; a snapshot comparison shows no row was lost. recid:1923123 had meanwhile been added by another agent."
+   }
+  ],
+  "other_files_needing_change": [
+   "wiki/predictions/early-universe-step.md — its section '**The dual term is not derived [O] (flag 49).**' and status line: add the published treatment of a dual Einstein term. Berglund, Hübsch and Minić 2019 (https://arxiv.org/abs/1905.08269) integrate the doubled gravitational action over the dual coordinate, and 'the curvature of the canonically conjugate dual space provides for a positive cosmological constant to leading order', the dual space's size setting Newton's constant. That is the opposite assignment to #11 §10's 'dual curvature ↦ negative dark radiation', which underlies row 10's 'closed dual curvature ⇒ negative ΔN_eff'. Their dual space is the doubled coordinate (difference of left- and right-movers), not momentum, and the term is still not derived from S_H (notes/dual-sector.md §4, §9; flag 72, pending).",
+   "wiki/status/open-problems.md — item '**Derive the dual Einstein–Hilbert term from S_H** [O]' (flag 49): add the same published treatment (Berglund, Hübsch and Minić 2019, opposite assignment; flag 72, pending).",
+   "wiki/cosmology/scale-factor-duality/duality-dictionary.md — the dictionary's 'dual curvature ↦ negative dark radiation' entry and 'The term itself is not derived … (flag 49)': note Berglund, Hübsch and Minić 2019's opposite assignment, with the dual curvature as a positive cosmological constant (notes/dual-sector.md §9; flag 72).",
+   "wiki/cosmology/scale-factor-duality/closed-universe.md — '**The term is underived [O].**' and open item 1 'Derive the dual Einstein–Hilbert term from S_H' (flag 49): add the same published treatment (flag 72).",
+   "Other pages that carry flag 49 in passing could add 'flag 72' beside it for the published dual Einstein term: wiki/cosmology/scale-factor-duality/friedmann-cosmology.md, wiki/program/conjugate-universe.md, wiki/gravity/tuning-test/geometric-action.md, wiki/gravity/spin-2-fields/planck-units.md, wiki/gravity/spin-2-fields/ghosts.md, wiki/phase-space/reciprocity/born-length.md, wiki/cosmology/early-universe/{radiation-era, cosmic-microwave-background, phase-transition-gravitational-waves, big-bang-nucleosynthesis}.md, wiki/cosmology/scale-factor-duality/{square-at-the-bounce, _index}.md, wiki/cosmology/_index.md, wiki/method/verification/{phase-space-diameter-script, closed-universe-script}.md, wiki/status/{alive, under-review}.md, wiki/notation.md, wiki/glossary.md, wiki/predictions/{table-history, _index}.md and wiki/history/documents/lab-notebook.md.",
+   "wiki/method/review/round-5.md (line ~209) — it quotes the diameter note's Hur et al. 2025 w > −1 model only. Add the paper's first model, under the authors' earlier ultraviolet–infrared relation: 'Clearly, w(a)<-1 for all a as anticipated', and 'this model is clearly disfavored' by DESI's second release (notes/dual-sector.md §9; flag 72, pending).",
+   "Optional, fact 8: wiki/conjugate-relativity/maximum-force-conjectures.md and wiki/phase-space/reciprocity/born-length.md (Born length at the Planck length) could cite Freidel, Leigh and Minic 2014 (https://arxiv.org/abs/1405.3949) §1.2 on Newton's constant as a space–momentum conversion factor. wiki/gravity/momentum-graviton/borns-answer.md (App. A item 10, 'Momentum space has its own gravity') and wiki/phase-space/reciprocity/momentum-fibers.md could cite Freidel, Leigh and Minic 2014 Phys. Lett. B (https://arxiv.org/abs/1307.7080) on curved momentum space (flag 72).",
+   "verify/literature_check.py — section F prints 'F. Quotations in flags 64–69', but it reads up to the flags file's closing paragraph, which now includes flag 64's addendum and flags 70–72 (46 passages today). Its label, and the literature-check note's description of the check if it names 64–69 only, could say so.",
+   "CLAUDE.md (root) and notes/dual-sector.md still hold placeholders (DS-AGENTS, DS-REVIEW, DS-ROUND2, 70–DS-LASTFLAG; ROUND2-PENDING, RND2-AGENTS, RND2-TOKENS). If flags 73–76 are added, update my pages that say 70–72 or 72 items: the timeline's 'Pending', project-instructions, the-gate, literature-check-script and references.",
+   "wiki/method/verification/dual-sector-script.md — it has no 'The recorded output' section. If one is added, the gate page's 'A recorded run' sentence ('the page of the sixth … sets out its checks') can link its #the-recorded-output."
+  ],
+  "gate_output": ".venv/bin/python scripts/check-wiki.py (whole wiki, last run): wiki OK — 330 pages, no problems\n.venv/bin/python scripts/check-wiki.py on the ten touched files: wiki OK — 330 pages, no problems\nverify/literature_check.py: OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds. (section F: 46 quoted passages)\nverify/dual_sector.py: FAIL  the pre-registration is in the record  [review/dual-sector/preregistration.md]\ndual_sector FAILED: 1 check(s): ['the pre-registration is in the record'] — the file is kept outside the repository until the agents are done (not mine to supply; all other checks PASS, including E: 33 page quotations and 24 flag quotations found)",
+  "doubts": [
+   "Registry write: I did not run the command line `scripts/wiki-papers.py ID…`. A concurrent agent was writing the registry (recid:1923123 appeared between my reads), so I used the tool's own lookup and write_registry functions and re-read the registry immediately before writing. The rows are identical to what the command would add, and the snapshot comparison shows no lost row.",
+   "arXiv:1801.00160 is registered by INSPIRE with year 2018 only, though the note says it was posted 30 December 2017. I labelled its link by identifier; a label 'Edmonds et al. 2017' on any page would fail the paper check.",
+   "Flag range: I used 70–72 throughout (task text, flags file, review/dual-sector/README.md). Note §11 and the root CLAUDE.md anticipate 73–76 from round 2.",
+   "'Cited on' lists in references.md were built from wiki links at my run; pages other agents edit later may be missing. work/dual-sector/scratch/e4-overlaps/fill_group.py (with cited_on.py and group-template.md) regenerates the new group's lists. Works marked 'also above' count only pages that draw on notes/dual-sector.md, plus two hand exclusions: the timeline's 2015 metastring row, and Hur et al. on the round-5 row and the root leads.",
+   "Existing primary entries: I appended every page that links the work but was missing, including pages other agents changed today (e.g. p2-prime, p5, order-parameter, borns-question, unified-modular-structure, literature-check on the Freidel, Leigh and Minic 2014 entry). To the two literature-check-group entries I added only the new page.",
+   "Jejjala, Kavic, Minic and Takeuchi 2022: the note does not say which of the two 2022-labelled papers 'had an equation of state below −1'. The record suggests arXiv:2202.05266 (2011.08852 states no w). The register lists both in one entry under the note's sentence.",
+   "The E8 pairing 'Berglund, Hübsch and Minic 2021' of note §7 I took to be arXiv:2111.14205, as flag 67 has it. The register's combined Cited for line avoids per-paper attribution there.",
+   "On the cosmological-constraint page, note §9 calls the group's scalings related 'in the doubled setting', while note §4 lists Freidel, Leigh and Minic 2016 among the papers where x̃ = p/ε (one phase space). I wrote that the group's x̃ has both senses and did not assign a setting to each paper.",
+   "project-instructions.md says 'flags 70–72' where the root entry has the placeholder '70–DS-LASTFLAG', and omits round-2 results (placeholder DS-ROUND2). It does mention the corrections to notes/literature-check.md §2–§3, which I confirmed are in that file.",
+   "I did not add the 2019 talk or Minic 2020 to the timeline's 'Before the program' table (which lists works #11 cites); the new 2026-11-06 section links them instead."
+  ]
+ },
+ "e1-record-check": {
+  "problems_found": [
+   {
+    "file": "notes/literature-check.md",
+    "problem": "§3, third bullet of 'What is published': it paraphrases the 2019 talk's slides but doesn't say how they were read. notes/dual-sector.md §3 says the slides are handwritten, were read from the images by agents, and could not be checked by code. The note's own rule (§10) is that a paraphrase of a source code could not read says how it was read. Without the caveat, the new header line ('quotations found by code') could be taken to cover the slides.",
+    "fixed": true,
+    "fix": "Added '(the slides are handwritten: agents read them from the images, and code could not check them)' after the paraphrase."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "problem": "§3 'What their dual is', first bullet: 'The momentum side in one phase space is the group's quantum mechanics, x̃ ≡ p/ε with λε = ℏ' says a side of phase space *is* a set of papers, and doesn't parse when read aloud.",
+    "fixed": true,
+    "fix": "Reworded to 'The dual is the momentum side of one phase space in the group's quantum mechanics, where x̃ ≡ p/ε with λε = ℏ (Minic 2020 §2; Hübsch and Minic 2024 §3.2)'."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "problem": "Same bullet: 'Freidel, Leigh and Minic 2017, eq. 69' is ambiguous. notes/dual-sector.md lists two 2017 papers by those authors. The dual-sector record (review/dual-sector/readers/r6-foundations*.json) gives eq. 69 as arXiv:1706.03305, the JHEP paper.",
+    "fixed": true,
+    "fix": "Changed to '(Freidel, Leigh and Minic 2017, JHEP, eq. 69; `notes/dual-sector.md` §4)'."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "problem": "§3 vacuum bullet: the narrowing of 'The check found no such mechanism' left out two points of fact 6 and flag 70 that bear on the 'spontaneous reading' it qualifies. In Freidel, Leigh and Minic 2014 (Int. J. Mod. Phys. D) §2 the split is absent from the formulation and present in its solutions. Berglund, Hübsch and Minic 2023 (Int. J. Mod. Phys. D, §4.3) call the dual Lorentz group 'effectively spontaneously broken' (quotes.json id 2212.06086). Without them, a reader would not learn that the group calls its breaking spontaneous.",
+    "fixed": true,
+    "fix": "Added both: 'and in the same paper the split is absent from the formulation and present in the solutions of string theory (§2)', and '; Berglund, Hübsch and Minic 2023 (Int. J. Mod. Phys. D, §4.3) say that within the sector of fixed non-zero p̃ it \"is effectively spontaneously broken\"'. The quotation is verbatim from notes/dual-sector.md §8. The closing 'None of these papers gives a potential, an order parameter or a Goldstone angle' still holds."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "problem": "§6 'Related', Hur et al. 2025: the new definition of w ('w being dark energy's equation of state') was shorter than the one notes/dual-sector.md §9 gives. The editor's line wrap also left a stray short line.",
+    "fixed": true,
+    "fix": "Completed it to 'w being dark energy's equation of state, its pressure divided by its energy density' and reflowed the paragraph. All quotations are unchanged."
+   },
+   {
+    "file": "notes/literature-check.md",
+    "problem": "The note's Sources list did not name notes/dual-sector.md, review/dual-sector/quotes.json, flag 64's addendum or flags 70–72, although the corrected §2, §3 and §6 now draw on them.",
+    "fixed": true,
+    "fix": "Added '- `notes/dual-sector.md` §3–§6, §8, §9, which qualifies §2, §3 and §6 (2026-11-06), and `review/dual-sector/quotes.json`, for the quotations taken from it.' The flags line now ends 'and flag 64's addendum and items 70–72, which `notes/dual-sector.md` proposes.' No script parses this list. The reference list is untouched."
+   },
+   {
+    "file": "review/dual-sector/preregistration.md (absent; not an assigned file)",
+    "problem": "verify/dual_sector.py fails one check, 'the pre-registration is in the record', so scripts/check.sh is red. The failure was there before the editor's work and before mine. notes/dual-sector.md §13 says the file was kept outside the repository until the agents were done.",
+    "fixed": false,
+    "fix": "The main session, not an agent, should add review/dual-sector/preregistration.md once the agents are done. Then verify/dual_sector.py and scripts/check.sh should pass."
+   },
+   {
+    "file": "CLAUDE.md (root; not an assigned file)",
+    "problem": "The 2026-11-06 entry says 'corrections to `notes/literature-check.md` §2–§3', but one line of §6 (Hur et al. 2025, flag 72) was corrected too. The placeholders DS-AGENTS, DS-REVIEW, DS-ROUND2 and DS-LASTFLAG are still unfilled.",
+    "fixed": false,
+    "fix": "Change to '§2–§3 and one line of §6', and fill the placeholders once round 2 is done."
+   },
+   {
+    "file": "notes/dual-sector.md and work/dual-sector/inputs/propagation.md (not assigned files)",
+    "problem": "Ambiguous author–year labels in the note. 'Berglund, Hübsch and Minić 2019' means arXiv:1905.09463 (Int. J. Mod. Phys. D) in §4 but arXiv:1905.08269 (Phys. Lett. B) in §9, and propagation.md links the label only to 1905.08269. 'Freidel, Leigh and Minic 2017' in §4 matches two reference entries; the record gives 1706.03305 (JHEP). 'Edmonds et al., January 2016' (§5) and 'Edmonds et al. 2017' (§6) are the same paper, arXiv:1601.00662, but propagation.md maps 'Edmonds et al. 2017' to 1709.04388. That mapping is right only for the narrower-claim citation. The collider-tests quotation is from 1601.00662 (review/dual-sector/quotes.json).",
+    "fixed": false,
+    "fix": "Add the journal (or arXiv number) beside each ambiguous label in notes/dual-sector.md and propagation.md. Check the wiki page wiki/dark-matter/conjugate-matter/dual-standard-model.md, which cites 'Edmonds et al. 2017' for the collider-tests quotation; that citation belongs to 1601.00662, which scripts/wiki-papers.tsv registers with the years 2016 and 2017."
+   },
+   {
+    "file": "wiki/history/documents/checkpoint.md and wiki/method/lakatosian-methodology.md (not assigned files)",
+    "problem": "Both are unmodified in the working tree. Line 176 of the checkpoint page lists the literature check's flags 64–69 but nothing on flag 64's addendum or flags 70–72. Line 81 of the Lakatos page counts the literature check's prior art against novelty but not flags 70 and 71, which bear on the same grading. The editor reported this; I confirmed the lines.",
+    "fixed": false,
+    "fix": "Whoever owns these pages should add pointers to flag 64's addendum and flags 70–72 (pending), in the wiki's voice."
+   }
+  ],
+  "gate_output": "After my fixes:\n- .venv/bin/python verify/literature_check.py: exit 0, 558 PASS, 0 FAIL: \"OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.\" Section C: 85 quoted passages, 60 from the literature and 25 from repository documents. It was 84 before my one added quotation; the editor reported 89.\n- .venv/bin/python verify/dual_sector.py: exit 1, 35 PASS, 1 FAIL: \"FAIL  the pre-registration is in the record  [/home/paul/git/reinholdtsen/conjugate-matter/review/dual-sector/preregistration.md]\". This is the same single failure as before any edit. Sections A (quotations) and E (dependent texts) pass.\n- .venv/bin/python scripts/check-wiki.py notes/literature-check.md review/literature-check/README.md: \"wiki OK — 330 pages, no problems\" (exit 0). Both files are outside wiki/, so the gate checks nothing in them.\n- .venv/bin/python scripts/check-wiki.py: \"wiki OK — 330 pages, no problems\" (exit 0).\n- bash scripts/check.sh: exit 1. Every verify script prints OK except verify/dual_sector.py (the pre-registration check), and the wiki step prints \"wiki OK — 330 pages, no problems\". Full output is in /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/e1-record-check-gate.out (gitignored).\n- A separate script, /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/e1-record-check-quotes.py, compared every quotation added since HEAD against notes/dual-sector.md. All 9 occur there verbatim: the editor's 8 and my 1.",
+  "overall": "I checked editor e1-record's work and found it sound. I found six problems in /home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md and fixed all of them; /home/paul/git/reinholdtsen/conjugate-matter/review/literature-check/README.md needed nothing. The gate is still red on one check that neither of us can fix: the missing pre-registration file (below).\n\n**What the editor got right**\n- Every item the task listed is done: the dated header line, §2's plain-language passage, the C1 \"Not found\" cell, and all of §3's listed qualifications (dates, the §6.2 quotation, the talk's public slides, the meaning of \"canonically conjugate dual space\", the narrowed \"correlated\", \"direct-detection\" and \"no such mechanism\"), plus §6's two signs of 1 + w.\n- All 8 quotations the editor added are verbatim from notes/dual-sector.md, and every number is in that note.\n- The two journal labels the note does not give itself are right according to review/dual-sector/quotes.json: the 2019 paper is Int. J. Mod. Phys. D (1905.09463) and the 2023 §6.3 paper is Int. J. Mod. Phys. D (2212.06086). The literature check's own quotes.json backs keeping \"canonically conjugate dual space\" for the 2021 paper.\n- The verdicts, both tables (apart from the C1 \"Not found\" cell) and the reference list are unchanged. New papers are cited by name with a pointer to notes/dual-sector.md, and no claim's status changed.\n- The README line is dated and sits under \"What came of it\".\n- Keeping five old phrases and qualifying them was the right call: notes/dual-sector.md and flag 64's addendum quote them, and verify/dual_sector.py checks that such quoted phrases still exist in the repository.\n\n**What I fixed in the note**\n- **Slides:** the paraphrase now says they are handwritten, were read from images by agents, and could not be checked by code.\n- **Wording:** reworded a sentence that did not parse.\n- **eq. 69:** now labeled as the JHEP paper, since two 2017 papers by Freidel, Leigh and Minic exist.\n- **Vacuum narrowing:** added two points from fact 6 and flag 70 that bear on the \"spontaneous reading\" — the split appears only in the solutions, not the formulation (2014), and Berglund, Hübsch and Minic 2023 call the dual Lorentz breaking \"effectively spontaneously broken\".\n- **w in §6:** completed the definition of w to match notes/dual-sector.md §9.\n- **Sources list:** added notes/dual-sector.md, review/dual-sector/quotes.json, flag 64's addendum and flags 70–72.\n\n**Gates**\n- verify/literature_check.py passes.\n- verify/dual_sector.py, and so scripts/check.sh, fail one check only: review/dual-sector/preregistration.md is not in the repository. That was true before any edit, and notes/dual-sector.md §13 says it is kept out until the agents are done, so the main session needs to add it.\n- The wiki gate reports \"wiki OK — 330 pages, no problems\".\n\n**Other files that need changes**\n- The root CLAUDE.md entry should say the literature check was corrected in §2–§3 and one line of §6, and its DS-placeholders are still unfilled.\n- Ambiguous author–year labels in notes/dual-sector.md and propagation.md (Berglund, Hübsch and Minić 2019; Freidel, Leigh and Minic 2017; Edmonds et al. 2016/2017) can send the new wiki page's citations to the wrong paper.\n- wiki/history/documents/checkpoint.md and wiki/method/lakatosian-methodology.md have no pointers to flags 70–72.\n\nNothing was committed. My scratch outputs are in /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/ (gitignored): e1-record-check-quotes.py, e1-record-check-lit.out, e1-record-check-ds.out and e1-record-check-gate.out."
+ },
+ "e2-c1-pages-check": {
+  "problems_found": [
+   {
+    "file": "wiki/method/literature-check.md",
+    "problem": "'The first conjecture' said Freidel, Leigh and Minic 2014's 'coordinates in momentum space' is 'a name the group gives them in two settings'. notes/dual-sector.md does not say that. It also gave only two of the note's three senses of 'dual' (§4) and left out the conjugacy of fields.",
+    "fixed": true,
+    "fix": "Replaced the clause with '...\"coordinates in momentum space\" [S], and the group's \"dual\" has three senses.' The three senses follow, as in note §4 and fact 2: momentum rescaled in one phase space at ℏ; a coordinate of a doubled phase space at the string length, with a momentum of its own; and, in one review, dual fields that do not commute with ours. Then: 'So their model doubles phase space where the program polarizes one.'"
+   },
+   {
+    "file": "wiki/method/literature-check.md",
+    "problem": "In the C1 table row, the talk of 9 September 2019 (its first mention on the page) did not link the slides, though propagation.md lists the slides among the papers to link. 'Minic 2020, first stated in a talk of 9 September 2019' also read as if the paper itself was stated in the talk.",
+    "fixed": true,
+    "fix": "The cell now reads 'Minic 2020, the proceedings of a talk of 9 September 2019 ([slides](https://www.mphys10.ipb.ac.rs/slides/Minic.pdf))'. Note §3 calls Minic 2020 'the proceedings of the Belgrade talk'."
+   },
+   {
+    "file": "wiki/status/conjectures.md",
+    "problem": "The first mention of the 2019 talk in 'In the literature' had no link to the slides.",
+    "fixed": true,
+    "fix": "Now reads 'first in Minic's talk of 9 September 2019 ([slides](https://www.mphys10.ipb.ac.rs/slides/Minic.pdf)) and in writing in Minic 2020'."
+   },
+   {
+    "file": "wiki/status/open-problems.md",
+    "problem": "The first mention of the talk ('earlier than Minic's talk of 9 September 2019', under 'What the reading did not reach') had no link to the slides.",
+    "fixed": true,
+    "fix": "Added ', whose [slides](https://www.mphys10.ipb.ac.rs/slides/Minic.pdf) are public'."
+   },
+   {
+    "file": "wiki/status/open-problems.md",
+    "problem": "In flag 64's addendum line, 'the group builds its dark sector in a doubled phase space at the string length, with a momentum of its own' gave 'its own' no clear referent. In the addendum and note §4 it is the dual coordinate x̃ that has its own momentum.",
+    "fixed": true,
+    "fix": "Now reads 'the group builds its dark sector where the dual coordinate belongs to a doubled phase space at the string length and has a momentum of its own'."
+   },
+   {
+    "file": "wiki/status/alive.md",
+    "problem": "The status line still said 'machine checks are the eleven scripts in verify/'. scripts/check.sh now runs twelve, with verify/dual_sector.py, and every other wiki page already says twelve (the-gate, the literature-check and dual-sector script pages, timeline). 'What the machine checks cover' also had no entry for the new script. The editor routed this elsewhere, but alive.md is in this set and nobody else had touched it since the 13:12 link retrofit.",
+    "fixed": true,
+    "fix": "Status line now says 'twelve scripts', adding '; the twelfth, verify/dual_sector.py, checks the dual-sector note against its record'. Added a 'What the machine checks cover' bullet for verify/dual_sector.py, linking /wiki/method/verification/dual-sector-script. Added verify/dual_sector.py to the frontmatter sources and the Sources list. Left the register's 'current to 2026-11-03' date as it was, since the flag pointers below are missing."
+   },
+   {
+    "file": "wiki/status/alive.md",
+    "problem": "Flag 70 (hard core, P2′ and P5 lines) and flag 72 (a·ã = 1, maximum force, and the τ and no-phantom lines) have no pointers in the register. The register's 'current to' date therefore cannot move to 2026-11-06.",
+    "fixed": false,
+    "fix": "Not fixed. It lies outside e2's C1 scope, and the wording should mirror the hard-core and overlap pages that e3 and e4 are editing. Route it to whoever finalizes the registers, then move the date."
+   },
+   {
+    "file": "wiki/method/literature-check.md",
+    "problem": "notes/literature-check.md §2 (as corrected by the record worker) now lists for C1 'Not found' the spontaneous breaking of ρ with η as order parameter. The wiki's C1 'Not found' cell does not.",
+    "fixed": false,
+    "fix": "Left on purpose. The paragraph right below the table states it, with flag 70. The page never defines ρ or η. A bare 'spontaneous breaking of reciprocity' would also clash with the Yang-model lead (Lukierski et al. 2023) listed on open-problems. Not a contradiction, only a shorter summary."
+   },
+   {
+    "file": "wiki/method/literature-check.md",
+    "problem": "Some author-year citations are still unlinked: the C4 row (Govaerts 2023, Vento 2025, García-Moreno and Vento 2026) and Khademi 2009, whose handle 20.500.12415/6128 is not in scripts/wiki-papers.tsv. Khademi 2009 is unlinked on conjectures.md and across the wiki.",
+    "fixed": false,
+    "fix": "Not changed. work/dual-sector/STATE.md reserves the C4 row until round 2, and Khademi 2009 is unlinked wiki-wide by the retrofit's choice. All three C4 papers are registered (arXiv:2302.03526, 2507.06697, 2610.02083) and can be linked in round 2."
+   },
+   {
+    "file": "wiki/method/lakatosian-methodology.md, wiki/history/documents/checkpoint.md (not in this set)",
+    "problem": "Confirmed the editor's report: lakatosian-methodology.md lines 81 and 135 and checkpoint.md line 176 still say the identification was published 'since 2020', with no talk date, no 'proposal' and no link to the new page. The editor's further claim that history/timeline.md lacks a 2026-11-06 entry is out of date: timeline.md now has the section 'The dual-sector investigation: 2026-11-06' (lines 472–480).",
+    "fixed": false,
+    "fix": "Outside the assigned files. Route lakatosian-methodology.md and checkpoint.md to the overlaps or registers worker. Nothing is needed for timeline.md."
+   }
+  ],
+  "gate_output": "Per file (.venv/bin/python scripts/check-wiki.py FILE), after the fixes: wiki/program/founding-suppositions.md, wiki/method/literature-check.md, wiki/status/conjectures.md, wiki/status/open-problems.md, wiki/status/alive.md, wiki/dark-matter/candidates/chi-particles.md and wiki/predictions/direct-detection-null.md each gave \"wiki OK — 330 pages, no problems\".\nWhole wiki (.venv/bin/python scripts/check-wiki.py): wiki OK — 330 pages, no problems\n.venv/bin/python verify/literature_check.py: OK — the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.\n.venv/bin/python verify/dual_sector.py: FAIL  the pre-registration is in the record  [review/dual-sector/preregistration.md]; dual_sector FAILED: 1 check(s): ['the pre-registration is in the record']. The pre-registration is kept sealed outside the repo until all agents finish (work/dual-sector/STATE.md); every other check passes.\nFull scripts/check.sh (for information): exit 1, from verify/dual_sector.py's pre-registration check only. All other verify scripts print OK, and the wiki step prints \"wiki OK — 330 pages, no problems\".",
+  "overall": "I read the editor's diffs on the four changed pages against notes/dual-sector.md, propagation.md, wiki/CLAUDE.md and flags 64 (with its addendum) and 70–72.\n\n**What holds:**\n- The substance is right on all four pages. Every quotation the editor added was found by code, word for word, in the note, in #11 or in the flags file.\n- Every number is in the note: 9 September 2019, 29 February 2020, April 2026, 4.5×10¹⁴ GeV, flags 70–72, 72 flags in all.\n- No status, title or weight changed. \"Correlated with ours\", \"since 2020\", \"by construction\" and \"expects no standard direct-detection signal\" are gone from all four pages, and nothing narrates how the record's wording changed.\n- Every paper cited is linked at its first mention, with labels that pass the registry check. The new page and its anchors are linked where the group is discussed.\n- The open-problems register mirrors the root CLAUDE.md's dual-sector list and gives flags 70–72 and the addendum with the right audit lines.\n- alive.md, chi-particles.md and direct-detection-null.md do not mention the group or C1's prior art, so leaving them unchanged was correct.\n\n**Fixed (six problems):**\n- On wiki/method/literature-check.md, \"a name the group gives them in two settings\" was not supported by the note. It now gives the note's three senses of \"dual\".\n- The talk's slides were unlinked at their first mention on literature-check.md, conjectures.md and open-problems.md; all three now link them.\n- In the literature-check C1 row, the cell now calls Minic 2020 the proceedings of the 2019 talk.\n- In open-problems' flag-64 line, \"a momentum of its own\" now clearly belongs to the dual coordinate.\n- On wiki/status/alive.md, the status line said \"eleven scripts\" although the gate now runs twelve. I corrected it and added a bullet and source lines for the new dual-sector script.\n\n**Left for routing:**\n- Flag 70 and 72 pointers on alive.md's lines, which also keep its \"current to\" date at 2026-11-03.\n- The C4 row's unlinked papers (reserved until round 2) and Khademi 2009 (unlinked wiki-wide).\n- The stale \"since 2020\" on wiki/method/lakatosian-methodology.md and wiki/history/documents/checkpoint.md, which are outside this set. The editor's timeline item is already done.\n\n**Gates:** the wiki gate is green on every file and on the whole wiki, and verify/literature_check.py passes. scripts/check.sh is red only because verify/dual_sector.py cannot find the pre-registration, which stays sealed outside the repo until the agents finish.\n\nFiles edited: /home/paul/git/reinholdtsen/conjugate-matter/wiki/method/literature-check.md, /home/paul/git/reinholdtsen/conjugate-matter/wiki/status/conjectures.md, /home/paul/git/reinholdtsen/conjugate-matter/wiki/status/open-problems.md, /home/paul/git/reinholdtsen/conjugate-matter/wiki/status/alive.md. Nothing was committed."
+ },
+ "e4-overlaps-check": {
+  "problems_found": [
+   {
+    "file": "wiki/references.md",
+    "problem": "In the new group's entry 'The identification and its restatements', Cited for said \"magnetic\" appears \"only as a label of the dual fields and of the charges of gravitational corner symmetries (§7)\". Read as a statement about the whole group, that is wrong: note §7 also has worldsheet dyons and the E8 gauge-group pairing, and the same group's 'Born geometry' entry lists both.",
+    "fixed": true,
+    "fix": "Reworded to \"magnetic\" as a label of the dual fields and of the charges of gravitational corner symmetries, never of magnetically charged matter (§7). This is the note's own point: \"None is magnetically charged matter\"."
+   },
+   {
+    "file": "wiki/references.md",
+    "problem": "The same entry says section F of the dual-sector script checks the zero-mode commutators of Minic 2020 (eq. 27). Only the docstring of verify/dual_sector.py says this, and the page's frontmatter and Sources did not name the script.",
+    "fixed": true,
+    "fix": "Added \"verify/dual_sector.py docstring, section F\" to the frontmatter, and a matching clause to the Sources line for the dual-sector note."
+   },
+   {
+    "file": "wiki/references.md",
+    "problem": "The bullet 'How to read this register' > 'What is listed' names the reference lists the register covers. It left out the dual-sector note's list, which is the new group's source, and the literature-check note's list, a gap that was already there.",
+    "fixed": true,
+    "fix": "Added both notes to the bullet, with links to the literature-check page and the dual-standard-model page. Both lists were checked: they are alphabetical and unnumbered, like the diameter note's."
+   },
+   {
+    "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+    "problem": "The new gloss \"the modular cell being a cell of phase space whose area is fixed and whose shape is not\" is not in notes/dual-sector.md. Its support is the quotation from Freidel, Kowalski-Glikman, Leigh and Minic in papers/phase-space-diameter.md §4 (\"Whereas the area of the modular cell is fixed ... its shape is not\"), and the page did not name §4.",
+    "fixed": true,
+    "fix": "Added \"papers/phase-space-diameter.md §4\" to the frontmatter, and a Sources line naming it as the source of the gloss."
+   },
+   {
+    "file": "wiki/conjugate-relativity/maximum-force.md",
+    "problem": "The new subsection cited \"Freidel, Leigh and Minic 2014 (§1.2)\". Two papers by these authors appeared in 2014, and the note specifies Int. J. Mod. Phys. D. The link does point to the right paper (arXiv:1405.3949), but the text was ambiguous.",
+    "fixed": true,
+    "fix": "Changed the citation to \"(Int. J. Mod. Phys. D, §1.2)\", matching note §9."
+   },
+   {
+    "file": "verify/dual_sector.py",
+    "problem": "The gate fails one check, \"the pre-registration is in the record\": review/dual-sector/preregistration.md is not in the repository. This is by design, since the file stays outside the repository until the agents are done (note §13). Every other check passes: 89 note passages, 33 page quotations, 24 flag quotations, 42 references, dates, counts and section F.",
+    "fixed": false,
+    "fix": "None, and none should be made here: supplying the file is the main session's job, and the check must not be weakened."
+   },
+   {
+    "file": "wiki/predictions/early-universe-step.md, wiki/cosmology/scale-factor-duality/duality-dictionary.md, wiki/cosmology/scale-factor-duality/closed-universe.md, wiki/method/review/round-5.md (outside my files)",
+    "problem": "These pages carry flag 49, or the w > −1 model of Hur et al. 2025, and still lack fact 8. None of them links arXiv:1905.08269 or mentions flag 72 or the quotation \"Clearly, w(a)<-1 ...\". wiki/status/open-problems.md has meanwhile been brought into line by another editor. The editor's optional items (maximum-force-conjectures, born-length, borns-answer, momentum-fibers) are also still untouched.",
+    "fixed": false,
+    "fix": "For the parent: add Berglund, Hübsch and Minić 2019 (https://arxiv.org/abs/1905.08269). Their dual curvature is a positive cosmological constant, the opposite assignment to #11 §10's \"dual curvature ↦ negative dark radiation\"; their dual space is the doubled coordinate, not momentum (note §4, §9; flag 72, pending). On round-5.md, add the first model of Hur et al. (note §9)."
+   },
+   {
+    "file": "verify/literature_check.py, CLAUDE.md, notes/dual-sector.md (outside my files)",
+    "problem": "Section F of the literature-check script prints \"F. Quotations in flags 64–69\", but it reads to the closing paragraph of the flags file, which now includes flag 64's addendum and flags 70–72 (46 passages). Separately, placeholders remain in CLAUDE.md and notes/dual-sector.md (DS-AGENTS, DS-REVIEW, DS-ROUND2, 70–DS-LASTFLAG, ROUND2-PENDING, RND2-AGENTS, RND2-TOKENS), and review/dual-sector/round2/ does not exist yet.",
+    "fixed": false,
+    "fix": "For the parent: relabel section F, and fill in the placeholders when round 2 lands. If flags 73–76 are added, update the pages that say 70–72, \"72 items\" or \"three further flags\": timeline (italic opening, 'Pending', the 2026-11-06 rows), project-instructions, the-gate, literature-check-script and references."
+   }
+  ],
+  "gate_output": "Whole wiki, after all edits: wiki OK — 330 pages, no problems.\nThe 10 assigned files: wiki OK — 330 pages, no problems.\nverify/literature_check.py: OK — \"the literature-check note matches its record: verdicts, counts, quotations and citations; the algebra behind flag 66 holds.\" 558 PASS, 0 FAIL; section F has 46 quoted passages.\nverify/dual_sector.py: one failure, expected — \"FAIL  the pre-registration is in the record [review/dual-sector/preregistration.md]\"; every other check passes.\nFull bash scripts/check.sh: every verify script passes except that one check; \"wiki OK — 330 pages, no problems\"; exit 1, caused only by the pre-registration check.",
+  "overall": "Editor e4-overlaps's work holds up. Nothing it added misstates the note, and five small problems are fixed, in three of its files.\n\nChecks by code (scripts in work/dual-sector/scratch/e4-overlaps-check/):\n- Every quotation the editor added appears verbatim in notes/dual-sector.md or #11: Freidel, Leigh and Minic 2016 §1.4; Hur et al. §2, §3.3 and §3.4; Berglund, Hübsch and Minić 2019; Freidel, Leigh and Minic 2014 §1.2 and the Phys. Lett. B paper; \"Momentum space has its own gravity\"; \"dual curvature ↦ negative dark radiation\" (#11 §10, line 113).\n- No new numbers. The w definitions, acronyms and paper links all pass the gate.\n- All 43 works of the note's reference list are in the new references group.\n- Every entry for a paper the new page links lists that page under Cited on.\n- The attributions in the record agree with the editor's: quotes.json puts \"at colliders, dark matter direct detection...\" in the six-author paper arXiv:1601.00662, and \"effectively spontaneously broken\" and \"we could have picked the dual\" in Berglund, Hübsch and Minic 2023 (Int. J. Mod. Phys. D).\n- #11's [3]† is both 2014 papers, cited for Born geometry in §5; its [26][S] is Freidel, Leigh and Minic 2015.\n- The literature-check note's §3 has the corrections the register cites, and labels the three multi-author papers \"partial\".\n\nThe gate page and the literature-check script page match the scripts:\n- check.sh runs twelve scripts in the order the page gives.\n- dual_sector.py is the only verify/ script that reads a wiki page.\n- Four of its quotations are read from the slides, and its docstring and the README quotation are exact.\n- Its section F rests on Minic 2020 eq. 27.\n- literature_check.py's section F reads from the heading of flags 64–69 to the file's closing paragraph.\n- The paper-check bullet matches the code in check-wiki.py.\n\nTimeline and CLAUDE.md pages: the timeline's new section is written the same way as the neighbouring ones (\"P.R. asked...\"), the file has 72 flags, and the project-instructions page follows the root CLAUDE.md entry of 2026-11-06.\n\nEdits I made and then reverted: pages edited after the editor's run (open problems, conjectures, the summary) now cite some of these works, and I added them to the Cited on lists. I then took them out, because the register's own rule says \"the home page, the status registers, the glossary and the notation page are left out of the lists\". The pages still missing from the lists are those registers, plus the exclusions the editor stated (the 2015 metastring row and the Hur et al. leads).\n\nDoubts I checked and accepted:\n- \"its authors' earlier work\" for Hur et al.'s first model: the reader's record says that model takes the form of arXiv:2202.05266, by four of its five authors.\n- Leaving out \"in the doubled setting\" on cosmological-constraint: the page states both senses of the group's dual coordinate (x̃), and the note itself puts Freidel, Leigh and Minic 2016 in the one-phase-space sense.\n\nI made no commits. No claim's status, title or status line changed."
+ }
+}

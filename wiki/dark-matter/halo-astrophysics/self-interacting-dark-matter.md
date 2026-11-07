@@ -105,7 +105,7 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ 
 
 ## References
 
-The program's documents cite no source for the transfer cross-section or the Bullet Cluster, and for SIDM only two fits across halo masses, Kaplinghat, Tulin and Yu 2016 and Sagunski et al. 2021, retrieved by live search [S] for the literature-check note (`notes/literature-check.md` §3; [row 1's data](/wiki/predictions/self-interaction-knee#the-data-situation)). Added by the wiki from model memory (†):
+The program's documents cite no source for the transfer cross-section or the Bullet Cluster, and for SIDM only two fits across halo masses, [Kaplinghat, Tulin and Yu 2016](https://arxiv.org/abs/1508.03339) and [Sagunski et al. 2021](https://arxiv.org/abs/2006.12515), retrieved by live search [S] for the literature-check note (`notes/literature-check.md` §3; [row 1's data](/wiki/predictions/self-interaction-knee#the-data-situation)). Added by the wiki from model memory (†):
 
 - D. N. Spergel, P. J. Steinhardt, "Observational evidence for self-interacting cold dark matter," Phys. Rev. Lett. (2000)†: the proposal.
 - S. Tulin, H.-B. Yu, K. M. Zurek, "Beyond collisionless dark matter: particle physics dynamics for dark matter halo structure," Phys. Rev. D (2013)†: Yukawa scattering in the Born, resonant and classical regimes.

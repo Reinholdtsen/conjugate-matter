@@ -128,7 +128,7 @@ Since T_h/T_ν is proportional to ξ, ΔN_eff is proportional to ξ⁴, and an u
 
 This is the form the referee's script codes, `(dNmax/dN)**0.25`, printed as `xi_max` (`review/round3/referee/step2a.py`). The fourth root damps the effect of the radiation bound on ξ: a change in ΔN_eff,max by some factor moves ξ_max by only the fourth root of that factor [T]. Replacing a remembered bound with the measured one therefore moved #14's requirement only in its second decimal place (below).
 
-N_eff is measured at two epochs ([how N_eff is measured](/wiki/cosmology/early-universe/radiation-era#how-n_eff-is-measured-t)): by Big Bang nucleosynthesis (BBN), through the expansion rate in the first minutes, and by the cosmic microwave background (CMB), through the damping of its small-scale anisotropies and the phase of its acoustic peaks ([N_eff in the microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#n_eff)) [T]. The bound in the program's record is Planck 2018's 95% interval, which #14 §4 writes as "N_eff = 2.99 +- 0.34 at 95%". The referee recorded the source's interval as asymmetric; the difference is flag 22 in `review/wiki-build-flags.md`, and it changes nothing, because only the upper side enters. `verify/soliton_obituary.py` subtracts the SM value from the upper end, `bound = 2.99 + 0.34 - 3.044`, and gates the result [V] ([Planck 2018 and the dark-radiation bound](/wiki/cosmology/early-universe/cosmic-microwave-background#planck-2018-and-the-dark-radiation-bound)):
+N_eff is measured at two epochs ([how N_eff is measured](/wiki/cosmology/early-universe/radiation-era#how-n_eff-is-measured-t)): by Big Bang nucleosynthesis (BBN), through the expansion rate in the first minutes, and by the cosmic microwave background (CMB), through the damping of its small-scale anisotropies and the phase of its acoustic peaks ([N_eff in the microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#n_eff)) [T]. The bound in the program's record is [Planck 2018](https://arxiv.org/abs/1807.06209)'s 95% interval, which #14 §4 writes as "N_eff = 2.99 +- 0.34 at 95%". The referee recorded the source's interval as asymmetric; the difference is flag 22 in `review/wiki-build-flags.md`, and it changes nothing, because only the upper side enters. `verify/soliton_obituary.py` subtracts the SM value from the upper end, `bound = 2.99 + 0.34 - 3.044`, and gates the result [V] ([Planck 2018 and the dark-radiation bound](/wiki/cosmology/early-universe/cosmic-microwave-background#planck-2018-and-the-dark-radiation-bound)):
 
 ```text
 == Dark radiation (ruling 5)
@@ -207,11 +207,11 @@ Nothing on this page is an open problem of the program: the physics is standard,
 The program's documents cite two sources for this physics:
 
 - E. W. Kolb, M. S. Turner, *The Early Universe* (Addison-Wesley, 1990): #14's reference [17], which the round-3 referee resolved as "Front. Phys. 69 (1990), Addison-Wesley" and marked "standard; not checked page-level" (audit notes, Step 1). A standard treatment of decoupled species and entropy conservation.
-- Planck Collaboration, Astron. Astrophys. 641, A6 (2020), arXiv:1807.06209: #14's reference [23], "Planck 2018 VI" in the round-3 audit, which records its eq. (67b) as "N_eff = 2.99 +0.34 -0.33" (Step 1).
+- Planck Collaboration, Astron. Astrophys. 641, A6 (2020), [arXiv:1807.06209](https://arxiv.org/abs/1807.06209): #14's reference [23], "Planck 2018 VI" in the round-3 audit, which records its eq. (67b) as "N_eff = 2.99 +0.34 -0.33" (Step 1).
 
 Cited by the round-3 referee:
 
-- Adshead, Ralegankar and Shelton, arXiv:2206.13530: decoupling at "T_d ~ m_psi/4", from its eqs. 2.17–2.19 (Step 4(a) item 5), and the "thermalisation threshold m_th = 4 T_d" (Step 4(c) item 2).
+- Adshead, Ralegankar and Shelton, [arXiv:2206.13530](https://arxiv.org/abs/2206.13530): decoupling at "T_d ~ m_psi/4", from its eqs. 2.17–2.19 (Step 4(a) item 5), and the "thermalisation threshold m_th = 4 T_d" (Step 4(c) item 2).
 
 Added by the wiki from model memory (†):
 

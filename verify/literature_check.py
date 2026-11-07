@@ -20,6 +20,8 @@ checks that the note says what that record holds, offline:
      number of authors, the title, the year, and the volume and page.
   E. The pre-registration. Its predicted verdicts against the recomputed ones.
   F. Flags 64–69 in review/wiki-build-flags.md: each quotation is found in a repository document or in quotes.json.
+     The scan runs from the literature check's heading to the dual-sector investigation's, so it holds flags 64–69,
+     flag 64's addendum among them, and no other item; flags 70–73 belong to verify/dual_sector.py (its section E).
   G. The algebra behind flag 66 (note §6), after the C5 panel judge's script (review/literature-check/checks/). The
      program's rule (#1 §6: the conjugate energy E = ρ̃ã³ enters our constraint as E/a³, ã = 1/a) gives
      w_eff = −w̃ through our own continuity equation. Gasperini and Veneziano's scale-factor duality with sources
@@ -379,7 +381,13 @@ def section_f(quotes):
     print("F. Quotations in flags 64–69 (review/wiki-build-flags.md)")
     path = os.path.join(ROOT, "review", "wiki-build-flags.md")
     text = open(path, encoding="utf-8").read()
-    part = text.split("## Found by the literature check")[1].split("The executed checks referred to above")[0]
+    # The scan ends at the next investigation's heading: flags 70–73 there are verify/dual_sector.py's (section E).
+    end = "## Found by the dual-sector investigation (2026-11-06)"
+    part = text.split("## Found by the literature check")[1]
+    check("the flags file's dual-sector heading ends the scan", end in part)
+    part = part.split(end)[0]
+    items = re.findall(r"^(\d+)\. \*\*", part, flags=re.M)
+    check("the scan holds flags 64–69 and no other item", items == [str(n) for n in range(64, 70)], ", ".join(items))
     docs = {k: v for k, v in repo_texts().items() if k != os.path.relpath(path, ROOT)}
     lit = [norm(q["text"]) for q in quotes]
     spans = [s for s in re.findall(r'"([^"]+)"', part, flags=re.S) if len(s.split()) >= 3]

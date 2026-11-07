@@ -119,7 +119,7 @@ A hidden sector with an unbroken U(1) of its own has its own photon and can have
 
 ### In the literature, as the round-3 referee read it
 
-#14 cites F. Brümmer, J. Jaeckel and V. V. Khoze (2009) for this channel, as its reference [14]. The round-3 referee checked the paper against its abstract and found support (`review/round3/referee/audit-notes.md`, Step 1): with CP violation, hidden monopoles acquire a hidden electric charge through the Witten effect, and "quite generally they also acquire (small) electric charges under the visible electromagnetic gauge group"; also, "Both kinetic and magnetic mixing are naturally induced radiatively". The referee's notes cite two of the paper's equations:
+#14 cites [F. Brümmer, J. Jaeckel and V. V. Khoze (2009)](https://arxiv.org/abs/0905.0633) for this channel, as its reference [14]. The round-3 referee checked the paper against its abstract and found support (`review/round3/referee/audit-notes.md`, Step 1): with CP violation, hidden monopoles acquire a hidden electric charge through the Witten effect, and "quite generally they also acquire (small) electric charges under the visible electromagnetic gauge group"; also, "Both kinetic and magnetic mixing are naturally induced radiatively". The referee's notes cite two of the paper's equations:
 
 - eq. 2.7, for what the referee calls "CP-violating magnetic mixing": "hidden monopole gets visible electric charge -theta_12/2pi" (Step 4(b)); the notes do not define θ₁₂;
 - eq. 3.19, for kinetic mixing together with the hidden angle: "q_vis ~ chi theta_d/(2 pi)" (Step 4(a) item 7).
@@ -187,7 +187,7 @@ Among its reasons, it "closes three failure channels at once: ψ millicharge, th
 
 As the program's documents cite them:
 
-- F. Brümmer, J. Jaeckel, V. V. Khoze, JHEP 06 (2009) 037, arXiv:0905.0633 — #14's [14], untagged in #14 itself; the v3 worklog names it in item L1. The round-3 referee found support in its abstract (Step 1) and took the visible charge from its eqs. 2.7 and 3.19 (Steps 4(a) and 4(b)).
+- F. Brümmer, J. Jaeckel, V. V. Khoze, JHEP 06 (2009) 037, [arXiv:0905.0633](https://arxiv.org/abs/0905.0633) — #14's [14], untagged in #14 itself; the v3 worklog names it in item L1. The round-3 referee found support in its abstract (Step 1) and took the visible charge from its eqs. 2.7 and 3.19 (Steps 4(a) and 4(b)).
 
 Added by the wiki from model memory (†):
 

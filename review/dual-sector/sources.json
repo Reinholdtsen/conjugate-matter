@@ -1,0 +1,1019 @@
+{
+ "0705.4581": {
+  "key": "0705.4581",
+  "source": "INSPIRE",
+  "recid": 751860,
+  "api_url": "https://inspirehep.net/api/literature/751860",
+  "retrieved": "2026-11-06",
+  "title": "Fine structure of dark energy and new physics",
+  "authors": [
+   "Jejjala, Vishnu",
+   "Kavic, Michael",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2007-05",
+  "journal": "Adv. High Energy Phys. 2007 21586 (2007)",
+  "dois": [
+   "10.1155/2007/21586"
+  ],
+  "arxiv": "0705.4581",
+  "abstract": "Following our recent work on the cosmological constant problem, in this letter we make a specific proposal regarding the fine structure (i.e., the spectrum) of dark energy. The proposal is motivated by a deep analogy between the blackbody radiation problem, which led to the development of quantum theory, and the cosmological constant problem, which we have recently argued calls for a conceptual extension of the quantum theory. We argue that the fine structure of dark energy is governed by a Wien distribution, indicating its dual quantum and classical nature. We discuss a few observational consequences of such a picture of dark energy."
+ },
+ "1005.3537": {
+  "key": "1005.3537",
+  "source": "INSPIRE",
+  "recid": 855175,
+  "api_url": "https://inspirehep.net/api/literature/855175",
+  "retrieved": "2026-11-06",
+  "title": "Cold Dark Matter with MOND Scaling",
+  "authors": [
+   "Ho, Chiu Man",
+   "Minic, Djordje",
+   "Ng, Y.Jack"
+  ],
+  "earliest_date": "2010-05",
+  "journal": "Phys. Lett. B 693 567 (2010)",
+  "dois": [
+   "10.1016/j.physletb.2010.09.008"
+  ],
+  "arxiv": "1005.3537",
+  "abstract": "We provide a holographic dual description of Milgrom's scaling associated with galactic rotation curves. Our argument is based on the recent entropic reinterpretation of Newton's laws of motion. We propose a duality between cold dark matter and modified Newtonian dynamics (MOND). We introduce the concept of MONDian dark matter, and discuss some of its phenomenological implications. At cluster as well as cosmological scales, the MONDian dark matter would behave as cold dark matter, but at the galactic scale, the MONDian dark matter would act as MOND."
+ },
+ "1206.4590": {
+  "key": "1206.4590",
+  "source": "INSPIRE",
+  "recid": 1118961,
+  "api_url": "https://inspirehep.net/api/literature/1118961",
+  "retrieved": "2026-11-06",
+  "title": "SUSY Via Magnetic Monopoles and Chirality",
+  "authors": [
+   "Winn, David R."
+  ],
+  "earliest_date": "2012-06",
+  "journal": "",
+  "dois": [],
+  "arxiv": "1206.4590",
+  "abstract": "A SUSY is proposed that interchanges bosons-fermions, and also transforms particle electric charge to magnetic charge, chromoelectric charge to chromomagnetic charge, and interchanges left-right handed couplings, leaving the masses between partners intact, and without R-parity. Constraints and consequences are discussed."
+ },
+ "1207.5514": {
+  "key": "1207.5514",
+  "source": "INSPIRE",
+  "recid": 1123613,
+  "api_url": "https://inspirehep.net/api/literature/1123613",
+  "retrieved": "2026-11-06",
+  "title": "A cosmology of a trans-Planckian theory and dark energy",
+  "authors": [
+   "Bolognesi, Stefano"
+  ],
+  "earliest_date": "2012-07",
+  "journal": "Int. J. Mod. Phys. D 23 1450046 (2014)",
+  "dois": [
+   "10.1142/S0218271814500461"
+  ],
+  "arxiv": "1207.5514",
+  "abstract": "We investigate a model based on a generalised version of the Fourier transform for curved space-time manifolds. This model is possible if the metric has an asymptotic flat region which allows a duality to be implement between coordinates and momenta, hence, the models's name, trans-Planckian. The theory and the action are based on the postulate of the absolute egalitarian relation between coordinates $x$ and momenta $p$. We show how to implement this construction in a cosmological setting, on a Friedman-Robertson-Walker metric background, where the asymptotic time infinity plays the role of the required asymptotic flat region. We discuss the effect of gravity, and, in particular, of the Hubble expansion of the universe scale factor on the Fourier map. The dual inflationary stage is responsible for making the dual sector of the action inaccessible at ordinary low energies. We propose a scenario in which an effective positive cosmological constant is caused by how the dual sector of the theory affects the equation of state for matter particles."
+ },
+ "1307.7080": {
+  "key": "1307.7080",
+  "source": "INSPIRE",
+  "recid": 1244697,
+  "api_url": "https://inspirehep.net/api/literature/1244697",
+  "retrieved": "2026-11-06",
+  "title": "Born Reciprocity in String Theory and the Nature of Spacetime",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2013-07-26",
+  "journal": "Phys. Lett. B 730 302 (2014)",
+  "dois": [
+   "10.1016/j.physletb.2014.01.067"
+  ],
+  "arxiv": "1307.7080",
+  "abstract": "After many years, the deep nature of spacetime in string theory remains an enigma. In this letter we incorporate the concept of Born reciprocity in order to provide a new point of view on string theory in which spacetime is a derived dynamical concept. This viewpoint may be thought of as a dynamical chiral phase space formulation of string theory, in which Born reciprocity is implemented as a choice of a Lagrangian submanifold of the phase space, and amounts to a generalization of T-duality. In this approach the fundamental symmetry of string theory contains phase space diffeomorphism invariance and the underlying string geometry should be understood in terms of dynamical bi-Lagrangian manifolds and an apparently new geometric structure, somewhat reminiscent of para-quaternionic geometry, which we call Born geometry."
+ },
+ "1405.3949": {
+  "key": "1405.3949",
+  "source": "INSPIRE",
+  "recid": 1296246,
+  "api_url": "https://inspirehep.net/api/literature/1296246",
+  "retrieved": "2026-11-06",
+  "title": "Quantum Gravity, Dynamical Phase Space and String Theory",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2014-05-15",
+  "journal": "Int. J. Mod. Phys. D 23 1442006 (2014)",
+  "dois": [
+   "10.1142/S0218271814420061",
+   "10.1142/S0218271814420061"
+  ],
+  "arxiv": "1405.3949",
+  "abstract": "In a natural extension of the relativity principle we argue that a quantum theory of gravity involves two fundamental scales associated with both dynamical space-time as well as dynamical momentum space. This view of quantum gravity is explicitly realized in a new formulation of string theory which involves dynamical phase space and in which space-time is a derived concept. This formulation naturally unifies symplectic geometry of Hamiltonian dynamics, complex geometry of quantum theory and real geometry of general relativity. The space-time and momentum space dynamics, and thus dynamical phase space, is governed by a new version of the Renormalization Group."
+ },
+ "1502.08005": {
+  "key": "1502.08005",
+  "source": "INSPIRE",
+  "recid": 1346867,
+  "api_url": "https://inspirehep.net/api/literature/1346867",
+  "retrieved": "2026-11-06",
+  "title": "Metastring Theory and Modular Space-time",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2015-02-27",
+  "journal": "JHEP 06 006 (2015)",
+  "dois": [
+   "10.1007/JHEP06(2015)006"
+  ],
+  "arxiv": "1502.08005",
+  "abstract": "String theory is canonically accompanied with a space-time interpretation which determines S-matrix-like observables, and connects to the standard physics at low energies in the guise of local effective field theory. Recently, we have introduced a reformulation of string theory which does not rely on an {\\it a priori} space-time interpretation or a pre-assumption of locality. This \\hlt{metastring theory} is formulated in such a way that stringy symmetries (such as T-duality) are realized linearly. In this paper, we study metastring theory on a flat background and develop a variety of technical and interpretational ideas. These include a formulation of the moduli space of Lorentzian worldsheets, a careful study of the symplectic structure and consequently consistent closed and open boundary conditions, and the string spectrum and operator algebra. What emerges from these studies is a new quantum notion of space-time that we refer to as a quantum Lagrangian or equivalently a \\hlt{modular space-time}. This concept embodies the standard tenets of quantum theory and implements in a precise way a notion of {relative locality}. The usual string backgrounds (non-compact space-time along with some toroidally compactified spatial directions) are obtained from modular space-time by a limiting procedure that can be thought of as a correspondence limit."
+ },
+ "1506.02187": {
+  "key": "1506.02187",
+  "source": "INSPIRE",
+  "recid": 1375010,
+  "api_url": "https://inspirehep.net/api/literature/1375010",
+  "retrieved": "2026-11-06",
+  "title": "Born Reciprocity and Cosmic Accelerations",
+  "authors": [
+   "Bolognesi, S."
+  ],
+  "earliest_date": "2015-06-06",
+  "journal": "",
+  "dois": [],
+  "arxiv": "1506.02187",
+  "abstract": "The trans-Planckian theory is a model that realizes concretely the Born reciprocity idea, which is the postulate of absolute equivalence between coordinate $x$ and momenta $p$. This model is intrinsically global, and thus it is naturally implemented in a cosmological setting. Cosmology and Born reciprocity are made for each other. Inflation provides the essential mechanism to suppress the terms coming from the dual part of the action. The trans-Planckian theory provides an explanation for the present acceleration of the universe scale factor. This is possible just considering a simple model that contains gravity, one gauge field plus one matter field (to be identified with dark matter), together with the reciprocity principle."
+ },
+ "1601.00662": {
+  "key": "1601.00662",
+  "source": "INSPIRE",
+  "recid": 1413079,
+  "api_url": "https://inspirehep.net/api/literature/1413079",
+  "retrieved": "2026-11-06",
+  "title": "Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?",
+  "authors": [
+   "Edmonds, Doug",
+   "Farrah, Duncan",
+   "Ho, Chi man",
+   "Minic, Djordje",
+   "Ng, Y. Jack",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2016-01-04",
+  "journal": "Int. J. Mod. Phys. A 32 1750108 (2017)",
+  "dois": [
+   "10.1142/S0217751X17501081",
+   "10.1142/S0217751X17501081"
+  ],
+  "arxiv": "1601.00662",
+  "abstract": "We discuss the possibility that the cold dark matter mass profiles contain information on the cosmological constant, and that such information constrains the nature of cold dark matter (CDM). We call this approach Modified Dark Matter (MDM). In particular, we examine the ability of MDM to explain the observed mass profiles of 13 galaxy clusters. Using general arguments from gravitational thermodynamics, we provide a theoretical justification for our MDM mass profile and successfully compare it to the NFW mass profiles both on cluster and galactic scales. Our results suggest that indeed the CDM mass profiles contain information about the cosmological constant in a non-trivial way."
+ },
+ "1605.04361": {
+  "key": "1605.04361",
+  "source": "INSPIRE",
+  "recid": 1459034,
+  "api_url": "https://inspirehep.net/api/literature/1459034",
+  "retrieved": "2026-11-06",
+  "title": "Observable Effects of Quantum Gravity",
+  "authors": [
+   "Chang, Lay Nam",
+   "Minic, Djordje",
+   "Sun, Chen",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2016-05-13",
+  "journal": "",
+  "dois": [],
+  "arxiv": "1605.04361",
+  "abstract": "We discuss the generic phenomenology of quantum gravity and, in particular, argue that the observable effects of quantum gravity, associated with new, extended, non-local, non-particle-like quanta, and accompanied by a dynamical energy-momentum space, are not necessarily Planckian and that they could be observed at much lower and experimentally accessible energy scales."
+ },
+ "1606.01829": {
+  "key": "1606.01829",
+  "source": "INSPIRE",
+  "recid": 1467445,
+  "api_url": "https://inspirehep.net/api/literature/1467445",
+  "retrieved": "2026-11-06",
+  "title": "Quantum Spaces are Modular",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2016-06-06",
+  "journal": "Phys. Rev. D 94 104052 (2016)",
+  "dois": [
+   "10.1103/PhysRevD.94.104052",
+   "10.1103/PhysRevD.94.104052"
+  ],
+  "arxiv": "1606.01829",
+  "abstract": "At present, our notion of space is a classical concept. Taking the point of view that quantum theory is more fundamental than classical physics, and that space should be given a purely quantum definition, we revisit the notion of Euclidean space from the point of view of quantum mechanics. Since space appears in physics in the form of labels on relativistic fields or Schrodinger wave functionals, we propose to define Euclidean quantum space as a choice of polarization for the Heisenberg algebra of quantum theory. We show, following Mackey, that generically, such polarizations contain a fundamental length scale and that contrary to what is implied by the Schrodinger polarization, they possess topologically distinct spectra. These are the modular spaces. We show that they naturally come equipped with additional geometrical structures usually encountered in the context of string theory or generalized geometry. Moreover, we show how modular space reconciles the presence of a fundamental scale with translation and rotation invariance. We also discuss how the usual classical notion of space comes out as a form of thermodynamical limit of modular space while the Schrodinger space is a singular limit."
+ },
+ "1706.03305": {
+  "key": "1706.03305",
+  "source": "INSPIRE",
+  "recid": 1604304,
+  "api_url": "https://inspirehep.net/api/literature/1604304",
+  "retrieved": "2026-11-06",
+  "title": "Intrinsic non-commutativity of closed string theory",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2017-06-10",
+  "journal": "JHEP 09 060 (2017)",
+  "dois": [
+   "10.1007/JHEP09(2017)060",
+   "10.1007/JHEP09(2017)060"
+  ],
+  "arxiv": "1706.03305",
+  "abstract": "We show that the proper interpretation of the cocycle operators appearing in the physical vertex operators of compactified strings is that the closed string target is non-commutative. We track down the appearance of this non-commutativity to the Polyakov action of the flat closed string in the presence of translational monodromies (i.e., windings). In view of the unexpected nature of this result, we present detailed calculations from a variety of points of view, including a careful understanding of the consequences of mutual locality in the vertex operator algebra, as well as a detailed analysis of the symplectic structure of the Polyakov string. We also underscore why this non-commutativity was not emphasized previously in the existing literature. This non-commutativity can be thought of as a central extension of the zero-mode operator algebra, an effect set by the string length scale -- it is present even in trivial backgrounds. Clearly, this result indicates that the $\\alpha'\\to 0$ limit is more subtle than usually assumed."
+ },
+ "1709.04388": {
+  "key": "1709.04388",
+  "source": "INSPIRE",
+  "recid": 1623190,
+  "api_url": "https://inspirehep.net/api/literature/1623190",
+  "retrieved": "2026-11-06",
+  "title": "Modified Dark Matter: Relating Dark Energy, Dark Matter and Baryonic Matter",
+  "authors": [
+   "Edmonds, Douglas",
+   "Farrah, Duncan",
+   "Minic, Djordje",
+   "Ng, Y. Jack",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2017-09-13",
+  "journal": "Int. J. Mod. Phys. D 27 1830001 (2017)",
+  "dois": [
+   "10.1142/S021827181830001X",
+   "10.1142/S021827181830001X"
+  ],
+  "arxiv": "1709.04388",
+  "abstract": "Modified dark matter (MDM) is a phenomenological model of dark matter, inspired by gravitational thermodynamics. For an accelerating Universe with positive cosmological constant ($\\Lambda$), such phenomenological considerations lead to the emergence of a critical acceleration parameter related to $\\Lambda$. Such a critical acceleration is an effective phenomenological manifestation of MDM, and it is found in correlations between dark matter and baryonic matter in galaxy rotation curves. The resulting MDM mass profiles, which are sensitive to $\\Lambda$, are consistent with observational data at both the galactic and cluster scales. In particular, the same critical acceleration appears both in the galactic and cluster data fits based on MDM. Furthermore, using some robust qualitative arguments, MDM appears to work well on cosmological scales, even though quantitative studies are still lacking. Finally, we comment on certain non-local aspects of the quanta of modified dark matter, which may lead to novel non-particle phenomenology and which may explain why, so far, dark matter detection experiments have failed to detect dark matter particles."
+ },
+ "1801.00160": {
+  "key": "1801.00160",
+  "source": "INSPIRE",
+  "recid": 1645581,
+  "api_url": "https://inspirehep.net/api/literature/1645581",
+  "retrieved": "2026-11-06",
+  "title": "Modified Dark Matter in Galaxies and Galaxy Clusters",
+  "authors": [
+   "Edmonds, Douglas",
+   "Farrah, Duncan",
+   "Minic, Djordje",
+   "Ng, Y. Jack",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2017-12-30",
+  "journal": "Bulg. J. Phys. 45 138 (2018)",
+  "dois": [],
+  "arxiv": "1801.00160",
+  "abstract": "Modified Dark Matter (MDM) is a phenomenological model of dark matter, inspired by gravitational thermodynamics, that naturally accounts for the universal acceleration constant observed in galactic rotation curve data; a critical acceleration related to the cosmological constant, $\\Lambda$, appears as a phenomenological manifestation of MDM. We show that the resulting mass profiles, which are sensitve to $\\Lambda$, are consistent with observations at the galactic and galaxy cluster scales. Our results suggest that dark matter mass profiles contain information about the cosmological constant in a non-trivial way."
+ },
+ "1810.04709": {
+  "key": "1810.04709",
+  "source": "INSPIRE",
+  "recid": 1698010,
+  "api_url": "https://inspirehep.net/api/literature/1698010",
+  "retrieved": "2026-11-06",
+  "title": "Velocity Dependence from Resonant Self-Interacting Dark Matter",
+  "authors": [
+   "Chu, Xiaoyong",
+   "Garcia-Cely, Camilo",
+   "Murayama, Hitoshi"
+  ],
+  "earliest_date": "2018-10-10",
+  "journal": "Phys. Rev. Lett. 122 071103 (2019)",
+  "dois": [
+   "10.1103/PhysRevLett.122.071103",
+   "10.1103/PhysRevLett.122.071103"
+  ],
+  "arxiv": "1810.04709",
+  "abstract": "The dark matter density distribution in small-scale astrophysical objects may indicate that dark matter is self-interacting, while observations from clusters of galaxies suggest that the corresponding cross section depends on the velocity. Using a model-independent approach, we show that resonant self-interacting dark matter (RSIDM) can naturally explain such a behavior. In contrast to what is often assumed, this does not require a light mediator. We present explicit realizations of this mechanism and discuss the corresponding astrophysical constraints."
+ },
+ "1812.10821": {
+  "key": "1812.10821",
+  "source": "INSPIRE",
+  "recid": 1711677,
+  "api_url": "https://inspirehep.net/api/literature/1711677",
+  "retrieved": "2026-11-06",
+  "title": "Theory of metaparticles",
+  "authors": [
+   "Freidel, Laurent",
+   "Kowalski-Glikman, Jerzy",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2018-12-27",
+  "journal": "Phys. Rev. D 99 066011 (2019)",
+  "dois": [
+   "10.1103/PhysRevD.99.066011",
+   "10.1103/PhysRevD.99.066011"
+  ],
+  "arxiv": "1812.10821",
+  "abstract": "We introduce and develop the theory of metaparticles. At the classical level, this is a world-line theory with the usual reparameterization invariance and two additional features. The theory is motivated by string theory on compact targets, and can be thought of, at least at the non-interacting level, as a theory of particles at a given string level, or as a particle model for Born geometries. The first additional feature of the model is the presence of an additional local symmetry, which from the string point of view corresponds to the completion of worldsheet diffeomorphism invariance. From the particle world-line point of view, this symmetry is associated with an additional local constraint. The second feature is the presence of a non-trivial symplectic form on the metaparticle phase space, also motivated by string theory [1, 2]. Because of its interpretation as a particle model on Born geometry, the space-time on which the metaparticle propagates is ambiguous, with different choices related by what in string theory we would call T-duality. In this paper, we define the model, and explore some of its principle classical and quantum properties, including causality and unitarity."
+ },
+ "1901.00075": {
+  "key": "1901.00075",
+  "source": "INSPIRE",
+  "recid": 1712703,
+  "api_url": "https://inspirehep.net/api/literature/1712703",
+  "retrieved": "2026-11-06",
+  "title": "Finite-size dark matter and its effect on small-scale structure",
+  "authors": [
+   "Chu, Xiaoyong",
+   "Garcia-Cely, Camilo",
+   "Murayama, Hitoshi"
+  ],
+  "earliest_date": "2018-12-31",
+  "journal": "Phys. Rev. Lett. 124 041101 (2020)",
+  "dois": [
+   "10.1103/PhysRevLett.124.041101",
+   "10.1103/PhysRevLett.124.041101"
+  ],
+  "arxiv": "1901.00075",
+  "abstract": "If dark matter has a finite size that is larger than its Compton wavelength, the corresponding self-interaction cross section decreases with the velocity. We investigate the implications of this Puffy Dark Matter for addressing the small-scale problems of the $\\Lambda$CDM model. In particular, we show that the way the non-relativistic cross section varies with the velocity is largely independent of the dark matter internal structure when the range of the mediating force is very short. We present an explicit example in the context of a QCD-like theory of dark matter and show that low-threshold direct detection experiments have the potential to probe Puffy Dark Matter."
+ },
+ "1905.08269": {
+  "key": "1905.08269",
+  "source": "INSPIRE",
+  "recid": 1735798,
+  "api_url": "https://inspirehep.net/api/literature/1735798",
+  "retrieved": "2026-11-06",
+  "title": "Dark Energy and String Theory",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minić, Djordje"
+  ],
+  "earliest_date": "2019-05-20",
+  "journal": "Phys. Lett. B 798 134950 (2019)",
+  "dois": [
+   "10.1016/j.physletb.2019.134950"
+  ],
+  "arxiv": "1905.08269",
+  "abstract": "A radiatively stable de Sitter spacetime is constructed by considering an intrinsically non-commutative and generalized-geometric formulation of string theory, which is related to a family of F-theory models endowed with non-trivial anisotropic axion-dilaton backgrounds. In particular, the curvature of the canonically conjugate dual space provides for a positive cosmological constant to leading order, that satisfies a radiatively stable see-saw-like formula, which in turn induces the dark energy in the observed spacetime. We also comment on the non-commutative phase of the non-perturbative formulations of string theory/quantum gravity implied by this approach."
+ },
+ "1905.09463": {
+  "key": "1905.09463",
+  "source": "INSPIRE",
+  "recid": 1736529,
+  "api_url": "https://inspirehep.net/api/literature/1736529",
+  "retrieved": "2026-11-06",
+  "title": "Dark energy and quantum gravity",
+  "authors": [
+   "Berglund, Per",
+   "Hubsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2019-05-22",
+  "journal": "Int. J. Mod. Phys. D 28 1944018 (2019)",
+  "dois": [
+   "10.1142/S0218271819440188"
+  ],
+  "arxiv": "1905.09463",
+  "abstract": "Realizing dark energy and the observed de Sitter spacetime in quantum gravity has proven to be obstructed in most every usual approach. We argue that additional degrees of freedom of the left- and right-movers in string theory and a resulting doubled, non-commutatively generalized geometric formulation thereof can lead to an effective model of dark energy consistent with de Sitter spacetime. In this approach, the curvature of the canonically conjugate dual space provides for the dark energy inducing a positive cosmological constant in the observed spacetime, whereas the size of the above dual space is the gravitational constant in the same observed de Sitter spacetime. As a hallmark relation owing to a unique feature of string theory which relates short distances to long distances, the cosmological constant scale, the Planck scale, and the effective TeV-sized particle physics scale must satisfy a see-saw-like formula---precisely the generic prediction of certain stringy cosmic brane type models."
+ },
+ "2003.00318": {
+  "key": "2003.00318",
+  "source": "INSPIRE",
+  "recid": 1783243,
+  "api_url": "https://inspirehep.net/api/literature/1783243",
+  "retrieved": "2026-11-06",
+  "title": "From quantum foundations of quantum field theory, string theory and quantum gravity to dark matter and dark energy",
+  "authors": [
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2020-02-29",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2003.00318",
+  "abstract": "We review our recent work on quantum foundations of quantum mechanics, quantum field theory and quantum gravity (formulated as metastring theory) and various implications for the problems of dark matter and dark energy. The first point concerns the new understanding of quantum theory via the concept of quantum (modular) spacetime endowed with manifest non-locality that is consistent with causality. This view implies the consistency of the fundamental length and Lorentz symmetry, based on the principle of relative (observer dependent) locality. The geometry of such quantum spacetime is encoded in the new concept of Born geometry. This in turn leads to a novel understanding of quantum field theory in a manifestly bi-local representation endowed with metaparticle quanta. A fully dynamical quantum spacetime, with a dynamical Born geometry, leads to quantum gravity (a quantum theory of dynamical geometry of quantum non-locality) in the guise of metastring theory. This generic formulation of string theory implies a radiatively stable positive cosmological constant (viewed as a curvature of the dual spacetime) as a model of dark energy in the observed classical spacetime, as well as metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach.",
+  "title_inspire": "From quantum foundations of quantum field theory, string theory and quantum gravity todark matter and dark energy",
+  "edited": "title as on arXiv; INSPIRE's record reads 'todark' (2026-11-06)"
+ },
+ "2005.08927": {
+  "key": "2005.08927",
+  "source": "INSPIRE",
+  "recid": 1796841,
+  "api_url": "https://inspirehep.net/api/literature/1796841",
+  "retrieved": "2026-11-06",
+  "title": "Dark Matter, Dark Energy and Fundamental Acceleration",
+  "authors": [
+   "Edmonds, Douglas",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2020-05-18",
+  "journal": "Int. J. Mod. Phys. D 29 2043030 (2020)",
+  "dois": [
+   "10.1142/S0218271820430300",
+   "10.1142/S0218271820430300"
+  ],
+  "arxiv": "2005.08927",
+  "abstract": "We discuss the existence of an acceleration scale in galaxies and galaxy clusters. The presence of the same acceleration scale found at very different scales and in very different astrophysical objects strongly supports the existence of a fundamental acceleration scale governing the observed gravitational physics. We also comment on the implication of such a fundamental acceleration scale on the problem of dark matter. We discuss the relevance of the fundamental acceleration for the nature of dark matter as well as for structure formation to be explored in future numerical simulations."
+ },
+ "2010.15610": {
+  "key": "2010.15610",
+  "source": "INSPIRE",
+  "recid": 1826817,
+  "api_url": "https://inspirehep.net/api/literature/1826817",
+  "retrieved": "2026-11-06",
+  "title": "String Theory, the Dark Sector, and the Hierarchy Problem",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2020-10-29",
+  "journal": "LHEP 2021 186 (2021)",
+  "dois": [
+   "10.31526/lhep.2021.186",
+   "10.31526/lhep.2021.186"
+  ],
+  "arxiv": "2010.15610",
+  "abstract": "We discuss dark energy, dark matter and the hierarchy problem in the context of a general non-commutative formulation of string theory. In this framework dark energy is generated by the dynamical geometry of the dual spacetime while dark matter, on the other hand, comes from the degrees of freedom dual to the visible matter. This formulation of string theory is sensitive both to the IR and UV scales and the Higgs scale is radiatively stable by being a geometric mean of radiatively stable UV and IR scales. We also comment on various phenomenological signatures of this novel approach to dark energy, dark matter and the hierarchy problem. We find that this new view on the hierarchy problem is realized in a toy model based on a non-holomorphic deformation of the stringy cosmic string. Finally, we discuss a proposal for a new non-perturbative formulation of string theory, which sheds light on M theory and F theory, as well as on supersymmetry and holography."
+ },
+ "2011.08852": {
+  "key": "2011.08852",
+  "source": "INSPIRE",
+  "recid": 1831039,
+  "api_url": "https://inspirehep.net/api/literature/1831039",
+  "retrieved": "2026-11-06",
+  "title": "Dynamical dark energy and infinite statistics",
+  "authors": [
+   "Jejjala, Vishnu",
+   "Kavic, Michael J.",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2020-11-17",
+  "journal": "Int. J. Mod. Phys. A 37 2242001 (2022)",
+  "dois": [
+   "10.1142/S0217751X22420015"
+  ],
+  "arxiv": "2011.08852",
+  "abstract": "In the $\\Lambda$CDM model, dark energy is viewed as a constant vacuum energy density, the cosmological constant in the Einstein--Hilbert action. This assumption can be relaxed in various models that introduce a dynamical dark energy. In this letter, we argue that the mixing between infrared and ultraviolet degrees of freedom in quantum gravity lead to infinite statistics, the unique statistics consistent with Lorentz invariance in the presence of non-locality, and yield a fine structure for dark energy. Introducing IR and UV cutoffs into the quantum gravity action, we deduce the form of $\\Lambda$ as a function of redshift and translate this to the behavior of the Hubble parameter."
+ },
+ "2104.00802": {
+  "key": "2104.00802",
+  "source": "INSPIRE",
+  "recid": 1855996,
+  "api_url": "https://inspirehep.net/api/literature/1855996",
+  "retrieved": "2026-11-06",
+  "title": "Quantum gravity phenomenology in the infrared",
+  "authors": [
+   "Freidel, Laurent",
+   "Kowalski-Glikman, Jerzy",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2021-04-01",
+  "journal": "Int. J. Mod. Phys. D 30 2141002 (2021)",
+  "dois": [
+   "10.1142/S0218271821410029",
+   "10.1142/S0218271821410029"
+  ],
+  "arxiv": "2104.00802",
+  "abstract": "Quantum gravity effects are traditionally tied to short distances and high energies. In this essay we argue that, perhaps surprisingly, quantum gravity may have important consequences for the phenomenology of the infrared. We center our discussion around a conception of quantum gravity involving a notion of quantum spacetime that arises in metastring theory. This theory allows for an evolution of a cosmological Universe in which string-dual degrees of freedom decouple as the Universe ages. Importantly such an implementation of quantum gravity allows for the inclusion of a fundamental length scale without introducing the fundamental breaking of Lorentz symmetry. The mechanism seems to have potential for an entirely novel source for dark matter/energy. The simplest observational consequences of this scenario may very well be residual infrared modifications that emerge through the evolution of the Universe."
+ },
+ "2109.12763": {
+  "key": "2109.12763",
+  "source": "INSPIRE",
+  "recid": 1929084,
+  "api_url": "https://inspirehep.net/api/literature/1929084",
+  "retrieved": "2026-11-06",
+  "title": "On quantum gravity and quantum gravity phenomenology",
+  "authors": [
+   "Edmonds, Douglas",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2021-09-26",
+  "journal": "",
+  "dois": [
+   "10.1142/9789811269776_0344"
+  ],
+  "arxiv": "2109.12763",
+  "abstract": "This article summarizes a new approach to quantum gravity based on the concepts of modular spacetime, Born geometry, and metastring theory and their applications to quantum gravity phenomenology. In particular, we discuss a new understanding of dark matter in terms of metaparticles (zero modes of the metastring) and its relation to dark energy (the curvature of dual spacetime) in view of the actual astronomical observations."
+ },
+ "2111.05659": {
+  "key": "2111.05659",
+  "source": "INSPIRE",
+  "recid": 1965494,
+  "api_url": "https://inspirehep.net/api/literature/1965494",
+  "retrieved": "2026-11-06",
+  "title": "Quantum gravity phenomenology at the dawn of the multi-messenger era—A review",
+  "authors": [
+   "Addazi, A.",
+   "Alvarez-Muniz, J.",
+   "Alves Batista, R.",
+   "Amelino-Camelia, G.",
+   "Antonelli, V.",
+   "Arzano, M.",
+   "Asorey, M.",
+   "Atteia, J.-L.",
+   "Bahamonde, S.",
+   "Bajardi, F.",
+   "Ballesteros, A.",
+   "Baret, B.",
+   "Barreiros, D.M.",
+   "Basilakos, S.",
+   "Benisty, D.",
+   "Birnholtz, O.",
+   "Blanco-Pillado, J.J.",
+   "Blas, D.",
+   "Bolmont, J.",
+   "Boncioli, D.",
+   "Bosso, P.",
+   "Calcagni, G.",
+   "Capozziello, S.",
+   "Carmona, J.M.",
+   "Cerci, S.",
+   "Chernyakova, M.",
+   "Clesse, S.",
+   "Coelho, J.A.B.",
+   "Colak, S.M.",
+   "Cortes, J.L.",
+   "Das, S.",
+   "D'Esposito, V.",
+   "Demirci, M.",
+   "Di Luca, M.G.",
+   "di Matteo, A.",
+   "Dimitrijevic, D.",
+   "Djordjevic, G.",
+   "Dominis Prester, D.",
+   "Eichhorn, A.",
+   "Ellis, J.",
+   "Escamilla-Rivera, C.",
+   "Fabiano, G.",
+   "Franchino-Viñas, S.A.",
+   "Frassino, A.M.",
+   "Frattulillo, D.",
+   "Funk, S.",
+   "Fuster, A.",
+   "Gamboa, J.",
+   "Gent, A.",
+   "Gergely, L.Á.",
+   "Giammarchi, M.",
+   "Giesel, K.",
+   "Glicenstein, J.-F.",
+   "Gracia-Bondía, J.",
+   "Gracia-Ruiz, R.",
+   "Gubitosi, G.",
+   "Guendelman, E.I.",
+   "Gutierrez-Sagredo, I.",
+   "Haegel, L.",
+   "Heefer, S.",
+   "Held, A.",
+   "Herranz, F.J.",
+   "Hinderer, T.",
+   "Illana, J.I.",
+   "Ioannisian, A.",
+   "Jetzer, P.",
+   "Joaquim, F.R.",
+   "Kampert, K.-H.",
+   "Karasu Uysal, A.",
+   "Katori, T.",
+   "Kazarian, N.",
+   "Kerszberg, D.",
+   "Kowalski-Glikman, J.",
+   "Kuroyanagi, S.",
+   "Lämmerzahl, C.",
+   "Levi Said, J.",
+   "Liberati, S.",
+   "Lim, E.",
+   "Lobo, I.P.",
+   "López-Moya, M.",
+   "Luciano, G.G.",
+   "Manganaro, M.",
+   "Marcianò, A.",
+   "Martín-Moruno, P.",
+   "Martinez, Manel",
+   "Martinez, Mario",
+   "Martínez-Huerta, H.",
+   "Martínez-Miravé, P.",
+   "Masip, M.",
+   "Mattingly, D.",
+   "Mavromatos, N.",
+   "Mazumdar, A.",
+   "Méndez, F.",
+   "Mercati, F.",
+   "Micanovic, S.",
+   "Mielczarek, J.",
+   "Miller, A.L.",
+   "Milosevic, M.",
+   "Minic, D.",
+   "Miramonti, L.",
+   "Mitsou, V.A.",
+   "Moniz, P.",
+   "Mukherjee, S.",
+   "Nardini, G.",
+   "Navas, S.",
+   "Niechciol, M.",
+   "Nielsen, A.B.",
+   "Obers, N.A.",
+   "Oikonomou, F.",
+   "Oriti, D.",
+   "Paganini, C.F.",
+   "Palomares-Ruiz, S.",
+   "Pasechnik, R.",
+   "Pasic, V.",
+   "Pérez de los Heros, C.",
+   "Pfeifer, C.",
+   "Pieroni, M.P.",
+   "Piran, T.",
+   "Platania, A.",
+   "Rastgoo, S.",
+   "Relancio, J.J.",
+   "Reyes, M.A.",
+   "Ricciardone, A.",
+   "Risse, M.",
+   "Rodriguez Frias, M.D.",
+   "Rosati, G.",
+   "Rubiera-Garcia, D.",
+   "Sahlmann, H.",
+   "Sakellariadou, M.",
+   "Salamida, F.",
+   "Saridakis, E.N.",
+   "Satunin, P.",
+   "Schiffer, M.",
+   "Schüssler, F.",
+   "Sigl, G.",
+   "Sitarek, J.",
+   "Solà Peracaula, J.",
+   "Sopuerta, C.F.",
+   "Sotiriou, T.P.",
+   "Spurio, M.",
+   "Staicova, D.",
+   "Stergioulas, N.",
+   "Stoica, S.",
+   "Strišković, J.",
+   "Stuttard, T.",
+   "Sunar Cerci, D.",
+   "Tavakoli, Y.",
+   "Ternes, C.A.",
+   "Terzić, T.",
+   "Thiemann, T.",
+   "Tinyakov, P.",
+   "Torri, M.D.C.",
+   "Tórtola, M.",
+   "Trimarelli, C.",
+   "Trześniewski, T.",
+   "Tureanu, A.",
+   "Urban, F.R.",
+   "Vagenas, E.C.",
+   "Vernieri, D.",
+   "Vitagliano, V.",
+   "Wallet, J.-C.",
+   "Zornoza, J.D."
+  ],
+  "earliest_date": "2021-11-10",
+  "journal": "Prog. Part. Nucl. Phys. 125 103948 (2022)",
+  "dois": [
+   "10.1016/j.ppnp.2022.103948",
+   "10.1016/j.ppnp.2022.103948"
+  ],
+  "arxiv": "2111.05659",
+  "abstract": "The exploration of the universe has recently entered a new era thanks to the multi-messenger paradigm, characterized by a continuous increase in the quantity and quality of experimental data that is obtained by the detection of the various cosmic messengers (photons, neutrinos, cosmic rays and gravitational waves) from numerous origins. They give us information about their sources in the universe and the properties of the intergalactic medium. Moreover, multi-messenger astronomy opens up the possibility to search for phenomenological signatures of quantum gravity. On the one hand, the most energetic events allow us to test our physical theories at energy regimes which are not directly accessible in accelerators; on the other hand, tiny effects in the propagation of very high energy particles could be amplified by cosmological distances. After decades of merely theoretical investigations, the possibility of obtaining phenomenological indications of Planck-scale effects is a revolutionary step in the quest for a quantum theory of gravity, but it requires cooperation between different communities of physicists (both theoretical and experimental). This review is aimed at promoting this cooperation by giving a state-of-the art account of the interdisciplinary expertise that is needed in the effective search of quantum gravity footprints in the production, propagation and detection of cosmic messengers."
+ },
+ "2111.14205": {
+  "key": "2111.14205",
+  "source": "INSPIRE",
+  "recid": 1978953,
+  "api_url": "https://inspirehep.net/api/literature/1978953",
+  "retrieved": "2026-11-06",
+  "title": "Mirror Symmetry, Born Geometry and String Theory",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2021-11-28",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2111.14205",
+  "abstract": "All known string theory models may be obtained as partial fermionization, projection and background Ansätze from the original, purely bosonic string theory. The latter theory in turn has been recently shown to describe a chirally and non-commutatively doubled and manifestly T-dual target spacetime. We show herein that this, so-called metastring theory automatically includes mirror symmetry."
+ },
+ "2202.05104": {
+  "key": "2202.05104",
+  "source": "INSPIRE",
+  "recid": 2030712,
+  "api_url": "https://inspirehep.net/api/literature/2030712",
+  "retrieved": "2026-11-06",
+  "title": "Quantum Gravity and Phenomenology: Dark Matter, Dark Energy, Vacuum Selection, Emergent Spacetime, and Wormholes",
+  "authors": [
+   "Berglund, Per",
+   "Dai, De-Chang",
+   "Edmonds, Douglas",
+   "He, Yang-Hui",
+   "Hubsch, Tristan",
+   "Jejjala, Vishnu",
+   "Kavic, Michael J.",
+   "Minic, Djordje",
+   "Powers, Samuel",
+   "Simonetti, John H.",
+   "Stojkovic, Dejan",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2022-02-10",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2202.05104",
+  "abstract": "We discuss the relevance of quantum gravity to the frontier questions in high energy phenomenology: the problems of dark matter, dark energy, and vacuum selection as well as the problems of emergent spacetime and wormholes. Dark matter and dark energy phenomenology, and the problem of vacuum selection are discussed within the context of string theory as a model of quantum gravity. Emergent spacetime and wormholes are discussed in a more general context of effective theories of quantum gravity."
+ },
+ "2202.05266": {
+  "key": "2202.05266",
+  "source": "INSPIRE",
+  "recid": 2030718,
+  "api_url": "https://inspirehep.net/api/literature/2030718",
+  "retrieved": "2026-11-06",
+  "title": "First Principles Phenomenology of $H_0$",
+  "authors": [
+   "Jejjala, Vishnu",
+   "Kavic, Michael",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2022-02-10",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2202.05266",
+  "abstract": "In this letter we discuss infinite statistics and motivate its role in quantum gravity. Then, we connect infinite statistics to a dynamical form of dark energy, and we obtain an expression for the evolution of the Hubble parameter that we compare to observation. The equation of state parameter $w_{eff} < -1$ in this framework."
+ },
+ "2202.06890": {
+  "key": "2202.06890",
+  "source": "INSPIRE",
+  "recid": 2032186,
+  "api_url": "https://inspirehep.net/api/literature/2032186",
+  "retrieved": "2026-11-06",
+  "title": "Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation",
+  "authors": [
+   "Berglund, Per",
+   "Freidel, Laurent",
+   "Hubsch, Tristan",
+   "Kowalski-Glikman, Jerzy",
+   "Leigh, Robert G.",
+   "Mattingly, David",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2022-02-14",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2202.06890",
+  "abstract": "We discuss the possible appearance of several rather exotic phenomena in quantum gravity, including UV/IR mixing, novel modifications of infrared phenomenology that extend effective field theory approaches, and the relaxation of the usual notions of locality. We discuss the relevance of such concepts in quantum gravity for quantum information science, cosmology and general quantum gravity phenomenology."
+ },
+ "2212.06086": {
+  "key": "2212.06086",
+  "source": "INSPIRE",
+  "recid": 2613377,
+  "api_url": "https://inspirehep.net/api/literature/2613377",
+  "retrieved": "2026-11-06",
+  "title": "On de Sitter Spacetime and String Theory",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2022-12-12",
+  "journal": "Int. J. Mod. Phys. D 32 2330002 (2023)",
+  "dois": [
+   "10.1142/S0218271823300021"
+  ],
+  "arxiv": "2212.06086",
+  "abstract": "We review various aspects of de Sitter spacetime in string theory: its status as an effective field theory spacetime solution, its relation to the vacuum energy problem in string theory, its (global) holographic definition in terms of two entangled and non-canonical conformal field theories, as well as a realization of a realistic de Sitter universe endowed with the observed visible matter and the necessary dark sector in order to reproduce the realistic cosmological structure. In particular, based on the new insight regarding the cosmological constant problem in string theory, we argue that in a doubled, T-duality-symmetric, phase-space-like and non-commutative generalized-geometric formulation, string theory can naturally lead to a small and positive cosmological constant that is radiatively stable and technically natural. Such a formulation is fundamentally based on a quantum spacetime, but in an effective spacetime description of this general formulation of string theory, the curvature of the dual spacetime is the cosmological constant of the observed spacetime, while the size of the dual spacetime is the gravitational constant of the same observed spacetime. Also, the three scales associated with intrinsic non-commutativity of string theory, the cosmological constant scale and the Planck scale, as well as the Higgs scale, can be arranged to satisfy various seesaw-like formulae. Along the way, we show that these new features of string theory can be implemented in a particular deformation of cosmic-string-like models."
+ },
+ "2212.13131": {
+  "key": "2212.13131",
+  "source": "INSPIRE",
+  "recid": 2618482,
+  "api_url": "https://inspirehep.net/api/literature/2618482",
+  "retrieved": "2026-11-06",
+  "title": "Dual Spacetime Symmetry Breaking down to Einstein Gravity",
+  "authors": [
+   "Nishimura, Kimihide"
+  ],
+  "earliest_date": "2022-12-16",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2212.13131",
+  "abstract": "Einstein action of gravity is obtained from a gauge theory, if our spacetime was once in two folds with a double Lorentz symmetry. After the dual symmetry breaks spontaneously, Lorentz symmetry absorbs gauge symmetry, while the gauge field begins to drive the vierbein and the spin connection. This gauge model of gravity has many bosons and fermions with negative norms, which will be undetectable. The consistency of these particles with the Copenhagen interpretation of wave functions, and their relation to the presence of dark matter as well as the absence of antimatter in the universe are discussed."
+ },
+ "2307.16712": {
+  "key": "2307.16712",
+  "source": "INSPIRE",
+  "recid": 2683693,
+  "api_url": "https://inspirehep.net/api/literature/2683693",
+  "retrieved": "2026-11-06",
+  "title": "String Theory Bounds on the Cosmological Constant, the Higgs Mass, and the Quark and Lepton Masses †",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2023-07-31",
+  "journal": "Symmetry 15 1660 (2023)",
+  "dois": [
+   "10.3390/sym15091660",
+   "10.3390/sym15091660"
+  ],
+  "arxiv": "2307.16712",
+  "abstract": "We elaborate on the new understanding of the cosmological constant and the gauge hierarchy problems in the context of string theory in its metastring formulation, based on the concepts of modular spacetime and Born geometry. The interplay of phase space (and Born geometry), the Bekenstein bound, the mixing between ultraviolet (UV) and infrared (IR) physics and modular invariance in string theory is emphasized. This new viewpoint is fundamentally rooted in quantum contextuality and not in statistical observer bias (anthropic principle). We also discuss the extension of this point of view to the problem of masses of quarks and leptons and their respective mixing matrices."
+ },
+ "2405.08744": {
+  "key": "2405.08744",
+  "source": "INSPIRE",
+  "recid": 2786707,
+  "api_url": "https://inspirehep.net/api/literature/2786707",
+  "retrieved": "2026-11-06",
+  "title": "Universal acceleration and fuzzy dark matter",
+  "authors": [
+   "Edmonds, Douglas",
+   "Erlich, Joshua",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2024-05-14",
+  "journal": "Int. J. Mod. Phys. D 33 2440003 (2024)",
+  "dois": [
+   "10.1142/S0218271824400030"
+  ],
+  "arxiv": "2405.08744",
+  "abstract": "Observations of velocity dispersions of galactic structures over a wide range of scales point to the existence of a universal acceleration scale $a_0\\sim 10^{-10}$ m/s$^2$. Focusing on the fuzzy dark matter paradigm, which proposes ultralight dark matter with mass around $10^{-22}$ eV and de Broglie wavelength $\\lambda\\sim {\\rm few}\\times10^{2}$ parsecs, we highlight the emergence of the observed acceleration scale from quantum effects in a fluid-like description of the dark matter dynamics. We then suggest the possibility of a natural connection between the acceleration scale and dark energy within the same paradigm."
+ },
+ "2407.06207": {
+  "key": "2407.06207",
+  "source": "INSPIRE",
+  "recid": 2806130,
+  "api_url": "https://inspirehep.net/api/literature/2806130",
+  "retrieved": "2026-11-06",
+  "title": "Quantum Gravity as Gravitized Quantum Theory",
+  "authors": [
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2024-07-02",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2407.06207",
+  "abstract": "Starting from a new understanding of the vacuum energy problem based on the combination of the phase space regularization and the holographic bound, we argue that quantum gravity should be understood as gravitized quantum theory, that is, quantum theory wherein the geometry and topology of the state-space if fully dynamical, in analogy with the dynamical nature of spacetime in Einstein's general relativity. Apart from the vacuum energy problem viewed as a quantum gravity problem, we discuss the \"smoking gun\" experiments involving higher order quantum interference, as well as experimental probes of the statistics of spacetime quanta. Finally, we address the conundrum of the intricately patterned spectrum of masses of elementary particles as well as their mixing angles, as another telltale problem of quantum gravity viewed as gravitized quantum theory."
+ },
+ "2503.20854": {
+  "key": "2503.20854",
+  "source": "INSPIRE",
+  "recid": 2904985,
+  "api_url": "https://inspirehep.net/api/literature/2904985",
+  "retrieved": "2026-11-06",
+  "title": "Dynamical dark energy, dual spacetime, and DESI",
+  "authors": [
+   "Hur, Sunhaeng",
+   "Jejjala, Vishnu",
+   "Kavic, Michael J.",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2025-03-26",
+  "journal": "JCAP 11 054 (2025)",
+  "dois": [
+   "10.1088/1475-7516/2025/11/054"
+  ],
+  "arxiv": "2503.20854",
+  "abstract": "In this paper we discuss possible consequences of a manifestly non-commutative and $T$-duality covariant formulation of string theory on dark energy, when the correspondence between short distance (UV) and long distance (IR) physics is taken into account. We demonstrate that the dark energy is dynamical, \\textit{i.e.}, time-dependent, and we compute the allowed values of $w_0$ and $w_a$, given by $w(a) = w_0+w_a(1-a)$, which compare favorably to the most recent observations by DESI. From this point of view, the latest results from DESI might point to a fundamentally new understanding of quantum spacetime in the context of quantum gravity."
+ },
+ "2604.19418": {
+  "key": "2604.19418",
+  "source": "INSPIRE",
+  "recid": 3147521,
+  "api_url": "https://inspirehep.net/api/literature/3147521",
+  "retrieved": "2026-11-06",
+  "title": "Quantum Spacetime, Quantum Gravity and Gravitized Quantum Theory",
+  "authors": [
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2026-04-21",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2604.19418",
+  "abstract": "General relativity is a background-independent theory of a dynamical classical spacetime geometry. Quantum theory is formulated in a classical spacetime, as an intrinsically probabilistic, contextual theory of non-classical, interfering probabilities, with a fixed Born rule for computing those probabilities. We argue that the quantum nature of spacetime, which includes a non-commutative dual companion to the (observed) classical spacetime, is the reason behind an intrinsically probabilistic and contextual nature of quantum theory, with the fixed Born rule. In quantum gravity, we claim, quantum theory is gravitized into a background-independent structure with dynamical and contextual quantum probabilities. This proposal implies intrinsic triple and higher-order interference in the context of massive quantum probes, which sheds light on string theory and the observed vacuum energy as well as the masses of elementary particles."
+ },
+ "2610.19522": {
+  "key": "2610.19522",
+  "source": "INSPIRE",
+  "recid": 3215102,
+  "api_url": "https://inspirehep.net/api/literature/3215102",
+  "retrieved": "2026-11-06",
+  "title": "Nambu's Dynamics, Strings and Gravitized Quantum Theory",
+  "authors": [
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2026-10-14",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2610.19522",
+  "abstract": "In this article we present a new view on string theory that is rooted in quantum foundations extended to the domain of quantum gravity in the form of gravitized quantum theory, in which the canonical probability measure captured by the Born rule of quantum theory, turns out to be dynamical and contextual. We claim that this gravitization of quantum theory is the essence of string theory. String theory, according to this view, originates in foundations of quantum theory and Nambu's dynamics, which features in the non-perturbative definition of string theory in terms of a T-duality covariant and non-commutative formulation, called the metastring. Nambu's dynamics and the associated cubic and hypercubic objects also appear as the natural language for exploring the new observables and phenomena implied by a dynamical Born rule, including triple and higher order quantum interference, that can be investigated in experiments involving massive quantum probes, and that are also needed for direct empirical tests of the Born rule, a cornerstone of quantum theory."
+ },
+ "doi:10.1515/zna-2018-0559": {
+  "key": "doi:10.1515/zna-2018-0559",
+  "source": "Crossref",
+  "api_url": "https://api.crossref.org/works/10.1515/zna-2018-0559",
+  "retrieved": "2026-11-06",
+  "title": "Gravity Beyond Einstein? Part II: Fundamental Physical Principles, Number Systems, Novel Groups, Dark Energy, and Dark Matter, MOND",
+  "authors": [
+   "Jochem Hauser",
+   "Walter Dröscher"
+  ],
+  "earliest_date": "2019",
+  "journal": "Zeitschrift für Naturforschung A 74 387-446 (2019)",
+  "dois": [
+   "10.1515/zna-2018-0559"
+  ],
+  "arxiv": "",
+  "abstract": ""
+ },
+ "doi:10.55277/researchhub.unu7fof1.1": {
+  "key": "doi:10.55277/researchhub.unu7fof1.1",
+  "source": "Crossref",
+  "api_url": "https://api.crossref.org/works/10.55277/researchhub.unu7fof1.1",
+  "retrieved": "2026-11-06",
+  "title": "Dark Matter from Dual-Manifold Coupling",
+  "authors": [
+   "Sheng Ran"
+  ],
+  "earliest_date": "2025",
+  "journal": "",
+  "dois": [
+   "10.55277/researchhub.unu7fof1.1"
+  ],
+  "arxiv": "",
+  "abstract": ""
+ },
+ "recid:1590124": {
+  "key": "recid:1590124",
+  "source": "INSPIRE",
+  "recid": 1590124,
+  "api_url": "https://inspirehep.net/api/literature/1590124",
+  "retrieved": "2026-11-06",
+  "title": "Modular Spacetime and Metastring Theory",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": null,
+  "journal": "J. Phys. Conf. Ser. 804 012032 (2017)",
+  "dois": [
+   "10.1088/1742-6596/804/1/012032"
+  ],
+  "arxiv": "",
+  "abstract": "In this talk we review our recent work on metastring theory and its habitat, a new form of quantum spacetime, called modular spacetime. We emphasize that the geometry underlying modular spacetime, i.e. the background geometry of metastring theory is also the geometry underlying any quantum theory as formulated in terms of Aharonov’s modular variables. Thus the metastring sheds light on the foundations of quantum theory, and it represents a new formulation of string theory and quantum gravity based on the principle of relative locality."
+ },
+ "recid:1760046": {
+  "key": "recid:1760046",
+  "source": "INSPIRE",
+  "recid": 1760046,
+  "api_url": "https://inspirehep.net/api/literature/1760046",
+  "retrieved": "2026-11-06",
+  "title": "Manifest non-locality in quantum mechanics, quantum field theory and quantum gravity",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": null,
+  "journal": "Int. J. Mod. Phys. A 34 1941004 (2019)",
+  "dois": [
+   "10.1142/9789811213144_0004",
+   "10.1142/S0217751X19410045"
+  ],
+  "arxiv": "",
+  "abstract": "We summarize our recent work on the foundational aspects of string theory as a quantum theory of gravity. We emphasize the hidden quantum geometry (modular spacetime) behind the generic representation of quantum theory and then stress that the same geometric structure underlies a manifestly T-duality covariant formulation of string theory, that we call metastring theory. We also discuss an effective non-commutative description of closed strings implied by intrinsic non-commutativity of closed string theory. This fundamental non-commutativity is explicit in the metastring formulation of quantum gravity. Finally we comment on the new concept of metaparticles inherent to such an effective non-commutative description in terms of bi-local quantum fields."
+ },
+ "recid:1923123": {
+  "key": "recid:1923123",
+  "source": "INSPIRE",
+  "recid": 1923123,
+  "api_url": "https://inspirehep.net/api/literature/1923123",
+  "retrieved": "2026-11-06",
+  "title": "Born Reciprocal Representations of the Quantum Algebra",
+  "authors": [
+   "Yargic, Yigit",
+   "Smolin, Lee"
+  ],
+  "earliest_date": "2021",
+  "journal": "",
+  "dois": [],
+  "arxiv": "",
+  "abstract": "This thesis addresses the representations of the Weyl algebra of quantum mechanics with an explicitly Born reciprocal structure and the dynamics of physical systems in these representations. In this context, we discuss both the regular modular representations based on Aharonov's modular variables, as well as the irregular modular polymer representations inspired by the spin network representation in loop quantum gravity.\n\nWe introduce the modular space as the quantum configuration space corresponding to the modular representation and treat it as an alternative to the classical configuration space. The modular representations have a built-in Abelian gauge symmetry. We discuss the singular limits in which the modular representation converges to the Schrodinger and momentum representations, and show that these limits require two distinct fixings of the modular gauge symmetry.\n\nIn order to explore the propagation of quantum states in the modular space, we construct a Feynman path integral for the harmonic oscillator explicitly as the transition amplitude between two modular states. The result is a functional integral over the compact modular space, which shows novel features of the dynamics such as winding modes, an Aharonov-Bohm phase, and a new action on the modular space. We compare the stationary trajectories that extremize this modular action to the phase space solution of Hamilton's equations in the Schrodinger representation and find a new translation symmetry. We also identify the other symmetries of the harmonic oscillator in the modular action and show their correspondence to the classical case.\n\nWe generalize the relationship between the classical Hamiltonian function and the modular action by postulating a new modular Legendre transform. For demonstration we apply this transformation on the Kepler problem and reformulate it in terms of modular variables.\n\nWe then switch our focus to the representations of the Weyl algebra that violate the assumptions of the Stone-von Neumann theorem. In a similar fashion to the polymer representations studied as a toy model for quantum gravity, we polymerize the modular representation to obtain an inequivalent representation called the modular polymer (MP) representation.\n\nThe new MP representation lacks both position and momentum operators, therefore the Hamiltonian of the harmonic oscillator is regularized with the Weyl operators and the non-separable MP Hilbert space is split into superselection sectors. The solutions to the Schrodinger equation fall into two categories depending on whether the ratio between the modular scale and the polymeric regularization scale is a rational or irrational number. We find a discrete and finite energy spectrum in each superselection sector in the former case, and a continuous, bounded one in the latter.",
+  "edited": "year from INSPIRE's record, a 2021 thesis (2026-11-06)"
+ }
+}

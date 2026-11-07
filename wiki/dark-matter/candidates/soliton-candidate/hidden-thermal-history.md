@@ -39,7 +39,7 @@ The hidden sector of #14's model ([the hidden SU(2) → U(1) proposal](/wiki/dar
 
 ### N_eff [T]
 
-Radiation in the early universe beyond the photons is measured as N_eff, the number of neutrino species at the standard neutrino temperature that would carry the same energy density [T]. The Standard Model value is about 3.044 (the round-3 adjudication's value; Planck 2018 uses 3.046). Any extra light species raises it. For a species with g internal states at temperature T_x, the excess is
+Radiation in the early universe beyond the photons is measured as N_eff, the number of neutrino species at the standard neutrino temperature that would carry the same energy density [T]. The Standard Model value is about 3.044 (the round-3 adjudication's value; [Planck 2018](https://arxiv.org/abs/1807.06209) uses 3.046). Any extra light species raises it. For a species with g internal states at temperature T_x, the excess is
 
 ```text
 ΔN_eff = (4/7) · g · (T_x/T_ν)⁴

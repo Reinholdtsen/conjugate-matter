@@ -29,6 +29,8 @@ sources:
   - "verify/toy_coset.py"
   - "verify/battery.py T2"
   - "CLAUDE.md 'Since the handoff'"
+  - "notes/dual-sector.md §8"
+  - "review/wiki-build-flags.md item 70"
 ---
 
 *P2′ is the program's corrected second axiom: of the structures on phase space, only the symplectic form ω is fixed in advance, and holding it fixed is the program's way of saying that Planck's constant does not change. The [neutral metric](/wiki/phase-space/born-geometry/born-structures) η, which marks which directions count as position, is not part of the background. It is a property of the vacuum: the order parameter of the broken symmetry, the quantity whose value tells a vacuum from its mirror image, as the direction of magnetization tells a magnet pointing one way from one pointing the other. The original P2 had fixed η as well, and the nontriviality theorem showed that this left the program with no content of its own. [Checkpoint](/wiki/history/documents/checkpoint) v2.2 added a refinement from the toy models: with only ω fixed, the polarization is a continuous angle. Two consequences follow. Pinning the angle to a definite value needs an additional potential, which brings back a little fixed structure, and the choice has physical consequences only once matter couples to it.*
@@ -91,6 +93,14 @@ The choices of J form a familiar manifold:
 
 #11 §4: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." The toy-model note's survey of prior work says the same in more detail: "Freidel, Leigh and Minic make η dynamical and describe spacetime as a choice of Lagrangian [1]", and they describe a preferred polarization as breaking Born duality, "but give no potential for η and no symmetry-breaking analysis" (toy note §1). See [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
 
+More of P2′'s setting is in the same authors' papers [S], with no potential and no order parameter (`notes/dual-sector.md` §8; flag 70, pending):
+
+- **η = HJ.** The structure is theirs from 2013: both elements (η, J) "of the chiral structure are dynamical" ([Freidel, Leigh and Minic 2014, Phys. Lett. B](https://arxiv.org/abs/1307.7080), posted in 2013).
+- **The space of choices.** [Freidel, Leigh and Minic 2016](https://arxiv.org/abs/1606.01829) (§2) name U(d)/O(d), the space of vacua above, as a space of choices of η: it "represents the choice of inequivalent lifts" η "that preserve the symplectic structure and the vacuum state".
+- **A breaking in the vacuum.** A later paper of theirs, [Freidel, Kowalski-Glikman, Leigh and Minic 2021](https://arxiv.org/abs/2104.00802), places a symmetry breaking tied to the choice of polarization in the vacuum, for a dual Lorentz symmetry of their doubled phase space that is not ρ ([broken Born duality, its neighbours](/wiki/phase-space/reciprocity/broken-born-duality#neighbours-in-the-literature)).
+
+What was not found in their papers is P2′'s first half, the rigidity of ω alone. They put the rigidity of quantum theory in the flatness of η, "the rigidity of the quantum theory is encoded into the flatness of the polarization metric" η ([Freidel, Leigh and Minic 2015](https://arxiv.org/abs/1502.08005), §1), and [Minic 2020](https://arxiv.org/abs/2003.00318) (§2.2) makes all three structures dynamical.
+
 ## The v2.2 refinement
 
 Checkpoint v2.2 (2026-10-20) appended to P2′ what the [toy models](/wiki/symmetry-breaking/toy-models) had found:
@@ -148,3 +158,4 @@ These items are registered in [open problems](/wiki/status/open-problems).
 - `review/round4-adjudication.md` 'Rulings' F3 — the twisted element and the K-odd coupling
 - `verify/toy_coset.py` — the Goldstone count, V_b's stability and the twisted-element check; `verify/battery.py` T2 — det H_Z = 1 for a sampled Z
 - `CLAUDE.md` 'Since the handoff' — the derivation of the ρ-preserving potential as an open end
+- `notes/dual-sector.md` §8; `review/wiki-build-flags.md` item 70 — η = HJ (2013) and U(d)/O(d) as the space of choices of η (2016) in Freidel, Leigh and Minic; a breaking tied to the polarization in the vacuum, for another symmetry; quantum rigidity in the flatness of η, not in ω alone; pending

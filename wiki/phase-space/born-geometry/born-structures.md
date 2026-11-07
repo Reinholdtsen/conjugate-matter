@@ -76,7 +76,7 @@ The relations J² = 1 and I² = −1 are conditions on H, since ω and η are he
 
 The name is Freidel, Leigh and Minic's. The lab notebook: "A compatible triple (ω, η, H) realizing this algebra is precisely a Born geometry in the sense of Freidel, Leigh & Minic. [T]" (#1 §2). The v1 program paper repeats the attribution as "Born geometry in the sense of Freidel–Leigh–Minic [T]" (#9 §3), and #11 §5 cites it as ref. [3]†.
 
-The [round-3](/wiki/method/review/round-3) referee located the term in the metastring paper, arXiv:1502.08005, p. 11, and quoted it (audit notes, Step 1):
+The [round-3](/wiki/method/review/round-3) referee located the term in the metastring paper, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005), p. 11, and quoted it (audit notes, Step 1):
 
 ```text
 "If, in addition, we assume that B vanishes we have that I is a complex
@@ -86,14 +86,14 @@ satisfying these conditions were referred to as Born geometries"
 
 The condition "B vanishes" is the content of the compatibility theorem: the referee summarizes the theorem as "B-field vanishes <=> I = H^-1 omega compatible" (audit notes, Step 3). The referee writes FLM's complex structure as I = H⁻¹ω (FLM is Freidel–Leigh–Minic); this wiki follows #11's I = ω⁻¹H ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
-In Freidel, Leigh and Minic's own work η is dynamical rather than fixed. The [round-4](/wiki/method/review/round-4) referee found "we have to make eta dynamical" in arXiv:1405.3949, and the toy-model worklog quotes arXiv:1307.7080: "both elements (η, J) of the chiral structure are dynamical. The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept" [S] (worklog, 'Chunk 1 results'). #11 §4 credits that literature for the point: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." The history of the idea is on [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
+In Freidel, Leigh and Minic's own work η is dynamical rather than fixed. The [round-4](/wiki/method/review/round-4) referee found "we have to make eta dynamical" in [arXiv:1405.3949](https://arxiv.org/abs/1405.3949), and the toy-model worklog quotes [arXiv:1307.7080](https://arxiv.org/abs/1307.7080): "both elements (η, J) of the chiral structure are dynamical. The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept" [S] (worklog, 'Chunk 1 results'). #11 §4 credits that literature for the point: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." The history of the idea is on [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
 
 References, with the marks the documents give them:
 
-- #11 [3]† L. Freidel, R. G. Leigh, D. Minic, "Born reciprocity in string theory and the nature of spacetime," Phys. Lett. B 730, 302 (2014); "Quantum gravity, dynamical phase space and string theory," Int. J. Mod. Phys. D 23, 1442006 (2014). The [toy-model note](/wiki/symmetry-breaking/toy-models) lists the same two papers as its ref. [1], parts (a), arXiv:1307.7080, and (b), arXiv:1405.3949, retrieved during the project.
-- #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005 (the toy-model note's ref. [1], part (c)).
+- #11 [3]† L. Freidel, R. G. Leigh, D. Minic, "Born reciprocity in string theory and the nature of spacetime," Phys. Lett. B 730, 302 (2014); "Quantum gravity, dynamical phase space and string theory," Int. J. Mod. Phys. D 23, 1442006 (2014). The [toy-model note](/wiki/symmetry-breaking/toy-models) lists the same two papers as its ref. [1], parts (a), [arXiv:1307.7080](https://arxiv.org/abs/1307.7080), and (b), [arXiv:1405.3949](https://arxiv.org/abs/1405.3949), retrieved during the project.
+- #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005) (the toy-model note's ref. [1], part (c)).
 
-**Para-Hermitian geometry.** A real structure whose two eigenspaces are null for a neutral metric is the setting of para-Hermitian geometry, the mathematics of a doubled space split into two halves [T]. Calc note #5 points to this literature for an open question about the structure P2′ keeps, ω and H without a fixed η: whether a compatible connection is still unique there, for which "the para-Hermitian literature — Svoboda, Marotta–Szabo — is the nearest neighbor" (#5 §F; [the Born connection](/wiki/phase-space/born-geometry/born-connection)). The toy-model note cites V. E. Marotta, R. J. Szabo, "Born sigma-models for para-Hermitian manifolds and generalized T-duality," Rev. Math. Phys. 33, 2150031 (2021), arXiv:1910.09997 (ref. [3]), in which "Born sigma models choose the polarization by gauging" (toy-model note §1). The round-4 referee describes them as "sigma models of Born geometry (polarization as target structure, not a field)".
+**Para-Hermitian geometry.** A real structure whose two eigenspaces are null for a neutral metric is the setting of para-Hermitian geometry, the mathematics of a doubled space split into two halves [T]. Calc note #5 points to this literature for an open question about the structure P2′ keeps, ω and H without a fixed η: whether a compatible connection is still unique there, for which "the para-Hermitian literature — Svoboda, Marotta–Szabo — is the nearest neighbor" (#5 §F; [the Born connection](/wiki/phase-space/born-geometry/born-connection)). The toy-model note cites V. E. Marotta, R. J. Szabo, "Born sigma-models for para-Hermitian manifolds and generalized T-duality," Rev. Math. Phys. 33, 2150031 (2021), [arXiv:1910.09997](https://arxiv.org/abs/1910.09997) (ref. [3]), in which "Born sigma models choose the polarization by gauging" (toy-model note §1). The round-4 referee describes them as "sigma models of Born geometry (polarization as target structure, not a field)".
 
 ## How ρ acts on the triple [D]
 
@@ -165,7 +165,7 @@ toy-model note §1; #11 §14 item 11:  η = ωK    K the real structure, K² = 1
 - `papers/broken-born-checkpoint-v2.md` §4 — P1, P2′ and P3 in terms of ω, H, J and I; the metastring credit; the Goldstone-angle refinement.
 - `papers/broken-born-checkpoint-v2.md` §6 — ρ as Z → −Z⁻¹ and g → g⁻¹ at X = 0.
 - `papers/reciprocity-toy-models.md` §1, §2, §5 and refs. [1], [3] — K as the real structure, η = ωK, its null lines, the circle K(φ), Marotta–Szabo.
-- `review/round3/referee/audit-notes.md` Step 1, Step 3 — the Born-geometry passage in arXiv:1502.08005 and the referee's I = H⁻¹ω.
+- `review/round3/referee/audit-notes.md` Step 1, Step 3 — the Born-geometry passage in [arXiv:1502.08005](https://arxiv.org/abs/1502.08005) and the referee's I = H⁻¹ω.
 - `review/round4/referee/audit-notes.md` Step 1 — "we have to make eta dynamical"; Born sigma models.
 - `notes/geometric-core.md` §A, §B, §F — "the full Born algebra"; ρ moving the order parameter; {J} ≅ Λ(d); the para-Hermitian neighbour.
 - `notes/tuning-test.md` §1, §2 — the incompatibility measure {J, I[Z]}; J₀ in the vacuum frame.

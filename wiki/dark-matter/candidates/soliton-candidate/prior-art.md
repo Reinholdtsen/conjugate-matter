@@ -49,11 +49,11 @@ A monopole and an antimonopole attract through the magnetic field of the unbroke
 
 ### Murayama and Shu (2010) [28S]
 
-H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), arXiv:0905.1720 (#11 ref [28], live-searched). The round-3 referee quotes its abstract: "Kibble mechanism drastically underestimates the production of topological defects ... dark matter of mass 1-10 PeV" (Step 4(c) item 1). Ruling 3 relies on the same abstract: Kibble "drastically underestimates the production of topological defects". #11 §12 cites it for the statement that "Kibble–Zurek and bubble-nucleation production only add to" the one-per-horizon count.
+H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), [arXiv:0905.1720](https://arxiv.org/abs/0905.1720) (#11 ref [28], live-searched). The round-3 referee quotes its abstract: "Kibble mechanism drastically underestimates the production of topological defects ... dark matter of mass 1-10 PeV" (Step 4(c) item 1). Ruling 3 relies on the same abstract: Kibble "drastically underestimates the production of topological defects". #11 §12 cites it for the statement that "Kibble–Zurek and bubble-nucleation production only add to" the one-per-horizon count.
 
 ### Liveoak, Maharana and Wells (2026) [29S]
 
-D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," arXiv:2607.20843 (2026) (#11 ref [29], live-searched). The referee quotes the abstract: "for symmetry-breaking scales >~ 100 PeV, the monopole abundance is unacceptably high" (Step 4(c) item 1). The adjudication reads it as: "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination" (ruling 3).
+D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," [arXiv:2607.20843](https://arxiv.org/abs/2607.20843) (2026) (#11 ref [29], live-searched). The referee quotes the abstract: "for symmetry-breaking scales >~ 100 PeV, the monopole abundance is unacceptably high" (Step 4(c) item 1). The adjudication reads it as: "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination" (ruling 3).
 
 The referee also used the paper's body (Steps 2 and 4(a)):
 
@@ -81,7 +81,7 @@ Read with the formation and annihilation physics above: at low symmetry-breaking
 
 The referee listed two further papers on the same model, both uncited by #14 (Step 4(c) item 10): Baek, Ko and Park, JCAP 10 (2014) 067 [1311.1035], and Khoze and Ro, JHEP 10 (2014) 061 [1406.2291], "both: hidden SU(2)->U(1) monopoles + W' + dark photon". The adjudication accepted the list as a to-do ("Uncited prior art: Murayama–Shu; LMW; Baek–Ko–Park; Khoze–Ro"). #11 cites Murayama–Shu and Liveoak–Maharana–Wells, but not Baek–Ko–Park or Khoze–Ro.
 
-#14 itself cited one study of the same model: Hiramatsu, Ibe, Suzuki and Yamaguchi, JHEP 12 (2021) 122, arXiv:2109.12771 (#14 ref [12]), of which the v3 worklog says they "study exactly this case with kinetic mixing" (item R6). Their result on mixing is on [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+#14 itself cited one study of the same model: Hiramatsu, Ibe, Suzuki and Yamaguchi, JHEP 12 (2021) 122, [arXiv:2109.12771](https://arxiv.org/abs/2109.12771) (#14 ref [12]), of which the v3 worklog says they "study exactly this case with kinetic mixing" (item R6). Their result on mixing is on [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
 
 ## How the program relates to it
 
@@ -111,20 +111,20 @@ The two works #11 cites carry [S]: they were found by live search, not recalled 
 
 As #11 lists them, live-searched:
 
-- [28][S] H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), arXiv:0905.1720.
-- [29][S] D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," arXiv:2607.20843 (2026).
+- [28][S] H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), [arXiv:0905.1720](https://arxiv.org/abs/0905.1720).
+- [29][S] D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," [arXiv:2607.20843](https://arxiv.org/abs/2607.20843) (2026).
 
 Named by the round-3 referee, verified on INSPIRE and arXiv in its audit, and not in #11's list:
 
-- Baek, Ko and Park, JCAP 10 (2014) 067, arXiv:1311.1035.
-- Khoze and Ro, JHEP 10 (2014) 061, arXiv:1406.2291.
+- Baek, Ko and Park, JCAP 10 (2014) 067, [arXiv:1311.1035](https://arxiv.org/abs/1311.1035).
+- Khoze and Ro, JHEP 10 (2014) 061, [arXiv:1406.2291](https://arxiv.org/abs/1406.2291).
 
 The referee gives these by surname only.
 
 From #14's reference list, which carries no marks; the round-3 referee found that every one of its 23 references resolves on INSPIRE (Step 1):
 
 - [19] J. Preskill, Phys. Rev. Lett. 43, 1365 (1979).
-- [12] T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, JHEP 12 (2021) 122, arXiv:2109.12771.
+- [12] T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, JHEP 12 (2021) 122, [arXiv:2109.12771](https://arxiv.org/abs/2109.12771).
 
 ## Sources
 

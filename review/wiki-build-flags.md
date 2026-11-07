@@ -625,6 +625,31 @@ checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verd
    high and medium). The medium, and a dissent the judge asked to argue for novelty kept on record, rest on readings
    of C1 under which the verdict would be partly anticipated (note §2).
    **Ruling: pending.**
+   **Addendum (2026-11-06, the dual-sector investigation).** A closer reading of the group's papers
+   (`notes/dual-sector.md` §3–§8) qualifies four statements above; the verdict, anticipated, stands under the reading
+   the note states (§2). (a) Date and quotation: the identification was first public in Minic's talk of 9 September
+   2019, whose slides are public, and in writing on 29 February 2020. It is carried by Minic 2020 §6.2, "The proposal
+   here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark
+   matter sector"; the abstract's metaparticle clause quoted above is a narrower claim the group made in 2017. Every
+   statement is a proposal; none is derived. (b) "the canonical conjugate of x": in the group's full string phase
+   space the canonical partner of x is the ordinary momentum p, and x̃, divided by 2πλ², plays that role only on the
+   reduced space of x and x̃ (Freidel, Leigh and Minic 2017, JHEP, §4.2). Its quantum-mechanics papers set x̃ ≡ p/ε,
+   momentum rescaled at ℏ, while the dark sector is built where x̃ is a coordinate of a doubled phase space, at the
+   string length, with a momentum of its own. (c) "correlated with ours": the extra coupling appears beyond leading
+   order in the string length, and no paper computes its strength. At leading order the sectors are independent ("to
+   first order in the fundamental length, we can treat them as independent", Berglund, Hübsch and Minic 2023, Int.
+   J. Mod. Phys. D), and Hübsch and Minic 2024 §5.3 state a decoupling energy "below which the dark and visible
+   matter interact as required, only gravitationally", about 4.5×10¹⁴ GeV. The identification joined to coupling by
+   gravity alone at accessible energies is therefore published once, in one sentence that the paper does not
+   reconcile with the low-energy effects of the dual sector it keeps (an a₀ correlation, CP phases; note §5), and not
+   joined to a permanent null: the group expects detection (note §6). (d) "selected spontaneously (P5)", as a
+   difference: the group places a breaking tied to the choice of polarization "at the level of the vacuum sector"
+   (Freidel, Kowalski-Glikman, Leigh and Minic 2021), for a dual Lorentz symmetry that is not a canonical
+   transformation; what was not found is the spontaneous breaking of the exact, ω-preserving ρ with η as order
+   parameter (flag 70). Suggested, in addition: cite the talk and Minic 2020
+   §5–§6.2 for the identification, and Hübsch and Minic 2024 for its gravity-only regime.
+   **Audit (2026-11-06): four panel judges, two of them asked to argue opposite sides, hold the summary's first two
+   clauses with these qualifications and its third without (confidence high).**
 65. **Partial prior art for the magnetic mirror, for conjugate collapse and for clumping in momentum space is
     uncited (low; #11 §11.4, §10, App. A items 3 and 9).**
     - §11.4: dark sectors of magnetically charged matter, without the momentum placement. Govaerts, Eur. Phys. J. C
@@ -741,10 +766,118 @@ checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verd
    evidence against the χ form; numbers copied from the abstracts.**
    **Ruling: pending.**
 
+## Found by the dual-sector investigation (2026-11-06)
+
+*Raised by the dual-sector investigation (`notes/dual-sector.md`), a close reading of the papers of Djordje Minic and
+coauthors on dark matter as the dual of visible matter. Each points to published work that #11, #13 or the diameter
+note does not cite, or cites for less than it says. None changes a claim's status. `verify/dual_sector.py` finds every
+quotation below in the note, in a repository document or among the quotations of `review/dual-sector/quotes.json`;
+the citations follow the note's reference list, which the same script checks against stored INSPIRE, arXiv and
+Crossref records. The record is in `review/dual-sector/`.*
+
+70. **#11 §3's attribution of broken Born duality understates Freidel, Leigh and Minic, and so do P2′ and P5's
+    credits (medium; #11 §3, §4 P2′ and P5).** #11 §3: "They treat the breaking as kinematical", and the choice "a
+    dynamical question". In their papers "kinematical" is the word for general relativity's breaking, which they
+    credit to Born, and their proposal is the reverse: "the purely kinematical splitting of phase space into space
+    and momentum space has to be made dynamical" (Freidel, Leigh and Minic 2014, Int. J. Mod. Phys. D, §1.3), with the
+    split carried by the solutions rather than by the formulation (§2). The point is weaker against #11 than it
+    looks: the same sentence of #11 reports the dynamical side, and the selector [26S] exhibits, worldsheet locality,
+    is a consistency condition. Freidel, Kowalski-Glikman, Leigh and Minic 2021 place a symmetry breaking tied to the
+    choice of polarization in the vacuum: "The symmetry breaking happens at the level of the vacuum sector, and thus a
+    choice of ground state fixes a value of" the parameter that says which commuting combination of x and x̃ is
+    spacetime, and "We now propose that the expansion of the Universe can act as a mechanism that selects the
+    decoupling frame". The broken symmetry is a dual Lorentz symmetry that is not a canonical transformation, not ρ;
+    Berglund, Hübsch and Minic 2023 (Int. J. Mod. Phys. D) say that within the sector of fixed non-zero p̃ that group
+    "is effectively spontaneously broken". Freidel, Leigh and Minic 2016 name U(d)/O(d), the manifold over which P2′'s
+    order parameter ranges, as the space of choices of η compatible with ω and the vacuum, and the structure η = HJ
+    is theirs from 2013. A doctoral thesis of 2021 (Yargic, Waterloo) speculates that a broken modular gauge symmetry
+    "may explain the absence of Born reciprocity between position and momentum variables in the classical world", a
+    scenario it says the Stone–von Neumann theorem excludes in the simple system it studies. None of these gives a
+    potential, an order parameter or a Goldstone angle. On §3's "The breaking is mandatory": Freidel, Leigh and
+    Minic (J. Phys. Conf. Ser. 804, 2017) tie the breaking of Born reciprocity to the choice of absolute locality, but
+    call the choice of polarization immaterial in ordinary quantum mechanics ([26S] §1), so the mandatory argument is
+    the program's in three judges' reading (note §8). Suggested: cite these [S], and narrow "This program's
+    addition" to the spontaneous breaking of the exact, ω-preserving ρ, with η as order parameter, a ρ-preserving
+    potential and a Goldstone angle, and the explicit actions of `papers/reciprocity-toy-models.md`; the hard core
+    keeps its status [P].
+   **Audit (2026-11-06): found by the readers of the vacuum (r7) and of the foundations (r6), and confirmed in part by
+   their verifiers; the r7 verifier finds the "kinematical" point weaker against #11 than against the record's
+   paraphrases. All four judges label the vacuum and the choice of polarization (element E9) partial; the parts range
+   from related (the split carried by solutions; the thesis) to the same (η = HJ, the identity judge).**
+   **Ruling: pending.**
+71. **The positive form of #11 §5's compatibility statement is in Freidel, Leigh and Minic 2016 (low; #11 §5).** #11
+    §5 attributes the theorem to the Born-geometry compatibility statement of Freidel, Leigh and Minic 2015 (§2.1),
+    made for a Lorentzian H with the B-field set to zero. Their 2016 paper (Phys. Rev. D 94, 104052, §2) gives the
+    positive form in group language: "the group of transformations that preserves the symplectic structure and the
+    polarization metric" η is GL(d) = Sp(2d) ∩ O(d, d), whose frames are "determining the vacuum metric" H = x q x +
+    x̃ q⁻¹ x̃ with q positive, that is H = diag(q, q⁻¹). They assert it without the block proof. Suggested: cite the
+    2016 paper [S] beside [26S]; the block proof and battery test T1 stay the program's.
+   **Audit (2026-11-06): found by the verifier of the foundations reader (r6), who refuted the reader's statement that
+   the group never states the positive form; the overlap and difference judges label the relation the same, the
+   content and identity judges a close variant.**
+   **Ruling: pending.**
+72. **Published overlaps with derived or cited results of #11, #13 and the diameter note are uncited (low; #11 §3,
+    §10, App. A item 10; #13; `papers/phase-space-diameter.md` §7).**
+    - a·ã = 1 (#11 §10): the group's inverse scalings, the symplectic map (x, x̃) → (ax, a⁻¹x̃), which "squeezes the
+      modular cell along the momentum direction and stretches it in the space direction" (Freidel, Leigh and Minic
+      2016 §1.4), its tie to the cosmic scale factor (Freidel, Kowalski-Glikman, Leigh and Minic 2021), and Hur,
+      Jejjala, Kavic, Minic and Takeuchi 2025's conversion of our volume into the dual one through δx δx̃ ∼ λ².
+      Related in three judges' reading; a close variant in the overlap judge's, the same algebra put to another use
+      (the squeeze of 2016 is made in one phase space at ℏ, for a decoupling limit). The program's derivation from
+      ω-rigidity at ℏ with one lapse stays [D].
+    - The dual Einstein term behind §10's a⁻⁶ step (flag 49): Berglund, Hübsch and Minić 2019 (Phys. Lett. B) integrate the doubled
+      gravitational action over x̃, and "the curvature of the canonically conjugate dual space provides for a positive
+      cosmological constant to leading order", the opposite assignment to §10's "dual curvature ↦ negative dark
+      radiation".
+    - Dark energy: Hur et al. 2025 publish both signs of 1 + w, w being the equation of state, pressure divided by
+      energy density. Under the group's earlier relation, "Clearly, w(a)<-1 for all a as anticipated", and "this
+      model is clearly disfavored" by DESI's second release; under an alternative, w(a) ≥ −1. The diameter note (§7)
+      cites only the second.
+    - #13: Freidel, Leigh and Minic 2014 (Int. J. Mod. Phys. D) write that Newton's constant "can be considered as a
+      universal conversion factor between the seemingly different concepts of space and momentum space", as the speed
+      of light is between space and time, and their 2016 paper has the gravitational tension ε/λ ∼ c⁴/G_N set the
+      squeeze of the modular cell at the Planck scale; #13's maximum force c⁴/G is built from the same constant and
+      the same pair of scales without citing them. They state no maximum force.
+    - Curved momentum space: "not only will space-time become curved, but momentum space as well" (Freidel, Leigh and
+      Minic 2014, Phys. Lett. B), an idea they trace to Born; #11 §3's lineage (Snyder, relative locality) and App. A
+      item 10 do not cite them.
+    Suggested: cite each [S] where #11, #13 and the diameter note make the statement; no status changes.
+   **Audit (2026-11-06): found by the readers and verifiers of workflow A and the completeness critic. Labels from the
+   overlap judge: a close variant for the inverse scalings behind a·ã = 1 (the other three judges, related) and
+   related for Hur et al.'s volumes; different for the dual Einstein term; partial for Hur et al.'s dark energy (the
+   other three, related) and for curved momentum space (with the difference judge; the content and identity judges,
+   related). The link to #13 is the critic's (the reader of r6 had both of its passages), and no judge labeled it.**
+   **Ruling: pending.**
+73. **The magnetic mirror's shared-photon form, and the explanation of the monopole null by binding, are published
+    outside the program without the momentum placement (medium; #11 §11.4, §11.1, §12, App. A items 5 and 11).**
+    David R. Winn (Fairfield University) has proposed since 2012 that every charged particle of the Standard Model has a
+    magnetically charged partner under our own photon. Winn 2012 (arXiv:1206.4590), abstract: "A SUSY is proposed that
+    interchanges bosons-fermions, and also transforms particle electric charge to magnetic charge, chromoelectric charge
+    to chromomagnetic charge"; p. 1: "there are no electrically charged superpartners, only neutral or magnetic charged
+    partners"; p. 2: "The resulting strong magnetic force between any pair-produced monopoles explains the absence of
+    detected monopoles heretofore"; the partners' magnetically neutral bound states are proposed as dark matter. He
+    restated it in talks and posters of 2025 and 2026 and a draft of August 2025 (Lepton-Photon 2025, written summary,
+    p. 1: "For each SM elementary particle (quarks, leptons, vector bosons, Higgs), there is a Dual (effectively dark)
+    sector particle that preserves flavor and preserves masses at tree level up to field self-energy corrections.").
+    The partners are elementary, not solitons; nothing is placed in momentum or phase space; "In this early stage
+    simplistic description of a Dual, interaction terms and a Lagrangian are not yet proposed". For §11.4 it is
+    partial, the strongest overlap (in the verifier's words a close variant of the shared-photon form), with one
+    analog per charged particle, our own photon and the binding route to hiding, without the p-polarization, the
+    conjecture's defining clause; for §11.1's explanation of the null result and §12's third candidate it is related
+    (binding, not placement in conjugate space; abundant monopoles in ordinary space). It narrows the literature
+    check's C4 finding (`notes/literature-check.md` §5): one analog per charged particle is published, the placement in
+    momentum is not. Suggested: cite it [S] in §11.4 and App. A item 5, with the differences; no status changes.
+   **Audit (2026-11-06): found by the completeness critic of the dual-sector panel; verified from the original files by
+   round 2's verifier, and by its refuter, who downloaded every file again and found all 72 quotations again
+   (`review/dual-sector/round2/`). The verifier labels it partial for the shared-photon form and related for C1, C2
+   and C3; the refuter confirms the labels and adds C6, related (Bose condensates of sneutrinos as dark matter).**
+   **Ruling: pending.**
+
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
 flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`, and flags 55–58,
 whose arithmetic is in `verify/gate_mechanism.py` and `verify/velocity_gated_gravity.py`. Flag 61's
 homotopy is in `verify/closed_universe.py` (section F); flags 59, 60, 62 and 63 involve no new arithmetic.
-Flags 64, 65 and 67–69 involve none either; flag 66's algebra is in `verify/literature_check.py` (section G), which
+Flags 64, 65, 67–69 and 70–73 involve none either; `verify/dual_sector.py` finds the quotations of flags 70–73 and of flag
+64's addendum (section E). Flag 66's algebra is in `verify/literature_check.py` (section G), which
 also finds the quotations of flags 64–69 and checks the note's reference list, which their citations follow; it does
 not read the flags' citations themselves.

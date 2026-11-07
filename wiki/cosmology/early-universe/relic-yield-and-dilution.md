@@ -184,7 +184,7 @@ The adjudication reads it as a dilution requirement, "a free dilution factor of 
 
 ## The literature's version
 
-In the wiki's reading, the published analysis of hidden-sector monopoles has the same structure. Liveoak, Maharana and Wells (2026) bound the symmetry-breaking scale; the round-3 referee quotes their abstract, "for symmetry-breaking scales >~ 100 PeV, the monopole abundance is unacceptably high" (`review/round3/referee/audit-notes.md`, Step 4(c) item 1), and ruling 3 reads it as "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination". #11 §12 states it as "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S]", and adds: "Below that scale, annihilation in the hidden plasma sets the abundance." The abstract of Murayama and Shu [28S], as the referee quotes it, gives "dark matter of mass 1-10 PeV" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
+In the wiki's reading, the published analysis of hidden-sector monopoles has the same structure. [Liveoak, Maharana and Wells (2026)](https://arxiv.org/abs/2607.20843) bound the symmetry-breaking scale; the round-3 referee quotes their abstract, "for symmetry-breaking scales >~ 100 PeV, the monopole abundance is unacceptably high" (`review/round3/referee/audit-notes.md`, Step 4(c) item 1), and ruling 3 reads it as "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination". #11 §12 states it as "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S]", and adds: "Below that scale, annihilation in the hidden plasma sets the abundance." The abstract of Murayama and Shu [28S], as the referee quotes it, gives "dark matter of mass 1-10 PeV" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
 
 ## How the program uses it
 
@@ -222,8 +222,8 @@ Dilution by inflation is one of the standard histories behind the second of the 
 
 - E. W. Kolb, M. S. Turner, *The Early Universe* (Addison-Wesley, 1990): #14's reference [17], which the round-3 audit resolved as "Front. Phys. 69 (1990), Addison-Wesley" (Step 1); a standard treatment of entropy, yields and entropy production.
 - R. J. Scherrer, M. S. Turner, Phys. Rev. D 31, 681 (1985) †: entropy production by decaying particles.
-- A. Gangui, astro-ph/0110285: the normalization "n_monop/s ~ 100 (T_c/m_P)^3" for "about one monopole per Hubble volume", as the referee quotes it (Step 1), used as the gate's anchor; not cited in #11.
-- H. Murayama, J. Shu (2010), arXiv:0905.1720 [28S], and D. Liveoak, A. Maharana, J. D. Wells (2026), arXiv:2607.20843 [29S], as #11 cites them: production beyond the Kibble count [28S], and the 100 PeV bound on the breaking scale with early matter domination as the escape [29S].
+- A. Gangui, [astro-ph/0110285](https://arxiv.org/abs/astro-ph/0110285): the normalization "n_monop/s ~ 100 (T_c/m_P)^3" for "about one monopole per Hubble volume", as the referee quotes it (Step 1), used as the gate's anchor; not cited in #11.
+- H. Murayama, J. Shu (2010), [arXiv:0905.1720](https://arxiv.org/abs/0905.1720) [28S], and D. Liveoak, A. Maharana, J. D. Wells (2026), [arXiv:2607.20843](https://arxiv.org/abs/2607.20843) [29S], as #11 cites them: production beyond the Kibble count [28S], and the 100 PeV bound on the breaking scale with early matter domination as the escape [29S].
 - Particle Data Group, *Review of Particle Physics* (2024), astrophysical constants: the source of s₀ in the referee's script; the gate script's copy is typed in (flag 34).
 
 The † entry is from model memory and unverified.

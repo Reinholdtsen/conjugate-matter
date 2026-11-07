@@ -65,7 +65,7 @@ Locally the shifts become δX_μν = ∂₍μλ_ν₎ with an arbitrary vector f
 
 > With the gauge invariance, X is a second **massless** spin-2 — and massless multi-graviton cross-interactions are inconsistent (Boulanger–Damour–Gualtieri–Henneaux). X must couple (to g through the Siegel structure, to χ through the gate), so decoupling is not available. [T]
 
-(#6 §2.) The theorem is #11's reference [8†]: N. Boulanger, T. Damour, L. Gualtieri, M. Henneaux, "Inconsistency of interacting, multi-graviton theories," Nucl. Phys. B 597, 127 (2001), hep-th/0007220. The [round-3](/wiki/method/review/round-3) auditor read its abstract, "no consistent (ghost-free) coupling, with at most two derivatives ... that can mix the various gravitons", and judged that it supports the exclusion of a massless X coupled to gravity, with the caveats "2-derivative, local, ghost-free" (`review/round3/referee/audit-notes.md` Step 1). The theorem is described on [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go).
+(#6 §2.) The theorem is #11's reference [8†]: N. Boulanger, T. Damour, L. Gualtieri, M. Henneaux, "Inconsistency of interacting, multi-graviton theories," Nucl. Phys. B 597, 127 (2001), [hep-th/0007220](https://arxiv.org/abs/hep-th/0007220). The [round-3](/wiki/method/review/round-3) auditor read its abstract, "no consistent (ghost-free) coupling, with at most two derivatives ... that can mix the various gravitons", and judged that it supports the exclusion of a massless X coupled to gravity, with the caveats "2-derivative, local, ghost-free" (`review/round3/referee/audit-notes.md` Step 1). The theorem is described on [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go).
 
 ### Why decoupling is not available
 

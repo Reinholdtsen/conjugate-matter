@@ -33,6 +33,14 @@ Checks, in order of severity:
                out beside a use or linking it (registry: scripts/wiki-acronyms.txt)
   symbol       a page uses a symbol whose values the wiki states (w, w₀, wₐ, z)
                without defining it in words beside its first use (SYMBOLS)
+  paper        a paper identifier (arXiv:…, doi:…, handle …) in prose is not a link to
+               the paper; a paper link is not in canonical form, names an identifier
+               scripts/wiki-papers.tsv lacks, or has a label that names another
+               identifier, that names neither the identifier (an INSPIRE record as
+               "INSPIRE N") nor the registered first author, or that gives a year
+               the registry does not list for the paper (registry:
+               scripts/wiki-papers.tsv, built online by scripts/wiki-papers.py; this
+               check is offline)
 
 Hugo does not validate internal links: it renders /wiki/does-not-exist without
 complaint. This script catches a dead link in the Markdown, before any build. The
@@ -58,12 +66,14 @@ import re
 import string
 import sys
 import unicodedata
+import urllib.parse
 from html.entities import html5
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 ACRONYMS_FILE = ROOT / "scripts" / "wiki-acronyms.txt"
+PAPERS_FILE = ROOT / "scripts" / "wiki-papers.tsv"
 
 STATUSES = {
     "established", "alive", "conjecture", "open", "dead", "under-review",
@@ -137,6 +147,33 @@ LINK_LABEL = r"(?:[^\[\]]|\[[^\[\]]*\])*"
 LINK_RE = re.compile(r"(?<!!)\[" + LINK_LABEL + r"\]\(\s*([^)\s]+?)\s*(?:\"[^\"]*\")?\)")
 LINK_LABEL_RE = re.compile(r"(?<!!)\[(" + LINK_LABEL + r")\]\([^)]*\)")
 INLINE_CODE_RE = re.compile(r"`([^`]*)`")
+# A link with its label and target, for the paper check.
+LINK_FULL_RE = re.compile(r"(?<!!)\[(" + LINK_LABEL + r")\]\(\s*([^)\s]+?)\s*(?:\"[^\"]*\")?\)")
+# A paper identifier as the wiki writes it in prose: arXiv:2003.00318, arXiv:hep-th/9211021 (a version
+# suffix is allowed), an old-style arXiv identifier without the prefix (hep-th/9211021), doi:10.1103/
+# PhysRevLett.45.1, handle 20.500.12415/6128. Every one is a link to the paper itself (wiki/CLAUDE.md,
+# Links). A new-style number without the prefix (2003.00318) is not matched: it cannot be told from a
+# decimal number, so such a mention is linked by hand. scripts/wiki-papers.py uses the same pattern.
+PAPER_ID_RE = re.compile(
+    r"\barXiv:((?:[a-z][a-z\-]*(?:\.[A-Z]{2})?/\d{7})|\d{4}\.\d{4,5})(?:v\d+)?"
+    r"|\bdoi:(10\.\d{4,9}/[^\s,;)\]]*[^\s,;)\].])"
+    r"|\bhandle (\d+(?:\.\d+)*/\d+)"
+    r"|(?<![\w/.:\-])((?:astro-ph|hep-th|hep-ph|hep-lat|hep-ex|gr-qc|cond-mat|math-ph|quant-ph|nucl-th|nucl-ex"
+    r"|physics|math)(?:\.[A-Z]{2})?/\d{7})(?:v\d+)?\b",
+    re.I,
+)
+# A link to a paper in canonical form, and the hosts whose links must take that form.
+PAPER_URL_RES = (
+    ("arXiv:", re.compile(r"^https://arxiv\.org/abs/([^\s?#]+?)(?:v\d+)?$")),
+    ("doi:", re.compile(r"^https://doi\.org/(10\.[^\s?#]+)$")),
+    ("recid:", re.compile(r"^https://inspirehep\.net/literature/(\d+)$")),
+    ("hdl:", re.compile(r"^https://hdl\.handle\.net/([^\s?#]+)$")),
+)
+PAPER_HOST_RE = re.compile(r"^https?://(?:[\w-]+\.)*(?:arxiv\.org|doi\.org|inspirehep\.net|handle\.net)/", re.I)
+# An INSPIRE record named in a link label, as the notes write it: [INSPIRE 1923123](https://inspirehep.net/...).
+# Only labels are read for it; an INSPIRE number in prose is not an identifier the wiki must link.
+INSPIRE_LABEL_RE = re.compile(r"\bINSPIRE (\d+)\b")
+YEAR_RE = re.compile(r"\b(1[89]\d\d|20\d\d)\b")
 # A candidate acronym: an all-caps run of 2-6 characters with at least two
 # letters, optionally pluralized ("UFDs" -> UFD). Version tags and the
 # provenance tags ([D], [T], ...) have one letter and are skipped.
@@ -274,6 +311,44 @@ def load_acronyms():
     return reg
 
 
+def load_papers():
+    """Return {id: (surnames, years)} from the paper registry, scripts/wiki-papers.tsv."""
+    reg = {}
+    if not PAPERS_FILE.exists():
+        return reg
+    for raw in PAPERS_FILE.read_text(encoding="utf-8").splitlines():
+        if not raw.strip() or raw.startswith("#"):
+            continue
+        cells = raw.split("\t")
+        if len(cells) >= 3:
+            reg[cells[0]] = ([n for n in cells[1].split("|") if n], set(cells[2].split(",")) - {""})
+    return reg
+
+
+def paper_id(m):
+    """The registry id of a PAPER_ID_RE match: arXiv:ID, doi:lowercased, hdl:H."""
+    if m.group(1) or m.group(4):
+        return "arXiv:" + (m.group(1) or m.group(4))
+    if m.group(2):
+        return "doi:" + m.group(2).lower()
+    return "hdl:" + m.group(3)
+
+
+def paper_of_url(url):
+    """The registry id a canonical paper link points at, or None."""
+    for prefix, rx in PAPER_URL_RES:
+        m = rx.match(url)
+        if m:
+            value = urllib.parse.unquote(m.group(1))
+            return prefix + (value.lower() if prefix == "doi:" else value)
+    return None
+
+
+def fold(text):
+    """Lowercase, with diacritics removed: Minić and Minic, Hübsch and Hubsch, compare equal."""
+    return "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c)).lower()
+
+
 def normalize(text):
     """Lowercase, fold -ise/-ize, flatten non-alphanumerics to single spaces."""
     text = text.lower().replace("isation", "ization").replace("ise", "ize")
@@ -317,7 +392,9 @@ def parse_frontmatter(lines):
             else:
                 data[key] = unquote(val)
             continue
-        m = re.match(r"^\s+-\s+(.*)$", raw)
+        # A block-list item is indented exactly two spaces, as every page writes it. Hugo's YAML parser rejects an item
+        # indented deeper than its siblings, which this parser would otherwise accept (2026-11-06).
+        m = re.match(r"^  -\s+(.*)$", raw)
         if m and key is not None and isinstance(data.get(key), list):
             data[key].append(unquote(m.group(1)))
             continue
@@ -546,6 +623,7 @@ def main(argv):
         return 0
 
     registry = load_acronyms()
+    papers = load_papers()
     errors = []
 
     def err(kind, path, lineno, msg):
@@ -756,6 +834,47 @@ def main(argv):
                 elif anchor and anchor.lower() not in pages[base]["anchors"]:
                     err("anchor", f, lineno, f"no such heading on {base}: #{anchor}")
 
+            # --- paper links: every identifier links to its paper ---------------
+            text = INLINE_CODE_RE.sub(lambda c: " " * len(c.group(0)), line)  # code blanked, offsets kept
+            spans = []
+            for lm in LINK_FULL_RE.finditer(text):
+                label, target = lm.group(1), lm.group(2)
+                spans.append((lm.start(), lm.end()))
+                pid = paper_of_url(target)
+                if pid is None:
+                    if PAPER_HOST_RE.match(target):
+                        err("paper", f, lineno,
+                            f"a paper link not in canonical form: {target} (https://arxiv.org/abs/ID, "
+                            f"https://doi.org/DOI, https://inspirehep.net/literature/N or https://hdl.handle.net/H)")
+                    continue
+                if pid not in papers:
+                    err("paper", f, lineno,
+                        f"links {pid}, which scripts/wiki-papers.tsv lacks (run scripts/wiki-papers.py)")
+                    continue
+                named = [paper_id(im) for im in PAPER_ID_RE.finditer(label)]
+                named += ["recid:" + n for n in INSPIRE_LABEL_RE.findall(label)]
+                bare = re.fullmatch(r"(\d{4}\.\d{4,5})(?:v\d+)?", label.strip())  # a new-style number, linked by hand
+                if bare and not named:
+                    named = ["arXiv:" + bare.group(1)]
+                surnames, years = papers[pid]
+                if named:
+                    if named != [pid]:
+                        err("paper", f, lineno, f"the label names {', '.join(named)} but the link goes to {pid}")
+                    continue
+                if not any(fold(n) in fold(label) for n in surnames):
+                    err("paper", f, lineno,
+                        f"the label {label!r} names neither {pid} nor its first author ({' or '.join(surnames)})")
+                wrong = [y for y in YEAR_RE.findall(label) if y not in years]
+                if wrong:
+                    err("paper", f, lineno,
+                        f"the label {label!r} gives {wrong[0]}, which is not a year of {pid} "
+                        f"({', '.join(sorted(years))})")
+            for im in PAPER_ID_RE.finditer(text):
+                if not any(a <= im.start() < b for a, b in spans):
+                    err("paper", f, lineno,
+                        f"{im.group(0)} is not a link to the paper (wiki/CLAUDE.md, Links): "
+                        f"write [{im.group(0)}](URL)")
+
         # --- acronyms ---------------------------------------------------
         page_text = " ".join(prose(line) for _, line in clean)
         linked = set()
@@ -814,7 +933,7 @@ def main(argv):
                 err("symbol", WIKI / page, 1, f"SYMBOLS exempts this page from {sym}, but it does not exist")
 
     order = ["link", "anchor", "heading", "map", "source", "frontmatter", "weight", "section",
-             "gist", "statusline", "status", "voice", "summary", "star", "h1", "fence", "acronym", "symbol"]
+             "gist", "statusline", "status", "voice", "summary", "star", "h1", "fence", "acronym", "symbol", "paper"]
     errors.sort(key=lambda e: (order.index(e[0]), str(e[1]), e[2]))
     for kind, path, lineno, msg in errors:
         print(f"{path}:{lineno}: {kind}: {msg}")

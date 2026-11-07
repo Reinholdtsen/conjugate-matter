@@ -33,7 +33,8 @@ sources:
   - "scripts/check.sh verify loop"
   - "HANDOFF.md §2"
   - "HANDOFF.md §6"
-  - "review/wiki-build-flags.md items 1, 30"
+  - "review/wiki-build-flags.md items 1, 30, 71"
+  - "notes/dual-sector.md §9"
 ---
 
 *The compatibility theorem is a statement of linear algebra about metrics on phase space: if [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality)'s; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in [round 3](/wiki/method/review/round-3) and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one dark-matter model, so the program replaced its postulate [P2](/wiki/program/postulates/original-p2) with [P2′](/wiki/program/postulates/p2-prime) and let η vary.*
@@ -153,7 +154,7 @@ In family (b) "every trial violates at least one" condition. Of family (e) the a
 
 ### The verdict
 
-The referee's verdict on the theorem: `theorem TRUE; stated proof VALID (uses positivity where it is not needed; slightly weaker hypothesis suffices)`. It added: "It is essentially the known Freidel-Leigh-Minic 'Born geometry' statement (B-field vanishes <=> I = H^-1 omega compatible), uncited (1502.08005 p.11). It is a pointwise linear-algebra fact; it does not by itself establish any physics (the identification of a dynamical H, a rigid eta, and a second spin-2 field X is assumed, not derived)."
+The referee's verdict on the theorem: `theorem TRUE; stated proof VALID (uses positivity where it is not needed; slightly weaker hypothesis suffices)`. It added: "It is essentially the known Freidel-Leigh-Minic 'Born geometry' statement (B-field vanishes <=> I = H^-1 omega compatible), uncited ([1502.08005](https://arxiv.org/abs/1502.08005) p.11). It is a pointwise linear-algebra fact; it does not by itself establish any physics (the identification of a dynamical H, a rigid eta, and a second spin-2 field X is assumed, not derived)."
 
 The adjudication agreed: "**The compatibility theorem is verified** (sympy, including a Groebner basis at d = 2; random tests at d = 3, 4)", and listed it among what survives the withdrawn manuscript, "as [T], pending the FLM comparison" (FLM is Freidel–Leigh–Minic; `review/round3-adjudication.md`; [the round-3 rulings](/wiki/method/review/round-3/rulings)). The referee's scripts are a review record and are not part of the gate: `scripts/check.sh` runs the scripts in `verify/` and the wiki check ([the gate](/wiki/method/verification/the-gate)).
 
@@ -169,13 +170,15 @@ The documents written before round 3 treat the theorem as the program's own resu
 
 Round 1's referee "insinuated the compatibility theorem might be false (it is machine-verified)", one of the reviewer errors that the machine check settled (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 
-Round 3 found the prior art. Under "Uncited claims / prior art that should be cited" the referee wrote: "The compatibility theorem is the known 'Born geometry' structure of Freidel-Leigh-Minic: 1502.08005 (JHEP 06 (2015) 006), p.11", and quoted the passage that defines Born geometries (audit notes, Step 1). The adjudication: "Unless a comparison shows otherwise, the checkpoint's '[D] derived here' tag on it should become [T] with that citation." Decision 4 then scheduled the cleanup: "check the Freidel–Leigh–Minic prior art and re-tag the compatibility theorem if confirmed".
+Round 3 found the prior art. Under "Uncited claims / prior art that should be cited" the referee wrote: "The compatibility theorem is the known 'Born geometry' structure of Freidel-Leigh-Minic: [1502.08005](https://arxiv.org/abs/1502.08005) (JHEP 06 (2015) 006), p.11", and quoted the passage that defines Born geometries (audit notes, Step 1). The adjudication: "Unless a comparison shows otherwise, the checkpoint's '[D] derived here' tag on it should become [T] with that citation." Decision 4 then scheduled the cleanup: "check the Freidel–Leigh–Minic prior art and re-tag the compatibility theorem if confirmed".
 
 #11 §5 tags the statement [T][V] and credits it: "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root `CLAUDE.md` records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". #11 §15 counts the re-attribution among the program's degeneration risks: "the novelty demotion of §7.4 as a standing caution", joined by "the failure of #14's soliton model (§12) and the §5 re-attribution of the compatibility theorem".
 
+The statement #11 §5 cites, [26S, §2.1], is made for a Lorentzian H with the B-field set to zero. The positive form is in the same authors' paper of 2016, in group language [S]: "the group of transformations that preserves the symplectic structure and the polarization metric" η is GL(d) = Sp(2d) ∩ O(d, d), whose frames are "determining the vacuum metric" H = diag(q, q⁻¹), with q positive, the theorem's g ([Freidel, Leigh and Minic 2016](https://arxiv.org/abs/1606.01829), §2). They assert it without the block proof, so the proof and battery test T1 stay the program's (`notes/dual-sector.md` §9; flag 71, pending).
+
 The older documents keep their old tags. #11 and the root `CLAUDE.md` govern, so the statement is [T] and the block proof and machine check are [V] ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
-The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005; §2.1 for the statement, p. 11 for the name "Born geometries".
+The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005); §2.1 for the statement, p. 11 for the name "Born geometries". The positive form: L. Freidel, R. G. Leigh, D. Minic, "Quantum Spaces are Modular," Phys. Rev. D 94, 104052 (2016), [arXiv:1606.01829](https://arxiv.org/abs/1606.01829), §2 [S], which #11 does not cite (flag 71).
 
 ## Scope
 
@@ -224,4 +227,5 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - `notes/knot-dark-matter-standalone.md` §1, §6 — "pointwise, in a flat frame"; listed as derived.
 - `verify/battery.py` T1 — both directions and the two proof-block identities.
 - `scripts/check.sh` — the gate runs `verify/`, not the referee's scripts.
-- `review/wiki-build-flags.md` items 1, 30 — the query on "discrete" in #11 §5's statement of the nontriviality theorem; #13's tag on its two cones.
+- `review/wiki-build-flags.md` items 1, 30, 71 — the query on "discrete" in #11 §5's statement of the nontriviality theorem; #13's tag on its two cones; the positive form in Freidel, Leigh and Minic 2016, uncited by #11 (pending).
+- `notes/dual-sector.md` §9 — the positive form stated in group language in the 2016 paper, without the block proof; [26S, §2.1] made for a Lorentzian H with the B-field set to zero.

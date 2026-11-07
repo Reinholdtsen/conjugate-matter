@@ -31,7 +31,7 @@ sources:
 
 *The Kibble mechanism, proposed by Tom Kibble in 1976, is the standard account of how [topological defects](/wiki/symmetry-breaking/topological-defects) such as [monopoles](/wiki/electric-magnetic-duality/monopoles), strings and domain walls form when the early universe cools through a symmetry-breaking transition. Regions farther apart than the horizon, the distance light has travelled since the Big Bang, have had no contact, so the field settles into unrelated vacuum states in different regions, and defects are left where those regions meet. This gives at least about one defect per horizon volume, and that count is a minimum: slow transitions (Kibble–Zurek dynamics) and first-order transitions, which proceed by bubbles, make more. In the program the count decided the fate of the withdrawn manuscript #14's model of a soliton dark-matter candidate, which had normalized it too low and treated it as an upper end; that error and its correction are recorded with #14's model.*
 
-**Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, astro-ph/0110285, which the round-3 referee cited and [the gate](/wiki/method/verification/the-gate) uses as an anchor), and the floor, which the [checkpoint](/wiki/history/documents/checkpoint) supports with Murayama–Shu [28S]. [Round 3](/wiki/method/review/round-3) upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
+**Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, [astro-ph/0110285](https://arxiv.org/abs/astro-ph/0110285), which the round-3 referee cited and [the gate](/wiki/method/verification/the-gate) uses as an anchor), and the floor, which the [checkpoint](/wiki/history/documents/checkpoint) supports with Murayama–Shu [28S]. [Round 3](/wiki/method/review/round-3) upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
 ## Defects from a cooling field [T]
 
@@ -61,7 +61,7 @@ with g\* the number of relativistic degrees of freedom and M_Pl the [Planck mass
 n/s = p (T_c/M_Pl)³,        p = (1.66 √g*)³ · 45/(2π² g*)        (one defect per H⁻³)
 ```
 
-The standard normalization in the literature is the one the round-3 referee took from Gangui (astro-ph/0110285): "about one monopole per Hubble volume ... n_monop/s ~ 100 (T_c/m_P)^3" (Step 1), with m_P the Planck mass, at g\* of order 100. Liveoak, Maharana and Wells describe the same count as the "minimal number density ... one per Hubble volume" (as the referee quotes them, Step 2).
+The standard normalization in the literature is the one the round-3 referee took from Gangui ([astro-ph/0110285](https://arxiv.org/abs/astro-ph/0110285)): "about one monopole per Hubble volume ... n_monop/s ~ 100 (T_c/m_P)^3" (Step 1), with m_P the Planck mass, at g\* of order 100. Liveoak, Maharana and Wells describe the same count as the "minimal number density ... one per Hubble volume" (as the referee quotes them, Step 2).
 
 Two choices move p. Which volume counts as one horizon (H⁻³, or the sphere (4π/3)H⁻³) is an order-one ambiguity in the estimate itself, and it changes the count by the ratio of the two volumes. Which Planck mass appears in H and in the yield (the Planck mass or the reduced Planck mass, which differ by a factor of √(8π)) is a convention: it changes the coefficient but not the physical count, provided the same one is used in both, while mixing the two between the yield and the formula for H does change the count. The program's record contains an instance of each ([how the program uses it](#how-the-program-uses-it)).
 
@@ -140,9 +140,9 @@ The program's own symmetry breaking raises the same question. The polarization m
 ## References
 
 - T. W. B. Kibble, "Topology of Cosmic Domains and Strings," J. Phys. A 9, 1387 (1976) — #14 [18], without a tag; the title is the v3 worklog's correction ('Verified references for v3'), and the round-3 audit checked the abstract.
-- A. Gangui, astro-ph/0110285 — the one-per-Hubble-volume normalization, cited by the round-3 referee and in the gate.
-- H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), arXiv:0905.1720 — #11 [28S].
-- D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," arXiv:2607.20843 (2026) — #11 [29S].
+- A. Gangui, [astro-ph/0110285](https://arxiv.org/abs/astro-ph/0110285) — the one-per-Hubble-volume normalization, cited by the round-3 referee and in the gate.
+- H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), [arXiv:0905.1720](https://arxiv.org/abs/0905.1720) — #11 [28S].
+- D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," [arXiv:2607.20843](https://arxiv.org/abs/2607.20843) (2026) — #11 [29S].
 
 Added by the wiki from model memory (†):
 

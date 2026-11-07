@@ -1,0 +1,805 @@
+{
+ "items": [
+  {
+   "source": "Edmonds, D.; Minic, D.; Takeuchi, T., 'On quantum gravity and quantum gravity phenomenology', talk given by D. Minic at the 16th Marcel Grossmann Meeting (MG16, online, July 2021). Proceedings: MG16 (World Scientific, 2023), DOI 10.1142/9789811269776_0344. arXiv:2109.12763, INSPIRE recid 1929084",
+   "first_public": "arXiv v1 2021-09-27 02:16 UTC per the arXiv API (INSPIRE earliest date 2021-09-26). The talk was at MG16 (INSPIRE conference C21-07-05.3, opening 2021-07-05). arXiv comment: 'substantial text overlap with arXiv:2003.00318'. Prior art: it predates September 2026, but it restates Minic 2020.",
+   "read_how": "Found by regex-screening INSPIRE's 366 MG16 proceedings records (publication_info.cnum:C21-07-05.3). Full text read with tools/lit.py text 2109.12763 (arxiv.org/html), searched for dark matter, metaparticle and dual.",
+   "quotes": [
+    {
+     "quote": "Thus the entire SM would have a dual SM (which we propose, describes the dark matter sector).",
+     "where": "§4 'Quantum gravity, metastrings, metaparticles and dark matter'",
+     "check": "lit.py quote 2109.12763: FOUND: 2109.12763 — searched full text (https://arxiv.org/html/2109.12763)"
+    },
+    {
+     "quote": "Like their visible particle cousins, dark matter quanta should be detectable through their particular metaparticle correlation/entanglement to visible matter.",
+     "where": "§4",
+     "check": "lit.py quote 2109.12763: FOUND — searched full text (https://arxiv.org/html/2109.12763)"
+    },
+    {
+     "quote": "The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector, which is correlated to the visible sector via the dark energy sector",
+     "where": "§5 'Quantum gravity, dark matter and dark energy'",
+     "check": "lit.py quote 2109.12763: FOUND — searched full text (https://arxiv.org/html/2109.12763)"
+    },
+    {
+     "quote": "If the quanta of MDM are metaparticles, this may explain why, so far, dark matter detection experiments have failed to detect dark matter particles.",
+     "where": "§6.1 'Observational Issues'",
+     "check": "lit.py quote 2109.12763: FOUND — searched full text (https://arxiv.org/html/2109.12763)"
+    },
+    {
+     "quote": "the spacetime on which the metaparticle propagates is ambiguous, with different choices related by T-duality",
+     "where": "§4",
+     "check": "lit.py quote 2109.12763: FOUND — searched full text (https://arxiv.org/html/2109.12763)"
+    },
+    {
+     "quote": "the modular representation of QFT introduces dual \"electric\" and \"magnetic\" variables, which are non-commuting in general",
+     "where": "§2 (discussion of QFT in the modular polarization)",
+     "check": "lit.py quote 2109.12763: FOUND — searched full text (https://arxiv.org/html/2109.12763)"
+    },
+    {
+     "quote": "we discuss a new understanding of dark matter in terms of metaparticles (zero modes of the metastring) and its relation to dark energy (the curvature of dual spacetime)",
+     "where": "abstract",
+     "check": "lit.py quote 2109.12763: FOUND: 2109.12763 — searched abstract"
+    },
+    {
+     "quote": "talk given by D.M. at the 16th Marcel Grossmann Meeting",
+     "where": "title-page footnote",
+     "check": "lit.py quote 2109.12763: FOUND — searched full text (https://arxiv.org/html/2109.12763)"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "anticipates",
+     "reason": "Proposes the dual of the entire Standard Model, one dual field per field, as the dark matter sector: a conference restatement of Minic 2020. What 'dual' means differs from the program. Here it is the metastring's dual sector, the x̃ half of a doubled, T-duality-covariant, phase-space-like geometry with non-commutativity parameter λ, and the choice of spacetime is ambiguous up to T-duality. In the program it is the other Lagrangian polarization of one phase space at ℏ (#11 P2′, P5). The coupling also differs: the dual sector is 'correlated/entangled' with visible matter and detectable through it, while #11 P4 strict allows gravity only."
+    },
+    {
+     "conjecture": "C5",
+     "label": "related",
+     "reason": "Dark energy is the curvature of the dual spacetime. Nothing in the paper has a dual sector collapsing or contracting."
+    },
+    {
+     "conjecture": "C4 separate-photon form",
+     "label": "related",
+     "reason": "The dual SM includes a dual gauge field Ã, described as 'correlated (entangled)' with A. The duals are not given magnetic charges."
+    },
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "collision",
+     "reason": "The 'electric' and 'magnetic' variables of the modular representation are the paired non-commuting dual variables, not magnetic charges."
+    },
+    {
+     "conjecture": "hard core",
+     "label": "related",
+     "reason": "Born geometry and Born reciprocity are the framework. The spacetime choice is presented as ambiguous up to T-duality, not as spontaneously selected."
+    }
+   ],
+   "summary": "This is the school's clearest conference-proceedings statement of C1's core. It proposes a dual Standard Model as the dark matter sector. That sector is correlated with visible matter, which bears on the record's 'correlated' clause, and it offers a conditional explanation of direct-detection null results. Dark energy is the curvature of the dual spacetime. Its dual is the metastring's x̃, not the conjugate polarization at ℏ. It says nothing about a velocity-gated self-interaction or about monopoles."
+  },
+  {
+   "source": "Minić, Dj., talk 'From string theory and quantum gravity to dark matter and dark energy', 10th Mathematical Physics Meeting (MPHYS10), Belgrade, 9–14 September 2019 (timetable http://mphys10.ipb.ac.rs/pdf/mphys10-timetable-09.09.2019.pdf). Written version: 'From quantum foundations of quantum field theory, string theory and quantum gravity to dark matter and dark energy', MPHYS10 proceedings (Institute of Physics Belgrade, 2020), http://mphys10.ipb.ac.rs/proceedings10/Minic.pdf = arXiv:2003.00318",
+   "first_public": "The talk was given on Monday 9 September 2019, 11:15–12:00 (MPHYS10 timetable PDF). arXiv:2003.00318 v1 is dated 2020-02-29 17:42 UTC (arXiv API), with the comment 'to appear in the proceedings of the 10th Mathematical Physics Meeting in Belgrade, Serbia'. The proceedings PDF was created 2020-04-22 (PDF metadata; server Last-Modified 2020-05-18). The acknowledgement names five more venues for the same talk, without dates.",
+   "read_how": "Followed up the acknowledgement of 2003.00318 (lit.py text, searched for organizers and talk). Downloaded with curl the MPHYS10 site pages, the six daily timetable PDFs and the proceedings PDF into scratch/s-conf/data. Text extracted with pypdf (pdfenv, -I).",
+   "quotes": [
+    {
+     "quote": "Dj. Minic From string theory and quantum gravity to dark matter and dark energy",
+     "where": "MPHYS10 timetable for 09.09.2019, p. 1 (11:15–12:00 slot)",
+     "check": "scripts/qcheck.py data/dl/mphys10_tt09/text.txt (pypdf text): FOUND at offset 373"
+    },
+    {
+     "quote": "Belgrade, 9 – 14 September 2019 Timetable Monday (09.09.2019)",
+     "where": "MPHYS10 timetable for 09.09.2019, p. 1 header",
+     "check": "scripts/qcheck.py data/dl/mphys10_tt09/text.txt: FOUND at offset 88"
+    },
+    {
+     "quote": "In this talk I review recent work",
+     "where": "proceedings, p. 1 (§1)",
+     "check": "lit.py quote 2003.00318: FOUND — searched full text (https://arxiv.org/html/2003.00318); also qcheck on the MPHYS10 PDF text: FOUND at offset 1545"
+    },
+    {
+     "quote": "DM thanks the organizers of the international conference of the Polish Society on Relativity, the Bangkok workshop on High Energy Theory, the Multimessenger Universe conference at Penn State",
+     "where": "proceedings, p. 1 footnote",
+     "check": "lit.py quote 2003.00318: FOUND — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "the conference on quantum gravity phenomenology in Granada, Spain, for kind hospitality and invitations to present this talk",
+     "where": "proceedings, p. 1 footnote",
+     "check": "lit.py quote 2003.00318: FOUND — searched full text (https://arxiv.org/html/2003.00318)"
+    },
+    {
+     "quote": "The proposal here is that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter sector, which is correlated to the visible sector via the dark energy sector",
+     "where": "MPHYS10 proceedings PDF p. 28",
+     "check": "scripts/qcheck.py data/dl/mphys10_minic/text.txt: FOUND at offset 74956"
+    },
+    {
+     "quote": "Standard Model and its dual, describing the dark matter sector",
+     "where": "MPHYS10 proceedings PDF p. 31 (conclusion)",
+     "check": "qcheck on data/dl/mphys10_minic/text.txt: FOUND at offset 84802; lit.py quote 2003.00318: FOUND — searched full text"
+    },
+    {
+     "quote": "a radiatively stable positive cosmological constant (viewed as a curvature of the dual spacetime) as a model of dark energy in the observed classical spacetime",
+     "where": "abstract, p. 1",
+     "check": "lit.py quote 2003.00318: FOUND: 2003.00318 — searched abstract"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "anticipates",
+     "reason": "The written text proposes the dual of the Standard Model as the dark matter sector, correlated with visible matter. This is the record's 'core published' source. The conference record adds that the paper is the written version of a talk given on 9 September 2019 at MPHYS10 and at five other meetings. Only the 2019 talk title is documented; no slides were found, so whether the identification was stated orally in 2019 is unknown."
+    },
+    {
+     "conjecture": "C5",
+     "label": "related",
+     "reason": "Dark energy is the curvature of the dual spacetime. The dual sector does not collapse or contract."
+    }
+   ],
+   "summary": "In conference terms, the record's first statement of C1's core (Minic 2020, posted 2020-02-29) is the write-up of an invited talk. It was given at MPHYS10 on 9 September 2019, about 5½ months before the arXiv posting, and at the PTRel conference, a Bangkok workshop, Penn State IGC's Multimessenger Universe conference, the Miami winter conference and a Granada meeting on quantum-gravity phenomenology, none of them dated in the paper. The earliest written statement still dates from 29 February 2020. An oral presentation on the topic is documented, by title only, from 9 September 2019."
+  },
+  {
+   "source": "Winn, David, 'A Dual to Ordinary Matter Yielding Composite Neutral Flavored Scalar Dark Matter': SUSY 2025 (https://indico.cern.ch/event/1446820/contributions/6583054/) and Invisibles25 Workshop (https://indico.cern.ch/event/1454720/contributions/6563797/). The same abstract appears at Lepton-Photon 2025 as '...Composite Flavored Scalar Dark Matter' (https://indico.cern.ch/event/1493037/contributions/6549576/), the item another agent is verifying.",
+   "first_public": "Indico schedule dates: SUSY 2025 talk 2025-08-20; Lepton-Photon 2025 talk 2025-08-25; Invisibles25 event 2025-09-01 to 09-05 (export API). The abstract posting dates are not public. My inference from Indico's sequential contribution IDs (6549576 for LP2025, 6563797 for Invisibles25, 6583054 for SUSY 2025): the LP2025 entry was created first, although the SUSY 2025 talk was given first.",
+   "read_how": "Abstract field of the CERN Indico search-API JSON. Not studied further, per the task. The LP2025 slides ('Monopolium talk 2025_12.pdf', 'Summary_Heuristic_Dual_to_Ordinary_Matter...10_Nov_2025') were listed but not read.",
+   "quotes": [
+    {
+     "quote": "We discuss a Dual to ordinary matter that yields composite self-interacting dark matter.",
+     "where": "Invisibles25 abstract (identical at SUSY 2025 and LP2025)",
+     "check": "scripts/qcheck.py JSONL c_recip_dm hits, contribution 6563797, description: FOUND at offset 0"
+    },
+    {
+     "quote": "For each elementary particle inn the SM, the Dual: 1. Changes spin by ½, i.e. a SUSY-lite; 2. U(1): Changes electric charge e to magnetic charge g",
+     "where": "SUSY 2025 abstract",
+     "check": "scripts/qcheck.py JSONL c_recip_dm hits, contribution 6583054: FOUND at offset 89"
+    },
+    {
+     "quote": "the charged dual particles are confined as magnetically and chromomagnetically stable neutral shadrons, or slepton-pair monopoliums with long lifetimes",
+     "where": "SUSY 2025 abstract",
+     "check": "qcheck: FOUND at offset 1350"
+    },
+    {
+     "quote": "It is reasonable that the strength of magnetic forces would create much more dark magnetic matter than electric matter in the early epoch.",
+     "where": "SUSY 2025 abstract",
+     "check": "qcheck: FOUND at offset 2287"
+    },
+    {
+     "quote": "The photon is in effect divided into 2 classes: photons emitted from electric particles couple to magnetic particles as",
+     "where": "SUSY 2025 abstract. A Symbol-font private-use glyph, probably β, follows before 'g'",
+     "check": "qcheck: FOUND at offset 2426"
+    },
+    {
+     "quote": "We discuss how present limits on monopoles evade detection when pair-produced",
+     "where": "SUSY 2025 abstract",
+     "check": "qcheck: FOUND at offset 1717"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "Each SM particle gets a magnetically charged dual that couples to our photon. The duals are hidden by confinement into magnetically neutral composites, which is one of the two hiding options #11 §11.4 names. Missing: the placement of the duals in momentum (the p-polarization)."
+    },
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "Dark matter is 'a Dual to ordinary matter', one partner per SM particle. The duality is electric–magnetic, with spin and chirality changes, not the phase-space polarization."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "Proposes abundant dark magnetic matter from the early universe, in ordinary position space."
+    },
+    {
+     "conjecture": "C3",
+     "label": "related",
+     "reason": "Explains why monopoles evade present limits by confinement and dressing into neutral monopolium, not by momentum placement."
+    }
+   ],
+   "summary": "The closest non-school conference item to C4: a magnetic dual of every SM particle as composite dark matter, sharing our photon, hidden in neutral bound states, with no momentum-space placement. It was presented at three meetings in August–September 2025. Listed only; another agent is verifying it."
+  },
+  {
+   "source": "Verhaaren, C.; Terning, J., 'Detecting Magnetic Dark Matter', SUSY 2019, Corpus Christi (https://indico.cern.ch/event/746178/contributions/3388631/). Also given by Terning at Planck 2019 (indico.cern.ch/event/763250/contributions/3443363, title only); a related talk is Verhaaren & Chowdhury, 'Magnetic Monopole Dark Matter', NDM-2020 (indico.cern.ch/event/813648/contributions/3666263, title only).",
+   "first_public": "SUSY 2019 talk 2019-05-21; Planck 2019 2019-06-06; NDM-2020 2020-01-13 (Indico contribution dates).",
+   "read_how": "Abstract from the CERN Indico search-API JSON. The slides MagDMSUSY2019.pdf were listed by the attachment search but not read.",
+   "quotes": [
+    {
+     "quote": "Dark matter can be composed of the magnetic monopoles of a hidden sector, which acquire small coupling to the visible photon through kinetic mixing.",
+     "where": "SUSY 2019 abstract",
+     "check": "scripts/qcheck.py JSONL c_mag_dm hits, contribution 3388631: FOUND at offset 73"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "Hidden-sector monopoles as dark matter, with ordinary kinematics and no localization in momentum."
+    },
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "related",
+     "reason": "Through kinetic mixing the hidden monopoles acquire a small magnetic coupling to our photon, a milli-magnetic version of the shared-photon form."
+    },
+    {
+     "conjecture": "C4 separate-photon form",
+     "label": "related",
+     "reason": "The monopoles are magnetic under a hidden U(1) of their own. They are not presented as a mirror of each charged SM particle."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "Monopoles as the dark matter, in position space."
+    }
+   ],
+   "summary": "Standard hidden-sector magnetic dark matter at SUSY 2019 and Planck 2019: monopoles of a dark U(1) that couple weakly to our photon. It is close to C4's two forms in mechanism, but has no momentum placement and no mirror family."
+  },
+  {
+   "source": "Graesser, Michael, 'Milli-Magnetic Monopole Dark Matter and the Survival of Galactic Magnetic Fields', Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2023 (https://indico.cern.ch/event/1252762/contributions/5399781/)",
+   "first_public": "Talk 2023-05-17; the conference ran 16–19 May 2023 (Indico).",
+   "read_how": "Abstract from the CERN Indico search-API JSON. Slides listed but not read.",
+   "quotes": [
+    {
+     "quote": "magnetic monopoles of a broken dark U (1) will appear in our sector as confined milli-magnetically charged objects under ordinary electromagnetism",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL c_mon_dm hits, contribution 5399781: FOUND at offset 116"
+    },
+    {
+     "quote": "If these states contribute sizably to the local dark matter density, they extract significant energy from the galactic magnetic field.",
+     "where": "abstract",
+     "check": "qcheck: FOUND at offset 264"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "evidence-against",
+     "reason": "A Parker-type bound on dark matter that carries magnetic charge of our photon and is localized in position. This agrees in kind with #11 §11.4's own statement that position-localized shared-photon analogs at dark-matter density would exceed the Parker bound. It does not test p-localization."
+    },
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "Dark-sector monopoles as dark matter, with ordinary kinematics."
+    }
+   ],
+   "summary": "The Parker bound extended to milli-magnetically charged monopole dark matter. It is evidence against position-localized shared-photon magnetic dark matter, the regime #11 §11.4 already says must be hidden."
+  },
+  {
+   "source": "Fischer, T.; Brümmer, F.; Ferrante, G.; Frigerio, M., 'No room for monopole dark matter': PLANCK2026 & 6th EuCAPT Symposium (https://indico.cern.ch/event/1552644/contributions/7048512/; listed author 'Felix Bümmer'), PASCOS 2026 (https://indico.global/event/14705/contributions/155133/) and ATHEXIS 2026 (Ferrante; https://indico.cern.ch/event/1645696/contributions/7094893/)",
+   "first_public": "PLANCK2026 ran 18–22 May 2026 (the contribution is undated); ATHEXIS ran 8–12 June 2026; the PASCOS 2026 talk was on 2026-06-23 (Indico export API). Before September 2026. My inference: this is the conference version of the Brümmer et al. paper behind flag 68.",
+   "read_how": "Abstracts from the CERN Indico search-API JSON and the indico.global export-API dump of PASCOS 2026.",
+   "quotes": [
+    {
+     "quote": "However, a dark sector featuring monopoles necessarily contains stable electrically-charged particles, namely massive vector bosons.",
+     "where": "PLANCK2026 abstract",
+     "check": "scripts/qcheck.py JSONL c_dark_mon hits, contribution 7048512: FOUND at offset 499"
+    },
+    {
+     "quote": "This result leads to the conclusion that dark monopoles cannot constitute a sizeable fraction of dark matter in the minimal model, contrarily to what has been previously claimed.",
+     "where": "PLANCK2026 and PASCOS 2026 abstracts",
+     "check": "qcheck: FOUND at offset 747 (PLANCK2026); FOUND at offset 759 (data/events/pascos2026 contribution 155133)"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 monopole form",
+     "label": "evidence-against",
+     "reason": "Excludes minimal, thermally produced hidden-sector monopoles as a sizeable share of dark matter. That is #14's ordinary-kinematics model class, already in the record as flag 68. It does not address monopoles localized in momentum."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "An abundance calculation for dark monopoles in position space."
+    }
+   ],
+   "summary": "Conference talks in 2026 of the minimal-model exclusion of dark-monopole dark matter (vector bosons outnumber monopoles). It weighs against #14's model, not against p-localized monopoles."
+  },
+  {
+   "source": "Ho, Shu-Yu; Takahashi, Fuminobu, 'Hidden Monopole Dark Matter via Axion Portal and its Implications for Direct Search and Beam-Dump Experiments': COSMO19 (https://indico.cern.ch/event/782784/contributions/3470628/), SI2019 (indico.cern.ch/event/752582/contributions/3493131) and PASCOS 2019 (indico.hep.manchester.ac.uk/static/5326)",
+   "first_public": "PASCOS 2019 (1–5 July 2019, static contribution list); SI2019 talk 2019-08-20; COSMO19, 2–6 September 2019 (Indico).",
+   "read_how": "Abstract from the CERN Indico search-API JSON; title also seen in the PASCOS 2019 static contribution list.",
+   "quotes": [
+    {
+     "quote": "We study the monopole dark matter (MDM) emerging from a spontaneous breakdown of non- abelian gauge symmetry in the hidden sector.",
+     "where": "COSMO19 abstract",
+     "check": "scripts/qcheck.py JSONL c_mon_dm hits, contribution 3470628: FOUND at offset 0"
+    },
+    {
+     "quote": "its stability is guaranteed by the topological nature",
+     "where": "COSMO19 abstract",
+     "check": "qcheck: FOUND at offset 265"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "Topological hidden-sector monopoles as dark matter, with ordinary kinematics, coupled to nuclei through an ALP. No localization in momentum."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "Monopoles as the dark matter, produced in a second-order transition, in position space."
+    }
+   ],
+   "summary": "A representative 2019 talk on topological hidden-monopole dark matter: related to the program's third candidate in mechanism (topological stability), but not momentum-localized and not a mirror of our charges."
+  },
+  {
+   "source": "Bagherian, H.; Reece, M.; Wang, L.-T.; Xiao, H., 'Cosmological Aspects of Axion-Monopole Interactions': PIKIMO 20 (https://indico.cern.ch/event/1646015/contributions/7038027/) and PLANCK2026 (https://indico.cern.ch/event/1552644/contributions/7021715/)",
+   "first_public": "PIKIMO 20, 2026-04-25; PLANCK2026, 2026-05-18 (Indico). Before September 2026.",
+   "read_how": "Abstract from the CERN Indico search-API JSON.",
+   "quotes": [
+    {
+     "quote": "dark matter is composed of magnetic monopoles coupled to a light axion field",
+     "where": "PLANCK2026 abstract",
+     "check": "scripts/qcheck.py JSONL c_dyon_dm hits, contribution 7021715: FOUND at offset 64"
+    },
+    {
+     "quote": "allows the axion to act as a dynamical dark-energy component",
+     "where": "PLANCK2026 abstract",
+     "check": "qcheck: FOUND at offset 413"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "Monopole dark matter in a dark sector, with ordinary kinematics."
+    },
+    {
+     "conjecture": "C5",
+     "label": "related",
+     "reason": "The dark-matter sector feeds a dynamical dark-energy component through the axion. There is no collapse or contracting conjugate universe."
+    }
+   ],
+   "summary": "Monopole dark matter tied to dynamical dark energy, on the theme of C5's link between the dark sector and acceleration. No momentum placement and no conjugate collapse."
+  },
+  {
+   "source": "Chitose, Akifumi; Ibe, Masahiro, 'Pseudo-monopoles from dark topological defects', SUSY 2023, Southampton (https://indico.global/event/4535/contributions/38316/)",
+   "first_public": "Talk 2023-07-19 (indico.global export API; the event moved from indico.cern.ch/event/1214022).",
+   "read_how": "indico.global export-API dump of SUSY 2023 (243 contributions), regex screen.",
+   "quotes": [
+    {
+     "quote": "They are shown to induce QED electromagnetic fields through kinetic and magnetic mixing between",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL data/events/susy2023 contribution 38316: FOUND at offset 235"
+    },
+    {
+     "quote": "dark beads appear from a distance to be particles with magnetic and electric charge, which we call pseudo-monopoles (dyons)",
+     "where": "abstract",
+     "check": "qcheck: FOUND at offset 391"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "related",
+     "reason": "Dark-sector defects appear, through kinetic and magnetic mixing, as objects carrying magnetic charge of our photon: a mechanism for dark objects with magnetic charge under QED. No momentum placement and no mirror family."
+    }
+   ],
+   "summary": "A mechanism by which dark-sector defects look magnetically charged under our photon. Related to the shared-photon form only in mechanism."
+  },
+  {
+   "source": "Mateev, Matey (for V.G. Kadyshevsky, M.D. Mateev, V.N. Rodionov, A.S. Sorin), 'A Maximal Mass Model', Trends in Particle Physics – Primorsko 2010 (https://indico.cern.ch/event/93835/contributions/1280959/attachments/1103997/1575066/MMM-Primorsko_2010.pdf). The underlying paper, 'Towards a Maximal Mass Model', is cited on the slides as hep-ph, 30.08.2007.",
+   "first_public": "Slides dated 'Primorsko, 24.06.2010' (the event ran 20–26 June 2010). Outside the 2015–2026 window and prior art; found by the attachment search for \"momentum space\" \"dark matter\".",
+   "read_how": "Downloaded the slide PDF with curl into scratch; text extracted with pypdf.",
+   "quotes": [
+    {
+     "quote": "We use Anti-De Sitter geometry of momentum space",
+     "where": "PDF p. 9",
+     "check": "scripts/qcheck.py data/dl/mmm2010/text.txt: FOUND at offset 1155"
+    },
+    {
+     "quote": "Exotic fields are good candidates for dark matter",
+     "where": "PDF p. 51",
+     "check": "qcheck: FOUND at offset 4091"
+    },
+    {
+     "quote": "in the flat limit they do not have an ordinary analogue",
+     "where": "PDF p. 51",
+     "check": "qcheck: FOUND at offset 4200"
+    },
+    {
+     "quote": "The new “dark matter” world may happen to be connected with us only through gravitation and Higgs exchange!",
+     "where": "PDF p. 53",
+     "check": "qcheck: FOUND at offset 4404"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "Dark-matter candidates that follow from a curved (anti-de Sitter) momentum-space geometry and couple to us through gravitation and Higgs exchange. They are explicitly not counterparts of ordinary particles ('do not have an ordinary analogue'), and nothing is said about a polarization."
+    }
+   ],
+   "summary": "A pre-2015 lead outside the record as far as I know: a Standard-Model extension built on curved momentum space, whose 'exotic' fermions are proposed as a dark-matter world linked to ours by gravity and Higgs exchange. It is related to C1's theme (dark matter tied to momentum-space geometry), not a statement of it."
+  },
+  {
+   "source": "Leigh, Rob, 'Metastring theory' ('Locality, Quantum Gravity and Metastrings', with Freidel and Minic), CERN-CKC TH Institute on Duality Symmetries in String and M-Theories (https://indico.cern.ch/event/365702/contributions/864549/attachments/1141981/1636064/CERN_2015.pdf)",
+   "first_public": "Slides dated August 12, 2015 (the institute ran 3–14 August 2015; attachment uploaded 2015-08-19).",
+   "read_how": "Found by the CERN attachment search for \"Born reciprocity\" and metastring. PDF downloaded; text extracted with pypdf.",
+   "quotes": [
+    {
+     "quote": "applying this to string theory, we interpret the identification of M as space-time as breaking Born reciprocity",
+     "where": "PDF p. 13 ('Born Reciprocity')",
+     "check": "scripts/qcheck.py data/dl/leigh2015/text.txt: FOUND at offset 7443"
+    },
+    {
+     "quote": "by taking the target to be space-time, we’ve chosen a basis",
+     "where": "PDF p. 13",
+     "check": "qcheck: FOUND at offset 7556"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "hard core",
+     "label": "partial",
+     "reason": "Choosing space-time as the basis, or polarization, breaks Born reciprocity. #11 §3 already credits this to Freidel, Leigh and Minic. The slides present the choice as a choice of basis, not as spontaneous breaking. No dark matter in the slides."
+    }
+   ],
+   "summary": "The 2015 conference form of the school's statement that taking space-time as the target breaks Born reciprocity. It bears on the program's attribution in #11 §3, not on C1–C7."
+  },
+  {
+   "source": "Ng, Y.J.; Edmonds, D.; Farrah, D.; Minic, D.; Takeuchi, T.; Ho, C.M., 'Modified Dark Matter', talk at the 14th Marcel Grossmann Meeting (MG14, Rome, July 2015); proceedings arXiv:1602.00055 (INSPIRE recid 1418771). Related talk: Ng, 'Modified dark matter: relating dark energy, DM and baryonic matter', DSU 2018, Annecy (https://indico.in2p3.fr/event/14719/contributions/62244/, title only).",
+   "first_public": "MG14 opened 2015-07-12 (INSPIRE C15-07-12). arXiv v1 2016-01-30 01:56 UTC (arXiv API comment: 'talk given at the 14th Marcel Grossmann Meeting in Rome'). DSU 2018 talk 2018-06-28.",
+   "read_how": "Found by the school-author scan of the INSPIRE MG14 proceedings dump and the DSU 2018 export-API dump. Abstract checked with lit.py.",
+   "quotes": [
+    {
+     "quote": "Unlike cold dark matter models, the MDM mass profile depends on the baryonic mass.",
+     "where": "abstract",
+     "check": "lit.py quote 1602.00055: FOUND: 1602.00055 — searched abstract"
+    },
+    {
+     "quote": "Modified dark matter: relating dark energy, DM and baryonic matter",
+     "where": "DSU 2018 contribution title (no abstract posted)",
+     "check": "scripts/qcheck.py JSONL data/events/dsu2018 contribution 62244 title: FOUND at offset 0"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "The school's earlier dark-matter model, whose mass profile depends on the baryons and on Λ. It is correlated with visible matter, but in these texts it is not identified as a dual or conjugate sector."
+    }
+   ],
+   "summary": "Earlier school conference items on dark matter (2015, 2018) state the correlation with baryons and Λ, not the dual identification. The identification first appears in Minić's 2019 talk title and in its 2020 write-up."
+  },
+  {
+   "source": "Ng, Y. Jack, 'Holographic Spacetime Foam: Theory and Observations', Tensions in Cosmology 2025, Corfu (https://indico.cern.ch/event/1544691/contributions/6668201/attachments/3125074/5542458/Ng.pdf)",
+   "first_public": "Slides uploaded 2025-08-28; the event ran 2–8 September 2025 (Indico export API).",
+   "read_how": "Found by the CERN attachment searches (\"dark matter\" \"T-duality\"; Minic). PDF downloaded; text extracted with pypdf.",
+   "quotes": [
+    {
+     "quote": "In MoNDian dark matter scenario, at the galactic scale, there is a connection among dark matter",
+     "where": "PDF pp. 23 and 27",
+     "check": "scripts/qcheck.py data/dl/ng2025/text.txt: FOUND at offset 7706"
+    },
+    {
+     "quote": "MoNDian Dark Matter [Ho, Minic & Ng arXiv:1005.3537]",
+     "where": "PDF p. 22",
+     "check": "qcheck: FOUND at offset 6333"
+    },
+    {
+     "quote": "Quanta of dark matter obey ∞ statistics (like dark energy)",
+     "where": "PDF p. 27",
+     "check": "qcheck: FOUND at offset 10204"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "A school-adjacent 2025 talk restating MoNDian (modified) dark matter linked to ordinary matter and Λ. It does not identify a dual sector."
+    }
+   ],
+   "summary": "The 2025 conference form of the school's correlation picture (dark matter, ordinary matter and dark energy linked), with no dual-sector identification."
+  },
+  {
+   "source": "Mignemi, S., 'Yang model revisited', XII Bolyai–Gauss–Lobachevsky Conference (BGL-2024) (https://indico.cern.ch/event/1347295/contributions/5902056/attachments/2855438/4993597/20_Mignemi_talk_BGL.pdf)",
+   "first_public": "The conference ran 1–3 May 2024; slides uploaded 2024-05-13 (Indico).",
+   "read_how": "Found by the CERN attachment search for \"Born duality\". PDF downloaded; text extracted with pypdf.",
+   "quotes": [
+    {
+     "quote": "The previous algebra is invariant under a generalized Born duality",
+     "where": "PDF p. 8",
+     "check": "scripts/qcheck.py data/dl/mignemi2024/text.txt: FOUND at offset 4173"
+    },
+    {
+     "quote": "A particularly interesting solution is obtained by assuming symmetry under the exchange of x and p, as is natural in view of the Born duality of the model.",
+     "where": "PDF p. 13",
+     "check": "qcheck: FOUND at offset 6917"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "hard core",
+     "label": "related",
+     "reason": "Born duality (x → −p, p → x) as a symmetry of the Yang algebra, with x↔p-symmetric solutions. No breaking of the polarization and no dark matter in these slides."
+    }
+   ],
+   "summary": "A 2024 conference talk on Born duality in the Yang model, related to the record's lead on Lukierski, Meljanac, Mignemi and Pachoł. It bears on the hard core only."
+  },
+  {
+   "source": "Balaji, Shyam (with De La Torre Luque, Cleaver), 'An Excited Dark Matter Solution to the MeV Galactic Anomalies', UK-APP meeting, Summer 2026 (https://indico.cern.ch/event/1689082/contributions/7158568/attachments/3304479/5912177/UKAPP_2026_conf.pdf)",
+   "first_public": "Slide 1 dated 29/06/2026; the meeting was on 2026-06-29 (Indico). The mechanism, excited dark matter, is Finkbeiner and Weiner 2007, as the slides say.",
+   "read_how": "Found by the CERN attachment searches for \"velocity-gated\" and \"velocity gate\". PDF downloaded; text extracted with pypdf.",
+   "quotes": [
+    {
+     "quote": "is kinematically allowed only if the relative velocity exceeds a threshold",
+     "where": "PDF p. 13",
+     "check": "scripts/qcheck.py data/dl/exciting2026/text.txt: FOUND at offset 5718"
+    },
+    {
+     "quote": "This velocity “gate” distinguishes XDM from standard annihilation models.",
+     "where": "PDF p. 13",
+     "check": "qcheck: FOUND at offset 5794"
+    },
+    {
+     "quote": "Proposed by Finkbeiner and Weiner (2007)",
+     "where": "PDF p. 12",
+     "check": "qcheck: FOUND at offset 5379"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 chi form",
+     "label": "related",
+     "reason": "A relative-velocity 'gate' on a dark-matter interaction, but in the opposite sense: inelastic up-scattering switches on above a threshold relative velocity. The program's gate keeps the self-interaction on below v* and off in hot clusters (#11 §8). No conjugate matter and no momentum-overlap mechanism."
+    },
+    {
+     "conjecture": "C7",
+     "label": "related",
+     "reason": "A velocity-gated interaction among dark-matter particles, but short-range and inelastic, and opening at high relative velocity, not a long-range attraction at low relative velocity."
+    }
+   ],
+   "summary": "The only conference item found that calls a dark-matter interaction velocity-'gated'. It is excited dark matter, whose gate opens above a threshold: the same word with the reverse sense of the program's knee."
+  },
+  {
+   "source": "Yanagi, K.; Kamada, A.; Yu, H.-B.; Kaneta, K., 'Self-interacting dark matter and muon g−2 in a gauged U(1)_{Lμ−Lτ} model', SUSY 2018, Barcelona (https://indico.cern.ch/event/689399/contributions/3005568/). Chosen as a representative of the many velocity-dependent SIDM abstracts the sweep met.",
+   "first_public": "Talk 2018-07-25 (Indico).",
+   "read_how": "Export-API dump of SUSY 2018 (242 contributions), regex screen.",
+   "quotes": [
+    {
+     "quote": "mediating dark matter self-interactions with a velocity-dependent cross section. It is large enough in galaxies to thermalize the inner halo and explain the diverse rotation curves and diminishes towards galaxy clusters.",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL data/events/susy2018 contribution 3005568: FOUND at offset 555"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 chi form",
+     "label": "related",
+     "reason": "Standard light-mediator SIDM: strong in galaxies, weak in clusters, on the same theme as the program's knee. The velocity dependence is the Yukawa kind, which #11 §13 row 1 sets against the knee. There is no gate on relative momentum and no conjugate matter."
+    }
+   ],
+   "summary": "Typical of the velocity-dependent SIDM talks found at SUSY, IDM, TeVPA and Planck meetings: related to the χ form's phenomenology, not to its mechanism."
+  },
+  {
+   "source": "Mirror-sector dark matter talks. Main one: Setford, Jack, 'Mirror Sectors and Mirror Stars', SUSY 2019 (https://indico.cern.ch/event/746178/contributions/3383808/). Also: Foot, Robert, 'Explaining galactic structure and direct detection experiments with mirror dark matter', TeVPA/IDM 2014 (https://indico.cern.ch/event/278032/contributions/1623643/); Foot, 'Direct detection of mirror dark matter', DSU 2018 (title only).",
+   "first_public": "Setford 2019-05-22; Foot 2014-06-26 (before the window); Foot, DSU 2018, 2018-06-28 (Indico).",
+   "read_how": "Abstracts from the CERN Indico search-API JSON ('mirror matter', 'mirror dark matter') and the DSU 2018 export dump.",
+   "quotes": [
+    {
+     "quote": "Mirror sectors -- hidden sectors that are approximate copies of the Standard Model -- are a generic prediction of many models, notably the Mirror Twin Higgs model.",
+     "where": "Setford abstract",
+     "check": "scripts/qcheck.py JSONL c_mirror_matter hits, contribution 3383808: FOUND at offset 0"
+    },
+    {
+     "quote": "A duplicate set of particles and forces (mirror particles) are required if nature obeys an exact parity symmetry.",
+     "where": "Foot 2014 abstract",
+     "check": "qcheck JSONL c_mirror_dm hits, contribution 1623643: FOUND at offset 0"
+    },
+    {
+     "quote": "The only new parameter postulated is photon - mirror photon kinetic mixing of strength",
+     "where": "Foot 2014 abstract",
+     "check": "qcheck: FOUND at offset 191"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "Dark matter as a copy of the Standard Model, but related by parity, not by the phase-space polarization, and coupled by photon–mirror-photon kinetic mixing, which #11 P4 strict excludes."
+    }
+   ],
+   "summary": "The well-known mirror-matter line, met many times in the sweep (9 contribution and 63 attachment hits for \"mirror dark matter\" on CERN Indico). It is a related theme; the mirror is parity."
+  },
+  {
+   "source": "Deng, Wei-Ning; Boyle, Latham, 'CPT-Symmetric Kähler-Dirac Fermions: Implication of the Standard Model and Cosmology', PASCOS 2026 (https://indico.global/event/14705/contributions/155354/). Also two 'CPT Symmetric Universe' talks at PASCOS 2019 (titles in indico.hep.manchester.ac.uk/static/5326).",
+   "first_public": "Talk 2026-06-26 (indico.global export API); PASCOS 2019 ran 1–5 July 2019.",
+   "read_how": "indico.global export-API dump of PASCOS 2026 (214 contributions); PASCOS 2019 static contribution list.",
+   "quotes": [
+    {
+     "quote": "The CPT-Symmetric Universe model provides elegant solutions to major cosmological puzzles—including dark matter",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL data/events/pascos2026 contribution 155354: FOUND at offset 0"
+    },
+    {
+     "quote": "by positing that the Big Bang acts as a CPT mirror",
+     "where": "abstract",
+     "check": "qcheck: FOUND at offset 183"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C5",
+     "label": "related",
+     "reason": "A mirror universe on the other side of the Big Bang, the contracting-partner theme the record already lists for C5. Its collapse does not drive our acceleration."
+    }
+   ],
+   "summary": "A related cosmology of a CPT-mirror partner universe. It does not state C5."
+  },
+  {
+   "source": "Popławski, Nikodem, 'Universe in a black hole with spin and torsion', MG16 proceedings (arXiv:2307.12190; INSPIRE recid 2628168; DOI 10.1142/9789811269776_0106)",
+   "first_public": "arXiv/INSPIRE earliest date 2023-07-22; MG16 was in July 2021 (INSPIRE C21-07-05.3).",
+   "read_how": "INSPIRE MG16 proceedings dump, regex screen; abstract checked with lit.py.",
+   "quotes": [
+    {
+     "quote": "Our universe might have therefore originated from a black hole existing in another universe.",
+     "where": "abstract",
+     "check": "lit.py quote 2307.12190: FOUND: 2307.12190 — searched abstract"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C5",
+     "label": "related",
+     "reason": "Collapse in another universe gives rise to ours through a bounce. Dark energy is a separate ingredient; the collapse does not drive our acceleration."
+    }
+   ],
+   "summary": "A related collapse-and-bounce picture from the MG proceedings. It does not state C5."
+  },
+  {
+   "source": "Perri, Daniele, 'A \"Global\" Solution to the Cosmological Monopole Problem', TeVPA 2025, Valencia, book of abstracts (https://indico.ific.uv.es/event/7986/book-of-abstracts.pdf)",
+   "first_public": "TeVPA 2025, 3–7 November 2025 (Indico ICS and book of abstracts).",
+   "read_how": "Book of abstracts PDF downloaded (the IFIC Indico export API returned 403); text extracted with pypdf; regex screen.",
+   "quotes": [
+    {
+     "quote": "The standard resolution invokes inflation occurring after monopole production, diluting their density to undetectable levels and eliminating any possibility of present-day observation.",
+     "where": "book of abstracts, PDF p. 17",
+     "check": "scripts/qcheck.py data/dl/tevpa2025_boa/text.txt: FOUND at offset 41566"
+    },
+    {
+     "quote": "This mechanism enhances monopole annihilation, thereby reducing their abundance to acceptable levels without requiring inflation.",
+     "where": "book of abstracts, PDF p. 17",
+     "check": "qcheck: FOUND at offset 41923"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C3",
+     "label": "related",
+     "reason": "Competing explanations of the monopole null result (dilution by inflation; enhanced annihilation), neither involving momentum space. This is consistent with the record's flag 59: the null result is expected under standard histories."
+    }
+   ],
+   "summary": "A representative of the conference literature on why monopoles are not seen. None of it places them in momentum space."
+  },
+  {
+   "source": "Serra-Garcia, M.; Peri, V.; Huber, S., 'Axial field induced chiral channels in an acoustic Weyl system', Annual meeting of the Swiss Physical Society 2018 (https://indico.cern.ch/event/716246/contributions/3048856/)",
+   "first_public": "2018-08-30 (Indico).",
+   "read_how": "CERN Indico search-API JSON (query: monopole(s) \"momentum space\").",
+   "quotes": [
+    {
+     "quote": "Weyl points are robust conical band crossings in three dimensional materials that are monopoles of Berry curvature. When a magnetic field is applied, Weyl points are shifted in momentum space.",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL c_mon_momsp hits, contribution 3048856: FOUND at offset 250"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C2",
+     "label": "collision",
+     "reason": "'Monopoles' in 'momentum space' here are Berry-curvature monopoles (Weyl points) in band structures, the 'shadow' #11 §13 row 8 already names. All eight contribution hits for monopoles \"momentum space\" were of this kind or from hadron physics."
+    }
+   ],
+   "summary": "The conference usage of 'monopoles in momentum space' is condensed-matter Berry curvature: same words, other meaning."
+  },
+  {
+   "source": "Brown, Stephanie, 'Defining Separatrices of Penning Traps with Strong Magnetic Mirrors', Michigan REU Summer Student Program 2015 (https://indico.cern.ch/event/399968/contributions/1840510/)",
+   "first_public": "2015-07-02 (Indico).",
+   "read_how": "CERN Indico search-API JSON (query \"magnetic mirror\": 12 contributions, 302 attachments, all plasma, trap or cosmic-ray uses).",
+   "quotes": [
+    {
+     "quote": "A magnetic mirror is used to cool our antimatter plasma to 10 microkelvin.",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL c_mag_mirror hits, contribution 1840510: FOUND at offset 0"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "collision",
+     "reason": "'Magnetic mirror' in conference abstracts means a magnetic-field configuration that reflects charged particles (plasma traps, ion sources, cosmic-ray transport), not a magnetically charged mirror family."
+    }
+   ],
+   "summary": "A name collision for the magnetic-mirror conjecture, which matters for future searches."
+  },
+  {
+   "source": "Sawangwit, U.; Siripak, J.; Sanguansak, N., 'Detection of Indirect Signal Dark Matter from the Milky Way', Siam Physics Congress 2016 (https://indico.cern.ch/event/478090/contributions/2138109/)",
+   "first_public": "2016-06-08 (Indico).",
+   "read_how": "CERN Indico search-API JSON (query \"conjugate dark matter\": 1 contribution).",
+   "quotes": [
+    {
+     "quote": "resulting from self-conjugate dark matter particles",
+     "where": "abstract",
+     "check": "scripts/qcheck.py JSONL c_conj_dm hits, contribution 2138109: FOUND at offset 171"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "collision",
+     "reason": "'Conjugate' here means charge self-conjugate (particle is its own antiparticle), not phase-space conjugation."
+    }
+   ],
+   "summary": "The only conference contribution matching \"conjugate dark matter\" uses the charge-conjugation sense."
+  },
+  {
+   "source": "Shifman, Mikhail, 'Fifty Years of Supersymmetry', 50 Years of Supersymmetry, CERN (https://indico.cern.ch/event/1151070/attachments/2467247/4231459/2022_CERN_2022.pdf)",
+   "first_public": "Slides dated 'CERN, June 22, 2022'; attachment 2022-06-22.",
+   "read_how": "Found by the CERN attachment search for \"dual matter\". PDF downloaded; text extracted with pypdf.",
+   "quotes": [
+    {
+     "quote": "Dual matter (i.e. monopoles) condense, U(1) is spontaneously broken, ANO string is formed",
+     "where": "PDF p. 16",
+     "check": "scripts/qcheck.py data/dl/susy50/text.txt: FOUND at offset 5745"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "collision",
+     "reason": "'Dual matter' is the monopole matter of N=2 SQED's dual description (dual superconductor), the established physics #11 App. A item 11 absorbed. It is not dark matter and not phase-space duality."
+    }
+   ],
+   "summary": "A collision for 'dual matter'."
+  },
+  {
+   "source": "Burdyuzha, V.V., 'Magnetic Monopoles and Dark Matter', J. Exp. Theor. Phys. 127, 638 (2018); arXiv:1901.02341. Incidental: a journal article, not a conference item; found by an APS-restricted web search.",
+   "first_public": "Journal 2018 (INSPIRE); arXiv v1 2018-12-25 (arXiv API).",
+   "read_how": "Abstract read with tools/lit.py show; quotes checked with lit.py quote.",
+   "quotes": [
+    {
+     "quote": "Relic magnetic atoms can contribute up to 18% to the dark matter density.",
+     "where": "abstract",
+     "check": "lit.py quote 1901.02341: FOUND: 1901.02341 — searched abstract"
+    },
+    {
+     "quote": "A sharp physical difference of Schwinger's magnetic world from Dirac's present-day electric world is pointed out.",
+     "where": "abstract",
+     "check": "lit.py quote 1901.02341: FOUND: 1901.02341 — searched abstract"
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "related",
+     "reason": "Bound magnetic atoms (g+g−) of our electromagnetism as a dark-matter component, a version of the 'binding into magnetically neutral composites' option. No momentum placement."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "A magnetic world of the early universe that leaves relic magnetic atoms, in position space."
+    }
+   ],
+   "summary": "An incidental lead: magnetic atoms as part of the dark matter, on the shared-photon form's binding route. Probably known to the record's earlier searches; I did not check."
+  }
+ ],
+ "searched": [
+  "CERN Indico full-text search (https://indico.cern.ch/search/api/search, public content), types 'contribution' (title + abstract) and 'attachment' (text of uploaded files): 90 query strings. Totals [contributions; attachments]: \"absence of magnetic monopoles\" [0; 10]; \"Born duality\" [0; 1]; \"Born geometry\" [0; 1]; \"Born reciprocity\" [0; 2]; \"Born reciprocal\" [0; 2]; \"momentum space\" clumping [1; 16]; \"clustering in momentum space\" [0; 1]; \"condensation in momentum space\" [0; 2]; \"conjugate dark matter\" [1; 7]; \"conjugate matter\" [0; 3]; \"conjugate universe\" [0; 0]; \"contracting universe\" \"dark energy\" [0; 14]; \"CPT-symmetric universe\" [0; 9]; \"dark magnetic monopoles\" [1; 2]; \"dark monopole\" [2; 11]; \"dark monopoles\" [2; 11]; \"curved momentum space\" [0; 3]; \"dark matter\" \"double field theory\" [0; 4]; \"dark matter\" \"dual space\" [0; 4]; \"dark matter\" \"dual spacetime\" [0; 0]; \"dark matter\" \"Fourier dual\" [0; 0]; \"dark matter in momentum space\" [0; 0]; \"localized in momentum\" [9; 148]; \"dark matter\" noncommutative [3; 54]; \"dark matter\" \"phase space\" duality [0; 113]; \"dark matter\" \"polarization of phase space\" [0; 2]; \"dark matter\" \"relative locality\" [0; 28]; \"dark matter\" \"relative velocity\" gate [0; 27]; \"dark matter\" \"T-duality\" [15; 479]; \"dual standard model\" [0; 0]; \"dual dark matter\" [0; 1]; \"dual matter\" [0; 4]; \"dual photon\" \"dark matter\" [0; 2]; \"modular\" \"dark matter\" \"string\" [1; 287, 200 fetched]; \"dual sector\" \"dark matter\" [3; 1]; \"dual spacetime\" [1; 7]; \"dual universe\" [0; 0]; dyon \"dark matter\" [4; 99]; \"dyonic dark matter\" [0; 0]; \"electric-magnetic duality\" \"dark matter\" [3; 9]; gravitization [4385; 17835, stemmed to gravit*, noise, 200 fetched each]; \"Lagrangian polarization\" [0; 0]; \"long-range\" attraction \"dark matter\" \"velocity-dependent\" [0; 23]; \"magnetic dark matter\" [2; 4]; \"magnetic dual\" \"dark matter\" [0; 6]; \"magnetic mirror\" [12; 302]; \"magnetically charged dark matter\" [0; 0]; \"magnetic charge\" \"dark photon\" [4; 100]; \"magnetically charged\" mirror \"dark matter\" [0; 28]; metaparticle [0; 1]; metaparticles [0; 1]; metastring [1; 1]; Minic [10; 57]; \"mirror dark matter\" [9; 63]; mirror \"magnetic monopoles\" \"dark matter\" [0; 73]; \"mirror matter\" [7; 90]; \"mirror monopoles\" [0; 0]; \"mirror universe\" [0; 10]; \"modular spacetime\" [0; 0]; \"modular space-time\" [0; 1]; \"momentum overlap\" \"dark matter\" [0; 4]; \"momentum space\" \"dark matter\" [1; 277]; monopole \"momentum space\" [8; 120]; monopoles \"dark sector\" [10; 343]; \"monopole dark matter\" [6; 11]; monopoles \"momentum space\" [8; 120]; \"magnetic monopoles\" \"not seen\" [2; 405]; monopoles \"phase space\" \"dark matter\" [0; 221]; monopolium \"dark matter\" [3; 16]; \"overlap in momentum space\" [0; 3]; \"partner universe\" [7; 520, stemmed to 'universities', noise]; reciprocity \"dark matter\" [4; 126]; \"reciprocal relativity\" [0; 0]; \"Born reciprocity\" OR \"reciprocity principle\" [2; 11]; \"relative velocity\" \"self-interaction\" \"dark matter\" [0; 116]; \"relative velocity\" \"self-interacting dark matter\" [0; 34]; \"S-duality\" \"dark matter\" [15; 478]; \"velocity-dependent\" attraction \"dark matter\" [0; 67]; \"velocity gate\" [0; 2]; \"velocity-gated\" [0; 2]; \"velocity threshold\" \"self-interaction\" [0; 0]; \"where are the monopoles\" [0; 15]; \"why magnetic monopoles\" [0; 1]; \"wave packet overlap\" \"dark matter\" [0; 4]; names: Freidel [2], Kowalski-Glikman [0], Berglund Hubsch [0], Hübsch [2], Takeuchi \"dark matter\" [3], Jejjala \"dark energy\" [0].",
+  "Screening of the CERN hits (gravitization noise excluded): 113 distinct contributions, each read by title and abstract. 3,288 attachment files in 2,798 (event, contribution) groups, screened by the title of the contribution they belong to. For the 15 sets with 99 or more hits, a title-keyword filter was applied and the kept titles were read. 14 slide or PDF files were downloaded and read where a title came close: Leigh 2015, Mateev 2010, Mignemi 2024, Zheng 2026, Shifman 2022, Balaji 2026, Ng 2025, Greljo 2024, Hook 2024, the MPHYS10 timetables and proceedings, and the TeVPA 2025 and DSU 2024 programmes.",
+  "Per-event contribution dumps via the Indico export API (export/event/ID.json?detail=contributions), title and abstract screened by regex (counts are contributions / with abstract): TeVPA 2015 ICRR 147/135, 2016 CERN 240/232, 2017 indico.global 340/333, 2018 DESY 354/350, 2019 indico.global 191/188, 2021 IHEP 175/164, 2022 indico.global 181/160, 2024 UChicago 303/265; ICHEP 2016 1249/1160, 2018 1010/927, 2020 1044/958, 2024 1265/1202, 2026 952/899 (all CERN); IDM 2018 147/135, 2020 21/5, 2022 219/215 (CERN), IDM 2026 Zaragoza 214/201; DSU 2016 CERN 80/24, 2017 IBS 75/0, 2018 IN2P3 105/44, 2022 indico.global 116/111, 2023 ICTP 70/1; Planck 2018 DESY 134/129, 2019 CERN 164/0, 2022 IN2P3 277/225, 2024 CERN 130/127, 2025 Padova 155/109, 2026 CERN 206/167; PASCOS 2015 ICTP 83/0, 2016 142/104, 2017 138/102, 2018 141/9 (CERN), 2022 indico.global 149/124, 2026 indico.global 214/188; SUSY 2015 260/257, 2016 239/206, 2018 242/201, 2019 273/225, 2021 531/491, 2022 151/116, 2024 196/167, 2025 178/131, 2026 124/85 (CERN), SUSY 2023 indico.global 243/206; Lepton-Photon 2015 126/0, 2017 IHEP 132/65, 2019 225/5, 2021 253/198, 2023 198/170, 2025 328/293; PATRAS 2018 DESY 125/105, 2019 DESY 98/97, 2026 indico.global 107/107; Invisibles25 140/111; plus LHCP 2022 (CERN event 1109611, dumped in error as ICHEP 2022) 362/128.",
+  "INSPIRE literature by conference number (publication_info.cnum), titles and abstracts screened by regex: MG14 C15-07-12 (588), MG15 C18-07-01 (301), MG16 C21-07-05.3 (366), MG17 C24-07-07.2 (50); ICHEP 2016 (680), 2018 (527), 2020 (567), 2022 (658), 2024 (707), 2026 (14); IDM 2022 (76); DSU 2015 (44); DSU 2024 (1); Planck 2015 (87); LP 2017 (50), LP 2021 (1), LP 2025 (45); PASCOS 2024 (11); SUSY 2017 (4); TeVPA 2023 (1). Zero records for TeVPA 2015, IDM 2018, IDM 2024, DSU 2019/2021/2023, Planck 2016/2017/2021/2022/2023, PASCOS 2015/2019/2021/2023/2025 and SUSY 2023. Across all dumps, 19,740 records were screened, plus a second regex pass (dual to/of ordinary matter, dual/conjugate copy/partner/sector, matter in momentum/conjugate space, Lagrangian/modular polarization, x-tilde) and a scan for school authors (Minic, Freidel, Leigh, Berglund, Hübsch, Edmonds, Takeuchi, Ng, Jejjala, Kavic, Kowalski-Glikman, Farrah, Ho, Castro Perelman).",
+  "Books of abstracts and programme pages screened by regex: TeVPA 2025 book of abstracts (indico.ific.uv.es/event/7986, 7,496 text lines); PASCOS 2019 static contribution list (indico.hep.manchester.ac.uk/static/5326, 135 contributions); DSU 2019 scientific programme and timetable (dsu2019.df.uba.ar); PASCOS 2023 programme (sites.uci.edu/pascos2023/program); PASCOS 2024 programme (vietnam.in2p3.fr/2024/PASCOS/program.php); DSU 2024 programme PDF (physics.ntua.gr/corfu2024/Program/ds.pdf); MPHYS10 2019 programme, six daily timetables and the Minić proceedings PDF (mphys10.ipb.ac.rs).",
+  "Edition finding: INSPIRE conference records (series.name TeVPA 16, ICHEP 45, IDM 13, DSU 17, PLANCK 28, PASCOS 32, SUSY 35, LP 27, MG 17; the 2015–2026 editions listed with their URLs); CERN Indico event-title search for each series; Indico core-search probes on 20 other servers (DESY, IHEP, LBL, KPS, IJS, MPP, IN2P3, indico.global, IPMU, IBS, TRIUMF, SLAC, NIKHEF, INFN, ICRANet, among others), which index event titles only; conference websites resolved with curl (PATRAS 2015–2026, TeVPA 2017/2018, IDM 2016/2024, ICHEP 2022/2026, PASCOS 2015/2019/2021/2022/2023/2024, Planck 2015/2016/2017/2020/2023, SUSY 2017/2019, DSU 2019/2023/2024, MG14–MG17).",
+  "Web search engine (WebSearch) queries, about 10 results each: APS-restricted (4: momentum-space counterpart; Born reciprocity/metastring/modular spacetime; Minic/Edmonds/Takeuchi; magnetically charged mirror/dual of SM particles), indico.fnal.gov-restricted (1), PATRAS editions (2), IDM 2024 (1), TeVPA 2025/SUSY 2023 (1), TeVPA 2026/IDM 2026/PASCOS 2025 (1), the MPHYS10 Minić abstract (1), slides of Minić's 2019 talk (1). WebFetch: meetings-archive.aps.org (2 pages)."
+ ],
+ "not_reached": [
+  "APS Bulletin of meeting abstracts: curl to meetings.aps.org (redirects to www.aps.org/events and meetings-archive.aps.org) and to schedule.aps.org got a Cloudflare 'Just a moment...' challenge (HTTP 403). WebFetch was served one archive page (apr/2019), but the archive has no search and lists sessions without titles. No systematic sweep; covered only by 4 search-engine queries, none relevant.",
+  "Fermilab Indico (indico.fnal.gov): Cloudflare challenge (HTTP 403) on the search API. Not swept; 1 search-engine query, nothing relevant.",
+  "agenda.infn.it (INFN Indico): Anubis bot check ('Making sure you're not a bot!') on event pages, contribution lists, export API and books of abstracts. Not reached: TeVPA 2023 (event 33457), ICHEP 2022 (event 28874; its 658 INSPIRE proceedings were screened instead), PATRAS 2021 (20431), 2023 (34455), 2024 (40078) and 2025 (46273), and the IDM 2024 abstracts (39713; the GSSI programme PDF lists sessions only).",
+  "PATRAS 2022 (indico.him.uni-mainz.de/event/109): login required.",
+  "MG17 Indico (indico.icranet.org/event/8): export API 403. The MG14–MG17 websites (icra.it/mg/mg14 … MG/mg17) return 404. The Marcel Grossmann meetings were covered only through INSPIRE's proceedings records (588, 301, 366 and 50), not their full talk lists.",
+  "TeVPA 2025 (indico.ific.uv.es): export API 403; the book of abstracts was read instead.",
+  "Dead or unreachable sites: IDM 2016 (idm2016.shef.ac.uk), Planck 2015 (planck2015.physics.uoi.gr), Planck 2016 (congresos.adeituv.es/planck2016), Planck 2017 (planck2017.fuw.edu.pl), Planck 2023 (indico.fuw.edu.pl), PASCOS 2021 (pascos2021.kr), SUSY 2017 (tifr.res.in/~susy17, 404), Miami 2019 (cts.physics.miami.edu, where Minić's talk was given).",
+  "Not found or not tried: the Planck 2021 programme (Durham event 845 is the postponed 2020 meeting, with 0 contributions); PASCOS 2025; TeVPA 2026 (Tendo; no Indico found); the DSU 2021 site; DSU 2026 (indico.global/event/16194, no contributions yet); PATRAS 2015–2017 programmes (the DESY sites give no programme links; the DESY-PROC proceedings were not read); slides of Minić's 2019–2020 talk at PTRel, the Bangkok workshop, Penn State IGC's Multimessenger Universe conference, Miami and Granada.",
+  "Limits of coverage: Indico's core search on non-CERN servers indexes event titles only, so those events were dumped one by one. CERN's full-text index may not cover events moved to indico.global, so TeVPA 2017/2019/2022, DSU 2022, SUSY 2023 and PASCOS 2022/2026 were dumped from indico.global directly. Many dumps lack abstracts and were screened by title only: LP 2015 (0 of 126), LP 2019 (5 of 225), Planck 2019 (0 of 164), DSU 2017 (0 of 75), PASCOS 2015 (0 of 83), PASCOS 2018 (9 of 141), DSU 2023 (1 of 70). Attachment searches give no snippets, so file hits were screened by the title of the talk they belong to. Literature not in English was not searched."
+ ],
+ "overall": "I swept conference abstracts, slides and proceedings from 2015 to 2026: 90 full-text queries on CERN Indico (113 contributions and 3,288 attachment files screened), 75 contribution dumps and INSPIRE proceedings sets totalling 19,740 records (TeVPA, ICHEP, IDM, PATRAS, DSU, Planck, PASCOS, SUSY, Lepton-Photon, Marcel Grossmann, Invisibles25), one book of abstracts and seven programme pages.\n\nThe record's three clauses, in conference form:\n- **Core published.** Confirmed. The only conference statements of dark matter as the dual counterpart of visible matter come from the school. Edmonds, Minić and Takeuchi at MG16 (July 2021; arXiv 2021-09-27): \"Thus the entire SM would have a dual SM (which we propose, describes the dark matter sector).\" The dual there is the metastring's x̃ sector, at the string scale λ, not the conjugate polarization at ℏ.\n- **Correlated.** Confirmed in the same text. The dual sector is \"correlated to the visible sector via the dark energy sector\", and dark matter is \"detectable through ... correlation/entanglement to visible matter\", where #11 P4 strict allows gravity only.\n- **Neither form.** Confirmed for conference venues. No abstract or slide pairs conjugate or dual matter with a self-interaction gated by relative velocity or by momentum overlap, and none places monopoles in momentum space. The closest items: standard velocity-dependent self-interacting dark matter; an excited-dark-matter velocity \"gate\" (UK-APP 2026, after Finkbeiner and Weiner 2007), which opens above a threshold, the reverse of the program's knee; and hidden-sector monopole dark matter in ordinary position space (Terning and Verhaaren 2019, Ho and Takahashi 2019, Bagherian et al. 2026).\n\nOne nuance for the record, which dates the first statement to the arXiv posting of Minic 2020 (29 February 2020). That paper is the write-up of a talk (\"In this talk I review recent work\"). The MPHYS10 timetable puts the talk, \"From string theory and quantum gravity to dark matter and dark energy\", on 9 September 2019, and the acknowledgement names five more venues. The 2019 content is documented by its title only (no slides found), so the first written statement stays 29 February 2020, but an oral presentation on the topic is documented about 5½ months earlier. The school's earlier conference talks on dark matter (Pheno 2012, title only; MG14 2015; DSU 2018; Ng 2025) concern dark matter correlated with baryons and Λ, without the dual identification. Leigh's 2015 talk states that taking space-time as the target breaks Born reciprocity (already credited in #11 §3), with no dark matter.\n\nThe other conjectures:\n- **C4.** Winn's 2025 abstract (SUSY 2025 talk 20 August, Lepton-Photon 2025 25 August, Invisibles25 1–5 September) gives every SM particle a magnetically charged dual that shares our photon, hidden in neutral composites. That is the shared-photon form without the momentum placement (partial; another agent is verifying it).\n- **Evidence against the position-space versions of the monopole ideas.** The Parker-type bound on milli-magnetic monopole dark matter (Graesser 2023), and \"No room for monopole dark matter\" in the minimal model (2026 talks, apparently flag 68's paper). Neither tests p-localization.\n- **C2.** \"Monopoles in momentum space\" at conferences means Berry-curvature (Weyl) monopoles, a collision.\n- **C3.** Only competing explanations of the null result: inflation, enhanced annihilation, Winn's confinement.\n- **C5.** Only related items: CPT-mirror universes, Popławski's universe in a black hole, the school's dark energy as the curvature of the dual spacetime.\n- **C6, C7.** Nothing beyond standard self-interacting dark matter, long-range dark-matter forces and condensate talks.\n\nOther collisions to know for future searches: \"magnetic mirror\" (plasma traps), \"self-conjugate dark matter\" (charge conjugation), and \"dual matter\" meaning monopoles in N=2 SQED. A pre-2015 lead outside the window: the Maximal Mass Model (Mateev, Primorsko 2010) proposes dark-matter candidates from anti-de Sitter momentum-space geometry, without an ordinary analogue, coupled by gravitation and Higgs exchange. It is related to C1, not a statement of it.\n\nGaps: APS and Fermilab Indico (Cloudflare checks), INFN's agenda (Anubis bot check), Mainz Indico (login), and the Marcel Grossmann talk lists (proceedings only). All files are in /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/s-conf/: scripts/ holds the sweep code; data/indico/indico.cern.ch/*/hits.jsonl, data/events/*/contribs.jsonl, data/dl/*/text.txt and data/events_screen_all.txt hold the hits, dumps, extracted texts and screening output."
+}

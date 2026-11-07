@@ -11,6 +11,10 @@ tools) is in `review/literature-check/`. Finding prior art changes no claim's st
 status, the one #11 gives C1–C6 and, for C7, that of P.R.'s conjecture outside the record (§9). Six suspected
 omissions in #11 are proposed to Paul as flags 64–69 in `review/wiki-build-flags.md`; #11 is unchanged until he
 rules.
+2026-11-06: `notes/dual-sector.md`, a closer reading of the papers of Minic and coauthors, qualifies §2–§5 and one
+line of §6 (flag 64's addendum, flags 70–73); those statements are corrected in place, with quotations found by code
+for that note (`review/dual-sector/quotes.json`), and the verdicts, counts and reference list are unchanged; works the
+corrected passages cite that the list lacks are in the reference list of `notes/dual-sector.md`.
 Conjecture and direction, P.R.; derivations, counterexamples, verification, drafting, Claude (Anthropic).*
 
 ## 1. The question, the conjectures, the method
@@ -79,17 +83,21 @@ not make a conjecture more or less likely to be true.*
 
 *In plain terms: one conjecture is published in its core, three have close published relatives, and three were not
 found. What the check did not find in the literature is mostly the program's setting joined to the identification:
-a vacuum that selects a polarization, and a dark sector coupled to ours by gravity alone, as the program's is in
-every form but one (monopoles carrying magnetic charge of our own photon). Copies of ordinary matter coupled to ours
-mainly or only by gravity (mirror and twin matter) and a preferred polarization that breaks Born duality are each
-published; their combination with the identification was not found. Objects localized in momentum were not found.*
+a vacuum that selects a polarization by breaking reciprocity spontaneously (ρ, with η as order parameter), and a
+dark sector coupled to ours by gravity alone at every energy and never detected, as the program's is in every form
+but one (monopoles carrying magnetic charge of our own photon). Copies of ordinary matter coupled to ours mainly or
+only by gravity (mirror and twin matter) and a preferred polarization that breaks Born duality are each published.
+Within the group that published the identification, one paper of 2024 has the two sectors interact only by gravity
+below about 4.5×10¹⁴ GeV, without a permanent null, and another places a symmetry breaking tied to the polarization
+in the vacuum, for a symmetry other than ρ (`notes/dual-sector.md` §5, §8). Objects localized in momentum were not
+found.*
 
 | | Conjecture | Verdict | Closest published work | Not found |
 |---|---|---|---|---|
-| C1 | dark matter is conjugate matter | anticipated | Minic 2020; Berglund, Hübsch and Minić 2021; their school to 2026 | the identification joined to a gravity-only, never-detected sector (mirror and twin matter couple by gravity without reciprocity); the χ form with a velocity gate; the monopole form |
-| C2 | monopoles abundant in momentum space | related only | Szabo 2019 (magnetic charge mapped to momentum space as a background); Berry-curvature monopoles; monopole dark matter in position space | magnetically charged solitons localized in momentum, as matter |
-| C3 | that is why none has been found | related only | Khademi 2009, read in its abstract only (phase-space uncertainty; its full text could raise the verdict); other hiding places: a second time dimension, neutral cores, superpositions of +g and −g, a dark sector, screening by a magnetic condensate | hiding by localization in momentum |
-| C4 | the magnetic mirror | partly anticipated | Govaerts 2023; Vento 2025; García-Moreno and Vento 2026 (magnetic dark sectors); Gibbons and Herdeiro 2001 (the bridge, as a remark) | the analogs in the momentum polarization, one per charged particle |
+| C1 | dark matter is conjugate matter | anticipated | Minic 2020; Berglund, Hübsch and Minić 2021; their school to 2026 | the identification joined to a sector coupled by gravity alone at every energy and never detected (mirror and twin matter couple by gravity without reciprocity; Hübsch and Minic 2024 have gravity alone below about 4.5×10¹⁴ GeV, without a permanent null, `notes/dual-sector.md` §5); the spontaneous breaking of ρ with η as order parameter (the group has a breaking in the vacuum tied to the polarization, for another symmetry, `notes/dual-sector.md` §8); the χ form with a velocity gate; the monopole form |
+| C2 | monopoles abundant in momentum space | related only | Szabo 2019 (magnetic charge mapped to momentum space as a background); Berry-curvature monopoles; monopole dark matter in position space, including abundant monopoles bound into magnetically neutral composites (Winn 2012, `notes/dual-sector.md` §10) | magnetically charged solitons localized in momentum, as matter |
+| C3 | that is why none has been found | related only | Khademi 2009, read in its abstract only (phase-space uncertainty; its full text could raise the verdict); other hiding places: a second time dimension, neutral cores, superpositions of +g and −g, a dark sector, screening by a magnetic condensate, binding by the strong magnetic force between pair-produced monopoles (Winn 2012) | hiding by localization in momentum |
+| C4 | the magnetic mirror | partly anticipated | Govaerts 2023; Vento 2025; García-Moreno and Vento 2026 (magnetic dark sectors); Gibbons and Herdeiro 2001 (the bridge, as a remark); Winn 2012 and his talks of 2025–2026 (a magnetically charged partner for each charged particle, under our own photon, in ordinary space; `notes/dual-sector.md` §10, flag 73) | the analogs in the momentum polarization (one analog per charged particle is published without it, §5) |
 | C5 | conjugate collapse drives our acceleration | partly anticipated | Henry-Couannier 2013, 2018 (the equations from 2010); Gasperini and Veneziano 1993, 2003; Mukherjee, Jassal and Lochan 2024 | the partner as the momentum description of our own universe |
 | C6 | matter clumps in momentum space | partly anticipated | Bose condensation of dark matter: Riotto and Tkachev 2000; Sikivie and Yang 2009; Levkov, Panin and Tkachev 2018 | velocity flocks formed by an attraction between similar velocities |
 | C7 | long-range velocity-gated attraction | related only | Delbourgo and Lashmar 2008 | a 1/r attraction among dark matter only, gated in relative velocity at a fixed width |
@@ -141,18 +149,26 @@ The other readings of C1, C4 and C6 would lower their verdicts; that of C5 would
 
 ## 3. Dark matter is conjugate matter (C1): the identification is published
 
-*In plain terms: a group around Djordje Minic has proposed since 2020 that dark matter is the dual of the Standard
-Model in a Born-reciprocal formulation of string theory, where the dual coordinates are the momentum-like half of a
-doubled phase space. That is P.R.'s identification. Their dark sector differs from the program's: it is correlated
-with ours by construction, where the program's couples to ours by gravity alone and is never detected directly, in
-every form but one, monopoles carrying magnetic charge of our own photon. Coupling by gravity alone is itself
-published, for mirror and twin matter; joined to the identification it was not found. Separately, two fits of halo
-data mildly prefer dark matter that scatters off itself in galaxy clusters, where the program's particle form
-predicts no such scattering.*
+*In plain terms: a group around Djordje Minic has proposed, first in a talk of September 2019 and in writing since
+February 2020, that dark matter is the dual of the Standard Model in a Born-reciprocal formulation of string theory,
+where the dual coordinates are the momentum-like half of a doubled phase space. That is P.R.'s identification, put
+forward there as a proposal and never derived. Their dark sector differs from the program's: it is correlated with
+ours by construction, though beyond gravity only at higher orders in a string-scale length and with a strength no
+paper computes, where the program's couples to ours by gravity alone and is never detected directly, in every form
+but one, monopoles carrying magnetic charge of our own photon. Coupling by gravity alone is itself published, for
+mirror and twin matter; joined to the identification it is published once, in a paper of 2024 in which the two
+sectors interact only by gravity below a very high energy, and never with a permanent null (`notes/dual-sector.md`
+§3, §5). Separately, two fits of halo data mildly prefer dark matter that scatters off itself in galaxy clusters,
+where the program's particle form predicts no such scattering.*
 
 **What is published** [S].
-- Minic 2020 (arXiv, 29 February 2020), abstract: "metaparticle quanta (the zero modes of the metastring) as the
-  natural quanta of dark matter in this approach".
+- Minic 2020 (arXiv, 29 February 2020; the proceedings of a talk of 9 September 2019), §6.2: "The proposal here is
+  that the dual sector (as already indicated in the previous section) should be interpreted as the dark matter
+  sector, which is correlated to the visible sector via the dark energy sector" (`notes/dual-sector.md` §3). The
+  sentence of its abstract, "metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark
+  matter in this approach", makes a narrower claim, which the group had made in 2017 (Edmonds, Farrah, Minic, Ng and
+  Takeuchi, arXiv, 13 September 2017): that non-local quanta make up dark matter, a metaparticle being a particle
+  and its dual together.
 - Berglund, Hübsch and Minić 2021 (LHEP; arXiv, October 2020), abstract: "dark energy is generated by the dynamical
   geometry of the dual spacetime while dark matter, on the other hand, comes from the degrees of freedom dual to the
   visible matter".
@@ -163,12 +179,19 @@ predicts no such scattering.*
   candidate for the invisible matter sector (dual to the observed, visible, Standard Model sector)" (Hübsch and
   Minic, October 2026, §3.2). Nine papers state it in substance (the anticipates of §2's table). The last, posted on 14 October 2026, is later than
   P.R.'s first written statement of the conjecture (the lab notebook, v0.1, September 2026), so it is a restatement
-  and not prior art; the eight before it are prior. All nine come from one group and carry one priority, Minic 2020,
-  dated no later than its posting; two earlier items were not read, the September 2019 talk behind it, whose content
-  is unknown, and a 2019 paper of Freidel, Leigh and Minic not on arXiv, whose abstract mentions metaparticles but not
-  dark matter. No statement independent of the group was found; Finkelstein 2008 (arXiv 2006) only speculates, in one
-  sentence, that the momentum-energy coordinates of quantum events may contribute to dark matter (related, one
-  agent's label).
+  and not prior art; the eight before it are prior. All nine come from one group and carry one priority: the
+  identification was first public in the talk behind Minic 2020, his invited talk at the 10th Mathematical Physics
+  Meeting, Belgrade, on 9 September 2019, and first in writing in Minic 2020 (`notes/dual-sector.md` §3). The talk's
+  slides are public; they give each particle of the Standard Model a dual particle, the duals making up a dual
+  Standard Model, labeled a hidden sector with a question mark, and they make metaparticles dark-matter quanta
+  correlated to visible ones (the slides are handwritten: agents read them from the images, and code could not check
+  them). Every statement is worded as a proposal; none is derived. A 2019 paper of Freidel, Leigh and
+  Minic not on arXiv, published online on 15 October 2019, after the talk, whose abstract mentions metaparticles but
+  not dark matter, was not read and may hold an earlier written statement. No statement independent of the group was
+  found; Finkelstein 2008 (arXiv 2006) only speculates, in one sentence, that the momentum-energy coordinates of
+  quantum events may contribute to dark matter (related, one agent's label). A later sweep of conference abstracts,
+  slides and proceedings from 2015 to 2026, a route no earlier agent had taken, found the identification only in the
+  group's own talks, and neither of C1's two forms (`notes/dual-sector.md` §10).
 - Two multi-author papers of 2022 state it in a weaker form: "each observed quantum field has a 'dual', which could be associated
   with dark matter degrees of freedom" (Berglund, Freidel, Hübsch, Kowalski-Glikman, Leigh, Mattingly and Minic
   2022); and a Snowmass paper (Berglund et al. 2022), "Essentially, in this approach, dark matter should be viewed
@@ -182,19 +205,25 @@ predicts no such scattering.*
 **What their "dual" is** [S].
 - In the foundations it is the momentum side. Freidel, Leigh and Minic 2014 (Phys. Lett. B): "so we will refer to Y
   as coordinates in momentum space", and "T-duality is cast essentially as a Fourier transform". Berglund, Hübsch
-  and Minić 2021 speak of the "canonically conjugate dual space". Hübsch and Minic 2024, §3: "Classical spacetime
-  label x of canonical QFT corresponds to a choice of (classical spacetime) polarization in modular (quantum)
-  spacetime".
+  and Minić 2021 speak of the "canonically conjugate dual space", but the phrase names the doubled coordinate of the
+  next bullet, not the momentum side: Berglund, Hübsch and Minic 2019 (Int. J. Mod. Phys. D) define "the canonically
+  conjugate dual space, spanned by the difference of the left- and right-movers", and in the full string phase space
+  the canonical partner of x is the ordinary momentum p (Freidel, Leigh and Minic 2017, JHEP, eq. 69;
+  `notes/dual-sector.md` §4). The dual is the momentum side of one phase space in the group's quantum mechanics,
+  where x̃ ≡ p/ε with λε = ℏ (Minic 2020 §2; Hübsch and Minic 2024 §3.2). Hübsch and Minic 2024, §3: "Classical
+  spacetime label x of canonical QFT corresponds to a choice of (classical spacetime) polarization in modular
+  (quantum) spacetime".
 - In the model their dark-matter statements rest on, the metaparticle, the dual coordinate x̃ is a coordinate of a
   doubled phase space at the string scale, with [x, x̃] = iλ², beside an ordinary momentum p with [x, p] = iħ =
   [x̃, p̃] (Hübsch and Minic 2024, §3). The identification matches C1 in their foundations; their model doubles phase
   space where the program polarizes one.
 - The judge asked to argue for novelty found the duality the same, not a shared word: the school's dual coordinates
-  are the canonical conjugate of x. The content judge drew the distinction above between the foundations and the
-  metaparticle, and rated its confidence medium because, if strict P4 and ordinary momentum at ħ belong to C1's
-  substance, the published claim is a close variant (§2).
+  are the canonical conjugate of x. That holds in the group's quantum mechanics and not where the dark sector is
+  built (the first bullet; `notes/dual-sector.md` §4). The content judge drew the distinction above between the
+  foundations and the metaparticle, and rated its confidence medium because, if strict P4 and ordinary momentum at ħ
+  belong to C1's substance, the published claim is a close variant (§2).
 
-**What differs** (not found joined to the identification).
+**What differs** (not found joined to the identification in the program's form).
 - The coupling. Their dual sector is correlated with ours by construction: "the dark matter sector can be seen as
   coming from a dual Standard Model with a dynamics that is entangled/correlated with the visible Standard Model"
   (Berglund, Hübsch and Minic 2023, Symmetry); "Dark matter, dark energy and visible matter are naturally correlated
@@ -202,19 +231,40 @@ predicts no such scattering.*
   between dark and visible matter beyond gravity: Minic 2020 expects dark quanta to be detectable through a
   Berry-phase-like entanglement with visible matter, and Berglund, Hübsch and Minić 2021 a dual photon correlated
   with ours, correlated events at accelerators and a dark–visible correlation at the Hubble scale, which they tie to
-  modified dark matter. The round-1 verifier for C1 found the gap narrower: the 2021 paper calls that correlation
-  invisible in effective field theory, vanishing as λ → 0 or L → ∞, and the school, like the program, expects no
-  standard direct-detection signal. The scope judge answers that the school still expects a detection, through the
+  modified dark matter. Those couplings appear beyond leading order in the string length, and no paper computes their
+  strength; at leading order the two sectors are independent, "to first order in the fundamental length, we can
+  treat them as independent" (Berglund, Hübsch and Minic 2023, Int. J. Mod. Phys. D, §6.3; `notes/dual-sector.md`
+  §5). The round-1 verifier for C1 found the gap narrower: the 2021 paper calls that correlation invisible in
+  effective field theory, vanishing as λ → 0 or L → ∞, and the school, like the program, expects no standard
+  direct-detection signal. That holds for the school's explanation of past nulls, not for its expectations
+  (`notes/dual-sector.md` §6). The scope judge answers that the school still expects a detection, through the
   entanglement, and states no permanent null. Whether observation can tell the two sectors apart is open (root
   `CLAUDE.md`). In the program, P4 is strict and #11 §13 row 7 requires a
   "Permanent null" in direct detection. C1's monopole form need not meet this: in the shared-photon form of #11 §11.4, the setting of C3, conjugate monopoles would carry magnetic charge of our photon, with P4 restated, and row 7 names only two candidates (flag 63; the judge asked to argue for novelty). Coupling by gravity alone is published without reciprocity: copies of
   ordinary matter coupled to ours mainly or only by gravity, as mirror matter and as twin matter on a second metric
   (C1's related findings in `findings.json`), and for dark matter coupled by gravity alone a permanent null is
-  generic (the scope judge). What was not found is that coupling joined to the identification.
+  generic (the scope judge). Joined to the identification it is published once: Hübsch and Minic 2024 (§5.3) state a
+  decoupling energy "below which the dark and visible matter interact as required, only gravitationally", about
+  4.5×10¹⁴ GeV, a statement their papers of 2026 do not repeat, and the same paper names an astrophysical signature
+  (`notes/dual-sector.md` §5). What was not found is coupling by gravity alone at every energy, with a permanent
+  null, joined to the identification.
 - The vacuum. #11's polarization is selected spontaneously (P5). #11 §3 credits the preferred polarization that
   breaks Born duality to Freidel, Leigh and Minic ([26S]) and counts as its own addition only the spontaneous
   reading, with η as the order parameter. The check found no such mechanism in the school's papers, where the
-  classical spacetime label "corresponds to a choice" of polarization.
+  classical spacetime label "corresponds to a choice" of polarization. That holds for the program's form of it, the
+  spontaneous breaking of the exact, ω-preserving ρ with η as order parameter and a potential, which was not found;
+  the school does place a symmetry breaking tied to the polarization in the vacuum, for another symmetry
+  (`notes/dual-sector.md` §8; flag 70). Freidel, Leigh and Minic propose to make the split dynamical: "the purely
+  kinematical splitting of phase space into space and momentum space has to be made dynamical" (2014, Int. J. Mod.
+  Phys. D, §1.3), and in the same paper the split is absent from the formulation and present in the solutions of
+  string theory (§2). Freidel, Kowalski-Glikman, Leigh and Minic 2021: "The symmetry breaking happens at the level of
+  the vacuum sector, and thus a choice of ground state fixes a value of" the parameter that fixes which combination of
+  x and x̃ is spacetime, and "We now propose that the expansion of the Universe can act as a mechanism that selects
+  the decoupling frame". The broken symmetry there is a dual Lorentz symmetry of the doubled space, not a canonical
+  transformation, so not ρ; Berglund, Hübsch and Minic 2023 (Int. J. Mod. Phys. D, §4.3) say that within the sector
+  of fixed non-zero p̃ it "is effectively spontaneously broken". Freidel, Leigh and Minic 2016 name U(d)/O(d), the
+  manifold over which P2′'s order parameter ranges, as the space of choices of η compatible with ω and the vacuum.
+  None of these papers gives a potential, an order parameter or a Goldstone angle.
 - The two forms of #11 §12: χ particles with a velocity-gated self-force, and conjugate monopoles localized in
   momentum (C2).
 
@@ -263,6 +313,11 @@ where they are.*
   2026; flag 68). In "The price for monopole dark matter" (arXiv:2607.29492) the same authors construct a model
   beyond the minimal content in which monopoles of about 10⁸ GeV or more are the dark matter, in a specific window of
   parameters, with a light stable dark fermion.
+- Abundant monopoles in ordinary space, found by the dual-sector investigation (`notes/dual-sector.md` §10; flag 73):
+  Winn has proposed since 2012 that every charged particle of the Standard Model has a magnetically charged partner
+  under our own photon, the partners' magnetically neutral bound states being proposed as dark matter. The partners
+  are elementary point particles, not solitons, and nothing is placed in momentum or phase space; related, in the
+  labels of that investigation's second round. The verdict, related only, stands.
 
 **Bounds on the shared-photon form, if its analogs are localized in position** [S]. #11 §11.4 already records that
 such objects would exceed the Parker bound at #14's benchmark masses. The literature bounds monopoles of Dirac charge
@@ -287,6 +342,11 @@ modification where the magnetic field is screened (Carneiro 2026; §5).
   experimentally its 'dark' dual magnetic sector through the use of the purely electric sector which makes up our
   visible world"; and screening, in a vacuum where only a magnetic Higgs field condenses, so that magnetic charge of
   our photon has no long-range field (Carneiro 2026, a preprint; §5).
+- Binding, for the magnetically charged partners of the C2 list above: "The resulting strong magnetic force between
+  any pair-produced monopoles explains the absence of detected monopoles heretofore" (Winn 2012, p. 2). It explains
+  the null result by binding, in ordinary space, not by placement in conjugate space; related (`notes/dual-sector.md`
+  §10; flag 73). Binding into magnetically neutral composites is the second of the two ways #11 §11.4 names to hide
+  the shared-photon form's analogs (§5). It leaves the verdict unchanged.
 - Against spreading a monopole's charge: Goldhaber 2017 (a letter in Physics Today) argues that in quantum
   electrodynamics and the Standard Model a monopole's charge cannot be spread out, since fractions of it would violate
   the quantization condition, and that by field energy a monopole's radius should be at least an order of magnitude
@@ -313,10 +373,11 @@ modification where the magnetic field is screened (Carneiro 2026; §5).
 ## 5. The magnetic mirror (C4): partly anticipated
 
 *In plain terms: a dark world of magnetically charged matter, mirroring our electrically charged one, is published,
-but in every paper found as a separate sector in ordinary space. The idea that electric–magnetic duality is a case
-of Born's reciprocity, as a rotation in the phase space of the electromagnetic field, is published as a remark.
-Putting the magnetic analogs in the momentum polarization, one for each charged particle of ours, was not found. If
-that placement alone is the conjecture, the verdict is related only (§2).*
+but only as a separate sector in ordinary space, in every paper the check found. A magnetically charged partner for each
+charged particle of ours, under our own photon, is published too, also in ordinary space (`notes/dual-sector.md`
+§10). The idea that electric–magnetic duality is a case of Born's reciprocity, as a rotation in the phase space of
+the electromagnetic field, is published as a remark. Putting the magnetic analogs in the momentum polarization was
+not found. If that placement alone is the conjecture, the verdict is related only (§2).*
 
 **Magnetic dark sectors** [S].
 - Govaerts 2023 asks whether dual electrodynamics gives "a dark parallel world of purely magnetically charged
@@ -338,6 +399,18 @@ that placement alone is the conjecture, the verdict is related only (§2).*
   just as well, so unless that sector also holds electric charges, the separate-photon form's content lies in its
   coupling, the S-image of ours, which F2's finding leaves open (#11 §11.4; the round-1 verifier for C4; the panel
   judge for C4, as its own inference).
+
+**One analog per charged particle** [S]. Beyond these dark sectors, Winn has proposed since 2012 that every charged
+particle of the Standard Model has a magnetically charged partner under our own photon: "there are no electrically
+charged superpartners, only neutral or magnetic charged partners" (Winn 2012, p. 1), the partners' magnetically
+neutral bound states being proposed as dark matter; he restated it in talks of 2025 and 2026. The partners are
+elementary point particles, not solitons; nothing is placed in momentum or phase space, no Born reciprocity appears,
+and neither interaction terms nor a Lagrangian are yet proposed. As the dual-sector investigation's round-2 verifier
+labels it, and its refuter confirms, it is a close variant of the shared-photon form of #11 §11.4, with one analog per
+charged particle, our own photon and hiding by binding into magnetically neutral composites, the second of the two
+routes §11.4 names (below), but without the momentum polarization (`notes/dual-sector.md` §10; flag 73). One analog
+per charged particle is therefore published; the placement in momentum is not. The verdict, partly anticipated,
+stands.
 
 **Hiding the shared-photon form's analogs** [S]. #11 §11.4 names two ways to hide them, p-localization and binding
 into magnetically neutral composites. Carneiro 2026, a preprint, hides magnetic charge of our photon a third way, by
@@ -443,10 +516,13 @@ verifier for C5; the panel judge for C5).
 **Related** [S]: Bolognesi 2015, a Born-reciprocal theory in which "The trans-Planckian theory provides an
 explanation for the present acceleration of the universe scale factor."; Berglund, Hübsch and Minić 2019, where "the
 curvature of the canonically conjugate dual space provides for a positive cosmological constant to leading order";
-Hur et al. 2025, "In our model, dark energy stems from the curvature of the dual spacetime"; Wu and Yang 2014, where
-"we demonstrate that the contraction of the dual space automatically leads to both an inflation phase and a
-decelerated expansion of the ordinary space" in double field theory. None has a collapsing partner driving our
-present acceleration.
+Hur et al. 2025, "In our model, dark energy stems from the curvature of the dual spacetime", in two models that give
+both signs of 1 + w, w being dark energy's equation of state, its pressure divided by its energy density: w(a) < −1
+in the model built on the group's earlier ultraviolet–infrared relation, of which they write "this model is clearly
+disfavored" by DESI's second release, and w(a) ≥ −1 in the one built on an alternative (`notes/dual-sector.md` §9;
+flag 72); Wu and Yang 2014, where "we demonstrate that the contraction of the dual space automatically leads to both
+an inflation phase and a decelerated expansion of the ordinary space" in double field theory. None has a collapsing
+partner driving our present acceleration.
 
 **The dictionary** [S]. #11 §10's corrected dictionary, w_eff = −w̃, is as a map of fluid variables the scale-factor
 duality of string cosmology with sources: Gasperini and Veneziano 2003, §2.2, "The above equations with sources are
@@ -758,5 +834,8 @@ All retrieved by live search for this note [S]; metadata in `review/literature-c
 - `review/literature-check/`: `findings.json`, `recheck.out`, `sources.json`, `quotes.json`, `screen/screen.json`,
   `round1/*.verify.json`, `round3/`, `round5/`, `panel/*.out.json`, `brief.md`, `preregistration.md`, `checks/`,
   `tools/consolidate.py`, `workflows/workflow*-result.json`.
-- `review/wiki-build-flags.md` items 59 and 63, which this note cites, and 64–69, which it proposes.
+- `notes/dual-sector.md` §3–§6, §8–§10, which qualifies §2–§6 (2026-11-06), and
+  `review/dual-sector/quotes.json`, for the quotations taken from it.
+- `review/wiki-build-flags.md` items 59 and 63, which this note cites, 64–69, which it proposes, and flag 64's
+  addendum and items 70–73, which `notes/dual-sector.md` proposes.
 - `verify/literature_check.py` — the gate's check of this note, and in section G of the algebra behind flag 66.

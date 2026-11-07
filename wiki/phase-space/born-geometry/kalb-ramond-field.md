@@ -103,7 +103,7 @@ Three standard properties [T]:
 
 DFT there is double field theory. "Stiffer" means that the generalized metric has fewer free components: double field theory's carries g and B, and with ω and η both rigid only g remains ([the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries#corollary-2-no-kalbramond-analog)).
 
-#11 §5 lists "no Kalb–Ramond analog" among the theorem's corollaries and credits the theorem to [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality): "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." There G is the metric and B the Kalb–Ramond field. The round-3 referee located the passage in their metastring paper, arXiv:1502.08005, p. 11, and quoted it (audit notes, Step 1):
+#11 §5 lists "no Kalb–Ramond analog" among the theorem's corollaries and credits the theorem to [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality): "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." There G is the metric and B the Kalb–Ramond field. The round-3 referee located the passage in their metastring paper, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005), p. 11, and quoted it (audit notes, Step 1):
 
 ```text
 "If, in addition, we assume that B vanishes we have that I is a complex
@@ -185,8 +185,8 @@ In order of writing:
 
 - M. Kalb, P. Ramond, "Classical direct interstring action," Phys. Rev. D 9, 2273 (1974) †: the antisymmetric tensor potential coupled to strings. Added by the wiki; no document cites it.
 - T. H. Buscher, "A symmetry of the background equations of sigma models," Phys. Lett. B 194, 59 (1987) †: T-duality of a string background with metric and B-field. Added by the wiki.
-- C. Hull, B. Zwiebach, "Double field theory," JHEP 09 (2009) 099, arXiv:0904.4664; O. Hohm, C. Hull, B. Zwiebach, "Background independent action for double field theory," JHEP 07 (2010) 016, arXiv:1003.5027: the toy-model note's ref. [11], as [double field theory](/wiki/phase-space/born-geometry/double-field-theory#references) lists it.
-- L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005: #11 ref. [26][S].
+- C. Hull, B. Zwiebach, "Double field theory," JHEP 09 (2009) 099, [arXiv:0904.4664](https://arxiv.org/abs/0904.4664); O. Hohm, C. Hull, B. Zwiebach, "Background independent action for double field theory," JHEP 07 (2010) 016, [arXiv:1003.5027](https://arxiv.org/abs/1003.5027): the toy-model note's ref. [11], as [double field theory](/wiki/phase-space/born-geometry/double-field-theory#references) lists it.
+- L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005): #11 ref. [26][S].
 
 ## Used by
 
@@ -203,7 +203,7 @@ In order of writing:
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §5 — "no Kalb–Ramond analog" among the corollaries; Freidel, Leigh and Minic's statement in terms of (G, B); the proof's block B; the positivity note; §7.1 — X against "DFT's antisymmetric B-field", and the symmetric B of Z → Z + B; ref. [26] — the metastring paper.
-- `review/round3/referee/audit-notes.md` Step 1 — the passage on p. 11 of arXiv:1502.08005; Step 3 — the B-field family's residuals, "B-field vanishes <=> I = H^-1 omega compatible", "a pointwise linear-algebra fact".
+- `review/round3/referee/audit-notes.md` Step 1 — the passage on p. 11 of [arXiv:1502.08005](https://arxiv.org/abs/1502.08005); Step 3 — the B-field family's residuals, "B-field vanishes <=> I = H^-1 omega compatible", "a pointwise linear-algebra fact".
 - `review/round3/referee/step3.py` family (c) and `review/round3/referee/step3.out` — the generalized metric with a B-field as the script builds it, the positivity assertion, and the printed residuals.
 - `notes/geometric-core.md` §A — corollary 2, "[D — rigorous]", and the proof's blocks; §C — H_Z and its off-diagonal block XY⁻¹; §D — the precedent "graviton + B-field + dilaton, ghost-free".
 - `notes/x-classification.md` §1 — the symmetric B of Z → Z + B; §2 — the contrast, "a 2-form gauge theory — spin-wise harmless".

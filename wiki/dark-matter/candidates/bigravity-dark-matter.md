@@ -37,7 +37,7 @@ Bimetric gravity has two dynamical metrics, g and f, each with its own [Einstein
 
 #11 states the uniqueness this way: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). [Calc note #6](/wiki/history/documents/field-equation-notes) had written "Massive spin-2 coupled to gravity has exactly one known consistent structure" (#6 §3). The difference in wording, unique versus the one known, is recorded in `review/wiki-build-flags.md` item 7; this page quotes both as written.
 
-Around backgrounds in which the two metrics are proportional, the fluctuations of g and f combine into two mass eigenstates [T]: one massless spin-2 field, which acts as the graviton of ordinary gravity, and one massive spin-2 field with five polarizations. How much of each eigenstate lies along g, and therefore how strongly ordinary matter feels each, is set by the ratio of the two Planck masses, M_f/M_g, and the ratio u of the two backgrounds, f̄ = u²ḡ [T]: the massive field's strength relative to gravity is α = (4/3)(M_f u/M_g)² (phase-space-diameter note §8.2, citing Lüben, Mörtsell and Schmidt-May 2020 [S]; [a massive spin-2 mediator](/wiki/gravity/spin-2-fields/yukawa-forces#a-massive-spin-2-mediator)). When the second metric's Planck mass is much smaller than the first, the massless eigenstate lies mostly along g, the massive one mostly along f, and the massive eigenstate couples to ordinary matter only weakly [T]. This is the general structure; the parameter choices of the dark-matter proposals are not reported in any program document.
+Around backgrounds in which the two metrics are proportional, the fluctuations of g and f combine into two mass eigenstates [T]: one massless spin-2 field, which acts as the graviton of ordinary gravity, and one massive spin-2 field with five polarizations. How much of each eigenstate lies along g, and therefore how strongly ordinary matter feels each, is set by the ratio of the two Planck masses, M_f/M_g, and the ratio u of the two backgrounds, f̄ = u²ḡ [T]: the massive field's strength relative to gravity is α = (4/3)(M_f u/M_g)² (phase-space-diameter note §8.2, citing [Lüben, Mörtsell and Schmidt-May 2020](https://arxiv.org/abs/1812.08686) [S]; [a massive spin-2 mediator](/wiki/gravity/spin-2-fields/yukawa-forces#a-massive-spin-2-mediator)). When the second metric's Planck mass is much smaller than the first, the massless eigenstate lies mostly along g, the massive one mostly along f, and the massive eigenstate couples to ordinary matter only weakly [T]. This is the general structure; the parameter choices of the dark-matter proposals are not reported in any program document.
 
 ## A coherent oscillation as dark matter [T]
 
@@ -49,9 +49,9 @@ A spin-2 field carries a tensor index, so its uniform mode singles out direction
 
 The citation, as #11 gives it:
 
-- [23]† E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), arXiv:1607.03497.
+- [23]† E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), [arXiv:1607.03497](https://arxiv.org/abs/1607.03497).
 
-Flag 20 in `review/wiki-build-flags.md` records a suspected error in this entry, which a verifier of the wiki build found by live search: the title and journal, "Bigravitational origin of dark matter" in Phys. Rev. D 94, 084055, belong to arXiv:1604.08564, while arXiv:1607.03497 is the companion paper "Heavy spin-2 Dark Matter", listed below among the wiki's additions. The flag is pending and is recorded for the † battery (OP10). The wiki quotes #11 as written.
+Flag 20 in `review/wiki-build-flags.md` records a suspected error in this entry, which a verifier of the wiki build found by live search: the title and journal, "Bigravitational origin of dark matter" in Phys. Rev. D 94, 084055, belong to [arXiv:1604.08564](https://arxiv.org/abs/1604.08564), while [arXiv:1607.03497](https://arxiv.org/abs/1607.03497) is the companion paper "Heavy spin-2 Dark Matter", listed below among the wiki's additions. The flag is pending and is recorded for the † battery (OP10). The wiki quotes #11 as written.
 
 #11's legend for the mark: "† = cited from model memory — verify before external use". Checking every † reference against its source is #11 §14 item 10, "Literature battery completion; every † reference source-checked [O]" ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). No document reports what the paper contains beyond its title, so this page does not summarize its production mechanism, its mass range or its parameter choices. Earlier documents name the idea without a reference (#6 §4, [the lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.4, #9 §10); the register entry is on [references](/wiki/references).
 
@@ -80,7 +80,7 @@ As #11 gives them:
 
 Added by the wiki from model memory (†), not cited by any program document:
 
-- E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Heavy spin-2 Dark Matter" (2016)†: a companion paper on the heavy spin-2 particle as dark matter. Flag 20 identifies it as arXiv:1607.03497, the number #11 attaches to [23].
+- E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Heavy spin-2 Dark Matter" (2016)†: a companion paper on the heavy spin-2 particle as dark matter. Flag 20 identifies it as [arXiv:1607.03497](https://arxiv.org/abs/1607.03497), the number #11 attaches to [23].
 - L. Marzola, M. Raidal, F. R. Urban, "Oscillating spin-2 dark matter" (2018)†: homogeneous oscillations of a massive spin-2 field.
 
 ## Used by

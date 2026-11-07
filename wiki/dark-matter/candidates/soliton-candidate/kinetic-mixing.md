@@ -88,7 +88,7 @@ An exact hidden charge conjugation would remove even gravity's contribution, but
 
 > The operator is odd under Phi -> -Phi, so a discrete symmetry acting as hidden charge conjugation forbids it - but only if that symmetry is gauged, since quantum gravity is believed to admit no exact global symmetries [11].
 
-A global symmetry acts the same way everywhere and is not tied to a gauge field; a gauged symmetry is part of the gauge structure [T]. The expectation that quantum gravity breaks every global symmetry is argued in Banks–Seiberg 2011 and Harlow–Ooguri 2021 (#14's [11]); one standard argument is that a black hole can absorb a global charge and evaporate without returning it [T]. A gauged discrete symmetry is not affected. For a U(1) gauge group, the reflections of the group O(2) act on its rotations, SO(2) ≅ U(1), as charge conjugation, so gauging O(2) instead of SO(2) makes C part of the gauge group [T]. The v3 worklog (R4): "Quantum gravity forbids an exact global C [Banks–Seiberg 2011; Harlow–Ooguri 2021]; a gauged C (O(2)/O(3)-type) remains a loophole [Obied–Parikh, preprint]." The referee found the statement "consistent with [11]" (Step 4(b)).
+A global symmetry acts the same way everywhere and is not tied to a gauge field; a gauged symmetry is part of the gauge structure [T]. The expectation that quantum gravity breaks every global symmetry is argued in [Banks–Seiberg 2011](https://arxiv.org/abs/1011.5120) and [Harlow–Ooguri 2021](https://arxiv.org/abs/1810.05338) (#14's [11]); one standard argument is that a black hole can absorb a global charge and evaporate without returning it [T]. A gauged discrete symmetry is not affected. For a U(1) gauge group, the reflections of the group O(2) act on its rotations, SO(2) ≅ U(1), as charge conjugation, so gauging O(2) instead of SO(2) makes C part of the gauge group [T]. The v3 worklog (R4): "Quantum gravity forbids an exact global C [Banks–Seiberg 2011; Harlow–Ooguri 2021]; a gauged C (O(2)/O(3)-type) remains a loophole [Obied–Parikh, preprint]." The referee found the statement "consistent with [11]" (Step 4(b)).
 
 This is the basis of the strict reading's second clause: mixing is "zero if hidden charge conjugation is a gauged symmetry" ([round-3 Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)).
 
@@ -100,9 +100,9 @@ The third point changed what the soliton manuscript had to worry about. The v3 w
 
 QED is quantum electrodynamics. The literature behind it, as the worklog and the referee read it:
 
-- Hiramatsu–Ibe–Suzuki–Yamaguchi, arXiv:2109.12771 (#14's [12]), abstract, checked by the worklog's author and by the referee: "does not induce the QED magnetic flux in the U(1) symmetric phase, even in the presence of the kinetic mixing".
-- Brümmer–Jaeckel 2009, p. 5: "hidden monopoles are invisible to ordinary electrically charged matter" (Step 4(b)).
-- Terning–Verhaaren, arXiv:1808.09459 (#14's [13]), p. 11: with a massive dark photon, "dark magnetic charges get an eps e/4pi coupling to the massless photon", and the dark monopoles are confined by flux tubes (Step 1). The worklog: "Minicharged, confined monopoles need a *massive* dark photon", citing also Graesser et al., JHEP 03 (2022) 105.
+- Hiramatsu–Ibe–Suzuki–Yamaguchi, [arXiv:2109.12771](https://arxiv.org/abs/2109.12771) (#14's [12]), abstract, checked by the worklog's author and by the referee: "does not induce the QED magnetic flux in the U(1) symmetric phase, even in the presence of the kinetic mixing".
+- [Brümmer–Jaeckel 2009](https://arxiv.org/abs/0902.3615), p. 5: "hidden monopoles are invisible to ordinary electrically charged matter" (Step 4(b)).
+- Terning–Verhaaren, [arXiv:1808.09459](https://arxiv.org/abs/1808.09459) (#14's [13]), p. 11: with a massive dark photon, "dark magnetic charges get an eps e/4pi coupling to the massless photon", and the dark monopoles are confined by flux tubes (Step 1). The worklog: "Minicharged, confined monopoles need a *massive* dark photon", citing also Graesser et al., JHEP 03 (2022) 105.
 
 So v2's premise, "mixing ε gives the solitons magnetic charge εg under our photon", "is wrong for its own setup." The worklog counted four places in v2 that rested on it: "§2's "It is not decorative" paragraph, §4's last sentence of the first paragraph, §5 exclusion 3, and §6 acceptance criterion (2)". v3 rewrote them (§2(c)):
 
@@ -150,12 +150,12 @@ The [project instructions](/wiki/history/documents/project-instructions) record 
 
 - B. Holdom, "Two U(1)'s and ε charge shifts," Phys. Lett. B 166, 196 (1986) † — the kinetic-mixing term.
 - E. Witten, "Dyons of charge eθ/2π," Phys. Lett. B 86, 283 (1979) † — the Witten effect.
-- T. Gherghetta, J. Kersten, K. Olive, M. Pospelov, Phys. Rev. D 100, 095001 (2019), arXiv:1909.00696 — #11's [27S], #14's [9]: gravity-induced mixing.
-- M. Baumgart et al., arXiv:0901.0283; F. Chen, J. M. Cline, A. R. Frey, arXiv:0907.4746; F. Brümmer, J. Jaeckel, arXiv:0902.3615 — #14's [10]: non-abelian mixing and its loop origin.
-- T. Banks, N. Seiberg, arXiv:1011.5120; D. Harlow, H. Ooguri, arXiv:1810.05338 — #14's [11]: no global symmetries in quantum gravity.
-- T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, JHEP 12 (2021) 122, arXiv:2109.12771 — #14's [12]: no visible flux in the unbroken phase.
-- J. Terning, C. B. Verhaaren, JHEP 12 (2018) 123, arXiv:1808.09459 — #14's [13]: minicharged monopoles need a massive dark photon.
-- F. Brümmer, J. Jaeckel, V. V. Khoze, JHEP 06 (2009) 037, arXiv:0905.0633 — #14's [14]: magnetic mixing and the visible charge of hidden monopoles.
+- T. Gherghetta, J. Kersten, K. Olive, M. Pospelov, Phys. Rev. D 100, 095001 (2019), [arXiv:1909.00696](https://arxiv.org/abs/1909.00696) — #11's [27S], #14's [9]: gravity-induced mixing.
+- M. Baumgart et al., [arXiv:0901.0283](https://arxiv.org/abs/0901.0283); F. Chen, J. M. Cline, A. R. Frey, [arXiv:0907.4746](https://arxiv.org/abs/0907.4746); F. Brümmer, J. Jaeckel, [arXiv:0902.3615](https://arxiv.org/abs/0902.3615) — #14's [10]: non-abelian mixing and its loop origin.
+- T. Banks, N. Seiberg, [arXiv:1011.5120](https://arxiv.org/abs/1011.5120); D. Harlow, H. Ooguri, [arXiv:1810.05338](https://arxiv.org/abs/1810.05338) — #14's [11]: no global symmetries in quantum gravity.
+- T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, JHEP 12 (2021) 122, [arXiv:2109.12771](https://arxiv.org/abs/2109.12771) — #14's [12]: no visible flux in the unbroken phase.
+- J. Terning, C. B. Verhaaren, JHEP 12 (2018) 123, [arXiv:1808.09459](https://arxiv.org/abs/1808.09459) — #14's [13]: minicharged monopoles need a massive dark photon.
+- F. Brümmer, J. Jaeckel, V. V. Khoze, JHEP 06 (2009) 037, [arXiv:0905.0633](https://arxiv.org/abs/0905.0633) — #14's [14]: magnetic mixing and the visible charge of hidden monopoles.
 - Graesser et al., JHEP 03 (2022) 105; Obied–Parikh, preprint without identifier — cited in the v3 worklog only.
 
 #14's references are untagged in #14 itself; the round-3 referee resolved all of them on INSPIRE and checked each against the claim it supports (Step 1). The two † entries are added here from memory and are unchecked.

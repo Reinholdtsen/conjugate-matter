@@ -15,11 +15,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 10"
   - "verify/phase_space_diameter.py"
   - "verify/velocity_gated_gravity.py 'B. X between ordinary bodies'"
+  - "notes/dual-sector.md §9"
+  - "review/wiki-build-flags.md item 72"
 ---
 
 *The maximum-force conjecture is a proposal within [general relativity](/wiki/gravity/spin-2-fields/general-relativity) that no force can exceed c⁴/4G, a combination of the speed of light c and Newton's constant G; Gibbons named it the maximum tension principle, and Schiller took a principle of maximum force as the starting point for deriving general relativity. An older and separate proposal, Caianiello's, is a maximal acceleration obtained from a metric on [phase space](/wiki/phase-space). Both are proposals rather than settled results, and #13, the program's paper on [conjugate special relativity](/wiki/conjugate-relativity), notes that the maximum-force conjecture is contested. They matter to the program because #13's maximum force, c̃ = c⁴/G, has the same form up to a factor of 4, and #13 offers a reason for such a limit. This page covers the literature; the Planck units it is written in are on [their own page](/wiki/gravity/spin-2-fields/planck-units), and #13's own claim is on [the maximum force page](/wiki/conjugate-relativity/maximum-force).*
 
-**Status:** Established as literature: the proposals are published, not settled, and the maximum-force conjecture is contested — [T], with both citations marked † (from model memory, not yet checked against the papers) — #13 notes the maximum-force conjecture's contested status [T] without citing the dispute; the † references wait on [the literature battery](/wiki/method/literature-battery). #13's use of the conjecture is its own, unreviewed and not machine-checked, and [#11](/wiki/history/documents/checkpoint) does not mention it.
+**Status:** Established as literature: the proposals are published, not settled, and the maximum-force conjecture is contested — [T], with #13's references [1] and [2] marked † (from model memory, not yet checked against the papers) — #13 notes the maximum-force conjecture's contested status [T] without citing the dispute; the † references wait on [the literature battery](/wiki/method/literature-battery). #13's use of the conjecture is its own, unreviewed and not machine-checked, and [#11](/wiki/history/documents/checkpoint) does not mention it.
 
 ## Why c⁴/G is a force [T]
 
@@ -29,7 +31,7 @@ The speed of light c and Newton's constant G can be combined into exactly one qu
 
 #13 §1 introduces the literature in one sentence: "A maximum force c⁴/4G was conjectured within general relativity as the "maximum tension principle" [1†], with a companion maximum luminosity c⁵/4G approached by binary black-hole mergers". Reference [1]† gives two papers:
 
-- G. W. Gibbons, "The maximum tension principle in general relativity," Found. Phys. 32, 1891 (2002), hep-th/0210109;
+- G. W. Gibbons, "The maximum tension principle in general relativity," Found. Phys. 32, 1891 (2002), [hep-th/0210109](https://arxiv.org/abs/hep-th/0210109);
 - C. Schiller, "General relativity and cosmology derived from principle of maximum force," Int. J. Theor. Phys. 44, 1629 (2005).
 
 As the two titles say, Gibbons stated the bound as a principle within general relativity, a limit on the tension or force that general relativity allows, and Schiller reversed the direction, taking a maximum force as the postulate from which general relativity and cosmology are to be derived [T]. The companion bound c⁵/4G is a limit on power, the luminosity of any source; #13 describes it as "approached by binary black-hole mergers", that is, by the power two black holes radiate in gravitational waves in their final orbits and merger. The same mergers are the one natural process #13 places near its own limit ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts)).
@@ -46,6 +48,8 @@ As usually summarized (†, from model memory; #13 states none of it), Caianiell
 
 The Planck length l_P = √(ℏG/c³) and the Planck energy E_Planck = √(ℏc⁵/G) are built from ℏ, c and G; their ratio is c⁴/G, the Planck force, which contains no ℏ, as the section above requires of any force built from c and G [T]. #13 sets its [Born length](/wiki/phase-space/reciprocity/born-length) equal to the Planck length, written λ² = ℏG/c³, which turns c̃ = ℏc/λ² into c⁴/G (§1; [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)), and obtains the Planck energy as "E = l_P · c⁴/G = √(ℏc⁵/G)" (§4; [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell)). The units, the Planck mass and its two conventions are on [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units).
 
+In the [Born-geometry papers](/wiki/phase-space/reciprocity/broken-born-duality) on which the program builds, Newton's constant links space and momentum space: it "can be considered as a universal conversion factor between the seemingly different concepts of space and momentum space, in the same way that the speed of light is a universal conversion factor between space and time." ([Freidel, Leigh and Minic 2014](https://arxiv.org/abs/1405.3949), Int. J. Mod. Phys. D, §1.2 [S]). #13 builds its momentum-space scale from the same constant, through the Planck value of the Born length, and its maximum force c⁴/G with it, without citing them; they state no maximum force and no momentum-space light cone (`notes/dual-sector.md` §9; flag 72, pending).
+
 ## What #13 takes from this literature
 
 - **The form of the limit.** #13's value c̃ = c⁴/G has the same form as the conjecture's c⁴/4G and is larger by a factor of 4. #13 §1: "The factor of 4 is not fixed here [O]"; §7 lists "the factor 4" among its open items. `HANDOFF.md` §2 says c̃ "matches Gibbons–Schiller maximum-force conjecture up to the factor 4".
@@ -56,7 +60,7 @@ These uses are #13's claims, not results of the literature. #13 was never put th
 
 ## Verification still to do
 
-All four of #13's references are marked †: cited from model memory and to be checked against the sources before any external use. `HANDOFF.md` §8 item 6 asks for "every † reference in #11 and #13 source-checked"; in `CLAUDE.md`'s current queue the † literature battery is part of item 1. #11 §14 item 10 (OP10) carries the same task for #11's own references, "Literature battery completion; every † reference source-checked [O]" ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). #13's [3]† and [4]† (Born, 1938 and 1949) are #11's [1]† and [2]†; [1] and [2], the two references on this page, appear in no other document's reference list; `HANDOFF.md` §2 names the "Gibbons–Schiller maximum-force conjecture" without a citation.
+All four of #13's references are marked †: cited from model memory and to be checked against the sources before any external use. `HANDOFF.md` §8 item 6 asks for "every † reference in #11 and #13 source-checked"; in `CLAUDE.md`'s current queue the † literature battery is part of item 1. #11 §14 item 10 (OP10) carries the same task for #11's own references, "Literature battery completion; every † reference source-checked [O]" ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). #13's [3]† and [4]† (Born, 1938 and 1949) are #11's [1]† and [2]†; [1] and [2], the two of #13's references on this page, appear in no other document's reference list; `HANDOFF.md` §2 names the "Gibbons–Schiller maximum-force conjecture" without a citation.
 
 ## Used by
 
@@ -75,3 +79,4 @@ All four of #13's references are marked †: cited from model memory and to be c
 - `papers/broken-born-checkpoint-v2.md` §14 item 10 — the battery for #11's references (OP10).
 - `verify/phase_space_diameter.py` — the arithmetic of c⁴/G, computed for the phase-space-diameter note.
 - `verify/velocity_gated_gravity.py` section B, check B2 — γ̃ − 1 for the Sun and Earth, computed for the velocity-gated-gravity note.
+- `notes/dual-sector.md` §9 and `review/wiki-build-flags.md` item 72 — Newton's constant as a conversion factor between space and momentum space (Freidel, Leigh and Minic 2014, Int. J. Mod. Phys. D, §1.2), beside #13's maximum force built from G; searched and verified by independent agents, not reviewed; the flag pending.

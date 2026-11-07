@@ -43,7 +43,7 @@ A field in an expanding universe is a sum of Fourier modes, one for each wavevec
 
 Each mode's physical wavelength grows with the scale factor a ([Friedmann cosmology and minisuperspace](/wiki/cosmology/scale-factor-duality/friedmann-cosmology)) [T]. While the wavelength is shorter than the Hubble radius c/H, with H the Hubble rate, the mode oscillates many times in one expansion time; its frequency changes slowly by comparison, and the mode stays in its instantaneous ground state, the vacuum [T]. During [inflation](/wiki/cosmology/early-universe/inflation-and-dilution#inflation-t) H is nearly constant while the wavelengths grow nearly exponentially, so every mode in turn becomes longer than the Hubble radius; this is called leaving the Hubble radius, or crossing the horizon [T]. Outside it the mode no longer oscillates. Its amplitude freezes, while the expansion goes on changing the mode's parameters and squeezes its state further [T].
 
-In the phase-space-diameter note's statement, after a fluctuation's wavelength leaves the Hubble radius during inflation "its state is squeezed relative to its own vacuum", with the squeeze parameter growing as the number of e-folds since the mode left [S] (§5, citing Albrecht, Ferreira, Joyce and Prokopec 1994):
+In the phase-space-diameter note's statement, after a fluctuation's wavelength leaves the Hubble radius during inflation "its state is squeezed relative to its own vacuum", with the squeeze parameter growing as the number of e-folds since the mode left [S] (§5, citing [Albrecht, Ferreira, Joyce and Prokopec 1994](https://arxiv.org/abs/astro-ph/9303001)):
 
 ```text
 r_k ≃ ln(a/a_k)        a_k: the scale factor at which mode k left the Hubble radius
@@ -54,7 +54,7 @@ An e-fold is a growth of a by the factor e, so ln(a/a_k) counts the e-folds sinc
 
 ### How large the squeezing is
 
-The note gives the squeezing as about 50 at the end of inflation [S] (Martin and Vennin 2016) and about 100–120 today on the largest observed scales [S] (Kiefer and Polarski 2009; Kiefer, Polarski and Starobinsky 1998; Grishchuk 1993) (§5). Round 5's referee A checked each value against its paper (audit notes, Step 1).
+The note gives the squeezing as about 50 at the end of inflation [S] ([Martin and Vennin 2016](https://arxiv.org/abs/1510.04038)) and about 100–120 today on the largest observed scales [S] ([Kiefer and Polarski 2009](https://arxiv.org/abs/0810.0087); [Kiefer, Polarski and Starobinsky 1998](https://arxiv.org/abs/gr-qc/9802003); [Grishchuk 1993](https://arxiv.org/abs/gr-qc/9302036)) (§5). Round 5's referee A checked each value against its paper (audit notes, Step 1).
 
 Modes "stop squeezing once they re-enter the Hubble radius" (§5). After inflation the Hubble radius grows faster than the wavelengths, so modes re-enter it, the shortest first; a mode that has re-entered oscillates again [T]. The largest scales observed today are the ones that have spent longest outside the Hubble radius [T].
 
@@ -64,11 +64,11 @@ Strong squeezing, together with decoherence by interaction with other degrees of
 
 ### Dependence on the canonical variables
 
-The value of the squeezing is not unique. "Squeezing values depend on the choice of canonical variables" (§5, citing Grain and Vennin 2020 [S]): the squeeze is measured from the mode's vacuum, and a time-dependent change to another pair of field and momentum variables changes which state counts as the reference, while the physical state and its predictions for observations stay the same [T].
+The value of the squeezing is not unique. "Squeezing values depend on the choice of canonical variables" (§5, citing [Grain and Vennin 2020](https://arxiv.org/abs/1910.01916) [S]): the squeeze is measured from the mode's vacuum, and a time-dependent change to another pair of field and momentum variables changes which state counts as the reference, while the physical state and its predictions for observations stay the same [T].
 
 ### Circuit complexity
 
-A circuit complexity is the length of the shortest sequence of elementary operations that prepares a state from a chosen reference state [T]. For cosmological perturbations one can be built from the squeezing, and in the note's statement "A circuit complexity built from the squeezing grows linearly with the number of e-folds during inflation and falls in the radiation era" [S] (§5, citing Bhattacharyya, Das, Haque and Underwood 2020).
+A circuit complexity is the length of the shortest sequence of elementary operations that prepares a state from a chosen reference state [T]. For cosmological perturbations one can be built from the squeezing, and in the note's statement "A circuit complexity built from the squeezing grows linearly with the number of e-folds during inflation and falls in the radiation era" [S] (§5, citing [Bhattacharyya, Das, Haque and Underwood 2020](https://arxiv.org/abs/2001.08664)).
 
 ## On the Siegel half-plane [T][D][V]
 
@@ -115,11 +115,11 @@ Version 1.0 of the note said of the squeezing's growth, "That growth has been re
 
 ## Standard references
 
-- A. Albrecht, P. Ferreira, M. Joyce, T. Prokopec, "Inflation and squeezed quantum states," Phys. Rev. D 50, 4807 (1994), arXiv:astro-ph/9303001 [S]: the squeezing grows as the number of e-folds since the mode left the Hubble radius.
-- J. Martin, V. Vennin, Phys. Rev. D 93, 023505 (2016), arXiv:1510.04038 [S]: about 50 at the end of inflation.
-- C. Kiefer, D. Polarski, Adv. Sci. Lett. 2, 164 (2009), arXiv:0810.0087 [S]; C. Kiefer, D. Polarski, A. A. Starobinsky, Int. J. Mod. Phys. D 7, 455 (1998), arXiv:gr-qc/9802003 [S]; L. P. Grishchuk, "Quantum effects in cosmology," Class. Quantum Grav. 10, 2449 (1993), arXiv:gr-qc/9302036 [S]: about 100–120 today on the largest scales.
-- J. Grain, V. Vennin, "Canonical transformations and squeezing formalism in cosmology," JCAP 02 (2020) 022, arXiv:1910.01916 [S]: the dependence on the canonical variables.
-- A. Bhattacharyya, S. Das, S. S. Haque, B. Underwood, "Cosmological complexity," Phys. Rev. D 101, 106020 (2020), arXiv:2001.08664 [S]: circuit complexity of the squeezed perturbations.
+- A. Albrecht, P. Ferreira, M. Joyce, T. Prokopec, "Inflation and squeezed quantum states," Phys. Rev. D 50, 4807 (1994), [arXiv:astro-ph/9303001](https://arxiv.org/abs/astro-ph/9303001) [S]: the squeezing grows as the number of e-folds since the mode left the Hubble radius.
+- J. Martin, V. Vennin, Phys. Rev. D 93, 023505 (2016), [arXiv:1510.04038](https://arxiv.org/abs/1510.04038) [S]: about 50 at the end of inflation.
+- C. Kiefer, D. Polarski, Adv. Sci. Lett. 2, 164 (2009), [arXiv:0810.0087](https://arxiv.org/abs/0810.0087) [S]; C. Kiefer, D. Polarski, A. A. Starobinsky, Int. J. Mod. Phys. D 7, 455 (1998), [arXiv:gr-qc/9802003](https://arxiv.org/abs/gr-qc/9802003) [S]; L. P. Grishchuk, "Quantum effects in cosmology," Class. Quantum Grav. 10, 2449 (1993), [arXiv:gr-qc/9302036](https://arxiv.org/abs/gr-qc/9302036) [S]: about 100–120 today on the largest scales.
+- J. Grain, V. Vennin, "Canonical transformations and squeezing formalism in cosmology," JCAP 02 (2020) 022, [arXiv:1910.01916](https://arxiv.org/abs/1910.01916) [S]: the dependence on the canonical variables.
+- A. Bhattacharyya, S. Das, S. S. Haque, B. Underwood, "Cosmological complexity," Phys. Rev. D 101, 106020 (2020), [arXiv:2001.08664](https://arxiv.org/abs/2001.08664) [S]: circuit complexity of the squeezed perturbations.
 - L. P. Grishchuk, Yu. V. Sidorov, Phys. Rev. D 42, 3413 (1990) †: squeezed states of relic gravitational waves and density perturbations.
 - D. Polarski, A. A. Starobinsky, Class. Quantum Grav. 13, 377 (1996) †: semiclassicality and decoherence of cosmological perturbations.
 - D. F. Walls, "Squeezed states of light," Nature 306, 141 (1983) †: squeezing in quantum optics.

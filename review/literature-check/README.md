@@ -69,6 +69,10 @@ verdict and the second overall prediction, is provisional until Khademi 2009's f
   quotation; a wrong coauthor, C.-H. Tze for T. Takeuchi in Jejjala et al. 2022, arXiv:2011.08852, the error the
   round-1 searcher for conjugate matter had made; a wrong verdict; a wrong count of findings; a wrong year), it
   failed on each.
+- 2026-11-06: `notes/dual-sector.md`, a closer reading of the papers of Minic and coauthors, qualifies the note's
+  §2–§5 and one line of §6 (flag 64's addendum, flags 70–73), and the note is corrected in place; its record is
+  `review/dual-sector/`. The verdicts, counts and reference list are unchanged; works the corrected passages cite
+  that the list lacks are in the reference list of `notes/dual-sector.md`.
 
 ## The reviews of the write-up, and round 5 (2026-11-03)
 

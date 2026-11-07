@@ -114,12 +114,12 @@ The worklog's route decision tried this model first: "It is the one place where 
 
 The toy note's references, as it lists them (marks as described in the status line):
 
-- [5] E. Langmann, R. J. Szabo, "Duality in scalar field theory on noncommutative phase spaces," Phys. Lett. B 533, 168 (2002), hep-th/0202039.
-- [6] H. Grosse, R. Wulkenhaar: (a) "The β-function in duality-covariant noncommutative φ⁴-theory," Eur. Phys. J. C 35, 277 (2004), hep-th/0402093; (b) "Renormalisation of φ⁴-theory on noncommutative ℝ⁴ in the matrix base," Commun. Math. Phys. 256, 305 (2005), hep-th/0401128.
-- [7] M. Disertori, R. Gurau, J. Magnen, V. Rivasseau, "Vanishing of beta function of non-commutative φ⁴₄ theory to all orders," Phys. Lett. B 649, 95 (2007), hep-th/0612251.
-- [8] E. Langmann, R. J. Szabo, K. Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces," JHEP 01 (2004) 017, hep-th/0308043.
-- [9] A. de Goursac, A. Tanasa, J.-C. Wallet, "Vacuum configurations for renormalizable non-commutative scalar models," Eur. Phys. J. C 53, 459 (2008), arXiv:0709.3950.
-- [10] C. D. Fosco, G. A. Moreno, "One-loop effects in a self-dual planar noncommutative theory," JHEP 11 (2007) 046, arXiv:0710.0818.
+- [5] E. Langmann, R. J. Szabo, "Duality in scalar field theory on noncommutative phase spaces," Phys. Lett. B 533, 168 (2002), [hep-th/0202039](https://arxiv.org/abs/hep-th/0202039).
+- [6] H. Grosse, R. Wulkenhaar: (a) "The β-function in duality-covariant noncommutative φ⁴-theory," Eur. Phys. J. C 35, 277 (2004), [hep-th/0402093](https://arxiv.org/abs/hep-th/0402093); (b) "Renormalisation of φ⁴-theory on noncommutative ℝ⁴ in the matrix base," Commun. Math. Phys. 256, 305 (2005), [hep-th/0401128](https://arxiv.org/abs/hep-th/0401128).
+- [7] M. Disertori, R. Gurau, J. Magnen, V. Rivasseau, "Vanishing of beta function of non-commutative φ⁴₄ theory to all orders," Phys. Lett. B 649, 95 (2007), [hep-th/0612251](https://arxiv.org/abs/hep-th/0612251).
+- [8] E. Langmann, R. J. Szabo, K. Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces," JHEP 01 (2004) 017, [hep-th/0308043](https://arxiv.org/abs/hep-th/0308043).
+- [9] A. de Goursac, A. Tanasa, J.-C. Wallet, "Vacuum configurations for renormalizable non-commutative scalar models," Eur. Phys. J. C 53, 459 (2008), [arXiv:0709.3950](https://arxiv.org/abs/0709.3950).
+- [10] C. D. Fosco, G. A. Moreno, "One-loop effects in a self-dual planar noncommutative theory," JHEP 11 (2007) 046, [arXiv:0710.0818](https://arxiv.org/abs/0710.0818).
 
 Added by the wiki from model memory (†); the program's documents do not cite them:
 

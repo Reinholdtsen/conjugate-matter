@@ -42,7 +42,7 @@ If objects of mass M make up all of the dark matter at mass density ρ, their nu
 
 > Benchmark numbers (M = 3e13 GeV). The mean number density is n ~ 4.2e-20 /cm^3. At the local halo density (0.4 GeV/cm^3) there is one monopole per ~0.075 km^3, a mean spacing of about 420 m, drifting at ~1e-3 c.
 
-The referee recomputed with its own constants (mean dark-matter density "rho_DM mean = 1.2644e-06 GeV/cm^3 = 1.264 keV/cm^3", from Planck 2018's Ω_c h² = 0.120) and checked both local densities (`review/round3/referee/step2a.out`):
+The referee recomputed with its own constants (mean dark-matter density "rho_DM mean = 1.2644e-06 GeV/cm^3 = 1.264 keV/cm^3", from [Planck 2018](https://arxiv.org/abs/1807.06209)'s Ω_c h² = 0.120) and checked both local densities (`review/round3/referee/step2a.out`):
 
 ```text
 mean n = 4.215e-20 /cm^3
@@ -98,7 +98,7 @@ cluster ~1e-2 GeV/cm3: omega_p = 2.91e-10 s^-1, 1/omega_p = 1.09e+02 yr
 cosmic mean: omega_p = 3.28e-12 s^-1, 1/omega_p = 9.67e+03 yr
 ```
 
-These are "far shorter than dynamical times; Lasenby 2007.00667 shows such instabilities can matter "many orders of magnitude below" two-body bounds (he gives no constraint). "Effectively collisionless" rests on two-body sigma_T only. Unevaluated, not an indictment." The adjudication listed "Collective magnetic-plasma effects" among the [omitted constraints](/wiki/method/review/round-3/rulings#collective-magnetic-plasma-effects) accepted as a to-do and not re-checked.
+These are "far shorter than dynamical times; Lasenby [2007.00667](https://arxiv.org/abs/2007.00667) shows such instabilities can matter "many orders of magnitude below" two-body bounds (he gives no constraint). "Effectively collisionless" rests on two-body sigma_T only. Unevaluated, not an indictment." The adjudication listed "Collective magnetic-plasma effects" among the [omitted constraints](/wiki/method/review/round-3/rulings#collective-magnetic-plasma-effects) accepted as a to-do and not re-checked.
 
 In round 1 the referee had misread this quantity: "σ_T/M misread as σ_T (off ~10⁴³)" (`HANDOFF.md` §6), among the referee errors of rounds 1–2 that machine arbitration overturned ([referee failure mode](/wiki/method/review/referee-failure-mode)).
 
@@ -110,7 +110,7 @@ In round 1 the referee had misread this quantity: "σ_T/M misread as σ_T (off ~
 
 > Not monopoles of our U(1). If these objects carried magnetic charge under our electromagnetism, they would be classic monopoles and excluded. The flux at dark-matter density would be F = n v/4 pi ~ 3e-8 /cm^2/s/sr. That exceeds the Parker bound (~1e-15 for M <~ 1e17 GeV) [20] by 7.5 orders of magnitude, the MACRO limit for m >~ 1e10 GeV (2.8e-16) [21] by eight, and the extended Parker bound 1e-16 (M/1e17 GeV) [22] by twelve. Sector separation is therefore mandatory. Sec. 2(c) shows it is not undone by kinetic mixing while U(1)_d is unbroken.
 
-For an isotropic population of number density n moving at speed v, the number crossing unit area per unit time per unit solid angle is F = n v/4π [T]. The three limits are explained on [monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches): the Parker bound requires that monopoles accelerated by the Galaxy's magnetic field not drain the field faster than it regenerates; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy and is proportional to the monopole mass, so it tightens for lighter monopoles; MACRO, the Monopole, Astrophysics and Cosmic Ray Observatory, searched for them directly [T]. The round-3 referee found each figure supported by its source: the Particle Data Group's 2024 review, eq. (95.9), for the Parker bound; MACRO's Table 2, "<= 2.8e-16 for m >~ 1e10 GeV, beta > 1e-4"; and the abstract of Adams et al. 1993, "F <= 1e-16 (m/1e17 GeV) cm^-2 s^-1 sr^-1" (Step 1).
+For an isotropic population of number density n moving at speed v, the number crossing unit area per unit time per unit solid angle is F = n v/4π [T]. The three limits are explained on [monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches): the Parker bound requires that monopoles accelerated by the Galaxy's magnetic field not drain the field faster than it regenerates; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy and is proportional to the monopole mass, so it tightens for lighter monopoles; MACRO, the Monopole, Astrophysics and Cosmic Ray Observatory, searched for them directly [T]. The round-3 referee found each figure supported by its source: the Particle Data Group's 2024 review, eq. (95.9), for the Parker bound; MACRO's Table 2, "<= 2.8e-16 for m >~ 1e10 GeV, beta > 1e-4"; and the abstract of [Adams et al. 1993](https://doi.org/10.1103/PhysRevLett.70.2511), "F <= 1e-16 (m/1e17 GeV) cm^-2 s^-1 sr^-1" (Step 1).
 
 ### The numbers
 
@@ -126,7 +126,7 @@ The first line confirms #14's 7.5, 8 and 12 orders. The second uses eq. (95.8) o
 ### Corrections along the way
 
 - **The extended bound** (round 2). The handoff records the round-2 finding: "extended Parker bound (Adams et al. 1993: F ≲ 10⁻¹⁶(m/10¹⁷ GeV) ⇒ our-U(1) exclusion is ~7 orders, not 5 — cite it)" (`HANDOFF.md` §6). That was at v2's 10¹⁶ GeV benchmark; the worklog's item R3 confirms "Excess at the 10¹⁶ benchmark: 6.98 orders [V]" and adds: "Others quote a 1.2×10⁻¹⁶ prefactor, and PDG 2024 Eq. 95.10 adds a low-mass floor." The referee judged the added term "negligible here" (Step 1).
-- **Charge scaling.** Worklog R3: "Charge scaling: (g/g_D)⁻² at high mass, (g/g_D)⁻¹ at low mass [Kobayashi–Perri 2023, arXiv:2307.07553]", with g the monopole's magnetic charge and g_D the Dirac charge.
+- **Charge scaling.** Worklog R3: "Charge scaling: (g/g_D)⁻² at high mass, (g/g_D)⁻¹ at low mass [Kobayashi–Perri 2023, [arXiv:2307.07553](https://arxiv.org/abs/2307.07553)]", with g the monopole's magnetic charge and g_D the Dirac charge.
 - **Which MACRO row.** When the benchmark moved, so did the applicable limit: "At 3×10¹³, the counterfactual MACRO limit is ≤ 2.8×10⁻¹⁶ (m ≳ 10¹⁰ GeV row), not 1.4×10⁻¹⁶ (m ≳ 10¹⁶ GeV row)" (worklog F1). The referee calls 1.4×10⁻¹⁶ the "global" figure.
 - **How to cite the Parker value.** "For the 10⁻¹⁵ Parker value, cite PDG 2024 or Turner–Parker–Bogdan, PRD 26, 1296 (1982), not Parker 1970 alone. That value holds for M ≲ 10¹⁷ GeV" (worklog, 'Verified references for v3'). The Turner–Parker–Bogdan abstract quotes a different "Parker limit", F ≲ 10⁻¹⁶; the referee: "the manuscript follows PDG; fine" (Step 1).
 

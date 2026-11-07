@@ -90,7 +90,7 @@ The passing class was chosen rather than derived. #8 §5: "the class was selecte
 
 As the documents give them:
 
-- [9]† C. de Rham, G. Gabadadze, A. J. Tolley, "Resummation of massive gravity," Phys. Rev. Lett. 106, 231101 (2011), arXiv:1011.1232 (#11).
+- [9]† C. de Rham, G. Gabadadze, A. J. Tolley, "Resummation of massive gravity," Phys. Rev. Lett. 106, 231101 (2011), [arXiv:1011.1232](https://arxiv.org/abs/1011.1232) (#11).
 - [10]† and [11]† Hassan–Rosen, [12]† Hinterbichler–Rosen (#11); see [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) and [the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation).
 
 Added by the wiki from model memory (†):

@@ -95,7 +95,7 @@ The hidden photon is radiation, and the bound on extra radiation requires the hi
 
 One defect per Hubble volume is the floor; ruling 3 (upheld): "Kibble is a floor, not a ceiling; Kibble–Zurek or bubble counting add more". The referee estimated both mechanisms at v3's parameters (Step 4(a) items 2–3; `step4.out`):
 
-- **Kibble–Zurek production with annihilation.** Production near a continuous transition, "n ~ lambda H T_c^2 (LMW 2607.20843 eq. 13)", followed by monopole–antimonopole capture in the hidden plasma, using the capture rates of Liveoak–Maharana–Wells (LMW). The referee's integration leaves "Omega/Omega_DM = 1.1e12 - 2.2e12" at the benchmark, and LMW's analytic estimate (their eq. 25) gives "1.2e9 - 2.2e11". "Either way the annihilation does not rescue it."
+- **Kibble–Zurek production with annihilation.** Production near a continuous transition, "n ~ lambda H T_c^2 (LMW [2607.20843](https://arxiv.org/abs/2607.20843) eq. 13)", followed by monopole–antimonopole capture in the hidden plasma, using the capture rates of Liveoak–Maharana–Wells (LMW). The referee's integration leaves "Omega/Omega_DM = 1.1e12 - 2.2e12" at the benchmark, and LMW's analytic estimate (their eq. 25) gives "1.2e9 - 2.2e11". "Either way the annihilation does not rescue it."
 - **The Kibble minimum with annihilation.** Starting from one defect per Hubble volume, the initial yield, "Kibble-minimum initial Y (7e-20 - 1.4e-18)", lies far below the level at which annihilation acts, so annihilation "is irrelevant in that case and overproduction 4.9e3 - 9.8e4 (xi=0.76..0.5) stands."
 - **A first-order transition.** Bubble counting gives "p ~ 104 (beta/H)^3 = 1e2-1e8", where β/H is the inverse duration of the transition in units of the Hubble rate [T].
 

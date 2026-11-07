@@ -1,0 +1,650 @@
+{
+ "items": [
+  {
+   "source": "David R. Winn (Fairfield University), 'A Dual to Ordinary Matter Yielding Composite Flavored Scalar Dark Matter', Lepton-Photon 2025 (32nd International Symposium on Lepton Photon Interactions at High Energies), Madison WI, contribution 177, parallel session 'Dark Sector Physics (direct/indirect/axion)'. https://indico.cern.ch/event/1493037/contributions/6549576 . Three texts: the abstract on the Indico page (also Book of Abstracts, printed p. 55); slides 'Monopolium talk 2025_12.pdf' (27 pp., titled 'An Heuristic Dual to the Standard Model: Stable Composite Self-Interacting Dark Matter'); written summary 'Summary_Heuristic_Dual_to_Ordinary_Matter_Yielding_Dark Matter_10_Nov_2025_01.pdf' (5 pp., titled 'A Heuristic Dual to Ordinary Matter Yielding Neutral Composite Flavored Self-interacting Dark Matter').",
+   "first_public": "Talk on 25 Aug 2025, 11:40–12:00 US/Central (Indico timetable; export API startDate 18:40 Europe/Zurich). Slides: PDF CreationDate 2025-08-25 14:59:38 UTC. Indico modified_dt 2025-08-25 16:36:39 UTC, which equals the storage Last-Modified: 11:36 CDT, 3 min 21 s before the talk (computed). The Wayback Machine captured a byte-identical file on 2025-10-08 00:10:40 (SHA-1 digest match). Abstract: the identical text was already on the SUSY 2025 contribution, talk of 19 Aug 2025 (item 3). It appears in the Wayback capture of the contribution list on 2025-10-08 and in the Book of Abstracts generated 2025-11-25 (Wayback 2025-12-10). The March 2025 Book of Abstracts (5 pp.) has no abstracts yet. Summary: PDF CreationDate 2025-11-10 21:13:13 UTC; Indico modified_dt 2025-11-13 19:29:38 UTC; Wayback capture of a byte-identical file on 2026-01-16. Prior art: slides 371 days and summary 291 days before 2026-09-01 (computed).",
+   "read_how": "Downloaded myself with curl on 2026-11-06 from indico.cern.ch: the contribution page, both PDFs and the Indico export JSON. MD5 75e071c748c76df13b2b0f3fb3f8c880 and 29b497d577a4706df76a70722e4943b6 equal Indico's recorded checksums. Text extracted with pypdf (work/dual-sector/pdfenv, python -I). All 27 slides and all 5 summary pages rendered with PyMuPDF (a venv in my scratch folder) and read as images, to recover the Symbol-font glyphs extraction drops (α, β, γ, arrows) and the figure text (e.g. slide 18). Read in full. Term search by code (momentum, phase space, reciproc, conjugat, Born, Fourier, position, polariz, soliton, topolog, Parker, gravit, space), with every hit read in context. Quotations checked by /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/v-winn/scripts/check_quotes.py (list: quotes_final.json).",
+   "quotes": [
+    {
+     "quote": "We discuss a Dual to ordinary matter that yields composite self-interacting dark matter. For each elementary particle inn the SM, the Dual:",
+     "where": "Indico abstract (contribution page; Book of Abstracts p. 55)",
+     "check": "Not code-checkable by lit.py (Indico page). Found by check_quotes.py in the contribution-page text (exact); also in the Book of Abstracts (Wayback 2025-12-10) and on the Invisibles25 page."
+    },
+    {
+     "quote": "U(1): Changes electric charge e to magnetic charge g with g=e/α; to avoid non-integer magnetic charge the up and down squark sectors have g=+3g and -6g, the charged sleptons and Wino are charged 2g;",
+     "where": "Indico abstract, item 2",
+     "check": "Found (level norm) after mapping the Symbol-font private-use code point U+F061 in the page's HTML to α. Browsers and the Book of Abstracts show 'g=e/;'."
+    },
+    {
+     "quote": "SU(3): Changes chromoelectric charge to chromomagnetic charge, with chromocharges reciprocal, similar to electric/magnetic duality",
+     "where": "Indico abstract, item 4",
+     "check": "Found (exact) in the contribution-page text."
+    },
+    {
+     "quote": "the charged dual particles are confined as magnetically and chromomagnetically stable neutral shadrons, or slepton-pair monopoliums with long lifetimes.",
+     "where": "Indico abstract, Consequences",
+     "check": "Found (exact) in the contribution-page text."
+    },
+    {
+     "quote": "When pair-produced from the SM, monopoles dress themselves to neutral monopolium in analogous ways to chromoelectric confinement and escape, enabled by the low mass squarks and sleptons, like the low mass squarks. We discuss how present limits on monopoles evade detection when pair-produced",
+     "where": "Indico abstract, Consequences",
+     "check": "Found (exact) in the contribution-page text."
+    },
+    {
+     "quote": "It is reasonable that the strength of magnetic forces would create much more dark magnetic matter than electric matter in the early epoch.",
+     "where": "Indico abstract, Consequences",
+     "check": "Found (exact) in the contribution-page text."
+    },
+    {
+     "quote": "The photon is in effect divided into 2 classes: photons emitted from electric particles couple to magnetic particles as βg, whereas photons emitted from magnetic particles couple as βe, which interact with SM matter weakly for photon energies less than ~10 MeV in the lab frame, effectively dark photons.",
+     "where": "Indico abstract, Consequences",
+     "check": "Found (level norm) after mapping the Symbol-font code point U+F062 to β. The rendered page and the Book of Abstracts read 'as g' and 'as e'."
+    },
+    {
+     "quote": "For each SM elementary particle (quarks, leptons, vector bosons, Higgs), there is a Dual (effectively dark) sector particle that preserves flavor and preserves masses at tree level up to field self-energy corrections.",
+     "where": "summary p. 1 (Abstract)",
+     "check": "Not code-checkable by lit.py (Indico PDF). Found by check_quotes.py in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "The Dual systematically inverts the dynamical properties: e→g; chromoelectic→chromomagnetic,Left→Right; weak charge reversed; Spin reduced by 1/2 unit→\"squarks\", \"sleptons\", Wino etc - SUSY-lite.",
+     "where": "summary p. 1 (Abstract)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "In this early stage simplistic description of a Dual, interaction terms and a Lagrangian are not yet proposed, and there is no manifest Lorentz nor gauge invariance, and no custodial group.",
+     "where": "summary p. 1 (Abstract)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "Magnetic charges enable the early universe to make dark matter far more copiously that SM electric charge.",
+     "where": "summary p. 1 (Abstract)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "electric e maps to magnetic g according to the t’Hooft-Polyakov Dirac quantization g=2e/α).",
+     "where": "summary p. 1 (Overview)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "The Dual is methodically designed so that interactions with ordinary matter are automatically suppressed or forbidden by conservation of electric/magnetic and chromo-electric/chromomagnetic charges, angular momentum, and the inverted handedness assignments.",
+     "where": "summary p. 1 (Overview)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "Strong, non-perturbative magnetic dynamics confine monopoles into magnetically neutral, flavor-preserving composites (“shadrons”), providing abundant, self-interacting, neutral dark-matter candidates and stabilizing the Higgs.",
+     "where": "summary p. 1 (Overview)",
+     "check": "Found in the pypdf text, p. 1 (dehyphen: the line break splits 'abun-dant')."
+    },
+    {
+     "quote": "SM chromoelectric charges map to chromomagnetic charges, and posit that the effective strength of chromomagnetic coupling in the chromomagnetic octet is analogous to the reciprocal relationship of electric<=>magnetic charges.",
+     "where": "summary p. 1 (Overview)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "Interactions between electric and magnetic sectors are with velocity-suppressed effective couplings: βg to g for a time-like photon from charge e; βe to e for a time-like photon from charge g, -β the CMS velocity.",
+     "where": "summary p. 2 (Magnetic duality)",
+     "check": "Found in the pypdf text, p. 2 (nospace: extraction drops spaces around Greek and subscripts)."
+    },
+    {
+     "quote": "Photons are effectively partitioned by origin: γe from electric charges and γm from magnetic charges.",
+     "where": "summary p. 3 (Two photon sectors)",
+     "check": "Found in the pypdf text, p. 3 (nospace: subscript spacing)."
+    },
+    {
+     "quote": "Once γm converts (reflection, absorption, re-emission) in ordinary media, the outgoing quanta appear as standard γe, potentially giving rise to “dim” astrophysical sources and unusual calorimeter responses.",
+     "where": "summary p. 3 (Two photon sectors)",
+     "check": "Found in the pypdf text, p. 3 (nospace)."
+    },
+    {
+     "quote": "“dressing” into magnetically neutral bound states that recombine or re-annihilate, hiding bare charges analogously to quark confinement in QCD.",
+     "where": "summary p. 4 (t-channel dominance, Dressing, Confinement)",
+     "check": "Found in the pypdf text, p. 4 (nospace)."
+    },
+    {
+     "quote": "Magnetic binding energy, inner bremsstralung during escape, and light-by-light generation of multiple squark pairs hide squarks as bound neutral pairs, creating dual-flavor neutral low mass monopoliums - i.e.squarks are hidden just as quarks are hidden.",
+     "where": "summary p. 5",
+     "check": "Found in the pypdf text, p. 5 (hyphenkeep: a real hyphen falls at a line break)."
+    },
+    {
+     "quote": "A large spectrum of composite neutral Di-flavored particles with short range self-interactions comprise Dark Matter.",
+     "where": "summary p. 5",
+     "check": "Found in the pypdf text, p. 5 (exact)."
+    },
+    {
+     "quote": "Quantitative mass spectra, cross sections and binding energy require nonperturbative methods (e.g., strong-coupling QED/QCMD and lattice-inspired techniques) given g∼2e/α and the absence of small expansion parameters.",
+     "where": "summary p. 5",
+     "check": "Found in the pypdf text, p. 5 (nospace)."
+    },
+    {
+     "quote": "generating a Fermi pressure at universe scale wavelengths -Dark Energy- which decreases over time as the universe expands.",
+     "where": "summary p. 5",
+     "check": "Found in the pypdf text, p. 5 (exact)."
+    },
+    {
+     "quote": "An extensive paper is nearly complete;this author is not qualified to add to arXiv - requests for a link welcomed.",
+     "where": "summary p. 5",
+     "check": "Found in the pypdf text, p. 5 (exact)."
+    },
+    {
+     "quote": "If magnetic monopoles exist, how could they be Dark?",
+     "where": "slide 3",
+     "check": "Not code-checkable by lit.py (Indico PDF). Found by check_quotes.py in the pypdf text, slide 3 (exact)."
+    },
+    {
+     "quote": "Say…. wouldn’t or why shouldn’t monopoles with large magnetic charge be made more copiously than electricity in the big banging?",
+     "where": "slide 3",
+     "check": "Found in the pypdf text, slide 3 (exact)."
+    },
+    {
+     "quote": "Dual tensor must be contracted in SM coupling to monopoles",
+     "where": "slide 4",
+     "check": "Found in the pypdf text, slide 4 (exact)."
+    },
+    {
+     "quote": "Photon from Electric Charge couples to Magnetic Charge: ~βg",
+     "where": "slide 5",
+     "check": "Found in the pypdf text, slide 5 (exact)."
+    },
+    {
+     "quote": "Dark Matter is effectively a Hidden Sector – magnetic charged slepton/squark cannot convert to lepton/quark via photino/gluino emission",
+     "where": "slide 22",
+     "check": "Found in the pypdf text, slide 22 (exact)."
+    },
+    {
+     "quote": "Unjustified application of electromagnetic duality to QED Lagrangians",
+     "where": "slide 25 (also slide 27)",
+     "check": "Found in the pypdf text, slide 25 (exact)."
+    },
+    {
+     "quote": "A monopole mass ~me, mq makes it difficult to find monopoles.",
+     "where": "slide 26",
+     "check": "Found in the pypdf text, slide 26 (exact)."
+    },
+    {
+     "quote": "Quarks hide via 3-gluon vertex – Monopoles hide by shedding photons",
+     "where": "slide 26",
+     "check": "Found in the pypdf text, slide 26 (exact)."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "Dark matter is made of bound states of a 'Dual' partner of every SM particle (S1). Winn's duality, though, is electric→magnetic charge, chromoelectric→chromomagnetic, L↔R and spin −½, with flavor and mass kept (S2). Nothing in the abstract, the 27 slides or the summary places the partners in the other polarization of phase space: every 'momentum' is angular momentum, momentum transfer or parity; 'space' never occurs; 'reciprocal' means Dirac's e·g relation. The theme is shared (dark matter as the dual counterpart of each ordinary particle, stated as a heuristic proposal); the duality differs. Under the broad reading of C1 (any dual counterpart of visible matter counts) this would be partial."
+    },
+    {
+     "conjecture": "C1 chi form",
+     "label": "related",
+     "reason": "Shares only light, self-interacting dark matter (S13). The self-interactions are short-range (γm exchange and Yukawa-like di-gluino loops) and have no gate in relative velocity. The one velocity dependence, βg/βe (S10), acts between the sectors and suppresses interactions at low velocity: the other place, and the opposite sense, from χ's gate. The dark sector also couples to the SM beyond gravity (βe photons, Higgs/Higgsino portals, sleptonium decays to SM neutrinos), against P4 strict."
+    },
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "The dark matter is built from magnetically charged partners, but they are elementary point particles with SM masses (MeV for the selectron and light squarks), not topological solitons; 't Hooft–Polyakov enters only as motivation and to set a pole size. The dark matter is the magnetically neutral bound states, and everything lives in ordinary space. There is no localization in momentum, which is what defines the program's form."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "Abundance of many monopole types is asserted (A5, S4, L4; slide 3 also asks 'Why not many monopole types'), not computed. The monopoles are bound, in ordinary space; nothing is in momentum space. With the momentum placement set aside, the abundance half is stated in substance, as it already was in 2012 (item 2)."
+    },
+    {
+     "conjecture": "C3",
+     "label": "related",
+     "reason": "Winn explains the monopole null result by confinement, not by placement in conjugate space. Pair-produced poles re-annihilate or dress into neutral monopolium (A4, S11, L10). s-channel production is forbidden by CP and occurs at β≈0. Indirect mass limits are said to rest on an 'Unjustified application of electromagnetic duality' (L17). Light masses make free monopoles hard to find (L9). This mechanism is the second hiding route #11 §11.4 names for the shared-photon form, binding into magnetically neutral composites, though Winn's poles are light, not heavy."
+    },
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "A close variant. Every electrically charged SM particle, quarks included, has a magnetically charged partner (S1, S2, A2) under our own photon: Dirac quantization against our e (S5); monopoles couple through the dual tensor of the SM field (L8); electric-origin photons couple to the poles as βg (L6, A3, S10); a γm becomes an ordinary γe after one interaction (S9b). The partners are hidden by binding into magnetically neutral composites (S7, S11, S12), §11.4's second route. Missing: the momentum polarization of the analogs, which is the conjecture's defining clause. Added: spin −½, L↔R exchange, partner masses equal to SM masses. Like §11.4's form, it needs couplings across the sectors that P4 as written excludes. The record does not cite it."
+    },
+    {
+     "conjecture": "C4 separate-photon form",
+     "label": "related",
+     "reason": "The magnetic-mirror theme is shared, but the dual sector has no photon of its own: photons are only partitioned by source (S9). The 'effectively dark photons' of A3 are our photons emitted by magnetic charges, a word collision with this form's separate gauge field. The photino is the photon's spin-½ partner, not a gauge boson."
+    },
+    {
+     "conjecture": "C5",
+     "label": "not relevant",
+     "reason": "Dark energy here is a Fermi pressure of massless photinos that weakens as the universe expands (S17); no conjugate universe collapses."
+    },
+    {
+     "conjecture": "C6",
+     "label": "not relevant",
+     "reason": "No clumping in momentum space. Dark matter forms ordinary-space structures (summary p. 5: 'Smatter dominated stars and galaxies' would look dim)."
+    },
+    {
+     "conjecture": "C7",
+     "label": "not relevant",
+     "reason": "No long-range attraction among dark particles gated by relative velocity; the dark-dark forces are short-range."
+    },
+    {
+     "conjecture": "hard core",
+     "label": "collision",
+     "reason": "'Reciprocal' (Dirac's e·g = const; A6, S19), 'Dual' (charge duality) and 'polarization' (light polarization, slide 23) collide with the program's Born reciprocity, conjugate and Lagrangian-polarization vocabulary. No Born reciprocity, Fourier or phase-space structure appears."
+    }
+   ],
+   "summary": "Winn proposes a 'Dual' to the Standard Model. Each SM particle gets a partner with the same flavor and tree-level mass, spin shifted by ½ ('SUSY-lite'), electric charge e replaced by magnetic charge g (Dirac quantization against our e; squarks −6g/+3g, sleptons and Wino ±2g), chromoelectric charge by chromomagnetic, and SU(2)L by SU(2)R.\n- Which photon: ours. Photons are partitioned only by source (γe, γm) and couple across as βg and βe.\n- Elementary or solitonic: elementary point particles with SM masses.\n- Location: ordinary space. No momentum-space, phase-space, reciprocity or conjugate-variable placement anywhere.\n- Dark matter: magnetically and chromomagnetically neutral composites (6 stable neutral smesons, 27 sbaryons, di- and tri-smesons, sleptoniums, 'satoms', 'shatoms', 'smolecules'). They are stable because a ±2g Wino cannot turn −6g into +3g. They self-interact through γm exchange and Yukawa-like di-gluino loops. Abundance is asserted, not computed.\n- Monopole searches: pair-produced poles re-annihilate or dress into neutral monopolium (bremsstrahlung, nested light-by-light pairs, Schwinger pairs). s-channel production is CP-forbidden and occurs at β≈0. Indirect limits are said to violate unitarity.\n- Dark energy: photino Fermi pressure.\n- Coupling to the SM goes beyond gravity: βe photons, the Higgs portal, sleptonium decays.\n- Caveats: heuristic; no Lagrangian, interaction terms, manifest Lorentz or gauge invariance, or custodial group; quantitative results need nonperturbative methods.\nThe critic's quoted 'couple to magnetic particles as g' drops the β that the HTML carries."
+  },
+  {
+   "source": "arXiv:1206.4590 [physics.gen-ph] (INSPIRE recid 1118961). David R. Winn (Fairfield University), 'SUSY Via Magnetic Monopoles and Chirality', 10 pp. No journal publication; 0 citations in INSPIRE.",
+   "first_public": "v1 submitted Mon, 18 Jun 2012 18:29:31 UTC, the only version (arXiv abstract page). PDF CreationDate 2012-06-18 18:09:51 UTC (Word title 'Magneto_SUSY14'). Prior art: 5187 days before 2026-09-01 (computed).",
+   "read_how": "Downloaded the arXiv abstract page and PDF v1 with curl; text extracted with pypdf; read in full. Pages 2 and 7 rendered with PyMuPDF and read as images, because extraction replaces some Symbol glyphs with '!'. tools/lit.py text found no HTML full text, so lit.py quote can only search the abstract.",
+   "quotes": [
+    {
+     "quote": "A SUSY is proposed that interchanges bosons-fermions, and also transforms particle electric charge to magnetic charge, chromoelectric charge to chromomagnetic charge, and interchanges left-right handed couplings, leaving the masses between partners intact, and without R-parity.",
+     "where": "p. 1 (Abstract)",
+     "check": "lit.py quote: FOUND: 1206.4590 — searched abstract. Also found (exact) in the pypdf text."
+    },
+    {
+     "quote": "Transforms electric charge e into magnetic charge g = n (e/2α) – there are no electrically charged superpartners, only neutral or magnetic charged partners.",
+     "where": "p. 1 (An Ansatz - magneto-chiral-SUSY)",
+     "check": "lit.py quote searches the abstract only (no HTML full text). Found by check_quotes.py in the pypdf text of PDF v1, p. 1 (exact)."
+    },
+    {
+     "quote": "The resulting strong magnetic force between any pair-produced monopoles explains the absence of detected monopoles heretofore - since they pair up to g=0 and annihilate back to our matter when they are produced, and/or quickly screen themselves by creating opposite charged pairs, similarly to quark hadronization.",
+     "where": "p. 2 (4) Magnetic Monopoles)",
+     "check": "lit.py quote: NOT FOUND: 1206.4590 — searched abstract (body text not reachable by the tool). Found by check_quotes.py in the pypdf text, p. 2 (exact)."
+    },
+    {
+     "quote": "The size of the magnetic force explains much of the absence of this amusing version of SUSY in experiments, and indeed also why even in the cosmos bare monopoles are exceedingly rare, if at all.",
+     "where": "p. 2 (4)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 2 (exact)."
+    },
+    {
+     "quote": "We note that the monopole particle spectrum of SUSY monopoles proposed here seems more natural than if a single type of monopole was the only magnetic charge created in nature.",
+     "where": "p. 2 (4)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 2 (exact)."
+    },
+    {
+     "quote": "Magnetically neutral Satoms in the ground state would likely be extraordinarily difficult to detect",
+     "where": "p. 7 (15)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 7 (exact)."
+    },
+    {
+     "quote": "Because of the relative stability of the SUSY sector, it is possible to imagine that this is why the amount of Dark Matter exceeds ordinary matter by an order of magnitude, if made freely in the primordial soup.",
+     "where": "p. 7 (15)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 7 (exact)."
+    },
+    {
+     "quote": "If Smatter are Dark Matter candidates, they likely explain the paucity of signals in underground experiments, heretofore.",
+     "where": "p. 7 (15)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 7 (exact)."
+    },
+    {
+     "quote": "However, it is possible that a proper analysis of experimental limits rules this model out.",
+     "where": "p. 4 (8)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 4 (exact)."
+    },
+    {
+     "quote": "But Nature would be especially perverse if only a single type of magnetic monopole existed; rather, in this model, magnetism is treated in one view identically with electricity, with a rich magnetic sparticle spectrum.",
+     "where": "p. 9 (Discussion)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 9 (exact)."
+    },
+    {
+     "quote": "This mcSUSY model provides candidates for Dark Matter and Dark Energy, and yet provides a compellingly nearly invisible SUSY sector",
+     "where": "p. 9 (Discussion)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 9 (exact)."
+    },
+    {
+     "quote": "We have not specified all the dimension-4 or greater couplings in this model, nor the size of the least magnetic monopole charges as multiples of e/2α.",
+     "where": "p. 9 (Discussion)",
+     "check": "Found by check_quotes.py in the pypdf text, p. 9 (exact)."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "The paper offers two kinds of dark matter candidates, tentatively ('15) Dark Matter as Squark/Gluino or Slepton Stable Matter?', p. 6): the partner sector's neutral bound states ('Smatter') and right-handed sneutrino condensates. The partner is a magneto-chiral SUSY partner, not a phase-space counterpart. The 10 pages contain no momentum-space, phase-space, conjugate or reciprocity placement; 'momentum' is only angular momentum, momentum conservation or transverse momenta."
+    },
+    {
+     "conjecture": "C1 chi form",
+     "label": "not relevant",
+     "reason": "No self-interaction or velocity dependence of the dark matter is discussed."
+    },
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "Magnetically charged partners, bound into neutral states, are dark matter candidates. The partners are elementary; topology is cited only as a reason monopoles should exist. They live in ordinary space."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "Many monopole types are 'more natural' than one (P4, P11), and dark matter could exceed ordinary matter 'if made freely in the primordial soup' (P6). The monopoles are bound, in ordinary space."
+    },
+    {
+     "conjecture": "C3",
+     "label": "related",
+     "reason": "The strong magnetic force 'explains the absence of detected monopoles' by pairing to g=0, annihilation and screening (P2, P3), and neutral Smatter would explain the underground nulls (P5). This is binding, not conjugate-space placement: the binding route #11 §11.4 names for the shared-photon form."
+    },
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "The earliest public statement I found of the construction. P9: 'there are no electrically charged superpartners, only neutral or magnetic charged partners', with g = n(e/2α) against our e, quarks included through chromomagnetic charge. The partners couple to our photon: the paper weighs monopole loops in the Lamb shift, g−2, Z→3γ and γγ scattering. They are hidden by binding into g=0 states. No momentum polarization. Public 18 June 2012."
+    },
+    {
+     "conjecture": "C4 separate-photon form",
+     "label": "related",
+     "reason": "Same magnetic-mirror theme; the partner sector has no photon of its own."
+    },
+    {
+     "conjecture": "C5",
+     "label": "not relevant",
+     "reason": "Dark energy is proposed as a Fermi pressure of massless photinos (section 20)."
+    }
+   ],
+   "summary": "The 2012 precursor of the 2025 Dual, under the name 'magneto-chiral SUSY' (mcSUSY). The ansatz gives each partner spin shifted by ½, magnetic charge g = n(e/2α) in place of electric charge, chromomagnetic in place of chromoelectric charge, reversed L↔R, the same mass, and no R-parity. It explains the absence of detected monopoles by strong magnetic binding and screening 'similarly to quark hadronization'. It proposes neutral bound partner states and right-handed sneutrino condensates as dark matter, and photinos as dark energy. The partners are elementary and couple to our photon; nothing is placed in momentum space. The two photon classes with βg/βe couplings are not yet in it (0 occurrences of β). Caveats: couplings unspecified; 'a proper analysis of experimental limits' may rule it out. The 2025 draft does not cite it. This record contradicts the critic's 'No arXiv or INSPIRE version found': the model's first public date is 18 June 2012."
+  },
+  {
+   "source": "David Winn (Fairfield University), 'A Dual to Ordinary Matter Yielding Composite Neutral Flavored Scalar Dark Matter', SUSY 2025, UC Santa Cruz, contribution 56, session 'Supersymmetry phenomenology and experiment'. https://indico.cern.ch/event/1446820/contributions/6583054/ . Slides 'Monopolium talk 2025_August_07.pdf' (24 pp.).",
+   "first_public": "Talk on 19 Aug 2025, 17:50 PDT (export: 2025-08-20 02:50 Europe/Zurich). Slides: PDF CreationDate 2025-08-19 19:40:09 UTC; Indico modified_dt 2025-08-19 19:50:40 UTC, about 5 h before the talk (computed). Wayback capture of a byte-identical file on 2025-10-08 00:06:30; contribution page captured 2025-10-12. Prior art.",
+   "read_how": "Found through the CERN Indico search API. Page, export JSON and slides downloaded with curl; MD5 c522041a89f3b5c35574a757d141871e equals Indico's checksum. Text extracted with pypdf and read in full; slide 1 rendered to read the printed URL. The abstract, compared by code with Lepton-Photon's, is identical (3,367 characters after whitespace normalization).",
+   "quotes": [
+    {
+     "quote": "Request latest preprint – or Link to paper:",
+     "where": "slide 1",
+     "check": "Not code-checkable by lit.py (Indico PDF). Found by check_quotes.py in the pypdf text, slide 1 (exact)."
+    },
+    {
+     "quote": "https://www.dropbox.com/scl/fi/tlrbbtfwb5imaillgobjl/A_dual_to_ordinary__August_16.pdf?rlkey=c80eocevbds35pfw63nflrvaf&st=50a109x7&dl=0",
+     "where": "slide 1 (the URL is printed over four lines)",
+     "check": "Found by check_quotes.py in the pypdf text, slide 1 (nospace: line breaks inside the URL); confirmed on the rendered image."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "Same abstract as item 1, and an earlier cut of the same deck: magnetic partners of every charged SM particle under our photon, hidden in neutral composites, with no momentum placement."
+    },
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "As item 1: dark matter as the electric-magnetic Dual of every SM particle; no phase-space polarization."
+    }
+   ],
+   "summary": "The same talk, given six days before Lepton-Photon, with the same abstract and a 24-slide deck whose content matches item 1's slides 1–23. Slide 1 prints a public Dropbox link to the full draft (item 4). The Lepton-Photon deck drops the link: its slide 1 reads 'Request latest preprint – Link to paper:' with nothing after it."
+  },
+  {
+   "source": "David R Winn (Fairfield University; ORCID 0000-0003-2637-5743), 'A Heuristic Dual to Ordinary Matter Yielding Composite Self-interacting Scalar Dark Matter', draft dated 'August 17, 2025', 40 pp. File 'A_dual_to_ordinary__August_16.pdf' at the public Dropbox link printed on SUSY 2025 slide 1 (item 3).",
+   "first_public": "Linked publicly from the SUSY 2025 slides uploaded 2025-08-19 19:50:40 UTC (Wayback capture of those slides 2025-10-08). PDF CreationDate 2025-08-17 00:50:49 UTC and ModDate 2025-08-18 20:54:30 UTC, both before the link was posted. The Wayback Machine has no capture of the Dropbox URL, so identity with the file linked in August 2025 rests on the PDF dates. Prior art.",
+   "read_how": "Downloaded on 2026-11-06 with curl through the public link with dl=1. Dropbox redirected straight to the file, with no login or check; MD5 0a5361f23fd1460581e2db0ba8909f26. Text extracted with pypdf and read in full (40 pp.). Every momentum, phase, position, polariz and space hit read in context by code.",
+   "quotes": [
+    {
+     "quote": "A Heuristic Dual to Ordinary Matter Yielding Composite Self-interacting Scalar Dark Matter",
+     "where": "p. 1 (title)",
+     "check": "Not code-checkable by lit.py (Dropbox PDF). Found by check_quotes.py in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "Electric charges are changed to magnetic charges i.e. magnetic monopoles, with g= e/ α according to the doubled Dirac reciprocal prescription for soliton monopoles.",
+     "where": "p. 1 (Abstract, item b)",
+     "check": "Found in the pypdf text, p. 1 (exact)."
+    },
+    {
+     "quote": "magnetic monopoles do not have to be semi-classical quasiparticles or solitons. Rather, one can consider monopoles as elementary particles, in the same way as the Standard Model particle but with a non-zero magnetic charge (Schwinger, Zwanziger).",
+     "where": "p. 2 (1 Introduction)",
+     "check": "Found in the pypdf text, p. 2 (exact)."
+    },
+    {
+     "quote": "In this introduction of a toy Dual, we disregard overwhelmingly difficult issues of gauge invariance, Lorentz invariance and a controlling symmetry group as a way to a proper Lagrangian.",
+     "where": "p. 2 (end of Abstract)",
+     "check": "Found in the pypdf text, p. 2 (exact)."
+    },
+    {
+     "quote": "The photon is not affected directly, but ”in effect” divided into electric γe and magnetic photons γm, in a given frame depending on whether the photon coupling transferring energy and momentum is produced by accelerated electric charges",
+     "where": "p. 3 (item 6, Photons from the SM vs Photons from the Dual)",
+     "check": "Found in the pypdf text, p. 3 (nospace)."
+    },
+    {
+     "quote": "Magnetic photons - γm - in effect are similar to dark photons in our SM world, with a βe weak coupling at low energies, not necessarily gauge invariant, like dark photons, but in a group U (1)e x U (1)m.",
+     "where": "p. 4 (item 6)",
+     "check": "Found in the pypdf text, p. 4 (nospace)."
+    },
+    {
+     "quote": "The βg and βe coupling is a conjecture, simply motivated by electric-magnetic duality symmetry, in that using this substitution recovers non-relativistic electron-monopole Rutherford scattering.",
+     "where": "p. 4 (item 6)",
+     "check": "Found in the pypdf text, p. 4 (nospace-hk: missing spaces plus a real hyphen at a line break)."
+    },
+    {
+     "quote": "The Lagrangian density for electromagnetism in the presence of a magnetic monopole is given by:",
+     "where": "p. 12 (followed by a Lagrangian with a single potential Aµ)",
+     "check": "Found in the pypdf text, p. 12 (exact)."
+    },
+    {
+     "quote": "It could be natural that the fraction of such magnetic dark matter in the universe would exceed the fraction of electric matter.",
+     "where": "p. 10 (REMARK)",
+     "check": "Found in the pypdf text, p. 10 (exact)."
+    },
+    {
+     "quote": "Because of the relative stability of the Dual sector, it is possible to imagine that this is why the amount of Dark Matter exceeds ordinary matter by an order of magnitude, if made freely in the primordial soup - the long range magnetic forces greatly exceed electric.",
+     "where": "p. 32 (item 25)",
+     "check": "Found in the pypdf text, p. 32 (exact)."
+    },
+    {
+     "quote": "We argue the opposite - that low-mass monopoles enable the dressing of the poles to composite magnetically neutral particles much like the low mass quarks enable the dressing of escaping quark pairs as composite chromoelectric charge=0 hadrons.",
+     "where": "p. 12",
+     "check": "Found in the pypdf text, p. 12 (exact)."
+    },
+    {
+     "quote": "The magnetic force between any pair-produced monopoles explains the absence of detected monopoles, since they:",
+     "where": "p. 24 (Issues 1, Where are the low mass Magnetic Monopoles?)",
+     "check": "Found in the pypdf text, p. 24 (exact)."
+    },
+    {
+     "quote": "The 2-sector photons (originating from either magnetic or electric charge), and photinos have low cross-sections at low energies - and essentially no effect on underground DM or double β-decay searches to/from the SM from/to the composite neutral shadrons as the velocity of the center of mass β is small.",
+     "where": "p. 11 (Portals, item 1)",
+     "check": "Found in the pypdf text, p. 11 (nospace)."
+    },
+    {
+     "quote": "Thus existing direct detection DM experiments would see almost nothing. However, Higgs exchange is possible, and is how a Dark Matter/Hidden Sector may interact beyond simple gravity via an SM Higgs “portal.”",
+     "where": "p. 32 (item 30, Dark Summary)",
+     "check": "Found in the pypdf text, p. 32 (exact)."
+    },
+    {
+     "quote": "Yet the universe in the early Epoch would be especially perverse if only a single type of magnetic monopole existed; rather, in this Dual to the Standard Model, magnetism is treated identically with electricity, with a rich pseudoscalar magnetic sparticle spectrum, as varied as the electric sector.",
+     "where": "p. 37 (Discussion)",
+     "check": "Found in the pypdf text, p. 37 (dehyphen)."
+    },
+    {
+     "quote": "The potential for galaxies and stars composed mainly of magnetic matter is interesting.",
+     "where": "p. 31 (item 18)",
+     "check": "Found in the pypdf text, p. 31 (exact)."
+    },
+    {
+     "quote": "However, it is possible that a detailed analysis of a rigorous theory and experimental limits rules this model out.",
+     "where": "p. 26 (Issues 3)",
+     "check": "Found in the pypdf text, p. 26 (exact)."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "Dark matter is the 'Dual' sector of ordinary matter (title; abstract), with an electric-magnetic, chirality and spin duality. In 40 pages no phase-space, momentum-space, reciprocity or conjugate placement occurs; 'momentum' is angular momentum, momentum transfer, center of momentum or parity throughout."
+    },
+    {
+     "conjecture": "C1 chi form",
+     "label": "related",
+     "reason": "Light (sub-GeV) self-interacting dark matter, but with no relative-velocity gate. The small β suppresses dark-SM couplings (DR13), and a Higgs portal acts 'beyond simple gravity' (DR10), against P4 strict."
+    },
+    {
+     "conjecture": "C1 monopole form",
+     "label": "related",
+     "reason": "Magnetically charged dark matter constituents, but explicitly elementary, not solitons (DR1), and bound into neutral composites in ordinary space (DR15). No localization in momentum."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "Abundant, many-typed magnetic matter is argued qualitatively (DR7, DR12, DR18); it is in ordinary space."
+    },
+    {
+     "conjecture": "C3",
+     "label": "related",
+     "reason": "The monopole null result is explained by binding, screening and re-annihilation of light poles (DR8, DR11), and the direct-detection nulls by small β (DR13). No conjugate-space placement."
+    },
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "The fullest statement of the close variant: magnetic partners of every charged SM particle; 'The photon is not affected directly' (DR2); one electromagnetic potential (DR5); hiding by binding into magnetically neutral composites. Lacks the momentum polarization."
+    },
+    {
+     "conjecture": "C4 separate-photon form",
+     "label": "related",
+     "reason": "DR3 likens γm to dark photons 'in a group U (1)e x U (1)m', but DR2 says the photon itself is unaffected, and no gauge field of the dual sector is introduced. The 'dark photon' wording is a collision with this form's own photon."
+    },
+    {
+     "conjecture": "C6",
+     "label": "not relevant",
+     "reason": "Magnetic matter would form galaxies and stars in position space (DR15); no clumping in momentum space."
+    }
+   ],
+   "summary": "The 'extensive paper' the Lepton-Photon summary mentions, as an August 2025 draft, read in full.\n- The monopoles are elementary point particles, explicitly not solitons (DR1).\n- One electromagnetic potential carries everything (DR5). Photons are labelled by source (DR2). The βg/βe couplings are called 'a conjecture' (DR4), and γm are likened to dark photons 'in a group U (1)e x U (1)m' (DR3).\n- Dark matter: neutral shadrons, satoms and smolecules, with their abundance argued qualitatively (DR7, DR18).\n- Direct-detection nulls follow from small β and zero weak hypercharge, with a Higgs portal 'beyond simple gravity' (DR10, DR13).\n- The monopole null result follows from binding, screening and re-annihilation of light poles, against the usual conclusion that monopoles must be heavy (DR8, DR11).\n- No momentum-space, phase-space, reciprocity or conjugate-variable placement.\n- Caveats: a toy model without a Lagrangian or controlling symmetry (DR6); a rigorous analysis may rule it out (DR14).\n- It cites earlier monopolium-as-dark-matter work (Vento and Traini 2020; Burdyuzha 2018), not Winn's own 2012 paper."
+  },
+  {
+   "source": "David R Winn (Fairfield University), 'A Heuristic Dual to the Particles in the Standard Model Creating Composite Self-interacting Dark Matter', poster, APS Global Physics Summit 2025, Poster Session I (H00), abstract 346. https://meetings-archive.aps.org/smt/2025/mar-h00/346",
+   "first_public": "Poster session on 18 Mar 2025, 2:00–5:00 PM PT, Anaheim Convention Center, Exhibit Hall A (archived session page). The abstract was presumably online before the meeting, but no earlier capture was found. Prior art.",
+   "read_how": "The live page refused with a Cloudflare bot check (HTTP 403). I read the Wayback capture of 2026-06-10 (raw id_ capture) in full, and the session page capture of 2026-04-19 for the date.",
+   "quotes": [
+    {
+     "quote": "The Dual to fermion quarks, leptons and gauge bosons are right-handed, and charged or neutral scalar magnetic monopoles of charges ±2 ±3 ±6 g=e/alpha.",
+     "where": "abstract",
+     "check": "Not code-checkable by lit.py; read via the Wayback capture 2026-06-10. Found by check_quotes.py in its text (exact)."
+    },
+    {
+     "quote": "Photons emitted from electric charge couple as beta-g to monopoles and those emitted from monopoles couple as beta-e to electric poles.",
+     "where": "abstract",
+     "check": "Found in the capture's text (exact)."
+    },
+    {
+     "quote": "The heuristic Dual presented here points towards a dual being a larger dark fraction of the universe than the SM and self-interacting.",
+     "where": "abstract",
+     "check": "Found in the capture's text (exact)."
+    },
+    {
+     "quote": "This toy Dual disregards gauge invariance or a symmetry group needed for a proper Lagrangian.",
+     "where": "abstract",
+     "check": "Found in the capture's text (exact)."
+    },
+    {
+     "quote": "Publication: Manuscripts for submission to arXiv in preparation.",
+     "where": "abstract page",
+     "check": "Found in the capture's text (exact)."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "Scalar magnetic monopole partners of the SM fermions and gauge bosons, with charges set by our e (G1). Photons cross between electric and magnetic charges (G2). Confinement yields stable neutral composites as dark matter. No momentum placement."
+    },
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "A heuristic Dual of the SM particles as a self-interacting dark sector larger than the SM (G5); electric-magnetic duality, not phase-space polarization."
+    },
+    {
+     "conjecture": "C2",
+     "label": "related",
+     "reason": "A dark (magnetic) fraction larger than the SM (G5), in ordinary space."
+    }
+   ],
+   "summary": "The earliest dated public text of the 2025 Dual that I could read; the Aspen talk (item 6) is earlier but known only by its title. It gives right-handed scalar magnetic-monopole partners with charges ±2, ±3, ±6 g (g = e/α) and chromomagnetic squarks. Flavor-changing magnetic currents are forbidden. Confinement and inner bremsstrahlung yield stable neutral 'smesons, sbaryons, di-sleptons'. Photons couple across as beta-g and beta-e, and monopolium is offered as dark matter. Caveat: no gauge invariance or symmetry group 'needed for a proper Lagrangian'. It acknowledges the Aspen Center for Physics. No momentum placement."
+  },
+  {
+   "source": "David Winn (Fairfield University), 'A Heuristic Dual to Ordinary Matter', talk at the Aspen Winter Conference 'Empowering the New Vision in High Energy Physics' (Aspen Center for Physics, 2–7 March 2025). Fermilab Indico event 65068, contribution 309345 (#21); slides 'Monopolium talk 2025_03-03_a.pdf' (URL known from a web search).",
+   "first_public": "Talk on 3 Mar 2025, 18:15 in the list's display time zone (archived contribution list: Wayback 2025-03-09 06:19:53, and again 2026-07-20). The earliest dated 2025 appearance found. Prior art.",
+   "read_how": "The live Fermilab Indico refused with a Cloudflare bot check (HTTP 403). The Wayback Machine holds no capture of the contribution or the slides. Only the archived contribution list was read: title, speaker, time.",
+   "quotes": [
+    {
+     "quote": "A Heuristic Dual to Ordinary Matter",
+     "where": "archived contribution list, contribution 21 (Wayback 2025-03-09)",
+     "check": "Not code-checkable by lit.py. Found by check_quotes.py in the capture's text (exact)."
+    }
+   ],
+   "relations": [],
+   "summary": "A title-only record. The title and file name suggest the same model (my inference). Its content could not be read, so no labels are given."
+  },
+  {
+   "source": "David Winn (Fairfield University), 'A Dual to Ordinary Matter Yielding Composite Neutral Flavored Scalar Dark Matter', poster, Invisibles25 Workshop, CERN, 1–5 Sept 2025, contribution 126. https://indico.cern.ch/event/1454720/contributions/6563797/",
+   "first_public": "Workshop held 1–5 Sept 2025; the poster is listed as 'Not scheduled' and has no materials. No Wayback capture of the contribution. Prior art.",
+   "read_how": "Page and Indico export JSON downloaded with curl. The abstract, compared by code with Lepton-Photon's, is identical (3,367 characters after whitespace normalization).",
+   "quotes": [
+    {
+     "quote": "We discuss a Dual to ordinary matter that yields composite self-interacting dark matter. For each elementary particle inn the SM, the Dual:",
+     "where": "contribution page, Description",
+     "check": "Not code-checkable by lit.py. Found by check_quotes.py in the page text (exact)."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C4 shared-photon form",
+     "label": "partial",
+     "reason": "Identical abstract to item 1."
+    },
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "Identical abstract to item 1."
+    }
+   ],
+   "summary": "A poster listing carrying the Lepton-Photon abstract verbatim; no file is attached."
+  },
+  {
+   "source": "David Winn (Fairfield University), 'A Dual Model for Neutral Composite Self-Interacting Low-Mass Dark Matter', talk, DPF 2026 (APS Division of Particles and Fields meeting, Fermilab, 20–24 July 2026), session 'Cosmic Frontier and Dark Sector'. Fermilab Indico event 72820, contribution 341133 (#308); slides 'master12.pdf' (URL known from a web search).",
+   "first_public": "Talk on 23 July 2026, 14:51 (archived contribution list, Wayback 2026-07-20 22:20:54). 40 days before 2026-09-01 (computed), so prior art.",
+   "read_how": "The live Fermilab Indico refused with a Cloudflare bot check (HTTP 403), and the Wayback Machine holds no capture of the contribution or the slides. I read the archived contribution list (gzip-decoded): title and Indico's truncated abstract only.",
+   "quotes": [
+    {
+     "quote": "A Dual Model for Neutral Composite Self-Interacting Low-Mass Dark Matter",
+     "where": "archived contribution list, contribution 308 (Wayback 2026-07-20)",
+     "check": "Not code-checkable by lit.py. Found by check_quotes.py in the capture's text (exact)."
+    },
+    {
+     "quote": "We suggest a dual to every particle in the SM with the flavors and...",
+     "where": "same, abstract as truncated by Indico",
+     "check": "Found in the capture's text (exact)."
+    }
+   ],
+   "relations": [
+    {
+     "conjecture": "C1 identification",
+     "label": "related",
+     "reason": "'a dual to every particle in the SM' as neutral composite dark matter (truncated); the rest is unread."
+    }
+   ],
+   "summary": "The latest public version found. The truncated abstract lists dark galaxies, voids emitting energetic particles, dark stars, events above the GZK limit, dark matter exceeding SM matter by about 5, and self-interacting dark matter as possible deficits of the SM, then proposes 'a dual to every particle in the SM'. The slides were not read. A web-search summary, not a primary source, gives the PDF's title as 'A Heuristic Dual to Ordinary Matter: Stable Composite Self-Interacting Dark Matter', dated 23 July 2026."
+  }
+ ],
+ "searched": [
+  "INSPIRE via tools/lit.py: 'a Winn, D.R. and (t monopol* or t monopolium or t dual or t \"dark matter\")': 2 hits screened (1206.4590; 2203.09939, detector R&D).",
+  "INSPIRE: 'a Winn, D.R. and (t SUSY or t magnet* or t chiral* or t photino* or t \"dark energy\" or t heuristic or t shadron* or t squark* or t supersymm*)': 2 hits (1206.4590; a 1995 muon-collider paper).",
+  "INSPIRE: 'a Winn, David R and date > 2014': 7 hits, all detector or collaboration papers.",
+  "INSPIRE: 'a Winn and (t dual or t monopol* or abstracts.value:\"monopolium\" or abstracts.value:\"magnetic charge\")': 2 hits (1206.4590; a 2010 dual-readout calorimetry paper).",
+  "INSPIRE: 't \"heuristic dual\" or t \"dual to ordinary matter\" or t \"dual to the standard model\" or abstracts.value:\"shadrons\"': 0 hits.",
+  "INSPIRE: records citing 1206.4590: 0.",
+  "arXiv API: 'au:Winn_D': 23 hits, all detector, accelerator or collaboration papers.",
+  "arXiv API: 'au:Winn_D_R': 5 hits, all detector papers.",
+  "arXiv API: 'au:Winn AND (abs:monopole OR abs:monopoles OR abs:magnetic OR abs:dual OR ti:SUSY OR abs:monopolium OR abs:\"dark matter\")': 58 hits, 50 shown and screened by title. Only 1206.4590 is relevant; nothing by David Winn on the Dual in 2015–2026.",
+  "arXiv: abstract page (submission history, v1 only) and PDF v1 of 1206.4590.",
+  "CERN Indico, event 1493037: contribution page, export API JSON, both attachments. Wayback CDX for the contribution, attachments, timetable, contribution list, Book of Abstracts and session. Read the archived contribution list (2025-10-08) and both archived Books of Abstracts (2025-03-09, 5 pp.; 2025-12-10, 132 pp.).",
+  "CERN Indico search API (contributions): 'Winn monopol*', 'Winn dual', 'David Winn dark matter', 'monopolium Fairfield'. Four Winn contributions in all: three by David Winn (Lepton-Photon 2025, SUSY 2025, Invisibles25) and a 2018 condensed-matter talk by Barry Winn.",
+  "CERN Indico export API for SUSY 2025 (event 1446820) and Invisibles25 (event 1454720); both abstracts compared by code with Lepton-Photon's: identical.",
+  "Fermilab Indico events 65068 (Aspen Winter Conference 2025) and 72820 (DPF 2026): live pages refused. Wayback CDX for both events and the two contributions; read the archived contribution lists (65068: 2025-03-09 and 2026-07-20; 72820: 2026-07-20) and the archived event overview (2025-03-06).",
+  "APS meetings archive: GPS 2025 H00.346 (live refused; Wayback capture of 2026-06-10 read); session H00 page (Wayback 2026-04-19, for the date); 2026 'apr-p92/8' (refused, no capture). Wayback CDX also queried for meetings.aps.org and summit.aps.org URL forms: none.",
+  "Web search, 9 queries with about 10 results each: '\"Winn\" \"Fairfield University\" magnetic monopole dark matter dual Standard Model'; '\"Heuristic Dual\" \"Standard Model\" monopolium dark matter'; 'meetings.aps.org Winn monopole SUSY chirality magnetic charge squarks'; 'meetings-archive.aps.org 2026 apr-p92 Winn dual dark matter monopole'; 'David Winn Fairfield University physics professor monopolium dual dark matter'; '\"Winn\" \"monopolium\" OR \"smesons\" OR \"shadrons\" dark matter magnetic dual preprint 2025 OR 2026 -arxiv'; 'site:fairfield.edu Winn physics monopole OR \"dark matter\" OR \"dual\"'; 'digitalcommons.fairfield.edu David Winn physics'; 'Fairfield University Department of Physics faculty \"Winn\"'. They found the APS GPS 2025 abstract, the two Fermilab Indico files, the Invisibles25 page and a third-party bio; preprints.org 202511.1401 is another author's work.",
+  "Fairfield University: the physics faculty page lists 'David R. Winn, Professor, Physics'. His profile page and its Digital Measures data give name, college, title and e-mail; the Biography, Research Interests and Publications sections are empty. The site-search URL I tried returned 404.",
+  "Lepton-Photon 2025 proceedings page (physics.wisc.edu/lepton-photon-2025/): no proceedings, only a link to the Indico site.",
+  "Dropbox link printed on SUSY 2025 slide 1: downloaded the 40-page draft. Wayback CDX for the link: no captures.",
+  "Read-only grep of the repository for 'Winn': only review/dual-sector/panel/critic.json and a workflow script mention him; the record (notes, papers, wiki, review) does not cite him."
+ ],
+ "not_reached": [
+  "Fermilab Indico, Aspen Winter Conference 2025 contribution 309345 and its slides 'Monopolium talk 2025_03-03_a.pdf': Cloudflare bot check (HTTP 403, 'Just a moment... Enable JavaScript and cookies to continue'); no Wayback capture. Content unread; only title and time are known, from the archived list.",
+  "Fermilab Indico, DPF 2026 contribution 341133 and its slides 'master12.pdf': the same bot check; no capture. Only the title and the truncated abstract were read. A web-search summary (unverified) gives the PDF's title as 'A Heuristic Dual to Ordinary Matter: Stable Composite Self-Interacting Dark Matter', dated 23 July 2026.",
+  "APS meetings archive, 2026 'apr-p92/8': bot check; no capture. A web search for 'Heuristic Dual' listed it; whether it is Winn's is unconfirmed.",
+  "APS meetings archive, live GPS 2025 H00.346 page: bot check. Read through its Wayback capture instead.",
+  "Fairfield University Digital Commons (digitalcommons.fairfield.edu) and the Elsevier Pure portal (fairfield.elsevierpure.com): bot checks (HTTP 403).",
+  "OpenAlex: not tried (the brief says its quota may be exhausted).",
+  "Not searched: other Indico instances beyond CERN's search API and the web; books of abstracts of IDM, TeVPA and ICHEP; direct searches of ResearchGate, viXra, Zenodo, OSF or SSRN. The web searches turned up no Winn version there."
+ ],
+ "overall": "I verified the critic's finding (review/dual-sector/panel/critic.json) from the original files. It holds in its main points, with one wrong claim, one minor correction, and more public versions than it found.\n\n**Confirmed.** Lepton-Photon 2025 contribution 177: talk on 25 Aug 2025, 27 slides, and a 5-page summary (PDF created 10 Nov 2025, uploaded 13 Nov 2025).\n- It predates the program's notebook (September 2026), is outside the Minic school, and the record does not cite it. A read-only grep finds Winn only in the critic's file and a workflow script.\n- The Dual gives every SM particle a partner: e→g (Dirac quantization against our e), chromoelectric→chromomagnetic, L↔R, spin −½, flavor and mass kept.\n- The photon is our own: photons are only labelled by source, and the draft says 'The photon is not affected directly'.\n- The monopoles are elementary point particles, not solitons; the draft says so explicitly.\n- The charged partners bind into magnetically neutral composites, proposed as self-interacting dark matter and said to evade monopole searches.\n- It is heuristic, with no Lagrangian and no manifest Lorentz or gauge invariance.\n- No source places anything in momentum space, phase space or a conjugate variable, and none uses Born reciprocity or Fourier structure. This holds for the abstract, both slide decks, the summary, the 40-page draft and the 2012 paper; I read every 'momentum' hit in context by code.\n\n**Wrong in the finding.** 'No arXiv or INSPIRE version found' is wrong. arXiv:1206.4590, 'SUSY Via Magnetic Monopoles and Chirality' by David R. Winn (Fairfield), posted 18 June 2012 (INSPIRE recid 1118961, 0 citations), states the same construction as 'magneto-chiral SUSY':\n- 'there are no electrically charged superpartners, only neutral or magnetic charged partners', with g = n(e/2α);\n- the absence of detected monopoles is explained by strong magnetic binding and screening;\n- neutral 'Smatter' is offered as dark matter that 'likely explain[s] the paucity of signals in underground experiments'.\n\nThe model's first public date is therefore 18 June 2012. The two photon classes with βg/βe couplings are new in 2025. The 2025 draft does not cite the 2012 paper.\n\n**Minor correction.** The critic quotes the abstract as 'couple to magnetic particles as g'. The abstract's HTML encodes β before g and e as Symbol-font code point U+F062, and α in 'g=e/α' as U+F061. Browsers and the Book of Abstracts drop these glyphs. The couplings are βg and βe, suppressed at low velocity.\n\n**More public versions, all prior art:**\n- Aspen Winter Conference talk, 3 Mar 2025: title only; the slides were refused by a bot check.\n- APS Global Physics Summit poster H00.346, 18 Mar 2025: abstract read through the Wayback capture.\n- SUSY 2025 talk, 19 Aug 2025: same abstract; its slide 1 links a public 40-page draft dated 17 Aug 2025, which Dropbox still serves and which I read in full.\n- Invisibles25 poster, CERN, September 2025: same abstract, no file.\n- DPF 2026 talk, 23 July 2026: title and truncated abstract only.\n\nFairfield's own pages list no publications for him.\n\n**Labels.** All versions agree.\n- **C4 shared-photon form: partial.** This is the strongest overlap. Every charged SM particle, quarks included, has a magnetic partner under our own photon, hidden by binding into magnetically neutral composites, which is #11 §11.4's second hiding route. Only the momentum polarization is missing, and it is the conjecture's defining clause. The construction has been public since 2012.\n- **C1 identification: related.** Dark matter is the dual of each SM particle, but the duality is electric-magnetic, not phase-space polarization. Under the broad reading of C1 it would be partial.\n- **C1 monopole form, C2, C3: related.** Magnetically charged dark matter, abundant many-typed monopoles, and an explanation of the monopole null result, but by binding in ordinary space, with no momentum localization and no solitons.\n- **C1 χ form: related**, only through generic light self-interacting dark matter. There is no velocity gate; its β suppression acts between the sectors, at low velocity.\n- **C4 separate-photon form: related.** There is no photon of the dual sector. Winn's 'effectively dark photons' and 'U(1)e x U(1)m' are word collisions.\n- **C5, C6, C7: not relevant. Hard core:** word collisions only.\n\n**What it means for the record** (my reading):\n- Winn leaves the record's 'neither form was found' intact: there is no momentum localization, and the draft rejects solitons.\n- C2's 'not found' also stands: his abundance is in ordinary space.\n- He adds an uncited and closer instance to C4's 'partly anticipated', public since 2012.\n- He gives a second published account of the monopole null result (binding, not placement) beside Khademi 2009.\n- His dark sector couples to the SM beyond gravity (Higgs portal, βe photons). That runs against P4 strict, consistent with §11.4's note that the shared-photon form needs P4 restated.\n\nMy files are in /home/paul/git/reinholdtsen/conjugate-matter/work/dual-sector/scratch/v-winn/: downloads in dl/, renders in png/, scripts/check_quotes.py, quotes_final.json (72 quotations, all found by code)."
+}

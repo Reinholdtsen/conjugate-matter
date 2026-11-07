@@ -23,7 +23,7 @@ sources:
 
 *The program's [momentum graviton X](/wiki/gravity/momentum-graviton) is the massive spin-2 field of a two-metric theory: beside the ordinary spacetime metric g there is a second metric f, and X is the combination of their fluctuations that carries mass. The closed-universe note of 2026-10-27 asks what happens to f if the universe is closed. If f is a dynamical field with the same Planck mass as g, which is what the program's reciprocity requires, then f must be closed with the same curvature, it stays almost exactly aligned with g, and the expansion passes smoothly through its turnaround. In the early universe the second metric makes gravity up to twice as strong as today, a step that the checkpoint does not mention, and a known instability of two-metric cosmologies operates above temperatures of about 1.3 TeV, in energy units. If instead f were a fixed background, a closed expanding universe would be impossible, but that reading contradicts the record's equal Planck masses.*
 
-**Status:** Alive — computed, not reviewed — [D][V], with the uniqueness of the closed reference metric [T] (Comelli, Crisostomi, Nesti and Pilo 2012) — every derivation and number is recomputed in section D of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), two of them against published results; the note's results were checked by independent verifiers and a completeness critic and have not been reviewed (`notes/closed-universe.md` header). It bears on flags 5, 51, 52 and 53 in `review/wiki-build-flags.md`, all pending.
+**Status:** Alive — computed, not reviewed — [D][V], with the uniqueness of the closed reference metric [T] ([Comelli, Crisostomi, Nesti and Pilo 2012](https://arxiv.org/abs/1111.1983)) — every derivation and number is recomputed in section D of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), two of them against published results; the note's results were checked by independent verifiers and a completeness critic and have not been reviewed (`notes/closed-universe.md` header). It bears on flags 5, 51, 52 and 53 in `review/wiki-build-flags.md`, all pending.
 
 ## The setting
 
@@ -33,8 +33,8 @@ Both metrics take the homogeneous form of [Friedmann cosmology](/wiki/cosmology/
 
 ## f closes with g [D][V][T]
 
-- **The algebra does not see k.** On the dynamical branch both Friedmann equations depend on the curvature k only through H² + k/a², so the algebraic equation for y, a quartic, does not depend on k (§6). The script checks the quartic against von Strauss et al. 2012's, a published anchor.
-- **f is closed with the same k.** A metric on S³ that respects the symmetry of a closed universe must be a multiple of the round metric: the symmetric two-index tensors invariant under the rotations about a point form a one-dimensional space (§6) [D][V]. That unequal curvatures of the two metrics are inconsistent is [T: Comelli, Crisostomi, Nesti, Pilo 2012, arXiv:1111.1983].
+- **The algebra does not see k.** On the dynamical branch both Friedmann equations depend on the curvature k only through H² + k/a², so the algebraic equation for y, a quartic, does not depend on k (§6). The script checks the quartic against [von Strauss et al. 2012](https://arxiv.org/abs/1111.1655)'s, a published anchor.
+- **f is closed with the same k.** A metric on S³ that respects the symmetry of a closed universe must be a multiple of the round metric: the symmetric two-index tensors invariant under the rotations about a point form a one-dimensional space (§6) [D][V]. That unequal curvatures of the two metrics are inconsistent is [T: Comelli, Crisostomi, Nesti, Pilo 2012, [arXiv:1111.1983](https://arxiv.org/abs/1111.1983)].
 
 ## The branch relation [D][V]
 

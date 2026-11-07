@@ -82,8 +82,8 @@ The first four lines reproduce #14's range: "6.6e-8 - 5.9e-7", "CONFIRMED as ari
 
 The referee read each paper of #14's reference [10] for where the operator comes from (Step 1):
 
-- **Chen–Cline–Frey**, arXiv:0907.4746: the operator exists ("eq. 1: sum_i (1/Lambda_i) Y_mu-nu B^mu-nu_a Delta^a_i"), and "The dimension-5 operator (1) can be induced at one loop by a heavy particle X which carries both dark SU(2) charge and weak hypercharge" (p. 3).
-- **Brümmer–Jaeckel**, arXiv:0902.3615: χ = v/M "(their eq. 25)", generated from a loop of a field charged under both groups, "1/M = e f h/(6 pi^2 m0) (eq. 28)".
+- **Chen–Cline–Frey**, [arXiv:0907.4746](https://arxiv.org/abs/0907.4746): the operator exists ("eq. 1: sum_i (1/Lambda_i) Y_mu-nu B^mu-nu_a Delta^a_i"), and "The dimension-5 operator (1) can be induced at one loop by a heavy particle X which carries both dark SU(2) charge and weak hypercharge" (p. 3).
+- **Brümmer–Jaeckel**, [arXiv:0902.3615](https://arxiv.org/abs/0902.3615): χ = v/M "(their eq. 25)", generated from a loop of a field charged under both groups, "1/M = e f h/(6 pi^2 m0) (eq. 28)".
 - **Gherghetta et al.**, Sec. 3.2.3, for a non-abelian dark sector with an adjoint scalar: "eps ~ g_X g' y_Sigma/(16 pi^2) <Sigma>/Lambda".
 
 The referee's conclusion: "[10] is cited for more than it says: all sources that derive the operator obtain it from bi-charged states with a one-loop factor ~ g g' y/(16 pi^2), not an O(1) coefficient at M_Pl; and bi-charged states are what the manuscript's sector-separation postulate excludes."
@@ -102,11 +102,11 @@ Every source that derives the operator gets it "at one loop from fields charged 
 
 ### Ruling 8: the operator itself exists
 
-The referee also reported that the first paper of [10] does not contain the operator at all. Of Baumgart et al., arXiv:0901.0283, it wrote that the paper does not support the citation: "Its mixing is the renormalizable B_mu-nu b^mu-nu with a dark U(1) factor: "Since G_dark must contain a U(1) factor, the minimal choice is ... SU(2) x U(1)" (p.5). No adjoint dim-5 operator found (grep "dimension five/5", "non-renormalizable": no hits relevant)" (Step 1).
+The referee also reported that the first paper of [10] does not contain the operator at all. Of Baumgart et al., [arXiv:0901.0283](https://arxiv.org/abs/0901.0283), it wrote that the paper does not support the citation: "Its mixing is the renormalizable B_mu-nu b^mu-nu with a dark U(1) factor: "Since G_dark must contain a U(1) factor, the minimal choice is ... SU(2) x U(1)" (p.5). No adjoint dim-5 operator found (grep "dimension five/5", "non-renormalizable": no hits relevant)" (Step 1).
 
 The adjudicator checked the paper and overturned the finding. Ruling 8:
 
-> arXiv:0901.0283v2, p. 5, footnote 5, verbatim: "It is actually possible to achieve mixing without an abelian factor through an S parameter type operator Tr[Φw_μν]B^μν, where Φ is some operator that transforms as an adjoint of the non-abelian group." The referee missed the footnote.
+> [arXiv:0901.0283v2](https://arxiv.org/abs/0901.0283v2), p. 5, footnote 5, verbatim: "It is actually possible to achieve mixing without an abelian factor through an S parameter type operator Tr[Φw_μν]B^μν, where Φ is some operator that transforms as an adjoint of the non-abelian group." The referee missed the footnote.
 
 The footnote's name for the operator refers to the electroweak S parameter, a precision observable to which the analogous operator built from our own Higgs field contributes [T]. The text search used words the footnote does not contain. The v3 worklog had cited the same footnote ("Baumgart et al. 2009 fn.", R4). The adjudication's scoring of the pre-registration records the outcome: "The referee's one misattribution claim (Baumgart) was itself wrong."
 

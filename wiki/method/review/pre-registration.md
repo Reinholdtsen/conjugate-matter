@@ -34,6 +34,9 @@ sources:
   - "review/literature-check/preregistration.md"
   - "review/literature-check/README.md"
   - "notes/literature-check.md §11"
+  - "review/dual-sector/preregistration.md"
+  - "notes/dual-sector.md header"
+  - "notes/dual-sector.md §13"
 ---
 
 *Pre-registration is the practice of writing down the verdict a blind review is expected to return and the weakest point the referee is expected to find, and fixing that forecast before the referee is dispatched: in rounds 3 and 4 by committing it to the repository, in round 5 by keeping it outside the repository and recording its hash. Because the forecast is fixed in advance it cannot be adjusted to the outcome, and scoring it afterwards measures how well the author judges the author's own work. The record so far: the verdict was forecast correctly in rounds 1 and 2, missed in round 3 and forecast correctly in rounds 4 and 5; the location of the weakest link was forecast correctly in rounds 4 and 5, while the severity of the defect there in round 4, and the number of small errors and the extent of prior art in round 5, were underestimated. Since round 3 the forecast has been kept out of the commit subject, because a referee subagent sees recent commit subjects.*
@@ -159,6 +162,16 @@ The same practice was applied on 2026-11-02 to [the literature check](/wiki/meth
 
 No review round followed: the note has not been through a blind review round, though agents reviewed its write-up (`notes/literature-check.md` §11).
 
+### The dual-sector investigation (not a review round)
+
+The same practice was applied on 2026-11-06 to the close reading of the papers of Minic and coauthors on dark matter as the dual of visible matter ([dark matter as the dual Standard Model](/wiki/dark-matter/conjugate-matter/dual-standard-model)). Its fourteen predictions, each with a stated probability, and the weakest link it named were written before any agent was launched and kept outside the repository until the agents were done; the file is now `review/dual-sector/preregistration.md`. Its scoring (`notes/dual-sector.md` §13):
+
+- ten of the fourteen predictions held; the sum of the stated probabilities was 10.25;
+- three of the four misses underestimated how close the group comes to the program: an earlier public date, a regime of coupling by gravity alone, and a vacuum-level breaking tied to the choice of polarization; the fourth underestimated a difference, that the group expects detection;
+- the weakest link named, the choice of polarization, was a miss.
+
+No review round followed: the note has not been through a blind review round (`notes/dual-sector.md` header).
+
 ### Across rounds
 
 The round-5 adjudication sums up the record:
@@ -210,3 +223,4 @@ Round 5's forecast was not committed before the review. The pre-registration say
 - `review/closed-universe/preregistration.md`, `review/closed-universe/README.md` and `notes/closed-universe.md` §10 — the closed-universe investigation's sealed forecast, its hash and its scoring
 - `review/momentum-gravity/README.md`, `review/momentum-gravity/preregistration-run2.md`, `review/momentum-gravity/preregistration-run3.md`, `review/momentum-gravity/preregistration-run4.md`, `notes/velocity-gated-gravity.md` §11 and `notes/gate-mechanism.md` §6 — the momentum-gravity investigation's three pre-registrations, the run-2 blindness failure, and the scores
 - `review/literature-check/preregistration.md`, `review/literature-check/README.md` and `notes/literature-check.md` §11 — the literature check's forecast, its disclosure, its storage outside the agents' folders and its scoring
+- `review/dual-sector/preregistration.md` and `notes/dual-sector.md` §13 — the dual-sector investigation's forecast, kept outside the repository until the agents were done, and its scoring; the note's header — not through a blind review round

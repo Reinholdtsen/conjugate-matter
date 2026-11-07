@@ -70,7 +70,7 @@ The same bound fixes the bottom of the surviving wave island: "The surviving wav
 
 ## References
 
-- The checkpoint's [15]†: N. Dalal, A. Kravtsov, "Excluding fuzzy dark matter with sizes and stellar kinematics of ultrafaint dwarf galaxies," Phys. Rev. D 106, 063517 (2022), arXiv:2203.05750.
+- The checkpoint's [15]†: N. Dalal, A. Kravtsov, "Excluding fuzzy dark matter with sizes and stellar kinematics of ultrafaint dwarf galaxies," Phys. Rev. D 106, 063517 (2022), [arXiv:2203.05750](https://arxiv.org/abs/2203.05750).
 
 The program cites nothing for the Lyman-α limit or for fuzzy dark matter in general. Added by the wiki from model memory (†):
 

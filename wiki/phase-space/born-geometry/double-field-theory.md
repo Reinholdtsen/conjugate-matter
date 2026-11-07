@@ -68,7 +68,7 @@ The literature gives three routes (toy-model note §1; worklog chunk 4, "all cit
 
 - **Imposed** for closure of the gauge algebra (Hull–Zwiebach; Hohm–Hull–Zwiebach).
 - **Derived from string consistency.** Betz, Blumenhagen, Lüst and Rennecke derive it "from modular invariance plus amplitude poles" (worklog); the round-4 referee confirmed the derivation from conformal field theory, "factorization of Virasoro-Shapiro amplitude".
-- **Derived from worldsheet locality** in Freidel, Leigh and Minic's metastring paper, arXiv:1502.08005 §6 (worklog).
+- **Derived from worldsheet locality** in Freidel, Leigh and Minic's metastring paper, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005) §6 (worklog).
 
 None of the derivations picks out one section. Version 2 of the toy-model note (§1): "Those derivations leave the section undetermined within a family — a pair for d = 1, a continuous family for d > 1." Betz et al. find "w = 0 for M = 1 and p = 0 for M = −1" (worklog), where M is an O(d) matrix, and p and w are a closed string's momentum and winding.
 
@@ -78,10 +78,10 @@ The wording has a correction history. The worklog first wrote "Every derivation 
 
 That the choice of section is made dynamically has been said only in words (worklog chunk 4):
 
-- Freidel, Rudolph and Svoboda (arXiv:1706.07089): the choice "might be subject to a dynamical selection rule". The round-4 referee found the phrase verbatim, with "the kinematical structure of spacetime itself" as its subject, and judged the paraphrase acceptable.
-- Freidel, Leigh and Minic (arXiv:1502.08005): "a dynamical question".
-- Bernardo, Brandenberger and Franzmann (arXiv:1901.01209), "whose support is a personal communication".
-- Freidel, Leigh and Minic's linearized □_η H = 0 (arXiv:1405.3949) "is the weak constraint, and is solved along either null line".
+- Freidel, Rudolph and Svoboda ([arXiv:1706.07089](https://arxiv.org/abs/1706.07089)): the choice "might be subject to a dynamical selection rule". The round-4 referee found the phrase verbatim, with "the kinematical structure of spacetime itself" as its subject, and judged the paraphrase acceptable.
+- Freidel, Leigh and Minic ([arXiv:1502.08005](https://arxiv.org/abs/1502.08005)): "a dynamical question".
+- Bernardo, Brandenberger and Franzmann ([arXiv:1901.01209](https://arxiv.org/abs/1901.01209)), "whose support is a personal communication".
+- Freidel, Leigh and Minic's linearized □_η H = 0 ([arXiv:1405.3949](https://arxiv.org/abs/1405.3949)) "is the weak constraint, and is solved along either null line".
 
 The worklog's verdict: "Open: a mechanism that picks L over L̃. Each candidate in the literature either selects the pair only, or uses outside input: which modes are light, distance-dependent interactions, or a curved position space."
 
@@ -97,18 +97,18 @@ The program meets the same gap. Its toy section condition, built from the vacuum
 
 **The section condition, borrowed.** The [lab notebook](/wiki/history/documents/lab-notebook)'s [geometric action](/wiki/gravity/tuning-test/geometric-action) used the same device: "Field dependence is restricted to a Lagrangian leaf by a section condition, as in double field theory; consistency of the section condition on general backgrounds is open there and open here. [O]" (#1 §2). That item left the program's open-problem list unresolved; [the section condition](/wiki/symmetry-breaking/section-condition) records its fate and the toy-model version.
 
-**Broken O(D, D).** The worklog's prior-art survey lists double field theory with spontaneously broken O(D, D) (Angus, Kim and Park, arXiv:2111.07947) as related but not the same: "there H is the order parameter, with η fixed" [S] (worklog, 'Chunk 1 results'). In the program η itself is the [order parameter](/wiki/symmetry-breaking/order-parameter) ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
+**Broken O(D, D).** The worklog's prior-art survey lists double field theory with spontaneously broken O(D, D) (Angus, Kim and Park, [arXiv:2111.07947](https://arxiv.org/abs/2111.07947)) as related but not the same: "there H is the order parameter, with η fixed" [S] (worklog, 'Chunk 1 results'). In the program η itself is the [order parameter](/wiki/symmetry-breaking/order-parameter) ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
 
 ## References
 
 As the documents give them; the toy-model note's list is unmarked, and the worklog marks every entry [S]:
 
-- C. Hull, B. Zwiebach, "Double field theory," JHEP 09 (2009) 099, arXiv:0904.4664; O. Hohm, C. Hull, B. Zwiebach, "Background independent action for double field theory," JHEP 07 (2010) 016, arXiv:1003.5027 (toy-model note ref. [11]).
-- A. Betz, R. Blumenhagen, D. Lüst, F. Rennecke, "A note on the [conformal field theory] origin of the strong constraint of [double field theory]," JHEP 05 (2014) 044, arXiv:1402.1686 (toy-model note ref. [12]).
-- Reviews arXiv:1305.1907, arXiv:1306.2643 and arXiv:1309.2977 [S] (worklog only).
-- L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005 (#11 ref. [26][S]).
-- L. Freidel, F. J. Rudolph, D. Svoboda, "Generalised kinematics for double field theory," JHEP 11 (2017) 175, arXiv:1706.07089 (toy-model note ref. [2]).
-- Bernardo, Brandenberger and Franzmann, arXiv:1901.01209; Angus, Kim and Park, arXiv:2111.07947 [S] (worklog only).
+- C. Hull, B. Zwiebach, "Double field theory," JHEP 09 (2009) 099, [arXiv:0904.4664](https://arxiv.org/abs/0904.4664); O. Hohm, C. Hull, B. Zwiebach, "Background independent action for double field theory," JHEP 07 (2010) 016, [arXiv:1003.5027](https://arxiv.org/abs/1003.5027) (toy-model note ref. [11]).
+- A. Betz, R. Blumenhagen, D. Lüst, F. Rennecke, "A note on the [conformal field theory] origin of the strong constraint of [double field theory]," JHEP 05 (2014) 044, [arXiv:1402.1686](https://arxiv.org/abs/1402.1686) (toy-model note ref. [12]).
+- Reviews [arXiv:1305.1907](https://arxiv.org/abs/1305.1907), [arXiv:1306.2643](https://arxiv.org/abs/1306.2643) and [arXiv:1309.2977](https://arxiv.org/abs/1309.2977) [S] (worklog only).
+- L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, [arXiv:1502.08005](https://arxiv.org/abs/1502.08005) (#11 ref. [26][S]).
+- L. Freidel, F. J. Rudolph, D. Svoboda, "Generalised kinematics for double field theory," JHEP 11 (2017) 175, [arXiv:1706.07089](https://arxiv.org/abs/1706.07089) (toy-model note ref. [2]).
+- Bernardo, Brandenberger and Franzmann, [arXiv:1901.01209](https://arxiv.org/abs/1901.01209); Angus, Kim and Park, [arXiv:2111.07947](https://arxiv.org/abs/2111.07947) [S] (worklog only).
 
 ## Used by
 
