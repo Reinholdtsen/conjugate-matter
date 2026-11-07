@@ -67,11 +67,14 @@ which finished after the scoring, changed no hit or miss.
 
 ## Files
 
-- `brief.md` — the brief every agent was given; `program.md` — #11's statements, extracted verbatim by code.
+- `brief.md` — the brief every agent was given; `program.md` — #11's statements, extracted verbatim by code;
+  `propagation/facts.md` — the facts, wording and links the agents of the two propagation rounds were given.
 - `preregistration.md` — the predictions, the weakest link, the scoring rule and the score.
 - `readers/` — the nine readers' and nine verifiers' outputs as returned.
 - `panel/` — the evidence as the panel read it, the four judges' outputs and the critic's.
 - `round2/` — round 2's outputs.
+- `propagation/results.json`, `finish/results.json` — workflows D and E: the editors' and checkers' reports of the two
+  propagation rounds, and the three reviewers' findings with their refuters'.
 - `workflows/` — the workflow scripts and `usage.json`.
 - `sources.json`, `quotes.json`, `events.json` — what the gate checks the note against.
 - `tools/` — `lit.py`, `make_sources.py`, `make_quotes.py`, `refs.py` (the note's reference list), `split.py`,
