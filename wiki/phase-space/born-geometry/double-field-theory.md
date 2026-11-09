@@ -5,16 +5,16 @@ status: established
 description: "String theory's doubled geometry: the O(d, d) generalized metric with its Kalb–Ramond B-field, and the section (strong) condition with its derivations — the contrast case for the program."
 provenance: [T]
 sources:
-  - "papers/reciprocity-toy-models.md §1"
-  - "papers/reciprocity-toy-models.md §5"
-  - "papers/reciprocity-toy-models.md ref [11]"
-  - "papers/reciprocity-toy-models.md ref [12]"
+  - "wiki/papers/reciprocity-toy-models.md §1"
+  - "wiki/papers/reciprocity-toy-models.md §5"
+  - "wiki/papers/reciprocity-toy-models.md ref [11]"
+  - "wiki/papers/reciprocity-toy-models.md ref [12]"
   - "notes/toy-lagrangian.md 'Chunk 4 (in progress, 2026-10-19): S5'"
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "review/round4-adjudication.md 'Rulings'"
   - "review/round4/referee/audit-notes.md Step 1"
-  - "papers/broken-born-checkpoint-v2.md §5"
-  - "papers/broken-born-checkpoint-v2.md §7.1"
+  - "wiki/papers/broken-born-checkpoint-v2.md §5"
+  - "wiki/papers/broken-born-checkpoint-v2.md §7.1"
   - "notes/geometric-core.md §A"
   - "notes/geometric-core.md §D"
   - "notes/x-classification.md §2"
@@ -24,28 +24,28 @@ sources:
   - "review/round3/referee/step3.py family (c)"
 ---
 
-*Double field theory is a formulation of the low-energy fields of closed string theory (the metric, the antisymmetric [Kalb–Ramond B-field](/wiki/phase-space/born-geometry/kalb-ramond-field) and the dilaton) on a doubled space, in which each ordinary coordinate has a partner "dual" coordinate. Its central object, the generalized metric, packages the metric and the B-field into one matrix that preserves a neutral metric η, and its symmetry group O(d, d) is the group of transformations that preserve η. For the theory to be consistent, fields may depend on only half of the doubled coordinates: the section, or strong, condition. The known derivations of that condition leave open which half, and no mechanism that selects one is known. For the program, double field theory is the contrast case. Doubling geometry with η gives the metric an antisymmetric partner, the B-field; doubling it with the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω gives it a symmetric partner, a second graviton; and holding ω rigid as well as η removes the B-field altogether.*
+*Double field theory is a formulation of the low-energy fields of closed string theory (the metric, the antisymmetric [Kalb–Ramond B-field](kalb-ramond-field.md) and the dilaton) on a doubled space, in which each ordinary coordinate has a partner "dual" coordinate. Its central object, the generalized metric, packages the metric and the B-field into one matrix that preserves a neutral metric η, and its symmetry group O(d, d) is the group of transformations that preserve η. For the theory to be consistent, fields may depend on only half of the doubled coordinates: the section, or strong, condition. The known derivations of that condition leave open which half, and no mechanism that selects one is known. For the program, double field theory is the contrast case. Doubling geometry with η gives the metric an antisymmetric partner, the B-field; doubling it with the [symplectic form](../reciprocity/symplectic-form.md) ω gives it a symmetric partner, a second graviton; and holding ω rigid as well as η removes the B-field altogether.*
 
-**Status:** Established — literature [T]; the citations were retrieved by live search during the project [S] (the toy-model worklog, chunk 4; the [toy-model note](/wiki/symmetry-breaking/toy-models) lists the same works unmarked) — not machine-checked as physics; [review round 3](/wiki/method/review/round-3) checked numerically that generalized metrics with a B-field satisfy the η condition and fail the ω condition. A mechanism that selects one section is open, in the literature as in the program.
+**Status:** Established — literature [T]; the citations were retrieved by live search during the project [S] (the toy-model worklog, chunk 4; the [toy-model note](../../symmetry-breaking/toy-models/_index.md) lists the same works unmarked) — not machine-checked as physics; [review round 3](../../method/review/round-3/_index.md) checked numerically that generalized metrics with a B-field satisfy the η condition and fail the ω condition. A mechanism that selects one section is open, in the literature as in the program.
 
 ## The doubled space [T]
 
 A closed string on a circle carries two kinds of conserved charge: momentum around the circle and the number of times it winds around it. T-duality exchanges the two and relates a circle to one of inverse radius in string units. Double field theory makes this symmetry manifest by giving each coordinate xⁱ a dual coordinate x̃ᵢ, conjugate to winding, and writing the massless closed-string fields as fields on the 2d-dimensional doubled space. The theory under this name is Hull and Zwiebach's (the toy-model note's ref. [11]).
 
-The doubled space carries a neutral metric, the pairing of each coordinate with its dual. In the basis (x, x̃) it has the standard form [[0, 1], [1, 0]], the same form as the program's η ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). The linear maps that preserve it form O(d, d). This group contains the T-duality transformations, the ordinary changes of coordinates and the constant shifts of the B-field [T].
+The doubled space carries a neutral metric, the pairing of each coordinate with its dual. In the basis (x, x̃) it has the standard form [[0, 1], [1, 0]], the same form as the program's η ([the structures ω, η, H](born-structures.md)). The linear maps that preserve it form O(d, d). This group contains the T-duality transformations, the ordinary changes of coordinates and the constant shifts of the B-field [T].
 
 ## The generalized metric [T]
 
-The generalized metric H combines the metric g and the antisymmetric B-field into one symmetric 2d × 2d matrix. In the program's block basis, the round-3 referee's script writes this family as (`review/round3/referee/step3.py`, family (c), B antisymmetric):
+The generalized metric H combines the metric g and the antisymmetric B-field into one symmetric 2d × 2d matrix. In the program's block basis, the round-3 referee's script writes this family as ([`review/round3/referee/step3.py`](../../../review/round3/referee/step3.py), family (c), B antisymmetric):
 
 ```text
 H = [[ g − B g⁻¹ B ,  B g⁻¹ ],
      [ −g⁻¹ B      ,  g⁻¹   ]]
 ```
 
-At B = 0 it reduces to diag(g, g⁻¹). The generalized metric is itself an element of O(d, d). For a symmetric H this is the statement (η⁻¹H)² = 1, the first of the two conditions in [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) [T].
+At B = 0 it reduces to diag(g, g⁻¹). The generalized metric is itself an element of O(d, d). For a symmetric H this is the statement (η⁻¹H)² = 1, the first of the two conditions in [the compatibility theorem](compatibility-theorem.md) [T].
 
-The B-field, a 2-form gauge field with gauge symmetry δB = dλ, has its own page, [the Kalb–Ramond B-field](/wiki/phase-space/born-geometry/kalb-ramond-field): its field strength and its coupling to strings, why T-duality mixes it with the metric, how it enters H as a shear that preserves η, and the program's uses of it. With the dilaton, the metric and the B-field make up double field theory's massless sector, and that sector propagates without [ghosts](/wiki/gravity/spin-2-fields/ghosts) [T].
+The B-field, a 2-form gauge field with gauge symmetry δB = dλ, has its own page, [the Kalb–Ramond B-field](kalb-ramond-field.md): its field strength and its coupling to strings, why T-duality mixes it with the metric, how it enters H as a shear that preserves η, and the program's uses of it. With the dilaton, the metric and the B-field make up double field theory's massless sector, and that sector propagates without [ghosts](../../gravity/spin-2-fields/ghosts.md) [T].
 
 ## The section condition [T]
 
@@ -54,7 +54,7 @@ Fields on the doubled space cannot depend freely on all 2d coordinates. Closure 
 - the **weak constraint**: η^{AB}∂_A∂_B annihilates every field and gauge parameter. On a torus it is the closed string's level-matching condition, and Hull and Zwiebach's 2009 paper uses it (round-4 referee, Step 1);
 - the **strong constraint**, or section condition: η^{AB}∂_A∂_B also annihilates every product of fields. Hohm, Hull and Zwiebach show it is "equivalent to restriction ... to a maximally isotropic subspace" (quoted by the round-4 referee).
 
-A maximally isotropic subspace has dimension d, the largest possible, and η vanishes on it. A section is such a subspace: all fields depend only on its coordinates. The standard choice, fields independent of x̃, gives back the ordinary metric, B-field and dilaton of string theory's low-energy limit [T]. In the toy-model note's notation for d = 1 the condition reads (§5):
+A maximally isotropic subspace has dimension d, the largest possible, and η vanishes on it. A section is such a subspace: all fields depend only on its coordinates. The standard choice, fields independent of x̃, gives back the ordinary metric, B-field and dilaton of string theory's low-energy limit [T]. In the toy-model note's notation for d = 1 the condition reads ([§5](../../papers/reciprocity-toy-models.md#5-matter-and-locality)):
 
 ```text
 η^{AB} ∂_A f ∂_B g = 0,     η^{AB} ∂_A ∂_B f = 0
@@ -64,7 +64,7 @@ How many sections there are depends on the dimension. In d = 1 the doubled space
 
 ## Where the condition comes from
 
-The literature gives three routes (toy-model note §1; worklog chunk 4, "all citations retrieved [S]"):
+The literature gives three routes ([toy-model note §1](../../papers/reciprocity-toy-models.md#1-setting-and-prior-work); worklog chunk 4, "all citations retrieved [S]"):
 
 - **Imposed** for closure of the gauge algebra (Hull–Zwiebach; Hohm–Hull–Zwiebach).
 - **Derived from string consistency.** Betz, Blumenhagen, Lüst and Rennecke derive it "from modular invariance plus amplitude poles" (worklog); the round-4 referee confirmed the derivation from conformal field theory, "factorization of Virasoro-Shapiro amplitude".
@@ -72,7 +72,7 @@ The literature gives three routes (toy-model note §1; worklog chunk 4, "all cit
 
 None of the derivations picks out one section. Version 2 of the toy-model note (§1): "Those derivations leave the section undetermined within a family — a pair for d = 1, a continuous family for d > 1." Betz et al. find "w = 0 for M = 1 and p = 0 for M = −1" (worklog), where M is an O(d) matrix, and p and w are a closed string's momentum and winding.
 
-The wording has a correction history. The worklog first wrote "Every derivation selects only the pair {L, L̃}". The round-4 referee judged the claim overstated, and the adjudication upheld the finding "'Every derivation selects the pair' holds only for d = 1", with the evidence "For d > 1, Betz–Blumenhagen–Lüst–Rennecke's M ∈ O(d) gives a continuous family of sections." Version 2 of the note restricts the pair to d = 1 ([review round 4](/wiki/method/review/round-4)).
+The wording has a correction history. The worklog first wrote "Every derivation selects only the pair {L, L̃}". The round-4 referee judged the claim overstated, and the adjudication upheld the finding "'Every derivation selects the pair' holds only for d = 1", with the evidence "For d > 1, Betz–Blumenhagen–Lüst–Rennecke's M ∈ O(d) gives a continuous family of sections." Version 2 of the note restricts the pair to d = 1 ([review round 4](../../method/review/round-4.md)).
 
 ## Open: a mechanism that selects one section
 
@@ -85,19 +85,19 @@ That the choice of section is made dynamically has been said only in words (work
 
 The worklog's verdict: "Open: a mechanism that picks L over L̃. Each candidate in the literature either selects the pair only, or uses outside input: which modes are light, distance-dependent interactions, or a curved position space."
 
-The program meets the same gap. Its toy section condition, built from the vacuum's η, "confines matter to one null line without telling the two apart" (toy-model note §5; [the section condition](/wiki/symmetry-breaking/section-condition)), and the stronger claim that locality is forced rather than chosen is "not achieved" (worklog, S5 conclusion). In the toy, matter's section is tied to the sign of the vacuum's real structure K only through a coupling built from H and K ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)), and "The lock is P4" ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality); [open problems](/wiki/status/open-problems)).
+The program meets the same gap. Its toy section condition, built from the vacuum's η, "confines matter to one null line without telling the two apart" ([toy-model note §5](../../papers/reciprocity-toy-models.md#5-matter-and-locality); [the section condition](../../symmetry-breaking/section-condition.md)), and the stronger claim that locality is forced rather than chosen is "not achieved" (worklog, S5 conclusion). In the toy, matter's section is tied to the sign of the vacuum's real structure K only through a coupling built from H and K ([locality from an (H, K)-built coupling](../../symmetry-breaking/matter-coupling.md)), and "The lock is P4" ([Open: forced locality and the P4 lock](../../symmetry-breaking/strong-locality.md); [open problems](../../status/open-problems.md)).
 
 ## Double field theory as the program's contrast case
 
-**The partner's spin.** Calc note [#6](/wiki/history/documents/field-equation-notes) §2 sets the two doublings side by side. Doubling with ω makes the partner of the metric the symmetric tensor X ([the momentum graviton](/wiki/gravity/momentum-graviton)), whose dual diffeomorphisms δX_μν = ∂₍μλ_ν₎ are a second copy of linearized diffeomorphisms; in double field theory "there the doubled partner is the antisymmetric B-field, δB = dλ, a 2-form gauge theory — spin-wise harmless. The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field. This is the structural reason string theory's η-doubling exists and naive ω-doubling is hard: the symplectic partner of the graviton is another graviton." (#6 §2; η itself is a symmetric pairing, #1 §1, and the phrase is quoted as #6 writes it; see flag 15 in `review/wiki-build-flags.md`.) Checkpoint [#11](/wiki/history/documents/checkpoint) §7.1 keeps the contrast: X is symmetric, "contrast [double field theory's] antisymmetric B-field: the symmetry type of the rigid pairing dictates the partner's spin". See [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner) and [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms).
+**The partner's spin.** Calc note [#6](../../history/documents/field-equation-notes.md) [§2](../../../notes/x-classification.md#2-the-gauge-structure-and-the-no-go-d--t) sets the two doublings side by side. Doubling with ω makes the partner of the metric the symmetric tensor X ([the momentum graviton](../../gravity/momentum-graviton/_index.md)), whose dual diffeomorphisms δX_μν = ∂₍μλ_ν₎ are a second copy of linearized diffeomorphisms; in double field theory "there the doubled partner is the antisymmetric B-field, δB = dλ, a 2-form gauge theory — spin-wise harmless. The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field. This is the structural reason string theory's η-doubling exists and naive ω-doubling is hard: the symplectic partner of the graviton is another graviton." ([#6 §2](../../../notes/x-classification.md#2-the-gauge-structure-and-the-no-go-d--t); η itself is a symmetric pairing, [#1 §1](../../../notes/broken-born-theory.md#1-postulates), and the phrase is quoted as #6 writes it; see flag 15 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md).) Checkpoint [#11](../../history/documents/checkpoint.md) [§7.1](../../papers/broken-born-checkpoint-v2.md#71-the-chain-d--t) keeps the contrast: X is symmetric, "contrast [double field theory's] antisymmetric B-field: the symmetry type of the rigid pairing dictates the partner's spin". See [the symplectic partner of the graviton](../../gravity/momentum-graviton/symplectic-partner.md) and [dual diffeomorphisms](../../gravity/momentum-graviton/dual-diffeomorphisms.md).
 
-**No B-field once ω is rigid too.** Generalized metrics built from a metric and a B-field satisfy the η condition, and satisfy the ω condition only when the B-field vanishes. #11 §5, crediting Freidel, Leigh and Minic: "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." Calc note #5 §A states the same as corollary 2 of the compatibility theorem: "The off-diagonal block — [double field theory's] B-field — is frozen out by the extra symplectic compatibility. Born geometry with both structures rigid is *stiffer* than [double field theory]." Round 3 checked the family numerically at d = 3 and 4: "eta residual <= 7e-14 but omega residual >= 0.28 (d=3), 1.48 (d=4)" (audit notes, Step 3; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
+**No B-field once ω is rigid too.** Generalized metrics built from a metric and a B-field satisfy the η condition, and satisfy the ω condition only when the B-field vanishes. [#11 §5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem), crediting Freidel, Leigh and Minic: "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." Calc note [#5 §A](../../../notes/geometric-core.md#a-the-compatibility-theorem-d--rigorous) states the same as corollary 2 of the compatibility theorem: "The off-diagonal block — [double field theory's] B-field — is frozen out by the extra symplectic compatibility. Born geometry with both structures rigid is *stiffer* than [double field theory]." Round 3 checked the family numerically at d = 3 and 4: "eta residual <= 7e-14 but omega residual >= 0.28 (d=3), 1.48 (d=4)" (audit notes, Step 3; [the corollaries](compatibility-corollaries.md)).
 
-**A healthy precedent.** Double field theory's ghost-free massless sector is the program's evidence that a doubled geometry can have healthy kinetic terms (#5 §D), cited where the field content of the broken vacuum is still open ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
+**A healthy precedent.** Double field theory's ghost-free massless sector is the program's evidence that a doubled geometry can have healthy kinetic terms ([#5 §D](../../../notes/geometric-core.md#d-quadratic-spectrum-and-the-ghost-question-partial)), cited where the field content of the broken vacuum is still open ([Open: field content of the broken vacuum](../modular-field/field-content.md)).
 
-**The section condition, borrowed.** The [lab notebook](/wiki/history/documents/lab-notebook)'s [geometric action](/wiki/gravity/tuning-test/geometric-action) used the same device: "Field dependence is restricted to a Lagrangian leaf by a section condition, as in double field theory; consistency of the section condition on general backgrounds is open there and open here. [O]" (#1 §2). That item left the program's open-problem list unresolved; [the section condition](/wiki/symmetry-breaking/section-condition) records its fate and the toy-model version.
+**The section condition, borrowed.** The [lab notebook](../../history/documents/lab-notebook.md)'s [geometric action](../../gravity/tuning-test/geometric-action.md) used the same device: "Field dependence is restricted to a Lagrangian leaf by a section condition, as in double field theory; consistency of the section condition on general backgrounds is open there and open here. [O]" ([#1 §2](../../../notes/broken-born-theory.md#2-kinematic-core)). That item left the program's open-problem list unresolved; [the section condition](../../symmetry-breaking/section-condition.md) records its fate and the toy-model version.
 
-**Broken O(D, D).** The worklog's prior-art survey lists double field theory with spontaneously broken O(D, D) (Angus, Kim and Park, [arXiv:2111.07947](https://arxiv.org/abs/2111.07947)) as related but not the same: "there H is the order parameter, with η fixed" [S] (worklog, 'Chunk 1 results'). In the program η itself is the [order parameter](/wiki/symmetry-breaking/order-parameter) ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
+**Broken O(D, D).** The worklog's prior-art survey lists double field theory with spontaneously broken O(D, D) (Angus, Kim and Park, [arXiv:2111.07947](https://arxiv.org/abs/2111.07947)) as related but not the same: "there H is the order parameter, with η fixed" [S] (worklog, 'Chunk 1 results'). In the program η itself is the [order parameter](../../symmetry-breaking/order-parameter.md) ([broken Born duality](../reciprocity/broken-born-duality.md)).
 
 ## References
 
@@ -112,24 +112,24 @@ As the documents give them; the toy-model note's list is unmarked, and the workl
 
 ## Used by
 
-- [P1: the phase-space arena](/wiki/program/postulates/p1-arena) — the name "generalized metric" comes from double field theory.
-- [Original P2: both structures rigid (superseded)](/wiki/program/postulates/original-p2) and [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — corollary 2: with ω rigid as well as η, the B-field is frozen out.
-- [The section condition: what η fixes](/wiki/symmetry-breaking/section-condition) — the toy version of the condition, built from the vacuum's η.
-- [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — no known mechanism picks one section.
-- [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — the contrast between η-doubling and ω-doubling.
-- [Dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) — X's gauge symmetry set against the B-field's.
-- [The geometric action S_H and the v0.1 action (superseded)](/wiki/gravity/tuning-test/geometric-action) — the planned quadratic-order analysis leaned on the linearized double-field-theory spectrum.
-- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the precedent for healthy doubled kinetic terms.
-- [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the symmetric X set against string theory's antisymmetric B-field.
+- [P1: the phase-space arena](../../program/postulates/p1-arena.md) — the name "generalized metric" comes from double field theory.
+- [Original P2: both structures rigid (superseded)](../../program/postulates/original-p2.md) and [the nontriviality theorem](../../program/postulates/nontriviality-theorem.md) — corollary 2: with ω rigid as well as η, the B-field is frozen out.
+- [The section condition: what η fixes](../../symmetry-breaking/section-condition.md) — the toy version of the condition, built from the vacuum's η.
+- [Open: forced locality and the P4 lock](../../symmetry-breaking/strong-locality.md) — no known mechanism picks one section.
+- [The symplectic partner of the graviton is another graviton](../../gravity/momentum-graviton/symplectic-partner.md) — the contrast between η-doubling and ω-doubling.
+- [Dual diffeomorphisms: a second graviton](../../gravity/momentum-graviton/dual-diffeomorphisms.md) — X's gauge symmetry set against the B-field's.
+- [The geometric action S_H and the v0.1 action (superseded)](../../gravity/tuning-test/geometric-action.md) — the planned quadratic-order analysis leaned on the linearized double-field-theory spectrum.
+- [Open: field content of the broken vacuum](../modular-field/field-content.md) — the precedent for healthy doubled kinetic terms.
+- [Open: one modular structure for both polarizations (OP8)](../../electric-magnetic-duality/unified-modular-structure.md) — the symmetric X set against string theory's antisymmetric B-field.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §5, §7.1 — the Freidel–Leigh–Minic statement in terms of (G, B); the partner's spin.
-- `papers/reciprocity-toy-models.md` §1, §5 and refs. [11], [12] — the section condition, its derivations, the d = 1 pair and the d > 1 family; the toy condition built from η.
-- `review/round4-adjudication.md` "Rulings" — the "pair" restricted to d = 1.
-- `review/round4/referee/audit-notes.md` Step 1 — weak and strong constraints in the cited papers; the continuous family; the Freidel–Rudolph–Svoboda quotation.
-- `review/round3/referee/audit-notes.md` Step 3 and `review/round3/referee/step3.py` family (c) — the generalized metric with a B-field, checked numerically.
-- `notes/geometric-core.md` §A, §D — corollary 2 (no Kalb–Ramond analog); the healthy precedent.
-- `notes/x-classification.md` §2 — the B-field as a spin-harmless partner.
-- `notes/toy-lagrangian.md` chunk 4 (S5) — the live-searched literature on deriving and selecting the section; 'Chunk 1 results' — broken O(D, D) with H as order parameter.
-- `notes/broken-born-theory.md` §1, §2 — η as a symmetric neutral metric; the v0.1 section condition, "open there and open here".
+- [`wiki/papers/broken-born-checkpoint-v2.md` §5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem), [§7.1](../../papers/broken-born-checkpoint-v2.md#71-the-chain-d--t) — the Freidel–Leigh–Minic statement in terms of (G, B); the partner's spin.
+- [`wiki/papers/reciprocity-toy-models.md` §1](../../papers/reciprocity-toy-models.md#1-setting-and-prior-work), [§5](../../papers/reciprocity-toy-models.md#5-matter-and-locality) and refs. [11], [12] — the section condition, its derivations, the d = 1 pair and the d > 1 family; the toy condition built from η.
+- [`review/round4-adjudication.md`](../../../review/round4-adjudication.md) "Rulings" — the "pair" restricted to d = 1.
+- [`review/round4/referee/audit-notes.md`](../../../review/round4/referee/audit-notes.md) Step 1 — weak and strong constraints in the cited papers; the continuous family; the Freidel–Rudolph–Svoboda quotation.
+- [`review/round3/referee/audit-notes.md`](../../../review/round3/referee/audit-notes.md) Step 3 and [`review/round3/referee/step3.py`](../../../review/round3/referee/step3.py) family (c) — the generalized metric with a B-field, checked numerically.
+- [`notes/geometric-core.md` §A](../../../notes/geometric-core.md#a-the-compatibility-theorem-d--rigorous), [§D](../../../notes/geometric-core.md#d-quadratic-spectrum-and-the-ghost-question-partial) — corollary 2 (no Kalb–Ramond analog); the healthy precedent.
+- [`notes/x-classification.md` §2](../../../notes/x-classification.md#2-the-gauge-structure-and-the-no-go-d--t) — the B-field as a spin-harmless partner.
+- [`notes/toy-lagrangian.md`](../../../notes/toy-lagrangian.md) chunk 4 (S5) — the live-searched literature on deriving and selecting the section; 'Chunk 1 results' — broken O(D, D) with H as order parameter.
+- [`notes/broken-born-theory.md` §1](../../../notes/broken-born-theory.md#1-postulates), [§2](../../../notes/broken-born-theory.md#2-kinematic-core) — η as a symmetric neutral metric; the v0.1 section condition, "open there and open here".

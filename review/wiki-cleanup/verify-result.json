@@ -873,7 +873,7 @@
   {
    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
    "category": "residual-narrative",
-   "note": "'The toy note's v2 cites it' became 'The toy note cites it'. Smolin is ref. [4] in papers/reciprocity-toy-models.md."
+   "note": "'The toy note's v2 cites it' became 'The toy note cites it'. Smolin is ref. [4] in wiki/papers/reciprocity-toy-models.md."
   },
   {
    "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
@@ -888,7 +888,7 @@
   {
    "file": "wiki/phase-space/reciprocity/fourier-transform.md",
    "category": "residual-narrative",
-   "note": "'The cosmic version, now documented' became 'The cosmic version', and 'The note is now written (…)' became 'That note is papers/phase-space-diameter.md (…)'. The HANDOFF quotation and the root CLAUDE.md pointer are kept."
+   "note": "'The cosmic version, now documented' became 'The cosmic version', and 'The note is now written (…)' became 'That note is wiki/papers/phase-space-diameter.md (…)'. The HANDOFF quotation and the root CLAUDE.md pointer are kept."
   },
   {
    "file": "wiki/phase-space/reciprocity/lagrangian-polarizations.md",
@@ -1229,7 +1229,7 @@
  "unresolved": [
   {
    "file": "wiki/status/alive.md",
-   "note": "Outside this batch. Line 88 says conjugate special relativity 'rests on #13 alone', while the hub now says its pages rest 'mainly' on #13. I kept the rewrite's 'mainly', because maximum-force.md also rests on papers/phase-space-diameter.md. The two can be read together (standing versus page content), but the consistency audit should settle the wording."
+   "note": "Outside this batch. Line 88 says conjugate special relativity 'rests on #13 alone', while the hub now says its pages rest 'mainly' on #13. I kept the rewrite's 'mainly', because maximum-force.md also rests on wiki/papers/phase-space-diameter.md. The two can be read together (standing versus page content), but the consistency audit should settle the wording."
   },
   {
    "file": "wiki/conjugate-relativity/_index.md",
@@ -1292,7 +1292,7 @@
    "note": "Line 70, 'Whether τ's potential can become negative, as the far-future turnaround needs', is unqualified, but flag 27's addendum finds a closed universe turns around with V ≥ 0, as other pages in this batch say. The wording is at HEAD, not from the rewrite, so I left it for the consistency audit."
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md",
    "note": "#11 contradicts itself on p-localization: §11.4 says 'open since v2.0', while §14 item 8 says 'v2.1 closed the soliton-spectrum and p-localization items ...; v2.4 reopens both'. This is a source matter for a flag. No page in this batch now quotes either clause, and momentum-space-monopoles.md gives only the [O]."
   },
   {
@@ -1380,7 +1380,7 @@
    "note": "Also at HEAD and left for the consistency audit: the Reciprocity parity entry cites flag 39, but neither the frontmatter sources nor the Sources list of flag items names item 39."
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md",
    "note": "#11 contradicts itself on p-localization's history: §11.4 says 'open since v2.0', while §14 item 8 says v2.1 closed it and v2.4 reopened it. Item 8 also still says 'the §12 obituary'. No physics turns on this, and unified-modular-structure.md now quotes neither clause, so the rewriter's split quotation is acceptable (the pieces are verbatim). The source needs a flag or a ruling; I did not settle it."
   },
   {

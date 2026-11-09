@@ -5,18 +5,18 @@ status: established
 description: "Confinement by monopole condensation ('t Hooft–Mandelstam): color-electric flux squeezed into strings, the leading picture of why free quarks are never seen."
 provenance: [T]
 sources:
-  - "papers/broken-born-checkpoint-v2.md §11.2"
-  - "papers/broken-born-checkpoint-v2.md App. A item 11"
-  - "papers/broken-born-checkpoint-v2.md §11 (italic opening)"
-  - "papers/broken-born-checkpoint-v2.md §11.4"
+  - "wiki/papers/broken-born-checkpoint-v2.md §11.2"
+  - "wiki/papers/broken-born-checkpoint-v2.md App. A item 11"
+  - "wiki/papers/broken-born-checkpoint-v2.md §11 (italic opening)"
+  - "wiki/papers/broken-born-checkpoint-v2.md §11.4"
   - "review/wiki-build-flags.md flag 60"
   - "HANDOFF.md §3"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*The dual superconductor is the leading picture of quark confinement, the observed fact that quarks are never found in isolation. In an ordinary superconductor a condensate of paired electrons expels magnetic field and squeezes whatever magnetic flux remains into thin tubes. In the dual picture, proposed by 't Hooft and Mandelstam, the vacuum of the strong interaction holds a condensate of [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), which squeezes the color-electric field between quarks into a string whose energy grows with its length, so that pulling two quarks apart never frees either of them. It is one of the three pieces of established physics that absorbed the program's [founding supposition 11](/wiki/program/founding-suppositions), a magnetic counterpart for every electric particle; the program adds no claim of its own here.*
+*The dual superconductor is the leading picture of quark confinement, the observed fact that quarks are never found in isolation. In an ordinary superconductor a condensate of paired electrons expels magnetic field and squeezes whatever magnetic flux remains into thin tubes. In the dual picture, proposed by 't Hooft and Mandelstam, the vacuum of the strong interaction holds a condensate of [magnetic monopoles](monopoles/_index.md), which squeezes the color-electric field between quarks into a string whose energy grows with its length, so that pulling two quarks apart never frees either of them. It is one of the three pieces of established physics that absorbed the program's [founding supposition 11](../program/founding-suppositions.md), a magnetic counterpart for every electric particle; the program adds no claim of its own here.*
 
-**Status:** Established — [T] — [the checkpoint](/wiki/history/documents/checkpoint) tags the picture [T] and credits 't Hooft–Mandelstam†, a citation from model memory with no entry in its reference list, so it awaits [the † literature battery](/wiki/method/literature-battery). The explanations below are textbook physics [T], and the references they add are marked †. No program document computes anything about confinement.
+**Status:** Established — [T] — [the checkpoint](../history/documents/checkpoint.md) tags the picture [T] and credits 't Hooft–Mandelstam†, a citation from model memory with no entry in its reference list, so it awaits [the † literature battery](../method/literature-battery.md). The explanations below are textbook physics [T], and the references they add are marked †. No program document computes anything about confinement.
 
 ## What confinement is [T]
 
@@ -34,7 +34,7 @@ Suppose a magnetic monopole and an antimonopole were embedded in such a material
 
 ## The dual picture [T]
 
-The dual superconductor exchanges the roles of electric and magnetic fields in that thought experiment, which is [electric–magnetic duality](/wiki/electric-magnetic-duality) applied to a medium:
+The dual superconductor exchanges the roles of electric and magnetic fields in that thought experiment, which is [electric–magnetic duality](_index.md) applied to a medium:
 
 | | ordinary superconductor | dual superconductor (QCD vacuum) |
 | --- | --- | --- |
@@ -43,27 +43,27 @@ The dual superconductor exchanges the roles of electric and magnetic fields in t
 | what is confined into tubes | magnetic flux | color-electric flux |
 | what is confined | magnetic charges | color-electric charges: quarks |
 
-#11 states it in one line: "the dual-superconductor picture of confinement — chromomagnetic monopole condensation squeezing color-electric flux into strings — is the leading mechanism for why free quarks are never seen [T, 't Hooft–Mandelstam†]" (§11.2). Chromomagnetic monopoles are magnetic charges of the color field; monopoles in general are the subject of [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles).
+[#11](../papers/broken-born-checkpoint-v2.md) states it in one line: "the dual-superconductor picture of confinement — chromomagnetic monopole condensation squeezing color-electric flux into strings — is the leading mechanism for why free quarks are never seen [T, 't Hooft–Mandelstam†]" ([§11.2](../papers/broken-born-checkpoint-v2.md#112-the-full-dual-spectrum-t)). Chromomagnetic monopoles are magnetic charges of the color field; monopoles in general are the subject of [magnetic monopoles](monopoles/_index.md).
 
-QCD has no Higgs field of the kind that produces ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), so the monopoles of the picture have to be identified another way. 't Hooft's proposal was to fix the gauge so that only the abelian, electromagnetism-like part of the color symmetry is left; the gauge-fixing then leaves point-like defects that behave as magnetic monopoles of the remaining abelian fields [T]. Lattice studies in such gauges have been used to test whether these monopoles condense in the confining phase. The picture remains a mechanism rather than a derivation, and other accounts of confinement exist [T].
+QCD has no Higgs field of the kind that produces ['t Hooft–Polyakov monopoles](monopoles/thooft-polyakov-monopole.md), so the monopoles of the picture have to be identified another way. 't Hooft's proposal was to fix the gauge so that only the abelian, electromagnetism-like part of the color symmetry is left; the gauge-fixing then leaves point-like defects that behave as magnetic monopoles of the remaining abelian fields [T]. Lattice studies in such gauges have been used to test whether these monopoles condense in the confining phase. The picture remains a mechanism rather than a derivation, and other accounts of confinement exist [T].
 
-The cleanest realization is in a supersymmetric theory. In N = 2 super Yang–Mills theory, Seiberg and Witten found the exact low-energy description: magnetic monopoles become massless at special points of the space of vacua, and when a perturbation breaks the supersymmetry to N = 1 they condense and confine electric charge in just this way [T]. It is the same body of work in which electric–magnetic duality is under good control ([S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality)).
+The cleanest realization is in a supersymmetric theory. In N = 2 super Yang–Mills theory, Seiberg and Witten found the exact low-energy description: magnetic monopoles become massless at special points of the space of vacua, and when a perturbation breaks the supersymmetry to N = 1 they condense and confine electric charge in just this way [T]. It is the same body of work in which electric–magnetic duality is under good control ([S-duality and Montonen–Olive](s-duality.md)).
 
 ## Where it enters the program
 
 The dual superconductor is one of the three established results that #11 lists against P.R.'s founding supposition 11, a magnetic counterpart for every electrically charged particle:
 
-- **The fate of the supposition** (#11 App. A item 11): "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition" (flag 67 in `review/wiki-build-flags.md`, pending; [the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [founding suppositions and their fates](/wiki/program/founding-suppositions)).
-- **The vocabulary.** Magnetic counterparts of quarks appear in Seiberg's dualities: "magnetic quarks" is "standard vocabulary via Seiberg duality [18†]" (#11 §11.2).
-- **How #11 describes the idea's standing.** The italic opening of §11 calls the mirror-family, magnetic quarks included, "the leading candidate for the mechanism that confines quarks". The technical record calls the dual superconductor "the leading mechanism for why free quarks are never seen", tagged [T].
+- **The fate of the supposition** ([#11 App. A item 11](../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates)): "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition" (flag 67 in [`review/wiki-build-flags.md`](../../review/wiki-build-flags.md), pending; [the magnetic mirror-family](magnetic-mirror-family.md); [founding suppositions and their fates](../program/founding-suppositions.md)).
+- **The vocabulary.** Magnetic counterparts of quarks appear in Seiberg's dualities: "magnetic quarks" is "standard vocabulary via Seiberg duality [18†]" ([#11 §11.2](../papers/broken-born-checkpoint-v2.md#112-the-full-dual-spectrum-t)).
+- **How #11 describes the idea's standing.** The italic opening of [§11](../papers/broken-born-checkpoint-v2.md#11-polarized-charge-lattices-monopoles-duality-frames-and-the-recurring-matrix) calls the mirror-family, magnetic quarks included, "the leading candidate for the mechanism that confines quarks". The technical record calls the dual superconductor "the leading mechanism for why free quarks are never seen", tagged [T].
 
-The program's own addition to the supposition is not about confinement. It is the observation that choosing which particles count as electric is a choice of polarization ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
+The program's own addition to the supposition is not about confinement. It is the observation that choosing which particles count as electric is a choice of polarization ([the symplectic charge lattice](symplectic-charge-lattice.md)).
 
 ## Popsci-only: "inside every proton"
 
-[The popular article #12](/wiki/history/documents/popular-articles) calls the dual superconductor the mechanism "most widely credited" for confinement and draws a conclusion from it ('Dark matter as the other polarization'): "If that picture is correct, magnetic analogs of quarks are not hypothetical inhabitants of a hidden sector; their condensed form is at work inside every proton."
+[The popular article #12](../history/documents/popular-articles.md) calls the dual superconductor the mechanism "most widely credited" for confinement and draws a conclusion from it ('Dark matter as the other polarization'): "If that picture is correct, magnetic analogs of quarks are not hypothetical inhabitants of a hidden sector; their condensed form is at work inside every proton."
 
-The second sentence is conditional, and #12 is never a source for a claim's status. The same passage goes on to place the "free spectrum" of the magnetic family in the momentum-polarized sector. The checkpoint records that placement as P.R.'s magnetic-mirror conjecture, open, with #12's reading as its shared-photon form, in which the analogs carry magnetic charge of our photon (#11 §11.4; flag 60 in `review/wiki-build-flags.md`; [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)). [The handoff](/wiki/history/documents/handoff) lists the "magnetic-quark/dual-superconductor section" among #12's contents (`HANDOFF.md` §3).
+The second sentence is conditional, and [#12](../../popsci/universes-other-half.md) is never a source for a claim's status. The same passage goes on to place the "free spectrum" of the magnetic family in the momentum-polarized sector. The checkpoint records that placement as P.R.'s magnetic-mirror conjecture, open, with #12's reading as its shared-photon form, in which the analogs carry magnetic charge of our photon ([#11 §11.4](../papers/broken-born-checkpoint-v2.md#114-the-magnetic-mirror-conjecture-o-pr-v23); flag 60 in [`review/wiki-build-flags.md`](../../review/wiki-build-flags.md); [Conjecture: the momentum sector as the magnetic mirror](magnetic-identification.md)). [The handoff](../history/documents/handoff.md) lists the "magnetic-quark/dual-superconductor section" among #12's contents ([`HANDOFF.md` §3](../../HANDOFF.md#3-artifact-inventory-creation-order)).
 
 ## Standard references
 
@@ -76,12 +76,12 @@ The checkpoint's attribution is "'t Hooft–Mandelstam†", with no entry in its
 
 ## Used by
 
-- [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family) — one of the three established results that absorbed founding supposition 11.
-- [Founding suppositions and their fates](/wiki/program/founding-suppositions) — item 11, "alive as established physics".
+- [The magnetic mirror-family](magnetic-mirror-family.md) — one of the three established results that absorbed founding supposition 11.
+- [Founding suppositions and their fates](../program/founding-suppositions.md) — item 11, "alive as established physics".
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.2 — the statement, tagged [T] with 't Hooft–Mandelstam†; §11 italic opening — "the leading candidate for the mechanism that confines quarks"; App. A item 11 — the fate of founding supposition 11; §11.4 — the magnetic-mirror conjecture, with #12's reading as its shared-photon form [O].
-- `review/wiki-build-flags.md` flag 60 — #12's placement as the conjecture's shared-photon form.
-- `HANDOFF.md` §3 — #12's "magnetic-quark/dual-superconductor section".
-- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular account and its conditional "inside every proton" (not a status source).
+- [`wiki/papers/broken-born-checkpoint-v2.md` §11.2](../papers/broken-born-checkpoint-v2.md#112-the-full-dual-spectrum-t) — the statement, tagged [T] with 't Hooft–Mandelstam†; [§11](../papers/broken-born-checkpoint-v2.md#11-polarized-charge-lattices-monopoles-duality-frames-and-the-recurring-matrix) italic opening — "the leading candidate for the mechanism that confines quarks"; [App. A item 11](../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) — the fate of founding supposition 11; [§11.4](../papers/broken-born-checkpoint-v2.md#114-the-magnetic-mirror-conjecture-o-pr-v23) — the magnetic-mirror conjecture, with #12's reading as its shared-photon form [O].
+- [`review/wiki-build-flags.md`](../../review/wiki-build-flags.md) flag 60 — #12's placement as the conjecture's shared-photon form.
+- [`HANDOFF.md` §3](../../HANDOFF.md#3-artifact-inventory-creation-order) — #12's "magnetic-quark/dual-superconductor section".
+- [`popsci/universes-other-half.md`](../../popsci/universes-other-half.md) 'Dark matter as the other polarization' — the popular account and its conditional "inside every proton" (not a status source).

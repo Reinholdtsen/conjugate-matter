@@ -15,7 +15,7 @@ from math import pi
 
 REPO = "/home/paul/git/reinholdtsen/conjugate-matter"
 ADJ = open(f"{REPO}/review/round3-adjudication.md", encoding="utf-8").read().splitlines()
-CP = open(f"{REPO}/papers/broken-born-checkpoint-v2.md", encoding="utf-8").read().splitlines()
+CP = open(f"{REPO}/wiki/papers/broken-born-checkpoint-v2.md", encoding="utf-8").read().splitlines()
 SRC = open(f"{REPO}/verify/soliton_obituary.py", encoding="utf-8").read()
 
 # §12 is the block from its heading to the next '## ' heading

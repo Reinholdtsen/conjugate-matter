@@ -5,7 +5,7 @@
    "id": "P1",
    "statement": "Record, two ordinary bodies. The program's momentum gravity X adds a Yukawa term to Newtonian gravity: V(r) = −(G m1 m2/r)(1 + α e^{−r/λ_X}), with α = (4/3)(M_f u/M_g)². Reciprocity forces M_f = M_g (#8 §3), and the aligned vacuum has u = 1, so α = 4/3. Torsion balances then give λ_X < 37.7 μm and M_X c² > 5.2 meV; at u = 0.5 the bound is 57.0 μm. #11 §7.5 says only 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X' [D]. No document states any dependence of this term on the bodies' velocities.",
    "tag": "[D][V][S] as recorded (diameter note §8.2; premise u = 1 [D][V], its persistence [O]); [D + T] in #8 §3; the absence of a stated velocity dependence is a search result",
-   "basis": "Read #11 §7.5, notes/beta-coefficients.md §3 and papers/phase-space-diameter.md §8.2, and reran verify/phase_space_diameter.py. /usr/bin/grep for 'velocity' over papers/, the field-equation notes (notes/geometric-core.md, x-classification.md, tuning-test.md, beta-coefficients.md) and HANDOFF.md finds velocity only in the χ gate, the clumping obituary, and #11 §3's plain-language line 'forces fade with distance, never with velocity difference'.",
+   "basis": "Read #11 §7.5, notes/beta-coefficients.md §3 and wiki/papers/phase-space-diameter.md §8.2, and reran verify/phase_space_diameter.py. /usr/bin/grep for 'velocity' over papers/, the field-equation notes (notes/geometric-core.md, x-classification.md, tuning-test.md, beta-coefficients.md) and HANDOFF.md finds velocity only in the χ gate, the clumping obituary, and #11 §3's plain-language line 'forces fade with distance, never with velocity difference'.",
    "confidence": "high",
    "numbers": [
     {
@@ -22,9 +22,9 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §7.5",
+    "wiki/papers/broken-born-checkpoint-v2.md §7.5",
     "notes/beta-coefficients.md §3",
-    "papers/phase-space-diameter.md §8.2",
+    "wiki/papers/phase-space-diameter.md §8.2",
     "verify/phase_space_diameter.py"
    ]
   },
@@ -61,7 +61,7 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §8, §4 (P4)",
+    "wiki/papers/broken-born-checkpoint-v2.md §8, §4 (P4)",
     "notes/x-classification.md §4",
     "notes/stream-stability.md 'Setup', 'Numbers at the scattering benchmark'",
     "notes/broken-born-theory.md §3, §5.1",
@@ -76,7 +76,7 @@
    "confidence": "high",
    "sources": [
     "HANDOFF.md §4",
-    "papers/conjugate-special-relativity.md §1, §6",
+    "wiki/papers/conjugate-special-relativity.md §1, §6",
     "review/wiki-build-flags.md item 29",
     "review/wiki-build-rulings.md 'Flag 29'"
    ]
@@ -96,8 +96,8 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §4, §8, §13 row 7",
-    "papers/conjugate-special-relativity.md §6",
+    "wiki/papers/broken-born-checkpoint-v2.md §4, §8, §13 row 7",
+    "wiki/papers/conjugate-special-relativity.md §6",
     "notes/beta-coefficients.md §3, §4",
     "notes/x-classification.md §4"
    ]
@@ -117,7 +117,7 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §6, §7.5",
+    "wiki/papers/broken-born-checkpoint-v2.md §6, §7.5",
     "notes/geometric-core.md §C, §E",
     "notes/x-classification.md §4",
     "notes/beta-coefficients.md §3",
@@ -141,7 +141,7 @@
    ],
    "sources": [
     "notes/x-classification.md §4",
-    "papers/broken-born-checkpoint-v2.md §8, §13 rows 1–2",
+    "wiki/papers/broken-born-checkpoint-v2.md §8, §13 rows 1–2",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'"
    ]
   },
@@ -256,7 +256,7 @@
    "sources": [
     "notes/broken-born-theory.md §5.2",
     "notes/stream-stability.md 'Setup'",
-    "papers/broken-born-checkpoint-v2.md §8"
+    "wiki/papers/broken-born-checkpoint-v2.md §8"
    ]
   },
   {
@@ -331,7 +331,7 @@
    ],
    "sources": [
     "notes/stream-stability.md",
-    "papers/broken-born-checkpoint-v2.md §9"
+    "wiki/papers/broken-born-checkpoint-v2.md §9"
    ]
   },
   {
@@ -341,7 +341,7 @@
    "basis": "Canonical boost p_i → p_i + m_i u and Galilean generator checks in p3 (models a and b).",
    "confidence": "high",
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §8",
+    "wiki/papers/broken-born-checkpoint-v2.md §8",
     "notes/x-classification.md §4"
    ]
   },
@@ -360,15 +360,15 @@
     }
    ],
    "sources": [
-    "papers/conjugate-special-relativity.md §5",
-    "papers/broken-born-checkpoint-v2.md §8"
+    "wiki/papers/conjugate-special-relativity.md §5",
+    "wiki/papers/broken-born-checkpoint-v2.md §8"
    ]
   },
   {
    "id": "P17",
    "statement": "Forcing chain and how far the range bound reaches. #11 §7.1 and #6 §1–§3: shift symmetry makes X never auxiliary, dual diffeomorphisms make it a second graviton, the multi-graviton no-go [8†] excludes massless X, and Higgsing of dual diffeomorphisms gives M_X = the polarization-breaking scale. The chain forces M_X > 0 but sets no scale, and the record gives M_X no value, so the chain alone does not forbid a light X (M_X c² = 6.4×10⁻²⁷ eV for a 1 kpc range). M_X is a property of the field, so λ_X is the same for every source. At fixed ordinary-matter coupling α = (4/3)u², the bound λ_X < 37.7 μm therefore limits X's range between χ particles too. What differs by source is only the strength, since χ's dual-stress coupling is separate. The bound moves only by weakening X's coupling to ordinary matter (57.0 μm at u = 0.5), or by screening.",
    "tag": "[D + T] chain as recorded; universality [D]; number [D] executed",
-   "basis": "Read #11 §7.1, notes/x-classification.md §1–§3, papers/phase-space-diameter.md §8.2 ('with no value in the record').",
+   "basis": "Read #11 §7.1, notes/x-classification.md §1–§3, wiki/papers/phase-space-diameter.md §8.2 ('with no value in the record').",
    "confidence": "high",
    "numbers": [
     {
@@ -379,9 +379,9 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §7.1, §7.5",
+    "wiki/papers/broken-born-checkpoint-v2.md §7.1, §7.5",
     "notes/x-classification.md §1–§3",
-    "papers/phase-space-diameter.md §8.2"
+    "wiki/papers/phase-space-diameter.md §8.2"
    ]
   },
   {
@@ -411,8 +411,8 @@
     }
    ],
    "sources": [
-    "papers/phase-space-diameter.md §8.2, References (Enander–Mörtsell 2013)",
-    "papers/broken-born-checkpoint-v2.md §7.3, §7.5, §13 row 2",
+    "wiki/papers/phase-space-diameter.md §8.2, References (Enander–Mörtsell 2013)",
+    "wiki/papers/broken-born-checkpoint-v2.md §7.3, §7.5, §13 row 2",
     "notes/beta-coefficients.md §2–§3",
     "notes/broken-born-theory.md §5.1"
    ]
@@ -438,7 +438,7 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §8, §14 item 5",
+    "wiki/papers/broken-born-checkpoint-v2.md §8, §14 item 5",
     "notes/beta-coefficients.md §3"
    ]
   },
@@ -465,8 +465,8 @@
    "basis": "P1–P20.",
    "confidence": "medium",
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §7.5, §8, §9",
-    "papers/phase-space-diameter.md §8.2",
+    "wiki/papers/broken-born-checkpoint-v2.md §7.5, §8, §9",
+    "wiki/papers/phase-space-diameter.md §8.2",
     "HANDOFF.md §4"
    ]
   },

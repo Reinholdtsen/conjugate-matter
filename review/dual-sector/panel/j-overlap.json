@@ -419,7 +419,7 @@
   },
   {
    "file": "review/wiki-build-flags.md item 67",
-   "passage": "Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod. Phys. D 32, 2330002 (2023), which `papers/phase-space-diameter.md` cites)",
+   "passage": "Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod. Phys. D 32, 2330002 (2023), which `wiki/papers/phase-space-diameter.md` cites)",
    "change": "'repeated' → 'repeated, and extended by the remark that the Born geometry of the metastring formalism \"besides being inherently T-dual, also involves S-duality\" (§6.6; fn 24)'. This is the school's closest statement to §11.3's conjecture, as a remark for gauge groups with no vacuum event.",
    "evidence": "2212.06086 §6.6 (FOUND); r2-dual-sm record point 2 (part b confirmed)",
    "severity": "low"
@@ -439,49 +439,49 @@
    "severity": "medium"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §3 (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §3 (proposal for P.R.'s ruling)",
    "passage": "They treat the breaking as kinematical and call the choice \"a dynamical question\". This program's addition is to read it as *spontaneous* breaking, with η as the order parameter",
    "change": "Proposed: 'They call general relativity's breaking kinematical, after Born, and propose that the split of phase space be made dynamical, \"a dynamical question\" [26S]. A breaking tied to the choice of polarization is placed in the vacuum sector for the non-canonical dual Lorentz symmetry of the doubled space, with cosmic expansion as selector (FKLM 2021 [S]; \"effectively spontaneously broken\", BHM 2022 [S]). This program's addition is an exact, ω-preserving ρ broken by the vacuum, with η as the order parameter, its potential and the Goldstone angle.' Possibly also note that FLM credit Born with gravity's breaking (1405.3949 §1.1).",
    "evidence": "1405.3949 §1.1, §1.3; 2104.00802 after eqs. (11)–(12); 2212.06086 §4.3 (FOUND); r6-foundations record point 2; r7-vacuum record points 0–1",
    "severity": "medium"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §4 P2′ (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §4 P2′ (proposal for P.R.'s ruling)",
    "passage": "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's.",
    "change": "Proposed: cite the first statement (1307.7080, 2013: '(η, J) ... dynamical'), which [26S] itself credits. Cite FLM 2016 §2 for U(d)/O(d) as the space of η-choices at fixed ω and vacuum, the manifold of τ's circle. Note that the school holds η's flatness, not ω, as quantum rigidity, and makes ω dynamical too (1502.08005 §1, §2.3).",
    "evidence": "1307.7080 Conclusion; 1606.01829 §2; 1502.08005 §1 (FOUND); r6-foundations record point 3 and 'Other'",
    "severity": "low"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §5 (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §5 (proposal for P.R.'s ruling)",
    "passage": "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's.",
    "change": "Proposed: add that the positive form is stated by FLM 2016 [S]: GL(d) = Sp(2d) ∩ O(d,d) determines the vacuum metric H = x q x + x̃ q⁻¹ x̃, and the vacuum metrics form GL(d)/O(d) (arXiv:1606.01829 §2). The block proof stays the program's.",
    "evidence": "1606.01829 §2 (FOUND); checks.out B; r6-foundations record point 5 (the verifier refuted the reader's 'not for positive H')",
    "severity": "low"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §10 'Constraint [D]' and App. A item 6 (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §10 'Constraint [D]' and App. A item 6 (proposal for P.R.'s ruling)",
    "passage": "**Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus. | Conjugate universe shrinks as ours expands — **promoted to theorem**",
    "change": "Proposed: keep [D] for the derivation, and add [T][S]. The commutator-preserving rescaling (x, x̃) → (ax, a⁻¹x̃), which stretches the cell in space and squeezes it in momentum, is FLM 2016 §1.4 at ħ. Its tie to cosmic expansion (dual momenta falling as a_c grows) is FKLM 2021 eqs. (2), (16) on the doubled space. Also Minic 2023 §2. The diameter note's reading of the relation as standard physics stands beside these.",
    "evidence": "1606.01829 §1.4; 2104.00802 eqs. (2), (3), (16); 2305.12593 §2 (FOUND); checks.out C",
    "severity": "medium"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §10 (dark energy and dictionary) (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §10 (dark energy and dictionary) (proposal for P.R.'s ruling)",
    "passage": "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1 + w₀) | dual curvature ↦ negative dark radiation; dust ↦ dust; the dual Einstein term is an a⁻⁶ step in G_eff",
    "change": "Proposed: cite Hur et al. 2025 [S] as a dual-spacetime model that shares the strict-w ≥ −1, wₐ < 0 signature at DESI DR2's points, at wₐ/(1 + w₀) ≈ −3.0 to −3.8, off the corridor. Note that the same school also published phantom models (2202.05266; Hur et al.'s first model). Note that the school assigns dual curvature to our positive Λ (BHM 2019), the opposite of the dictionary's entry.",
    "evidence": "2503.20854 §3.3–§3.4, eqs. 76–79; 2202.05266 (FOUND); checks.out A; r4-pheno-verify record point 3",
    "severity": "medium"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md App. A item 4, §12, §13 row 7 (proposal for P.R.'s ruling; extends flag 64)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md App. A item 4, §12, §13 row 7 (proposal for P.R.'s ruling; extends flag 64)",
    "passage": "Dark matter is conjugate matter — **alive**, P.R.'s core conjecture",
    "change": "Proposed: cite Minic 2020 §6.2 and BHM 2021 [S] with the difference (a doubled string-scale dual; mixing beyond gravity), and Hübsch and Minic 2024 §5.3, the one school paper with gravity-only coupling at accessible energies. The status is unchanged.",
    "evidence": "2003.00318 §6.2; 2010.15610; 2407.06207 §5.3 (FOUND)",
    "severity": "medium"
   },
   {
-   "file": "papers/phase-space-diameter.md §7; wiki/gravity/spin-2-fields/cosmological-constant-problem.md; wiki/cosmology/scale-factor-duality/self-dual-cosmic-box.md",
+   "file": "wiki/papers/phase-space-diameter.md §7; wiki/gravity/spin-2-fields/cosmological-constant-problem.md; wiki/cosmology/scale-factor-duality/self-dual-cosmic-box.md",
    "passage": "A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025].",
    "change": "Add: that holds for the second of the paper's two UV–IR relations. Under the first, w < −1 for all a and the model is 'clearly disfavored'; the same group's 2022 letter had ruled out quintessence (w_eff < −1). The sign of 1 + w is set by the assumed relation.",
    "evidence": "2503.20854 §3.3 'so this model is clearly disfavored', §3.4; 2202.05266 (FOUND); r4-pheno-verify record point 3",

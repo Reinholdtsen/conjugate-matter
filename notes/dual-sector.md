@@ -360,7 +360,7 @@ potential.*
   simple system it studies, because of the Stone–von Neumann theorem (the overlap judge and the critic). Two agents
   read it in two text extractions of the PDF; it gives no potential or order parameter.
 - **Not found**: the spontaneous breaking of the exact, ω-preserving ρ, with η as order parameter, a ρ-preserving
-  potential and a Goldstone angle; the toy models' explicit action (`papers/reciprocity-toy-models.md`); and ω-only
+  potential and a Goldstone angle; the toy models' explicit action (`wiki/papers/reciprocity-toy-models.md`); and ω-only
   rigidity: the group puts quantum rigidity in the flatness of η, "the rigidity of the quantum theory is encoded into
   the flatness of the polarization metric" η (Freidel, Leigh and Minic 2015 §1), or makes all three structures
   dynamical (Minic 2020 §2.2).
@@ -632,10 +632,10 @@ All retrieved by live search for this note [S]; metadata in `review/dual-sector/
 
 ## Sources
 
-- #11 `papers/broken-born-checkpoint-v2.md` §3, §4 (P2′, P4, P5), §5, §8, §10, §11.3, §11.4, §12, §13 rows 1, 4 and
-  7, App. A items 1, 2, 4, 5, 8, 10; #13 `papers/conjugate-special-relativity.md` (the maximum force);
+- #11 `wiki/papers/broken-born-checkpoint-v2.md` §3, §4 (P2′, P4, P5), §5, §8, §10, §11.3, §11.4, §12, §13 rows 1, 4 and
+  7, App. A items 1, 2, 4, 5, 8, 10; #13 `wiki/papers/conjugate-special-relativity.md` (the maximum force);
   `notes/broken-born-theory.md` (v0.1 header); `notes/literature-check.md` §2, §3, §5, §6;
-  `papers/phase-space-diameter.md` §7; `papers/reciprocity-toy-models.md`.
+  `wiki/papers/phase-space-diameter.md` §7; `wiki/papers/reciprocity-toy-models.md`.
 - `review/dual-sector/`: `readers/`, `panel/`, `round2/`, `sources.json`, `quotes.json`, `events.json`,
   `preregistration.md`, `workflows/usage.json`.
 - `review/wiki-build-flags.md` item 64 (addendum) and items 70–73, which this note proposes.

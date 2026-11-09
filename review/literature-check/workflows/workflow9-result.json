@@ -475,7 +475,7 @@
    {
     "id": "FS-13",
     "verdict": "confirmed",
-    "evidence": "#11's [3]† (papers/broken-born-checkpoint-v2.md line 247) lists both 2014 papers, Phys. Lett. B first.\n\nWhich paper holds what:\n- quotes.json files 'coordinates in momentum space' under 1307.7080;\n- lit.py text finds the Dirac-Schwinger-Zwanziger dyon passage in 1307.7080 (1 match) and none in 1405.3949.\n\nCOH-08 (workflow 8, confirmed) disambiguated the note (lines 183 and 375) and flags 64 and 67. wiki/method/literature-check.md line 53 and unified-modular-structure.md line 114 still say 'Freidel, Leigh and Minic 2014'. The second also says '#11's [3]†', which is two papers.\n\nBoth edits pass check-wiki.py on a mirror.",
+    "evidence": "#11's [3]† (wiki/papers/broken-born-checkpoint-v2.md line 247) lists both 2014 papers, Phys. Lett. B first.\n\nWhich paper holds what:\n- quotes.json files 'coordinates in momentum space' under 1307.7080;\n- lit.py text finds the Dirac-Schwinger-Zwanziger dyon passage in 1307.7080 (1 match) and none in 1405.3949.\n\nCOH-08 (workflow 8, confirmed) disambiguated the note (lines 183 and 375) and flags 64 and 67. wiki/method/literature-check.md line 53 and unified-modular-structure.md line 114 still say 'Freidel, Leigh and Minic 2014'. The second also says '#11's [3]†', which is two papers.\n\nBoth edits pass check-wiki.py on a mirror.",
     "edits": [
      {
       "file": "wiki/method/literature-check.md",

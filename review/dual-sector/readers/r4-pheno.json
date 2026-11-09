@@ -321,7 +321,7 @@
      "bears_on": [
       "other"
      ],
-     "reading": "My check (de_numbers.py, section A): 2.7328×10⁷ GeV², √μ = 5.228 TeV, as printed. It is the same 5.2 TeV see-saw scale the record's diameter note attributes to Berglund, Hübsch and Minic (papers/phase-space-diameter.md §7).",
+     "reading": "My check (de_numbers.py, section A): 2.7328×10⁷ GeV², √μ = 5.228 TeV, as printed. It is the same 5.2 TeV see-saw scale the record's diameter note attributes to Berglund, Hübsch and Minic (wiki/papers/phase-space-diameter.md §7).",
      "quote_check": "FOUND: 2011.08852 — searched full text (https://arxiv.org/html/2011.08852); 'only a very special choice' clause also FOUND"
     },
     {
@@ -602,7 +602,7 @@
      "bears_on": [
       "other"
      ],
-     "reading": "At fixed number of cells N the position and momentum cutoffs are reciprocal. The record already quotes this (papers/phase-space-diameter.md §4, 'Born geometry [T][S]').",
+     "reading": "At fixed number of cells N the position and momentum cutoffs are reciprocal. The record already quotes this (wiki/papers/phase-space-diameter.md §4, 'Born geometry [T][S]').",
      "quote_check": "FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901)"
     },
     {

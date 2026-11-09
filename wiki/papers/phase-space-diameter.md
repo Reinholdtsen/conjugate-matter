@@ -1,4 +1,10 @@
-# The Size of the Universe in Position and in Momentum
+---
+title: "The Size of the Universe in Position and in Momentum"
+weight: 30
+status: record
+description: "The phase-space-diameter note: the size of the universe in position and in momentum, what Born reciprocity adds, and a self-dual length; graded B in review round 5."
+---
+
 ### The phase-space diameter relation, what Born reciprocity adds, and a self-dual length
 
 *Version 1.2, 2026-10-29 (v1.1, 2026-10-26, after the round-5 blind review (verdict B; `review/round5-adjudication.md`)). A note of the Comatter program (until 2026-10-26, the Broken-Born program). It writes up the "phase-space diameter relation", a conjecture recorded only in the summary of the program's early chat sessions, tests it, sets it beside the published answers to the same question, and works through what Born reciprocity adds. Every section opens with a plain-language passage (italic), followed by the technical record. Provenance tags: **[D]** derived in this note, **[T]** established literature, **[P]** postulate of the program, **[O]** open, **[V]** machine-verified by `verify/phase_space_diameter.py`. References carry **[S]** (retrieved by live search for this note) or **†** (cited from memory; to be checked against the source before any external use). Program documents are cited as [H1]–[H2] and [P1]–[P6].*
@@ -202,9 +208,13 @@ exactly, in any FLRW universe (H_Λ = c/L_Λ, Ω_Λ(t) = Λc²/3H²). It is 0.83
 
 *In plain terms: FKGLM let their reference length depend on the system under study. This program cannot: its reciprocity is one exact symmetry with one Born length. That length could enter in two places. One is the program's dual special relativity, which sets a maximum force; the other is the range of the program's massive momentum graviton, whose force acts on ordinary matter at the strength of gravity. A 50-micrometre Born length would make the maximum force 10⁻¹⁷ newtons, below the force that holds a hydrogen atom together. A 50-micrometre range would put a gravitational-strength force where laboratory torsion balances have looked for one and found none. Both uses fail. The second failure leaves a number: if the program's vacuum is the one its own equations assume, the momentum graviton's range must be below about 38 micrometres, whatever sets its mass. Two smaller consequences follow, one about the conjugate description of today's universe and one about the early-universe term the program keeps as an option.*
 
-**8.1 Not the Born length of the dual special relativity [D][V].** The program's dual special relativity bounds every rate of change of momentum by c̃ = ħc/λ² [P2, §1]. At λ = l_P this is c⁴/G = 1.21×10⁴⁴ N. At λ = √(l_P L) it is (c⁴/G)(l_P/L): 1.4×10⁻¹⁷ N for L = c/H₀, 1.2×10⁻¹⁷ N for L_Λ. The Coulomb force in the hydrogen ground state, 8.24×10⁻⁸ N, exceeds it by 5.8×10⁹, and the weight of a kilogram by 6.9×10¹⁷; the dual composition law F₁ ⊕ F₂ = (F₁ + F₂)/(1 + F₁F₂/c̃²) [P2, §2] would cap every force near 10⁻¹⁷ N. The self-dual length cannot be that Born length. In Freidel, Leigh and Minic's metastring, ħ = λε and Newton's constant is G_N = ρα′ = ρλ/ε, with ρ set by the dimension and the compactification, so λ² = ħG_N/ρ is the Planck length squared up to ρ [S: FLM 2015]. A maximal force from Born reciprocity is itself in the literature: Low's reciprocal relativity bounds forces by a constant b [S: Low 2006]; the program's own paper cites Gibbons's maximum-tension conjecture and Caianiello's maximal acceleration for the idea [P2, §1, †]. With the Born length at l_P, the cosmic Fourier box is far from self-dual, A = L/l_P = 8.5×10⁶⁰ for the Hubble radius, and the cosmological-constant problem is the size of that number squared.
+### 8.1 Not the Born length of the dual special relativity [D][V]
 
-**8.2 Not the range of the momentum graviton, and a bound on it [D][V][S].** The momentum graviton X is a massive spin-2 field whose mass M_X is the program's polarization-breaking scale, with no value in the record [P1, §7]. Reciprocity forces the two spin-2 frames to have equal Planck masses, so ordinary matter, coupled to the metric g, feels X at gravitational strength, and is safe only because X's force is cut off beyond ħ/(M_X c) [P1, §7.5; P3, §3].
+The program's dual special relativity bounds every rate of change of momentum by c̃ = ħc/λ² [P2, §1]. At λ = l_P this is c⁴/G = 1.21×10⁴⁴ N. At λ = √(l_P L) it is (c⁴/G)(l_P/L): 1.4×10⁻¹⁷ N for L = c/H₀, 1.2×10⁻¹⁷ N for L_Λ. The Coulomb force in the hydrogen ground state, 8.24×10⁻⁸ N, exceeds it by 5.8×10⁹, and the weight of a kilogram by 6.9×10¹⁷; the dual composition law F₁ ⊕ F₂ = (F₁ + F₂)/(1 + F₁F₂/c̃²) [P2, §2] would cap every force near 10⁻¹⁷ N. The self-dual length cannot be that Born length. In Freidel, Leigh and Minic's metastring, ħ = λε and Newton's constant is G_N = ρα′ = ρλ/ε, with ρ set by the dimension and the compactification, so λ² = ħG_N/ρ is the Planck length squared up to ρ [S: FLM 2015]. A maximal force from Born reciprocity is itself in the literature: Low's reciprocal relativity bounds forces by a constant b [S: Low 2006]; the program's own paper cites Gibbons's maximum-tension conjecture and Caianiello's maximal acceleration for the idea [P2, §1, †]. With the Born length at l_P, the cosmic Fourier box is far from self-dual, A = L/l_P = 8.5×10⁶⁰ for the Hubble radius, and the cosmological-constant problem is the size of that number squared.
+
+### 8.2 Not the range of the momentum graviton, and a bound on it [D][V][S]
+
+The momentum graviton X is a massive spin-2 field whose mass M_X is the program's polarization-breaking scale, with no value in the record [P1, §7]. Reciprocity forces the two spin-2 frames to have equal Planck masses, so ordinary matter, coupled to the metric g, feels X at gravitational strength, and is safe only because X's force is cut off beyond ħ/(M_X c) [P1, §7.5; P3, §3].
 
 *The coupling and its premise.* In Hassan–Rosen bimetric gravity with matter on g, the linearized potential between two masses is V(r) = −(Gm₁m₂/r)(1 + α e^{−r/λ_X}) with
 
@@ -226,13 +236,21 @@ where u is the ratio of the two frames' backgrounds, f̄ = u²ḡ (the cited pap
 
 *Caveats [T][O].* In bigravity a spin-2 field far heavier than H₀ at equal Planck masses needs the potential's vacuum energy, of order M_X²M_P², cancelled; in the program the cancellation is the palindrome identity at the aligned point [P3, §2]. Bimetric cosmologies are unstable while H exceeds the spin-2 mass [S: Lüben et al. 2020], so the early universe is a separate question, open in the record. And the bound assumes that X adds the only Yukawa term; other light fields of the program could add attractive or repulsive ones.
 
-**8.3 The conjugate description of today's universe [D][V].** Under ρ_{l_P}, today's radiation rectangle maps to a region 1.0×10⁻³¹ l_P across whose momenta spread over 5.4×10⁶¹ m_P c. The program's "conjugate universe", read as the same state in exchanged variables [P1, App. A, item 2], is therefore not a place with ordinary physics: its extents lie beyond the Planck scale in both variables. The program does not require otherwise, since it treats the two as one state with two descriptions.
+### 8.3 The conjugate description of today's universe [D][V]
 
-**8.4 The early-universe term sits at the self-dual point [D][V].** The program keeps an optional a⁻⁶ correction to the Friedmann equation, from a dual Einstein term with its own Planck mass M̃: 3H²(M_P² + M̃² a⁻⁶) = ρ, written with a·ã = C and C = 1 [P1, §10, §13 row 10]. With general C the minisuperspace kinetic terms M_P² aȧ² and M̃² C³ ȧ²/a⁵ are exchanged by a → C/a exactly when M̃ = M_P, and the two are then equal at the fixed point a = √C, where a = ã [V: sympy]. If reciprocity fixes M̃ = M_P, as it fixes the two bimetric Planck masses [P3, §3], the step therefore sits at the self-dual epoch. That epoch depends on λ and on the comoving scale reciprocity treats as unit, which is a choice: for λ = l_P and the radiation of today's observable universe it is the 10¹⁴ T_P of §6, the square, which is not a bounce (H² > 0 throughout). Whatever the unit, the dual term must be negligible by nucleosynthesis, so the self-dual epoch must lie before it. The normalization C here belongs to the slaved block that carries ã; it is not the bimetric background ratio of §8.2. The step's free parameter becomes the question of the Born length.
+Under ρ_{l_P}, today's radiation rectangle maps to a region 1.0×10⁻³¹ l_P across whose momenta spread over 5.4×10⁶¹ m_P c. The program's "conjugate universe", read as the same state in exchanged variables [P1, App. A, item 2], is therefore not a place with ordinary physics: its extents lie beyond the Planck scale in both variables. The program does not require otherwise, since it treats the two as one state with two descriptions.
 
-**8.5 A lever arm (open) [O].** The program identifies its dark-energy field τ with the angle of the vacuum's polarization [P1, §6, §10], and in its coset toy model the polarization angle and the squeeze along the slice are separate flat directions [P4]. Whether matter's polarization follows the vacuum's as τ drifts is not settled. If it does, a rotation of the polarization by θ displaces a particle of momentum p by θλ²p/ħ: 4.9×10⁻⁶⁰ m per radian for an electron with the Bohr momentum at λ = l_P, and 42 m per radian at the self-dual length [V]. A cosmological drift of τ would then be harmless only for a Born length near the Planck length.
+### 8.4 The early-universe term sits at the self-dual point [D][V]
 
-**8.6 What would test this.** Nothing in §3–§6 goes beyond ΛCDM, so none of it can confirm or refute the program. The bound of §8.2 tightens with every improvement in short-range gravity tests. §7's reformulation of Λ would become a prediction only if the program derived λ, or M_X, from its own dynamics.
+The program keeps an optional a⁻⁶ correction to the Friedmann equation, from a dual Einstein term with its own Planck mass M̃: 3H²(M_P² + M̃² a⁻⁶) = ρ, written with a·ã = C and C = 1 [P1, §10, §13 row 10]. With general C the minisuperspace kinetic terms M_P² aȧ² and M̃² C³ ȧ²/a⁵ are exchanged by a → C/a exactly when M̃ = M_P, and the two are then equal at the fixed point a = √C, where a = ã [V: sympy]. If reciprocity fixes M̃ = M_P, as it fixes the two bimetric Planck masses [P3, §3], the step therefore sits at the self-dual epoch. That epoch depends on λ and on the comoving scale reciprocity treats as unit, which is a choice: for λ = l_P and the radiation of today's observable universe it is the 10¹⁴ T_P of §6, the square, which is not a bounce (H² > 0 throughout). Whatever the unit, the dual term must be negligible by nucleosynthesis, so the self-dual epoch must lie before it. The normalization C here belongs to the slaved block that carries ã; it is not the bimetric background ratio of §8.2. The step's free parameter becomes the question of the Born length.
+
+### 8.5 A lever arm (open) [O]
+
+The program identifies its dark-energy field τ with the angle of the vacuum's polarization [P1, §6, §10], and in its coset toy model the polarization angle and the squeeze along the slice are separate flat directions [P4]. Whether matter's polarization follows the vacuum's as τ drifts is not settled. If it does, a rotation of the polarization by θ displaces a particle of momentum p by θλ²p/ħ: 4.9×10⁻⁶⁰ m per radian for an electron with the Bohr momentum at λ = l_P, and 42 m per radian at the self-dual length [V]. A cosmological drift of τ would then be harmless only for a Born length near the Planck length.
+
+### 8.6 What would test this
+
+Nothing in §3–§6 goes beyond ΛCDM, so none of it can confirm or refute the program. The bound of §8.2 tightens with every improvement in short-range gravity tests. §7's reformulation of Λ would become a prediction only if the program derived λ, or M_X, from its own dynamics.
 
 ---
 
@@ -273,10 +291,10 @@ The answer to the title's question is yes, in two senses. For the universe's rad
 **Program documents.**
 - [H1] Comatter program, handoff document (2026-10-19), §4 (`HANDOFF.md`).
 - [H2] Comatter program, internal audit of the record, items 23, 24, 27 and 39 (`review/wiki-build-flags.md`).
-- [P1] Comatter program, working checkpoint v2.2 (`papers/broken-born-checkpoint-v2.md`).
-- [P2] Comatter program, special relativity of the momentum polarization (`papers/conjugate-special-relativity.md`).
+- [P1] Comatter program, working checkpoint v2.2 (`wiki/papers/broken-born-checkpoint-v2.md`).
+- [P2] Comatter program, special relativity of the momentum polarization (`wiki/papers/conjugate-special-relativity.md`).
 - [P3] Comatter program, calc note on the β coefficients (`notes/beta-coefficients.md`).
-- [P4] Comatter program, two toy models of spontaneously broken reciprocity (`papers/reciprocity-toy-models.md`).
+- [P4] Comatter program, two toy models of spontaneously broken reciprocity (`wiki/papers/reciprocity-toy-models.md`).
 - [P5] Comatter program, calc note on the tuning test (`notes/tuning-test.md`).
 - [P6] Comatter program, calc note on the classification of X (`notes/x-classification.md`).
 

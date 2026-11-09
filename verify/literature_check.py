@@ -231,7 +231,7 @@ def section_b(findings, body):
 
 
 def repo_texts():
-    paths = (glob.glob(os.path.join(ROOT, "papers", "*.md")) + glob.glob(os.path.join(ROOT, "notes", "*.md")) +
+    paths = (glob.glob(os.path.join(ROOT, "wiki", "papers", "*.md")) + glob.glob(os.path.join(ROOT, "notes", "*.md")) +
              glob.glob(os.path.join(ROOT, "popsci", "*.md")) + glob.glob(os.path.join(ROOT, "review", "**", "*.md"),
                                                                     recursive=True) +
              [os.path.join(ROOT, "HANDOFF.md"), os.path.join(ROOT, "CLAUDE.md")])

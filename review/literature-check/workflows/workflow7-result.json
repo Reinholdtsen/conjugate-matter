@@ -445,15 +445,15 @@
      {
       "id": "LC-22",
       "where": "notes/literature-check.md:585–586, :72",
-      "quote": "#11 `papers/broken-born-checkpoint-v2.md` §4 (P4, P5), §9, ... References [3], [13], [18];",
+      "quote": "#11 `wiki/papers/broken-born-checkpoint-v2.md` §4 (P4, P5), §9, ... References [3], [13], [18];",
       "problem": "The edits added citations of #11 §3, [26S] and [28][S], and of the lab notebook's v0.1 date, but the Sources list does not include them. §1 also says the references are built from INSPIRE, Crossref or arXiv metadata, while Khademi 2009's comes from an OpenAlex record and the archived repository page.",
       "evidence": "Note lines 146, 182–183 and 222. sources.json openalex:W3153563614: source OpenAlex, abstract_source OpenAIRE and Wayback. Gate output: \"68 references checked against INSPIRE, arXiv, Crossref or OpenAlex snapshots\".",
       "severity": "low",
       "edits": [
        {
         "file": "notes/literature-check.md",
-        "current": "- #11 `papers/broken-born-checkpoint-v2.md` §4 (P4, P5), §9,",
-        "proposed": "- #11 `papers/broken-born-checkpoint-v2.md` §3, §4 (P4, P5), §9,"
+        "current": "- #11 `wiki/papers/broken-born-checkpoint-v2.md` §4 (P4, P5), §9,",
+        "proposed": "- #11 `wiki/papers/broken-born-checkpoint-v2.md` §3, §4 (P4, P5), §9,"
        },
        {
         "file": "notes/literature-check.md",
@@ -884,8 +884,8 @@
       "edits": [
        {
         "file": "notes/literature-check.md",
-        "current": "- #11 `papers/broken-born-checkpoint-v2.md` §4 (P4, P5), §9,",
-        "proposed": "- #11 `papers/broken-born-checkpoint-v2.md` §3, §4 (P4, P5), §9,"
+        "current": "- #11 `wiki/papers/broken-born-checkpoint-v2.md` §4 (P4, P5), §9,",
+        "proposed": "- #11 `wiki/papers/broken-born-checkpoint-v2.md` §3, §4 (P4, P5), §9,"
        },
        {
         "file": "notes/literature-check.md",
@@ -1228,7 +1228,7 @@
       "where": "wiki/references.md:580 (and :963)",
       "quote": "The wiki's page on the cosmological constraint cites Veneziano's 1991 paper, with Tseytlin's, from model memory (†).",
       "problem": "The write-up changed the cosmological-constraint page to 'Veneziano 1991 [S]', but references.md:580 and :963 still say that page cites it †. :963 also omits that Veneziano 1991 was already the diameter note's [S]. The citation marks disagree between the two pages.",
-      "evidence": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md:107: \"(Veneziano 1991 [S]; Tseytlin 1991 †)\". papers/phase-space-diameter.md:328: \"[S] G. Veneziano, ...\". wiki/references.md:579–580 calls it the diameter note's [S]. notes/literature-check.md References lists it [S]. If 'A page never upgrades a tag' is read strictly, revert the constraint page to † instead.",
+      "evidence": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md:107: \"(Veneziano 1991 [S]; Tseytlin 1991 †)\". wiki/papers/phase-space-diameter.md:328: \"[S] G. Veneziano, ...\". wiki/references.md:579–580 calls it the diameter note's [S]. notes/literature-check.md References lists it [S]. If 'A page never upgrades a tag' is read strictly, revert the constraint page to † instead.",
       "severity": "medium",
       "edits": [
        {
@@ -1302,7 +1302,7 @@
       "where": "wiki/dark-matter/momentum-clumping/founding-image.md:153",
       "quote": "the last of which #11 §9 cites for the [wave island]",
       "problem": "The page drops #11's citation mark on Levkov, Panin and Tkachev ([13]†). It also reports Guth, Hertzberg and Prescod-Weinstein on the founding image's page without the note's scope, so the finding reads as evidence against the founding image.",
-      "evidence": "papers/broken-born-checkpoint-v2.md References: \"[13]† D. G. Levkov, A. G. Panin, I. I. Tkachev ...\". Flag 65: \"#11 already lists Levkov, Panin and Tkachev 2018 as [13]†, for the wave island's condensation rate (§9)\". notes/literature-check.md §7: \"The paper treats no attraction acting in velocity, so it does not test the founding image.\" wiki/CLAUDE.md: tags and marks carry over exactly.",
+      "evidence": "wiki/papers/broken-born-checkpoint-v2.md References: \"[13]† D. G. Levkov, A. G. Panin, I. I. Tkachev ...\". Flag 65: \"#11 already lists Levkov, Panin and Tkachev 2018 as [13]†, for the wave island's condensation rate (§9)\". notes/literature-check.md §7: \"The paper treats no attraction acting in velocity, so it does not test the founding image.\" wiki/CLAUDE.md: tags and marks carry over exactly.",
       "severity": "low",
       "edits": [
        {
@@ -1887,7 +1887,7 @@
      {
       "id": "LC-11",
       "verdict": "confirmed",
-      "evidence": "cosmological-constraint.md:107 now reads '(Veneziano 1991 [S]; Tseytlin 1991 †)'; papers/phase-space-diameter.md:328 lists '[S] G. Veneziano ... (1991)' and the note's References mark it [S], so the page carries its sources' mark and upgrades nothing; references.md:580 and :963 still say the page cites it †. Also added the constraint page to that entry's 'Cited on', since it now cites Gasperini and Veneziano 2003 §2.2 [S] and Veneziano 1991 [S]. Low-medium.",
+      "evidence": "cosmological-constraint.md:107 now reads '(Veneziano 1991 [S]; Tseytlin 1991 †)'; wiki/papers/phase-space-diameter.md:328 lists '[S] G. Veneziano ... (1991)' and the note's References mark it [S], so the page carries its sources' mark and upgrades nothing; references.md:580 and :963 still say the page cites it †. Also added the constraint page to that entry's 'Cited on', since it now cites Gasperini and Veneziano 2003 §2.2 [S] and Veneziano 1991 [S]. Low-medium.",
       "edits": [
        {
         "file": "wiki/references.md",
@@ -2218,7 +2218,7 @@
       "where": "notes/literature-check.md:77-78, :129-130; review/wiki-build-flags.md:612-613; CLAUDE.md:189; wiki/method/literature-check.md:53 (also wiki/program/founding-suppositions.md:93, wiki/status/open-problems.md:217 and :328, wiki/summary.md:34)",
       "quote": "the program's couples to ours by gravity alone and is never detected directly",
       "problem": "The difference from the Minic school is stated as the program's sector coupling 'by gravity alone' and 'never detected directly'. That holds only under strict P4 for χ and the X-condensate. #11's third candidate in its shared-photon form carries magnetic charge of our photon and 'needs P4 restated' (§11.4), and flag 63 notes that row 7's null would then rest on the analogs being spread in position. The C1 judge asked to argue for novelty raised exactly this ('C1's own monopole form is not committed to it'). The §2 italic also says what 'the check found new', where the check can only report what it did not find (§10).",
-      "evidence": "papers/broken-born-checkpoint-v2.md §11.4, 'Shared photon' bullet ('P4 as written excludes this form ... it needs P4 restated') and §13 row 7; review/wiki-build-flags.md flag 63; panel/c1-advocate.out.json notes (b); panel/c1-scope.out.json new_in_conjecture ('only through gravity (and X)').",
+      "evidence": "wiki/papers/broken-born-checkpoint-v2.md §11.4, 'Shared photon' bullet ('P4 as written excludes this form ... it needs P4 restated') and §13 row 7; review/wiki-build-flags.md flag 63; panel/c1-advocate.out.json notes (b); panel/c1-scope.out.json new_in_conjecture ('only through gravity (and X)').",
       "severity": "medium",
       "edits": [
        {
@@ -2526,7 +2526,7 @@
       "where": "notes/literature-check.md:400-405 (§7)",
       "quote": "from infall streams, not from clumping.",
       "problem": "#11 §13 lists 'velocity-space granularity in halos; Fornax friction suppression (§9)' as withdrawn and under P.R.'s review. Verified findings give published counterparts of both consequences, with no clumping in velocity, and the note omits them. Hui, Ostriker, Tremaine and Witten 2017 resolve Fornax's globular-cluster timing with wave dark matter. Berezhiani, Elder and Khoury 2019 find suppressed dynamical friction in superfluid cores. Zemp et al. 2009 show that streams are expected in outer halos anyway, so the momentum-gravity note's proposed test would have to look at inner halos or at stream widths. The C6 judge adds that Berezhiani and Khoury 2015 states the notebook's condensed-core sentence 'nearly word for word' (#1 §5.2). Prior art changes no status, but it belongs where the claims are discussed.",
-      "evidence": "findings.json C6 1610.08297, 1905.09297, 0812.2033 (verified related; differences name #1 §5.2 and 'old row 4, under review'); panel/c6.out.json closest 1507.01019 and published_parts; papers/broken-born-checkpoint-v2.md §13, closing line.",
+      "evidence": "findings.json C6 1610.08297, 1905.09297, 0812.2033 (verified related; differences name #1 §5.2 and 'old row 4, under review'); panel/c6.out.json closest 1507.01019 and published_parts; wiki/papers/broken-born-checkpoint-v2.md §13, closing line.",
       "severity": "medium",
       "edits": [
        {
@@ -2542,7 +2542,7 @@
       "where": "wiki/summary.md:28, :32, :34, :41",
       "quote": "graded other documents no higher than B; #11 has had none.",
       "problem": "To fit the new literature-check text under the 800-word cap, the write-up cut two negative qualifiers from the executive summary. One is 'flawed but salvageable', the referees' meaning of grade B. The other is 'unassessed by any expert', on the derived results that may be new. Both are sourced: the round-4 and round-5 adjudications, and #11 §2's 'pending expert review'. The first review caught a third such cut ('under real pressure', W18) but not these two. The C1 bullet also contrasts the school's sector with a 'gravity-only' one (MU-03). The edits below restore both qualifiers and come to 799 words by the gate's own count (scripts/check-wiki.py prose(), run on a copy).",
-      "evidence": "git diff wiki/summary.md (removed: 'no higher than B, \"flawed but salvageable\"; #11 itself has had none' and 'Derived results that may be new, unassessed by any expert:'); review/round5-adjudication.md:35 and review/round4-adjudication.md:18 ('B (flawed but salvageable)'); papers/broken-born-checkpoint-v2.md §2 ('pending expert review'); work/literature-check/final-review/missing-unverified/summary.proposed.md (799 words with the edits below).",
+      "evidence": "git diff wiki/summary.md (removed: 'no higher than B, \"flawed but salvageable\"; #11 itself has had none' and 'Derived results that may be new, unassessed by any expert:'); review/round5-adjudication.md:35 and review/round4-adjudication.md:18 ('B (flawed but salvageable)'); wiki/papers/broken-born-checkpoint-v2.md §2 ('pending expert review'); work/literature-check/final-review/missing-unverified/summary.proposed.md (799 words with the edits below).",
       "severity": "medium",
       "edits": [
        {
@@ -2599,7 +2599,7 @@
       "where": "notes/literature-check.md:449-450 (§9, † battery); review/wiki-build-flags.md:679-681 (flag 67)",
       "quote": "the metadata of #11's [3]† (both papers), [13]† (its first paper) and\n[18]† (Montonen and Olive) match INSPIRE.",
       "problem": "The check also found checked sources for statements in #11 that are uncited or cited with †, and neither the note's † paragraph nor flag 67 lists them. First, Hull and Townsend 1995 (verified) is the source of §11.3's uncited [T] that U-duality contains T- and S-duality. Second, Lopes Cardoso and Mohaupt 2020 (one agent's label, unverified) supplies §11.3's uncited 'in the literature's own words': splitting a symplectic vector into electric and magnetic parts 'corresponds to the choice of a polarization', and canonical transformations play 'a similar role to electric-magnetic duality transformations'. Third, three of flag 59's †-cited histories of the monopole null result are now verified: Langacker and Pi 1980; Dvali, Melfo and Senjanovic 1995; Dvali, Liu and Vachaspati 1998.",
-      "evidence": "findings.json C4 hep-th/9410167 (verified: 'Source of the U-duality analogy that #11 §11.3 tags [T] without a citation'); C4 1909.06240 (single-agent; quotes FOUND); C3 recid:9098, hep-ph/9507230, hep-ph/9710301 ('Matches flag 59 ... verified'); papers/broken-born-checkpoint-v2.md §11.3.",
+      "evidence": "findings.json C4 hep-th/9410167 (verified: 'Source of the U-duality analogy that #11 §11.3 tags [T] without a citation'); C4 1909.06240 (single-agent; quotes FOUND); C3 recid:9098, hep-ph/9507230, hep-ph/9710301 ('Matches flag 59 ... verified'); wiki/papers/broken-born-checkpoint-v2.md §11.3.",
       "severity": "low",
       "edits": [
        {

@@ -3,7 +3,7 @@
 Written and committed **before** the round-4 audit is dispatched. Per the
 round-3 lesson, the commit subject does not state the prediction.
 
-- **Manuscript:** `papers/reciprocity-toy-models.md` (the toy-Lagrangian
+- **Manuscript:** `wiki/papers/reciprocity-toy-models.md` (the toy-Lagrangian
   note), as committed with this file.
 - **Auditor:** a fresh subagent with shell, Python (numpy/sympy/scipy) and
   web. It gets only a copy of the manuscript, no repo context, and the same

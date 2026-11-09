@@ -16,7 +16,7 @@
 #3 cosmology/early-universe/inflation-and-dilution.md:60 [Soman et al. 2025] -> arXiv:2407.07956 (registered: True)
     paper: Soman 2024/2025: Inflationary gravitational waves as a probe of the unknown postinflationary prim
     authors (INSPIRE, fetched for this check): Soman, Mishra, Shafi, Basak
-    ...primordial-backgrounds-t)), is therefore an upper limit on E_inf [T]. The phase-space-diameter note takes the limit, a tensor-to-scalar ratio below 0.036, from BICEP/Keck 2021 [S] and the energy scale it allows, E_inf < 1.39×10¹⁶ GeV, from Soman et al. 2025 [S] (`papers/phase-space-diameter.md` §6). If the whole energy density of inflation became radiation at once, which is instantaneous reheating, the plasma would start at about 5.7×10¹⁵ GeV; any slower reheating starts it colder, because th...
+    ...primordial-backgrounds-t)), is therefore an upper limit on E_inf [T]. The phase-space-diameter note takes the limit, a tensor-to-scalar ratio below 0.036, from BICEP/Keck 2021 [S] and the energy scale it allows, E_inf < 1.39×10¹⁶ GeV, from Soman et al. 2025 [S] (`wiki/papers/phase-space-diameter.md` §6). If the whole energy density of inflation became radiation at once, which is instantaneous reheating, the plasma would start at about 5.7×10¹⁵ GeV; any slower reheating starts it colder, because th...
 
 #4 cosmology/early-universe/radiation-era.md:135 [Planck 2018] -> arXiv:1807.06209 (registered: True)
     paper: Aghanim 2018/2020/2021: Planck 2018 results. VI. Cosmological parameters
@@ -255,12 +255,12 @@
 #50 cosmology/scale-factor-duality/self-dual-length-obituary.md:136 [Sundrum 2004] -> arXiv:hep-th/0306106 (registered: True)
     paper: Sundrum 2003/2004: Fat gravitons, the cosmological constant and submillimeter tests
     authors (INSPIRE, fetched for this check): Sundrum
-    ...- `papers/phase-space-diameter.md` §8.2 — the coupling with its background ratio u, the screening estimate, the torsion-balance limit and its column, the bound as a function of u, Sundrum 2004 and Kapner et al. 2007, the caveats...
+    ...- `wiki/papers/phase-space-diameter.md` §8.2 — the coupling with its background ratio u, the screening estimate, the torsion-balance limit and its column, the bound as a function of u, Sundrum 2004 and Kapner et al. 2007, the caveats...
 
 #51 cosmology/scale-factor-duality/self-dual-length-obituary.md:136 [Kapner et al. 2007] -> arXiv:hep-ph/0611184 (registered: True)
     paper: Kapner 2006/2007: Tests of the gravitational inverse-square law below the dark-energy length scale
     authors (INSPIRE, fetched for this check): Kapner, Cook, Adelberger, Gundlach, Heckel, Hoyle, Swanson
-    ...- `papers/phase-space-diameter.md` §8.2 — the coupling with its background ratio u, the screening estimate, the torsion-balance limit and its column, the bound as a function of u, Sundrum 2004 and Kapner et al. 2007, the caveats...
+    ...- `wiki/papers/phase-space-diameter.md` §8.2 — the coupling with its background ratio u, the screening estimate, the torsion-balance limit and its column, the bound as a function of u, Sundrum 2004 and Kapner et al. 2007, the caveats...
 
 #52 cosmology/scale-factor-duality/square-at-the-bounce.md:55 [Soman et al. 2025] -> arXiv:2407.07956 (registered: True)
     paper: Soman 2024/2025: Inflationary gravitational waves as a probe of the unknown postinflationary prim
@@ -280,7 +280,7 @@
 #55 cosmology/scale-factor-duality/square-at-the-bounce.md:71 [Gasperini–Veneziano 1993] -> arXiv:hep-th/9211021 (registered: True)
     paper: Gasperini 1992/1993: Pre - big bang in string cosmology
     authors (INSPIRE, fetched for this check): Gasperini, Veneziano
-    IDENTIFIED among 2: by hand: the line quotes the diameter note §6, whose sentence this is; the note's only Gasperini–Veneziano 1993 is hep-th/9211021 (papers/phase-space-diameter.md, References)
+    IDENTIFIED among 2: by hand: the line quotes the diameter note §6, whose sentence this is; the note's only Gasperini–Veneziano 1993 is hep-th/9211021 (wiki/papers/phase-space-diameter.md, References)
     ...ale-factor duality](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-name-scale-factor-duality-t) maps a(t) to a⁻¹(−t), and the big bang becomes "an instant of maximal curvature" between the two branches [S: Veneziano 1991; Gasperini–Veneziano 1993]; in string-gas cosmology the temperature is symmetric under R → 1/R about the self-dual radius [S: Brandenberger–Vafa 1989; Brandenberger 2008]. There the self-dual point is in string units, for a compact radius or for the scale factor it...
 
 #56 cosmology/scale-factor-duality/square-at-the-bounce.md:71 [Brandenberger 2008] -> arXiv:0808.0746 (registered: True)
@@ -864,12 +864,12 @@
 #167 phase-space/modular-field/gaussian-states.md:23 [Ohsawa 2015] -> arXiv:1504.03963 (registered: True)
     paper: Ohsawa 2015: The Siegel Upper Half Space is a Marsden-Weinstein Quotient: Symplectic Reductio
     authors (INSPIRE, fetched for this check): Ohsawa
-    ...atus:** Established — literature [T]: the labelling of Gaussian states by the Siegel upper half-space and the Möbius action of the symplectic group on them are cited by the phase-space-diameter note (`papers/phase-space-diameter.md` §5) to Ohsawa 2015 and de Gosson 2013 [S]. The widths, the Fourier action on one sampled packet, the half-plane distances, the Fubini–Study factor and det H_Z = 1 are machine-checked [V] in `verify/phase_space_diameter.py` ([the phase-space-diameter script](...
+    ...atus:** Established — literature [T]: the labelling of Gaussian states by the Siegel upper half-space and the Möbius action of the symplectic group on them are cited by the phase-space-diameter note (`wiki/papers/phase-space-diameter.md` §5) to Ohsawa 2015 and de Gosson 2013 [S]. The widths, the Fourier action on one sampled packet, the half-plane distances, the Fubini–Study factor and det H_Z = 1 are machine-checked [V] in `verify/phase_space_diameter.py` ([the phase-space-diameter script](...
 
 #168 phase-space/modular-field/gaussian-states.md:23 [de Gosson 2013] -> arXiv:1305.1025 (registered: True)
     paper: de Gosson 2013: Symplectic and Hamiltonian Deformations of Gabor Frames
     authors (INSPIRE, fetched for this check): de Gosson
-    ...hed — literature [T]: the labelling of Gaussian states by the Siegel upper half-space and the Möbius action of the symplectic group on them are cited by the phase-space-diameter note (`papers/phase-space-diameter.md` §5) to Ohsawa 2015 and de Gosson 2013 [S]. The widths, the Fourier action on one sampled packet, the half-plane distances, the Fubini–Study factor and det H_Z = 1 are machine-checked [V] in `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verifi...
+    ...hed — literature [T]: the labelling of Gaussian states by the Siegel upper half-space and the Möbius action of the symplectic group on them are cited by the phase-space-diameter note (`wiki/papers/phase-space-diameter.md` §5) to Ohsawa 2015 and de Gosson 2013 [S]. The widths, the Fourier action on one sampled packet, the half-plane distances, the Fubini–Study factor and det H_Z = 1 are machine-checked [V] in `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verifi...
 
 #169 phase-space/modular-field/gaussian-states.md:111 [Grain–Vennin 2020] -> arXiv:1910.01916 (registered: True)
     paper: Grain 2019/2020: Canonical transformations and squeezing formalism in cosmology

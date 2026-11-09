@@ -339,7 +339,7 @@
    "id": "C17",
    "statement": "#13 §4 identifies μ ~ ħ/λ_χ, with λ_χ an irreducible extent in position. Standard form-factor physics then gives a form factor in the transfer q at scale μ [T], which is the x-space construction #6 calls the dual, not a gate in k.",
    "tag": "[D] (with [T] input)",
-   "basis": "papers/conjugate-special-relativity.md §4; standard form-factor theory"
+   "basis": "wiki/papers/conjugate-special-relativity.md §4; standard form-factor theory"
   },
   {
    "id": "C18",
@@ -384,7 +384,7 @@
   "The strength of the coupling (OP5, the dual-stress enhancement) stays open whatever the mechanism; at gravitational strength, X-exchange is negligible in any case."
  ],
  "caveats": [
-  "Files read: papers/broken-born-checkpoint-v2.md (all), notes/x-classification.md, notes/geometric-core.md, notes/beta-coefficients.md, notes/broken-born-theory.md, papers/conjugate-special-relativity.md §4, HANDOFF.md §§1–8, the wiki glossary entries named in the task, and the wiki pages momentum-fibers, gate-mechanism, gate-shape and dual-stress, plus review/wiki-build-flags.md item 17 with its check. No review round has examined the gate mechanism (grep of review/).",
+  "Files read: wiki/papers/broken-born-checkpoint-v2.md (all), notes/x-classification.md, notes/geometric-core.md, notes/beta-coefficients.md, notes/broken-born-theory.md, wiki/papers/conjugate-special-relativity.md §4, HANDOFF.md §§1–8, the wiki glossary entries named in the task, and the wiki pages momentum-fibers, gate-mechanism, gate-shape and dual-stress, plus review/wiki-build-flags.md item 17 with its check. No review round has examined the gate mechanism (grep of review/).",
   "Readings R1 and R2 of #6 §4 are my reconstruction (inference), because the record defines no overlap, profile or vertex. The theorems about each reading are derivations.",
   "The main theorem is tree level on a flat background with the Fierz–Pauli numerator. Hassan–Rosen nonlinearities and vDVZ subtleties change the t-dependence and normalization, not the degree in s. Loops are treated through the effective-range argument and one number.",
   "The section-condition and asymmetric-relic statements come from #1 (lab notebook), which is superseded as reference but is the only document that states them. #11 §12 and §14 item 7 keep polarization-genesis.",

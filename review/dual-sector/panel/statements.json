@@ -5167,7 +5167,7 @@
   "bears_on": [
    "other"
   ],
-  "reading": "My check (de_numbers.py, section A): 2.7328×10⁷ GeV², √μ = 5.228 TeV, as printed. It is the same 5.2 TeV see-saw scale the record's diameter note attributes to Berglund, Hübsch and Minic (papers/phase-space-diameter.md §7).",
+  "reading": "My check (de_numbers.py, section A): 2.7328×10⁷ GeV², √μ = 5.228 TeV, as printed. It is the same 5.2 TeV see-saw scale the record's diameter note attributes to Berglund, Hübsch and Minic (wiki/papers/phase-space-diameter.md §7).",
   "quote_check": "FOUND: 2011.08852 — searched full text (https://arxiv.org/html/2011.08852); 'only a very special choice' clause also FOUND",
   "verdict": "confirmed",
   "correction": ""
@@ -5528,7 +5528,7 @@
   "reading": "Polarization is a choice of basis for a basis-independent trace; the usual (Schrödinger, momentum) polarization is called singular, and the modular polarization is used as a regulator. Later: 'In EFT though, we are tied to a preferred basis, having assumed a fixed classical space-time.' Nothing selects a polarization dynamically and nothing breaks reciprocity.",
   "quote_check": "FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901); Schrödinger-polarization and EFT sentences also FOUND",
   "verdict": "confirmed-in-part",
-  "correction": "'Nothing selects a polarization dynamically' needs a qualifier. The paper does let gravitational entropy fix the shape of the modular cell, its aspect ratio between position and momentum: 'We suggest that the holographic bound on entropy can be thought of as providing a contextual scale that determines the shape of elementary phase space cells', giving a cell 'much wider in the space direction and much thinner in the momentum direction than one would guess by identifying them with the Planck scales' (both FOUND). That is a shape within one modular polarization, not a choice between position and momentum polarizations, and not spontaneous breaking. The record already quotes this paper's contextual cell length (papers/phase-space-diameter.md §4)."
+  "correction": "'Nothing selects a polarization dynamically' needs a qualifier. The paper does let gravitational entropy fix the shape of the modular cell, its aspect ratio between position and momentum: 'We suggest that the holographic bound on entropy can be thought of as providing a contextual scale that determines the shape of elementary phase space cells', giving a cell 'much wider in the space direction and much thinner in the momentum direction than one would guess by identifying them with the Planck scales' (both FOUND). That is a shape within one modular polarization, not a choice between position and momentum polarizations, and not spontaneous breaking. The record already quotes this paper's contextual cell length (wiki/papers/phase-space-diameter.md §4)."
  },
  {
   "reader": "r4-pheno",
@@ -5553,7 +5553,7 @@
   "bears_on": [
    "other"
   ],
-  "reading": "At fixed number of cells N the position and momentum cutoffs are reciprocal. The record already quotes this (papers/phase-space-diameter.md §4, 'Born geometry [T][S]').",
+  "reading": "At fixed number of cells N the position and momentum cutoffs are reciprocal. The record already quotes this (wiki/papers/phase-space-diameter.md §4, 'Born geometry [T][S]').",
   "quote_check": "FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901)",
   "verdict": "confirmed",
   "correction": ""

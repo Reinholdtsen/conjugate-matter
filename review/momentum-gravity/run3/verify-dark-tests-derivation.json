@@ -400,12 +400,12 @@
    "id": "D10",
    "statement": "The record's dynamics is the Hamiltonian reading. Lab notebook §5.2 writes ε(p; f) = p²/2m + ∫U(p−p′)f̄ with 'ẋ ⊃ ∇ₚε — an anomalous velocity'. Calc note #2's single-particle energy is ε(x,p), with the gate G((p−p′)/μ) on momenta. #11 §8 gates the amplitude on the incoming relative momentum k; the classical limit of such an amplitude is a potential whose Weyl symbol depends on the canonical relative momentum (on shell |(k+k′)/2|² = k² − q²/4). The Lagrangian reading agrees at O(ε). The force law has no anomalous velocity and appears nowhere in the record. In calc note #2's static homogeneous medium the anomalous-velocity term vanishes; about the Hubble flow it does not, because f₀(r,P) = nδ(P − mHr) depends on r at fixed P. The record defines neither a relative momentum for separated particles nor a long-range gated force: its X is massive (range < 37.7 μm), and its gate acts at contact range.",
    "tag": "[D]",
-   "basis": "notes/broken-born-theory.md §5.2 and §3; notes/stream-stability.md 'Setup'; papers/broken-born-checkpoint-v2.md §8; papers/phase-space-diameter.md §8.2.",
+   "basis": "notes/broken-born-theory.md §5.2 and §3; notes/stream-stability.md 'Setup'; wiki/papers/broken-born-checkpoint-v2.md §8; wiki/papers/phase-space-diameter.md §8.2.",
    "confidence": "high",
    "sources": [
     "notes/broken-born-theory.md §5.2",
     "notes/stream-stability.md Setup",
-    "papers/broken-born-checkpoint-v2.md §8"
+    "wiki/papers/broken-born-checkpoint-v2.md §8"
    ]
   },
   {

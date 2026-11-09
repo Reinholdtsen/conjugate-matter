@@ -10,7 +10,7 @@ boolean or a number against a tolerance, never a judgement.
 Exit code 1 if any check fails.
 
 The computations, seeds and RNG call order are Appendix A's, unchanged, so
-the printed figures are the ones quoted in papers/broken-born-checkpoint-v2.md
+the printed figures are the ones quoted in wiki/papers/broken-born-checkpoint-v2.md
 §2 (66.58 vs 63.72; rms 3.29). Those quoted figures are checked as well
 ("parity"): a parity failure means this environment no longer reproduces
 the numbers the papers cite.

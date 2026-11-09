@@ -22,7 +22,7 @@ Anything else of interest."
 - "Generalized general relativity" is taken to mean the program's gravity on the generalized metric H:
   - H = diag(g, g⁻¹) in the vacuum, with a·ã = 1 (#11 §5, §10);
   - the massive momentum graviton X in the palindromic Hassan–Rosen branch at background ratio u = 1
-    (#11 §7; `papers/phase-space-diameter.md` §8.2);
+    (#11 §7; `wiki/papers/phase-space-diameter.md` §8.2);
   - τ with V = V₀[1 + cos(τ/f)] (#11 §10);
   - the dual-frame minisuperspace (#1 §6).
 - "Closed" means spatial curvature k = +1, so Ω_k < 0.
@@ -301,7 +301,7 @@ fixed. Closure fixes the normalization a = R/λ but not the a⁻⁶ coefficient.
 - Pairing the radius R with the total mass M = ρ·2π²R³/c² gives G·M/c² = (3π/4)R at H = 0.
 - The aspect ratio at a turnaround spans 4/(3π) to 8/3 across conventions.
 - This is the closed Friedmann equation at H = 0, with ħ cancelling. The case against "square exactly at the
-  bounce" (`papers/phase-space-diameter.md` §6) stands. That claim has been under Paul's review since 2026-10-29,
+  bounce" (`wiki/papers/phase-space-diameter.md` §6) stands. That claim has been under Paul's review since 2026-10-29,
   not dead (note v1.2).
 
 ## 8. Light, horizons and counts
@@ -371,8 +371,8 @@ inflation: with inflation, the whole sphere comes into causal contact well befor
 
 ## Sources
 
-- #11 `papers/broken-born-checkpoint-v2.md` §3, §5, §7, §10, §13 row 5 and row 10
-- `papers/phase-space-diameter.md` §6, §8.2, §8.4; `review/round5-adjudication.md` R1, R11
+- #11 `wiki/papers/broken-born-checkpoint-v2.md` §3, §5, §7, §10, §13 row 5 and row 10
+- `wiki/papers/phase-space-diameter.md` §6, §8.2, §8.4; `review/round5-adjudication.md` R1, R11
 - #1 `notes/broken-born-theory.md` §2, §3, §6, §7
 - `notes/geometric-core.md` Corollary 3; `notes/beta-coefficients.md` §3
 - `review/wiki-build-flags.md` flags 5, 27 (addendum), 43, 45–54, 61

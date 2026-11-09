@@ -1,6 +1,6 @@
 # Round 5 — adjudication
 
-- **Manuscript:** `papers/phase-space-diameter.md` v1.0 (the
+- **Manuscript:** `wiki/papers/phase-space-diameter.md` v1.0 (the
   phase-space-diameter note), SHA-256
   `2ed53d537d03c26273564cb4ed81b70117cc67853b08239a28149e927f3425a4`.
 - **Pre-registration:** [round5-preregistration.md](round5-preregistration.md),
@@ -56,7 +56,7 @@
 | R8 | §7: Λ = 3l_P²/λ⁴ is attributed to BHM, who write λ_cc = l_P²/l_Λ⁴ without the 3 (A) | **Upheld** | Referee A, from the arXiv source. |
 | R9 | §7: the CKN conventions "between 0.45 and 2.1" need the 2.1's assumption stated (A) | **Upheld** | `arb.py`: 0.4466 (reduced Planck mass), 0.5878 (sphere), 0.8409 (cube), 2.0837 (one scalar's zero-point energy Λ⁴/16π²). |
 | R10 | §4, §7: Mignemi 2010 writes no geometric-mean length and does not call the duality Born's (A, B) | **Upheld** | Both referees, from the arXiv source. The explicit prior art is Bambi–Urban 2008, whose map of the extended uncertainty relation has scale (α/β)^{1/2}L_X L_Pl with L_X = L_Λ, and Bolen–Cavaglià 2005, which motivates the same relation by "the symmetry of the symplectic space". |
-| R11 | §6: "no turnaround as written" assumes spatial flatness (A) | **Upheld** | A closed universe can turn around with V ≥ 0. The program's cosmology is flat (`papers/broken-born-checkpoint-v2.md` §10); v1.1 says so. |
+| R11 | §6: "no turnaround as written" assumes spatial flatness (A) | **Upheld** | A closed universe can turn around with V ≥ 0. The program's cosmology is flat (`wiki/papers/broken-born-checkpoint-v2.md` §10); v1.1 says so. |
 | R12 | §8.2: the interpolation's anchors validate the \|α₉₅\| column, while 37.7 μm comes from the +α₉₅ column (B) | **Upheld (wording)** | `arb.py`: the \|α₉₅\| column gives 38.63 μm (α = 1) and 30.23 μm (α = 8/3), the published values; at α = 4/3 it gives 35.79 μm, the +α₉₅ column 37.68 μm. Both columns come from the same table, so the anchor checks the transcription and the method; the note now says which column it uses and why (the attractive, one-sided limit, which is the more conservative). |
 | R13 | §5: Gabor's "self-reciprocal" refers to Gaussian pulses of any sharpness, not to the one fixed point (B) | **Upheld** | Referee B, from the scan (p. 435). |
 | R14 | §6: the survey of readings misses the squeezed-mode reading (r = 105.9 gives 10⁹²), the convention dependence of the \|Z\| = 1 apex, §8.4's step at the §6 epoch, and the infinite Hubble-sphere elongation at a true bounce (B) | **Accepted** | `arb.py`: e^{2r} = 10^{86.9}–10^{104.2} for r = 100–120 and 10^{92.0} at r = 105.9; with Im Z ∝ a⁻² the apex of \|Z\| = 1 is a minimum of a, with a² = Im Z a maximum. None of these changes the withdrawal: the squeezed mode was round before it left the Hubble radius during inflation, not at a bounce, and the \|Z\| = 1 geometry is excluded under either convention. |

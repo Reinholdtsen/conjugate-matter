@@ -20,7 +20,9 @@ config the record of the domain, follow steps 1 and 2 of "Adding a domain" with
 
 `hugo.toml` mounts `../wiki` (the repository's `wiki/` folder) as
 `content/wiki`. Edit pages in `wiki/`, following `wiki/CLAUDE.md`; never copy
-them into `site/content/`. `wiki/a/b.md` serves at `/wiki/a/b/`. The only page in
+them into `site/content/`. `wiki/a/b.md` serves at `/wiki/a/b/`. The program's
+papers are in `wiki/papers/`, so the same mount publishes them at
+`/wiki/papers/<name>/`; they need no mount of their own. The only page in
 `site/content/` is the home page `/`, a short introduction that links to `/wiki`.
 It sets no `title`: `layouts/home.html` renders the site title from `hugo.toml`
 as its h1.
@@ -37,7 +39,11 @@ mounts.
 - `layouts/` — `single.html`, `list.html` and `home.html` render the page title
   as the h1, which hugo-book does not do; `_partials/docs/html-head-title.html`
   keeps a page titled like the site (`/wiki/`) from reading "X | X" in the
-  browser title. A file here shadows the theme's file of the same name.
+  browser title. `_markup/render-link.html` resolves the wiki's links, which are
+  paths relative to their file: a path to a wiki page becomes the page's URL
+  (through the theme's portable-link partial), and a path to any other file or
+  folder of the repository becomes its address on GitHub at `main`, since those
+  files are not built. A file here shadows the theme's file of the same name.
 - `themes/hugo-book` — the theme, a git submodule pinned to v13
   (`cec082b8dd9b31d0c52b2de95d86ced9909cc7ec`, the commit
   `bitsy-services/wiki` uses). Do not edit it.
@@ -67,7 +73,10 @@ The root gate also needs the repository's `.venv` (root `CLAUDE.md`, "The gate")
 - `npm run check` — the site's gate; see below.
 - `npm run preview` — build, then `wrangler dev` serves `public/` locally the way
   the Worker will.
-- `npm run deploy` — `npm run check`, then `wrangler deploy`.
+- `npm run deploy` — `npm run check`, then `../scripts/check-pushed.sh`, then
+  `wrangler deploy`. The push check refuses unless the checkout is on `main`, has
+  no uncommitted changes in tracked files and equals `origin/main`: the site
+  links repository files on GitHub at `main`, so GitHub must hold this commit.
 
 ## The gate
 
@@ -81,17 +90,20 @@ The root gate also needs the repository's `.venv` (root `CLAUDE.md`, "The gate")
 
 Hugo itself validates no Markdown links, so links are checked in three layers:
 
-1. **`scripts/check-wiki.py`, on the Markdown.** Every `/wiki/...` link must name
-   a page and every `#fragment` a heading. It computes heading IDs the way Hugo
-   does: subscript and superscript digits are dropped, so the heading
-   "What w₀ and wₐ mean" has the ID `what-w-and-wₐ-mean`. A heading must be
-   plain text (code spans are fine): Hugo builds the ID of a heading with a link
-   or emphasis from only part of its text, and a `{#id}` block replaces it, so
-   the check rejects those.
-2. **`BookPortableLinks = 'error'`, in the build.** hugo-book's link render hook
-   resolves every internal Markdown link through `.Page.GetPage` to the page's
-   URL, so the `/wiki/...` links also work under a baseURL with a subpath, and a
-   link to a page that does not exist fails the build. Its message reads
+1. **`scripts/check-wiki.py`, on the Markdown.** Every link must be a path
+   relative to its file that names an existing page, file or folder, and every
+   `#fragment` a heading. It computes heading IDs the way Hugo does: subscript
+   and superscript digits are dropped, so the heading "What w₀ and wₐ mean" has
+   the ID `what-w-and-wₐ-mean`. GitHub's IDs agree except for combining marks,
+   and a link to a heading on which they differ fails. A heading must be plain
+   text (code spans are fine): Hugo builds the ID of a heading with a link or
+   emphasis from only part of its text, and a `{#id}` block replaces it, so the
+   check rejects those.
+2. **`BookPortableLinks = 'error'`, in the build.** The link hook
+   (`layouts/_markup/render-link.html`) passes every link to a wiki page to
+   hugo-book's portable-link partial, which resolves it through `.Page.GetPage`
+   to the page's URL, so the links also work under a baseURL with a subpath,
+   and a link to a page that does not exist fails the build. Its message reads
    "Image reference '…' not found" even for a page link. It does not check
    `#fragments`.
 3. **`scripts/check-site.py`, on the HTML.** Every internal `href` and `src` in
@@ -101,7 +113,9 @@ Hugo itself validates no Markdown links, so links are checked in three layers:
    must be built and no CLAUDE.md may be, and every wiki heading must have the
    ID that layer 1 computes, so a difference between layer 1's emulation and
    Hugo (after a Hugo upgrade, say) fails here even before a link targets that
-   heading. A run that finds no pages or no links fails.
+   heading. Every link to the repository on GitHub must name a file (`blob/`)
+   or folder (`tree/`) that git tracks, and its `#fragment` a heading GitHub
+   gives that file. A run that finds no pages or no links fails.
 
 Do not weaken any layer to make a build pass. Fix the link.
 
@@ -109,7 +123,7 @@ Do not weaken any layer to make a build pass. Fix the link.
 
 ```sh
 npx wrangler login     # once per machine: authorizes wrangler in the browser
-npm run deploy         # from site/: the gate, then wrangler deploy
+npm run deploy         # from site/: the gate, the push check, then wrangler deploy
 ```
 
 `npx wrangler whoami` shows the account wrangler is logged in to. Without

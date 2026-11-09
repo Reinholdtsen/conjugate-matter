@@ -11,7 +11,7 @@ pre-registration scoring line: ['| F6 | "Increasing the truncation adds only mas
   > - Langmann, Szabo, Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces", JHEP 01 (2004) 017, hep-th/0308043 -- exact solution of the complex model at a special self-dual point (U(infty) degeneracies); GW [4] them
   > - "Real covariant, complex symmetric": LS's original duality (Prop. 1) is formulated for complex fields; LSZ (hep-th/0308043) solve a closely related complex model exactly. Partly prior art; LSZ is the natural check for the restoration clai
 
-== 3. Toy note v2 (papers/reciprocity-toy-models.md) ==
+== 3. Toy note v2 (wiki/papers/reciprocity-toy-models.md) ==
   line 30 [1. Setting and prior work]: - *An exactly x ↔ p symmetric interacting theory.* Langmann and Szabo found a duality of noncommutative scalar field theory that exchanges positions and momenta
   line 103 [4. Quantum stability]: - The exact solution of the related model [8] is the natural independent check. We have not carried it out.
   line 189 [References]: [8] E. Langmann, R. J. Szabo, K. Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces," JHEP 01 (2004) 017, hep-th/0308043.

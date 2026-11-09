@@ -10,12 +10,12 @@ sources:
   - "review/round4/referee/out_model2_quantum.txt"
   - "review/round4/adjudicator/arb.out"
   - "review/round4/adjudicator/ctrl.out"
-  - "papers/reciprocity-toy-models.md Abstract"
-  - "papers/reciprocity-toy-models.md §3"
-  - "papers/reciprocity-toy-models.md §4"
-  - "papers/reciprocity-toy-models.md §5"
-  - "papers/reciprocity-toy-models.md §6"
-  - "papers/broken-born-checkpoint-v2.md §14"
+  - "wiki/papers/reciprocity-toy-models.md Abstract"
+  - "wiki/papers/reciprocity-toy-models.md §3"
+  - "wiki/papers/reciprocity-toy-models.md §4"
+  - "wiki/papers/reciprocity-toy-models.md §5"
+  - "wiki/papers/reciprocity-toy-models.md §6"
+  - "wiki/papers/broken-born-checkpoint-v2.md §14"
   - "notes/toy-lagrangian.md 'Write-up and review (2026-10-19/20)'"
   - "verify/toy_coset.py"
   - "verify/toy_gw.py"
@@ -27,24 +27,24 @@ sources:
   - "review/wiki-build-flags.md items 2, 10, 11, 12, 13, 38, 42"
 ---
 
-*Review round 4 was the blind review of the toy-model note, `papers/reciprocity-toy-models.md`, which builds two explicit field theories in which Born reciprocity is a symmetry of the action and asks whether the lowest-energy state breaks it. A fresh referee that could execute code reproduced the note's algebra and most of its numerics, but found that the note's one claim of quantum symmetry breaking rested on a potential that is unbounded below once the field H is allowed to vary. It graded the note B, flawed but salvageable, and the author agreed; the pre-registered forecast had also been B, though it had placed the weakest link correctly and underestimated how serious it was. Every revision was accepted; version 2 of the note applied them on 2026-10-20, with three departures, and the round added two rules to the project's method.*
+*Review round 4 was the blind review of the toy-model note, [`wiki/papers/reciprocity-toy-models.md`](../../papers/reciprocity-toy-models.md), which builds two explicit field theories in which Born reciprocity is a symmetry of the action and asks whether the lowest-energy state breaks it. A fresh referee that could execute code reproduced the note's algebra and most of its numerics, but found that the note's one claim of quantum symmetry breaking rested on a potential that is unbounded below once the field H is allowed to vary. It graded the note B, flawed but salvageable, and the author agreed; the pre-registered forecast had also been B, though it had placed the weakest link correctly and underestimated how serious it was. Every revision was accepted; version 2 of the note applied them on 2026-10-20, with three departures, and the round added two rules to the project's method.*
 
-**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (version 2 of the note and #11 v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A further review of the note, which would be round 6 because round 5 went to the phase-space-diameter note, is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
+**Status:** Record — untagged. The record is [`review/round4-adjudication.md`](../../../review/round4-adjudication.md), with the referee's notes, scripts and outputs in [`review/round4/referee/`](../../../review/round4/referee/) and the arbitration in [`review/round4/adjudicator/`](../../../review/round4/adjudicator/). The revisions were applied in commit 6606734 (version 2 of the note and [#11](../../papers/broken-born-checkpoint-v2.md) v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A further review of the note, which would be round 6 because round 5 went to the phase-space-diameter note, is optional, "but only before any external use" (root [`CLAUDE.md`](../../../CLAUDE.md), 'Since the handoff').
 
 ## The manuscript under review
 
-The note answers the program's first acceptance criterion: an explicit action in which [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the phase-space map ρ: (x, p) → (p, −x), is a symmetry that the vacuum breaks, with the neutral metric η as the [order parameter](/wiki/symmetry-breaking/order-parameter) ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)). The handoff called this "the item both independent reviewers named as the gate to verdict A" (`HANDOFF.md` §8 item 4), and round 3's fourth decision made it the next task, because "Every referee across three rounds converges on 'the framework does no work'" and "The toy action is the only item that can change that" ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)).
+The note answers the program's first acceptance criterion: an explicit action in which [Born reciprocity](../../phase-space/reciprocity/born-reciprocity.md), the phase-space map ρ: (x, p) → (p, −x), is a symmetry that the vacuum breaks, with the neutral metric η as the [order parameter](../../symmetry-breaking/order-parameter.md) ([acceptance criterion 1](../../symmetry-breaking/toy-models/acceptance-criterion.md)). The handoff called this "the item both independent reviewers named as the gate to verdict A" ([`HANDOFF.md` §8 item 4](../../../HANDOFF.md#8-ranked-next-actions-queue)), and round 3's fourth decision made it the next task, because "Every referee across three rounds converges on 'the framework does no work'" and "The toy action is the only item that can change that" ([the 'framework does no work' critique](../../program/framework-does-no-work.md)).
 
-The note studies two models ([toy models of broken reciprocity](/wiki/symmetry-breaking/toy-models)):
+The note studies two models ([toy models of broken reciprocity](../../symmetry-breaking/toy-models/_index.md)):
 
-- **Model I**, [a coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model) of a phase-space metric H and a real structure K (K² = 1), with η = ωK. Its vacua break [Sp(2,ℝ)](/wiki/phase-space/reciprocity/symplectic-form), the group containing ρ, and K is the order parameter.
-- **Model II**, [the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), a noncommutative scalar field theory with an exact position–momentum duality (the [Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory)).
+- **Model I**, [a coset sigma model](../../symmetry-breaking/toy-models/coset-model/_index.md) of a phase-space metric H and a real structure K (K² = 1), with η = ωK. Its vacua break [Sp(2,ℝ)](../../phase-space/reciprocity/symplectic-form.md), the group containing ρ, and K is the order parameter.
+- **Model II**, [the self-dual Grosse–Wulkenhaar model](../../symmetry-breaking/toy-models/grosse-wulkenhaar/_index.md), a noncommutative scalar field theory with an exact position–momentum duality (the [Langmann–Szabo duality](../../symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory.md)).
 
-The reviewed text was the note "as of commit d9a06ac", committed with the pre-registration. Its title then was "Spontaneous Breaking of Born Reciprocity in Two Toy Models: the Polarization as a Goldstone Angle" (the file at that commit; the referee's notes give the part before the colon). Two of its claims matter below. Its §6 claimed an "Ising-class breaking of rho in model I in 1+1", from a [Monte Carlo simulation](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) in 1+1 dimensions with a [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) added. Its abstract generalized: "in both models rho is one element of a continuous U(1), so the polarization is a Goldstone angle rather than a discrete choice" (quoted in the referee's notes, Steps 2(b) and 3).
+The reviewed text was the note "as of commit d9a06ac", committed with the pre-registration. Its title then was "Spontaneous Breaking of Born Reciprocity in Two Toy Models: the Polarization as a Goldstone Angle" (the file at that commit; the referee's notes give the part before the colon). Two of its claims matter below. Its §6 claimed an "Ising-class breaking of rho in model I in 1+1", from a [Monte Carlo simulation](../../symmetry-breaking/toy-models/coset-model/monte-carlo.md) in 1+1 dimensions with a [ρ-preserving potential](../../symmetry-breaking/rho-preserving-potential.md) added. Its abstract generalized: "in both models rho is one element of a continuous U(1), so the polarization is a Goldstone angle rather than a discrete choice" (quoted in the referee's notes, Steps 2(b) and 3).
 
 ## The forecast
 
-The pre-registration (`review/round4-preregistration.md`) was committed before dispatch "with a neutral subject" ([pre-registration](/wiki/method/review/pre-registration)). It forecast:
+The pre-registration ([`review/round4-preregistration.md`](../../../review/round4-preregistration.md)) was committed before dispatch "with a neutral subject" ([pre-registration](pre-registration.md)). It forecast:
 
 - **Verdict B**, medium confidence. "It is not C: every number was computed by gated code with independent anchors, and the claims are narrowly scoped, with limitations stated." "It is not A: the significance is thin, and at least one argument is explicitly incomplete."
 - **Weakest link:** "in 1+1, the 'spontaneous' breaking of ρ rests on an explicit, rigid background." The ρ-preserving potential needs a fixed unordered pair of axes K_ref, so "A referee can reasonably call model I's 1+1 result an ordinary Z₂ breaking of an explicitly chosen axis pair."
@@ -54,27 +54,27 @@ The pre-registration (`review/round4-preregistration.md`) was committed before d
 
 ## What the referee did
 
-The referee was "a blind subagent with Python and web", working under the same five steps as round 3 ([the blind-review protocol](/wiki/method/review/review-protocol)). It started on 2026-10-19 and "was interrupted once by a rate limit and resumed from its own transcript." Its notes number the steps differently from the protocol: Step 1 citations, Step 2 numbers and re-derivation in four parts (a)–(d), Step 3 the conceptual audit, Step 4 the verdict.
+The referee was "a blind subagent with Python and web", working under the same five steps as round 3 ([the blind-review protocol](review-protocol.md)). It started on 2026-10-19 and "was interrupted once by a rate limit and resumed from its own transcript." Its notes number the steps differently from the protocol: Step 1 citations, Step 2 numbers and re-derivation in four parts (a)–(d), Step 3 the conceptual audit, Step 4 the verdict.
 
 ### Citations
 
-The referee pulled metadata for every reference from the INSPIRE database and downloaded each paper's arXiv source to search it for the attributed statement (Step 1). All 12 references resolve. Among the problems its table flags: the [double-field-theory](/wiki/phase-space/born-geometry/double-field-theory) reference [8] supports a pair of sections only for d = 1; the second Duncan–Niedermaier–Seiler paper has first author A. Duncan, not N. Duncan, and an erratum; Grosse–Wulkenhaar's eq. (1) is the four-dimensional form with prefactor π², which the note adapted to two dimensions without saying so; [5] concerns the four-dimensional model; and [12]'s specific claim is unverifiable, the full text being paywalled.
+The referee pulled metadata for every reference from the INSPIRE database and downloaded each paper's arXiv source to search it for the attributed statement (Step 1). All 12 references resolve. Among the problems its table flags: the [double-field-theory](../../phase-space/born-geometry/double-field-theory.md) reference [8] supports a pair of sections only for d = 1; the second Duncan–Niedermaier–Seiler paper has first author A. Duncan, not N. Duncan, and an erratum; Grosse–Wulkenhaar's eq. (1) is the four-dimensional form with prefactor π², which the note adapted to two dimensions without saying so; [5] concerns the four-dimensional model; and [12]'s specific claim is unverifiable, the full text being paywalled.
 
 It also found prior work the note did not cite:
 
 - Langmann, Szabo and Zarembo's exact solution of a closely related complex model at a self-dual point, "Directly relevant to Sec. 4 restoration claim";
 - Smolin's "Quantum reference frames and triality", an explicit cubic matrix model in which an extension of Born duality, a triality, is spontaneously broken;
 - Fosco and Moreno on the complex self-dual Grosse–Wulkenhaar model, which "does not examine duality breaking";
-- Marotta and Szabo's Born sigma-models, which treat [Born geometry](/wiki/phase-space/born-geometry) as target structure rather than as a field.
+- Marotta and Szabo's Born sigma-models, which treat [Born geometry](../../phase-space/born-geometry/_index.md) as target structure rather than as a field.
 
-Full-text searches on INSPIRE "found no prior explicit model with" the Langmann–Szabo duality "spontaneously broken by vacua". The referee's novelty verdict: "Model I appears new as a field theory, but it is a simple coset", with [vacuum manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t) `PSL(2,R)`.
+Full-text searches on INSPIRE "found no prior explicit model with" the Langmann–Szabo duality "spontaneously broken by vacua". The referee's novelty verdict: "Model I appears new as a field theory, but it is a simple coset", with [vacuum manifold](../../symmetry-breaking/topological-defects.md#the-vacuum-manifold-t) `PSL(2,R)`.
 
 ### Re-derivation and numbers
 
 The referee rebuilt both models in its own code (Step 2(a)–(d)). Most of the note reproduced:
 
-- **Model I:** ρ is symplectic with ρ² = −1; all three terms of the action are Sp(2,ℝ)-invariant and invariant under K → −K; the vacua at H = 1 form a circle K(φ); the stabilizer of a vacuum in the rotations is {±1}; the Hessian of the action's potential at the vacuum has rank 1, leaving 3 flat directions ([model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
-- **Model II:** the matrix-base functions f_mn multiply as f_mn ∗ f_kl = δ_nk f_ml, match the Weyl symbols of |m⟩⟨n| built independently from Hermite functions, and carry the duality as D f_mn = (−1)^m f_mn for the note's stated sign; the quadratic form is diagonal with entries 8π(m + n + 1); the vacua have S_min = −2.5; and the polarization obeys Δ(β)/Δ(0) = cos β "to 6 decimals at 9 angles", with the sign convention confirmed ([the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
+- **Model I:** ρ is symplectic with ρ² = −1; all three terms of the action are Sp(2,ℝ)-invariant and invariant under K → −K; the vacua at H = 1 form a circle K(φ); the stabilizer of a vacuum in the rotations is {±1}; the Hessian of the action's potential at the vacuum has rank 1, leaving 3 flat directions ([model I vacua](../../symmetry-breaking/toy-models/coset-model/vacua.md)).
+- **Model II:** the matrix-base functions f_mn multiply as f_mn ∗ f_kl = δ_nk f_ml, match the Weyl symbols of |m⟩⟨n| built independently from Hermite functions, and carry the duality as D f_mn = (−1)^m f_mn for the note's stated sign; the quadratic form is diagonal with entries 8π(m + n + 1); the vacua have S_min = −2.5; and the polarization obeys Δ(β)/Δ(0) = cos β "to 6 decimals at 9 angles", with the sign convention confirmed ([the duality on the matrix base](../../symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma.md); [complex-model vacua](../../symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua.md)).
 - **Matter coupling (§5):** I = 0.406972 and 0.360047 in the two vacua, matching the quoted 0.4070 and 0.3600. A first attempt with a fast Fourier transform gave 23.27, which the referee traced to its own normalization and corrected with a direct discrete transform: "not a manuscript error".
 - **Monte Carlo (§4):** with its own lattice code and seeds, the referee reproduced the ordered phase with the potential (⟨|m|⟩ = 0.9541, 0.9543, 0.9542 at L = 16, 32, 64, Binder cumulant 2/3), the slow decay without it, and the spin-wave formula (0.9359 against the closed form's 0.9360).
 
@@ -90,7 +90,7 @@ The audit (Step 3) asked whether "spontaneous breaking" was a fair description o
 
 ## The rulings
 
-The adjudication: "**Referee: B (flawed but salvageable), confidence ~0.75. I agree.**" It adds that "The algebra and numerics of §§2, 3 and 5 reproduced under the referee's own conventions and code", that the only claim of quantum symmetry breaking "rests on a potential that is unbounded below once H is dynamical", and "It is repairable." The arbitration scripts are `review/round4/adjudicator/arb.py` (F1–F5) and `ctrl.py` (the control run), with outputs `arb.out` and `ctrl.out`.
+The adjudication: "**Referee: B (flawed but salvageable), confidence ~0.75. I agree.**" It adds that "The algebra and numerics of §§2, 3 and 5 reproduced under the referee's own conventions and code", that the only claim of quantum symmetry breaking "rests on a potential that is unbounded below once H is dynamical", and "It is repairable." The arbitration scripts are [`review/round4/adjudicator/arb.py`](../../../review/round4/adjudicator/arb.py) (F1–F5) and `ctrl.py` (the control run), with outputs `arb.out` and `ctrl.out`.
 
 ### F1 and F2: the potential runs away when H moves
 
@@ -104,7 +104,7 @@ t = 0, 1, 2, 4:   V_mu = −4, −56.6, −2983, −8.9×10⁶      (λ-term ~0 
 
 The referee's closed form along the family is −4μ cosh²(2t). Constant fields cost no kinetic energy, so the potential is unbounded below: ruling F1, "**Upheld**".
 
-It follows that (1, K_ref), the note's vacuum, is a saddle point (F2, "**Upheld**"). The Hessian of the full potential at (1, K₀) has a negative eigenvalue at every compatibility coupling tried: −6.47, −4.40 and −4.04 at λ = 1, 10 and 100 "in my coordinates" (the adjudicator's, which are those of `verify/toy_coset.py`); the referee, in its own coordinates and normalization, found −3.3723, −2.7797 and −2.6785. The note's two vacua K = ±K_ref exist only if H is held at 1. The Monte Carlo had therefore simulated a frozen-H reduction of model I, not model I ([the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)).
+It follows that (1, K_ref), the note's vacuum, is a saddle point (F2, "**Upheld**"). The Hessian of the full potential at (1, K₀) has a negative eigenvalue at every compatibility coupling tried: −6.47, −4.40 and −4.04 at λ = 1, 10 and 100 "in my coordinates" (the adjudicator's, which are those of [`verify/toy_coset.py`](../../../verify/toy_coset.py)); the referee, in its own coordinates and normalization, found −3.3723, −2.7797 and −2.6785. The note's two vacua K = ±K_ref exist only if H is held at 1. The Monte Carlo had therefore simulated a frozen-H reduction of model I, not model I ([the frozen-H reduction](../../symmetry-breaking/toy-models/coset-model/frozen-h-reduction.md)).
 
 The repair came from the referee. Dividing by 2 Tr KᵀK, a measure of the size of K, bounds the potential:
 
@@ -112,40 +112,40 @@ The repair came from the referee. Dividing by 2 Tr KᵀK, a measure of the size 
 V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK)
 ```
 
-The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." The naive potential is under review ([Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), listed in [claims under review](/wiki/status/under-review)). The rulings stand as results ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
+The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." The naive potential is under review ([Under review: the naive ρ-preserving potential](../../symmetry-breaking/toy-models/coset-model/naive-potential.md), listed in [claims under review](../../status/under-review.md)). The rulings stand as results ([the bounded potential V_b](../../symmetry-breaking/toy-models/coset-model/bounded-potential.md)).
 
-**The zero mode: a conflict between the sources.** The adjudication's F2 ruling calls the zero eigenvalue "the residual diagonal squeeze, which is an exact symmetry". Version 2 of the note says "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref" (§4). Version 2 ranks higher, and the wiki follows it; a symbolic check made during the wiki build found V_b not squeeze-invariant off K = ±K_ref (flag 12 in `review/wiki-build-flags.md`).
+**The zero mode: a conflict between the sources.** The adjudication's F2 ruling calls the zero eigenvalue "the residual diagonal squeeze, which is an exact symmetry". Version 2 of the note says "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref" (§4). Version 2 ranks higher, and the wiki follows it; a symbolic check made during the wiki build found V_b not squeeze-invariant off K = ±K_ref (flag 12 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md)).
 
-**Two families called "boost".** The runaway family above uses the hyperbolic matrices [[cosh t, sinh t], [sinh t, cosh t]]. The referee's notes also call the diagonal squeezes diag(a, 1/a), which leave K_ref fixed, a "non-compact boost subgroup" (Step 2(c), capitals lowered). Version 2 calls the first family boosts and the second the squeeze; the double usage in the referee's notes is flag 10 in `review/wiki-build-flags.md`.
+**Two families called "boost".** The runaway family above uses the hyperbolic matrices [[cosh t, sinh t], [sinh t, cosh t]]. The referee's notes also call the diagonal squeezes diag(a, 1/a), which leave K_ref fixed, a "non-compact boost subgroup" (Step 2(c), capitals lowered). Version 2 calls the first family boosts and the second the squeeze; the double usage in the referee's notes is flag 10 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md).
 
 ### F3: the twisted ρ
 
-The action of model I is invariant under Sp(2,ℝ) and, separately, under the flip K → −K. The referee showed that the combination ρ∘(K → −K) leaves the vacuum (1, K₀) unchanged; the adjudicator's script confirms it ("fixed: True"). Without matter, saying that ρ is broken or that K → −K is broken is then "a labelling choice", in the referee's words. The ruling, "**Upheld**": "Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K. This sharpens the S5 conclusion rather than contradicting it." ([the twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element); [P4](/wiki/program/postulates/p4-polarized-matter)).
+The action of model I is invariant under Sp(2,ℝ) and, separately, under the flip K → −K. The referee showed that the combination ρ∘(K → −K) leaves the vacuum (1, K₀) unchanged; the adjudicator's script confirms it ("fixed: True"). Without matter, saying that ρ is broken or that K → −K is broken is then "a labelling choice", in the referee's words. The ruling, "**Upheld**": "Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K. This sharpens the S5 conclusion rather than contradicting it." ([the twisted element ρ∘(K → −K)](../../symmetry-breaking/twisted-element.md); [P4](../../program/postulates/p4-polarized-matter.md)).
 
-Version 2 states the caveat in its abstract and §2. Its §5 then says "**I is odd in K**, so it breaks the K → −K symmetry". Flag 2 in `review/wiki-build-flags.md` notes that I ≥ 0, so the two values show only that I is not invariant under K → −K; the requirement as the adjudication words it is unaffected, though the flag's audit adds that F3, "citing I_K as its example of a K-odd coupling, shares the slip".
+Version 2 states the caveat in its abstract and §2. Its §5 then says "**I is odd in K**, so it breaks the K → −K symmetry". Flag 2 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) notes that I ≥ 0, so the two values show only that I is not invariant under K → −K; the requirement as the adjudication words it is unaffected, though the flag's audit adds that F3, "citing I_K as its example of a K-odd coupling, shares the slip".
 
 ### F4: the real model's one-loop preference
 
-The note distinguishes complex fields, for which the Langmann–Szabo duality is a symmetry of model II, from real fields, for which it is only a covariance ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields)). The referee looked at the real model, the one the duality literature studies. Its vacua are diagonal, diag(±a₀, ±a₁), and the duality maps diag(a₀, a₁) to diag(a₀, −a₁). The two have equal classical action (−2.5) but different fluctuation spectra, so their one-loop free energies differ. The polarization in the real model is therefore a discrete choice lifted at one loop, not a [Goldstone angle](/wiki/symmetry-breaking/goldstone-angle), and the abstract's generalization is true "of the two models chosen, not of the GW model the duality literature is about" (Step 2(b); GW is Grosse–Wulkenhaar).
+The note distinguishes complex fields, for which the Langmann–Szabo duality is a symmetry of model II, from real fields, for which it is only a covariance ([complex versus real fields](../../symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields.md)). The referee looked at the real model, the one the duality literature studies. Its vacua are diagonal, diag(±a₀, ±a₁), and the duality maps diag(a₀, a₁) to diag(a₀, −a₁). The two have equal classical action (−2.5) but different fluctuation spectra, so their one-loop free energies differ. The polarization in the real model is therefore a discrete choice lifted at one loop, not a [Goldstone angle](../../symmetry-breaking/goldstone-angle.md), and the abstract's generalization is true "of the two models chosen, not of the GW model the duality literature is about" (Step 2(b); GW is Grosse–Wulkenhaar).
 
 The ruling, "**Upheld, with a consequence the referee did not draw**". At N = 8 the lowest Hessian eigenvalues are [2, 4, 4, 4] for diag(a₀, +a₁) and [1.07, 1.07, 2, 4] for diag(a₀, −a₁) ("the referee's normalization is half of mine"), and "F(+) − F(−) = 2.634, exactly the referee's number." The consequence: "**The lower free energy belongs to diag(a₀, −a₁), the β = π vacuum, which is the one sharper in position** (Δ(π) = −Δ(0) < 0)." The selection is "explicit, not spontaneous: the real model is not duality-symmetric, because the field is real in x", and "It is recorded as a lead, not a result: truncation dependence and its interpretation are unchecked."
 
-Version 2 reports the same 2.634 "at truncations N = 6, 8, 10, because the sign-dependent term involves only the modes coupling levels 0 and 1" (§3), and the gate prints 2.634 at all three (`verify/toy_gw.py`). The large-N, renormalized fate is still listed as not shown ([Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead)).
+Version 2 reports the same 2.634 "at truncations N = 6, 8, 10, because the sign-dependent term involves only the modes coupling levels 0 and 1" (§3), and the gate prints 2.634 at all three ([`verify/toy_gw.py`](../../../verify/toy_gw.py)). The large-N, renormalized fate is still listed as not shown ([Open: the real model's one-loop preference](../../symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead.md)).
 
 ### F5: the matter coupling needs H
 
-The note's matter coupling is a functional of a state's [Wigner function](/wiki/phase-space/reciprocity/wigner-function), I[W] = ∫_{L+} du (∫_{L−} dv W)², integrated along the two eigenlines L± of K. The referee found that I is not defined by K alone: rescaling the coordinate along L+ by 2 changes it, at fixed K, from 0.406972 to 0.813649 (Step 2(d)). The adjudicator's ruling, "**Upheld**", quotes "0.407 → 0.814", and the gate prints "0.4070 -> 0.8139" (`verify/toy_s5.py`). A scale along L+ has to come from H, so the coupling is covariant under the SO(2) that fixes H = 1, which contains ρ, and not under all of Sp(2,ℝ): "(H, K)-covariant", not "K-covariant" ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)).
+The note's matter coupling is a functional of a state's [Wigner function](../../phase-space/reciprocity/wigner-function.md), I[W] = ∫_{L+} du (∫_{L−} dv W)², integrated along the two eigenlines L± of K. The referee found that I is not defined by K alone: rescaling the coordinate along L+ by 2 changes it, at fixed K, from 0.406972 to 0.813649 (Step 2(d)). The adjudicator's ruling, "**Upheld**", quotes "0.407 → 0.814", and the gate prints "0.4070 -> 0.8139" ([`verify/toy_s5.py`](../../../verify/toy_s5.py)). A scale along L+ has to come from H, so the coupling is covariant under the SO(2) that fixes H = 1, which contains ρ, and not under all of Sp(2,ℝ): "(H, K)-covariant", not "K-covariant" ([locality from an (H, K)-built coupling](../../symmetry-breaking/matter-coupling.md)).
 
 ### F6: the truncation argument
 
-For complex model II the note had argued that the classical breaking does not survive quantization, and that "Increasing the truncation adds only massive levels." The referee (Step 2(c)): that sentence "omits mass renormalisation". At one loop the level-0 tadpole grows with the truncation N, so "At fixed bare mu^2 the low-level condensate is destroyed at large N; mu^2 must be renormalised with N." It "Does not change the no-SSB conclusion", the conclusion that there is no [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking). The ruling, "**Accepted, not re-checked**": "2D φ⁴ needs mass renormalization. The no-breaking conclusion is unaffected; the argument must be restated." The referee also found the restoration "stronger than stated": the action is invariant under independent diagonal unitaries, so every condensate phase is an exact flat direction at any truncation ([quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)).
+For complex model II the note had argued that the classical breaking does not survive quantization, and that "Increasing the truncation adds only massive levels." The referee (Step 2(c)): that sentence "omits mass renormalisation". At one loop the level-0 tadpole grows with the truncation N, so "At fixed bare mu^2 the low-level condensate is destroyed at large N; mu^2 must be renormalised with N." It "Does not change the no-SSB conclusion", the conclusion that there is no [spontaneous symmetry breaking](../../symmetry-breaking/spontaneous-symmetry-breaking.md). The ruling, "**Accepted, not re-checked**": "2D φ⁴ needs mass renormalization. The no-breaking conclusion is unaffected; the argument must be restated." The referee also found the restoration "stronger than stated": the action is invariant under independent diagonal unitaries, so every condensate phase is an exact flat direction at any truncation ([quantum restoration in the complex model](../../symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration.md)).
 
 The documents write the coefficient of the growth differently, and none of them compares the two:
 
-- **2 ln N**: the referee, whose T₀(N) = Σ_k (G₀ₖ + Gₖ₀) gives "T_0(N) - 2 ln N -> -0.8455 (N=10^5)" (audit notes, Step 2(c); `review/round4/referee/out_model2_quantum.txt`); and the adjudication, whose revision 4 asks for "the 2 ln N mass renormalization".
-- **ln N**: version 2, "The level-0 tadpole grows as ln N (it is a harmonic sum)" (§4); the toy worklog ("the ln N tadpole"); and the gate, which checks a single harmonic series, "sum_{k<N} 1/(k+1) - ln N -> Euler's gamma" (`verify/toy_gw.py`).
+- **2 ln N**: the referee, whose T₀(N) = Σ_k (G₀ₖ + Gₖ₀) gives "T_0(N) - 2 ln N -> -0.8455 (N=10^5)" (audit notes, Step 2(c); [`review/round4/referee/out_model2_quantum.txt`](../../../review/round4/referee/out_model2_quantum.txt)); and the adjudication, whose revision 4 asks for "the 2 ln N mass renormalization".
+- **ln N**: version 2, "The level-0 tadpole grows as ln N (it is a harmonic sum)" (§4); the toy worklog ("the ln N tadpole"); and the gate, which checks a single harmonic series, "sum_{k<N} 1/(k+1) - ln N -> Euler's gamma" ([`verify/toy_gw.py`](../../../verify/toy_gw.py)).
 
-The audit of flag 11 in `review/wiki-build-flags.md` separates them: "The level-0 tadpole holds two equal harmonic sums (row, column): Σ_k(G0k+Gk0) ≈ 2 ln N is the referee's T₀; one sum ≈ ln N is the note's; the averaged vertex is ≈ 4 ln N. Normalization only." The averaged vertex is the referee's "2 sum_k (G_0k + G_k0)", twice T₀, which its notes set beside the 2 ln N (Step 2(c)). Both readings agree that the growth is logarithmic and that the conclusion stands ([the coefficient: ln N or 2 ln N](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#the-coefficient-ln-n-or-2-ln-n)).
+The audit of flag 11 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) separates them: "The level-0 tadpole holds two equal harmonic sums (row, column): Σ_k(G0k+Gk0) ≈ 2 ln N is the referee's T₀; one sum ≈ ln N is the note's; the averaged vertex is ≈ 4 ln N. Normalization only." The averaged vertex is the referee's "2 sum_k (G_0k + G_k0)", twice T₀, which its notes set beside the 2 ln N (Step 2(c)). Both readings agree that the growth is logarithmic and that the conclusion stands ([the coefficient: ln N or 2 ln N](../../symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration.md#the-coefficient-ln-n-or-2-ln-n)).
 
 ### The Monte Carlo control and start conditions
 
@@ -163,12 +163,12 @@ The ruling, "**Upheld**": "my L = 16 value from seed 116 was a short-run fluctua
 
 The referee also found that hot starts (random initial angles) at L = 64 did not equilibrate in 6000 sweeps, giving ⟨|m|⟩ = 0.0593 in metastable domains of higher energy. It noted that the manuscript did not state its start condition, and that "results from a cold start alone would be partly by construction." Ruled "**Accepted**": "Cold starts are standard for ordered-phase measurements, but they must be stated."
 
-Version 2 states the method: "Checkerboard Metropolis, cold start (φ = 0), L = 16, 32, 64. Means ± standard errors over four independent seeds." Its control row reads 0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004, as the gate prints (`verify/toy_s4.py`). Its ordered-phase row gives "0.954 ± 0.0001 at every size", where the gate prints ± 0.0000 at L = 64 (flag 13 in `review/wiki-build-flags.md`). See [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo).
+Version 2 states the method: "Checkerboard Metropolis, cold start (φ = 0), L = 16, 32, 64. Means ± standard errors over four independent seeds." Its control row reads 0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004, as the gate prints ([`verify/toy_s4.py`](../../../verify/toy_s4.py)). Its ordered-phase row gives "0.954 ± 0.0001 at every size", where the gate prints ± 0.0000 at L = 64 (flag 13 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md)). See [Monte Carlo: an ordered ℤ₂ phase](../../symmetry-breaking/toy-models/coset-model/monte-carlo.md).
 
 ### Scope: the section pair and Mermin–Wagner
 
-- **The double-field-theory "pair"** ("**Upheld**"). The note said every derivation of the section condition "selects the pair" of null lines. That holds only for d = 1: "For d > 1, Betz–Blumenhagen–Lüst–Rennecke's M ∈ O(d) gives a continuous family of sections." ([the section condition](/wiki/symmetry-breaking/section-condition)).
-- **Mermin–Wagner** ("**Upheld (literature)**"). The note's §4 said "In the exactly symmetric model the continuous breaking is forbidden", citing the Mermin–Wagner and Coleman theorems ([Mermin–Wagner–Coleman](/wiki/symmetry-breaking/mermin-wagner-coleman); Step 3). But model I's H-sector "is a hyperbolic SO(1,2) model, which by Duncan–Niedermaier–Seiler can break in 2D". The statement "must be restricted to the compact SO(2) containing ρ", and "Whether that SO(2) is broken in the coupled model is open." ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
+- **The double-field-theory "pair"** ("**Upheld**"). The note said every derivation of the section condition "selects the pair" of null lines. That holds only for d = 1: "For d > 1, Betz–Blumenhagen–Lüst–Rennecke's M ∈ O(d) gives a continuous family of sections." ([the section condition](../../symmetry-breaking/section-condition.md)).
+- **Mermin–Wagner** ("**Upheld (literature)**"). The note's §4 said "In the exactly symmetric model the continuous breaking is forbidden", citing the Mermin–Wagner and Coleman theorems ([Mermin–Wagner–Coleman](../../symmetry-breaking/mermin-wagner-coleman.md); Step 3). But model I's H-sector "is a hyperbolic SO(1,2) model, which by Duncan–Niedermaier–Seiler can break in 2D". The statement "must be restricted to the compact SO(2) containing ρ", and "Whether that SO(2) is broken in the coupled model is open." ([coset and hyperbolic sigma models](../../symmetry-breaking/toy-models/coset-model/sigma-models.md); [Open: does ρ's SO(2) break in the coupled model?](../../symmetry-breaking/toy-models/coset-model/so2-question.md)).
 
 ### Citations and prior work
 
@@ -176,7 +176,7 @@ The citation fixes were "**Accepted**". The omitted prior work was "**Accepted, 
 
 ## The forecast scored
 
-The adjudication scores the pre-registration ([pre-registration](/wiki/method/review/pre-registration#round-4)):
+The adjudication scores the pre-registration ([pre-registration](pre-registration.md#round-4)):
 
 - verdict B against B: "**Hit**";
 - weakest link: "Same place, worse defect: the potential is unbounded below with H dynamical", "**Partial**: right location, missed severity";
@@ -188,12 +188,12 @@ Across the rounds: "Verdicts: 2/2 (rounds 1–2), miss (round 3), hit (round 4).
 
 ## The lessons
 
-Both went into root `CLAUDE.md` ('Method'); the adjudication words them:
+Both went into root [`CLAUDE.md`](../../../CLAUDE.md) ('Method'); the adjudication words them:
 
-1. "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability))
-2. "Monte Carlo numbers need error bars from independent runs. A fixed seed makes a number reproducible, not accurate." ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars))
+1. "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." ([the reduced-model stability rule](../verification/reduced-model-stability.md))
+2. "Monte Carlo numbers need error bars from independent runs. A fixed seed makes a number reproducible, not accurate." ([the Monte Carlo error-bar rule](../verification/monte-carlo-error-bars.md))
 
-Both were defects in the author's own checks: the potential had been checked only on the reduced model, and the control values were reproducible but not accurate ([the measured failure mode](/wiki/method/review/referee-failure-mode)).
+Both were defects in the author's own checks: the potential had been checked only on the reduced model, and the control values were reproducible but not accurate ([the measured failure mode](referee-failure-mode.md)).
 
 ## The revisions and version 2
 
@@ -212,43 +212,43 @@ Version 2 departs from the list in three places:
 - the tadpole, ln N where the adjudication said 2 ln N (flag 11);
 - the Langmann–Szabo–Zarembo comparison, of which version 2 says: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4).
 
-In the third, a requested step was not taken: revision 4 asked for the comparison, and version 2 did not make it. The adjudication's heading nevertheless reads "all accepted; applied", and the worklog lists "v2 applies every accepted revision" (flag 42 in `review/wiki-build-flags.md`, confirmed by the flags' audit).
+In the third, a requested step was not taken: revision 4 asked for the comparison, and version 2 did not make it. The adjudication's heading nevertheless reads "all accepted; applied", and the worklog lists "v2 applies every accepted revision" (flag 42 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md), confirmed by the flags' audit).
 
-The toy worklog records the outcome and the decision on a further round: "No round 5 for now. v2 fixes and narrows claims rather than adding new ones; the real-model lead is labelled as a lead." (`notes/toy-lagrangian.md`, 'Write-up and review'). #11 v2.2 §14 item 11 records the criterion as "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential", ending "Round-4 blind review: verdict B; v2 applies the accepted revisions."
+The toy worklog records the outcome and the decision on a further round: "No round 5 for now. v2 fixes and narrows claims rather than adding new ones; the real-model lead is labelled as a lead." ([`notes/toy-lagrangian.md`](../../../notes/toy-lagrangian.md), 'Write-up and review'). #11 v2.2 §14 item 11 records the criterion as "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential", ending "Round-4 blind review: verdict B; v2 applies the accepted revisions."
 
 ## The round's files and the gate
 
-The record of the round is `review/round4-preregistration.md`, `review/round4-adjudication.md`, the referee's notes, scripts and outputs in `review/round4/referee/`, and the adjudicator's scripts and outputs in `review/round4/adjudicator/`. The arbitration scripts sit in `review/` and are not run by the gate; whether they belong in `verify/` is a conflict between the sources that no document resolves ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records); flag 38 in `review/wiki-build-flags.md`). Findings F1–F6 and the control run each have a check in the gate's toy scripts ([the toy-model scripts](/wiki/method/verification/toy-model-scripts); [the gate](/wiki/method/verification/the-gate)):
+The record of the round is [`review/round4-preregistration.md`](../../../review/round4-preregistration.md), [`review/round4-adjudication.md`](../../../review/round4-adjudication.md), the referee's notes, scripts and outputs in [`review/round4/referee/`](../../../review/round4/referee/), and the adjudicator's scripts and outputs in [`review/round4/adjudicator/`](../../../review/round4/adjudicator/). The arbitration scripts sit in `review/` and are not run by the gate; whether they belong in `verify/` is a conflict between the sources that no document resolves ([conflicts between sources](../../history/documents/source-conflicts.md#method-and-records); flag 38 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md)). Findings F1–F6 and the control run each have a check in the gate's toy scripts ([the toy-model scripts](../verification/toy-model-scripts.md); [the gate](../verification/the-gate.md)):
 
 | Finding | Check | Script |
 | --- | --- | --- |
-| F1, F2 | the saddle eigenvalue −6.47; V_b stable with eigenvalues 0, 0.764, 2, 5.236; −8.9e6 at boost t = 4 | `verify/toy_coset.py` |
-| F3 | "round-4 F3: the twisted rho (rho composed with K -> -K) fixes (1, K_ref)" | `verify/toy_coset.py` |
-| F4 | F(+) − F(−) = 2.634 at N = 6, 8, 10 | `verify/toy_gw.py` |
-| F5 | I_K doubles under the rescaling | `verify/toy_s5.py` |
-| F6 | a single harmonic sum against Euler's γ, the ln N form (flag 11) | `verify/toy_gw.py` |
-| control | 0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004 | `verify/toy_s4.py` |
+| F1, F2 | the saddle eigenvalue −6.47; V_b stable with eigenvalues 0, 0.764, 2, 5.236; −8.9e6 at boost t = 4 | [`verify/toy_coset.py`](../../../verify/toy_coset.py) |
+| F3 | "round-4 F3: the twisted rho (rho composed with K -> -K) fixes (1, K_ref)" | [`verify/toy_coset.py`](../../../verify/toy_coset.py) |
+| F4 | F(+) − F(−) = 2.634 at N = 6, 8, 10 | [`verify/toy_gw.py`](../../../verify/toy_gw.py) |
+| F5 | I_K doubles under the rescaling | [`verify/toy_s5.py`](../../../verify/toy_s5.py) |
+| F6 | a single harmonic sum against Euler's γ, the ln N form (flag 11) | [`verify/toy_gw.py`](../../../verify/toy_gw.py) |
+| control | 0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004 | [`verify/toy_s4.py`](../../../verify/toy_s4.py) |
 
 ## What remains open
 
-- **The open ends of the toy work**, listed in root `CLAUDE.md`: [a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo); a derivation of the ρ-preserving potential; the strong form of matter locality; and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead." ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); [strong locality](/wiki/symmetry-breaking/strong-locality); [open problems and the queue](/wiki/status/open-problems)).
+- **The open ends of the toy work**, listed in root [`CLAUDE.md`](../../../CLAUDE.md): [a Monte Carlo with H dynamical](../../symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo.md); a derivation of the ρ-preserving potential; the strong form of matter locality; and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead." ([Open: the origin of the ρ-preserving potential](../../symmetry-breaking/rho-preserving-potential.md); [strong locality](../../symmetry-breaking/strong-locality.md); [open problems and the queue](../../status/open-problems.md)).
 - **Whether ρ's SO(2) breaks** in the coupled model, raised by the Mermin–Wagner ruling.
 - **The Langmann–Szabo–Zarembo comparison**, asked for by revision 4 and not carried out (flag 42).
-- **A round-6 review** of the note, optional, "but only before any external use" (root `CLAUDE.md`; [round 5](/wiki/method/review/round-5) reviewed the phase-space-diameter note).
-- **[The naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)**: under review ([claims under review](/wiki/status/under-review)).
+- **A round-6 review** of the note, optional, "but only before any external use" (root [`CLAUDE.md`](../../../CLAUDE.md); [round 5](round-5.md) reviewed the phase-space-diameter note).
+- **[The naive potential](../../symmetry-breaking/toy-models/coset-model/naive-potential.md)**: under review ([claims under review](../../status/under-review.md)).
 
 ## Sources
 
-- `review/round4-adjudication.md` — the verdict, rulings F1–F6 and the rest, the scoring, the lessons and the revisions
-- `review/round4-preregistration.md` — the forecast and the neutral commit subject
-- `review/round4/referee/audit-notes.md` Step 1–Step 4 — the citation audit, omitted prior work, confirmations, findings, conceptual audit and verdict
-- `review/round4/referee/out_model2_quantum.txt` — the referee's T₀(N)
-- `review/round4/adjudicator/arb.out`, `review/round4/adjudicator/ctrl.out` — the arbitration numbers
-- `papers/reciprocity-toy-models.md` Abstract, §3, §4, §5, §6 — version 2: the zero mode, the ln N tadpole, the F4 truncations, the Monte Carlo method and values, the uncompleted comparison, "odd in K"
-- `papers/broken-born-checkpoint-v2.md` §14 item 11 — the criterion met in the referees' wording; the round's outcome
-- `notes/toy-lagrangian.md` 'Write-up and review (2026-10-19/20)' — the revisions as applied; no round 5 for now
-- `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py` — the gated checks of the findings
-- `CLAUDE.md` 'Since the handoff (2026-10-19)', 'Method (HANDOFF §5)' — the open ends, round 6 optional, the two lessons, and the naive potential among the claims under review
-- `review/round3-adjudication.md` 'Decisions' (4) — why the toy Lagrangian came next
-- `HANDOFF.md` §8 item 4 — the toy Lagrangian as the gate to verdict A
-- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13, 38, 42 — suspected source errors bearing on this round, among them where the arbitration scripts belong (38) and the revision recorded as applied that version 2 did not carry out (42)
+- [`review/round4-adjudication.md`](../../../review/round4-adjudication.md) — the verdict, rulings F1–F6 and the rest, the scoring, the lessons and the revisions
+- [`review/round4-preregistration.md`](../../../review/round4-preregistration.md) — the forecast and the neutral commit subject
+- [`review/round4/referee/audit-notes.md`](../../../review/round4/referee/audit-notes.md) Step 1–Step 4 — the citation audit, omitted prior work, confirmations, findings, conceptual audit and verdict
+- [`review/round4/referee/out_model2_quantum.txt`](../../../review/round4/referee/out_model2_quantum.txt) — the referee's T₀(N)
+- [`review/round4/adjudicator/arb.out`](../../../review/round4/adjudicator/arb.out), [`review/round4/adjudicator/ctrl.out`](../../../review/round4/adjudicator/ctrl.out) — the arbitration numbers
+- [`wiki/papers/reciprocity-toy-models.md`](../../papers/reciprocity-toy-models.md) Abstract, [§3](../../papers/reciprocity-toy-models.md#3-model-ii-the-self-dual-grossewulkenhaar-model), [§4](../../papers/reciprocity-toy-models.md#4-quantum-stability), [§5](../../papers/reciprocity-toy-models.md#5-matter-and-locality), [§6](../../papers/reciprocity-toy-models.md#6-summary-and-limitations) — version 2: the zero mode, the ln N tadpole, the F4 truncations, the Monte Carlo method and values, the uncompleted comparison, "odd in K"
+- [`wiki/papers/broken-born-checkpoint-v2.md` §14 item 11](../../papers/broken-born-checkpoint-v2.md#14-open-problems) — the criterion met in the referees' wording; the round's outcome
+- [`notes/toy-lagrangian.md`](../../../notes/toy-lagrangian.md) 'Write-up and review (2026-10-19/20)' — the revisions as applied; no round 5 for now
+- [`verify/toy_coset.py`](../../../verify/toy_coset.py), [`verify/toy_gw.py`](../../../verify/toy_gw.py), [`verify/toy_s4.py`](../../../verify/toy_s4.py), [`verify/toy_s5.py`](../../../verify/toy_s5.py) — the gated checks of the findings
+- [`CLAUDE.md`](../../../CLAUDE.md) 'Since the handoff (2026-10-19)', 'Method ([HANDOFF §5](../../../HANDOFF.md#5-verification-protocol-the-method--keep-using-it))' — the open ends, round 6 optional, the two lessons, and the naive potential among the claims under review
+- [`review/round3-adjudication.md`](../../../review/round3-adjudication.md) 'Decisions' (4) — why the toy Lagrangian came next
+- [`HANDOFF.md` §8 item 4](../../../HANDOFF.md#8-ranked-next-actions-queue) — the toy Lagrangian as the gate to verdict A
+- [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) items 2, 10, 11, 12, 13, 38, 42 — suspected source errors bearing on this round, among them where the arbitration scripts belong (38) and the revision recorded as applied that version 2 did not carry out (42)

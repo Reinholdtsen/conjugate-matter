@@ -3,7 +3,7 @@
   "scripts": {
     "build": "hugo --gc --minify --cleanDestinationDir",
     "check": "../scripts/check.sh && npm run build && python3 ../scripts/check-site.py",
-    "deploy": "npm run check && wrangler deploy",
+    "deploy": "npm run check && ../scripts/check-pushed.sh && wrangler deploy",
     "preview": "npm run build && wrangler dev",
     "dev": "hugo server"
   },

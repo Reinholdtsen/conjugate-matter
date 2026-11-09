@@ -7,7 +7,7 @@ provenance: [T]
 sources:
   - "notes/broken-born-theory.md §6"
   - "notes/broken-born-theory.md §4"
-  - "papers/broken-born-checkpoint-v2.md §10"
+  - "wiki/papers/broken-born-checkpoint-v2.md §10"
   - "verify/soliton_obituary.py anchors"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
   - "notes/closed-universe.md §2"
@@ -16,9 +16,9 @@ sources:
   - "review/wiki-build-flags.md items 48, 49"
 ---
 
-*Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant), thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its [cosmology](/wiki/cosmology) in this reduced form and adds a second scale factor for the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of the same state.*
+*Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a [cosmological constant](../dark-energy/cosmological-constant.md), thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its [cosmology](../_index.md) in this reduced form and adds a second scale factor for the [conjugate universe](../../program/conjugate-universe.md), the momentum-space description of the same state.*
 
-**Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in `notes/broken-born-theory.md` §6 [D], summarized in [#11](/wiki/history/documents/checkpoint) §10, and not machine-checked; the term it starts from is itself derived in no document (flag 49).
+**Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in [`notes/broken-born-theory.md` §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary) [D], summarized in [#11](../../history/documents/checkpoint.md) [§10](../../papers/broken-born-checkpoint-v2.md#10-cosmology), and not machine-checked; the term it starts from is itself derived in no document (flag 49).
 
 ## The homogeneous universe [T]
 
@@ -38,7 +38,7 @@ A spatially curved universe replaces dx² by the metric of a sphere (closed, cur
 
 ## Minisuperspace: gravity reduced to a(t) and N(t) [T]
 
-Superspace is the space of all spatial geometries, the configuration space of [general relativity](/wiki/gravity/spin-2-fields/general-relativity) in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the [reduced Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-conventions-for-the-planck-mass-t) (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
+Superspace is the space of all spatial geometries, the configuration space of [general relativity](../../gravity/spin-2-fields/general-relativity.md) in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the [reduced Planck mass](../../gravity/spin-2-fields/planck-units.md#two-conventions-for-the-planck-mass-t) (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
 
 ```text
 L = −3 M_P² a ȧ² / N  −  N a³ ρ(a)
@@ -47,7 +47,7 @@ L = −3 M_P² a ȧ² / N  −  N a³ ρ(a)
 where the second term is the contribution of matter with energy density ρ. Two features of this Lagrangian matter for the program.
 
 - **The lapse is a Lagrange multiplier.** N appears without time derivatives. Varying it does not give an equation of motion but a condition that must hold at every instant, the Hamiltonian constraint. Setting N = 1 after the variation gives the Friedmann equation in the form the program uses, 3M_P²H² = ρ, which is the familiar H² = 8πGρ/3. It is called a constraint because it fixes the expansion rate from the energy content rather than evolving it.
-- **Energy enters per comoving volume.** The matter term is N a³ ρ: the energy in a comoving volume, a³ρ. Anything that contributes energy to this one constraint, whatever its origin, enters it in this form. The program's [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) relies on this: the [lab notebook](/wiki/history/documents/lab-notebook) adds conjugate-side fluids by "Entering our Hamiltonian constraint" (#1 §6).
+- **Energy enters per comoving volume.** The matter term is N a³ ρ: the energy in a comoving volume, a³ρ. Anything that contributes energy to this one constraint, whatever its origin, enters it in this form. The program's [duality dictionary](duality-dictionary.md) relies on this: the [lab notebook](../../history/documents/lab-notebook.md) adds conjugate-side fluids by "Entering our Hamiltonian constraint" ([#1 §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary)).
 
 The second Friedmann equation follows from the first and from energy conservation. It gives the acceleration,
 
@@ -59,7 +59,7 @@ so the expansion accelerates only if the pressure p is below −ρ/3. Ordinary m
 
 ## Fluids and how they thin [T]
 
-Cosmological content is modelled as a perfect fluid with energy density ρ and pressure p = wρ; the constant w, the ratio of its pressure to its energy density, is its [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state). Energy conservation in an expanding universe, ρ̇ + 3H(ρ + p) = 0, then gives
+Cosmological content is modelled as a perfect fluid with energy density ρ and pressure p = wρ; the constant w, the ratio of its pressure to its energy density, is its [equation of state](../dark-energy/quintessence.md#dark-energy-and-the-equation-of-state). Energy conservation in an expanding universe, ρ̇ + 3H(ρ + p) = 0, then gives
 
 ```text
 ρ ∝ a^{−3(1+w)}
@@ -70,12 +70,12 @@ Each case has a simple physical reading:
 | Content | w | ρ ∝ | Why |
 | --- | --- | --- | --- |
 | dust (cold matter) | 0 | a⁻³ | a fixed number of particles spread over a volume growing as a³ |
-| radiation | +1/3 | a⁻⁴ | the dilution of dust, times one more factor 1/a from the [redshift](/wiki/cosmology/scale-factor-duality/redshift) of each quantum's energy |
+| radiation | +1/3 | a⁻⁴ | the dilution of dust, times one more factor 1/a from the [redshift](redshift.md) of each quantum's energy |
 | spatial curvature | −1/3 | a⁻² | the k/a² term of the Friedmann equation, written as if it were a fluid |
 | cosmological constant | −1 | a⁰ | an energy density of empty space, which does not thin at all |
 | stiff fluid | +1 | a⁻⁶ | the fastest dilution compatible with causality; see below |
 
-These are the values the program's notebook uses (#1 §6). Its table states that the stiff fluid "dies as a⁻⁶".
+These are the values the program's notebook uses ([#1 §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary)). Its table states that the stiff fluid "dies as a⁻⁶".
 
 **The stiff fluid and scalar fields.** A uniform scalar field φ with potential V has energy density ½φ̇² + V and pressure ½φ̇² − V, so its equation of state is
 
@@ -83,19 +83,19 @@ These are the values the program's notebook uses (#1 §6). Its table states that
 w = (½φ̇² − V) / (½φ̇² + V)
 ```
 
-If the field's energy is all kinetic (V negligible), w = +1: a stiff fluid. Its field equation then makes φ̇ fall as a⁻³, so its energy density falls as a⁻⁶. If instead the field sits nearly still on its potential, w is close to −1 and it behaves like a cosmological constant. This is why #1 §6 labels the w̃ = +1 entry of its table "Kinetic/stiff energy", and it is the distinction behind [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link). Dark energy built from a slowly evolving field is [quintessence](/wiki/cosmology/dark-energy/quintessence).
+If the field's energy is all kinetic (V negligible), w = +1: a stiff fluid. Its field equation then makes φ̇ fall as a⁻³, so its energy density falls as a⁻⁶. If instead the field sits nearly still on its potential, w is close to −1 and it behaves like a cosmological constant. This is why [#1 §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary) labels the w̃ = +1 entry of its table "Kinetic/stiff energy", and it is the distinction behind [Open: dual kinetic energy versus τ's potential](dual-kinetic-link.md). Dark energy built from a slowly evolving field is [quintessence](../dark-energy/quintessence.md).
 
-**Negative curvature energy.** For a closed universe (k > 0) the curvature term enters the Friedmann equation with the opposite sign to an ordinary energy density, as H² = 8πGρ/3 − k/a². Read as a fluid, closed curvature has negative energy density. The dictionary's entry "closed dual space ⇒ *negative* ΔN_eff" (#1 §6) carries this sign across to the conjugate side; N_eff, the effective number of neutrino species, is on [the radiation era](/wiki/cosmology/early-universe/radiation-era). A closed position space does not make the dual space closed: in the record's geometry the momentum fibre is flat whatever k is (flag 48 in `review/wiki-build-flags.md`).
+**Negative curvature energy.** For a closed universe (k > 0) the curvature term enters the Friedmann equation with the opposite sign to an ordinary energy density, as H² = 8πGρ/3 − k/a². Read as a fluid, closed curvature has negative energy density. The dictionary's entry "closed dual space ⇒ *negative* ΔN_eff" ([#1 §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary)) carries this sign across to the conjugate side; N_eff, the effective number of neutrino species, is on [the radiation era](../early-universe/radiation-era.md). A closed position space does not make the dual space closed: in the record's geometry the momentum fibre is flat whatever k is (flag 48 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md)).
 
-The same sign lets a closed universe stop expanding with every energy density positive: H = 0 is reached when 8πGρ/3 falls to k/a². A closed universe filled with matter, or with a field that oscillates about its minimum and so averages to matter, therefore reaches a largest size and recollapses [T]. The program's far-future turnaround is of this kind if its dark-energy potential is never negative ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe), `notes/closed-universe.md` §2).
+The same sign lets a closed universe stop expanding with every energy density positive: H = 0 is reached when 8πGρ/3 falls to k/a². A closed universe filled with matter, or with a field that oscillates about its minimum and so averages to matter, therefore reaches a largest size and recollapses [T]. The program's far-future turnaround is of this kind if its dark-energy potential is never negative ([a closed Comatter universe](closed-universe.md), [`notes/closed-universe.md` §2](../../../notes/closed-universe.md#2-the-premise-and-the-turnaround-it-buys)).
 
 ## Redshift and momentum [T]
 
-Light emitted when the scale factor was a_e arrives when it is a₀ with every wavelength stretched by the same factor, 1 + z = a₀/a_e, where z is the redshift; the energy of each quantum and the physical momentum of any freely moving particle fall as 1/a. [Redshift](/wiki/cosmology/scale-factor-duality/redshift) derives the relation and its consequences and records the program's uses of z, among them the [popular article](/wiki/history/documents/popular-articles) #12's reading of the redshift as a contracting momentum spectrum, which the wiki takes as a gloss on [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) (explanation, not a source for status).
+Light emitted when the scale factor was a_e arrives when it is a₀ with every wavelength stretched by the same factor, 1 + z = a₀/a_e, where z is the redshift; the energy of each quantum and the physical momentum of any freely moving particle fall as 1/a. [Redshift](redshift.md) derives the relation and its consequences and records the program's uses of z, among them the [popular article](../../history/documents/popular-articles.md) [#12](../../../popsci/universes-other-half.md)'s reading of the redshift as a contracting momentum spectrum, which the wiki takes as a gloss on [the cosmological constraint a·ã = 1](cosmological-constraint.md) (explanation, not a source for status).
 
 ## The program's extension: a second scale factor
 
-The program describes the universe with two scale factors: a for position space and ã for the momentum-space description, the [conjugate universe](/wiki/program/conjugate-universe). Rigidity of the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) fixes their product, a·ã = 1 ([the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint)). The lab notebook then adds a dual gravitational term to minisuperspace (#1 §6, [D]): "With one shared lapse N and dual Planck mass M̃, substituting ã = 1/a into the dual Einstein–Hilbert kinetic term" — the term ã(dã/dt)², which the substitution turns into ȧ²/a⁵ — "gives"
+The program describes the universe with two scale factors: a for position space and ã for the momentum-space description, the [conjugate universe](../../program/conjugate-universe.md). Rigidity of the [symplectic form](../../phase-space/reciprocity/symplectic-form.md) fixes their product, a·ã = 1 ([the cosmological constraint](cosmological-constraint.md)). The lab notebook then adds a dual gravitational term to minisuperspace ([#1 §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary), [D]): "With one shared lapse N and dual Planck mass M̃, substituting ã = 1/a into the dual Einstein–Hilbert kinetic term" — the term ã(dã/dt)², which the substitution turns into ȧ²/a⁵ — "gives"
 
 ```text
 3H²(M_P² + M̃²a⁻⁶) = ρ
@@ -103,13 +103,13 @@ The program describes the universe with two scale factors: a for position space 
 
 The notebook gives the substitution and the result, not the steps between. Written out in the minisuperspace form above (the wiki's reading), the dual kinetic term −3M̃² ã(dã/dt)²/N becomes −3M̃² ȧ²/(N a⁵) once ã = 1/a; it adds to our own term −3M_P² a ȧ²/N, and varying the shared lapse N gives the equation above. The notebook does not state its Planck-mass convention; 3H²M_P² = ρ is the ordinary Friedmann equation when M_P is the reduced Planck mass (the wiki's reading).
 
-What the term means, in #1 §6's words: "The dual gravitational sector is **not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times." The extra term multiplies H² alongside M_P², so it acts as an addition to the effective Planck mass, and with it a change in the effective strength of gravity G_eff. Because it grows as a⁻⁶ toward the past, it matters only when a was small; today the ordinary Friedmann equation is recovered. #11 §10 keeps the result in one clause, "the dual Einstein term is an a⁻⁶ step in G_eff", and its test is [row 10](/wiki/predictions/early-universe-step), which #11 calls optional.
+What the term means, in [#1 §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary)'s words: "The dual gravitational sector is **not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times." The extra term multiplies H² alongside M_P², so it acts as an addition to the effective Planck mass, and with it a change in the effective strength of gravity G_eff. Because it grows as a⁻⁶ toward the past, it matters only when a was small; today the ordinary Friedmann equation is recovered. [#11 §10](../../papers/broken-born-checkpoint-v2.md#10-cosmology) keeps the result in one clause, "the dual Einstein term is an a⁻⁶ step in G_eff", and its test is [row 10](../../predictions/early-universe-step.md), which #11 calls optional.
 
-**Caveats.** The equation appears only in the lab notebook, and no `verify/` script checks it; an executed check outside the gate reproduces it from the dual kinetic term (`review/wiki-build-checks/self_dual_locus.py`). Its dual Einstein–Hilbert term is used under [D], but no document derives it from the geometric action S_H, so the a⁻⁶ step tests a postulate (flag 49 in `review/wiki-build-flags.md`; [the dual frame](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not), `notes/closed-universe.md` §7). Its claim that there is no [ghost](/wiki/gravity/spin-2-fields/ghosts#the-lab-notebooks-minisuperspace-argument) is a minisuperspace statement: #1 §4 records that "no Boulware–Deser sector arises in minisuperspace" [D] (the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the negative-energy sixth mode that a generic massive-gravity or two-metric theory carries [T]) and that "The statement for full inhomogeneous H is open" [O]. That analysis predates the v0.4 addendum, after which the momentum-space partner of the metric is a [massive spin-2 field](/wiki/gravity/momentum-graviton) and, from the v0.5 addendum on, ghost freedom rests on [the frame-tier potential](/wiki/gravity/tuning-test/frame-tier). The cosmological solutions of the full two-metric theory are [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology).
+**Caveats.** The equation appears only in the lab notebook, and no `verify/` script checks it; an executed check outside the gate reproduces it from the dual kinetic term ([`review/wiki-build-checks/self_dual_locus.py`](../../../review/wiki-build-checks/self_dual_locus.py)). Its dual Einstein–Hilbert term is used under [D], but no document derives it from the geometric action S_H, so the a⁻⁶ step tests a postulate (flag 49 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md); [the dual frame](closed-universe.md#the-dual-frame-what-closure-fixes-and-what-it-does-not), [`notes/closed-universe.md` §7](../../../notes/closed-universe.md#7-the-dual-frame-what-closure-fixes-and-what-it-does-not)). Its claim that there is no [ghost](../../gravity/spin-2-fields/ghosts.md#the-lab-notebooks-minisuperspace-argument) is a minisuperspace statement: [#1 §4](../../../notes/broken-born-theory.md#4-consistency-with-everything-already-measured) records that "no Boulware–Deser sector arises in minisuperspace" [D] (the [Boulware–Deser ghost](../../gravity/spin-2-fields/fierz-pauli.md) is the negative-energy sixth mode that a generic massive-gravity or two-metric theory carries [T]) and that "The statement for full inhomogeneous H is open" [O]. That analysis predates the v0.4 addendum, after which the momentum-space partner of the metric is a [massive spin-2 field](../../gravity/momentum-graviton/_index.md) and, from the v0.5 addendum on, ghost freedom rests on [the frame-tier potential](../../gravity/tuning-test/frame-tier.md). The cosmological solutions of the full two-metric theory are [bimetric cosmology](../../gravity/spin-2-fields/bimetric-cosmology.md).
 
 ## The radiation era, briefly
 
-Early on, radiation dominates and the Friedmann equation fixes the expansion rate as a function of temperature. That form, H = 1.66√g\* T²/M_Pl with M_Pl the non-reduced Planck mass, is one of the [textbook anchors](/wiki/method/verification/independent-anchors) of `verify/soliton_obituary.py`, which prints `PASS  Friedmann: H = 1.66 sqrt(g*) T^2/M_Pl` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Its derivation and uses are on [the radiation era](/wiki/cosmology/early-universe/radiation-era).
+Early on, radiation dominates and the Friedmann equation fixes the expansion rate as a function of temperature. That form, H = 1.66√g\* T²/M_Pl with M_Pl the non-reduced Planck mass, is one of the [textbook anchors](../../method/verification/independent-anchors.md) of [`verify/soliton_obituary.py`](../../../verify/soliton_obituary.py), which prints `PASS  Friedmann: H = 1.66 sqrt(g*) T^2/M_Pl` ([the soliton-obituary script](../../method/verification/soliton-obituary-script.md)). Its derivation and uses are on [the radiation era](../early-universe/radiation-era.md).
 
 ## Standard references
 
@@ -121,23 +121,23 @@ None of these is cited in the program's documents; they are given here from memo
 
 ## Used by
 
-- [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — the second scale factor and its reciprocal relation to ours.
-- [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — the shared lapse, the Hamiltonian constraint and ρ ∝ a^{−3(1+w)}.
-- [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — dust decelerates the expansion, which ended its dust version; the stiff fluid as a field's kinetic energy carries its remaining route.
-- [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — a halt and reversal of a(t), read through a·ã = 1.
-- [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — kinetic versus potential energy of a scalar field.
-- [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the a⁻⁶ term in the Friedmann equation.
-- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — the expansion halts when the total energy density reaches zero.
-- [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — ρ ∝ a^{−3(1+w)} applied to a fluid in the momentum-space description.
-- [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — the closed Friedmann equation, the cycloid of a closed matter universe, and conformal time on the three-sphere.
-- [The momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) — a Friedmann equation for each of two metrics.
+- [The cosmological constraint a·ã = 1](cosmological-constraint.md) — the second scale factor and its reciprocal relation to ours.
+- [The duality dictionary w_eff = −w̃](duality-dictionary.md) — the shared lapse, the Hamiltonian constraint and ρ ∝ a^{−3(1+w)}.
+- [Conjecture: conjugate collapse powers our expansion](collapse-powered-expansion.md) — dust decelerates the expansion, which ended its dust version; the stiff fluid as a field's kinetic energy carries its remaining route.
+- [The turnaround as the conjugate bounce](conjugate-bounce.md) — a halt and reversal of a(t), read through a·ã = 1.
+- [Open: dual kinetic energy versus τ's potential](dual-kinetic-link.md) — kinetic versus potential energy of a scalar field.
+- [Row 10: an early step in G_eff](../../predictions/early-universe-step.md) — the a⁻⁶ term in the Friedmann equation.
+- [Row 5: the fate of the expansion](../../predictions/fate-of-expansion.md) — the expansion halts when the total energy density reaches zero.
+- [The conjugate universe: one state, two descriptions](../../program/conjugate-universe.md) — ρ ∝ a^{−3(1+w)} applied to a fluid in the momentum-space description.
+- [A closed Comatter universe](closed-universe.md) — the closed Friedmann equation, the cycloid of a closed matter universe, and conformal time on the three-sphere.
+- [The momentum graviton in a closed universe](../../gravity/momentum-graviton/closed-universe.md) — a Friedmann equation for each of two metrics.
 
 ## Sources
 
-- `notes/broken-born-theory.md` §6 — the shared lapse, "our Hamiltonian constraint", the fluid table and the Friedmann equation with the dual term
-- `notes/broken-born-theory.md` §4 — the minisuperspace ghost accounting and its open extension to inhomogeneous H
-- `papers/broken-born-checkpoint-v2.md` §10 — the current statement of the cosmology built on this reduction
-- `verify/soliton_obituary.py` — the radiation-era Friedmann coefficient, checked as an anchor
-- `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — redshift read as a contracting momentum spectrum (popular article; explanation only)
-- `notes/closed-universe.md` §2, §4, §7 and `review/wiki-build-flags.md` items 48, 49 — the closed turnaround, the flat momentum fibre and the underived dual term; computed, not reviewed
-- `review/wiki-build-flags.md` item 23 and `review/wiki-build-checks/self_dual_locus.py` — the executed check, outside the gate, that reproduces the equation with the dual term
+- [`notes/broken-born-theory.md` §6](../../../notes/broken-born-theory.md#6-cosmology-i-the-constraint-and-the-corrected-dictionary) — the shared lapse, "our Hamiltonian constraint", the fluid table and the Friedmann equation with the dual term
+- [`notes/broken-born-theory.md` §4](../../../notes/broken-born-theory.md#4-consistency-with-everything-already-measured) — the minisuperspace ghost accounting and its open extension to inhomogeneous H
+- [`wiki/papers/broken-born-checkpoint-v2.md` §10](../../papers/broken-born-checkpoint-v2.md#10-cosmology) — the current statement of the cosmology built on this reduction
+- [`verify/soliton_obituary.py`](../../../verify/soliton_obituary.py) — the radiation-era Friedmann coefficient, checked as an anchor
+- [`popsci/universes-other-half.md`](../../../popsci/universes-other-half.md) 'Dark energy as the orientation of the split' — redshift read as a contracting momentum spectrum (popular article; explanation only)
+- [`notes/closed-universe.md` §2](../../../notes/closed-universe.md#2-the-premise-and-the-turnaround-it-buys), [§4](../../../notes/closed-universe.md#4-how-small-momentum-space-gets), [§7](../../../notes/closed-universe.md#7-the-dual-frame-what-closure-fixes-and-what-it-does-not) and [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) items 48, 49 — the closed turnaround, the flat momentum fibre and the underived dual term; computed, not reviewed
+- [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) item 23 and [`review/wiki-build-checks/self_dual_locus.py`](../../../review/wiki-build-checks/self_dual_locus.py) — the executed check, outside the gate, that reproduces the equation with the dual term

@@ -1,0 +1,37 @@
+{{- /*
+  Override of hugo-book's link render hook.
+
+  The wiki's links are paths relative to the Markdown file that holds them
+  (wiki/CLAUDE.md, Links), so that one link works on this site, on GitHub and in
+  an editor. A relative path is joined to the file's folder: Hugo's File.Dir is
+  relative to the content root, and content/wiki is the mount of the
+  repository's wiki/, so the joined path is the target's repository path.
+
+  - A .md file under wiki/ (other than CLAUDE.md) is a page of this site.
+    hugo-book's portable-link partial resolves it to the page's URL and, with
+    BookPortableLinks = 'error', fails the build on a missing page.
+  - Any other file or folder of the repository (notes/, review/, verify/,
+    HANDOFF.md, wiki/CLAUDE.md, ...) is not built here, so the link goes to it
+    on GitHub at main: blob/ for a file, tree/ for a folder (a path ending in /).
+    scripts/check-site.py checks that each such file is tracked and each anchor
+    exists; scripts/check-pushed.sh, run before a deploy, that main is pushed.
+
+  An absolute link (the site's own home page links /wiki/summary) and a URL keep
+  the theme's handling.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $u := urls.Parse $dest -}}
+{{- if and (not $u.IsAbs) $u.Path (not (hasPrefix $u.Path "/")) .Page.File -}}
+  {{- $repo := path.Join .Page.File.Dir $u.Path -}}
+  {{- if and (hasPrefix $repo "wiki/") (hasSuffix $repo ".md") (ne (path.Base $repo) "CLAUDE.md") -}}
+    {{- $dest = partial "docs/links/portable-link" . -}}
+  {{- else -}}
+    {{- $kind := cond (hasSuffix $u.Path "/") "tree" "blob" -}}
+    {{- $dest = printf "https://github.com/Reinholdtsen/conjugate-matter/%s/main/%s" $kind $repo -}}
+    {{- with $u.Fragment }}{{ $dest = printf "%s#%s" $dest . }}{{ end -}}
+  {{- end -}}
+{{- else if .Page.Site.Params.BookPortableLinks -}}
+  {{- $dest = partial "docs/links/portable-link" . -}}
+{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /**/ -}}

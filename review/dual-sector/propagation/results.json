@@ -516,9 +516,9 @@
    },
    {
     "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
-    "problem": "The new gloss \"the modular cell being a cell of phase space whose area is fixed and whose shape is not\" is not in notes/dual-sector.md. Its support is the quotation from Freidel, Kowalski-Glikman, Leigh and Minic in papers/phase-space-diameter.md §4 (\"Whereas the area of the modular cell is fixed ... its shape is not\"), and the page did not name §4.",
+    "problem": "The new gloss \"the modular cell being a cell of phase space whose area is fixed and whose shape is not\" is not in notes/dual-sector.md. Its support is the quotation from Freidel, Kowalski-Glikman, Leigh and Minic in wiki/papers/phase-space-diameter.md §4 (\"Whereas the area of the modular cell is fixed ... its shape is not\"), and the page did not name §4.",
     "fixed": true,
-    "fix": "Added \"papers/phase-space-diameter.md §4\" to the frontmatter, and a Sources line naming it as the source of the gloss."
+    "fix": "Added \"wiki/papers/phase-space-diameter.md §4\" to the frontmatter, and a Sources line naming it as the source of the gloss."
    },
    {
     "file": "wiki/conjugate-relativity/maximum-force.md",

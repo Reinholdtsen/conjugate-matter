@@ -17,6 +17,11 @@ Checked, in every built .html file:
            page's own URL, as a browser resolves it, and must name a built file.
            A #fragment must be an id on the target page (a link to a non-HTML
            file is checked for existence only).
+  github   a link to the repository on GitHub at main (the site's link hook
+           writes one for every repository file outside the wiki): blob/ must
+           name a file and tree/ a folder that git tracks, and a #fragment must
+           be a heading GitHub gives that Markdown file (check-wiki's
+           github_ids) or, in another file, a line anchor such as #L12.
   h1       the page has exactly one h1.
 
 and, for wiki/:
@@ -39,6 +44,8 @@ Exit status is 1 if any check fails, 0 otherwise.
 
 import importlib.util
 import posixpath
+import re
+import subprocess
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -48,6 +55,38 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 PUBLIC = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / "site" / "public"
 HEADINGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
+GITHUB_RE = re.compile(r"^https://github\.com/Reinholdtsen/conjugate-matter/(blob|tree)/main/([^#?]*)(?:#(.*))?$")
+
+
+def tracked():
+    """The files git tracks, and the folders that hold them, as repository paths."""
+    out = subprocess.run(["git", "ls-files", "-z"], cwd=ROOT, capture_output=True, check=True).stdout
+    files = {f.decode() for f in out.split(b"\0") if f}
+    folders = set()
+    for f in files:
+        d = posixpath.dirname(f)
+        while d and d not in folders:
+            folders.add(d)
+            d = posixpath.dirname(d)
+    return files, folders
+
+
+def check_github(ref, files, folders, cw):
+    """Why a GitHub link fails, or None."""
+    kind, path, frag = GITHUB_RE.match(ref).groups()
+    path = unquote(path).rstrip("/")
+    if kind == "blob" and path not in files:
+        return f"GitHub link to {path}, which git does not track as a file"
+    if kind == "tree" and path not in folders:
+        return f"GitHub link to the folder {path}, which holds no tracked file"
+    frag = unquote(frag or "")
+    if frag and kind == "blob":
+        if path.endswith(".md"):
+            if frag not in cw.github_ids(ROOT / path):
+                return f"GitHub link to {path}#{frag}, a heading GitHub does not give that file"
+        elif not re.fullmatch(r"L\d+(?:-L\d+)?", frag):
+            return f"GitHub link to {path}#{frag}: a file that is not Markdown takes only a line anchor"
+    return None
 
 
 def load_check_wiki():
@@ -125,12 +164,21 @@ def main():
         c.feed(f.read_text(encoding="utf-8", errors="replace"))
         pages[f] = c
     errors = set()
+    cw = load_check_wiki()
+    files, folders = tracked()
+    n_github = 0
     for f, c in pages.items():
         here = page_url(f)
         if c.h1s != 1:
             errors.add(f"{here}: {c.h1s} h1 elements, not 1")
         for ref in c.refs:
             u = urlsplit(ref)
+            if GITHUB_RE.match(ref):
+                n_github += 1
+                why = check_github(ref, files, folders, cw)
+                if why:
+                    errors.add(f"{here}: {why}")
+                continue
             if u.scheme or u.netloc:
                 continue
             target = f if not u.path else page_file(urljoin(here, u.path))
@@ -141,7 +189,6 @@ def main():
             if frag and target in pages and frag not in pages[target].ids:
                 errors.add(f"{here}: no id '{frag}' on {page_url(target)} ({ref})")
 
-    cw = load_check_wiki()
     n_wiki = n_headings = 0
     for src in sorted(WIKI.rglob("*.md")):
         # Hugo lowercases URLs, so wiki/CLAUDE.md would build at /wiki/claude/.
@@ -176,6 +223,7 @@ def main():
         print(f"\nsite check FAILED: {len(errors)} problem(s) in {len(pages)} pages", file=sys.stderr)
         return 1
     print(f"site OK — {len(pages)} pages, {n_refs} links, every internal link and anchor resolves; "
+          f"{n_github} GitHub links name tracked files and existing headings; "
           f"{n_wiki} wiki pages built, {n_headings} heading IDs as scripts/check-wiki.py computes them")
     return 0
 

@@ -98,8 +98,8 @@
   {
    "claim_id": "C16",
    "verdict": "confirmed",
-   "reason": "Conversions reproduce, and the record numbers match the source. papers/phase-space-diameter.md section 8.2 gives 'lambda_X < 37.7 um, M_X c^2 > hbar c/(37.7 um) = 5.2 meV' and '57.0 um at u = 0.5'. #11 section 7.5 gives 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X'. The gate-mechanism page says no source relates m_phi to M_X.",
-   "independent_check": "v09: 'lambda_X/1kpc = 1.2218e-24; hbar c/1kpc = 6.3949e-27 eV; hbar c/37.7um = 5.2341 meV; ratio=8.1848e+23'. Read papers/phase-space-diameter.md lines 210-221 and papers/broken-born-checkpoint-v2.md section 7.5."
+   "reason": "Conversions reproduce, and the record numbers match the source. wiki/papers/phase-space-diameter.md section 8.2 gives 'lambda_X < 37.7 um, M_X c^2 > hbar c/(37.7 um) = 5.2 meV' and '57.0 um at u = 0.5'. #11 section 7.5 gives 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X'. The gate-mechanism page says no source relates m_phi to M_X.",
+   "independent_check": "v09: 'lambda_X/1kpc = 1.2218e-24; hbar c/1kpc = 6.3949e-27 eV; hbar c/37.7um = 5.2341 meV; ratio=8.1848e+23'. Read wiki/papers/phase-space-diameter.md lines 210-221 and wiki/papers/broken-born-checkpoint-v2.md section 7.5."
   },
   {
    "claim_id": "C17",

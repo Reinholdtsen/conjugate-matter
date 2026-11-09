@@ -5,7 +5,7 @@ Independent recomputation for flag 40 (review/wiki-build-flags.md).
 Source statement (root CLAUDE.md, round-4 lesson):
   "Round 4 found a potential that was bounded only at frozen H."
 
-Model, from papers/reciprocity-toy-models.md (v2) §2 and §4, built from the raw
+Model, from wiki/papers/reciprocity-toy-models.md (v2) §2 and §4, built from the raw
 definitions (no formula from the flag or its check script is used):
   w = [[0,1],[-1,0]];  H(Z) = [[Y + X^2/Y, X/Y],[X/Y, 1/Y]];  I = w^-1 H
   K real 2x2, traceless, det K = -1 (target: hyperboloid a^2 + bc = 1)

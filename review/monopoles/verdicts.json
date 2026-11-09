@@ -4,7 +4,7 @@
   {
    "id": "K1",
    "claim": "Conjugate-space monopoles as the explanation of the monopole null result are dead: wrong duality, and inflation already accounts for the absence.",
-   "source": "papers/broken-born-checkpoint-v2.md:116",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
    "quote": "As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p",
    "status": "dead",
    "tag": "[D] (section tag); inflationary dilution [T]"
@@ -12,7 +12,7 @@
   {
    "id": "K2",
    "claim": "As ontology, conjugate-sector solitons are alive because P4 makes them gravitate; the argument is one step from a postulate, with no calculation or script.",
-   "source": "papers/broken-born-checkpoint-v2.md:116",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
    "quote": "As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate",
    "status": "alive",
    "tag": "[D]"
@@ -20,7 +20,7 @@
   {
    "id": "K3",
    "claim": "#11 words P.R.'s correction two ways, 'the empty set' in §11.1 and 'measure zero' in App. A item 5; it does not reconcile them.",
-   "source": "papers/broken-born-checkpoint-v2.md:116; papers/broken-born-checkpoint-v2.md:217",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:116; wiki/papers/broken-born-checkpoint-v2.md:217",
    "quote": "\"true but irrelevant\" is the empty set (a correction supplied by P.R.)",
    "status": "other",
    "tag": "untagged"
@@ -36,7 +36,7 @@
   {
    "id": "K5",
    "claim": "The laboratory shadow: Weyl-semimetal momentum-space Berry-curvature monopoles. The citation is from model memory and unchecked, and the phrase 'right geometry, different flux' commits the program to no measurement.",
-   "source": "papers/broken-born-checkpoint-v2.md:116",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
    "quote": "Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux.",
    "status": "established-physics",
    "tag": "[16†]"
@@ -44,7 +44,7 @@
   {
    "id": "K6",
    "claim": "Row 8 requires a permanent null for monopoles of our own U(1), killed by direct detection. The row has no tag and no mechanism from the program.",
-   "source": "papers/broken-born-checkpoint-v2.md:172",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:172",
    "quote": "| 8 | Magnetic monopoles (ours) | Model-dependent | Permanent null; Berry-curvature monopoles in solids as the only shadow | Direct detection |",
    "status": "alive",
    "tag": "untagged"
@@ -68,7 +68,7 @@
   {
    "id": "K9",
    "claim": "P4 has been taken strictly since v2.1: no kinetic mixing beyond what gravity induces, ε ≲ 10⁻¹³, zero if hidden C is exact. Decision 1 says 'gauged', and the referee reads 10⁻¹³ as a floor.",
-   "source": "papers/broken-born-checkpoint-v2.md:45",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:45",
    "quote": "gauge forces do not cross polarizations. [P; taken strictly since v2.1: no kinetic mixing between the sectors beyond what gravity induces",
    "status": "alive",
    "tag": "[P]; bound [27S]"
@@ -76,7 +76,7 @@
   {
    "id": "K10",
    "claim": "Montonen–Olive duality is cited with an unexplained '17†-adjacent' label; exactness is stated only for maximal supersymmetry.",
-   "source": "papers/broken-born-checkpoint-v2.md:118",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
    "quote": "Montonen–Olive duality [17†-adjacent; 18†], exact in maximally supersymmetric Yang–Mills",
    "status": "established-physics",
    "tag": "[T]; † citations"
@@ -84,7 +84,7 @@
   {
    "id": "K11",
    "claim": "The dual-superconductor claim carries a † citation to 't Hooft–Mandelstam, which has no entry in #11's reference list.",
-   "source": "papers/broken-born-checkpoint-v2.md:118; papers/broken-born-checkpoint-v2.md:231-259",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:118; wiki/papers/broken-born-checkpoint-v2.md:231-259",
    "quote": "[T, 't Hooft–Mandelstam†]",
    "status": "established-physics",
    "tag": "[T]; † with no reference entry"
@@ -92,7 +92,7 @@
   {
    "id": "K12",
    "claim": "Flag 28: our magnetic coupling ≈ 34 is right, but the formula written beside it is the 137 one. Confirmed by two checks, not ruled on, and present verbatim since v2.0.",
-   "source": "papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198-203",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198-203",
    "quote": "pins the magnetic coupling near 4π/e² ≈ 34",
    "status": "established-physics (formula wrong; flag 28 unruled)",
    "tag": "[T]"
@@ -108,7 +108,7 @@
   {
    "id": "K14",
    "claim": "§11.2 says the magnetic half of electromagnetism stays hidden the same way the second metric X does (§7). #11 does not develop the parallel, and neither hidden half is the conjugate sector.",
-   "source": "papers/broken-born-checkpoint-v2.md:118",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
    "quote": "Same explanatory shape as §7: the duality is genuine, and its structure hides its second half.",
    "status": "other",
    "tag": "untagged (italic inside a [T] subsection)"
@@ -116,7 +116,7 @@
   {
    "id": "K15",
    "claim": "The DSZ pairing makes the charge lattice symplectic. The round-3 referee called this 'interpretation' and noted Zwanziger's 4πℤ against the documents' 2πℤ (ruling 12, minor); #11 was not amended.",
-   "source": "papers/broken-born-checkpoint-v2.md:120; review/round3/referee/audit-notes.md:33-34; review/round3-adjudication.md:41",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:120; review/round3/referee/audit-notes.md:33-34; review/round3-adjudication.md:41",
    "quote": "the charge lattice is a symplectic space",
    "status": "alive",
    "tag": "[D — structural; math T]; [17†]"
@@ -124,7 +124,7 @@
   {
    "id": "K16",
    "claim": "Choosing a duality frame is choosing a Lagrangian polarization of charge space; the phrase 'in the literature's own words' has no citation.",
-   "source": "papers/broken-born-checkpoint-v2.md:120",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
    "quote": "is choosing a Lagrangian polarization of charge space, in the literature's own words",
    "status": "alive",
    "tag": "[D — structural; math T]"
@@ -132,7 +132,7 @@
   {
    "id": "K17",
    "claim": "S-duality, Born's ρ and Z → −Z⁻¹ share the matrix [[0,1],[−1,0]]. No script checks the charge side, and no document names SL(2,ℤ).",
-   "source": "papers/broken-born-checkpoint-v2.md:120",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
    "quote": "the third appearance of one matrix in this program",
    "status": "alive",
    "tag": "[D — structural; math T]"
@@ -140,7 +140,7 @@
   {
    "id": "K18",
    "claim": "The only statement joining the two polarization choices is a conjecture: they are components of one enlarged modular structure, on the analogy of U-duality.",
-   "source": "papers/broken-born-checkpoint-v2.md:120",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
    "quote": "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure",
    "status": "open",
    "tag": "[O]; U-duality analogy [T]"
@@ -148,7 +148,7 @@
   {
    "id": "K19",
    "claim": "OP8 asks to formalize the unification and also declares the soliton-spectrum and p-localization items closed; it is not on the current queue.",
-   "source": "papers/broken-born-checkpoint-v2.md:192; CLAUDE.md:107-112",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:192; CLAUDE.md:107-112",
    "quote": "Charge-lattice polarization: formalize §11.3's unification [O]. (The soliton-spectrum and p-localization items are closed by the §12 obituary.)",
    "status": "open",
    "tag": "[O]"
@@ -156,7 +156,7 @@
   {
    "id": "K20",
    "claim": "#11 §15 counts 'one structural unification' among the program's products, which reads stronger than §11.3's [O] tag.",
-   "source": "papers/broken-born-checkpoint-v2.md:205",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:205",
    "quote": "one structural unification (polarization of phase space and of charge space as one move)",
    "status": "other",
    "tag": "untagged"
@@ -164,7 +164,7 @@
   {
    "id": "K21",
    "claim": "The plain-language passage of §11 presents the identification as one operation, the reading #12 later carried to the claim that the momentum-polarized sector is the magnetic side of electromagnetism.",
-   "source": "papers/broken-born-checkpoint-v2.md:114",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:114",
    "quote": "Two intuitions, one operation.",
    "status": "other",
    "tag": "untagged"
@@ -172,7 +172,7 @@
   {
    "id": "K22",
    "claim": "The current plain-language abstract credits the charge-lattice observation with suggesting the topological candidate.",
-   "source": "papers/broken-born-checkpoint-v2.md:16",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:16",
    "quote": "That observation suggested a third, topological candidate for the dark sector",
    "status": "other",
    "tag": "untagged"
@@ -188,7 +188,7 @@
   {
    "id": "K24",
    "claim": "One defect per Hubble volume gives p ≈ 104, a floor; #14 had used p = 1 (v2) and 0.023 (v3). Gated in verify/soliton_obituary.py.",
-   "source": "papers/broken-born-checkpoint-v2.md:145; verify/soliton_obituary.py:62",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:145; verify/soliton_obituary.py:62",
    "quote": "One defect per Hubble volume gives p ≈ 104 [V], and that is the causal minimum",
    "status": "ruling",
    "tag": "[V]; [28S]"
@@ -196,7 +196,7 @@
   {
    "id": "K25",
    "claim": "At minimum production the v3 benchmark of 3×10¹³ GeV is overproduced 2.1×10³–1.2×10⁴ times; gated.",
-   "source": "papers/broken-born-checkpoint-v2.md:146; verify/soliton_obituary.py:78",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:146; verify/soliton_obituary.py:78",
    "quote": "the v3 benchmark of 3×10¹³ GeV is overproduced by 2.1×10³–1.2×10⁴ [V]",
    "status": "alive (about a withdrawn model)",
    "tag": "[V]"
@@ -204,7 +204,7 @@
   {
    "id": "K26",
    "claim": "Hidden-sector monopoles avoid overclosure only for breaking scales ≲ 100 PeV, or with early matter domination; the source was checked at the level of its abstract only.",
-   "source": "papers/broken-born-checkpoint-v2.md:147; review/round3-adjudication.md:32",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:147; review/round3-adjudication.md:32",
    "quote": "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S].",
    "status": "established-physics",
    "tag": "[29S]"
@@ -212,7 +212,7 @@
   {
    "id": "K27",
    "claim": "The version that works is the established topological-dark-matter scenario and owes nothing to Born reciprocity.",
-   "source": "papers/broken-born-checkpoint-v2.md:148",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:148",
    "quote": "That is the established topological-dark-matter scenario [28S, 29S], and nothing in it depends on Born reciprocity.",
    "status": "established-physics",
    "tag": "[28S, 29S]"
@@ -220,7 +220,7 @@
   {
    "id": "K28",
    "claim": "Verdict: the soliton candidate is retired as a program-native proposal; the framework is merely compatible with prior art.",
-   "source": "papers/broken-born-checkpoint-v2.md:150",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:150",
    "quote": "Retired as a program-native candidate. The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it.",
    "status": "dead",
    "tag": "untagged"
@@ -228,7 +228,7 @@
   {
    "id": "K29",
    "claim": "Survivor: a weakly coupled hidden sector always has strongly coupled monopoles. It is not on the adjudication's own 'What survives v3' list.",
-   "source": "papers/broken-born-checkpoint-v2.md:152; review/round3-adjudication.md:89-95",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:152; review/round3-adjudication.md:89-95",
    "quote": "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T].",
    "status": "established-physics",
    "tag": "[T]"
@@ -236,7 +236,7 @@
   {
    "id": "K30",
    "claim": "Survivor: the minimal adjoint-only SU(2) → U(1) sector is excluded because its W′± overclose; the figure holds only at the withdrawn benchmark and is gated.",
-   "source": "papers/broken-born-checkpoint-v2.md:153; verify/soliton_obituary.py:108",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:153; verify/soliton_obituary.py:108",
    "quote": "its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V]",
    "status": "alive",
    "tag": "[V]"
@@ -244,7 +244,7 @@
   {
    "id": "K31",
    "claim": "The topological clumping loophole is untested and has no candidate, yet §14 item 8 calls the p-localization items closed. #11 does not reconcile the two.",
-   "source": "papers/broken-born-checkpoint-v2.md:154; papers/broken-born-checkpoint-v2.md:192",
+   "source": "wiki/papers/broken-born-checkpoint-v2.md:154; wiki/papers/broken-born-checkpoint-v2.md:192",
    "quote": "remains untested, but has no candidate.",
    "status": "open",
    "tag": "untagged"
@@ -420,7 +420,7 @@
   {
    "id": "K53",
    "claim": "The toy-Lagrangian criteria were taken from the referees' wording, which lacks the electric-sublattice clause; #11 declares criterion 1 met in that wording.",
-   "source": "notes/toy-lagrangian.md:8-9; papers/broken-born-checkpoint-v2.md:195",
+   "source": "notes/toy-lagrangian.md:8-9; wiki/papers/broken-born-checkpoint-v2.md:195",
    "quote": "Met in the referees' wording by the coset model of (H, K)",
    "status": "other",
    "tag": "untagged"
@@ -436,7 +436,7 @@
   {
    "id": "K55",
    "claim": "The p-polarized sector's own gauge dynamics ('their Maxwell') cannot be written before the covariant t ↔ E construction exists.",
-   "source": "papers/conjugate-special-relativity.md:85",
+   "source": "wiki/papers/conjugate-special-relativity.md:85",
    "quote": "a required step before the dual dynamics (their Maxwell, their field theory) can be written",
    "status": "open",
    "tag": "[O]"
@@ -488,37 +488,37 @@
     "id": "K1",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:116 (also :217; HANDOFF.md:31)"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:116 (also :217; HANDOFF.md:31)"
    },
    {
     "id": "K2",
     "verdict": "confirmed",
     "correction": "No correction needed. The gloss 'one step from a postulate, no calculation or script' comes from the wiki (wiki/electric-magnetic-duality/conjugate-monopoles.md:27, :45), not from #11. No verify/ script touches the claim.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:116; wiki/electric-magnetic-duality/conjugate-monopoles.md:27, :45; grep of verify/*.py"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:116; wiki/electric-magnetic-duality/conjugate-monopoles.md:27, :45; grep of verify/*.py"
    },
    {
     "id": "K3",
     "verdict": "confirmed",
     "correction": "No correction needed. Both wordings have been in #11 since v2.0 (git 8d588f6:import/broken-born-checkpoint-v2.md:110, :187).",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:116, :217"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:116, :217"
    },
    {
     "id": "K4",
     "verdict": "confirmed",
     "correction": "No correction needed. One addition: v2.0's OP8 listed 'conjugate gauge sectors and their soliton spectrum' as open (git 8d588f6:import/broken-born-checkpoint-v2.md:167). v2.1 (e1c1f67) declared that item 'closed by the §12 obituary' (#11:192) without answering it.",
-    "checked_source": "wiki/electric-magnetic-duality/conjugate-monopoles.md:41, :61; papers/broken-born-checkpoint-v2.md:116, :192"
+    "checked_source": "wiki/electric-magnetic-duality/conjugate-monopoles.md:41, :61; wiki/papers/broken-born-checkpoint-v2.md:116, :192"
    },
    {
     "id": "K5",
     "verdict": "confirmed",
     "correction": "No correction needed. No file under review/ checks [16]†; a grep for Weyl, Xu and Lv finds only unrelated hits. The wiki lists it as awaiting the † battery (conjugate-monopoles.md:80).",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:116, :246"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:116, :246"
    },
    {
     "id": "K6",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:163, :172"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:163, :172"
    },
    {
     "id": "K7",
@@ -536,25 +536,25 @@
     "id": "K9",
     "verdict": "confirmed",
     "correction": "No correction needed. The referee attributes the floor reading to Gherghetta et al. themselves, and in the same audit still marks claim (a) SUPPORTED (review/round3/referee/audit-notes.md:39-43, :199).",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:45; review/round3-adjudication.md:102-103; review/round3/referee/audit-notes.md:39-43"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:45; review/round3-adjudication.md:102-103; review/round3/referee/audit-notes.md:39-43"
    },
    {
     "id": "K10",
     "verdict": "confirmed",
     "correction": "No correction needed. '17†-adjacent' occurs only at #11:118 (grep).",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:118, :247-248"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:118, :247-248"
    },
    {
     "id": "K11",
     "verdict": "confirmed",
     "correction": "No correction needed. A grep finds no Mandelstam or 't Hooft entry in refs [1]–[29].",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:118, :231-259"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:118, :231-259"
    },
    {
     "id": "K12",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198-203; review/wiki-build-rulings.md:1316-1342 (unticked); git 8d588f6:import/broken-born-checkpoint-v2.md:112 (identical)"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198-203; review/wiki-build-rulings.md:1316-1342 (unticked); git 8d588f6:import/broken-born-checkpoint-v2.md:112 (identical)"
    },
    {
     "id": "K13",
@@ -566,55 +566,55 @@
     "id": "K14",
     "verdict": "misstated",
     "correction": "#11:118 does draw the §7 parallel and does not develop it. 'Neither hidden half is the conjugate sector' is the briefing's own gloss. It is clearly true for the magnetic half (§11.1, #11:116). For X it is contestable: #11 calls X 'momentum-space geometry' that 'gravitates, massively and invisibly to everything not polarized its way' (#11:84), and §8 makes X-exchange the χ gate. X is not the p-polarized matter χ, but it is the momentum side's geometry.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:84, :92, :118"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:84, :92, :118"
    },
    {
     "id": "K15",
     "verdict": "misstated",
     "correction": "Ruling 12 (ADJ:41) accepts only 'Minor citation issues: [4] over-generalized; Zwanziger's 4π vs 2π; Schwinger uncited'. The referee's '\"Charge space is symplectic\" is interpretation' (audit-notes.md:34) is not among them and was never ruled on, so the briefing body's 'Ruling 12 accepted both points as minor' is wrong. The referee also wrote 'The 't Hooft-Polyakov monopole with doublets realises 2 pi, so the physics is fine; but [7] as cited states 4 pi' (audit-notes.md:33-34). The problem is a citation mismatch in #14 v3's [7], not an error in 2πℤ. Round 3 reviewed #14, and no decision asked for #11 to be amended (ADJ:141-145).",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:120; review/round3/referee/audit-notes.md:32-35; review/round3-adjudication.md:41"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:120; review/round3/referee/audit-notes.md:32-35; review/round3-adjudication.md:41"
    },
    {
     "id": "K16",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:120"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:120"
    },
    {
     "id": "K17",
     "verdict": "confirmed",
     "correction": "No correction needed. verify/*.py has no charge-lattice or S-duality check. Outside wiki/, the only similar hit is PSL(2,R) in review/round4/referee/audit-notes.md:120, which is not SL(2,ℤ).",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:120; grep of verify/*.py and of the repo for SL(2"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:120; grep of verify/*.py and of the repo for SL(2"
    },
    {
     "id": "K18",
     "verdict": "misstated",
     "correction": "The [O] conjecture is the only tagged claim that the two choices form one structure. It is not the only statement joining them. Several other passages in #11 do so: §11.3 [D — structural] says both are generated by the same matrix (#11:120); the plain abstract says 'the same mathematical move' (#11:16); the technical abstract says 'the same polarization choice recurs' (#11:18); §11's plain passage says 'Two intuitions, one operation' (#11:114); §15 lists 'one structural unification (polarization of phase space and of charge space as one move)' (#11:205). The briefing's own K20 and K21 say this.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:16, :18, :114, :120, :205"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:16, :18, :114, :120, :205"
    },
    {
     "id": "K19",
     "verdict": "confirmed",
     "correction": "No correction needed. v2.0's OP8 read 'formalize §11.3's unification; conjugate gauge sectors and their soliton spectrum; \"p-local solitons are p-localized\" [O]' (git 8d588f6:import/broken-born-checkpoint-v2.md:167). v2.1 (e1c1f67) cut the last two items.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:192; CLAUDE.md:107-112"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:192; CLAUDE.md:107-112"
    },
    {
     "id": "K20",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:205, :207"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:205, :207"
    },
    {
     "id": "K21",
     "verdict": "confirmed",
     "correction": "The quote is exact. 'Later' rests on HANDOFF §3's creation order (HANDOFF.md:60-61). That #12 'carried' the reading is an inference, though #12:41's wording closely echoes #11:114.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:114; popsci/universes-other-half.md:41"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:114; popsci/universes-other-half.md:41"
    },
    {
     "id": "K22",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:16"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:16"
    },
    {
     "id": "K23",
@@ -626,49 +626,49 @@
     "id": "K24",
     "verdict": "confirmed",
     "correction": "No correction needed. #14 v3 itself used p from 0.023 up to 1 ('we take p = 1 as the upper end', notes/knot-dark-matter-standalone.md:47; step2a.out:25-29). '0.023 (v3)' follows #11:144.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:144-145; verify/soliton_obituary.py:62 (re-run: 104.3106)"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:144-145; verify/soliton_obituary.py:62 (re-run: 104.3106)"
    },
    {
     "id": "K25",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:146; verify/soliton_obituary.py:78 (re-run: 2.08e+03-1.19e+04)"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:146; verify/soliton_obituary.py:78 (re-run: 2.08e+03-1.19e+04)"
    },
    {
     "id": "K26",
     "verdict": "misstated",
     "correction": "'Abstract level' describes the adjudicator's check only (ADJ:32; ruling 10, ADJ:39). The round-3 referee read LMW past the abstract: it cites LMW Sec. III and eqs. 13, 16, 18, 25 and 28–30 (audit-notes.md:133, :169-175) and evaluates them in step4.py (step4.out:21-41). The specific '≲ 100 PeV, or early matter domination' clause is quoted from the abstract by both.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:147; review/round3-adjudication.md:32, :39; review/round3/referee/audit-notes.md:133, :169-175; review/round3/referee/step4.out:21-41"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:147; review/round3-adjudication.md:32, :39; review/round3/referee/audit-notes.md:133, :169-175; review/round3/referee/step4.out:21-41"
    },
    {
     "id": "K27",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:148"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:148"
    },
    {
     "id": "K28",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:150"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:150"
    },
    {
     "id": "K29",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:152; review/round3-adjudication.md:89-95"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:152; review/round3-adjudication.md:89-95"
    },
    {
     "id": "K30",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:153; verify/soliton_obituary.py:108 (re-run: 9.5e+15-2.0e+17)"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:153; verify/soliton_obituary.py:108 (re-run: 9.5e+15-2.0e+17)"
    },
    {
     "id": "K31",
     "verdict": "confirmed",
     "correction": "No correction needed. The e1c1f67 diff shows what 'closed' covered: v2.0's OP8 sub-items 'conjugate gauge sectors and their soliton spectrum; \"p-local solitons are p-localized\"', dropped for want of a candidate. #11 does not say this.",
-    "checked_source": "papers/broken-born-checkpoint-v2.md:154, :192, :215; git show e1c1f67"
+    "checked_source": "wiki/papers/broken-born-checkpoint-v2.md:154, :192, :215; git show e1c1f67"
    },
    {
     "id": "K32",
@@ -686,7 +686,7 @@
     "id": "K34",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "HANDOFF.md:31; papers/broken-born-checkpoint-v2.md:116"
+    "checked_source": "HANDOFF.md:31; wiki/papers/broken-born-checkpoint-v2.md:116"
    },
    {
     "id": "K35",
@@ -782,7 +782,7 @@
     "id": "K50",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "review/round3-adjudication.md:99-112; papers/broken-born-checkpoint-v2.md:171"
+    "checked_source": "review/round3-adjudication.md:99-112; wiki/papers/broken-born-checkpoint-v2.md:171"
    },
    {
     "id": "K51",
@@ -800,7 +800,7 @@
     "id": "K53",
     "verdict": "confirmed",
     "correction": "No correction needed. Caveat: the referee reports are not in the repo (review/v3-worklog.md:9-10; HANDOFF.md:66). The toy note's quotation is the only record of their wording, and HANDOFF.md:35 attaches the electric-sublattice clause to the criterion 'both reviewers independently named'.",
-    "checked_source": "notes/toy-lagrangian.md:6-9; papers/broken-born-checkpoint-v2.md:195"
+    "checked_source": "notes/toy-lagrangian.md:6-9; wiki/papers/broken-born-checkpoint-v2.md:195"
    },
    {
     "id": "K54",
@@ -812,7 +812,7 @@
     "id": "K55",
     "verdict": "confirmed",
     "correction": "",
-    "checked_source": "papers/conjugate-special-relativity.md:85"
+    "checked_source": "wiki/papers/conjugate-special-relativity.md:85"
    },
    {
     "id": "K56",
@@ -836,7 +836,7 @@
     "id": "K59",
     "verdict": "misstated",
     "correction": "The wiki line is quoted correctly. But #11's [D] is §11.1's section tag (#11:116) and covers the whole audit, not 'only the step to gravitation'; the briefing's own K1 calls it the section tag. #11 never states the no-charge clause for conjugate monopoles; the wiki infers it from P4 (conjugate-monopoles.md:51). #11's own practice tags a one-step consequence of P4 as [D] ('by P4, conjugate-sector solitons gravitate' under §11.1 [D]), so [P] is not the better tag. The real problem is that the wiki states a consequence #11 does not, which conflicts with wiki/CLAUDE.md's rule that the wiki adds no results.",
-    "checked_source": "wiki/electric-magnetic-duality/magnetic-identification.md:94; papers/broken-born-checkpoint-v2.md:45, :116"
+    "checked_source": "wiki/electric-magnetic-duality/magnetic-identification.md:94; wiki/papers/broken-born-checkpoint-v2.md:45, :116"
    },
    {
     "id": "K60",
@@ -858,7 +858,7 @@
     "briefing_value": "104.31 (M_Pl); 0.828 (reduced M_Pl)",
     "record_value": "104.3106; 0.8279 (OB run); step2a.out:20; step4d.out:1",
     "ok": true,
-    "where": "verify/soliton_obituary.py:62-63; papers/broken-born-checkpoint-v2.md:145"
+    "where": "verify/soliton_obituary.py:62-63; wiki/papers/broken-born-checkpoint-v2.md:145"
    },
    {
     "quantity": "#14's earlier p and the dropped factor",
@@ -872,7 +872,7 @@
     "briefing_value": "2.873–4.441×10¹² GeV",
     "record_value": "2.873e+12–4.441e+12 (OB run); step2a.out:31",
     "ok": true,
-    "where": "verify/soliton_obituary.py:73; papers/broken-born-checkpoint-v2.md:146"
+    "where": "verify/soliton_obituary.py:73; wiki/papers/broken-born-checkpoint-v2.md:146"
    },
    {
     "quantity": "Overproduction of the 3×10¹³ GeV benchmark",
@@ -893,14 +893,14 @@
     "briefing_value": "≲ 100 PeV, or early matter domination; [29S], abstract level; not executed",
     "record_value": "Value as in #11:147 and ADJ:32. 'Abstract level' is the adjudicator's. The referee evaluated LMW eqs. 13, 16, 18, 25 and 28–30 at the benchmark (step4.out:21-41), though not at 100 PeV.",
     "ok": true,
-    "where": "papers/broken-born-checkpoint-v2.md:147; review/round3/referee/audit-notes.md:169-175"
+    "where": "wiki/papers/broken-born-checkpoint-v2.md:147; review/round3/referee/audit-notes.md:169-175"
    },
    {
     "quantity": "W′± relic, adjoint-only sector",
     "briefing_value": "9.5×10¹⁵–2.0×10¹⁷ (quoted as 10¹⁶–10¹⁷)",
     "record_value": "9.5e+15–2.0e+17 (OB run)",
     "ok": true,
-    "where": "verify/soliton_obituary.py:108; papers/broken-born-checkpoint-v2.md:153"
+    "where": "verify/soliton_obituary.py:108; wiki/papers/broken-born-checkpoint-v2.md:153"
    },
    {
     "quantity": "ψ relic window",
@@ -928,7 +928,7 @@
     "briefing_value": "ε ≲ 10⁻¹³; zero if hidden C exact",
     "record_value": "#11:45 'vanishes if hidden charge conjugation is exact … ε ≲ 10⁻¹³ [27S]'; ADJ:103 says 'gauged'",
     "ok": true,
-    "where": "papers/broken-born-checkpoint-v2.md:45"
+    "where": "wiki/papers/broken-born-checkpoint-v2.md:45"
    },
    {
     "quantity": "Our magnetic coupling at e·g = 2π",

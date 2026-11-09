@@ -1,6 +1,6 @@
 # Round 4 — adjudication
 
-- **Manuscript:** `papers/reciprocity-toy-models.md` (the toy-model note), as
+- **Manuscript:** `wiki/papers/reciprocity-toy-models.md` (the toy-model note), as
   of commit d9a06ac.
 - **Pre-registration:** [round4-preregistration.md](round4-preregistration.md),
   committed before dispatch with a neutral subject.

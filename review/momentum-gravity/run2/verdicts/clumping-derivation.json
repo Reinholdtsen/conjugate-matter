@@ -99,7 +99,7 @@
    "claim_id": "C16",
    "verdict": "confirmed",
    "reason": "The unit conversions are reproduced. #11 section 7.5 reads 'Massless graviton = reciprocity-even ... X = reciprocity-odd; SM couplings gravitational-strength and Yukawa-cut at 1/M_X', and P4 reads 'both couple universally to H'.",
-   "independent_check": "misc_checks.out: 'C16 37.7 um / 1 kpc = 1.222e-24; hbar c/1 kpc = 6.395e-27 eV; hbar c/37.7 um = 5.234 meV; ratio = 8.185e+23'. Read papers/broken-born-checkpoint-v2.md lines 45 and 82."
+   "independent_check": "misc_checks.out: 'C16 37.7 um / 1 kpc = 1.222e-24; hbar c/1 kpc = 6.395e-27 eV; hbar c/37.7 um = 5.234 meV; ratio = 8.185e+23'. Read wiki/papers/broken-born-checkpoint-v2.md lines 45 and 82."
   },
   {
    "claim_id": "C17",

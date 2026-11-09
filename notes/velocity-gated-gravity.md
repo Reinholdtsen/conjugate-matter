@@ -58,7 +58,7 @@ parts in ten million and of the same size as ordinary gravity's own.*
 
 **What the record gives** [V][S].
 - V = −(Gm₁m₂/r)(1 + (4/3)e^{−r/λ_X}) in the aligned vacuum (background ratio u = 1), with λ_X < 37.7 μm if the
-  Sun and planets are not screened (`papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py`).
+  Sun and planets are not screened (`wiki/papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py`).
 - A search of the record finds no velocity dependence assigned to this term.
 
 **Its velocity dependence is relativistic** [D][V; two verifiers by different methods].
@@ -425,9 +425,9 @@ wrong in the process.*
 
 ## Sources
 
-- #11 `papers/broken-born-checkpoint-v2.md` §§7–9, 12, 13; #1 `notes/broken-born-theory.md` §5.2; #2–#4
+- #11 `wiki/papers/broken-born-checkpoint-v2.md` §§7–9, 12, 13; #1 `notes/broken-born-theory.md` §5.2; #2–#4
   `notes/stream-stability.md`, `notes/wave-island.md`, `notes/ufd-endpoint.md`; #13
-  `papers/conjugate-special-relativity.md` §§2, 5; `papers/phase-space-diameter.md` §8.2; HANDOFF §4.
+  `wiki/papers/conjugate-special-relativity.md` §§2, 5; `wiki/papers/phase-space-diameter.md` §8.2; HANDOFF §4.
 - `review/momentum-gravity/`: the analyses, verdicts and critics' rulings, with the scripts named there.
 - Einstein, Infeld and Hoffmann 1938; Fierz–Pauli propagator [T].
 - Weinberg, Phys. Rev. 135, B1049 (1964) [S, abstract]; Porrati 2008 [S]; Afkhami-Jeddi, Kundu and Tajdini, JHEP 04

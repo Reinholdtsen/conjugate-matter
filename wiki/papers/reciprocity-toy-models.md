@@ -1,4 +1,9 @@
-# Spontaneous Breaking of Born Reciprocity: Two Toy Models
+---
+title: "Spontaneous Breaking of Born Reciprocity: Two Toy Models"
+weight: 20
+status: record
+description: "The toy-model note: a coset sigma model and the self-dual Grosse–Wulkenhaar model, two explicit models in which Born reciprocity is spontaneously broken, written in blind-review format and graded B in review round 4."
+---
 
 *Anonymous working manuscript submitted for adversarial review. The manuscript may contain errors or confabulations; the reviewer is asked to find them.*
 

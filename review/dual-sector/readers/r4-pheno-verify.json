@@ -220,7 +220,7 @@
    "paper_id": "2011.08852",
    "quote_start": "This means \\sqrt{\\mu}\\simeq 5.23\\ \\text{TeV} , more or less ",
    "quote_found": true,
-   "check_output": "both fragments FOUND: 2011.08852 — searched full text (https://arxiv.org/html/2011.08852). Computation: μ = 2.73280×10⁷ GeV², √μ = 5.2276 TeV. The record's '5.2 TeV, √(ρ_Λ^{1/4}E_P), of Berglund, Hübsch and Minic's see-saw' is at papers/phase-space-diameter.md §7.",
+   "check_output": "both fragments FOUND: 2011.08852 — searched full text (https://arxiv.org/html/2011.08852). Computation: μ = 2.73280×10⁷ GeV², √μ = 5.2276 TeV. The record's '5.2 TeV, √(ρ_Λ^{1/4}E_P), of Berglund, Hübsch and Minic's see-saw' is at wiki/papers/phase-space-diameter.md §7.",
    "verdict": "confirmed",
    "correction": ""
   },
@@ -422,7 +422,7 @@
    "quote_found": true,
    "check_output": "all three fragments FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901). Paper read whole.",
    "verdict": "confirmed-in-part",
-   "correction": "'Nothing selects a polarization dynamically' needs a qualifier. The paper does let gravitational entropy fix the shape of the modular cell, its aspect ratio between position and momentum: 'We suggest that the holographic bound on entropy can be thought of as providing a contextual scale that determines the shape of elementary phase space cells', giving a cell 'much wider in the space direction and much thinner in the momentum direction than one would guess by identifying them with the Planck scales' (both FOUND). That is a shape within one modular polarization, not a choice between position and momentum polarizations, and not spontaneous breaking. The record already quotes this paper's contextual cell length (papers/phase-space-diameter.md §4)."
+   "correction": "'Nothing selects a polarization dynamically' needs a qualifier. The paper does let gravitational entropy fix the shape of the modular cell, its aspect ratio between position and momentum: 'We suggest that the holographic bound on entropy can be thought of as providing a contextual scale that determines the shape of elementary phase space cells', giving a cell 'much wider in the space direction and much thinner in the momentum direction than one would guess by identifying them with the Planck scales' (both FOUND). That is a shape within one modular polarization, not a choice between position and momentum polarizations, and not spontaneous breaking. The record already quotes this paper's contextual cell length (wiki/papers/phase-space-diameter.md §4)."
   },
   {
    "paper_id": "2212.00901",
@@ -436,7 +436,7 @@
    "paper_id": "2212.00901",
    "quote_start": "then the cutoffs on space and momentum are not separately ar",
    "quote_found": true,
-   "check_output": "both fragments FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901); the record's quotation is at papers/phase-space-diameter.md §4 ('Born geometry [T][S]').",
+   "check_output": "both fragments FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901); the record's quotation is at wiki/papers/phase-space-diameter.md §4 ('Born geometry [T][S]').",
    "verdict": "confirmed",
    "correction": ""
   },
@@ -552,7 +552,7 @@
   {
    "question": "Q9",
    "verdict": "confirmed-in-part",
-   "correction": "No vacuum, potential or order parameter selects a polarization in the nine; a full screen of 'polari[sz]' finds none. One qualifier. In 2212.00901 gravitational entropy fixes the shape of the modular cell, 'much wider in the space direction and much thinner in the momentum direction' than Planckian, set 'contextually' by the horizon's entropy. That is a selection of cell shape within one modular polarization, not of the position or momentum polarization. The record already has it (papers/phase-space-diameter.md §4).",
+   "correction": "No vacuum, potential or order parameter selects a polarization in the nine; a full screen of 'polari[sz]' finds none. One qualifier. In 2212.00901 gravitational entropy fixes the shape of the modular cell, 'much wider in the space direction and much thinner in the momentum direction' than Planckian, set 'contextually' by the horizon's entropy. That is a selection of cell shape within one modular polarization, not of the position or momentum polarization. The record already has it (wiki/papers/phase-space-diameter.md §4).",
    "counter_evidence": [
     "2212.00901: 'We suggest that the holographic bound on entropy can be thought of as providing a contextual scale that determines the shape of elementary phase space cells.' (FOUND)",
     "2212.00901, after eq. (23): 'It implies that the typical phase space cell is much wider in the space direction and much thinner in the momentum direction than one would guess by identifying them with the Planck scales.' (FOUND)"
@@ -607,7 +607,7 @@
   {
    "record_says": "notes/literature-check.md §6, C5 'Related': 'Hur et al. 2025, \"In our model, dark energy stems from the curvature of the dual spacetime\" … None has a collapsing partner driving our present acceleration'. Also the reader's statement that 'The root CLAUDE.md records it only as a lead'. (Reader's item 2.)",
    "verdict": "confirmed-in-part",
-   "note": "The understatement in the literature-check note is real. The reader's quotations (δx δx̃ ∼ λ²; Λ changing with our scale factor because x and x̃ do not commute) are verbatim, and my code reproduces the band's future closing (a = 1.589–2.262). 'None has a collapsing partner' still holds. But the claim that the record has the paper 'only as a lead' is incomplete. papers/phase-space-diameter.md §7 already states: 'A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025]', and wiki/gravity/spin-2-fields/cosmological-constant-problem.md repeats it. That wording has its own gap (fourth item)."
+   "note": "The understatement in the literature-check note is real. The reader's quotations (δx δx̃ ∼ λ²; Λ changing with our scale factor because x and x̃ do not commute) are verbatim, and my code reproduces the band's future closing (a = 1.589–2.262). 'None has a collapsing partner' still holds. But the claim that the record has the paper 'only as a lead' is incomplete. wiki/papers/phase-space-diameter.md §7 already states: 'A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025]', and wiki/gravity/spin-2-fields/cosmological-constant-problem.md repeats it. That wording has its own gap (fourth item)."
   },
   {
    "record_says": "notes/literature-check.md §3: 'A review with 162 authors (Addazi et al. 2022) and Jejjala, Kavic, Minic and Takeuchi 2022 are partial too'. The reference list gives IJMPA 37, 2242001 (2022), arXiv:2011.08852. (Reader's item 3.)",
@@ -615,7 +615,7 @@
    "note": "arXiv API v1 dates: 2011.08852 2020-11-17, 2111.05659 2021-11-10, 2202.05266 2022-02-10. The record's year labels are journal years (IJMPA 37 (2022); PPNP 125 (2022)), and its reference list carries the arXiv numbers, so the paper's identity is not in doubt. The confusion risk with the same authors' 2022-posted 2202.05266, which has no dual and predicts w < −1, is real. No verdict depends on it. INSPIRE confirms 162 authors for Addazi et al."
   },
   {
-   "record_says": "(New; not in the reader's output.) papers/phase-space-diameter.md §7: 'A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025]'; wiki/gravity/spin-2-fields/cosmological-constant-problem.md says the same.",
+   "record_says": "(New; not in the reader's output.) wiki/papers/phase-space-diameter.md §7: 'A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025]'; wiki/gravity/spin-2-fields/cosmological-constant-problem.md says the same.",
    "verdict": "confirmed",
    "note": "The record gives one of the paper's two results. Under its first UV–IR relation, the 2022 letter's, the paper finds 'Clearly, w(a)<-1 for all a as anticipated' and 'this model is clearly disfavored' by DESI DR2 (§3.3, both FOUND). Only the alternative relation of §3.4 gives w ≥ −1, which its Discussion generalizes ('quite generically'). The same group's 2202.05266 had concluded 'this rules out quintessence models of an accelerating Universe with −1<w_eff<−1/3' (FOUND). The school has therefore published both signs of 1 + w, set by an assumed UV–IR relation. Any record passage comparing the school's dark energy with #11 §10's strict w ≥ −1 or §13 row 4 should say so."
   },
@@ -739,7 +739,7 @@
    "bears_on": [
     "polarization-selection"
    ],
-   "why_it_matters": "Q9: gravity does select something in phase space here, the modular cell's position-to-momentum aspect ratio, λ ∼ (ℓℓ_P)^{1/2}. It is a shape within one modular polarization, not a choice between polarizations, and not spontaneous breaking. The record already quotes it (papers/phase-space-diameter.md §4).",
+   "why_it_matters": "Q9: gravity does select something in phase space here, the modular cell's position-to-momentum aspect ratio, λ ∼ (ℓℓ_P)^{1/2}. It is a shape within one modular polarization, not a choice between polarizations, and not spontaneous breaking. The record already quotes it (wiki/papers/phase-space-diameter.md §4).",
    "quote_check": "both sentences FOUND: 2212.00901 — searched full text (https://arxiv.org/html/2212.00901)"
   },
   {
@@ -760,7 +760,7 @@
     "other",
     "dark-energy"
    ],
-   "why_it_matters": "The Berglund–Hübsch–Minic see-saw between UV and IR cutoffs also appears in this paper. It lies behind 2011.08852's √μ ≈ 5.23 TeV and the record's 5.2 TeV see-saw (papers/phase-space-diameter.md §7).",
+   "why_it_matters": "The Berglund–Hübsch–Minic see-saw between UV and IR cutoffs also appears in this paper. It lies behind 2011.08852's √μ ≈ 5.23 TeV and the record's 5.2 TeV see-saw (wiki/papers/phase-space-diameter.md §7).",
    "quote_check": "FOUND: 2202.05104 — searched full text (https://arxiv.org/html/2202.05104)"
   },
   {

@@ -20,7 +20,7 @@ import numpy as np
 REPO = Path("/home/paul/git/reinholdtsen/conjugate-matter")
 
 # ---------------- Part A: static audit
-note = (REPO / "papers/reciprocity-toy-models.md").read_text().splitlines()
+note = (REPO / "wiki/papers/reciprocity-toy-models.md").read_text().splitlines()
 i0 = next(i for i, l in enumerate(note) if l.startswith("**Shown**"))
 i1 = next(i for i, l in enumerate(note) if l.startswith("**Not shown:**"))
 shown = [l[2:] for l in note[i0 + 1:i1] if l.startswith("- ")]

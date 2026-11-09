@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-arb.py — round-5 arbitration for papers/phase-space-diameter.md v1.0.
+arb.py — round-5 arbitration for wiki/papers/phase-space-diameter.md v1.0.
 
     .venv/bin/python review/round5/adjudicator/arb.py > review/round5/adjudicator/arb.out
 

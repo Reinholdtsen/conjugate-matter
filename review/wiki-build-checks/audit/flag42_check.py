@@ -60,8 +60,8 @@ for l in notes.splitlines():
     if re.search(r"LSZ|Zarembo", l):
         print("  >", norm(l)[:240])
 
-print("\n== 3. Toy note v2 (papers/reciprocity-toy-models.md) ==")
-toy = read("papers/reciprocity-toy-models.md")
+print("\n== 3. Toy note v2 (wiki/papers/reciprocity-toy-models.md) ==")
+toy = read("wiki/papers/reciprocity-toy-models.md")
 cur = None
 hits = []
 for i, l in enumerate(toy.splitlines(), 1):
@@ -107,14 +107,14 @@ print("6606734 message claims 'applies every revision accepted in round 4':",
       "applies every revision accepted in round 4" in norm(msg))
 print("6606734 message mentions LSZ/Zarembo/comparison:",
       bool(re.search(r"Zarembo|LSZ|compar", msg, re.I)))
-diff = git("show", "6606734", "--", "papers/reciprocity-toy-models.md")
+diff = git("show", "6606734", "--", "wiki/papers/reciprocity-toy-models.md")
 print("6606734 itself adds the 'not carried it out' line:",
       any(l.startswith("+") and "We have not carried it out" in l for l in diff.splitlines()))
 v1 = git("show", "d9a06ac:papers/reciprocity-toy-models.md")
 print("v1 (as reviewed, d9a06ac) mentions LSZ at all:", bool(re.search(r"Zarembo|0308043", v1)))
 
 print("\n== 7. Other summaries of the same claim ==")
-ck = read("papers/broken-born-checkpoint-v2.md")
+ck = read("wiki/papers/broken-born-checkpoint-v2.md")
 item11 = [l for l in ck.splitlines() if "v2 applies" in l]
 print("#11:", [norm(l).strip()[-80:] for l in item11])
 cm = read("CLAUDE.md")

@@ -143,10 +143,10 @@
     {
      "file": "wiki/history/documents/checkpoint.md; wiki/history/documents/project-instructions.md",
      "line": "33, 151; 36, 156",
-     "problem": "These lines describe today's uncommitted working tree and go stale at commit: `git diff papers/broken-born-checkpoint-v2.md` will then show nothing, and the version list will lack v2.3's hash.",
+     "problem": "These lines describe today's uncommitted working tree and go stale at commit: `git diff wiki/papers/broken-born-checkpoint-v2.md` will then show nothing, and the version list will lack v2.3's hash.",
      "fix": "At commit, replace them with the commit hash, as the pages do for v2.0–v2.2.",
      "severity": "minor",
-     "quote": "v2.3 is in the working tree (`git diff papers/broken-born-checkpoint-v2.md`) until it is committed"
+     "quote": "v2.3 is in the working tree (`git diff wiki/papers/broken-born-checkpoint-v2.md`) until it is committed"
     },
     {
      "file": "wiki/conjugate-relativity/two-cones-inconsistency.md; wiki/electric-magnetic-duality/monopoles/kibble-mechanism.md; wiki/conjugate-relativity/_index.md; wiki/program/assessment.md; wiki/_index.md",
@@ -247,7 +247,7 @@
      "line": "26 (status line), 46–56 (The Maslov class), 92–106 (Used by), frontmatter sources",
      "quote": "— not machine-checked as such;",
      "problem": "This is the home page of the polarization manifold, but it gives only π₁ = ℤ and says the facts are not machine-checked. Since 2026-10-29, `verify/closed_universe.py` section F gates π₁(Λ(4)) = ℤ (check F2), π₂(Λ(4)) = ℤ₂ (F3) and π₃(Λ(4)) = ℤ₂ (F1) against two winding-number anchors and Bott periodicity, and #11 §14 item 12 (OP12) rests on them. The linking plan requires a machine-checked claim to link its script page. The Used-by list lacks the OP12 section and the closed-universe page. The page is unmodified and no editor reported it.",
-     "fix": "(1) In the status line, replace 'not machine-checked as such' with 'at d = 4 its π₁, π₂ and π₃ are machine-checked in `verify/closed_universe.py` section F ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)); otherwise not machine-checked'. (2) After the Maslov-class section, add a short '### Higher homotopy at d = 4 [T][V]'. It states π₂(Λ(4)) = ℤ₂ and π₃(Λ(4)) = ℤ₂ (Bott periodicity's stable values for U/O [T], gated in section F), that on the light Maslov circle alone π₂ = π₃ = 0, and links [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12). (3) Add to Used by: the OP12 section ('π₂ = ℤ₂ and the Maslov loop allow point defects and τ-strings') and [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) ('two texture classes on S³, [S³, Λ(4)] = Z₂ [D][V]'). (4) Add these sources: 'papers/broken-born-checkpoint-v2.md §14 item 12', 'notes/closed-universe.md §8', 'verify/closed_universe.py section F' and 'review/wiki-build-flags.md item 61'.",
+     "fix": "(1) In the status line, replace 'not machine-checked as such' with 'at d = 4 its π₁, π₂ and π₃ are machine-checked in `verify/closed_universe.py` section F ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)); otherwise not machine-checked'. (2) After the Maslov-class section, add a short '### Higher homotopy at d = 4 [T][V]'. It states π₂(Λ(4)) = ℤ₂ and π₃(Λ(4)) = ℤ₂ (Bott periodicity's stable values for U/O [T], gated in section F), that on the light Maslov circle alone π₂ = π₃ = 0, and links [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12). (3) Add to Used by: the OP12 section ('π₂ = ℤ₂ and the Maslov loop allow point defects and τ-strings') and [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) ('two texture classes on S³, [S³, Λ(4)] = Z₂ [D][V]'). (4) Add these sources: 'wiki/papers/broken-born-checkpoint-v2.md §14 item 12', 'notes/closed-universe.md §8', 'verify/closed_universe.py section F' and 'review/wiki-build-flags.md item 61'.",
      "severity": "should-fix"
     },
     {
@@ -279,7 +279,7 @@
      "line": "50, 122–131, 146–160 (Used by), frontmatter",
      "quote": "#14 §2 used this to constrain its hidden sector",
      "problem": "The π₂(S³) = 0 paragraph and 'How the program used it' cite only #14. Since v2.3, #11 §11.1 also rests on the fact ('without grand unification there are none to dilute, since the Standard Model has no topologically stable monopoles [T]'), and monopole-explanation.md:75 deep-links #why-it-is-stable-winding-t. The Used-by list lacks that obituary. The page is unmodified. Reported by A.",
-     "fix": "Add to Used by: '[Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — π₂(S³) = 0: without grand unification there are no monopoles to dilute, one of the standard histories under which the null result is expected (#11 v2.3 §11.1; flag 59).' After the #14 quotation at line 50, add one sentence saying that #11 v2.3 §11.1 uses the same fact, or add it as a bullet under 'How the program used it'. Add sources 'papers/broken-born-checkpoint-v2.md §11.1' and 'review/wiki-build-flags.md item 59'.",
+     "fix": "Add to Used by: '[Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — π₂(S³) = 0: without grand unification there are no monopoles to dilute, one of the standard histories under which the null result is expected (#11 v2.3 §11.1; flag 59).' After the #14 quotation at line 50, add one sentence saying that #11 v2.3 §11.1 uses the same fact, or add it as a bullet under 'How the program used it'. Add sources 'wiki/papers/broken-born-checkpoint-v2.md §11.1' and 'review/wiki-build-flags.md item 59'.",
      "severity": "should-fix"
     },
     {
@@ -468,7 +468,7 @@
    "reviewer": "sources",
    "findings": [
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "126 (also 226; review/wiki-build-flags.md:489-490)",
      "quote": "If this form held, it would account for the null result of §11.1, which stays dead as argued there.",
      "problem": "The sentence contradicts itself and conditionally revives a HANDOFF §2 dead claim. HANDOFF §2 lists, under 'Dead ... keep dead', 'Conjugate monopoles as the *explanation* of our monopole non-detection (wrong duality; inflation suffices)'. The shared-photon form (our monopoles in the p-polarization, hidden by p-localization) is that same explanation. It cannot both 'account for the null result' and 'stay dead'. v2.3 also changes both grounds. The first is now conditional on an [O] conjecture (line 117). The second is reduced to 'lends no support', which is not a refutation. So 'dead' now rests only on §11.4's shared-photon form failing, which is an open status. App. A item 5 (line 226) compounds this: 'Joined with item 11 in P.R.'s magnetic-mirror conjecture (§11.4) [O]' attaches the whole item, including its dead explanation half, to a live conjecture. In the session transcript (2026-10-29 06:49Z) the main session told Paul 'The old claim stays dead, per the rule for HANDOFF §2'. The recommendation Paul answered with 'update the repo with this latest thinking' did not contain this sentence.",
@@ -476,7 +476,7 @@
      "severity": "must-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "117 (also 115, 125; review/wiki-build-flags.md:473-474)",
      "quote": "and §11.2's strong coupling keeps any that exist heavy and bound [T]",
      "problem": "This is tagged [T] and listed as one of the 'standard histories' under which the null result is expected. The record says the opposite. #14 v3 §3 (notes/knot-dark-matter-standalone.md:51): 'The classic relic analysis [19] found monopole-antimonopole annihilation inefficient for superheavy monopoles in our plasma'. The round-3 referee (review/round3/referee/audit-notes.md:174): 'the \"strong-coupling\" regime alpha_m = 34 is exactly the Dirac-monopole case of Preskill 1979'. v3-worklog F1: annihilation 'cannot reduce n/T³ below ~10⁻¹⁰ at m ≈ 10¹⁶ GeV'. Dirac-strength coupling is the regime in which the monopole problem arises. Heaviness puts monopoles beyond accelerators but leaves a relic population. §11.2's 'heavy and bound' is about the mirror family's non-observation, not a cosmological history, and no literature supports the [T].",
@@ -492,7 +492,7 @@
      "severity": "must-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "117 (also 226; CLAUDE.md:111-112; review/wiki-build-flags.md:488-489)",
      "quote": "a ground that holds unless §11.3's conjecture joins the two (§11.4)",
      "problem": "The condition is broader than the record supports. §11.4's own separate-photon form joins the two dualities (the p-sector as S-dual image) yet 'leaves the absence of our own monopoles to §11.1–§11.2', so 'wrong duality' still holds for our monopoles under it. Only the shared-photon form contests the first ground. As written, any progress on §11.3 would appear to undo the kill.",
@@ -500,7 +500,7 @@
      "severity": "should-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "123 (also CLAUDE.md:113-116)",
      "quote": "Momentum matter mirrors position matter: each electrically charged x-polarized particle has a magnetically charged p-polarized analog, so the p-polarized sector is the S-dual image of the electric sector.",
      "problem": "The heading attributes this to P.R. ('(P.R.; v2.3)'). Paul's words, in the transcript at 2026-10-29 07:05Z and quoted verbatim in review/monopoles/README.md, are 'momentum matter is similar to position matter with electrically charged position particles having magnetically charged momentum particle analogs'. 'S-dual image' is #14 v2's phrase. The 'so' is an inference: a magnetic analog for each charged particle does not by itself make the whole sector the S-transform with an inverted coupling. The next sentence also overstates. '#14 v2 made it the soliton candidate's load-bearing conjecture': v2's load-bearing conjecture was 'reciprocity acting on gauge couplings as S - load-bearing for alpha_d' (v2 §6), and the per-particle mirror spectrum was only something the sector 'may carry' (v2 §2 (ii)). Paul relies on the record to tell his conjectures from Claude's readings.",
@@ -508,7 +508,7 @@
      "severity": "should-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "128 (also 125; review/v3-worklog.md:64-68; review/wiki-build-flags.md:522-523)",
      "quote": "Open in either form: a mechanism by which one order parameter makes both choices (...); the round-2 objection that a shared matrix is not a shared physics (...); and the factor-of-4 convention spread of the dual coupling (flag 28).",
      "problem": "Withdrawing F2's decision puts S back in charge of the dual coupling ('whose coupling is the S-image of ours', line 125). That brings back round 2's pending SUSY-exactness burden. HANDOFF §6: 'SUSY-exactness burden for Montonen–Olive (either reciprocity supplies the rigidity or the dual sector is approximately SUSY)'. v3-worklog R1: 'If F2 is adopted, S no longer carries α_d, and the burden shrinks'. The open list leaves it out. Separately, F2's [D, numbers V] finding is arithmetic, not Paul's decision: v2's M ~ (4π/e_d²)Λ_c is ~137 Λ_c only at weak coupling and 0.029 Λ_c at α_d = 34, and v2 used both values. Flag 60's ruling ('marks F2 withdrawn') reads as withdrawing that finding too. §11.4 also does not say whether 'the S-image of ours' is the p-sector's elementary coupling or its magnetic one, which is the distinction F2 showed matters.",
@@ -532,7 +532,7 @@
      "severity": "should-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "6 (also CLAUDE.md:108)",
      "quote": "*v2.3 changes (2026-10-29, Paul's rulings on flags 59–61):* §11's plain-language passage, §11.1 and App. A item 5 restate the second ground for the dead monopole explanation",
      "problem": "The note under-reports a change to a dead claim. v2.3 also makes the first ground conditional: 'a ground that holds unless §11.3's conjecture joins the two' (line 117) and 'wrong duality, unless §11.3's conjecture holds' (line 226). App. A item 5 also points to §11.4, not only item 11 and §14 item 8. Flag 61 was 'applied' under a general instruction (flags:537), not ruled, so 'Paul's rulings on flags 59–61' and CLAUDE.md's 'flags 59–61, all ruled' misdescribe it.",
@@ -540,7 +540,7 @@
      "severity": "should-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "126 (also 125; CLAUDE.md:120-122)",
      "quote": "The form therefore needs p-localization, open since v2.0 (...), to hide them: a spread in position beyond detectors and beyond the coherence length of galactic magnetic fields, or binding into magnetically neutral composites",
      "problem": "The record drops conditions the main session itself gave Paul. At 06:49Z: 'The width has to be in the object's field profile, not in its quantum state. A particle in a spread-out quantum state is still detected whole, at a rate set by how many there are.' As written, the condition could be met by quantum delocalization, which hides nothing. At 07:09Z: dark matter must be decoupled from light by recombination (†); this is missing. The sentence also makes binding into neutral composites a kind of p-localization, when it is an alternative to it, as CLAUDE.md:153-154 has it; CLAUDE.md:120-122 says only 'needs p-localization'. The separate-photon form leaves out a record-held cost of a massless hidden photon: dark radiation, which bounded #14's hidden sector to ξ < 0.760 [V] (round-3 ruling 5, review/round3-adjudication.md:34).",
@@ -548,7 +548,7 @@
      "severity": "should-fix"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "208 (also CLAUDE.md:123-124)",
      "quote": "so where the order parameter ranges over the whole polarization manifold, selecting it can leave strings of τ and point defects, the monopole type; on the light Maslov circle alone π₂ = 0",
      "problem": "The sentence puts τ-strings under the whole-manifold condition. π₁(S¹) = ℤ, so τ-strings exist on the light Maslov circle alone; only the π₂ point defects (and the π₃ textures) need the whole manifold. Note §8 (notes/closed-universe.md:316) gets this right. CLAUDE.md:123-124 drops the caveat entirely.",
@@ -557,7 +557,7 @@
     },
     {
      "file": "notes/closed-universe.md",
-     "line": "316 (also papers/broken-born-checkpoint-v2.md:208)",
+     "line": "316 (also wiki/papers/broken-born-checkpoint-v2.md:208)",
      "quote": "The same manifold has π₁(Λ(4)) = ℤ and π₂(Λ(4)) = ℤ₂, so selecting the polarization can leave strings of the Maslov phase τ and point defects, the monopole type.",
      "problem": "Two closed-universe verifiers confirmed C35–C38, with caveats on C38 (review/closed-universe/verdicts/gravity-sector-derivation.json, missed_issues; critic.json: 'with the d = 4 and global-U(4) caveats'). The classification assumes the U(4) acting on J is global ('if part of it were gauged, odd-degree gauge maps would identify the two classes') and uses d = 4. Neither the note nor #11 item 12 carries these. Whether the U(4) is global or partly gauged also decides whether the point defects are global or gauge monopoles, which is the question behind §9's 'monopole problem of the program's own'. By the same exact sequence π₁ and π₂ are unchanged for U(3)/O(3); the verifier found π₃ = ℤ₄ there.",
      "fix": "Add to note §8 and to item 12: 'assuming the U(4) acting on J is global and d = 4 (the closed-universe verifiers' caveats on C38)'.",
@@ -567,12 +567,12 @@
      "file": "review/wiki-build-flags.md",
      "line": "511-513",
      "quote": "Row 7 conflicts with the shared-photon form only if the momentum sector is localized in position, and its kinematics was never analyzed",
-     "problem": "This makes two overstatements. (a) #13 is titled 'The kinematics of the momentum polarization' (papers/conjugate-special-relativity.md:2). What no document analyzes is whether p-polarized matter is localized in position; #13 line 85 defers 'their Maxwell, their field theory'. (b) Row 7's stated basis, 'both dark-sector candidates SM-decoupled; P4 strict' (#11:179), conflicts with dark matter magnetically charged under our photon whatever its localization. Localization bears only on whether the observed null persists.",
+     "problem": "This makes two overstatements. (a) #13 is titled 'The kinematics of the momentum polarization' (wiki/papers/conjugate-special-relativity.md:2). What no document analyzes is whether p-polarized matter is localized in position; #13 line 85 defers 'their Maxwell, their field theory'. (b) Row 7's stated basis, 'both dark-sector candidates SM-decoupled; P4 strict' (#11:179), conflicts with dark matter magnetically charged under our photon whatever its localization. Localization bears only on whether the observed null persists.",
      "fix": "Rewrite as: 'Row 7's basis (SM-decoupled; P4 strict) conflicts with the shared-photon form outright; its observable null survives only if the momentum sector is spread in position, which no document analyzes (#14 §1 assumes ordinary kinematics; #13 treats kinematics but not localization).'",
      "severity": "minor"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "128 (also CLAUDE.md:156)",
      "quote": "the factor-of-4 convention spread of the dual coupling (flag 28)",
      "problem": "Flag 28 is the wrong citation for this. It concerns the formula printed beside 34 in §11.2, and its audit concludes '34 = 1/(4α) = π/e² is right', with 137 as the e·g = 4π value. The factor-of-4 spread as an open convention is recorded in v3-worklog R2 ('the number is convention-dependent by a factor of 4') and #14 v3 §2 ('Matching the W' charge to ours instead of psi's gives alpha_m ~ 137'). Flag 28 is still unruled, and §11.2 still prints '4π/e² ≈ 34'.",
@@ -580,7 +580,7 @@
      "severity": "minor"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "123 (also CLAUDE.md:118-119)",
      "quote": "is withdrawn by P.R. as a confusion (2026-10-29; flag 60)",
      "problem": "Paul's hedge is dropped. His words were 'the demotion of S-duality on 2026-10-19 was probably confusion on my part' (transcript, 17:46Z). v3-worklog:64 and flag 60 quote him correctly.",
@@ -588,7 +588,7 @@
      "severity": "minor"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "115",
      "quote": "But the burial split the claim in two, and the second half stood up ... turns out to be famous physics ... suspected today of being the very mechanism ... its own structure keeps the twin in the attic. Deepest of all: ... Two intuitions, one operation.",
      "problem": "v2.3 edited this italic passage but kept constructions that the root CLAUDE.md's science-prose rules exclude: anthropomorphizing ('stood up', 'keeps the twin in the attic'), detective-story reveals ('turns out to be', 'Deepest of all'), hype ('the very mechanism') and a closing slogan. 'Deepest of all ... the same rotation matrix generates both dualities' now also conflicts with §11.4's own caveat that [[0,1],[−1,0]] 'is the canonical form of any two-dimensional symplectic pairing [T]'. The sentences new in v2.3 are plain.",
@@ -604,7 +604,7 @@
      "severity": "minor"
     },
     {
-     "file": "papers/broken-born-checkpoint-v2.md",
+     "file": "wiki/papers/broken-born-checkpoint-v2.md",
      "line": "126",
      "quote": "Localized in position, such objects at dark-matter density would exceed the Parker bound (#14 v2 and v3 §4).",
      "problem": "The statement is sound, but no gated code backs it now. knot_numbers.py, which computed the flux, left the gate at 5b6efaa, and no verify/ script mentions Parker or flux. I ran a throwaway check with #14's inputs (0.4 GeV/cm³, v = 10⁻³c). It reproduced v3's F = 3.181×10⁻⁸ cm⁻²s⁻¹sr⁻¹ at 3×10¹³ GeV and put the flux above the extended Parker bound for every M below 3.089×10¹⁹ GeV. So the statement holds for all sub-Planck masses. The iron rule asks for gated code now that the claim supports a live conjecture.",
@@ -612,7 +612,7 @@
      "severity": "minor"
     }
    ],
-   "checked": "I ran the git diff on all eight files and read review/monopoles/README.md, plus readers.json, verdicts.json and briefing.md as data. Every count in the README holds: 7 readers, 425 claims, 60 key claims (53 confirmed, 7 misstated), 2 number mismatches, 24 of 27 tensions, 14 hooks.\n\n**Quotes.** All match their sources verbatim:\n- #14 v2 (git show 8d588f6) abstract and §2: 'the momentum-polarized matter sector is the S-dual image of the electric sector' and 'both the position/momentum asymmetry ...'. 'It does NOT assert ... magnetic charge under our photon' together with §4's 'Not monopoles of our U(1)' supports 'denied'.\n- HANDOFF §2: 'inflation suffices' and 'α_d ≈ 34 via Dirac quantization against our photon'. HANDOFF §6: 'matrix coincidence ≠ physical identity'.\n- #1 line 29: 'Gauge interactions do not connect the two representations'. #11 P4: 'gauge forces do not cross polarizations'.\n- v2.0: '\"p-local solitons are p-localized\" [O]'. #14 v3 §1: the ordinary-kinematics sentence. v3-worklog F2: 'S-duality is no longer what fixes α_d'.\n- gravity-sector.json: the open item, and C35–C37 tagged [D][V][T].\n- Wiki quotes, including 'standard account, though not a directly observed epoch', which is already present at HEAD.\n- Paul's words, against the session transcript (~/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/91d73988-944f-44c2-b6de-19bda2904972.jsonl). It holds five messages from Paul; his only reply after the recommendations is 'update the repo with this latest thinking'.\n\n**Section references.** All point where they say: the Parker bound in #14 v2 §4 and v3 §4; ordinary kinematics in #14 (v3) §1; the Standard Model's π₂ = 0 in #14 (v3) §2; P4's clause in #1 §1; App. A is the founding suppositions; v2.1 (e1c1f67) closed the p-localization item.\n\n**Toy models.** papers/reciprocity-toy-models.md and notes/toy-lagrangian.md contain no gauge field; the only uses of 'gauge' are double field theory's gauge algebra and prior art 'by gauging'. The worklog's criteria omit the electric-sublattice clause (lines 8-9), so 'never attempted' holds.\n\n**verify/closed_universe.py.** It passes: 100 PASS, exit 0, 13.8 s. Section F is correct mathematics, and its anchors are independent of the investigation. Its output matches the original script's output exactly, and two closed-universe verifiers had independently confirmed C35–C38.\n\n**Full gate.** scripts/check.sh: every verify/ script passes, but check-wiki fails on OP12, so the gate exits 1.\n\n**Dead-claim rule.** The §11.4 sentence does not respect it. §11.1's restated second ground is fair to the record ('unnecessary, not false' is right; the inflation conditions are right; the † citations are Langacker–Pi 1980, Dvali–Melfo–Senjanović 1995 and Dvali–Liu–Vachaspati 1998). Two things are not fair: the 'heavy and bound' history, and the first ground's condition, which is broader than the record supports.\n\n**Tags and numbers.** Tags elsewhere follow the root CLAUDE.md's Method. No new number lacks executed code or a record source.\n\n**New prose.** The new italic sentences are plain.\n\n**Not checked.** Wiki pages beyond those cited, and whether the main session is still editing.\n\n**Scratch files.** These are throwaway outputs, not in the repo: /tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/91d73988-944f-44c2-b6de-19bda2904972/scratchpad/cu_out.txt and /tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/91d73988-944f-44c2-b6de-19bda2904972/scratchpad/check_out.txt."
+   "checked": "I ran the git diff on all eight files and read review/monopoles/README.md, plus readers.json, verdicts.json and briefing.md as data. Every count in the README holds: 7 readers, 425 claims, 60 key claims (53 confirmed, 7 misstated), 2 number mismatches, 24 of 27 tensions, 14 hooks.\n\n**Quotes.** All match their sources verbatim:\n- #14 v2 (git show 8d588f6) abstract and §2: 'the momentum-polarized matter sector is the S-dual image of the electric sector' and 'both the position/momentum asymmetry ...'. 'It does NOT assert ... magnetic charge under our photon' together with §4's 'Not monopoles of our U(1)' supports 'denied'.\n- HANDOFF §2: 'inflation suffices' and 'α_d ≈ 34 via Dirac quantization against our photon'. HANDOFF §6: 'matrix coincidence ≠ physical identity'.\n- #1 line 29: 'Gauge interactions do not connect the two representations'. #11 P4: 'gauge forces do not cross polarizations'.\n- v2.0: '\"p-local solitons are p-localized\" [O]'. #14 v3 §1: the ordinary-kinematics sentence. v3-worklog F2: 'S-duality is no longer what fixes α_d'.\n- gravity-sector.json: the open item, and C35–C37 tagged [D][V][T].\n- Wiki quotes, including 'standard account, though not a directly observed epoch', which is already present at HEAD.\n- Paul's words, against the session transcript (~/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/91d73988-944f-44c2-b6de-19bda2904972.jsonl). It holds five messages from Paul; his only reply after the recommendations is 'update the repo with this latest thinking'.\n\n**Section references.** All point where they say: the Parker bound in #14 v2 §4 and v3 §4; ordinary kinematics in #14 (v3) §1; the Standard Model's π₂ = 0 in #14 (v3) §2; P4's clause in #1 §1; App. A is the founding suppositions; v2.1 (e1c1f67) closed the p-localization item.\n\n**Toy models.** wiki/papers/reciprocity-toy-models.md and notes/toy-lagrangian.md contain no gauge field; the only uses of 'gauge' are double field theory's gauge algebra and prior art 'by gauging'. The worklog's criteria omit the electric-sublattice clause (lines 8-9), so 'never attempted' holds.\n\n**verify/closed_universe.py.** It passes: 100 PASS, exit 0, 13.8 s. Section F is correct mathematics, and its anchors are independent of the investigation. Its output matches the original script's output exactly, and two closed-universe verifiers had independently confirmed C35–C38.\n\n**Full gate.** scripts/check.sh: every verify/ script passes, but check-wiki fails on OP12, so the gate exits 1.\n\n**Dead-claim rule.** The §11.4 sentence does not respect it. §11.1's restated second ground is fair to the record ('unnecessary, not false' is right; the inflation conditions are right; the † citations are Langacker–Pi 1980, Dvali–Melfo–Senjanović 1995 and Dvali–Liu–Vachaspati 1998). Two things are not fair: the 'heavy and bound' history, and the first ground's condition, which is broader than the record supports.\n\n**Tags and numbers.** Tags elsewhere follow the root CLAUDE.md's Method. No new number lacks executed code or a record source.\n\n**New prose.** The new italic sentences are plain.\n\n**Not checked.** Wiki pages beyond those cited, and whether the main session is still editing.\n\n**Scratch files.** These are throwaway outputs, not in the repo: /tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/91d73988-944f-44c2-b6de-19bda2904972/scratchpad/cu_out.txt and /tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/91d73988-944f-44c2-b6de-19bda2904972/scratchpad/check_out.txt."
   }
  ],
  "round2_verifier": {
@@ -641,7 +641,7 @@
     "severity": "minor"
    },
    {
-    "file": "papers/broken-born-checkpoint-v2.md; CLAUDE.md",
+    "file": "wiki/papers/broken-born-checkpoint-v2.md; CLAUDE.md",
     "line": "128; 160",
     "problem": "Both sources use the wording correction 5 rules out. #11 §11.4's open list has \"which ties the burden's size to F2, now withdrawn\", and the root file's open list has \"which returns with F2's withdrawal\". F2's finding stands; only the decision was withdrawn. The wiki rightly quotes both as written: s-duality.md:78, magnetic-identification.md:78 (blockquote) and open-problems.md:197, which adds a gloss.",
     "fix": "Source edits, Paul's call. Change #11 to \"F2's decision, now withdrawn\" and the root CLAUDE.md to \"which returns with the withdrawal of F2's decision\", then re-sync the three verbatim quotes. If the sources stay as they are, add after the quote on s-duality.md:78 the gloss open-problems.md:197 uses (\"The withdrawal is of F2's decision; F2's finding ... stands.\").",

@@ -16,7 +16,7 @@ below gives their paths.
 
 ## Layout
 
-- [papers/](papers/) — current references only.
+- [wiki/papers/](wiki/papers/) — current references only, published in full on the site at `/wiki/papers/`, as written. Until 2026-11-06 they were in `papers/`. They are the record, not wiki pages: each has Hugo frontmatter (title, weight, `status: record`, description) in place of its `# H1`, and `scripts/check-wiki.py` gives them only the checks that keep the site sound (`RECORD_DIRS`).
   - #11 `broken-born-checkpoint-v2.md` — **the current reference for the full program.**
   - #13 `conjugate-special-relativity.md`
   - `reciprocity-toy-models.md` — the toy-Lagrangian note: two models of spontaneously broken ρ. Blind-review format. Round 4: B; v2 applies the revisions. The worklog is `notes/toy-lagrangian.md`.
@@ -36,9 +36,9 @@ below gives their paths.
     dual of visible matter, and where it meets P.R.'s conjectures. Read and verified by independent agents, weighed by
     a panel; not reviewed. Its record is `review/dual-sector/`; its results for #11 are flags 70–73 and an
     addendum to flag 64.
-- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`; the literature check's (2026-11-02) is `review/literature-check/`; the dual-sector investigation's (2026-11-06) is `review/dual-sector/`.
+- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`; the literature check's (2026-11-02) is `review/literature-check/`; the dual-sector investigation's (2026-11-06) is `review/dual-sector/`; the relative-links change's (2026-11-07), with its three audits, is `review/relative-links/`.
 - [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); `literature_check.py` (the literature-check note: its quotations, citations, verdicts and main counts against its record, and in section G the algebra behind flag 66); `dual_sector.py` (the dual-sector note: its quotations, citations, dates and counts against its record, and the quotations of its flags and wiki page); arbitration and audit scripts go here.
-- [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page, at most 800 words, and must be updated in the same change whenever what it says changes (`wiki/CLAUDE.md`, "Keeping it current").
+- [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. The one exception is `wiki/papers/`, which holds the papers themselves. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page, at most 800 words, and must be updated in the same change whenever what it says changes (`wiki/CLAUDE.md`, "Keeping it current").
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
 Read order for a fresh session: #11 → HANDOFF §6 →
@@ -59,7 +59,7 @@ only as a task needs them.
   crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The
   dark-energy sector is under real pressure ahead of DR3.
 - The toy Lagrangian (HANDOFF §8 item 4) is done to the referees' wording;
-  see `papers/reciprocity-toy-models.md` and #11 v2.2 §14 item 11. Its open
+  see `wiki/papers/reciprocity-toy-models.md` and #11 v2.2 §14 item 11. Its open
   ends:
   - a Monte Carlo with H dynamical;
   - a derivation of the ρ-preserving potential;
@@ -67,7 +67,7 @@ only as a task needs them.
   - the real Grosse–Wulkenhaar model's one-loop preference for the
     position-sharp vacuum, a lead.
 - The phase-space-diameter note (HANDOFF §8 item 7) is done:
-  `papers/phase-space-diameter.md` v1.1, round-5 verdict B
+  `wiki/papers/phase-space-diameter.md` v1.1, round-5 verdict B
   (`review/round5-adjudication.md`). Its results:
   - the chat-only relation is standard physics: D_x·D_p = κ h N^{1/3} is
     an identity of blackbody statistics, constant for a fixed comoving
@@ -255,6 +255,53 @@ only as a task needs them.
     check `paper` (`wiki/CLAUDE.md`, Links);
   - `verify/dual_sector.py` checks the note's quotations, citations, dates and counts against `review/dual-sector/`,
     the quotations of the wiki page and of the flags, and in section F the bracket behind "twice the dimension".
+- 2026-11-06, later the same day: the papers published on the site (Paul: "Move the papers under the wiki directory so
+  they show up on the public website"). No claim's status changed, and no paper's wording. Its results:
+  - `papers/` is now `wiki/papers/`. The four serve at `/wiki/papers/<name>/`, linked from `wiki/papers/_index.md`
+    (last in the menu), the home page's map and the documents register;
+  - each paper's `# H1` became its frontmatter title, beside weight, `status: record` and a description; ten unescaped
+    `v*` (nine in #11, one in #13) are written `v\*`, which renders the same;
+  - every path to them is rewritten to `wiki/papers/…`, 3,209 in 389 files. Git refs into old commits
+    (`d9a06ac:papers/…`), #14's old path and accounts of searches made over `papers/` keep the old name.
+    `git log --follow` gives a paper's history across the move;
+  - `scripts/check-wiki.py` treats `wiki/papers/` as the record (`RECORD_DIRS`): the papers get the checks that keep
+    the site sound (link, anchor, heading, map, source, frontmatter, weight, section, star, h1, fence) and not the
+    wiki-page rules (sources, gist, statusline, status, voice, summary, acronym, symbol, paper); `scripts/check-site.py`
+    checks them like every wiki page. `scripts/wiki-papers.py` skips them too;
+  - published as written, so the site shows what the wiki's voice rule keeps off its pages: #11's version header
+    and §9, §10, §12, §13 and App. A narrate the concurrence questions, the toy note keeps its blind-review header
+    ("Anonymous working manuscript submitted for adversarial review"), and † citations, to be checked "before any
+    external use", appear unchecked. The repository is public on GitHub, so all of it was published there already;
+    the site makes it easier to find. The queue's round-6 review of the toy note was to come "only before any external
+    use". Not done: the papers' arXiv and DOI identifiers are not links.
+- 2026-11-07: every citation a link (Paul asked why the papers were cited as code paths, then "So why can't everything
+  work?", "Why not 4?", "go please"). No claim's status changed, and no wording. Its results:
+  - every wiki link is a path relative to its file, replacing the absolute `/wiki/...` form of 2026-10-22, so that one
+    link works on the site, on GitHub and in an editor (`wiki/CLAUDE.md`, Links). 17,907 links were rewritten;
+  - repository paths are links: 7,514 inline-code paths became links, and the site's link hook
+    (`site/layouts/_markup/render-link.html`) sends a path outside the wiki to the file on GitHub at `main`. The
+    repository is public. `scripts/check-pushed.sh`, run by `npm run deploy`, refuses unless `main` is committed and
+    pushed;
+  - section citations are links: 10,967 link their heading. 7,984 name their document directly ("#11 §9", "`notes/x.md`
+    §4", "the toy note §2", "checkpoint §7"), 918 continue such a citation ("§9 and §10"), 15 follow it ("§7 of the
+    checkpoint"), and 2,050 take the nearest document named earlier on the line. The first mention of each artifact
+    number on a page links its document (769). The papers' 15 numbered subsections became `###` headings, so they have
+    anchors;
+  - 2,714 section citations stay plain text (`review/relative-links/relink-unresolved.tsv` lists the script's 2,713; one more
+    was unlinked by hand): outside papers' sections,
+    sections inside quotations, sections after an unnamed "note", "paper" or version, bare sections on the documents
+    pages and `references.md` (where they mean the page's own subject), and sections no rule settles. An auditor judged
+    58 of a sample of 60 resolvable by a careful reader, so most could be linked by a reading pass;
+  - three audits by independent agents (`review/relative-links/audit/`; the record is `review/relative-links/`). Before the rules were tightened, 8 of 160 links by
+    the two weakest rules were wrong, and a second auditor found 55 more outside its sample; the page-sources rule was
+    dropped, and 44 of the 49 cases named were then right or plain. After: 0 of 115 attached, continuation and "of"
+    links wrong (95% interval up to 3.2%); 2 of 100 fresh nearest-rule links wrong, so about 41 of the 2,050 (95%
+    interval 11 to 144), unidentified. The 4 wrong links named after the change were fixed by hand
+    (`review/relative-links/scripts/hand_fixes.py`);
+  - GitHub's heading IDs follow `github_slug` in `scripts/check-wiki.py`, checked against GitHub's own anchors for all
+    4,555 headings of the repository's Markdown on 2026-11-07. Hugo and GitHub differ only on combining marks (3
+    headings), and the gate rejects a link to such a heading. `scripts/check-site.py` checks every GitHub link (11,050)
+    against tracked files and GitHub's headings.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -347,9 +394,13 @@ scripts get wired into it.
 The site's own pre-deploy gate is `npm run check` in `site/`: `scripts/check.sh`,
 then the Hugo build, which fails on a link to a missing page, then
 `scripts/check-site.py`, which checks every link, asset and `#fragment` in the
-built HTML, that every wiki page was built, and that each heading has the ID
+built HTML (a GitHub link must name a tracked file and an existing heading), that
+every wiki page was built, and that each heading has the ID
 `scripts/check-wiki.py` computes. `check-site.py` needs a built site, so it runs
-there and not in `scripts/check.sh`. Nothing is deployed with a red check.
+there and not in `scripts/check.sh`. `npm run deploy` then runs
+`scripts/check-pushed.sh`, which refuses unless `main` is committed and equal to
+`origin/main`, because the site links repository files on GitHub at `main`.
+Nothing is deployed with a red check.
 
 First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
 

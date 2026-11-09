@@ -5,10 +5,10 @@ status: established
 description: "The unitary map between position and momentum representations implements ρ (F² is parity); its action Z → −1/Z on Gaussian packets; the waveform–spectrum picture and the time–bandwidth product, with its count of 2TW independent numbers."
 provenance: [T]
 sources:
-  - "papers/broken-born-checkpoint-v2.md §3"
-  - "papers/broken-born-checkpoint-v2.md Appendix A"
-  - "papers/reciprocity-toy-models.md §3"
-  - "papers/reciprocity-toy-models.md §5"
+  - "wiki/papers/broken-born-checkpoint-v2.md §3"
+  - "wiki/papers/broken-born-checkpoint-v2.md Appendix A"
+  - "wiki/papers/reciprocity-toy-models.md §3"
+  - "wiki/papers/reciprocity-toy-models.md §5"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
   - "verify/toy_s5.py"
@@ -17,20 +17,20 @@ sources:
   - "review/round4/referee/audit-notes.md Step 2(d)"
   - "HANDOFF.md §4"
   - "popsci/universes-other-half.md 'Two descriptions of one thing'"
-  - "papers/phase-space-diameter.md §1"
-  - "papers/phase-space-diameter.md §3"
-  - "papers/phase-space-diameter.md §4"
-  - "papers/phase-space-diameter.md §5"
-  - "papers/phase-space-diameter.md References"
+  - "wiki/papers/phase-space-diameter.md §1"
+  - "wiki/papers/phase-space-diameter.md §3"
+  - "wiki/papers/phase-space-diameter.md §4"
+  - "wiki/papers/phase-space-diameter.md §5"
+  - "wiki/papers/phase-space-diameter.md References"
   - "verify/phase_space_diameter.py"
   - "CLAUDE.md 'Since the handoff'"
   - "notes/closed-universe.md §5"
   - "review/wiki-build-flags.md item 47"
 ---
 
-*The Fourier transform is the exact, reversible map that turns a quantum state's description in position into its description in momentum — the same operation that turns a sound's waveform into its spectrum. Neither description approximates the other; each contains the whole state. Applied once, the transform carries out [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn ρ: (x, p) → (p, −x) of phase space; applied twice, it reflects x → −x; applied four times, it returns every state unchanged. The program takes the analogy literally: position and momentum are two descriptions of one state, and its [toy models](/wiki/symmetry-breaking/toy-models) use the transform to relate a vacuum in which a matter coupling is local in position to its mirror image, in which the coupling is local in momentum.*
+*The Fourier transform is the exact, reversible map that turns a quantum state's description in position into its description in momentum — the same operation that turns a sound's waveform into its spectrum. Neither description approximates the other; each contains the whole state. Applied once, the transform carries out [Born reciprocity](born-reciprocity.md), the quarter-turn ρ: (x, p) → (p, −x) of phase space; applied twice, it reflects x → −x; applied four times, it returns every state unchanged. The program takes the analogy literally: position and momentum are two descriptions of one state, and its [toy models](../../symmetry-breaking/toy-models/_index.md) use the transform to relate a vacuum in which a matter coupling is local in position to its mirror image, in which the coupling is local in momentum.*
 
-**Status:** Established — standard mathematics [T]; [#11](/wiki/history/documents/checkpoint) §3 cites Born for its role [1†, 2†] — the parity property F²ψ(x) = ψ(−x) was checked numerically by the referee of [review round 4](/wiki/method/review/round-4), and the toy-model uses are machine-checked [V] in `verify/toy_s5.py` and `verify/toy_gw.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The transform's action on one Gaussian packet, Z → −1/Z, is checked numerically in `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)); the signal-analysis counts of the time–bandwidth section are literature that the phase-space-diameter note cites [S].
+**Status:** Established — standard mathematics [T]; [#11](../../history/documents/checkpoint.md) [§3](../../papers/broken-born-checkpoint-v2.md#3-the-question) cites Born for its role [1†, 2†] — the parity property F²ψ(x) = ψ(−x) was checked numerically by the referee of [review round 4](../../method/review/round-4.md), and the toy-model uses are machine-checked [V] in [`verify/toy_s5.py`](../../../verify/toy_s5.py) and [`verify/toy_gw.py`](../../../verify/toy_gw.py) (see [the toy-model scripts](../../method/verification/toy-model-scripts.md)). The transform's action on one Gaussian packet, Z → −1/Z, is checked numerically in [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py) ([the phase-space-diameter script](../../method/verification/phase-space-diameter-script.md)); the signal-analysis counts of the time–bandwidth section are literature that the phase-space-diameter note cites [S].
 
 ## Definition
 
@@ -41,7 +41,7 @@ With ℏ = 1, as the toy-model checks set it, the momentum wavefunction ψ̃(p) 
 ψ(x)  = (2π)^(−1/2) ∫ ψ̃(p) e^(+ipx) dp
 ```
 
-[T]. `verify/toy_s5.py` writes the first line as "(2 pi)^-1/2 int psi(x) e^{-ipx} dx". With ℏ restored, px becomes px/ℏ and 2π becomes 2πℏ [T]. Each e^{ipx} is a plane wave of wavenumber p, and ψ̃(p) is its amplitude in the state.
+[T]. [`verify/toy_s5.py`](../../../verify/toy_s5.py) writes the first line as "(2 pi)^-1/2 int psi(x) e^{-ipx} dx". With ℏ restored, px becomes px/ℏ and 2π becomes 2πℏ [T]. Each e^{ipx} is a plane wave of wavenumber p, and ψ̃(p) is its amplitude in the state.
 
 The transform is unitary: it preserves the norm, ∫|ψ̃(p)|² dp = ∫|ψ(x)|² dx (the Parseval–Plancherel theorem), and inner products [T]. Every probability computed in one description is the same in the other, and no information is lost in either direction. The toy-model gate opens its matter-coupling checks with exactly this test: "Fourier pair is consistent (Parseval)".
 
@@ -53,14 +53,14 @@ Conjugating the position and momentum operators by the transform F exchanges the
 F† x̂ F = p̂          F† p̂ F = −x̂
 ```
 
-Here † is the Hermitian adjoint. F therefore implements ρ: (x, p) → (p, −x) on the operators of quantum kinematics, and it leaves [x̂, p̂] = iℏ unchanged ([the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)). In #11's words: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]" (§3). The sentence holds on ℝ^d, which #11's flat cosmology assumes; on a closed space, such as a three-sphere or a torus, position keeps a continuous spectrum while momentum becomes discrete, so no unitary map exchanges them as wholes, and the flat transform exchanges a wave packet of width σ only locally, to relative accuracy (2/3)(σ/R)² for curvature radius R (flag 47 in `review/wiki-build-flags.md`; [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)).
+Here † is the Hermitian adjoint. F therefore implements ρ: (x, p) → (p, −x) on the operators of quantum kinematics, and it leaves [x̂, p̂] = iℏ unchanged ([the canonical commutator](canonical-commutator.md)). In [#11](../../papers/broken-born-checkpoint-v2.md)'s words: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]" ([§3](../../papers/broken-born-checkpoint-v2.md#3-the-question)). The sentence holds on ℝ^d, which #11's flat cosmology assumes; on a closed space, such as a three-sphere or a torus, position keeps a continuous spectrum while momentum becomes discrete, so no unitary map exchanges them as wholes, and the flat transform exchanges a wave packet of width σ only locally, to relative accuracy (2/3)(σ/R)² for curvature radius R (flag 47 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md); [reciprocity on a closed space](closed-space-reciprocity.md)).
 
 Two standard facts make the word "rotation" literal [T]:
 
 - **The oscillator picture.** The harmonic-oscillator eigenstates |n⟩ (the Hermite functions) are eigenfunctions of F, with eigenvalues (−i)ⁿ. So F = e^{−iπN/2}, where N is the oscillator's number operator. Evolution under the oscillator Hamiltonian (x² + p²)/2 rotates phase space rigidly at unit rate, and a quarter of its period is, up to a constant phase, the Fourier transform. Replacing the angle π/2 by any angle α gives the fractional Fourier transforms e^{−iαN}, a continuous circle of phase-space rotations of which F is the quarter-turn.
-- **The phase-space portrait.** The [Wigner function](/wiki/phase-space/reciprocity/wigner-function) draws a state on phase space, and under these operations it rotates rigidly. `verify/toy_s5.py` builds the transformed state's Wigner function exactly this way: "W_{F psi}(x, p) = W_psi(-p, x): rotation of the phase plane".
+- **The phase-space portrait.** The [Wigner function](wigner-function.md) draws a state on phase space, and under these operations it rotates rigidly. [`verify/toy_s5.py`](../../../verify/toy_s5.py) builds the transformed state's Wigner function exactly this way: "W_{F psi}(x, p) = W_psi(-p, x): rotation of the phase plane".
 
-One consequence is that some states are their own transforms: the oscillator ground state, a Gaussian, has eigenvalue 1 [T]. Among Gaussian packets it is the only one. Label a packet ψ_Z(x) ∝ exp(iZx²/2) by a point Z of the upper half-plane; the transform sends it to the packet labelled −1/Z, and the one fixed point of that map, Z = i, is the ground state, "the one Gaussian the transform leaves unchanged" (phase-space-diameter note §5, [T][V]; [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states)). Every Gaussian packet is mapped to one with the reciprocal width ratio: Δx/Δp = 1/|Z| becomes |Z|. A test of whether the two descriptions give different physics needs a state whose momentum profile differs from its position profile; the toy-model check uses "a non-self-dual state (two displaced squeezed Gaussians)" (`verify/toy_s5.py`).
+One consequence is that some states are their own transforms: the oscillator ground state, a Gaussian, has eigenvalue 1 [T]. Among Gaussian packets it is the only one. Label a packet ψ_Z(x) ∝ exp(iZx²/2) by a point Z of the upper half-plane; the transform sends it to the packet labelled −1/Z, and the one fixed point of that map, Z = i, is the ground state, "the one Gaussian the transform leaves unchanged" ([phase-space-diameter note §5](../../papers/phase-space-diameter.md#5-what-reciprocity-adds-invariant-area-inverted-shape), [T][V]; [Gaussian wave packets on the Siegel half-plane](../modular-field/gaussian-states.md)). Every Gaussian packet is mapped to one with the reciprocal width ratio: Δx/Δp = 1/|Z| becomes |Z|. A test of whether the two descriptions give different physics needs a state whose momentum profile differs from its position profile; the toy-model check uses "a non-self-dual state (two displaced squeezed Gaussians)" ([`verify/toy_s5.py`](../../../verify/toy_s5.py)).
 
 ## Twice is parity
 
@@ -70,21 +70,21 @@ Applying the transform twice reflects the wavefunction, and four times restores 
 F² ψ(x) = ψ(−x)          F⁴ = 1
 ```
 
-This matches ρ² = −1, the phase-space parity (x, p) → (−x, −p) (#1 §2), and ρ⁴ = 1. The [lab notebook](/wiki/history/documents/lab-notebook) calls the group of the four powers of ρ "the ℤ₄ generated by the complex structure I" (#1 P3).
+This matches ρ² = −1, the phase-space parity (x, p) → (−x, −p) ([#1 §2](../../../notes/broken-born-theory.md#2-kinematic-core)), and ρ⁴ = 1. The [lab notebook](../../history/documents/lab-notebook.md) calls the group of the four powers of ρ "the ℤ₄ generated by the complex structure I" (#1 P3).
 
-The round-4 referee checked the parity property numerically, on the toy note's test state, with a direct discrete transform: `max|F^2 psi(x) - psi(-x)| = 3.6082248765060084e-14` (`review/round4/referee/out_sec5_fix.txt`). The check came out of a debugging episode. The referee's first attempt at the toy note's combined map gave 23.27. The referee traced this to a normalization bug in its own fast-transform code, not an error in the manuscript, and replaced that code with a direct discrete transform; the corrected transform passed the parity test and reproduced the note's number (audit notes, Step 2(d)).
+The round-4 referee checked the parity property numerically, on the toy note's test state, with a direct discrete transform: `max|F^2 psi(x) - psi(-x)| = 3.6082248765060084e-14` ([`review/round4/referee/out_sec5_fix.txt`](../../../review/round4/referee/out_sec5_fix.txt)). The check came out of a debugging episode. The referee's first attempt at the toy note's combined map gave 23.27. The referee traced this to a normalization bug in its own fast-transform code, not an error in the manuscript, and replaced that code with a direct discrete transform; the corrected transform passed the parity test and reproduced the note's number (audit notes, Step 2(d)).
 
 ## Waveform and spectrum
 
-Signal analysis uses the same pair. A sound recorded as pressure against time and as amplitude against frequency gives two complete descriptions, related by the Fourier transform [T]. The [popular article](/wiki/history/documents/popular-articles) #12 opens on this: "Every sound admits two complete descriptions", and position and momentum descriptions "are two complete readings of one underlying state, related by the same Fourier transform that relates a waveform to its spectrum" (#12, "Two descriptions of one thing"; a popular article, never a status source).
+Signal analysis uses the same pair. A sound recorded as pressure against time and as amplitude against frequency gives two complete descriptions, related by the Fourier transform [T]. The [popular article](../../history/documents/popular-articles.md) [#12](../../../popsci/universes-other-half.md) opens on this: "Every sound admits two complete descriptions", and position and momentum descriptions "are two complete readings of one underlying state, related by the same Fourier transform that relates a waveform to its spectrum" (#12, "Two descriptions of one thing"; a popular article, never a status source).
 
-The program's version is [the conjugate universe](/wiki/program/conjugate-universe): [founding supposition](/wiki/program/founding-suppositions) 2, "A coexisting conjugate universe", is "alive, transformed" into one state with two descriptions (#11 Appendix A, supposition 2).
+The program's version is [the conjugate universe](../../program/conjugate-universe.md): [founding supposition](../../program/founding-suppositions.md) 2, "A coexisting conjugate universe", is "alive, transformed" into one state with two descriptions ([#11 Appendix A](../../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates), supposition 2).
 
 ### The time–bandwidth product
 
-The Fourier pair sets a trade-off: a signal cannot be both short in time and narrow in frequency. For root-mean-square widths, the product of duration and angular bandwidth obeys the same inequality as position and momentum, Δx · Δp ≥ ℏ/2, with ℏ set to 1 [T]. The [uncertainty principle](/wiki/phase-space/reciprocity/canonical-commutator) is this trade-off applied to the wavefunction.
+The Fourier pair sets a trade-off: a signal cannot be both short in time and narrow in frequency. For root-mean-square widths, the product of duration and angular bandwidth obeys the same inequality as position and momentum, Δx · Δp ≥ ℏ/2, with ℏ set to 1 [T]. The [uncertainty principle](canonical-commutator.md) is this trade-off applied to the wavefunction.
 
-**Counting cells.** The same trade-off has a counting form, which the phase-space-diameter note sets out with sources retrieved for it (§3, [T]):
+**Counting cells.** The same trade-off has a counting form, which the phase-space-diameter note sets out with sources retrieved for it ([§3](../../papers/phase-space-diameter.md#3-the-conserved-area-a-cosmological-timebandwidth-relation), [T]):
 
 - Shannon: a signal limited to a time T and a bandwidth W "can be specified by giving 2TW numbers" (Shannon 1949 [S]);
 - the count is an "engineering folk theorem", whose rigorous version Slepian reviews (Slepian 1983 [S]);
@@ -92,35 +92,35 @@ The Fourier pair sets a trade-off: a signal cannot be both short in time and nar
 
 In phase space the corresponding cell has area h per position–momentum pair (Weyl's law), and radiation at occupation number of order one holds about one quantum per cell (§3). The note's plain-language account of extent and resolution: "A waveform of duration T can be resolved in frequency only to about 1/T, and a waveform sampled at intervals τ has a spectrum that reaches only to about 1/τ; the number of independent samples is the same in both descriptions" (§4).
 
-**The cosmic version.** `HANDOFF.md` §4 ([the handoff document](/wiki/history/documents/handoff)) lists, among results that existed only in the old chat, a "Phase-space diameter relation: D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem)", which it calls "Conjecture-tier; candidate for a future note". That note is `papers/phase-space-diameter.md` (root `CLAUDE.md`, 'Since the handoff'). Expansion stretches every light wave by the same factor and narrows its spectrum by that factor, so the radiation filling a fixed comoving region keeps the area of its patch of phase space [T]. For blackbody radiation filling a sphere, with D_x the diameter and D_p twice the mean photon momentum, the relation is an identity of blackbody statistics [D][V]:
+**The cosmic version.** [`HANDOFF.md` §4](../../../HANDOFF.md#4-results-that-exist-only-in-the-chat-not-in-any-artifact) ([the handoff document](../../history/documents/handoff.md)) lists, among results that existed only in the old chat, a "Phase-space diameter relation: D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem)", which it calls "Conjecture-tier; candidate for a future note". That note is [`wiki/papers/phase-space-diameter.md`](../../papers/phase-space-diameter.md) (root [`CLAUDE.md`](../../../CLAUDE.md), 'Since the handoff'). Expansion stretches every light wave by the same factor and narrows its spectrum by that factor, so the radiation filling a fixed comoving region keeps the area of its patch of phase space [T]. For blackbody radiation filling a sphere, with D_x the diameter and D_p twice the mean photon momentum, the relation is an identity of blackbody statistics [D][V]:
 
 ```text
 D_x · D_p = κ · h · N_γ^(1/3),     κ = 1.708
 ```
 
-For today's observable universe, N_γ = 1.43 × 10⁸⁹ photons and the area is 8.9 × 10²⁹ h, about 10³⁰ cells along each axis (§3). The note calls it "the cosmic form of the time–bandwidth product of signal analysis" and "standard cosmology": it holds whether or not position and momentum are symmetric, so it cannot test the program (§1). See [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter). What reciprocity adds, an exchange that keeps the area of a rectangle and inverts its aspect ratio, is on [the Born length λ](/wiki/phase-space/reciprocity/born-length) and [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states).
+For today's observable universe, N_γ = 1.43 × 10⁸⁹ photons and the area is 8.9 × 10²⁹ h, about 10³⁰ cells along each axis (§3). The note calls it "the cosmic form of the time–bandwidth product of signal analysis" and "standard cosmology": it holds whether or not position and momentum are symmetric, so it cannot test the program (§1). See [the phase-space diameter relation](../../cosmology/scale-factor-duality/phase-space-diameter.md). What reciprocity adds, an exchange that keeps the area of a rectangle and inverts its aspect ratio, is on [the Born length λ](born-length.md) and [Gaussian wave packets on the Siegel half-plane](../modular-field/gaussian-states.md).
 
 ## In the toy models
 
 ### Model I: the matter coupling
 
-The toy-model note couples matter to the vacuum of [model I](/wiki/symmetry-breaking/toy-models/coset-model) through a functional of a state's Wigner function, I[W] = ∫_{L+} du (∫_{L−} dv W)², where L± are the two eigenlines of the real structure K ([the order parameter](/wiki/symmetry-breaking/order-parameter)). At H = 1 it is ∫|ψ(x)|⁴ dx in the vacuum +K_ref and ∫|ψ̃(p)|⁴ dp in −K_ref, where ψ̃ is the transform of ψ (§5). For the note's test state the two vacua give 0.4070 and 0.3600 (§5).
+The toy-model note couples matter to the vacuum of [model I](../../symmetry-breaking/toy-models/coset-model/_index.md) through a functional of a state's Wigner function, I[W] = ∫_{L+} du (∫_{L−} dv W)², where L± are the two eigenlines of the real structure K ([the order parameter](../../symmetry-breaking/order-parameter.md)). At H = 1 it is ∫|ψ(x)|⁴ dx in the vacuum +K_ref and ∫|ψ̃(p)|⁴ dp in −K_ref, where ψ̃ is the transform of ψ ([§5](../../papers/reciprocity-toy-models.md#5-matter-and-locality)). For the note's test state the two vacua give 0.4070 and 0.3600 ([§5](../../papers/reciprocity-toy-models.md#5-matter-and-locality)).
 
-The transform and the vacuum flip act together: "The combined map (ψ → Fψ, K → −K) leaves I invariant" (§5). The gate checks it as "rho-covariance: I_{-K}[W_{F psi}] = I_{+K}[W_psi]", and the round-4 referee reproduced it independently: "combined map: I_-K[F psi] = int |F(F psi)|^4 = 0.406972" against I_{+K}[ψ] = 0.406972 (`review/round4/referee/out_sec5_fix.txt`). See [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling).
+The transform and the vacuum flip act together: "The combined map (ψ → Fψ, K → −K) leaves I invariant" (§5). The gate checks it as "rho-covariance: I_{-K}[W_{F psi}] = I_{+K}[W_psi]", and the round-4 referee reproduced it independently: "combined map: I_-K[F psi] = int |F(F psi)|^4 = 0.406972" against I_{+K}[ψ] = 0.406972 ([`review/round4/referee/out_sec5_fix.txt`](../../../review/round4/referee/out_sec5_fix.txt)). See [locality from an (H, K)-built coupling](../../symmetry-breaking/matter-coupling.md).
 
 ### Model II: the Langmann–Szabo duality
 
-In [the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), the position–momentum duality of Langmann and Szabo is itself a Fourier transform, taken on the noncommutative (Moyal) plane, whose two coordinates do not commute: [x₁, x₂] = iθ, with θ = 1 (toy-model note §3). The note implements
+In [the self-dual Grosse–Wulkenhaar model](../../symmetry-breaking/toy-models/grosse-wulkenhaar/_index.md), the position–momentum duality of Langmann and Szabo is itself a Fourier transform, taken on the noncommutative (Moyal) plane, whose two coordinates do not commute: [x₁, x₂] = iθ, with θ = 1 ([toy-model note §3](../../papers/reciprocity-toy-models.md#3-model-ii-the-self-dual-grossewulkenhaar-model)). The note implements
 
 ```text
 D f(x) = (πθ)⁻¹ ∫ d²y e^(−i x̃·y) f(y)          x̃ = 2θ⁻¹x
 ```
 
-"by direct numerical integration", and finds "D f_mn = (−1)^m f_mn for m, n < 4, to ≲ 10⁻¹¹. The opposite sign of the exponent gives (−1)^n." On the matrix base f_mn the transform is therefore parity acting on one index. The gate prints a maximum deviation of 1.4e-12 for this check, against an asserted tolerance of 1e-7 (`verify/toy_gw.py`). See [the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) and [noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory).
+"by direct numerical integration", and finds "D f_mn = (−1)^m f_mn for m, n < 4, to ≲ 10⁻¹¹. The opposite sign of the exponent gives (−1)^n." On the matrix base f_mn the transform is therefore parity acting on one index. The gate prints a maximum deviation of 1.4e-12 for this check, against an asserted tolerance of 1e-7 ([`verify/toy_gw.py`](../../../verify/toy_gw.py)). See [the duality on the matrix base](../../symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma.md) and [noncommutative field theory and the Langmann–Szabo duality](../../symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory.md).
 
 ## Standard references
 
-The first three are cited by the phase-space-diameter note, which retrieved them by live search [S] (§3, §5); the last is added by the wiki from model memory (†), and no program document cites it.
+The first three are cited by the phase-space-diameter note, which retrieved them by live search [S] ([§3](../../papers/phase-space-diameter.md#3-the-conserved-area-a-cosmological-timebandwidth-relation), [§5](../../papers/phase-space-diameter.md#5-what-reciprocity-adds-invariant-area-inverted-shape)); the last is added by the wiki from model memory (†), and no program document cites it.
 
 - D. Gabor, "Theory of communication. Part 1: The analysis of information" (1946) [S]: the time–frequency plane, the count of independent data, and Gaussian pulses as "self-reciprocal".
 - C. E. Shannon, "Communication in the presence of noise" (1949) [S]: a signal of duration T and bandwidth W specified by 2TW numbers.
@@ -129,34 +129,34 @@ The first three are cited by the phase-space-diameter note, which retrieved them
 
 ## Used by
 
-- [Born's question](/wiki/program/borns-question) and [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking) — both start from #11 §3's statement that the transform implements ρ.
-- [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — the momentum description of the one physical state.
-- [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — the transform implements ρ, and applying it twice gives ρ².
-- [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) and [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — the x- and p-polarized descriptions of one state, as waveform and spectrum.
-- [Reciprocity as modular inversion Z → −Z⁻¹](/wiki/phase-space/modular-field/modular-inversion) — the quarter-turn the transform performs on wavefunctions.
-- [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the fractional Fourier transforms as the continuous family that contains ρ.
-- [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — in ordinary quantum mechanics ρ is only the change of description the transform carries out.
-- [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) and [the twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) — the two vacua are related by ψ → Fψ together with K → −K.
-- [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — the Langmann–Szabo transform computed by direct Fourier integration.
-- [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua) — the dual profile is the transform of the vacuum.
-- [Two causal cones](/wiki/conjugate-relativity/two-causal-cones), [the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) and [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) — the Fourier pairs used in conjugate special relativity.
-- [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the time–bandwidth count of cells at cosmic scale, an identity of blackbody statistics.
-- [The Born length λ](/wiki/phase-space/reciprocity/born-length) — the transform written in the scaled coordinates of a chosen λ; each λ gives a different quarter-turn.
-- [Reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity) — on a closed space the transform becomes a Fourier series, and the exchange holds only locally.
+- [Born's question](../../program/borns-question.md) and [mandatory breaking](../../symmetry-breaking/mandatory-breaking.md) — both start from [#11 §3](../../papers/broken-born-checkpoint-v2.md#3-the-question)'s statement that the transform implements ρ.
+- [The conjugate universe: one state, two descriptions](../../program/conjugate-universe.md) — the momentum description of the one physical state.
+- [P3: a reciprocity-invariant action](../../program/postulates/p3-reciprocity.md) — the transform implements ρ, and applying it twice gives ρ².
+- [P4: polarized matter and strict sector separation](../../program/postulates/p4-polarized-matter.md) and [P5: the vacuum selects a polarization](../../program/postulates/p5-spontaneous-selection.md) — the x- and p-polarized descriptions of one state, as waveform and spectrum.
+- [Reciprocity as modular inversion Z → −Z⁻¹](../modular-field/modular-inversion.md) — the quarter-turn the transform performs on wavefunctions.
+- [The polarization as a Goldstone angle](../../symmetry-breaking/goldstone-angle.md) and [Open: the origin of the ρ-preserving potential](../../symmetry-breaking/rho-preserving-potential.md) — the fractional Fourier transforms as the continuous family that contains ρ.
+- [Acceptance criterion 1](../../symmetry-breaking/toy-models/acceptance-criterion.md) — in ordinary quantum mechanics ρ is only the change of description the transform carries out.
+- [Locality from an (H, K)-built coupling](../../symmetry-breaking/matter-coupling.md) and [the twisted element ρ∘(K → −K)](../../symmetry-breaking/twisted-element.md) — the two vacua are related by ψ → Fψ together with K → −K.
+- [The duality on the matrix base](../../symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma.md) — the Langmann–Szabo transform computed by direct Fourier integration.
+- [Complex-model vacua and the polarization Δ(β)](../../symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua.md) — the dual profile is the transform of the vacuum.
+- [Two causal cones](../../conjugate-relativity/two-causal-cones.md), [the invariant-length shell and Planck closure](../../conjugate-relativity/invariant-length-shell.md) and [Open: the four-dimensional Born map](../../conjugate-relativity/four-dimensional-born-map.md) — the Fourier pairs used in conjugate special relativity.
+- [The phase-space diameter relation](../../cosmology/scale-factor-duality/phase-space-diameter.md) — the time–bandwidth count of cells at cosmic scale, an identity of blackbody statistics.
+- [The Born length λ](born-length.md) — the transform written in the scaled coordinates of a chosen λ; each λ gives a different quarter-turn.
+- [Reciprocity on a closed space](closed-space-reciprocity.md) — on a closed space the transform becomes a Fourier series, and the exchange holds only locally.
 
 ## Sources
 
-- `CLAUDE.md` 'Since the handoff' — the phase-space-diameter note done; the chat relation as standard physics that cannot test the program.
-- `papers/broken-born-checkpoint-v2.md` §3 — the Fourier transform implements ρ unitarily [1†, 2†].
-- `notes/closed-universe.md` §5 and `review/wiki-build-flags.md` item 47 — the global exchange fails on a closed space and the local one holds to (2/3)(σ/R)²; the scope the sentence needs once closure is adopted (pending).
-- `papers/phase-space-diameter.md` §1, §3, §4 — the cosmic time–bandwidth relation as an identity of blackbody statistics [D][V]; Shannon, Slepian and Gabor [S]; the waveform's resolution and sampling; §5 — the transform on Gaussian packets as Z → −1/Z [T][V]; References — the three signal-analysis papers.
-- `verify/phase_space_diameter.py` — κ = 1.708, N_γ = 1.43 × 10⁸⁹, the area 8.9 × 10²⁹ h, and the numerical transform of one Gaussian packet.
-- `papers/broken-born-checkpoint-v2.md` Appendix A — supposition 2, one state with two descriptions.
-- `papers/reciprocity-toy-models.md` §3, §5 — the Langmann–Szabo transform on the matrix base; the coupling I and the combined map (ψ → Fψ, K → −K).
-- `verify/toy_s5.py` — the transform's convention, the Parseval check, the rotation of the Wigner function, the non-self-dual test state.
-- `verify/toy_gw.py` — D f_mn = (−1)^m f_mn and its tolerance.
-- `review/round4/referee/out_sec5_fix.txt` — the referee's numerical check of F²ψ(x) = ψ(−x) and of the combined map.
-- `review/round4/referee/audit-notes.md` Step 2(d) — the referee's normalization episode.
-- `HANDOFF.md` §4 — the chat-only "cosmic time–bandwidth theorem".
-- `notes/broken-born-theory.md` §1, §2 — P3's ℤ₄; ρ² as the parity (x, p) → (−x, −p).
-- `popsci/universes-other-half.md` "Two descriptions of one thing" — the waveform–spectrum framing (popular article; never a status source).
+- [`CLAUDE.md`](../../../CLAUDE.md) 'Since the handoff' — the phase-space-diameter note done; the chat relation as standard physics that cannot test the program.
+- [`wiki/papers/broken-born-checkpoint-v2.md` §3](../../papers/broken-born-checkpoint-v2.md#3-the-question) — the Fourier transform implements ρ unitarily [1†, 2†].
+- [`notes/closed-universe.md` §5](../../../notes/closed-universe.md#5-reciprocity-on-a-closed-space) and [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) item 47 — the global exchange fails on a closed space and the local one holds to (2/3)(σ/R)²; the scope the sentence needs once closure is adopted (pending).
+- [`wiki/papers/phase-space-diameter.md` §1](../../papers/phase-space-diameter.md#1-two-abstracts), [§3](../../papers/phase-space-diameter.md#3-the-conserved-area-a-cosmological-timebandwidth-relation), [§4](../../papers/phase-space-diameter.md#4-extent-and-resolution-and-the-published-answers) — the cosmic time–bandwidth relation as an identity of blackbody statistics [D][V]; Shannon, Slepian and Gabor [S]; the waveform's resolution and sampling; [§5](../../papers/phase-space-diameter.md#5-what-reciprocity-adds-invariant-area-inverted-shape) — the transform on Gaussian packets as Z → −1/Z [T][V]; References — the three signal-analysis papers.
+- [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py) — κ = 1.708, N_γ = 1.43 × 10⁸⁹, the area 8.9 × 10²⁹ h, and the numerical transform of one Gaussian packet.
+- [`wiki/papers/broken-born-checkpoint-v2.md` Appendix A](../../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) — supposition 2, one state with two descriptions.
+- [`wiki/papers/reciprocity-toy-models.md` §3](../../papers/reciprocity-toy-models.md#3-model-ii-the-self-dual-grossewulkenhaar-model), [§5](../../papers/reciprocity-toy-models.md#5-matter-and-locality) — the Langmann–Szabo transform on the matrix base; the coupling I and the combined map (ψ → Fψ, K → −K).
+- [`verify/toy_s5.py`](../../../verify/toy_s5.py) — the transform's convention, the Parseval check, the rotation of the Wigner function, the non-self-dual test state.
+- [`verify/toy_gw.py`](../../../verify/toy_gw.py) — D f_mn = (−1)^m f_mn and its tolerance.
+- [`review/round4/referee/out_sec5_fix.txt`](../../../review/round4/referee/out_sec5_fix.txt) — the referee's numerical check of F²ψ(x) = ψ(−x) and of the combined map.
+- [`review/round4/referee/audit-notes.md`](../../../review/round4/referee/audit-notes.md) Step 2(d) — the referee's normalization episode.
+- [`HANDOFF.md` §4](../../../HANDOFF.md#4-results-that-exist-only-in-the-chat-not-in-any-artifact) — the chat-only "cosmic time–bandwidth theorem".
+- [`notes/broken-born-theory.md` §1](../../../notes/broken-born-theory.md#1-postulates), [§2](../../../notes/broken-born-theory.md#2-kinematic-core) — P3's ℤ₄; ρ² as the parity (x, p) → (−x, −p).
+- [`popsci/universes-other-half.md`](../../../popsci/universes-other-half.md) "Two descriptions of one thing" — the waveform–spectrum framing (popular article; never a status source).

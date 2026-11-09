@@ -251,10 +251,10 @@ The answer to the title's question is yes, in two senses. For the universe's rad
 **Program documents.**
 - [H1] Broken-Born program, handoff document (2026-10-19), §4 (`HANDOFF.md`).
 - [H2] Broken-Born program, internal audit of the record, items 23, 24 and 27 (`review/wiki-build-flags.md`).
-- [P1] Broken-Born program, working checkpoint v2.2 (`papers/broken-born-checkpoint-v2.md`).
-- [P2] Broken-Born program, special relativity of the momentum polarization (`papers/conjugate-special-relativity.md`).
+- [P1] Broken-Born program, working checkpoint v2.2 (`wiki/papers/broken-born-checkpoint-v2.md`).
+- [P2] Broken-Born program, special relativity of the momentum polarization (`wiki/papers/conjugate-special-relativity.md`).
 - [P3] Broken-Born program, calc note on the β coefficients (`notes/beta-coefficients.md`).
-- [P4] Broken-Born program, two toy models of spontaneously broken reciprocity (`papers/reciprocity-toy-models.md`).
+- [P4] Broken-Born program, two toy models of spontaneously broken reciprocity (`wiki/papers/reciprocity-toy-models.md`).
 
 **Literature.**
 - [S] K. Aoki, S. Mukohyama, "Massive gravitons as dark matter and gravitational waves," Phys. Rev. D 94, 024001 (2016), arXiv:1604.06704.

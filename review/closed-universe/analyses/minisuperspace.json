@@ -570,9 +570,9 @@
   "Side effect: WebFetch automatically saved a PDF of arXiv:1807.06209 to the session's tool-results directory, outside my folder. I did not open it."
  ],
  "record_errors": [
-  "Unreconciled dual curvature, in papers/broken-born-checkpoint-v2.md §10 ('dual curvature ↦ negative dark radiation') and §13 row 10, and in notes/broken-born-theory.md §6 table, §9 row 10 and §10 (k̃). These keep a closed dual space without a mechanism. Under the record's own slaving g̃ = g⁻¹ (#11 §5) and the x-leaf section condition (#1 §2), each momentum fibre carries a p-independent metric and is flat, so k̃ = 0. The v0.1 knob predates the v0.3 slaving result and was never reconciled with it. This is a tension, not an arithmetic error.",
-  "papers/phase-space-diameter.md §8.4, 'If reciprocity fixes M̃ = M_P, as it fixes the two bimetric Planck masses'. In the per-comoving-volume minisuperspace only vM̃²C³ is physical, and vM̃² = M_P² can be reached for any value by choosing the dual comoving unit. So the condition constrains nothing until that unit is fixed independently. The bimetric analogy does not carry over: there two metrics share one manifold and one volume. This is a clarification; no number changes.",
-  "papers/phase-space-diameter.md §1 technical abstract and §6 survey, 'No reading of the chat claim makes it square at a bounce for one region'. A pairing the note could not test under flatness, the curvature radius R with Mc, gives an aspect ratio of 0.42–2.67 at any closed turnaround. This is the Friedmann equation at H = 0, with ħ cancelling, and it misses the claim's area and today's ratio by more than 90 orders. The obituary's verdict is unaffected; adding one sentence would complete the survey.",
+  "Unreconciled dual curvature, in wiki/papers/broken-born-checkpoint-v2.md §10 ('dual curvature ↦ negative dark radiation') and §13 row 10, and in notes/broken-born-theory.md §6 table, §9 row 10 and §10 (k̃). These keep a closed dual space without a mechanism. Under the record's own slaving g̃ = g⁻¹ (#11 §5) and the x-leaf section condition (#1 §2), each momentum fibre carries a p-independent metric and is flat, so k̃ = 0. The v0.1 knob predates the v0.3 slaving result and was never reconciled with it. This is a tension, not an arithmetic error.",
+  "wiki/papers/phase-space-diameter.md §8.4, 'If reciprocity fixes M̃ = M_P, as it fixes the two bimetric Planck masses'. In the per-comoving-volume minisuperspace only vM̃²C³ is physical, and vM̃² = M_P² can be reached for any value by choosing the dual comoving unit. So the condition constrains nothing until that unit is fixed independently. The bimetric analogy does not carry over: there two metrics share one manifold and one volume. This is a clarification; no number changes.",
+  "wiki/papers/phase-space-diameter.md §1 technical abstract and §6 survey, 'No reading of the chat claim makes it square at a bounce for one region'. A pairing the note could not test under flatness, the curvature radius R with Mc, gives an aspect ratio of 0.42–2.67 at any closed turnaround. This is the Friedmann equation at H = 0, with ħ cancelling, and it misses the claim's area and today's ratio by more than 90 orders. The obituary's verdict is unaffected; adding one sentence would complete the survey.",
   "notes/broken-born-theory.md §3: S_H = ½M_B²∫_Σ √|H| R_B[H] has √|H| = 1 for H = diag(g, g⁻¹), so its measure carries no √g. The statement that the g-block reproduces Einstein–Hilbert is tagged schematic, and the dual Einstein–Hilbert term used in §6 is never derived from S_H. #11 §14 does not list this as an open item.",
   "notes/broken-born-theory.md §10 uses k̃ without defining it (minor; wiki/predictions/early-universe-step.md already notes this)."
  ],
@@ -614,7 +614,7 @@
   },
   {
    "citation": "M. Born, 'A suggestion for unifying quantum theory and relativity', Proc. R. Soc. A 165, 291 (1938): the closed p-space of radius b, with its radius left unconnected to the x-space radius ('cannot be decided yet')",
-   "status": "S in the record (quoted in papers/phase-space-diameter.md §4); not retrieved by me",
+   "status": "S in the record (quoted in wiki/papers/phase-space-diameter.md §4); not retrieved by me",
    "quote": "Whether these nuclear constants are connected with the corresponding molar constants λ, κ cannot be decided yet."
   },
   {

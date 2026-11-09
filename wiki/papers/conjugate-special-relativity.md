@@ -1,4 +1,10 @@
-# Special Relativity in the Comatter Framework
+---
+title: "Special Relativity in the Comatter Framework"
+weight: 40
+status: record
+description: "Paper #13: the kinematics of the momentum polarization, with a second light cone, force boosts, force dilation, the mass and length shells and a maximum force; never blind-reviewed."
+---
+
 ### The kinematics of the momentum polarization: a second light cone, force boosts, and the invariant length
 
 *Working paper of the Comatter program (until 2026-10-26, the Broken-Born program). House conventions apply: each section opens with a plain-language passage (italic); claims are tagged [D] derived, [T] literature, [P] postulate, [O] open, with † marking memory-sourced citations pending verification. The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout.*
@@ -70,7 +76,7 @@ $$
 an **invariant-length shell**: conjugate quanta are characterized by an irreducible extent λ_χ as ours are by mass [D — structural; this recovers Born's 1938–49 program of a self-dual physics with both m and λ fundamental [3†, 4†]]. Two anchors:
 
 - **Closure at the self-dual point.** The dual rest-energy relation is E = λ c̃ (length × maximum force). At λ = l_P: E = l_P · c⁴/G = √(ℏc⁵/G) — the Planck energy, exactly [D]. The dual E = mc² returns the right corner of physics.
-- **Contact with phenomenology.** The conjugate quantum's invariant extent fixes its intrinsic momentum-space width μ ~ ℏ/λ_χ — which is precisely the gate scale of the dark-matter sector, v* = √2 μ/m_χ. The knee in the dark-matter self-interaction curve is, in this reading, a *dual-relativistic invariant of the dark sector* made visible in galactic dynamics [D — structural].
+- **Contact with phenomenology.** The conjugate quantum's invariant extent fixes its intrinsic momentum-space width μ ~ ℏ/λ_χ — which is precisely the gate scale of the dark-matter sector, v\* = √2 μ/m_χ. The knee in the dark-matter self-interaction curve is, in this reading, a *dual-relativistic invariant of the dark sector* made visible in galactic dynamics [D — structural].
 
 ## 5. Inertia, dualized
 

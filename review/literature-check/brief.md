@@ -15,7 +15,7 @@ A "not found" must rest on searches you record. An "anticipates" must rest on te
   takes it as exact and spontaneously broken: the vacuum selects a polarization, a choice of which variables act as
   "position". Ordinary matter is x-polarized, localized and organized in position. **Conjugate matter** is p-polarized,
   organized and localized in momentum. Both share one universe and gravity; ordinary gauge forces do not cross
-  polarizations (postulate P4). Read `papers/broken-born-checkpoint-v2.md` (#11) §1 and §3–§4 for the framework.
+  polarizations (postulate P4). Read `wiki/papers/broken-born-checkpoint-v2.md` (#11) §1 and §3–§4 for the framework.
 - **The program's cosmology:** a·ã = 1, so the scale factor of the conjugate (momentum) description is the inverse of
   ours; as our universe expands, the conjugate universe contracts (#11 §10). A fluid with equation of state w̃ in the
   dual frame acts on ours as w_eff = −w̃.
@@ -61,7 +61,7 @@ No need to re-establish these; comparing any of them with a conjecture is in sco
 - Born 1938 and 1949; Freidel, Leigh and Minic 2014–2015 (metastring theory, modular spacetime; the record says "FLM have
   the idea" of spontaneously broken reciprocity, `notes/toy-lagrangian.md`); Freidel, Kowalski-Glikman, Leigh and Minic
   2023 (vacuum energy, the self-dual length); Berglund, Hübsch and Minic 2023; Hur, Jejjala, Kavic, Minic and Takeuchi
-  2025, "Dynamical dark energy, dual spacetime, and DESI", cited in `papers/phase-space-diameter.md` for another purpose.
+  2025, "Dynamical dark energy, dual spacetime, and DESI", cited in `wiki/papers/phase-space-diameter.md` for another purpose.
 - Lukierski, Meljanac, Mignemi and Pachoł 2023 (a Born rotation broken spontaneously in the Yang model); Low 2006
   (maximum force).
 - Montonen–Olive 1977, Seiberg 1995; Weyl semimetals (Xu et al. 2015) as momentum-space Berry monopoles, which #11 §11.1

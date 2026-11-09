@@ -157,7 +157,7 @@ nothing to do with X. These two readings are this note's reconstruction; the the
   exact quantum expectation for wavepackets equals the classical gated value to 3.4×10⁻³ at 3 ħ/μ, 5.1×10⁻⁵ at
   100 ħ/μ, and better than 10⁻⁵ from 300 ħ/μ on.
 - What makes the record's gate contact-range is X's mass: λ_X < 37.7 μm at u = 1, unscreened
-  (`papers/phase-space-diameter.md` §8.2).
+  (`wiki/papers/phase-space-diameter.md` §8.2).
 - The model says nothing about whether a carrier for a long-range gate exists. It does not contradict reading R1
   or R2, and both derivations conclude that no local carrier of finite spin delivers the gate.
 
@@ -263,9 +263,9 @@ program's own X is ruled out as that mechanism.*
 
 ## Sources
 
-- #11 `papers/broken-born-checkpoint-v2.md` §§1, 7, 8, 12–15; #6 `notes/x-classification.md` §4;
+- #11 `wiki/papers/broken-born-checkpoint-v2.md` §§1, 7, 8, 12–15; #6 `notes/x-classification.md` §4;
   #5 `notes/geometric-core.md` §§D, E; #1 `notes/broken-born-theory.md` §§2, 3, 5.3; #13
-  `papers/conjugate-special-relativity.md` §4; HANDOFF §§2, 3; `papers/phase-space-diameter.md` §8.2.
+  `wiki/papers/conjugate-special-relativity.md` §4; HANDOFF §§2, 3; `wiki/papers/phase-space-diameter.md` §8.2.
 - `review/momentum-gravity/run3/verify-critic-theory.json` and `run4/gate-derivation.json`, with the scripts named
   there.
 - Fierz–Pauli propagator; factorization of pole residues into P_J(z_t); effective-range expansion [T].

@@ -1,4 +1,4 @@
-"""Flag 39 audit, part 3: toy model I (papers/reciprocity-toy-models.md sec 2), d = 1.
+"""Flag 39 audit, part 3: toy model I (wiki/papers/reciprocity-toy-models.md sec 2), d = 1.
 
 Symmetries as the toy note states them: H -> S^T H S, K -> S^-1 K S for S in Sp(2,R),
 plus the separate flip K -> -K.  Vacuum (H, K) = (1, K0), K0 = diag(1, -1).

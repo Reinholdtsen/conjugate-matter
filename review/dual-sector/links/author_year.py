@@ -515,7 +515,7 @@ IDENTIFIED = {
         ("hdl:1773/45542", "the text reads 'Lee 2020 thesis, Table 11.4'; hdl:1773/45542 is the dissertation"),
     ("cosmology/scale-factor-duality/square-at-the-bounce.md", 71, "Gasperini–Veneziano 1993"):
         ("arXiv:hep-th/9211021", "the line quotes the diameter note §6, whose sentence this is; the note's only "
-                                 "Gasperini–Veneziano 1993 is hep-th/9211021 (papers/phase-space-diameter.md, References)"),
+                                 "Gasperini–Veneziano 1993 is hep-th/9211021 (wiki/papers/phase-space-diameter.md, References)"),
     ("cosmology/scale-factor-duality/collapse-powered-expansion.md", 91, "Gasperini and Veneziano 1993"):
         ("arXiv:hep-th/9309023", "the page's source for 'collapse in another frame' is notes/literature-check.md §6 (its "
                                  "Sources), whose only Gasperini and Veneziano 1993 is hep-th/9309023, quoted there"),

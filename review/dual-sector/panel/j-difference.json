@@ -427,41 +427,41 @@
   },
   {
    "file": "review/wiki-build-flags.md, item 67",
-   "passage": "Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod. Phys. D 32, 2330002 (2023), which `papers/phase-space-diameter.md` cites) make the heterotic string's two E8 factors each other's Langlands, electric–magnetic, duals",
+   "passage": "Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod. Phys. D 32, 2330002 (2023), which `wiki/papers/phase-space-diameter.md` cites) make the heterotic string's two E8 factors each other's Langlands, electric–magnetic, duals",
    "change": "'repeated, and extended, in ... (2023), which adds that the Born geometry of the metastring formalism also involves S-duality'; add Minic 2020 §3's “electric” fields and “magnetic” duals as related to §11.4.",
    "evidence": "2212.06086 §6.6 Further Remarks, §3.2 fn. 24; 2003.00318 §3.",
    "severity": "low"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md, App. A item 4 and §12 (proposal for P.R.'s ruling, flag 64)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md, App. A item 4 and §12 (proposal for P.R.'s ruling, flag 64)",
    "passage": "4. Dark matter is conjugate matter — **alive**, P.R.'s core conjecture: as χ particles (x-clumping, gated self-force) or, since v2.4, as conjugate monopoles localized in momentum, two of the three candidates of §12.",
    "change": "Proposal for P.R.'s ruling: add '[S] prior art: proposed by Minic and coauthors (talk 2019; Minic 2020 §5, §6.2; Berglund, Hübsch and Minić 2021), as the dual of visible matter in a doubled phase space at a fundamental length, coupled beyond gravity in most of their papers; neither of this program's forms is published.' The status is unchanged.",
    "evidence": "As for flag 64.",
    "severity": "medium"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §3, attribution (proposal for P.R.'s ruling; as a new flag in review/wiki-build-flags.md)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §3, attribution (proposal for P.R.'s ruling; as a new flag in review/wiki-build-flags.md)",
    "passage": "They treat the breaking as kinematical and call the choice \"a dynamical question\". This program's addition is to read it as *spontaneous* breaking, with η as the order parameter",
    "change": "Proposal for P.R.'s ruling: 'They call general relativity's breaking kinematical, after Born, who noticed that gravity breaks the symmetry, and propose to make the choice dynamical, \"a dynamical question\", with the space–momentum split carried by solutions rather than the action. A later paper (Freidel, Kowalski-Glikman, Leigh and Minic 2021) places a breaking of the dual Lorentz symmetry, which fixes which commuting coordinate is spacetime, \"at the level of the vacuum sector\"; that symmetry is not a canonical transformation, and no potential or order parameter is given. This program's addition is the spontaneous breaking of an exact, ω-preserving ρ, with η as the order parameter.' Also note, for 'The breaking is mandatory', that FLM call the choice of polarization immaterial in ordinary quantum mechanics in the sentence before #11's quotation, so the mandatory argument is the program's.",
    "evidence": "1405.3949 §1.1, §1.3, §2; 1502.08005 §1, §7; 2104.00802 after eqs. (11)–(12); 2212.06086 §4.3; r6-foundations record points 2, 3; r7-vacuum record points 0, 1 and their verifiers.",
    "severity": "medium"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §4, P2′ credit (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §4, P2′ credit (proposal for P.R.'s ruling)",
    "passage": "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's.",
    "change": "Proposal for P.R.'s ruling: credit the earliest statements, Freidel, Leigh and Minic 2013 (arXiv:1307.7080: (η, J) 'a chiral structure ... with generalized metric H=ηJ'; 'both elements (η,J) of the chiral structure are dynamical') and 2014 (1405.3949: 'This is our addition to Born's argument'). State the difference that the school makes ω dynamical too and puts quantum rigidity in η's flatness (1502.08005 §1), where P2′ keeps ω rigid.",
    "evidence": "1307.7080; 1405.3949 §1.3; 1502.08005 §1, §2.3; 2011.08852 §2; r6-foundations record point 3 and 'Other' (rigidity); r4-pheno 'Other' (ω dynamical).",
    "severity": "low"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §5, compatibility theorem attribution (proposal for P.R.'s ruling)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §5, compatibility theorem attribution (proposal for P.R.'s ruling)",
    "passage": "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1].",
    "change": "Proposal for P.R.'s ruling: add Freidel, Leigh and Minic 2016 (arXiv:1606.01829 §2) for the positive form: vacuum metrics H(x, x̃) = x q x + x̃ q⁻¹ x̃, with 'the space of vacuum metrics associated with a given Hilbert space ... encoded in GL(d)/O(d)'; and the same section's U(d)/O(d) as 'the choice of inequivalent lifts η that preserve the symplectic structure and the vacuum state' (the Λ(d) of §10 and §14 item 12). The block proof and the machine check stay the program's.",
    "evidence": "1606.01829 §2, §3; r6-foundations record point 5 and its verifier's code (verify_numbers.py E, gl_intersection.py).",
    "severity": "low"
   },
   {
-   "file": "papers/broken-born-checkpoint-v2.md §10, 'Constraint [D]' (proposal for P.R.'s ruling; could join flag 65)",
+   "file": "wiki/papers/broken-born-checkpoint-v2.md §10, 'Constraint [D]' (proposal for P.R.'s ruling; could join flag 65)",
    "passage": "**Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus.",
    "change": "Proposal for P.R.'s ruling: cite related prior art at a string scale: Berglund, Hübsch and Minić 2019 relate 'the dual spacetime volume to the observed spacetime volume as' Ṽ ∼ V⁻¹, and FKLM 2021 rescale x → ax, x̃ → a⁻¹x̃ ('the dual dimension shrinks to zero'). The derivation from a rigid ω at ℏ is the program's.",
    "evidence": "1905.08269 after eq. (6); 2104.00802 eq. (2); r1-priority Q10; r9-sweep-verify Q10.",
@@ -503,14 +503,14 @@
    "severity": "low"
   },
   {
-   "file": "papers/phase-space-diameter.md §7 and wiki/gravity/spin-2-fields/cosmological-constant-problem.md (line 89)",
+   "file": "wiki/papers/phase-space-diameter.md §7 and wiki/gravity/spin-2-fields/cosmological-constant-problem.md (line 89)",
    "passage": "A dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI [S: Hur, Jejjala, Kavic, Minic and Takeuchi 2025].",
    "change": "Add that under its first UV–IR relation the same paper finds w < −1 for all a, 'clearly disfavored' by DESI DR2, that the w > −1 result follows from an alternative relation, and that the group's 2022 letter (arXiv:2202.05266) had w_eff < −1. This completes a citation in a reviewed paper.",
    "evidence": "2503.20854 §3.3, §3.4, §4; 2202.05266 abstract; r4-pheno-verify record point 3.",
    "severity": "low"
   },
   {
-   "file": "papers/reciprocity-toy-models.md §1, 'The idea' (proposal: a reviewed paper)",
+   "file": "wiki/papers/reciprocity-toy-models.md §1, 'The idea' (proposal: a reviewed paper)",
    "passage": "but give no potential for η and no symmetry-breaking analysis.",
    "change": "Add after it that Freidel, Kowalski-Glikman, Leigh and Minic (2021) place a breaking of the dual Lorentz symmetry tied to the choice of spacetime in the vacuum sector, a symmetry that is not a canonical transformation, with no potential or order parameter, and that Berglund, Hübsch and Minic (2022) call that group 'effectively spontaneously broken'. The abstract's 'we found no explicit model of ρ itself being spontaneously broken' stands.",
    "evidence": "2104.00802; 2212.06086 §4.3; r7-vacuum-verify record point 1.",

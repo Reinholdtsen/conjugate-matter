@@ -272,11 +272,11 @@
   },
   {
    "file": "wiki/cosmology/scale-factor-duality/phase-space-diameter.md",
-   "note": "No physics removed. The History bullet 'Version 1.2 (2026-10-29)' is deleted: that version changed only a status label, and its change note also says the note's results stand. The frontmatter and Sources entry 'papers/phase-space-diameter.md header' went with it, because nothing on the page cites the header now. Brief's protected fields (title, weight, status, provenance) are unchanged."
+   "note": "No physics removed. The History bullet 'Version 1.2 (2026-10-29)' is deleted: that version changed only a status label, and its change note also says the note's results stand. The frontmatter and Sources entry 'wiki/papers/phase-space-diameter.md header' went with it, because nothing on the page cites the header now. Brief's protected fields (title, weight, status, provenance) are unchanged."
   },
   {
    "file": "wiki/cosmology/scale-factor-duality/square-at-the-bounce.md",
-   "note": "No physics removed. The two dated History bullets on the page's former title and on the v1.2 status label are deleted, along with the frontmatter and Sources entries 'papers/phase-space-diameter.md header' and 'CLAUDE.md Method', which only supported them. The quotations from `notes/closed-universe.md` §7 and root `CLAUDE.md` are cut at the physics. The note's section name is cited without its parenthetical '(an obituary until v1.1)'."
+   "note": "No physics removed. The two dated History bullets on the page's former title and on the v1.2 status label are deleted, along with the frontmatter and Sources entries 'wiki/papers/phase-space-diameter.md header' and 'CLAUDE.md Method', which only supported them. The quotations from `notes/closed-universe.md` §7 and root `CLAUDE.md` are cut at the physics. The note's section name is cited without its parenthetical '(an obituary until v1.1)'."
   },
   {
    "file": "wiki/cosmology/scale-factor-duality/self-dual-cosmic-box.md",
@@ -544,7 +544,7 @@
   },
   {
    "file": "wiki/predictions/monopole-null.md",
-   "note": "Removed the handoff passage from 'History of the row', and with it HANDOFF.md section 2 from the frontmatter and Sources. Its grounds ('wrong duality; inflation suffices') are covered by the current audit. Also removed 'papers/broken-born-checkpoint-v2.md header' and \"CLAUDE.md 'Method'\" from the sources, because the page no longer uses them. The monopole-explanation page, already cleaned, dropped its HANDOFF section 2 citation the same way."
+   "note": "Removed the handoff passage from 'History of the row', and with it HANDOFF.md section 2 from the frontmatter and Sources. Its grounds ('wrong duality; inflation suffices') are covered by the current audit. Also removed 'wiki/papers/broken-born-checkpoint-v2.md header' and \"CLAUDE.md 'Method'\" from the sources, because the page no longer uses them. The monopole-explanation page, already cleaned, dropped its HANDOFF section 2 citation the same way."
   },
   {
    "file": "wiki/predictions/monopole-null.md",
@@ -681,7 +681,7 @@
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/conjugate-relativity/_index.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/conjugate-relativity/maximum-force.md"
    ],
-   "note": "The hub said every page in the section 'rests on one document, #13', but maximum-force.md also rests on papers/phase-space-diameter.md (§7, §8.1, §9) for the Born-length test. Changed to 'rests mainly on one document'.",
+   "note": "The hub said every page in the section 'rests on one document, #13', but maximum-force.md also rests on wiki/papers/phase-space-diameter.md (§7, §8.1, §9) for the Born-length test. Changed to 'rests mainly on one document'.",
    "fixed": true
   },
   {
@@ -704,7 +704,7 @@
   },
   {
    "files": [
-    "/home/paul/git/reinholdtsen/conjugate-matter/papers/conjugate-special-relativity.md",
+    "/home/paul/git/reinholdtsen/conjugate-matter/wiki/papers/conjugate-special-relativity.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/conjugate-relativity/force-dilation.md"
    ],
    "note": "A looseness inside #13, not between pages. §3's plain passage says 'Below 10⁴³ newtons the effect is utterly negligible', but #13's own factor at F = 10⁴³ N with c̃ = 1.21×10⁴⁴ N gives γ̃ − 1 = 0.0034 (executed for this report; not written on any page). No flag covers it: a grep of review/wiki-build-flags.md for 10⁴³ finds nothing. force-dilation.md quotes the sentence as written, as the wiki's rule on sources requires. It is a candidate for a new flag, which is P.R.'s call.",
@@ -802,7 +802,7 @@
   {
    "files": [
     "popsci/angle-of-the-mirror.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md"
    ],
    "note": "Popular article #10 reports the collapse idea as killed ('The killing fields', 'The method is the message'), while #11 §10 and App. A item 9 list it as open [O]. Source precedence settles this, since popular articles never decide a status. The page keeps one neutral clause so a reader of #10 is not misled; the source itself is unchanged.",
@@ -828,14 +828,14 @@
    "files": [
     "CLAUDE.md",
     "wiki/CLAUDE.md",
-    "papers/phase-space-diameter.md"
+    "wiki/papers/phase-space-diameter.md"
    ],
    "note": "Root `CLAUDE.md` names the diameter note as v1.1 (Layout, and 'Since the handoff'), though the same bullet cites 'note v1.2'. The note's header has v1.2 changes and `wiki/CLAUDE.md` lists v1.2. Only the status label changed, so no physics is affected. Outside this batch; not fixed.",
    "fixed": false
   },
   {
    "files": [
-    "papers/phase-space-diameter.md",
+    "wiki/papers/phase-space-diameter.md",
     "notes/closed-universe.md",
     "CLAUDE.md",
     "wiki/cosmology/scale-factor-duality/square-at-the-bounce.md"
@@ -853,7 +853,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/dark-matter/candidates/chi-particles.md",
     "wiki/dark-matter/candidates/_index.md",
     "wiki/dark-matter/candidates/momentum-space-monopoles.md"
@@ -864,7 +864,7 @@
   {
    "files": [
     "wiki/dark-matter/candidates/momentum-space-monopoles.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The third candidate's shared-photon form conflicts with row 7's stated basis ('SM-decoupled; P4 strict'), unless the objects are spread in position, which no document analyzes (flag 60). The page keeps this as evidence against the form.",
    "fixed": false
@@ -873,7 +873,7 @@
    "files": [
     "wiki/dark-matter/_index.md",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "notes/gate-mechanism.md"
    ],
    "note": "The dark-matter strip lists the gate mechanism under Stands (its page has status alive, provenance [D], as #11 §8 tags it), while the same index and chi-particles.md report that notes/gate-mechanism.md finds exchanging X cannot produce the gate. This is flag 55, pending. I left the status alone, as the invariants require.",
@@ -882,7 +882,7 @@
   {
    "files": [
     "wiki/dark-matter/candidates/chi-particles.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "A tension in how the page reads, not a numerical conflict. 'The field χ' calls χ 'local in momentum', while 'Dark matter as conjugate matter' and 'What the candidate no longer claims' say χ particles cluster in position (#11 App. A item 4, 'x-clumping'). The page does not say that one concerns the polarization and self-interaction and the other concerns where the mass clusters. I added nothing, since no source states the reconciliation.",
    "fixed": false
@@ -890,14 +890,14 @@
   {
    "files": [
     "wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The frontmatter description said the counterfactual flux 'shows why sector separation is mandatory', without qualification. That reads against #11 §11.4's shared-photon form of P.R.'s conjecture, which needs P4 restated rather than excluded. The description now attributes it to #14: 'which is why #14 made sector separation mandatory'.",
    "fixed": true
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing.md"
    ],
    "note": "#11 §13 row 7 rests on \"both dark-sector candidates SM-decoupled\", while §12's table lists three candidates. The third, in its shared-photon form, would carry magnetic charge of our photon. This is flag 63, still pending. The page states the conflict and points to the flag; the source is unchanged.",
@@ -906,7 +906,7 @@
   {
    "files": [
     "review/round3-adjudication.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/dark-matter/candidates/soliton-candidate/obituary.md"
    ],
    "note": "Decision 2's consequence, \"the trilemma becomes two program-native candidates\", sits beside #11 §12's table of three candidates, whose third row is P.R.'s conjecture. The obituary keeps the quotation and follows it with the decision's scope: it covers #14's model, and the candidate it modeled is P.R.'s open conjecture. The adjudication's wording itself is unchanged.",
@@ -938,7 +938,7 @@
   },
   {
    "files": [
-    "/home/paul/git/reinholdtsen/conjugate-matter/papers/broken-born-checkpoint-v2.md",
+    "/home/paul/git/reinholdtsen/conjugate-matter/wiki/papers/broken-born-checkpoint-v2.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/candidates/x-condensate.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/candidates/thermal-freeze-out.md"
    ],
@@ -967,7 +967,7 @@
    "files": [
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/benchmark.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/_index.md",
-    "/home/paul/git/reinholdtsen/conjugate-matter/papers/broken-born-checkpoint-v2.md"
+    "/home/paul/git/reinholdtsen/conjugate-matter/wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "These two pages said the clumping calculation \"ruled out\" collective clumping, which is stronger than #11's wording. #11 §9 and App. A item 3 say the criterion \"fails by 10²⁸–10³¹\", and the founding image is P.R.'s open conjecture. Both pages now say \"fails\", with the contact-range scope kept.",
    "fixed": true
@@ -977,7 +977,7 @@
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/glossary.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/momentum-clumping/instability-criterion.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/momentum-clumping/velocity-granularity.md",
-    "/home/paul/git/reinholdtsen/conjugate-matter/papers/broken-born-checkpoint-v2.md"
+    "/home/paul/git/reinholdtsen/conjugate-matter/wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "Outside this batch, the same \"ruled out\" wording for particle clumping is at `glossary.md` line 343, `instability-criterion.md` lines 26 and 122, and `velocity-granularity.md` line 24 (as of this run; other batches may be editing them). All four lines are worth aligning with #11's \"fails\" in the fix-up pass. Lines 122 and 343 and the `velocity-granularity.md` line carry a scope or a net-theorem pointer in the text I saw. I did not edit them.",
    "fixed": false
@@ -1025,7 +1025,7 @@
   {
    "files": [
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/halo-astrophysics/dwarf-galaxies.md",
-    "/home/paul/git/reinholdtsen/conjugate-matter/papers/broken-born-checkpoint-v2.md"
+    "/home/paul/git/reinholdtsen/conjugate-matter/wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The cores table marked '#14's superheavy solitons' as dead, which reads as the candidate itself. #11 §12 records the model as dead and the candidate, conjugate monopoles localized in momentum, as P.R.'s open conjecture. The row now reads '#14's superheavy-soliton model'. No status changed.",
    "fixed": true
@@ -1034,7 +1034,7 @@
    "files": [
     "wiki/dark-matter/momentum-clumping/founding-image.md",
     "wiki/summary.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "founding-image.md said the image is one of \"four founding ideas\" that are open conjectures. #11 App. A has three open items (3, 5, 9), and wiki/summary.md says three: the monopole candidate and its explanation both sit in item 5. The sentence now names the conjectures and gives no count.",
    "fixed": true
@@ -1051,7 +1051,7 @@
    "files": [
     "wiki/dark-matter/momentum-clumping/net-theorem.md",
     "wiki/dark-matter/momentum-clumping/wave-island/scenario-a.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The net theorem is status alive, and its \"fatal\" leg rests on Scenario A being \"falsified\", yet Scenario A is under review. #11 §9 holds the same tension: \"Results (i)–(iii) stand as results\" beside Scenario A under review. No status was changed; the page states both. If P.R.'s review changes Scenario A's standing, the theorem's second leg must be re-read.",
    "fixed": false
@@ -1062,7 +1062,7 @@
     "wiki/dark-matter/momentum-clumping/fornax-friction.md",
     "wiki/dark-matter/momentum-clumping/net-theorem.md",
     "notes/ufd-endpoint.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "Calc note #4 says the rows are \"permanently withdrawn\", while #11 §13 lists them as withdrawn and under review. The pages keep #4's word as that note's finding, attributed, and give #11's listing as the current standing.",
    "fixed": false
@@ -1086,7 +1086,7 @@
     "notes/ufd-endpoint.md",
     "HANDOFF.md",
     "verify/velocity_gated_gravity.py",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The sources keep the wording the pages no longer use: the note's title and §4 \"What the obituary covers\", the status notes of 2026-10-29, the note over the handoff's list, #11's version remarks, and script section D \"The obituary's scope\". A reader following a citation from these pages meets that wording. Only the literal script section name is still quoted on a page. The sources were out of scope and not edited.",
    "fixed": false
@@ -1129,7 +1129,7 @@
    "files": [
     "wiki/dark-matter/momentum-clumping/wave-island/scenario-a.md",
     "notes/ufd-endpoint.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "'What went with it' says calc note #3's localized ultra-faint-dwarf signature \"was withdrawn with Scenario A\". No source says this. notes/ufd-endpoint.md line 45 and #11 §13 apply \"withdrawn\" only to rows 3 and 4, and #11 lists Scenario A as under review. A reader could take the sentence to mean Scenario A itself is withdrawn. I left it because rewording it bears on how a claim stands, which the invariants reserve. Suggested wording for whoever decides: the signature is the prediction calc note #4 finds contradicted by the ultra-faint dwarfs.",
    "fixed": false
@@ -1137,14 +1137,14 @@
   {
    "files": [
     "wiki/electric-magnetic-duality/magnetic-mirror-family.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The page quoted App. A item 11 as \"joined with item 5\", but #11 now reads \"joined with item 5's ontology half\". The quote is corrected to the source. `wiki/program/founding-suppositions.md` and `wiki/history/documents/checkpoint.md` already had the right wording.",
    "fixed": true
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/dark-matter/candidates/momentum-space-monopoles.md"
    ],
    "note": "#11 contradicts itself on p-localization: §11.4 says \"open since v2.0\", while §14 item 8 says \"v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; v2.4 reopens both\". Item 8 also still says \"the §12 obituary\" although §12 is now titled as the failure of one model. Pages in this batch no longer quote either clause, but momentum-space-monopoles.md ('What it needs') still quotes \"open since v2.0\". This is a source matter and is left for a flag.",
@@ -1152,7 +1152,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/electric-magnetic-duality/conjugate-monopoles.md"
    ],
    "note": "App. A item 5 calls supposition 5 \"open in both halves\" but also calls its ontology half \"alive and consequence-bearing\", and §11.1 says the same, so the page's status is alive. The page already explains this: the statement that the objects gravitate is alive, and the abundance conjecture attached to it is open. The source wording is unchanged.",
@@ -1160,7 +1160,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/electric-magnetic-duality/conjugate-monopoles.md"
    ],
    "note": "#11 §11.1 says \"true but irrelevant\" is \"the empty set\", while App. A item 5 says \"measure zero\". The page's section 'Two wordings, one status (unresolved)' records this, and it stays unresolved.",
@@ -1168,7 +1168,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/electric-magnetic-duality/magnetic-identification.md"
    ],
    "note": "Row 7 names \"both dark-sector candidates\" while §12 counts three. The page states this as flag 63, pending.",
@@ -1176,7 +1176,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/electric-magnetic-duality/magnetic-mirror-family.md"
    ],
    "note": "§11.2 prints 4π/e² ≈ 34 beside e·g ~ 2π, but 4π/e² is 1/α ≈ 137. The page quotes it as written and points to flag 28.",
@@ -1193,7 +1193,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11 contradicts itself on p-localization's history: §11.4 says 'open since v2.0', while §14 item 8 says v2.1 closed it and v2.4 reopened it. The pages now state only that p-localization is open and quote neither version note. The source is unchanged.",
    "fixed": false
@@ -1209,7 +1209,7 @@
   {
    "files": [
     "wiki/electric-magnetic-duality/monopoles/witten-effect.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The Witten page says that under P4 as written, taken strictly, none of the program's dark-matter candidates couples to the Standard Model, and calls this the basis of row 7. #11 row 7 names 'both dark-sector candidates' while §12 counts three (flag 63, pending). The third candidate's shared-photon form needs P4 restated, so the page's sentence is correct as qualified. I left it unchanged.",
    "fixed": false
@@ -1218,7 +1218,7 @@
    "files": [
     "wiki/electric-magnetic-duality/monopoles/dirac-quantization.md",
     "review/round3-adjudication.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11 §12 lists the weak-to-strong result among what survives #14's model; the round-3 adjudication's own list omits it. The page already states this and follows #11 by precedence, so I kept it.",
    "fixed": false
@@ -1234,7 +1234,7 @@
   {
    "files": [
     "wiki/glossary.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/_index.md"
    ],
    "note": "The Conjugate matter entry listed the candidates but not the conjecture itself, which #11 App. A item 4 calls 'P.R.'s core conjecture' and wiki/_index.md states. I added one sentence, 'That dark matter is conjugate matter is P.R.'s core conjecture (#11 App. A item 4).', using the source's own wording. This is the only new sentence on the page. It is new to this page but not to the wiki, and I justified it by SPECIAL's 'each glossary entry states the term and its present standing'. Strike it if 'Add nothing' is read strictly. Also added per the BRIEF's canonical wording: [O] on the Collapse-powered expansion and Founding image entries.",
@@ -1251,14 +1251,14 @@
   {
    "files": [
     "wiki/summary.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "wiki/summary.md says of P.R.'s conjectures 'All are open [O]' and lists 'Dark matter is conjugate matter' among them. #11 App. A item 4 marks that item '**alive**, P.R.'s core conjecture', with no [O], and the summary's own count ('eight are alive in some form and three are open conjectures') places item 4 among the alive. App. A item 5's abundance conjecture likewise sits inside an 'alive and consequence-bearing' ontology half. The glossary says only 'core conjecture' and takes no side. Not fixed: the summary is outside this batch and marked finished.",
    "fixed": false
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/predictions/dark-sector-microstructure.md",
     "wiki/glossary.md"
    ],
@@ -1295,7 +1295,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "Internal to #11: §11.4 calls p-localization 'open since v2.0', while §14 item 8 says 'v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; v2.4 reopens both'. The two cannot both be true of v2.1 to v2.3. The source is unchanged, so this conflict still needs a decision there. unified-modular-structure.md no longer repeats either version statement, and it says only that the item is open, which both sections agree on.",
    "fixed": false
@@ -1329,7 +1329,7 @@
   {
    "files": [
     "wiki/gravity/momentum-graviton/shift-symmetry.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/dark-matter/candidates/_index.md"
    ],
    "note": "The page called χ of conjugate matter \"one of the program's two dark-matter candidates\", but #11 §12 and the candidates index list three, the third being P.R.'s conjecture of monopoles abundant in momentum space. Fixed by dropping the count (\"one of the program's dark-matter candidates\"); no status changes.",
@@ -1338,7 +1338,7 @@
   {
    "files": [
     "wiki/gravity/momentum-graviton/range-bound.md",
-    "papers/phase-space-diameter.md",
+    "wiki/papers/phase-space-diameter.md",
     "wiki/method/review/round-5.md"
    ],
    "note": "Minor: the page quoted the note's §8.2 sentence on the slaved momentum block without its \"(§5)\", with no mark of the omission, while round-5.md quotes it with \"(§5)\". The page now quotes it exactly.",
@@ -1384,7 +1384,7 @@
   {
    "files": [
     "wiki/gravity/spin-2-fields/cosmological-constant-problem.md",
-    "papers/phase-space-diameter.md"
+    "wiki/papers/phase-space-diameter.md"
    ],
    "note": "Sourcing gap, not a physics conflict: the body cites the diameter note's §5, §8.2 and §8.6 ('The problem restated through reciprocity'), but the frontmatter sources and the Sources list give only §4, §7, §8.1 and 'References'. I checked the §8.6 clause against the note and it is accurate; I did not check the §5 and §8.2 citations.",
    "fixed": false
@@ -1397,7 +1397,7 @@
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/momentum-graviton/range-bound.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/review/round5-adjudication.md"
    ],
-   "note": "hassan-rosen-bimetric.md, 'The spectrum': matter coupled to g feels both modes \"in proportions set by the two Planck masses\", and the page quotes #8 §3's \"comparable strength\" with no condition. planck-units.md, yukawa-forces.md and range-bound.md give the strength as α = (4/3)(M_f u/M_g)², which also depends on the background ratio. This is the dropped parameter that round-5 ruling R1 upheld in substance (papers/phase-space-diameter.md §8.2: \"equal Planck masses give α = 4/3 only if u = 1\"). The Hassan-Rosen paragraph already introduces c in f = c²g, so the fix is one clause. Not fixed: the brief's 'Add nothing' invariant bars changing a physics statement in this pass, so this is left for the consistency audit.",
+   "note": "hassan-rosen-bimetric.md, 'The spectrum': matter coupled to g feels both modes \"in proportions set by the two Planck masses\", and the page quotes #8 §3's \"comparable strength\" with no condition. planck-units.md, yukawa-forces.md and range-bound.md give the strength as α = (4/3)(M_f u/M_g)², which also depends on the background ratio. This is the dropped parameter that round-5 ruling R1 upheld in substance (wiki/papers/phase-space-diameter.md §8.2: \"equal Planck masses give α = 4/3 only if u = 1\"). The Hassan-Rosen paragraph already introduces c in f = c²g, so the fix is one clause. Not fixed: the brief's 'Add nothing' invariant bars changing a physics statement in this pass, so this is left for the consistency audit.",
    "fixed": false
   },
   {
@@ -1413,7 +1413,7 @@
    "files": [
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/planck-units.md",
     "/home/paul/git/reinholdtsen/conjugate-matter/wiki/cosmology/scale-factor-duality/self-dual-length-obituary.md",
-    "/home/paul/git/reinholdtsen/conjugate-matter/papers/phase-space-diameter.md"
+    "/home/paul/git/reinholdtsen/conjugate-matter/wiki/papers/phase-space-diameter.md"
    ],
    "note": "Minor. planck-units.md gives the self-dual length as \"about 50 μm, with L a cosmological length\". The note and self-dual-length-obituary.md give 47–84 μm for L between c/H₀ and the particle horizon. About 50 μm fits only the L = c/H₀ end, the case the sentence then uses, and it matches the root CLAUDE.md's \"≈ 50 μm\". Not fixed: the number is copied from a source, and the range would be a new number on this page.",
    "fixed": false
@@ -1428,7 +1428,7 @@
   {
    "files": [
     "wiki/history/_index.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "CLAUDE.md"
    ],
    "note": "The history index attributed 'twelve claims under review' to #11 v2.5. #11 itself names only Scenario A and the two withdrawn rows; the twelve are listed in the root CLAUDE.md. The index now places the twelve in the root CLAUDE.md. wiki/history/timeline.md may need the same care (outside this batch).",
@@ -1437,7 +1437,7 @@
   {
    "files": [
     "wiki/history/documents/_index.md",
-    "papers/phase-space-diameter.md",
+    "wiki/papers/phase-space-diameter.md",
     "notes/phase-space-diameter-worklog.md",
     "review/round5-adjudication.md",
     "review/wiki-build-rulings.md"
@@ -1481,7 +1481,7 @@
   {
    "files": [
     "CLAUDE.md",
-    "papers/phase-space-diameter.md",
+    "wiki/papers/phase-space-diameter.md",
     "wiki/CLAUDE.md"
    ],
    "note": "Minor. The root file's Layout and 'Since the handoff' cite the diameter note as v1.1, while its header and wiki/CLAUDE.md say v1.2. No flag covers this, and it is the same kind of staleness as flag 38's #11 version. I did not add it to the page, under 'add nothing'; it needs a line or a flag if P.R. wants it recorded.",
@@ -1489,7 +1489,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/electric-magnetic-duality/conjugate-monopoles.md",
     "wiki/history/documents/handoff.md"
    ],
@@ -1523,7 +1523,7 @@
   {
    "files": [
     "wiki/history/timeline.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "review/wiki-build-flags.md"
    ],
    "note": "#11 §13 rows 7 and 11 still name two dark-sector candidates, while §12 and §14 item 9 count three. This is flag 63, still pending. I confirmed the rows at the current #11. The page reports it and the source is unchanged.",
@@ -1563,7 +1563,7 @@
   {
    "files": [
     "wiki/history/documents/source-conflicts.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The page quoted #11 §11.1 in its v2.3 wording: 'contests this ground [O]' and 'lends the program no support'. Current §11.1 has no [O] there and says 'lends the explanation no support'. The page now quotes the current text.",
    "fixed": true
@@ -1571,14 +1571,14 @@
   {
    "files": [
     "CLAUDE.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The second ground against the monopole explanation has three wordings in the sources: root CLAUDE.md 'lends the program no support', #11 §11.1 'lends the explanation no support', #11 App. A item 5 'lends no support either way'. The substance is compatible, but the object differs. The wiki follows §11.1 on this page; the sources are not edited.",
    "fixed": false
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "review/wiki-build-flags.md",
     "wiki/history/documents/source-conflicts.md"
    ],
@@ -1595,7 +1595,7 @@
   {
    "files": [
     "CLAUDE.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The root CLAUDE.md's dated entries name each version of #11 as current when written ('#11 is now v2.1', then v2.3, v2.4), while the checkpoint's header says v2.5 (flag 38). Kept as a one-line entry, shortened, with its dispute wording removed; the header decides the version.",
    "fixed": false
@@ -1603,9 +1603,9 @@
   {
    "files": [
     "wiki/method/collaboration.md",
-    "papers/phase-space-diameter.md"
+    "wiki/papers/phase-space-diameter.md"
    ],
-   "note": "The page said #11 'is the one that carries' the attribution line among current documents, but papers/phase-space-diameter.md line 331 also has a provenance line: 'conjecture and direction, P. R.; derivations, counterexamples, verification and drafting, Claude (Anthropic)'. I removed the exclusivity ('#11 carries the line') and did not add the note, under 'Add nothing'. The consistency pass may want to name it.",
+   "note": "The page said #11 'is the one that carries' the attribution line among current documents, but wiki/papers/phase-space-diameter.md line 331 also has a provenance line: 'conjecture and direction, P. R.; derivations, counterexamples, verification and drafting, Claude (Anthropic)'. I removed the exclusivity ('#11 carries the line') and did not add the note, under 'Add nothing'. The consistency pass may want to name it.",
    "fixed": true
   },
   {
@@ -1620,7 +1620,7 @@
   {
    "files": [
     "HANDOFF.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/method/negative-results.md"
    ],
    "note": "HANDOFF §2 says the corrected dictionary 'removed the mechanism', while #11 §10 says it 'keeps a route', dual stiff ↦ Λ. The page quotes the handoff and states #11's route. #11 has precedence, and the sources are unchanged.",
@@ -1630,7 +1630,7 @@
    "files": [
     "HANDOFF.md",
     "notes/ufd-endpoint.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/method/negative-results.md"
    ],
    "note": "HANDOFF §2 and calc note #4 call rows 3 and 4 permanently withdrawn, while #11 §13 lists them as withdrawn and under review. The page quotes the earlier documents as their findings and then gives #11's standing.",
@@ -1638,7 +1638,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/method/collaboration.md"
    ],
    "note": "Internal to #11: §13 rows 7 and 11 name two dark-sector candidates where §12 and §14 item 9 count three (flag 63, pending). Stated on the collaboration page as a pending flag; the source is unchanged.",
@@ -1647,7 +1647,7 @@
   {
    "files": [
     "wiki/method/lakatosian-methodology.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "'one way to keep the candidate' referred to #14's model, which conflicts with the wiki's use of 'candidate' for the untested conjugate monopoles. Changed to 'keep the model'.",
    "fixed": true
@@ -1671,7 +1671,7 @@
   {
    "files": [
     "wiki/method/review/round-5.md",
-    "papers/phase-space-diameter.md"
+    "wiki/papers/phase-space-diameter.md"
    ],
    "note": "round-5.md says §6's section 'is now headed \"Under review: the square rectangle at the bounce\"'. The note's actual heading continues '(an obituary until v1.1)'. The page's quotation drops the parenthetical while saying 'is now headed'. Minor, and outside this batch.",
    "fixed": false
@@ -1705,7 +1705,7 @@
   {
    "files": [
     "wiki/method/review/rounds-one-and-two.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The status line called the pending list R1-R7 simply 'moot', while the page's F2 entry and #11 §11.4 keep R1's supersymmetry burden open, and §11.4 also keeps R2's factor-of-4 convention spread open, as items of P.R.'s magnetic-mirror conjecture. Changed to 'moot for #14'.",
    "fixed": true
@@ -1713,7 +1713,7 @@
   {
    "files": [
     "wiki/method/review/round-5.md",
-    "papers/phase-space-diameter.md",
+    "wiki/papers/phase-space-diameter.md",
     "CLAUDE.md"
    ],
    "note": "The root CLAUDE.md lists 'the self-dual length as a program scale' among the claims under review, but note v1.2 relabels only the §6 claim. Its §9 rows still read '**excluded**' for the self-dual length as Born length and as X's range, with no under-review label. The wiki follows the root CLAUDE.md, which ranks first in its precedence. The source documents are outside this clean-up, so this is left as it is.",
@@ -1722,7 +1722,7 @@
   {
    "files": [
     "wiki/method/review/round-5.md",
-    "papers/phase-space-diameter.md"
+    "wiki/papers/phase-space-diameter.md"
    ],
    "note": "The note's header, §6 heading ('(an obituary until v1.1)') and §9 row ('under P.R.'s review since 2026-10-29 (not dead)') still carry the wording the wiki no longer quotes, so the page's Version 1.2 section paraphrases them. The status is the same in both; only the wording differs. The sources stay unchanged in this clean-up.",
    "fixed": false
@@ -1759,7 +1759,7 @@
   {
    "files": [
     "wiki/method/verification/the-gate.md",
-    "papers/conjugate-special-relativity.md",
+    "wiki/papers/conjugate-special-relativity.md",
     "verify/phase_space_diameter.py",
     "verify/velocity_gated_gravity.py"
    ],
@@ -1826,7 +1826,7 @@
   {
    "files": [
     "wiki/phase-space/modular-field/lagrangian-grassmannian.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "notes/closed-universe.md"
    ],
    "note": "A small tag difference between sources on the homotopy of Λ(4). #11 §14 item 12 tags π₁ = ℤ and π₂ = ℤ₂ as [T], 'with the maps behind them gated'; notes/closed-universe.md §8 tags π₁ and π₃ as [T][V] and π₂ as [T]. The page's table follows the note and its Sources cite both, each with its own tags. The substance agrees. No tag was changed.",
@@ -1837,8 +1837,8 @@
     "wiki/phase-space/modular-field/modular-inversion.md",
     "wiki/phase-space/modular-field/gaussian-states.md",
     "wiki/phase-space/modular-field/modular-field-z.md",
-    "papers/broken-born-checkpoint-v2.md",
-    "papers/phase-space-diameter.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/phase-space-diameter.md",
     "review/wiki-build-flags.md"
    ],
    "note": "Already recorded, not new: #11 §6 and §10 identify a·ã = 1 with the |Z| = 1 locus, while flag 23 and phase-space-diameter note §5 find a·ã = 1 on the whole slice X = 0, with |Z| = 1 meeting that slice only at Z = i. The pages quote both sides and point to the flag, now worded as pending. The review file has no ruling on flags 23, 24 or 39; flag 55's ruling line records a deferral. No page corrects the source.",
@@ -1847,11 +1847,11 @@
   {
    "files": [
     "wiki/phase-space/reciprocity/born-length.md",
-    "papers/phase-space-diameter.md",
+    "wiki/papers/phase-space-diameter.md",
     "notes/phase-space-diameter-worklog.md",
     "notes/closed-universe.md"
    ],
-   "note": "'What the Born length is' said of the term 'Born length': 'The term occurs in no other document of the program.' A search of papers/, notes/, popsci/ and HANDOFF.md, including matches across line breaks, finds it in #13 (2), papers/phase-space-diameter.md (17), its worklog (1) and notes/closed-universe.md (1). The same page quotes the diameter note using the term. Rewritten as: 'Among the program's papers and notes the term occurs only in #13, the phase-space-diameter note with its worklog, and the closed-universe note.' This is the only sentence in the batch changed for accuracy rather than narration; the fix-up or audit pass may want to check it.",
+   "note": "'What the Born length is' said of the term 'Born length': 'The term occurs in no other document of the program.' A search of papers/, notes/, popsci/ and HANDOFF.md, including matches across line breaks, finds it in #13 (2), wiki/papers/phase-space-diameter.md (17), its worklog (1) and notes/closed-universe.md (1). The same page quotes the diameter note using the term. Rewritten as: 'Among the program's papers and notes the term occurs only in #13, the phase-space-diameter note with its worklog, and the closed-universe note.' This is the only sentence in the batch changed for accuracy rather than narration; the fix-up or audit pass may want to check it.",
    "fixed": true
   },
   {
@@ -1864,7 +1864,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/predictions/_index.md",
     "wiki/predictions/direct-detection-null.md",
     "wiki/predictions/dark-sector-microstructure.md"
@@ -1875,7 +1875,7 @@
   {
    "files": [
     "review/wiki-build-flags.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/predictions/_index.md",
     "wiki/predictions/direct-detection-null.md",
     "wiki/predictions/dark-sector-microstructure.md"
@@ -1885,7 +1885,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11 §11.4 calls p-localization \"open since v2.0\", while §14 item 8 says v2.1 closed it and v2.4 reopened it. No physics turns on this. The batch's pages now say only that it is open [O]; the source is unchanged.",
    "fixed": false
@@ -1902,7 +1902,7 @@
    "files": [
     "wiki/predictions/monopole-null.md",
     "wiki/electric-magnetic-duality/conjugate-monopoles.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11 words the same correction two ways: 'true but irrelevant' is 'the empty set' in section 11.1 and 'measure zero' in App. A item 5. Row 8 quotes both. conjugate-monopoles.md already records this as unresolved under 'Two wordings, one status, unresolved'. It is a source-level difference, so I left it.",
    "fixed": false
@@ -1934,7 +1934,7 @@
    "files": [
     "wiki/predictions/table-history.md",
     "wiki/program/assessment.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11 §13 rows 7 and 11 name two dark-sector candidates, while §12 and §14 item 9 count three (flag 63, pending). The pages state the mismatch; only a ruling can change the rows.",
    "fixed": false
@@ -1944,7 +1944,7 @@
     "wiki/predictions/self-interaction-knee.md",
     "wiki/predictions/table-history.md",
     "wiki/program/assessment.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "notes/gate-mechanism.md"
    ],
    "note": "#11 §8 tags the gate's mechanism [D], while notes/gate-mechanism.md (not reviewed) finds that exchanging X cannot produce the gate (flag 55, pending). The pages give both.",
@@ -1961,7 +1961,7 @@
   {
    "files": [
     "wiki/program/conjugate-universe.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11's documents write τ's potential as V = V₀[1 + cos(τ/f)], never negative for V₀ > 0, while the turnaround is stated as needing it to go negative (flag 27 and addendum). The page states this.",
    "fixed": false
@@ -1985,7 +1985,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/program/founding-suppositions.md"
    ],
    "note": "Inside #11: App. A item 5 says 'open in both halves', but then calls the ontology half 'alive and consequence-bearing', and §11.1 also says 'As ontology: alive'. The page reports each as the source words it and counts item 5 among the three open items. A source-level wording clash, so not corrected.",
@@ -1993,7 +1993,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/program/postulates/p4-polarized-matter.md"
    ],
    "note": "#11 §13 row 7 still says 'both dark-sector candidates' while §12 lists three. This is flag 63, pending, and the P4 page states it. The flag's proposed wording is addressed to 'a v2.4.1', though #11 is now v2.5; I dropped that phrase from the page.",
@@ -2002,7 +2002,7 @@
   {
    "files": [
     "HANDOFF.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/program/founding-suppositions.md"
    ],
    "note": "HANDOFF §2 lists items 3, 5 and 9 among its failed claims and ties the ontology to the soliton candidate; #11 records all three as open and the candidacy as P.R.'s conjecture. The wiki's source precedence settles this in #11's favour. The page states the difference in one neutral sentence and one bullet, linking the handoff's 'The list of failed claims'.",
@@ -2010,7 +2010,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/program/founding-suppositions.md",
     "wiki/electric-magnetic-duality/monopole-explanation.md"
    ],
@@ -2020,7 +2020,7 @@
   {
    "files": [
     "wiki/program/founding-suppositions.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "The page's fate vocabulary listed the qualifier 'modified', which current App. A no longer uses. Removed.",
    "fixed": true
@@ -2028,7 +2028,7 @@
   {
    "files": [
     "wiki/program/postulates/nontriviality-theorem.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "'Current form in #11 §4–§5 (v2.0 to v2.4)' was stale against #11 v2.5. Dropped the version range.",
    "fixed": true
@@ -2052,7 +2052,7 @@
    "files": [
     "wiki/summary.md",
     "wiki/_index.md",
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/status/conjectures.md"
    ],
    "note": "wiki/summary.md ('All are open [O]: none is derived') and wiki/_index.md ('P.R.'s open conjectures') count 'dark matter is conjugate matter' among the open [O] conjectures. #11 App. A item 4 records it as 'alive, P.R.'s core conjecture' with no [O]; only each candidate in #11 §12 is O. conjectures.md quotes the source. The summary and home page are finished and outside this batch, so they are unchanged.",
@@ -2103,7 +2103,7 @@
   {
    "files": [
     "wiki/status/open-problems.md",
-    "papers/broken-born-checkpoint-v2.md"
+    "wiki/papers/broken-born-checkpoint-v2.md"
    ],
    "note": "#11 §13 rows 7 and 11 still name two dark-sector candidates where §12 and §14 item 9 count three. This is flag 63, pending. The page reports it and corrects nothing.",
    "fixed": false
@@ -2151,7 +2151,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "wiki/status/superseded.md"
    ],
    "note": "#11 §13 rows 7 and 11 name two dark-sector candidates, while §12 and §14 item 9 count three. This is a conflict inside the source (flag 63, pending). The register states it and does not resolve it.",
@@ -2182,7 +2182,7 @@
   },
   {
    "files": [
-    "papers/broken-born-checkpoint-v2.md",
+    "wiki/papers/broken-born-checkpoint-v2.md",
     "notes/closed-universe.md",
     "review/monopoles/README.md",
     "verify/closed_universe.py",
@@ -2234,7 +2234,7 @@
    "files": [
     "CLAUDE.md",
     "review/wiki-build-flags.md",
-    "papers/reciprocity-toy-models.md"
+    "wiki/papers/reciprocity-toy-models.md"
    ],
    "note": "The Layout line in the root CLAUDE.md says of the toy note 'Round 4: B; v2 applies the revisions', but note v2 §4 says revision 4's Langmann–Szabo–Zarembo comparison was not carried out. Flag 42 names only the adjudication and the worklog for this overstatement, not this line. The batch pages state the gap correctly.",
    "fixed": false

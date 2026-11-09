@@ -543,7 +543,7 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 8 (k the incoming relative momentum) (repo)",
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 8 (k the incoming relative momentum) (repo)",
     "notes/broken-born-theory.md sec. 5.1 via wiki gate-mechanism page (mu ~ 20 keV) (repo)",
     "Will 2014 [S]"
    ]
@@ -570,11 +570,11 @@
    "id": "O22",
    "statement": "Scope relative to the program. #11 sec. 7.5 and the diameter note sec. 8.2 give the program's documented coupling of X to ordinary matter: gravitational strength, cut off as a Yukawa in position, with lambda_X < 37.7 micrometres in the aligned vacuum. A velocity gate multiplying that Yukawa would act at no separation used in O11-O16. It also leaves the torsion-balance range bound unchanged, because those test and source masses are nearly at rest relative to each other, so W is about W(0) = 1. The bounds here therefore apply to a long-range, universal gated term coupling to ordinary matter. A gate confined to chi-chi interactions (P4 strict; the gate mechanism of calc note #6 sec. 4 is defined by the fiber overlap of single chi quanta) is untouched by every test above. So are the clumping obituary's results, which concern dark-matter collective dynamics at a coupling fixed by dwarf-galaxy cores.",
    "tag": "[D] (conditional reasoning); program inputs from repo documents",
-   "basis": "papers/phase-space-diameter.md sec. 8.2; papers/broken-born-checkpoint-v2.md secs. 7.5, 8, 9; wiki gate-mechanism page; the argument W(0) = 1 for masses nearly at relative rest.",
+   "basis": "wiki/papers/phase-space-diameter.md sec. 8.2; wiki/papers/broken-born-checkpoint-v2.md secs. 7.5, 8, 9; wiki gate-mechanism page; the argument W(0) = 1 for masses nearly at relative rest.",
    "confidence": "medium",
    "sources": [
-    "papers/phase-space-diameter.md sec. 8.2 (repo)",
-    "papers/broken-born-checkpoint-v2.md secs. 4, 7.5, 8, 9 (repo)",
+    "wiki/papers/phase-space-diameter.md sec. 8.2 (repo)",
+    "wiki/papers/broken-born-checkpoint-v2.md secs. 4, 7.5, 8, 9 (repo)",
     "notes/x-classification.md sec. 4 via wiki/dark-matter/conjugate-matter/gate-mechanism.md (repo)"
    ]
   },

@@ -37,7 +37,7 @@
     "wiki/conjugate-relativity/two-cones-inconsistency.md (lines 1-24, 70-99)",
     "wiki/_index.md (grep; charge-lattice line :26 and strip entries)",
     "wiki/CLAUDE.md (supplied in context; only :66 tree row mentions monopoles/charge lattices)",
-    "papers/broken-born-checkpoint-v2.md (cross-reference: lines 18, 45, 108-160, 172, 192, 205-223 via sed/grep)",
+    "wiki/papers/broken-born-checkpoint-v2.md (cross-reference: lines 18, 45, 108-160, 172, 192, 205-223 via sed/grep)",
     "HANDOFF.md (cross-reference: grep lines 26, 31, 32, 35, 37, 60, 61, 88)",
     "review/wiki-build-flags.md (cross-reference: lines 1-60, 154-162, 198-206, 241-248; grep for rulings)",
     "scripts/check.sh (whole; confirms verify/soliton_obituary.py and verify/toy_coset.py are gated)",
@@ -45,7 +45,7 @@
     "verify/soliton_obituary.py (grep :18, :40, :52-65, :78)",
     "review/round3/referee/audit-notes.md (lines 168-175 and grep)",
     "review/round3-adjudication.md (grep :31)",
-    "papers/reciprocity-toy-models.md (grep; no charge, electric, magnetic or monopole content)",
+    "wiki/papers/reciprocity-toy-models.md (grep; no charge, electric, magnetic or monopole content)",
     "wiki/dark-matter/candidates/soliton-candidate/overproduction.md (grep only, to check the overproduction-range cross-reference; partition F1)"
    ],
    "claims": [
@@ -61,7 +61,7 @@
      "claim": "Founding supposition 5 is dead as an explanation of non-detection, for two reasons: the relevant duality is electric–magnetic, not x↔p, and inflationary dilution already accounts for the absence.",
      "tag": "[D] for the audit; [T] for inflationary dilution",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:116; wiki/electric-magnetic-duality/monopole-explanation.md:50 (frontmatter :4 status dead, :6 provenance [D, T]; 14 sources incl. #11 §11.1, App. A item 5, HANDOFF §2, #1 §9, #9 §9, README, flag 37)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116; wiki/electric-magnetic-duality/monopole-explanation.md:50 (frontmatter :4 status dead, :6 provenance [D, T]; 14 sources incl. #11 §11.1, App. A item 5, HANDOFF §2, #1 §9, #9 §9, README, flag 37)",
      "quote": "As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T].",
      "topic": "monopole audit"
     },
@@ -69,7 +69,7 @@
      "claim": "Appendix A records supposition 5 as split: dead as explanation, alive as ontology, and the knot candidate it fed is retired.",
      "tag": "untagged (App. A audit)",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:217; wiki/electric-magnetic-duality/monopole-explanation.md:73",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:217; wiki/electric-magnetic-duality/monopole-explanation.md:73",
      "quote": "Monopoles live in conjugate space, explaining non-detection — split: as explanation, dead (wrong duality; inflation suffices); as ontology, alive and consequence-bearing (P.R.'s \"true-but-irrelevant is measure zero\"); the knot candidate it fed is retired (§12).",
      "topic": "founding supposition 5"
     },
@@ -93,7 +93,7 @@
      "claim": "Ontology half, alive: if conjugate-sector solitons (monopoles) exist they gravitate by P4, so 'true but irrelevant' is empty. #11's plain form (:114) is 'if such objects exist, they must matter, because everything gravitates'. Their candidacy as dark matter is retired. The argument rests on P4 alone, with no calculation or script.",
      "tag": "[D]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:116, :114; wiki/electric-magnetic-duality/conjugate-monopoles.md:33 (frontmatter :4 status alive, :6 provenance [D]; status line :27)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116, :114; wiki/electric-magnetic-duality/conjugate-monopoles.md:33 (frontmatter :4 status alive, :6 provenance [D]; status line :27)",
      "quote": "As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; \"true but irrelevant\" is the empty set (a correction supplied by P.R.). Their candidacy as the dark matter itself is retired in v2.1 (§12).",
      "topic": "conjugate monopoles as ontology"
     },
@@ -109,7 +109,7 @@
      "claim": "P4: x-polarized (Standard Model) and p-polarized (χ) matter both couple universally to H, and gauge forces do not cross polarizations. Taken strictly since v2.1: no kinetic mixing beyond what gravity induces, ε ≲ 10⁻¹³, and zero if hidden charge conjugation is exact.",
      "tag": "[P]; [27S] for the bound",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:45; wiki/electric-magnetic-duality/conjugate-monopoles.md:47, :51",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45; wiki/electric-magnetic-duality/conjugate-monopoles.md:47, :51",
      "quote": "Matter comes in x-polarized (Standard Model) and p-polarized (χ) representations; both couple universally to H; gauge forces do not cross polarizations.",
      "topic": "P4 sector separation"
     },
@@ -133,7 +133,7 @@
      "claim": "v2.0 proposed topological solitons of a p-local gauge sector as a third dark-matter candidate, stable by topological charge and slipping through the clumping loophole because topology would localize them in momentum.",
      "tag": "untagged",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:139; wiki/electric-magnetic-duality/conjugate-monopoles.md:67; wiki/symmetry-breaking/topological-defects.md:173",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:139; wiki/electric-magnetic-duality/conjugate-monopoles.md:67; wiki/symmetry-breaking/topological-defects.md:173",
      "quote": "v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the clumping loophole (§9), since topology, not collective dynamics, would localize them in momentum.",
      "topic": "soliton candidate"
     },
@@ -149,7 +149,7 @@
      "claim": "The candidate, #14's superheavy 't Hooft–Polyakov monopoles of a hidden SU(2) → U(1) sector, was retired on 2026-10-19 after round 3 found its Kibble abundance misnormalized. The framework is compatible with prior-art PeV-scale topological dark matter and adds nothing testable.",
      "tag": "untagged verdict; the [V] numbers are gated in verify/soliton_obituary.py",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:141, :150; wiki/electric-magnetic-duality/conjugate-monopoles.md:69-70; wiki/symmetry-breaking/topological-defects.md:179",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:141, :150; wiki/electric-magnetic-duality/conjugate-monopoles.md:69-70; wiki/symmetry-breaking/topological-defects.md:179",
      "quote": "Retired as a program-native candidate. The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it.",
      "topic": "soliton candidate"
     },
@@ -157,7 +157,7 @@
      "claim": "Laboratory shadow: Weyl semimetals host momentum-space Berry-curvature monopoles, 'right geometry, different flux', and row 8 calls them 'the only shadow'. The wiki reads 'right geometry' as the monopole sitting in momentum space, the space the conjugate sector is polarized toward, and reads the shadow as an analog, not a test. The documents do not say what the phrase commits the program to.",
      "tag": "[16†] (memory citation awaiting the † literature battery); the wiki readings are untagged",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:116; wiki/electric-magnetic-duality/conjugate-monopoles.md:76, :78, :80; wiki/predictions/monopole-null.md:88",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116; wiki/electric-magnetic-duality/conjugate-monopoles.md:76, :78, :80; wiki/predictions/monopole-null.md:88",
      "quote": "Their laboratory shadow is real: Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux.",
      "topic": "Berry-curvature monopoles"
     },
@@ -165,7 +165,7 @@
      "claim": "Row 8 of #11 §13, monopoles of our sector: the standard expectation is model-dependent. The program requires a permanent null, with Berry-curvature monopoles in solids as the only shadow, and is killed by a direct detection. The row is untagged and not machine-checked.",
      "tag": "untagged row; the audit behind it is [D], its account of the absence [T], the shadow [16†]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:172; wiki/predictions/monopole-null.md:28, :36 (frontmatter :4 status alive, no provenance; 17 sources incl. #11 §13 row 8, flags 28 and 37, README)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:172; wiki/predictions/monopole-null.md:28, :36 (frontmatter :4 status alive, no provenance; 17 sources incl. #11 §13 row 8, flags 28 and 37, README)",
      "quote": "| 8 | Magnetic monopoles (ours) | Model-dependent | Permanent null; Berry-curvature monopoles in solids as the only shadow | Direct detection |",
      "topic": "row 8"
     },
@@ -189,7 +189,7 @@
      "claim": "Row 8 is not part of the program's near-term falsification exposure, which is rows 1, 4 and 7. The existing flux limits are consistent with the row and cannot confirm it.",
      "tag": "untagged",
      "status": "alive",
-     "source": "wiki/predictions/monopole-null.md:107; papers/broken-born-checkpoint-v2.md:207",
+     "source": "wiki/predictions/monopole-null.md:107; wiki/papers/broken-born-checkpoint-v2.md:207",
      "quote": "These limits are consistent with the row and cannot confirm it. #11 §15 names rows 1, 4 and 7 as the program's near-term falsification exposure; row 8 is not among them.",
      "topic": "row 8 exposure"
     },
@@ -205,7 +205,7 @@
      "claim": "Founding supposition 11, a full magnetic mirror-family with quarks included, is alive as established physics (Montonen–Olive, Seiberg, the dual superconductor). It was absorbed as §11, with the polarization identification as the program's own addition.",
      "tag": "[T]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:223; wiki/electric-magnetic-duality/magnetic-mirror-family.md:32 (frontmatter :4 status established, :6 provenance [T]; status line :26)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:223; wiki/electric-magnetic-duality/magnetic-mirror-family.md:32 (frontmatter :4 status established, :6 provenance [T]; status line :26)",
      "quote": "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition.",
      "topic": "magnetic mirror-family"
     },
@@ -213,7 +213,7 @@
      "claim": "§11.2: Montonen–Olive duality is exact in maximally supersymmetric Yang–Mills; 'magnetic quarks' come from Seiberg duality; the dual superconductor is the leading mechanism of confinement. #11 does not explain its label '17†-adjacent'.",
      "tag": "[T]; [17†-adjacent; 18†]; 't Hooft–Mandelstam† (no reference entry)",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/magnetic-mirror-family.md:40, :48",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/magnetic-mirror-family.md:40, :48",
      "quote": "The conjecture that every electrically charged particle has a magnetic counterpart is Montonen–Olive duality [17†-adjacent; 18†], exact in maximally supersymmetric Yang–Mills",
      "topic": "dual spectrum"
     },
@@ -221,7 +221,7 @@
      "claim": "Our own magnetic sector is unseen for structural reasons: Dirac's condition pins our magnetic coupling near 34, which makes the magnetic world our strong-coupling mirror, heavy and bound. The wiki marks its readings of 'heavy' (a soliton mass 4πf v/g) and 'bound' (strong attraction) as its own.",
      "tag": "[T]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/magnetic-mirror-family.md:60, :62",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/magnetic-mirror-family.md:60, :62",
      "quote": "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.",
      "topic": "why our monopoles are unseen"
     },
@@ -253,7 +253,7 @@
      "claim": "§11.2 parallels §7. In both dualities the structure hides the second half: the strong coupling that Dirac's condition forces hides the magnetic particles, and the mass X acquires when the polarization is chosen hides the second metric X. In this parallel the hidden half on the reciprocity side is X, the momentum graviton, and #11 does not develop the parallel further.",
      "tag": "untagged italic in #11; the wiki table marks the two sides [T] and [D + T] (§7.1)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/magnetic-mirror-family.md:85, :89-96",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/magnetic-mirror-family.md:85, :89-96",
      "quote": "Same explanatory shape as §7: the duality is genuine, and its structure hides its second half.",
      "topic": "monopoles vs comatter"
     },
@@ -349,7 +349,7 @@
      "claim": "§11.3: the DSZ pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ is an antisymmetric integer form, so the charge lattice is a symplectic space.",
      "tag": "[D — structural; math T]; [17†]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:44 (frontmatter :4 status alive, :6 provenance [D, T]; status line :32); wiki/phase-space/reciprocity/symplectic-form.md:112 (frontmatter status established, [T])",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:44 (frontmatter :4 status alive, :6 provenance [D, T]; status line :32); wiki/phase-space/reciprocity/symplectic-form.md:112 (frontmatter status established, [T])",
      "quote": "The Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ is an antisymmetric integer form: the charge lattice is a symplectic space [17†].",
      "topic": "symplectic charge lattice"
     },
@@ -357,7 +357,7 @@
      "claim": "Mutual locality, ⟨q,q′⟩ = 0, defines a Lagrangian sublattice. Choosing a duality frame (electric meaning fundamental, magnetic meaning solitonic) is choosing a Lagrangian polarization of charge space, 'in the literature's own words', a phrase #11 does not cite.",
      "tag": "[D — structural; math T]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:71, :79, :83; wiki/phase-space/reciprocity/lagrangian-polarizations.md:82",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:71, :79, :83; wiki/phase-space/reciprocity/lagrangian-polarizations.md:82",
      "quote": "Choosing a duality frame — which particles are \"electric\" (fundamental) versus \"magnetic\" (solitonic) — is choosing a Lagrangian polarization of charge space, in the literature's own words.",
      "topic": "duality frame = polarization"
     },
@@ -365,7 +365,7 @@
      "claim": "One matrix appears three times: [[0,1],[−1,0]] generates S-duality τ_c → −1/τ_c, Born's ρ and the modular inversion Z → −Z⁻¹.",
      "tag": "[D — structural; math T]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:87; wiki/phase-space/modular-field/modular-inversion.md:127 (frontmatter status alive, provenance [D]); wiki/phase-space/reciprocity/born-reciprocity.md:132 (frontmatter status established, [T])",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:87; wiki/phase-space/modular-field/modular-inversion.md:127 (frontmatter status alive, provenance [D]); wiki/phase-space/reciprocity/born-reciprocity.md:132 (frontmatter status established, [T])",
      "quote": "S-duality acts on the complexified coupling by τ_c → −1/τ_c, generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program.",
      "topic": "recurring matrix"
     },
@@ -413,7 +413,7 @@
      "claim": "OP8 conjecture: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure, on the analogy of T- and S-duality inside U-duality. Nothing toward it is derived or machine-checked, and #11 does not name the structure or say how the components combine (:53).",
      "tag": "[O]; the U-duality analogy is [T]",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/unified-modular-structure.md:35 (frontmatter :4 status open, :6 provenance [O]; status line :27; :53)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120; wiki/electric-magnetic-duality/unified-modular-structure.md:35 (frontmatter :4 status open, :6 provenance [O]; status line :27; :53)",
      "quote": "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure — the BBT-native analog of T- and S-duality cohabiting inside U-duality in string theory [T].",
      "topic": "OP8"
     },
@@ -421,7 +421,7 @@
      "claim": "§14 item 8 asks to formalize §11.3's unification. It is not in the current queue, and nothing in papers/, notes/ or verify/ works toward it.",
      "tag": "[O]",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:192; wiki/electric-magnetic-duality/unified-modular-structure.md:31, :96-97",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:192; wiki/electric-magnetic-duality/unified-modular-structure.md:31, :96-97",
      "quote": "8. Charge-lattice polarization: formalize §11.3's unification [O]. (The soliton-spectrum and p-localization items are closed by the §12 obituary.)",
      "topic": "OP8"
     },
@@ -453,7 +453,7 @@
      "claim": "#11 counts the §11.3 unification as progress: 'one structural unification' and 'the §11.3 unification generating new questions'. Its abstract says the charge lattice 'furnishes a second arena in which the same polarization choice recurs'.",
      "tag": "untagged (self-assessment)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:205, :207, :18; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:108-109; wiki/electric-magnetic-duality/unified-modular-structure.md:95; wiki/_index.md:26",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:205, :207, :18; wiki/electric-magnetic-duality/symplectic-charge-lattice.md:108-109; wiki/electric-magnetic-duality/unified-modular-structure.md:95; wiki/_index.md:26",
      "quote": "one structural unification (polarization of phase space and of charge space as one move)",
      "topic": "self-assessment"
     },
@@ -461,7 +461,7 @@
      "claim": "#11's plain-language passage for §11 says that choosing which particles count as electric is mathematically the same move as choosing which directions count as position.",
      "tag": "untagged (italic passage)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:114",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:114",
      "quote": "choosing which particles count as \"electric\" is mathematically the same move as choosing which directions count as \"position\" — the same rotation matrix generates both dualities. Two intuitions, one operation.",
      "topic": "monopoles vs comatter"
     },
@@ -477,7 +477,7 @@
      "claim": "The dual superconductor, chromomagnetic monopole condensation squeezing color-electric flux into strings, is the leading mechanism for why free quarks are not seen. The program adds no claim of its own. #12's conditional 'inside every proton' is popsci-only.",
      "tag": "[T, 't Hooft–Mandelstam†]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/dual-superconductor.md:15, :44, :62 (frontmatter :4 status established, :6 provenance [T])",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118; wiki/electric-magnetic-duality/dual-superconductor.md:15, :44, :62 (frontmatter :4 status established, :6 provenance [T])",
      "quote": "the dual-superconductor picture of confinement — chromomagnetic monopole condensation squeezing color-electric flux into strings — is the leading mechanism for why free quarks are never seen [T, 't Hooft–Mandelstam†]",
      "topic": "dual superconductor"
     },
@@ -485,7 +485,7 @@
      "claim": "What survived the soliton obituary: a weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization. In #14's form, α_m = g_m²/4π = 1/α_W′.",
      "tag": "[T]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:152; wiki/electric-magnetic-duality/monopoles/dirac-quantization.md:94, :121 (frontmatter :4 status established, :6 provenance [T]); wiki/electric-magnetic-duality/magnetic-mirror-family.md:81",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:152; wiki/electric-magnetic-duality/monopoles/dirac-quantization.md:94, :121 (frontmatter :4 status established, :6 provenance [T]); wiki/electric-magnetic-duality/magnetic-mirror-family.md:81",
      "quote": "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T].",
      "topic": "weak-to-strong"
     },
@@ -533,7 +533,7 @@
      "claim": "Hidden-sector monopoles avoid overclosure only for breaking scales ≲ 100 PeV or with early matter domination. Below that scale, annihilation in the hidden plasma sets the abundance: the established topological-dark-matter scenario, which does not depend on Born reciprocity.",
      "tag": "[29S]; [28S, 29S]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:147-148; wiki/electric-magnetic-duality/monopoles/monopole-problem.md:65",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:147-148; wiki/electric-magnetic-duality/monopoles/monopole-problem.md:65",
      "quote": "Below that scale, annihilation in the hidden plasma sets the abundance. That is the established topological-dark-matter scenario [28S, 29S], and nothing in it depends on Born reciprocity.",
      "topic": "hidden monopoles"
     },
@@ -549,7 +549,7 @@
      "claim": "The Kibble mechanism gives at least about one defect per Hubble volume, a floor and not a ceiling (ruling 3), with p ≈ 104 [V] gated. #14 v3's p ~ 0.023 'as the upper end' had dropped the Friedmann factor (ruling 1).",
      "tag": "[T]; p ≈ 104 [V]; rulings 1 and 3",
      "status": "ruling",
-     "source": "papers/broken-born-checkpoint-v2.md:145; wiki/electric-magnetic-duality/monopoles/kibble-mechanism.md:29, :91-92 (frontmatter :4 status established, :6 provenance [T]); wiki/electric-magnetic-duality/monopoles/_index.md:11",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:145; wiki/electric-magnetic-duality/monopoles/kibble-mechanism.md:29, :91-92 (frontmatter :4 status established, :6 provenance [T]); wiki/electric-magnetic-duality/monopoles/_index.md:11",
      "quote": "One defect per Hubble volume gives p ≈ 104 [V], and that is the causal minimum; Kibble–Zurek and bubble-nucleation production only add to it [28S].",
      "topic": "Kibble normalization"
     },
@@ -557,7 +557,7 @@
      "claim": "The topological loophole, momentum-space localization of individual objects by topology, remains untested and has no candidate. App. A item 3 also calls it untested, while §14 item 8 calls the p-localization items closed.",
      "tag": "untagged",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:154, :215, :192; wiki/electric-magnetic-duality/conjugate-monopoles.md:84-86; wiki/symmetry-breaking/topological-defects.md:191, :195",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:154, :215, :192; wiki/electric-magnetic-duality/conjugate-monopoles.md:84-86; wiki/symmetry-breaking/topological-defects.md:191, :195",
      "quote": "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate.",
      "topic": "topological loophole"
     },
@@ -616,7 +616,7 @@
     {
      "quantity": "#11 §11.2's expression for our magnetic coupling",
      "value": "4π/e² ≈ 34; flag 28: 4π/e² = 1/α ≈ 137 and 34 = π/e² = 1/(4α)",
-     "source": "papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198",
      "provenance": "Not executed in verify/. The flag's check is review/wiki-build-checks/dirac_coupling_check.py, outside the gate; two audit checks confirmed the flag."
     },
     {
@@ -688,7 +688,7 @@
     {
      "quantity": "Overclosure scale for hidden-sector monopoles",
      "value": "breaking scales ≳ 100 PeV overclose unless diluted",
-     "source": "papers/broken-born-checkpoint-v2.md:147",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:147",
      "provenance": "Literature [29S] (Liveoak–Maharana–Wells); not executed."
     },
     {
@@ -700,7 +700,7 @@
     {
      "quantity": "Strict-P4 bound on kinetic mixing",
      "value": "ε ≲ 10⁻¹³ (first at six loops; zero if hidden charge conjugation is exact)",
-     "source": "papers/broken-born-checkpoint-v2.md:45",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45",
      "provenance": "Literature [27S]; not executed in this repo."
     },
     {
@@ -712,7 +712,7 @@
     {
      "quantity": "Overproduction of the 3×10¹³ GeV benchmark at minimum production, and the closing mass",
      "value": "2.1×10³–1.2×10⁴; M* = 2.9–4.4×10¹² GeV",
-     "source": "papers/broken-born-checkpoint-v2.md:146",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:146",
      "provenance": "[V], gated in verify/soliton_obituary.py:78."
     },
     {
@@ -760,7 +760,7 @@
     {
      "when": "v2.0 (#11)",
      "event": "Section 11 (charge lattice) is added. The monopole audit splits supposition 5, row 8's observable becomes 'Magnetic monopoles (ours)', and conjugate solitons of a p-local gauge sector are proposed as a third dark-matter candidate.",
-     "source": "wiki/predictions/monopole-null.md:117; HANDOFF.md:60; papers/broken-born-checkpoint-v2.md:139"
+     "source": "wiki/predictions/monopole-null.md:117; HANDOFF.md:60; wiki/papers/broken-born-checkpoint-v2.md:139"
     },
     {
      "when": "#14 review round 1 (undated here)",
@@ -795,7 +795,7 @@
     {
      "when": "2026-10-19 (#11 v2.1)",
      "event": "#11 v2.1 makes P4 strict; §11.1 records the candidacy as retired; the §12 obituary is written.",
-     "source": "papers/broken-born-checkpoint-v2.md:45, :137; wiki/electric-magnetic-duality/conjugate-monopoles.md:69"
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45, :137; wiki/electric-magnetic-duality/conjugate-monopoles.md:69"
     },
     {
      "when": "2026-10-20 (#11 v2.2)",
@@ -822,8 +822,8 @@
     {
      "description": "Inside #11: §11.1 says 'true but irrelevant' is 'the empty set', while App. A item 5 records P.R.'s phrase as 'measure zero'. The checkpoint does not reconcile them; the verdict is the same under either.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:217",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:217",
       "wiki/electric-magnetic-duality/monopole-explanation.md:79",
       "wiki/electric-magnetic-duality/conjugate-monopoles.md:59"
      ]
@@ -831,9 +831,9 @@
     {
      "description": "Inside #11: §14 item 8 says the soliton-spectrum and p-localization items are 'closed by the §12 obituary', but §12 says the topological clumping loophole 'remains untested, but has no candidate' and App. A item 3 calls it untested.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:192",
-      "papers/broken-born-checkpoint-v2.md:154",
-      "papers/broken-born-checkpoint-v2.md:215",
+      "wiki/papers/broken-born-checkpoint-v2.md:192",
+      "wiki/papers/broken-born-checkpoint-v2.md:154",
+      "wiki/papers/broken-born-checkpoint-v2.md:215",
       "wiki/electric-magnetic-duality/conjugate-monopoles.md:86",
       "wiki/electric-magnetic-duality/unified-modular-structure.md:91",
       "wiki/symmetry-breaking/topological-defects.md:195"
@@ -842,7 +842,7 @@
     {
      "description": "Flag 28: #11 §11.2 writes '4π/e² ≈ 34' beside e·g ~ 2π. With α = e²/4π that expression is 1/α ≈ 137; the 34 is π/e² = 1/(4α). The flag is confirmed and awaits Paul's ruling; the wiki quotes #11 unchanged.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:118",
+      "wiki/papers/broken-born-checkpoint-v2.md:118",
       "review/wiki-build-flags.md:198",
       "wiki/electric-magnetic-duality/magnetic-mirror-family.md:72",
       "wiki/electric-magnetic-duality/monopoles/dirac-quantization.md:104",
@@ -853,7 +853,7 @@
      "description": "The HANDOFF ties the alive ontology to the soliton candidate ('As ontology they're alive (the soliton candidate)'), while #11 keeps the ontology alive and retires the candidacy. The wiki resolves this by precedence in #11's favour.",
      "sources": [
       "HANDOFF.md:31",
-      "papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
       "wiki/electric-magnetic-duality/conjugate-monopoles.md:72"
      ]
     },
@@ -882,7 +882,7 @@
       "popsci/universes-other-half.md",
       "wiki/electric-magnetic-duality/magnetic-identification.md:27, :53",
       "HANDOFF.md:26",
-      "papers/broken-born-checkpoint-v2.md:45",
+      "wiki/papers/broken-born-checkpoint-v2.md:45",
       "wiki/CLAUDE.md"
      ]
     },
@@ -892,15 +892,15 @@
       "review/skeptic-review-console.html",
       "wiki/electric-magnetic-duality/unified-modular-structure.md:76-78",
       "wiki/electric-magnetic-duality/symplectic-charge-lattice.md:120",
-      "papers/broken-born-checkpoint-v2.md:120"
+      "wiki/papers/broken-born-checkpoint-v2.md:120"
      ]
     },
     {
      "description": "#11's plain-language and assessment wording ('Two intuitions, one operation'; 'polarization of phase space and of charge space as one move') can be read as the content of the [O] conjecture. §11.3 tags only the same-operation identity [D — structural] and leaves 'one structure' as [O]. #12 takes the stronger reading without the [O].",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:114",
-      "papers/broken-born-checkpoint-v2.md:205",
-      "papers/broken-born-checkpoint-v2.md:120",
+      "wiki/papers/broken-born-checkpoint-v2.md:114",
+      "wiki/papers/broken-born-checkpoint-v2.md:205",
+      "wiki/papers/broken-born-checkpoint-v2.md:120",
       "wiki/electric-magnetic-duality/unified-modular-structure.md:53",
       "wiki/electric-magnetic-duality/magnetic-identification.md:47"
      ]
@@ -908,7 +908,7 @@
     {
      "description": "The weak-to-strong result (a weakly coupled hidden sector has strongly coupled monopoles) is listed among the survivors in #11 §12 but not in the round-3 adjudication's own 'What survives v3' list. The wiki follows the checkpoint by precedence.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:152",
+      "wiki/papers/broken-born-checkpoint-v2.md:152",
       "wiki/electric-magnetic-duality/monopoles/dirac-quantization.md:121"
      ]
     },
@@ -917,13 +917,13 @@
      "sources": [
       "wiki/electric-magnetic-duality/monopoles/dirac-quantization.md:64",
       "wiki/electric-magnetic-duality/symplectic-charge-lattice.md:52",
-      "papers/broken-born-checkpoint-v2.md:120"
+      "wiki/papers/broken-born-checkpoint-v2.md:120"
      ]
     },
     {
      "description": "Is the monopole sector conjugate matter at all? v2.0 called it a 'p-local gauge sector', and the wiki glosses conjugate-sector solitons as made of the p-polarized fields χ. But #14 described its hidden sector with ordinary relativistic quantum field theory, and worklog O3 records that #14's dark sector was never reconciled with #13's dual kinematics.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:139",
+      "wiki/papers/broken-born-checkpoint-v2.md:139",
       "wiki/electric-magnetic-duality/conjugate-monopoles.md:39",
       "wiki/conjugate-relativity/two-cones-inconsistency.md:77-79"
      ]
@@ -949,14 +949,14 @@
      "sources": [
       "wiki/electric-magnetic-duality/magnetic-identification.md:94",
       "wiki/electric-magnetic-duality/conjugate-monopoles.md:51",
-      "papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
       "HANDOFF.md:26"
      ]
     },
     {
      "description": "Citation gaps in §11: the label '17†-adjacent' is unexplained (reference [17] is the DSZ trio, not Montonen–Olive), and the phrase 'in the literature's own words' carries no citation.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:118, :120",
+      "wiki/papers/broken-born-checkpoint-v2.md:118, :120",
       "wiki/electric-magnetic-duality/magnetic-mirror-family.md:48",
       "wiki/electric-magnetic-duality/symplectic-charge-lattice.md:83",
       "wiki/phase-space/reciprocity/lagrangian-polarizations.md:82"
@@ -973,7 +973,7 @@
    "open_items": [
     {
      "item": "OP8: formalize §11.3's unification, one enlarged modular structure joining the phase-space (P5) and charge-lattice polarizations. No document names the structure or works toward it.",
-     "source": "papers/broken-born-checkpoint-v2.md:192; wiki/electric-magnetic-duality/unified-modular-structure.md:96-97",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:192; wiki/electric-magnetic-duality/unified-modular-structure.md:96-97",
      "queued": "Not queued. The root CLAUDE.md queue is HANDOFF §8 items 5–6, then an optional round-6 review."
     },
     {
@@ -983,7 +983,7 @@
     },
     {
      "item": "The topological loophole: momentum-space localization of individual objects by topology. Untested, with no candidate; 'closed' and 'untested' are unreconciled.",
-     "source": "papers/broken-born-checkpoint-v2.md:154, :192",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:154, :192",
      "queued": "Not queued."
     },
     {
@@ -1058,7 +1058,7 @@
     "scripts/check.sh (whole)",
     "scripts/wiki-acronyms.txt (grep; lines 1-32 and 70-140)",
     "scripts/check-wiki.py (grep: no monopole-specific check)",
-    "Cross-references only: papers/broken-born-checkpoint-v2.md lines 111-121 and grep hits (116-118, 141-152, 172, 192, 217); HANDOFF.md grep hits (lines 26, 31, 88); review/round3-adjudication.md lines 36-48 and 96-124; README.md lines 1-2; verify/*.py (grep for monopole terms)"
+    "Cross-references only: wiki/papers/broken-born-checkpoint-v2.md lines 111-121 and grep hits (116-118, 141-152, 172, 192, 217); HANDOFF.md grep hits (lines 26, 31, 88); review/round3-adjudication.md lines 36-48 and 96-124; README.md lines 1-2; verify/*.py (grep for monopole terms)"
    ],
    "claims": [
     {
@@ -1135,7 +1135,7 @@
     },
     {
      "claim": "#11 §11.2 as it now reads, quoted in the worksheet: the non-observation of our magnetic monopoles is structural, because Dirac's condition makes the magnetic world our strong-coupling mirror, heavy and bound.",
-     "tag": "[T] (the section tag of #11 §11.2, papers/broken-born-checkpoint-v2.md:118)",
+     "tag": "[T] (the section tag of #11 §11.2, wiki/papers/broken-born-checkpoint-v2.md:118)",
      "status": "alive",
      "source": "review/wiki-build-rulings.md:1327",
      "quote": "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.",
@@ -1654,7 +1654,7 @@
      "sources": [
       "review/wiki-build-flags.md:198-203",
       "review/wiki-build-rulings.md:1316-1342",
-      "papers/broken-born-checkpoint-v2.md:118 (cross-ref)"
+      "wiki/papers/broken-born-checkpoint-v2.md:118 (cross-ref)"
      ]
     },
     {
@@ -1707,7 +1707,7 @@
      "description": "HANDOFF §2 (2026-10-19) reads 'Loophole: topological p-localization of individual solitons untouched', while #11 §14 item 8 reads '(The soliton-spectrum and p-localization items are closed by the §12 obituary.)' The flag-16 entry keeps the HANDOFF sentence under both variants. The #11 line was read only to resolve a cross-reference.",
      "sources": [
       "review/wiki-build-rulings.md:2089,2096",
-      "papers/broken-born-checkpoint-v2.md:192 (cross-ref)"
+      "wiki/papers/broken-born-checkpoint-v2.md:192 (cross-ref)"
      ]
     },
     {
@@ -1721,7 +1721,7 @@
      "description": "The rulings worksheet's line numbers refer to commit 0990cc3, and current #11 has shifted by one line: §11.1 is now at 116 (worksheet: 115), §11.2 at 118 (117), App. A item 5 at 217 (216).",
      "sources": [
       "review/wiki-build-rulings.md:6,1321,2611",
-      "papers/broken-born-checkpoint-v2.md:116,118,217 (cross-ref)"
+      "wiki/papers/broken-born-checkpoint-v2.md:116,118,217 (cross-ref)"
      ]
     }
    ],
@@ -1758,7 +1758,7 @@
     },
     {
      "item": "Charge-lattice polarization: formalize §11.3's [O] unification of the phase-space polarization (P5) with the charge-lattice polarization. #11 §15 counts it as a progressive sign 'generating new questions'.",
-     "source": "review/wiki-build-rulings.md:188; papers/broken-born-checkpoint-v2.md:192 (cross-ref, #11 §14 item 8)",
+     "source": "review/wiki-build-rulings.md:188; wiki/papers/broken-born-checkpoint-v2.md:192 (cross-ref, #11 §14 item 8)",
      "queued": "Not queued (absent from the root CLAUDE.md queue)."
     }
    ],
@@ -1792,7 +1792,7 @@
     "wiki/dark-matter/halo-astrophysics/transfer-cross-section.md (frontmatter, lines 90–101, hits) — status: established; provenance [T]; sources include #14 §4, audit-notes Step 2, step2a.out, adjudication 'What survives v3', HANDOFF §6; monopole content at lines 28, 74, 152–158, 183",
     "wiki/dark-matter/halo-astrophysics/dwarf-galaxies.md (frontmatter, lines 50–65) — status: established; provenance [T]; sources include #14 §4, §5 and audit-notes Step 2; monopole content at lines 61, 63",
     "wiki/dark-matter/halo-astrophysics/bullet-cluster.md (frontmatter, lines 100–130) — status: established; provenance [T]; the only monopole-related line is 121 (used-by link to conjugate monopoles)",
-    "papers/broken-born-checkpoint-v2.md (cross-reference resolution: line 18 abstract; lines 112–224: §11, §12, §13, §14, §15, App. A)",
+    "wiki/papers/broken-born-checkpoint-v2.md (cross-reference resolution: line 18 abstract; lines 112–224: §11, §12, §13, §14, §15, App. A)",
     "notes/knot-dark-matter-standalone.md (cross-reference resolution: grep hits at lines 3, 9, 19, 23, 25, 27, 31, 33, 57, 84, 93, 97, 110)",
     "HANDOFF.md (cross-reference resolution: lines 18–44 of §2; grep hits at lines 63, 73, 88, 90, 108, 110)",
     "review/round3-adjudication.md (cross-reference resolution: lines 26–42 rulings; 86–135 What survives v3 and Decisions)",
@@ -1869,7 +1869,7 @@
      "claim": "Cross-reference resolved from obituary.md:153. #11 v2.1's technical abstract says the electric–magnetic charge lattice with its DSZ pairing [17†] is a second arena where the same polarization choice recurs, and that the retired soliton candidate was 'motivated' by it. The wiki quotes only the retirement clause.",
      "tag": "untagged (DSZ citation 17†)",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:18",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:18",
      "quote": "furnishes a second arena in which the same polarization choice recurs. A third dark-sector candidate it motivated — superheavy topological solitons of a hidden gauge sector — was retired",
      "topic": "charge-lattice-motivation"
     },
@@ -1997,7 +1997,7 @@
      "claim": "Cross-reference resolved from obituary.md:165's citation of #11 §11.1. As an explanation of our monopole null result, conjugate monopoles are dead: the relevant duality is electric–magnetic, not x↔p, and inflation accounts for absence. The partition's pages quote only the ontology half of §11.1.",
      "tag": "[D]; [T] for inflationary dilution",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:116",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
      "quote": "As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T].",
      "topic": "conjugate-monopoles-explanation"
     },
@@ -2615,8 +2615,8 @@
      "sources": [
       "wiki/dark-matter/momentum-clumping/topological-loophole.md:44",
       "wiki/dark-matter/candidates/soliton-candidate/obituary.md:167",
-      "papers/broken-born-checkpoint-v2.md:154",
-      "papers/broken-born-checkpoint-v2.md:192"
+      "wiki/papers/broken-born-checkpoint-v2.md:154",
+      "wiki/papers/broken-born-checkpoint-v2.md:192"
      ]
     },
     {
@@ -2626,14 +2626,14 @@
       "wiki/dark-matter/momentum-clumping/topological-loophole.md:61",
       "HANDOFF.md:26",
       "HANDOFF.md:31",
-      "papers/broken-born-checkpoint-v2.md:116"
+      "wiki/papers/broken-born-checkpoint-v2.md:116"
      ]
     },
     {
      "description": "Two survivor lists differ. #11 §12 lists the Dirac relation [T], W′ overclosure [V] and the loophole. The adjudication's 'What survives v3' lists the compatibility theorem, the benchmark-conditional arithmetic (flux, densities, σ_T/M, W′), kinetic-mixing points (a) and (c), and the minimal-sector exclusion. #11 does not restate the benchmark arithmetic or point (c).",
      "sources": [
       "wiki/dark-matter/candidates/soliton-candidate/obituary.md:163",
-      "papers/broken-born-checkpoint-v2.md:151",
+      "wiki/papers/broken-born-checkpoint-v2.md:151",
       "review/round3-adjudication.md:89"
      ]
     },
@@ -2642,14 +2642,14 @@
      "sources": [
       "wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md:129",
       "review/wiki-build-flags.md:198",
-      "papers/broken-born-checkpoint-v2.md:118"
+      "wiki/papers/broken-born-checkpoint-v2.md:118"
      ]
     },
     {
      "description": "Ceiling or floor: P4 strict writes gravity-induced mixing as ε ≲ 10⁻¹³. The referee notes that Gherghetta et al. present 10⁻¹³ as a minimum ('minimum kinetic mixing in any theory with hidden gauge interactions and charge symmetry breaking'), consistent with '≲' only as 'up to'. Flagged, not resolved.",
      "sources": [
       "wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing.md:81",
-      "papers/broken-born-checkpoint-v2.md:45"
+      "wiki/papers/broken-born-checkpoint-v2.md:45"
      ]
     },
     {
@@ -2727,7 +2727,7 @@
      "sources": [
       "wiki/dark-matter/candidates/soliton-candidate/obituary.md:179",
       "HANDOFF.md:35",
-      "papers/broken-born-checkpoint-v2.md:195"
+      "wiki/papers/broken-born-checkpoint-v2.md:195"
      ]
     },
     {
@@ -2740,7 +2740,7 @@
      "description": "Wiki against documents: no contradiction found among the quotations checked (#11 §4, §11.1, §11.2, §12, §13, §14, App. A; the adjudication's rulings and Decisions; the gated outputs). The wiki goes beyond the documents only in glosses it labels as its own: 'p-local gauge sector' defined (#11 uses the phrase only at §12, pointing to §11, which does not use it); the random-walk reading of √N; 'on its own terms'; the gloss of Preskill's Dirac case.",
      "sources": [
       "wiki/dark-matter/candidates/soliton-candidate/obituary.md:52",
-      "papers/broken-born-checkpoint-v2.md:139",
+      "wiki/papers/broken-born-checkpoint-v2.md:139",
       "wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor.md:57",
       "wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor.md:77",
       "wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure.md:33"
@@ -2809,15 +2809,15 @@
   {
    "partition": "A-current-reference",
    "files_read": [
-    "papers/broken-born-checkpoint-v2.md (whole, 263 lines)",
+    "wiki/papers/broken-born-checkpoint-v2.md (whole, 263 lines)",
     "HANDOFF.md (whole, 203 lines)",
     "README.md (whole)",
     "CLAUDE.md (whole)",
     "popsci/angle-of-the-mirror.md (whole)",
     "popsci/universes-other-half.md (whole)",
-    "papers/reciprocity-toy-models.md (whole; no monopole, charge-lattice, electric or magnetic content)",
-    "papers/conjugate-special-relativity.md (grep + context; no monopole content; line 85 leaves the conjugate sector's 'their Maxwell' open)",
-    "papers/phase-space-diameter.md (grep + context; no monopole content)",
+    "wiki/papers/reciprocity-toy-models.md (whole; no monopole, charge-lattice, electric or magnetic content)",
+    "wiki/papers/conjugate-special-relativity.md (grep + context; no monopole content; line 85 leaves the conjugate sector's 'their Maxwell' open)",
+    "wiki/papers/phase-space-diameter.md (grep + context; no monopole content)",
     "cross-ref: notes/toy-lagrangian.md:1-20, 60-75, 455-490 (the referees' wording of acceptance criterion 1)",
     "cross-ref: notes/knot-dark-matter-standalone.md:9, 29, 96, 104-112 (#14 abstract, hypothesis H, criterion (1))",
     "cross-ref: verify/soliton_obituary.py (docstring 1-21, checks 50-114)",
@@ -2836,7 +2836,7 @@
      "claim": "The electric–magnetic charge lattice, with its DSZ symplectic pairing, is a second arena in which the phase-space polarization choice recurs. The plain abstract says the choice of 'which particles are electric' 'turns out to be the same mathematical move' as choosing 'which directions are position'.",
      "tag": "untagged (abstracts; cites [17]†)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:18 (also :16)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:18 (also :16)",
      "quote": "The electric–magnetic charge lattice, with its Dirac–Schwinger–Zwanziger symplectic pairing [17†], furnishes a second arena in which the same polarization choice recurs.",
      "topic": "charge lattice as second arena"
     },
@@ -2844,7 +2844,7 @@
      "claim": "The topological dark-sector candidate the charge-lattice observation motivated (superheavy solitons of a hidden gauge sector) was retired after an execution-verified review found its abundance misnormalized. Two candidates remain: particles and a condensate.",
      "tag": "untagged (abstract)",
      "status": "withdrawn",
-     "source": "papers/broken-born-checkpoint-v2.md:18 (also :16)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:18 (also :16)",
      "quote": "A third dark-sector candidate it motivated — superheavy topological solitons of a hidden gauge sector — was retired after an execution-verified review found its abundance estimate misnormalized (§12), leaving two candidates: particles and a condensate.",
      "topic": "soliton candidate retired"
     },
@@ -2852,7 +2852,7 @@
      "claim": "Method lesson from the monopole episode: a verification script confirms arithmetic, not the model. The §12 failure passed a script whose physics input (the Kibble normalization) was wrong and was caught only by independent review. Root CLAUDE.md makes this the independent-anchor rule.",
      "tag": "untagged (method)",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:26; CLAUDE.md:159-162",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:26; CLAUDE.md:159-162",
      "quote": "a verification script confirms arithmetic, not the model it encodes — the §12 failure passed a script whose physics input was wrong, and was caught only by an independent review.",
      "topic": "method lesson (Kibble normalization)"
     },
@@ -2860,7 +2860,7 @@
      "claim": "P4: matter comes in x-polarized (SM) and p-polarized (χ) representations, both coupling universally to H, and gauge forces do not cross polarizations. Taken strictly since v2.1: no kinetic mixing beyond what gravity induces, which is zero if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³. Root CLAUDE.md: 'Strict sector separation (P4 at face value) is in force.' This is the record's basis for the conjugate sector's gauge forces (and any monopoles) being separate from ours.",
      "tag": "[P]; mixing bound [27S]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:45; CLAUDE.md:48",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45; CLAUDE.md:48",
      "quote": "gauge forces do not cross polarizations. [P; taken strictly since v2.1: no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact",
      "topic": "P4 strict sector separation"
     },
@@ -2868,7 +2868,7 @@
      "claim": "P5: the vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful. This is the phase-space polarization that §11.3's [O] conjecture pairs with the charge-lattice polarization.",
      "tag": "[P]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:46",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:46",
      "quote": "The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful. [P]",
      "topic": "P5 polarization"
     },
@@ -2876,7 +2876,7 @@
      "claim": "§11's plain passage: the idea that conjugate-space monopoles explain the null result is buried, but 'if such objects exist, they must matter, because everything gravitates'. The magnetic mirror-family is 'famous physics: proposed in 1977, named in 1994'. Choosing 'electric' and choosing 'position' are 'Two intuitions, one operation.'",
      "tag": "untagged (plain-language passage)",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:114",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:114",
      "quote": "We buried the idea that conjugate-space monopoles explain why our compasses find no north-without-south — wrong lever for that lock, and inflation already closed the case.",
      "topic": "§11 plain-language framing"
     },
@@ -2884,7 +2884,7 @@
      "claim": "As an explanation of the monopole null result, the conjugate-space idea is dead. The relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence.",
      "tag": "[D] (section tag); inflation [T]",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:116",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
      "quote": "As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T].",
      "topic": "monopole null: explanation dead"
     },
@@ -2892,7 +2892,7 @@
      "claim": "As ontology, conjugate-sector solitons are alive and consequence-bearing: by P4 they gravitate, so 'true but irrelevant' is the empty set (P.R.'s correction; Appendix A words it 'measure zero'). Their candidacy as the dark matter is retired in v2.1.",
      "tag": "[D] (section tag)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:116",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
      "quote": "As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; \"true but irrelevant\" is the empty set (a correction supplied by P.R.). Their candidacy as the dark matter itself is retired in v2.1 (§12).",
      "topic": "conjugate-sector monopole ontology"
     },
@@ -2900,7 +2900,7 @@
      "claim": "The laboratory shadow: Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles, 'right geometry, different flux'. Row 8 calls them the only shadow.",
      "tag": "[16]†",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:116 (refs :246)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116 (refs :246)",
      "quote": "Their laboratory shadow is real: Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux.",
      "topic": "Berry-curvature monopoles (Weyl semimetals)"
     },
@@ -2908,7 +2908,7 @@
      "claim": "The conjecture that every electrically charged particle has a magnetic counterpart is Montonen–Olive duality, exact in maximally supersymmetric Yang–Mills. 'Magnetic quarks' is standard vocabulary via Seiberg duality.",
      "tag": "[T]; [17†-adjacent; 18†]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118 (refs :248)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118 (refs :248)",
      "quote": "The conjecture that every electrically charged particle has a magnetic counterpart is Montonen–Olive duality [17†-adjacent; 18†], exact in maximally supersymmetric Yang–Mills; \"magnetic quarks\" is standard vocabulary via Seiberg duality [18†]",
      "topic": "Montonen–Olive / Seiberg duality"
     },
@@ -2916,7 +2916,7 @@
      "claim": "The dual-superconductor picture (chromomagnetic monopole condensation squeezing color-electric flux into strings) is the leading mechanism for why free quarks are never seen. The 't Hooft–Mandelstam citation has no entry in the reference list.",
      "tag": "[T, 't Hooft–Mandelstam†]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
      "quote": "the dual-superconductor picture of confinement — chromomagnetic monopole condensation squeezing color-electric flux into strings — is the leading mechanism for why free quarks are never seen [T, 't Hooft–Mandelstam†]",
      "topic": "dual superconductor"
     },
@@ -2924,7 +2924,7 @@
      "claim": "Non-observation of magnetic states is structural: Dirac's condition e·g ~ 2π pins our magnetic coupling near '4π/e² ≈ 34', making the magnetic world our heavy, bound strong-coupling mirror. Flag 28 (confirmed 2026-10-22, unruled) says the 34 is right and the formula beside it is not: with α = e²/4π, 4π/e² = 1/α ≈ 137, while e·g = 2π gives π/e² = 1/(4α) ≈ 34.26. This is our own magnetic coupling, distinct from the dead α_d.",
      "tag": "[T]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
      "quote": "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.",
      "topic": "Dirac quantization / our magnetic coupling"
     },
@@ -2932,7 +2932,7 @@
      "claim": "The non-observation of the magnetic mirror-family has the same explanatory shape as §7's hidden massive second metric: the duality is genuine, and its structure hides its second half.",
      "tag": "untagged (italic sentence inside the [T] subsection)",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:118",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
      "quote": "Same explanatory shape as §7: the duality is genuine, and its structure hides its second half.",
      "topic": "parallel with hidden metric"
     },
@@ -2940,7 +2940,7 @@
      "claim": "The DSZ pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ is an antisymmetric integer form, so the charge lattice is a symplectic space.",
      "tag": "[D — structural; math T]; [17]†",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
      "quote": "The Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ is an antisymmetric integer form: the charge lattice is a symplectic space [17†].",
      "topic": "charge lattice is symplectic"
     },
@@ -2948,7 +2948,7 @@
      "claim": "Mutual locality (charges that can share one Lagrangian) is ⟨q,q′⟩ = 0, which defines a Lagrangian sublattice. Choosing a duality frame ('electric' = fundamental versus 'magnetic' = solitonic) is choosing a Lagrangian polarization of charge space, 'in the literature's own words'; no source beyond [17]† is given for that phrase.",
      "tag": "[D — structural; math T]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
      "quote": "Choosing a duality frame — which particles are \"electric\" (fundamental) versus \"magnetic\" (solitonic) — is choosing a Lagrangian polarization of charge space, in the literature's own words.",
      "topic": "duality frame = Lagrangian polarization"
     },
@@ -2956,7 +2956,7 @@
      "claim": "S-duality acts on the complexified coupling as τ_c → −1/τ_c, generated by the same [[0,1],[−1,0]] rotation as Born's ρ and the modular map Z → −Z⁻¹: 'the third appearance of one matrix in this program'.",
      "tag": "[D — structural; math T]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
      "quote": "S-duality acts on the complexified coupling by τ_c → −1/τ_c, generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program.",
      "topic": "S-duality shares ρ's matrix"
     },
@@ -2964,7 +2964,7 @@
      "claim": "Conjecture: P5's phase-space polarization and the charge-lattice polarization are components of one enlarged modular structure, the program's analog of T- and S-duality inside U-duality. This is the record's only statement joining the two polarizations, and it is open; formalizing it is §14 item 8.",
      "tag": "[O]; U-duality analogy [T]",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
      "quote": "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure — the BBT-native analog of T- and S-duality cohabiting inside U-duality in string theory [T].",
      "topic": "one enlarged modular structure"
     },
@@ -2972,7 +2972,7 @@
      "claim": "After the obituary the dark sector has two candidates, χ particles (a p-polarized matter field, with a permanent direct-detection null) and an X-condensate. No monopole or soliton is among them.",
      "tag": "[D — framework; each candidate O]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:128-133",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:128-133",
      "quote": "| **χ particles** (§8) | p-polarized matter field | assumed | knee at v*, sharp tail; isotropic scattering; permanent direct-detection null |",
      "topic": "two dark-sector candidates"
     },
@@ -2980,7 +2980,7 @@
      "claim": "What v2.0 claimed: topological solitons of a p-local (conjugate-sector) gauge sector were a third candidate, stable by topological charge. Because topology rather than collective dynamics would localize them in momentum, they would slip through the clumping loophole.",
      "tag": "untagged",
      "status": "withdrawn",
-     "source": "papers/broken-born-checkpoint-v2.md:139 (also :126)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:139 (also :126)",
      "quote": "v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the clumping loophole (§9), since topology, not collective dynamics, would localize them in momentum.",
      "topic": "soliton candidate: what was claimed"
     },
@@ -2988,7 +2988,7 @@
      "claim": "The candidate became #14: superheavy 't Hooft–Polyakov monopoles of a hidden SU(2) → U(1) sector. It was reviewed blind three times; round 3, with code execution, returned verdict C, which arbitration upheld.",
      "tag": "untagged",
      "status": "withdrawn",
-     "source": "papers/broken-born-checkpoint-v2.md:141-142",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:141-142",
      "quote": "The candidate was developed into a standalone proposal, #14, now in `notes/`: superheavy 't Hooft–Polyakov monopoles of a hidden SU(2) → U(1) sector.",
      "topic": "#14 hidden 't Hooft–Polyakov monopoles"
     },
@@ -2996,7 +2996,7 @@
      "claim": "The Kibble estimate n/s = p (T_c/M_Pl)³ had been normalized at p = 1 (#14 v2) and p ≈ 0.023 (#14 v3). One defect per Hubble volume gives p ≈ 104, which is the causal minimum; Kibble–Zurek and bubble-nucleation production only add to it.",
      "tag": "[V]; [28S]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:144-145",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:144-145",
      "quote": "One defect per Hubble volume gives p ≈ 104 [V], and that is the causal minimum; Kibble–Zurek and bubble-nucleation production only add to it [28S].",
      "topic": "Kibble normalization"
     },
@@ -3004,7 +3004,7 @@
      "claim": "At minimum production the monopole abundance closes at M ≈ 2.9–4.4×10¹² GeV, and the v3 benchmark of 3×10¹³ GeV is overproduced 2.1×10³–1.2×10⁴ times. Realistic production lowers the viable mass much further; that claim is not executed here.",
      "tag": "[V]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:146",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:146",
      "quote": "At minimum production the abundance closes at M ≈ 2.9–4.4×10¹² GeV [V], and the v3 benchmark of 3×10¹³ GeV is overproduced by 2.1×10³–1.2×10⁴ [V]. Realistic production lowers the viable mass much further.",
      "topic": "monopole overproduction"
     },
@@ -3012,7 +3012,7 @@
      "claim": "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination.",
      "tag": "[29S]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:147 (ref :259)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:147 (ref :259)",
      "quote": "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S].",
      "topic": "hidden-monopole overclosure bound"
     },
@@ -3020,7 +3020,7 @@
      "claim": "Below that scale, annihilation in the hidden plasma sets the abundance. That is the established topological-dark-matter scenario (Murayama–Shu; Liveoak–Maharana–Wells), and nothing in it depends on Born reciprocity.",
      "tag": "[28S, 29S]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:148 (refs :258-259)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:148 (refs :258-259)",
      "quote": "Below that scale, annihilation in the hidden plasma sets the abundance. That is the established topological-dark-matter scenario [28S, 29S], and nothing in it depends on Born reciprocity.",
      "topic": "prior art: topological dark matter"
     },
@@ -3028,7 +3028,7 @@
      "claim": "Superheavy masses survive only with a free dilution factor, which removes the mass prediction, the candidate's reason to exist.",
      "tag": "untagged",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:149",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:149",
      "quote": "Superheavy masses survive only with a free dilution factor. That removes the mass prediction, which was the candidate's reason to exist.",
      "topic": "dilution removes the prediction"
     },
@@ -3036,7 +3036,7 @@
      "claim": "Verdict: retired as a program-native candidate (2026-10-19). The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it. §13 lists superheavy-soliton dark matter as 'withdrawn with cause', and §15 says superheavy knots were 'tested and retired'.",
      "tag": "untagged",
      "status": "withdrawn",
-     "source": "papers/broken-born-checkpoint-v2.md:150 (also :137, :177, :205)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:150 (also :137, :177, :205)",
      "quote": "Retired as a program-native candidate. The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it.",
      "topic": "soliton obituary verdict"
     },
@@ -3044,7 +3044,7 @@
      "claim": "Surviving remark: a weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization.",
      "tag": "[T]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:152",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:152",
      "quote": "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T].",
      "topic": "Dirac quantization in a hidden sector"
     },
@@ -3052,7 +3052,7 @@
      "claim": "Surviving remark: the minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms, because its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark.",
      "tag": "[V]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:153",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:153",
      "quote": "The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V].",
      "topic": "W′ overclosure"
     },
@@ -3060,7 +3060,7 @@
      "claim": "The clumping loophole (topological momentum-space localization of individual objects) remains untested and has no candidate. §9's plain passage and Appendix A item 3 say the same; HANDOFF §2 calls it 'untouched'.",
      "tag": "untagged",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:154 (also :98, :215; HANDOFF.md:29)",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:154 (also :98, :215; HANDOFF.md:29)",
      "quote": "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate.",
      "topic": "topological clumping loophole"
     },
@@ -3068,7 +3068,7 @@
      "claim": "The §12 [V] numbers are gated in verify/soliton_obituary.py, which scripts/check.sh runs. Per its docstring, the script's model assumes hypothesis H (dark charge g_d/2 = e) and f = 1–1.787. Flag 33 (confirmed, unruled) says its docstring overclaims coverage of the round-3 record (α_m ≈ 34 is not recomputed, for example), though §12's own [V] claim is accurate.",
      "tag": "[V]",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:155; verify/soliton_obituary.py:16-19; scripts/check.sh:21",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:155; verify/soliton_obituary.py:16-19; scripts/check.sh:21",
      "quote": "Checks. The [V] numbers here are gated in `verify/soliton_obituary.py`.",
      "topic": "obituary checks gated"
     },
@@ -3076,7 +3076,7 @@
      "claim": "Prediction row 8, magnetic monopoles of our own U(1): the standard expectation is model-dependent. The program requires a permanent null, with Berry-curvature monopoles in solids as the only shadow, and is killed by direct detection. The row gives no derivation; the nearest stated reasons are §11.1 (inflation [T]) and §11.2 (Dirac's strong coupling).",
      "tag": "untagged (§13 table)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:172",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:172",
      "quote": "| 8 | Magnetic monopoles (ours) | Model-dependent | Permanent null; Berry-curvature monopoles in solids as the only shadow | Direct detection |",
      "topic": "prediction row 8"
     },
@@ -3084,7 +3084,7 @@
      "claim": "Row 7: a permanent null at direct detection and colliders, because both dark-sector candidates are SM-decoupled under strict P4. It is killed by any confirmed non-gravitational DM–SM coupling.",
      "tag": "untagged (§13 table)",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:171",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:171",
      "quote": "Permanent null (both dark-sector candidates SM-decoupled; P4 strict) | Any confirmed non-gravitational DM–SM coupling",
      "topic": "prediction row 7 (SM decoupling)"
     },
@@ -3092,7 +3092,7 @@
      "claim": "Open problem 8 is to formalize §11.3's charge-lattice unification. The soliton-spectrum and p-localization items are 'closed by the §12 obituary'.",
      "tag": "[O]",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:192",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:192",
      "quote": "Charge-lattice polarization: formalize §11.3's unification [O]. (The soliton-spectrum and p-localization items are closed by the §12 obituary.)",
      "topic": "open problem: charge-lattice polarization"
     },
@@ -3100,15 +3100,15 @@
      "claim": "Open problem 11: acceptance criterion 1 is 'met in the referees' wording' by the coset model of (H, K): ρ is a symmetry of an explicit action, η = ωK is the order parameter, the vacuum is stable with H dynamical, and there is an ordered ℤ₂ phase in the frozen-H reduction. The item says nothing about selecting the electric sublattice.",
      "tag": "untagged; remainder [O]",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:195-199",
-     "quote": "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential, in `papers/reciprocity-toy-models.md`",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:195-199",
+     "quote": "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential, in `wiki/papers/reciprocity-toy-models.md`",
      "topic": "acceptance criterion 1 in #11"
     },
     {
      "claim": "The assessment counts 'one structural unification (polarization of phase space and of charge space as one move)' among the program's products. The Lakatos appraisal lists 'the §11.3 unification generating new questions' as a progressive sign and the §12 soliton obituary as a degeneration risk.",
      "tag": "untagged",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:205, :207",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:205, :207",
      "quote": "one structural unification (polarization of phase space and of charge space as one move), and a two-way question about dark matter's nature with named discriminators; a third option, superheavy knots, was tested and retired.",
      "topic": "assessment of the unification"
     },
@@ -3116,7 +3116,7 @@
      "claim": "Founding supposition 5 (P.R.), that monopoles live in conjugate space and so explain non-detection, is split. As explanation it is dead (wrong duality; inflation suffices). As ontology it is alive and consequence-bearing. The knot candidate it fed is retired.",
      "tag": "untagged (Appendix A)",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:217",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:217",
      "quote": "Monopoles live in conjugate space, explaining non-detection — split: as explanation, dead (wrong duality; inflation suffices); as ontology, alive and consequence-bearing (P.R.'s \"true-but-irrelevant is measure zero\"); the knot candidate it fed is retired (§12).",
      "topic": "Appendix A item 5"
     },
@@ -3124,7 +3124,7 @@
      "claim": "Founding supposition 11 (P.R.), a full magnetic mirror-family with quarks included, is alive as established physics (Montonen–Olive, Seiberg, dual superconductor). It is absorbed as §11, with the polarization identification as the program's own addition.",
      "tag": "untagged (Appendix A)",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:223",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:223",
      "quote": "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition.",
      "topic": "Appendix A item 11"
     },
@@ -3132,7 +3132,7 @@
      "claim": "The monopole references [16]–[18] (Weyl semimetals; Dirac/Schwinger/Zwanziger; Montonen–Olive/Seiberg) are † memory citations to verify before external use. [27]–[29] (kinetic mixing; topological DM; dark monopoles) are [S], live-searched. #11 is 'not for submission until the † audit (open item 10) completes'.",
      "tag": "† / [S]",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:246-248, :257-259, :263",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:246-248, :257-259, :263",
      "quote": "[17]† P. A. M. Dirac, Proc. R. Soc. Lond. A 133, 60 (1931); J. Schwinger, Phys. Rev. 144, 1087 (1966); D. Zwanziger, Phys. Rev. 176, 1489 (1968).",
      "topic": "citation provenance"
     },
@@ -3188,7 +3188,7 @@
      "claim": "HANDOFF §2 Open 3: UV stability of sector separation and kinetic mixing, including the disputed gravity-induced channel. After the handoff it was resolved by taking P4 strictly (ε ≲ 10⁻¹³ from gravity).",
      "tag": "untagged",
      "status": "superseded",
-     "source": "HANDOFF.md:37; papers/broken-born-checkpoint-v2.md:45",
+     "source": "HANDOFF.md:37; wiki/papers/broken-born-checkpoint-v2.md:45",
      "quote": "UV stability of sector separation / kinetic mixing (incl. the disputed gravity-induced mixing channel — see §6)",
      "topic": "kinetic mixing / sector separation"
     },
@@ -3292,7 +3292,7 @@
      "claim": "#13: the momentum polarization's own dynamics ('their Maxwell, their field theory') cannot be written until the covariant construction with the four-dimensional Born map (t ↔ E) exists. #13 has no monopole content; this line bears only on whether the p-polarized sector has gauge dynamics of its own.",
      "tag": "[O]",
      "status": "open",
-     "source": "papers/conjugate-special-relativity.md:85",
+     "source": "wiki/papers/conjugate-special-relativity.md:85",
      "quote": "a required step before the dual dynamics (their Maxwell, their field theory) can be written.",
      "topic": "conjugate sector's own Maxwell"
     },
@@ -3300,7 +3300,7 @@
      "claim": "The toy-model note has no monopole, charge-lattice, electric or magnetic content. Its 'Shown' and 'Not shown' lists cover ρ-symmetry, η = ωK as order parameter, the potential, the ℤ₂ phase and the (H, K) matter coupling, and do not mention the electric sublattice.",
      "tag": "untagged",
      "status": "other",
-     "source": "papers/reciprocity-toy-models.md:157-176",
+     "source": "wiki/papers/reciprocity-toy-models.md:157-176",
      "quote": "Model I: an explicit Sp(2,ℝ) ∋ ρ symmetric action with η = ωK as order parameter, including the twisted-ρ caveat.",
      "topic": "toy note silent on electric sublattice"
     },
@@ -3341,55 +3341,55 @@
     {
      "quantity": "Kibble prefactor p, one defect per Hubble volume (the causal minimum)",
      "value": "p ≈ 104 (104.31 with M_Pl; 0.828 with reduced M_Pl)",
-     "source": "papers/broken-born-checkpoint-v2.md:145",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:145",
      "provenance": "[V]; computed in verify/soliton_obituary.py (Kibble normalization block), anchored to Gangui astro-ph/0110285, n/s ~ 100 (T_c/M_Pl)³; gated (scripts/check.sh:21)"
     },
     {
      "quantity": "Earlier Kibble normalizations used by #14",
      "value": "p = 1 (#14 v2); p ≈ 0.023 (#14 v3)",
-     "source": "papers/broken-born-checkpoint-v2.md:144",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:144",
      "provenance": "record values. verify/soliton_obituary.py checks that v3's 0.0228 equals 104.31/(1.66√g*)³, a dropped factor ≈ 4.6×10³; gated"
     },
     {
      "quantity": "Monopole mass at which the abundance closes, minimum production",
      "value": "M ≈ 2.9–4.4×10¹² GeV",
-     "source": "papers/broken-born-checkpoint-v2.md:146",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:146",
      "provenance": "[V]; verify/soliton_obituary.py, whose model (docstring) assumes hypothesis H (g_d/2 = e), M = 4πfv/g_d with f = 1–1.787, T_c ~ v; gated"
     },
     {
      "quantity": "Overproduction of the v3 benchmark (3×10¹³ GeV)",
      "value": "2.1×10³–1.2×10⁴",
-     "source": "papers/broken-born-checkpoint-v2.md:146",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:146",
      "provenance": "[V]; verify/soliton_obituary.py; gated"
     },
     {
      "quantity": "Kibble estimate shortfall (plain-language)",
      "value": "a factor of a hundred to several thousand",
-     "source": "papers/broken-born-checkpoint-v2.md:126",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:126",
      "provenance": "plain restatement of the gated [V] figures; no separate check"
     },
     {
      "quantity": "Breaking scale below which hidden monopoles avoid overclosure",
      "value": "≲ 100 PeV (or with early matter domination)",
-     "source": "papers/broken-born-checkpoint-v2.md:147",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:147",
      "provenance": "[29S], literature (Liveoak–Maharana–Wells 2026 abstract, per review/round3-adjudication.md ruling 3); not executed"
     },
     {
      "quantity": "W′± overclosure, minimal adjoint-only SU(2)→U(1), at the v3 benchmark",
      "value": "10¹⁶–10¹⁷",
-     "source": "papers/broken-born-checkpoint-v2.md:153",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:153",
      "provenance": "[V]; verify/soliton_obituary.py ('Minimal adjoint-only sector (survives, benchmark-conditional)'); gated"
     },
     {
      "quantity": "Gravity-induced kinetic mixing between sectors",
      "value": "ε ≲ 10⁻¹³ (first at six loops; zero if hidden charge conjugation is exact)",
-     "source": "papers/broken-born-checkpoint-v2.md:45",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45",
      "provenance": "[27S], literature (Gherghetta–Kersten–Olive–Pospelov 2019); not executed"
     },
     {
      "quantity": "Our magnetic coupling from Dirac's condition",
      "value": "'4π/e² ≈ 34'",
-     "source": "papers/broken-born-checkpoint-v2.md:118",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
      "provenance": "[T]; no gated check. review/wiki-build-checks/dirac_coupling_check.py prints only and is not in scripts/check.sh: 4π/e² = 137.036 (= 1/α), π/e² = 34.259 (= 1/(4α)). Flag 28 confirmed 2026-10-22, unruled"
     },
     {
@@ -3443,7 +3443,7 @@
     {
      "quantity": "DSZ pairing normalization / Dirac condition",
      "value": "⟨q,q′⟩ ∈ 2πℤ; e·g ~ 2π",
-     "source": "papers/broken-born-checkpoint-v2.md:118, :120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118, :120",
      "provenance": "[17]† memory citation; not executed. Round-3 ruling 12 accepted 'Zwanziger's 4π vs 2π' as a minor citation issue (review/round3-adjudication.md:41)"
     }
    ],
@@ -3476,7 +3476,7 @@
     {
      "when": "2026-10-19",
      "event": "#14 v3 failed round 3 (verdict C) and was withdrawn. #11 was amended to v2.1: soliton obituary §12, P4 taken strictly.",
-     "source": "papers/broken-born-checkpoint-v2.md:8, :137; CLAUDE.md:44-50"
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:8, :137; CLAUDE.md:44-50"
     },
     {
      "when": "2026-10-19",
@@ -3491,7 +3491,7 @@
     {
      "when": "2026-10-20",
      "event": "#11 v2.2 records the toy-model results; §14 item 11 declares criterion 1 met in the referees' wording.",
-     "source": "papers/broken-born-checkpoint-v2.md:4, :195"
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:4, :195"
     },
     {
      "when": "2026-10-22",
@@ -3501,12 +3501,12 @@
     {
      "when": "2026-10-26",
      "event": "Program renamed Comatter. Popsci #12 was edited for the rename (da72ce2), and on 2026-10-28 c12da1b changed terminology in HANDOFF, #11 and both popsci articles. Neither commit touched any monopole, magnetic, knot, soliton or Dirac line.",
-     "source": "papers/broken-born-checkpoint-v2.md:6; git show da72ce2, c12da1b"
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:6; git show da72ce2, c12da1b"
     },
     {
      "when": "1931–1994 (literature, as the record dates it)",
      "event": "Dirac's condition (1931), the magnetic mirror-family 'proposed in 1977, named in 1994' (Montonen–Olive; Seiberg).",
-     "source": "papers/broken-born-checkpoint-v2.md:114; popsci/universes-other-half.md:41, :43"
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:114; popsci/universes-other-half.md:41, :43"
     }
    ],
    "tensions": [
@@ -3514,8 +3514,8 @@
      "description": "The README tagline ('explaining dark matter and missing magnetic monopoles') contradicts #11 §11.1, Appendix A item 5 and HANDOFF §2, which all list the monopole explanation as dead. Flag 37 is confirmed (2026-10-22) and unruled; the README is unchanged since 2026-10-18. The document wins.",
      "sources": [
       "README.md:2",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:217",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:217",
       "HANDOFF.md:31",
       "review/wiki-build-flags.md:241-244"
      ]
@@ -3529,8 +3529,8 @@
       "HANDOFF.md:42",
       "HANDOFF.md:63",
       "HANDOFF.md:110",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:137-150",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:137-150",
       "CLAUDE.md:29",
       "CLAUDE.md:44-47",
       "CLAUDE.md:107"
@@ -3545,9 +3545,9 @@
       "popsci/universes-other-half.md:73",
       "HANDOFF.md:26",
       "HANDOFF.md:32",
-      "papers/broken-born-checkpoint-v2.md:45",
-      "papers/broken-born-checkpoint-v2.md:150",
-      "papers/broken-born-checkpoint-v2.md:171",
+      "wiki/papers/broken-born-checkpoint-v2.md:45",
+      "wiki/papers/broken-born-checkpoint-v2.md:150",
+      "wiki/papers/broken-born-checkpoint-v2.md:171",
       "wiki/history/documents/popular-articles.md:73"
      ]
     },
@@ -3557,8 +3557,8 @@
       "popsci/angle-of-the-mirror.md:37",
       "popsci/universes-other-half.md:39",
       "popsci/universes-other-half.md:45",
-      "papers/broken-born-checkpoint-v2.md:128-133",
-      "papers/broken-born-checkpoint-v2.md:177"
+      "wiki/papers/broken-born-checkpoint-v2.md:128-133",
+      "wiki/papers/broken-born-checkpoint-v2.md:177"
      ]
     },
     {
@@ -3568,14 +3568,14 @@
       "notes/knot-dark-matter-standalone.md:110",
       "notes/toy-lagrangian.md:8-9",
       "notes/toy-lagrangian.md:474",
-      "papers/broken-born-checkpoint-v2.md:195-199",
-      "papers/reciprocity-toy-models.md:157-176"
+      "wiki/papers/broken-born-checkpoint-v2.md:195-199",
+      "wiki/papers/reciprocity-toy-models.md:157-176"
      ]
     },
     {
      "description": "Flag 28: #11 §11.2 writes the magnetic coupling as '4π/e² ≈ 34'. The flag, confirmed by two independent checks on 2026-10-22, says the 34 is right and the formula is not: with α = e²/4π, 4π/e² = 1/α ≈ 137, while e·g = 2π gives π/e² = 1/(4α) ≈ 34.26. It is unruled and #11 is unchanged. The check prints only and is not gated. This 34 is our own magnetic coupling, distinct from the dead α_d.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:118",
+      "wiki/papers/broken-born-checkpoint-v2.md:118",
       "review/wiki-build-flags.md:198-203",
       "review/wiki-build-rulings.md:1316",
       "review/wiki-build-checks/dirac_coupling_check.out:3-4"
@@ -3584,37 +3584,37 @@
     {
      "description": "#11 counts 'one structural unification (polarization of phase space and of charge space as one move)' among its products (§15; §1 says it 'turns out to be the same mathematical move'). §11.3 tags only the shared-matrix identification [D — structural; math T] and the joint modular structure 'Conjecture [O]', and §14 item 8 lists formalizing 'the unification' as open. §15's wording does not separate the two.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:16",
-      "papers/broken-born-checkpoint-v2.md:120",
-      "papers/broken-born-checkpoint-v2.md:192",
-      "papers/broken-born-checkpoint-v2.md:205",
-      "papers/broken-born-checkpoint-v2.md:207"
+      "wiki/papers/broken-born-checkpoint-v2.md:16",
+      "wiki/papers/broken-born-checkpoint-v2.md:120",
+      "wiki/papers/broken-born-checkpoint-v2.md:192",
+      "wiki/papers/broken-born-checkpoint-v2.md:205",
+      "wiki/papers/broken-born-checkpoint-v2.md:207"
      ]
     },
     {
      "description": "Clumping-loophole wording. §12 says the topological loophole 'remains untested, but has no candidate', and Appendix A item 3 calls it untested. §14 item 8 says the 'p-localization items are closed by the §12 obituary'. 'Closed' there refers to the open-problems list; the loophole itself stays untested.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:154",
-      "papers/broken-born-checkpoint-v2.md:192",
-      "papers/broken-born-checkpoint-v2.md:215",
+      "wiki/papers/broken-born-checkpoint-v2.md:154",
+      "wiki/papers/broken-born-checkpoint-v2.md:192",
+      "wiki/papers/broken-born-checkpoint-v2.md:215",
       "HANDOFF.md:29"
      ]
     },
     {
      "description": "Row 8 lists a 'Permanent null' for our magnetic monopoles as a program requirement, killed by direct detection. §11.1 attributes the null result to inflationary dilution [T] and declares the program's explanation dead, and the row gives no program-internal derivation. This is not necessarily a contradiction, but the basis of the requirement is unstated.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:172",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:217"
+      "wiki/papers/broken-born-checkpoint-v2.md:172",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:217"
      ]
     },
     {
      "description": "Terminology: round 1 renamed 'knots' to 'π₂ monopole-class' in #14 v2. #11's §12 plain passage, §15 and Appendix A item 5, and both popsci articles, still call the 't Hooft–Polyakov monopole candidate 'knots'.",
      "sources": [
       "HANDOFF.md:88",
-      "papers/broken-born-checkpoint-v2.md:126",
-      "papers/broken-born-checkpoint-v2.md:205",
-      "papers/broken-born-checkpoint-v2.md:217",
+      "wiki/papers/broken-born-checkpoint-v2.md:126",
+      "wiki/papers/broken-born-checkpoint-v2.md:205",
+      "wiki/papers/broken-born-checkpoint-v2.md:217",
       "popsci/angle-of-the-mirror.md:37",
       "popsci/universes-other-half.md:41"
      ]
@@ -3622,8 +3622,8 @@
     {
      "description": "DSZ normalization: #11 §11.3 writes ⟨q,q′⟩ ∈ 2πℤ citing Zwanziger [17†]. Round-3 ruling 12 accepted 'Zwanziger's 4π vs 2π' as a minor citation issue (raised against #14 v3); #11 was not amended.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:120",
-      "papers/broken-born-checkpoint-v2.md:247",
+      "wiki/papers/broken-born-checkpoint-v2.md:120",
+      "wiki/papers/broken-born-checkpoint-v2.md:247",
       "review/round3-adjudication.md:41"
      ]
     },
@@ -3633,24 +3633,24 @@
       "verify/soliton_obituary.py:2-5",
       "verify/soliton_obituary.py:114",
       "review/wiki-build-flags.md:223-230",
-      "papers/broken-born-checkpoint-v2.md:155"
+      "wiki/papers/broken-born-checkpoint-v2.md:155"
      ]
     }
    ],
    "open_items": [
     {
      "item": "Formalize §11.3's unification: P5's phase-space polarization and the charge-lattice polarization as components of one enlarged modular structure [O].",
-     "source": "papers/broken-born-checkpoint-v2.md:192, :120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:192, :120",
      "queued": "not queued (the current queue, CLAUDE.md:107-112, has only the PM comparison, the † literature battery and an optional round-6 toy review)"
     },
     {
      "item": "Source-check the † references behind §11: [16]† Weyl semimetals, [17]† Dirac/Schwinger/Zwanziger, [18]† Montonen–Olive/Seiberg, plus the unlisted 't Hooft–Mandelstam† and '17†-adjacent'. #11 is not for submission until this audit completes.",
-     "source": "papers/broken-born-checkpoint-v2.md:194, :118, :263",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:194, :118, :263",
      "queued": "queued: CLAUDE.md:108-110, item 1 (the † literature battery)"
     },
     {
      "item": "Topological clumping loophole (momentum-space localization of individual objects): untested, with no candidate.",
-     "source": "papers/broken-born-checkpoint-v2.md:154, :215",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:154, :215",
      "queued": "not queued"
     },
     {
@@ -3680,7 +3680,7 @@
     },
     {
      "item": "Dual dynamics of the momentum polarization ('their Maxwell') need the covariant t ↔ E construction [O].",
-     "source": "papers/conjugate-special-relativity.md:85",
+     "source": "wiki/papers/conjugate-special-relativity.md:85",
      "queued": "not queued"
     },
     {
@@ -3691,11 +3691,11 @@
     {
      "item": "UV stability of sector separation / gravity-induced kinetic mixing.",
      "source": "HANDOFF.md:37",
-     "queued": "closed by decision: P4 strict, ε ≲ 10⁻¹³ [27S] (papers/broken-born-checkpoint-v2.md:45; CLAUDE.md:48)"
+     "queued": "closed by decision: P4 strict, ε ≲ 10⁻¹³ [27S] (wiki/papers/broken-born-checkpoint-v2.md:45; CLAUDE.md:48)"
     },
     {
      "item": "'Realistic production lowers the viable mass much further'. The referee's Kibble–Zurek integration (10⁹–10¹² overproduction) was not re-run.",
-     "source": "papers/broken-born-checkpoint-v2.md:146; review/round3-adjudication.md ruling 3",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:146; review/round3-adjudication.md ruling 3",
      "queued": "not queued (moot; candidate retired)"
     }
    ],
@@ -3718,7 +3718,7 @@
     "notes/gate-mechanism.md (grep; nothing monopole-related)",
     "notes/toy-lagrangian.md (grep; read lines 60-82, 130-145, 362-372, 420-452; nothing monopole-related)",
     "notes/phase-space-diameter-worklog.md (grep; nothing monopole-related)",
-    "papers/broken-born-checkpoint-v2.md (cross-reference for the #9 comparison: lines 1-50, 96-102, 108-227)",
+    "wiki/papers/broken-born-checkpoint-v2.md (cross-reference for the #9 comparison: lines 1-50, 96-102, 108-227)",
     "notes/knot-dark-matter-standalone.md (cross-reference for the v2-to-v3 git comparison: lines 1-10, 19-31, plus grep hits at 57, 61, 97, 105, 110)",
     "README.md (whole; git history)",
     "HANDOFF.md (cross-reference: lines 24-32, 60-63, 86-92, 106-115)",
@@ -3794,7 +3794,7 @@
      "claim": "What changed from #9 to #11:\n- #11 adds a section on monopoles and charge lattices: §11.1 the monopole audit, §11.2 the full dual spectrum, §11.3 the identification and the conjecture.\n- 'Polarized charge lattices' enters the subtitle and the DSZ pairing the abstract.\n- Appendix A gains items 5 and 11.\nAll of it was already in v2.0 at the 2026-10-19 import, so git cannot date it more finely than 'between v1.0 and v2.0, on claude.ai'. HANDOFF.md:60 lists 'charge-lattice §11; dark-sector trilemma §12' among v2.0's additions.",
      "tag": "untagged",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:112",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:112",
      "quote": "## 11. Polarized charge lattices: monopoles, duality frames, and the recurring matrix",
      "topic": "#9 → #11 change"
     },
@@ -3802,7 +3802,7 @@
      "claim": "#11 §11.1: conjugate-space monopoles as the explanation of our monopole null are dead. The relevant duality is electric-magnetic, not x↔p, and inflationary dilution already accounts for the absence. Appendix A item 5 (line 217) records Paul's supposition 'Monopoles live in conjugate space, explaining non-detection' as split, dead as explanation. The wiki's row-8 page names #1's '(p-polarized solitons)' as this dead rationale.",
      "tag": "[D] (audit); [T] (dilution)",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:116",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
      "quote": "As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T].",
      "topic": "monopole audit: explanation"
     },
@@ -3810,7 +3810,7 @@
      "claim": "#11 §11.1: as ontology, conjugate-sector solitons are alive and consequence-bearing. By P4 they gravitate, and 'true but irrelevant' is the empty set, a correction from P.R. The sentence retiring their candidacy as the dark matter was added at v2.1 (e1c1f67). Appendix A item 5 phrases the point as P.R.'s 'true-but-irrelevant is measure zero'.",
      "tag": "[D]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:116",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
      "quote": "As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; \"true but irrelevant\" is the empty set (a correction supplied by P.R.). Their candidacy as the dark matter itself is retired in v2.1 (§12).",
      "topic": "monopole audit: ontology"
     },
@@ -3818,7 +3818,7 @@
      "claim": "#11 §11.1 names row 8's laboratory shadow: Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles, 'right geometry, different flux'. The citation is from model memory (†).",
      "tag": "[16†]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:116",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116",
      "quote": "Their laboratory shadow is real: Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux.",
      "topic": "Berry-curvature monopoles (Weyl semimetals)"
     },
@@ -3826,7 +3826,7 @@
      "claim": "#11 §11.2, from the literature:\n- a magnetic counterpart for every electric particle is Montonen-Olive duality, exact in maximally supersymmetric Yang-Mills;\n- 'magnetic quarks' is Seiberg-duality vocabulary;\n- the dual superconductor is the leading confinement mechanism;\n- Dirac's condition makes the magnetic world our strong-coupling mirror.\nFlag 28 (confirmed, unruled): the 34 is right, but the formula beside it, 4π/e², is the 137 one.",
      "tag": "[T]; [17†-adjacent; 18†]; 't Hooft–Mandelstam†",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:118",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118",
      "quote": "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.",
      "topic": "full dual spectrum / magnetic mirror family"
     },
@@ -3834,7 +3834,7 @@
      "claim": "#11 §11.3:\n- the DSZ pairing makes the charge lattice a symplectic space;\n- mutual locality is a Lagrangian sublattice;\n- choosing a duality frame (electric = fundamental, magnetic = solitonic) is choosing a Lagrangian polarization of charge space;\n- S-duality τ_c → −1/τ_c uses the same [[0,1],[−1,0]] matrix as Born's ρ and Z → −Z⁻¹, 'the third appearance of one matrix in this program'.",
      "tag": "[D — structural; math T]; [17†]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
      "quote": "Choosing a duality frame — which particles are \"electric\" (fundamental) versus \"magnetic\" (solitonic) — is choosing a Lagrangian polarization of charge space, in the literature's own words.",
      "topic": "charge lattice as symplectic space"
     },
@@ -3842,7 +3842,7 @@
      "claim": "#11 §11.3's open conjecture is the program's current statement relating the electric/magnetic duality frame to the x/p polarization: P5's phase-space polarization and the charge-lattice polarization are components of one enlarged modular structure. As worded, it relates the two polarization choices; it does not say that magnetic states are p-polarized. Formalizing it is #11 §14 item 8 [O].",
      "tag": "[O]",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:120",
      "quote": "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure — the BBT-native analog of T- and S-duality cohabiting inside U-duality in string theory [T].",
      "topic": "one enlarged modular structure"
     },
@@ -3850,7 +3850,7 @@
      "claim": "#11 row 8 adds '(ours)' to #9's observable; requirement and kill condition are as in #9. The row is unchanged since the v2.0 import except for the 2026-10-26 column rename 'Broken-Born requirement' → 'Program requirement' (da72ce2). The withdrawn-with-cause line (177) added 'superheavy-soliton dark matter (obituary §12)' at v2.1.",
      "tag": "untagged",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:172",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:172",
      "quote": "| 8 | Magnetic monopoles (ours) | Model-dependent | Permanent null; Berry-curvature monopoles in solids as the only shadow | Direct detection |",
      "topic": "row 8 (#11)"
     },
@@ -3858,7 +3858,7 @@
      "claim": "#11 Appendix A item 5, v2.0 → v2.1: v2.0 ended the split verdict with 'feeding the knot candidate'; v2.1 (e1c1f67) reads 'the knot candidate it fed is retired (§12)'. The founding conjugate-space-monopole supposition is the record's stated source of #14.",
      "tag": "untagged",
      "status": "other",
-     "source": "papers/broken-born-checkpoint-v2.md:217",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:217",
      "quote": "as ontology, alive and consequence-bearing (P.R.'s \"true-but-irrelevant is measure zero\"); the knot candidate it fed is retired (§12).",
      "topic": "Appendix A item 5"
     },
@@ -3866,7 +3866,7 @@
      "claim": "#11 Appendix A item 11, unchanged since v2.0: Paul's supposition of a full magnetic mirror-family, quarks included, is alive as established physics (Montonen-Olive, Seiberg, dual superconductor) and absorbed into §11. The polarization identification is the program's own addition.",
      "tag": "untagged",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:223",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:223",
      "quote": "A full magnetic mirror-family, quarks included — **alive as established physics** (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition.",
      "topic": "Appendix A item 11"
     },
@@ -3890,7 +3890,7 @@
      "claim": "#11 §12 obituary, added at v2.1 on 2026-10-19:\n- The v2.0 third candidate had been developed as #14 into superheavy 't Hooft-Polyakov monopoles of a hidden SU(2) → U(1) sector. It is retired as program-native after failing round 3 (verdict C).\n- Below about 100 PeV, annihilation in the hidden plasma sets the abundance. That is the established topological-dark-matter scenario, and 'nothing in it depends on Born reciprocity'.\n- Superheavy masses survive only with a free dilution factor, which removes the mass prediction.",
      "tag": "[V] numbers; [28S], [29S]",
      "status": "withdrawn",
-     "source": "papers/broken-born-checkpoint-v2.md:150",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:150",
      "quote": "Retired as a program-native candidate. The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it.",
      "topic": "soliton obituary"
     },
@@ -3898,7 +3898,7 @@
      "claim": "#11 §12: #14 had normalized the Kibble estimate n/s = p(T_c/M_Pl)³ at p = 1 (v2) and p ≈ 0.023 (v3). One defect per Hubble volume gives p ≈ 104, and that is the causal minimum. At that minimum the abundance closes at 2.9-4.4×10¹² GeV, and the v3 benchmark is overproduced 2.1×10³-1.2×10⁴ times.",
      "tag": "[V]; [28S]",
      "status": "ruling",
-     "source": "papers/broken-born-checkpoint-v2.md:145",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:145",
      "quote": "One defect per Hubble volume gives p ≈ 104 [V], and that is the causal minimum; Kibble–Zurek and bubble-nucleation production only add to it [28S].",
      "topic": "Kibble normalization"
     },
@@ -3906,7 +3906,7 @@
      "claim": "Survives the obituary: a weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization. The point first appears in #14 v3 (5dbaa82): 'the strong magnetic coupling is generic, not a hypothesis' (notes/knot-dark-matter-standalone.md:27).",
      "tag": "[T]",
      "status": "established-physics",
-     "source": "papers/broken-born-checkpoint-v2.md:152",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:152",
      "quote": "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T].",
      "topic": "generic strong magnetic coupling"
     },
@@ -3914,7 +3914,7 @@
      "claim": "Survives the obituary: the minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms, since its stable W′± overclose the universe. This was first computed 2026-10-19 by verify/dark_sector.py (d15cd4a), which concluded that a light dark-charged doublet was needed.",
      "tag": "[V]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:153",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:153",
      "quote": "The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V].",
      "topic": "W′ overclosure"
     },
@@ -3922,7 +3922,7 @@
      "claim": "The clumping loophole, topological momentum-space localization of individual objects, is untested and has no candidate.\n- #11 §9's plain-language passage (line 98) says 'one loophole for individual knots, whose candidate has since been retired'.\n- Appendix A item 3 (line 215) says 'untested, and its candidate is retired'; v2.0 had 'untouched'.\n- 'Debt-3 loophole' was renamed 'clumping loophole' on 2026-10-28 (c12da1b).\n- #1 and #9 never mention the loophole.",
      "tag": "untagged",
      "status": "open",
-     "source": "papers/broken-born-checkpoint-v2.md:154",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:154",
      "quote": "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate.",
      "topic": "topological clumping loophole"
     },
@@ -3930,7 +3930,7 @@
      "claim": "P4 has been taken strictly since v2.1 (e1c1f67, 2026-10-19): no kinetic mixing between the sectors beyond what gravity induces. The decision commit 5b6efaa says the Planck-coefficient mixing estimate it replaced 'had no source'.",
      "tag": "[P]; [27S]",
      "status": "alive",
-     "source": "papers/broken-born-checkpoint-v2.md:45",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45",
      "quote": "taken strictly since v2.1: no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S].",
      "topic": "P4 strict / kinetic mixing"
     },
@@ -4099,25 +4099,25 @@
     {
      "quantity": "Kibble normalization p for one defect per Hubble volume, n/s = p (T_c/M_Pl)³",
      "value": "p = 104.31 with M_Pl (0.828 with reduced M_Pl); #11 quotes p ≈ 104",
-     "source": "verify/soliton_obituary.py:62-63; papers/broken-born-checkpoint-v2.md:145; git 96f58da",
+     "source": "verify/soliton_obituary.py:62-63; wiki/papers/broken-born-checkpoint-v2.md:145; git 96f58da",
      "provenance": "verify/soliton_obituary.py, gated in scripts/check.sh (line 21); independent anchor n/s ~ 100 (T_c/M_Pl)³ (Gangui, astro-ph/0110285)"
     },
     {
      "quantity": "#14's earlier Kibble normalizations",
      "value": "p = O(1), taken as p = 1 (v2); p ≈ 0.023 (v3), where 0.0228 = 104.31/(1.66√g*)³ with the dropped factor (1.66√g*)³ ≈ 4.6×10³",
-     "source": "git 8d588f6:import/knot-dark-matter-standalone.md:31; papers/broken-born-checkpoint-v2.md:144; verify/soliton_obituary.py:64-65",
+     "source": "git 8d588f6:import/knot-dark-matter-standalone.md:31; wiki/papers/broken-born-checkpoint-v2.md:144; verify/soliton_obituary.py:64-65",
      "provenance": "the decomposition of 0.0228 is gated in verify/soliton_obituary.py; the v2 and v3 values are withdrawn"
     },
     {
      "quantity": "monopole mass at which minimum (causal) Kibble production closes the abundance",
      "value": "M* = 2.9–4.4×10¹² GeV (mass factor f = 1 to 1.787)",
-     "source": "verify/soliton_obituary.py:73; papers/broken-born-checkpoint-v2.md:146",
+     "source": "verify/soliton_obituary.py:73; wiki/papers/broken-born-checkpoint-v2.md:146",
      "provenance": "verify/soliton_obituary.py, gated"
     },
     {
      "quantity": "overproduction of #14 v3's benchmark M = 3×10¹³ GeV",
      "value": "2.1×10³–1.2×10⁴",
-     "source": "verify/soliton_obituary.py:78; papers/broken-born-checkpoint-v2.md:146",
+     "source": "verify/soliton_obituary.py:78; wiki/papers/broken-born-checkpoint-v2.md:146",
      "provenance": "verify/soliton_obituary.py, gated"
     },
     {
@@ -4135,13 +4135,13 @@
     {
      "quantity": "hidden-sector monopole overclosure bound",
      "value": "symmetry-breaking scale ≲ 100 PeV, or a period of early matter domination",
-     "source": "papers/broken-born-checkpoint-v2.md:147",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:147",
      "provenance": "literature [29S] (Liveoak, Maharana, Wells 2026); not executed"
     },
     {
      "quantity": "stable W′± overclosure in the minimal adjoint-only SU(2)_d → U(1)_d sector",
      "value": "10¹⁶–10¹⁷ × the observed dark-matter density (at the v3 benchmark)",
-     "source": "verify/soliton_obituary.py:104-109; papers/broken-born-checkpoint-v2.md:153; git d15cd4a",
+     "source": "verify/soliton_obituary.py:104-109; wiki/papers/broken-born-checkpoint-v2.md:153; git d15cd4a",
      "provenance": "gated in verify/soliton_obituary.py; first computed by verify/dark_sector.py (d15cd4a), which was merged into knot_numbers.py at 5dbaa82"
     },
     {
@@ -4153,7 +4153,7 @@
     {
      "quantity": "our own magnetic coupling (#11 §11.2)",
      "value": "written '4π/e² ≈ 34'; flag 28: 34 = 1/(4α) = π/e² ≈ 34.26 is right for e·g = 2π, while 4π/e² = 1/α ≈ 137",
-     "source": "papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198-203",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:118; review/wiki-build-flags.md:198-203",
      "provenance": "review/wiki-build-checks/dirac_coupling_check.py; not gated (not in scripts/check.sh); flag 28 confirmed 2026-10-22, unruled"
     },
     {
@@ -4177,7 +4177,7 @@
     {
      "quantity": "gravity-induced kinetic mixing between sectors (P4 strict)",
      "value": "zero if hidden charge conjugation is exact; otherwise first at six loops, ε ≲ 10⁻¹³",
-     "source": "papers/broken-born-checkpoint-v2.md:45",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:45",
      "provenance": "literature [27S] (Gherghetta, Kersten, Olive, Pospelov 2019); not executed"
     },
     {
@@ -4306,8 +4306,8 @@
      "description": "README.md:2 still calls the program an explanation of 'missing magnetic monopoles'. #11 §11.1 ('As an explanation of the null result: dead'), Appendix A item 5 and HANDOFF §2 all record that explanation as dead. Flag 37 was confirmed on 2026-10-22, but its ruling checkboxes are blank. The documents win.",
      "sources": [
       "README.md:2",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:217",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:217",
       "HANDOFF.md:31",
       "review/wiki-build-flags.md:241-244",
       "review/wiki-build-rulings.md:2605-2635"
@@ -4318,8 +4318,8 @@
      "sources": [
       "notes/broken-born-theory.md:232",
       "notes/broken-born-program-v1.md:105",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:172",
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:172",
       "wiki/summary.md:110"
      ]
     },
@@ -4332,14 +4332,14 @@
       "notes/knot-dark-matter-standalone.md:23",
       "notes/knot-dark-matter-standalone.md:31",
       "HANDOFF.md:26",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:120"
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:120"
      ]
     },
     {
      "description": "Two different '≈ 34's:\n- #11 §11.2's coupling of our own magnetic world, '4π/e² ≈ 34' [T]. Flag 28 says the number is right but the formula is the 137 one.\n- #14's α_d / α_m = 1/(4α) ≈ 34 for hidden monopoles, which HANDOFF §2 and the wiki (e21f607) call dead.\nFlag 28 itself notes that the two are distinct.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:118",
+      "wiki/papers/broken-born-checkpoint-v2.md:118",
       "review/wiki-build-flags.md:198-203",
       "notes/knot-dark-matter-standalone.md:29",
       "HANDOFF.md:32"
@@ -4369,7 +4369,7 @@
      "sources": [
       "HANDOFF.md:26",
       "HANDOFF.md:31",
-      "papers/broken-born-checkpoint-v2.md:137-150",
+      "wiki/papers/broken-born-checkpoint-v2.md:137-150",
       "CLAUDE.md"
      ]
     }
@@ -4377,12 +4377,12 @@
    "open_items": [
     {
      "item": "Formalize §11.3's unification: P5's phase-space polarization and the charge-lattice polarization as components of one enlarged modular structure (#11 §14 item 8, [O]).",
-     "source": "papers/broken-born-checkpoint-v2.md:192; papers/broken-born-checkpoint-v2.md:120",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:192; wiki/papers/broken-born-checkpoint-v2.md:120",
      "queued": "Not queued. The CLAUDE.md queue is HANDOFF §8 items 5-6, then an optional round-6 toy review."
     },
     {
      "item": "The clumping loophole, topological momentum-space localization of individual objects: untested, with no candidate.",
-     "source": "papers/broken-born-checkpoint-v2.md:154",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:154",
      "queued": "Not queued"
     },
     {
@@ -4397,12 +4397,12 @@
     },
     {
      "item": "Source-check the † references behind §11: [16†] (Weyl-semimetal Berry-curvature monopoles), [17†] (Dirac, Schwinger, Zwanziger), [18†] (Montonen–Olive; Seiberg) and 't Hooft–Mandelstam†.",
-     "source": "papers/broken-born-checkpoint-v2.md:116-120, :194",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:116-120, :194",
      "queued": "Queued: CLAUDE.md queue item 1 (HANDOFF §8 item 6, the † literature battery; #11 §14 item 10)"
     },
     {
      "item": "Resolve the gravity-induced kinetic mixing question (HANDOFF §8 item 6). #11 v2.1 already takes P4 strictly on [27S] (ε ≲ 10⁻¹³), and 5b6efaa says the earlier Planck-coefficient estimate 'had no source'.",
-     "source": "HANDOFF.md:113; papers/broken-born-checkpoint-v2.md:45; git 5b6efaa",
+     "source": "HANDOFF.md:113; wiki/papers/broken-born-checkpoint-v2.md:45; git 5b6efaa",
      "queued": "Nominally queued, as part of CLAUDE.md queue item 1"
     },
     {
@@ -4484,7 +4484,7 @@
     "wiki/glossary.md (monopole entries)",
     "wiki/notation.md (monopole entries)",
     "wiki/references.md (lines 56-70, 518-602, 751-982)",
-    "Cross-reference only: papers/broken-born-checkpoint-v2.md lines 108-159 and grep of §13 row 8, §14 item 8, App. A items 3, 5, 11",
+    "Cross-reference only: wiki/papers/broken-born-checkpoint-v2.md lines 108-159 and grep of §13 row 8, §14 item 8, App. A items 3, 5, 11",
     "Cross-reference only: HANDOFF.md (grep, lines 26-110)",
     "Cross-reference only: scripts/check.sh",
     "Cross-reference only: verify/soliton_obituary.py (grep; run read-only, all PASS)",
@@ -5356,8 +5356,8 @@
       "wiki/status/open-problems.md:138",
       "wiki/history/documents/source-conflicts.md:85",
       "wiki/history/documents/checkpoint.md:113",
-      "papers/broken-born-checkpoint-v2.md:154",
-      "papers/broken-born-checkpoint-v2.md:192"
+      "wiki/papers/broken-born-checkpoint-v2.md:154",
+      "wiki/papers/broken-born-checkpoint-v2.md:192"
      ]
     },
     {
@@ -5365,8 +5365,8 @@
      "sources": [
       "wiki/history/documents/source-conflicts.md:105",
       "wiki/program/founding-suppositions.md:121",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:217"
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:217"
      ]
     },
     {
@@ -5375,7 +5375,7 @@
       "wiki/status/open-problems.md:212",
       "wiki/method/verification/iron-rule.md:73",
       "wiki/notation.md:344",
-      "papers/broken-born-checkpoint-v2.md:118"
+      "wiki/papers/broken-born-checkpoint-v2.md:118"
      ]
     },
     {
@@ -5415,8 +5415,8 @@
      "sources": [
       "wiki/summary.md:99",
       "wiki/summary.md:110",
-      "papers/broken-born-checkpoint-v2.md:118",
-      "papers/broken-born-checkpoint-v2.md:172"
+      "wiki/papers/broken-born-checkpoint-v2.md:118",
+      "wiki/papers/broken-born-checkpoint-v2.md:172"
      ]
     },
     {
@@ -5424,8 +5424,8 @@
      "sources": [
       "wiki/status/alive.md:265",
       "wiki/glossary.md:512",
-      "papers/broken-born-checkpoint-v2.md:116",
-      "papers/broken-born-checkpoint-v2.md:172"
+      "wiki/papers/broken-born-checkpoint-v2.md:116",
+      "wiki/papers/broken-born-checkpoint-v2.md:172"
      ]
     },
     {
@@ -5576,7 +5576,7 @@
     "verify/soliton_obituary.py (whole; executed by this reader 2026-10-28: 16/16 PASS, exit 0)",
     "scripts/check.sh (whole; soliton_obituary.py gated at line 21)",
     "HANDOFF.md lines 14-45, 63-66, 70-78, 83, 86-95, 106-115 (cross-reference only: rounds 1-2, the sqrt(N) floor, the candidate's status at handoff)",
-    "papers/broken-born-checkpoint-v2.md lines 8, 45, 124-158 and grep hits at 116, 171, 177, 192 (cross-reference only: P4 and the section 12 obituary that soliton_obituary.py says it checks)",
+    "wiki/papers/broken-born-checkpoint-v2.md lines 8, 45, 124-158 and grep hits at 116, 171, 177, 192 (cross-reference only: P4 and the section 12 obituary that soliton_obituary.py says it checks)",
     "git history (read-only): 8d588f6 and 008c3ee (v2 is the first version in git; no v1 text), 96f58da:verify/knot_numbers.py (header and Kibble checks), dates of cc05705, d15cd4a, 5dbaa82, 96f58da, 5b6efaa"
    ],
    "claims": [
@@ -5840,7 +5840,7 @@
      "claim": "The monopoles carry magnetic charge g_m = 4π/g_d under the hidden U(1)_d, the Dirac minimum relative to ψ's charge g_d/2, so α_m = g_m²/4π = 1/α_W′. Any weakly coupled hidden sector therefore has strongly coupled monopoles: this is generic, not a hypothesis. #11 §12 keeps it as a survivor [T].",
      "tag": "untagged; v3 §6 'derived ... (standard)'; [T] in #11 §12",
      "status": "alive",
-     "source": "notes/knot-dark-matter-standalone.md:27; papers/broken-born-checkpoint-v2.md:152",
+     "source": "notes/knot-dark-matter-standalone.md:27; wiki/papers/broken-born-checkpoint-v2.md:152",
      "quote": "Any weakly coupled hidden sector therefore has strongly coupled monopoles: the strong magnetic coupling is generic, not a hypothesis.",
      "topic": "Dirac quantization in the hidden sector"
     },
@@ -5896,7 +5896,7 @@
      "claim": "Negative result: the minimal adjoint-only hidden sector fails. Its W′± are the lightest hidden-charged states, stable by U(1)_d charge, and thermally populated by the plasma that Kibble production needs. They freeze out at 1e16–1e17 times the DM density. This survives round 3 and is gated.",
      "tag": "untagged; v3 §6 derived; [V] in #11 §12",
      "status": "alive",
-     "source": "notes/knot-dark-matter-standalone.md:43; papers/broken-born-checkpoint-v2.md:153; verify/soliton_obituary.py:104-109",
+     "source": "notes/knot-dark-matter-standalone.md:43; wiki/papers/broken-born-checkpoint-v2.md:153; verify/soliton_obituary.py:104-109",
      "quote": "Standard freeze-out [17] then leaves them at 1e16 to 1e17 times the observed dark-matter density, bracketing the annihilation coefficient over a factor of ten. The adjoint-only sector is excluded.",
      "topic": "W' overclosure"
     },
@@ -6096,7 +6096,7 @@
      "claim": "Decision 1, strict sector separation: ε ≲ 1e-13 from gravity alone, and zero if hidden charge conjugation is gauged. This is P4 at face value. P4 (#11 §4) says matter comes in x-polarized (SM) and p-polarized (χ) representations, both coupling universally to H, and gauge forces do not cross polarizations; strict since v2.1. The alternative rested on an unsourced coefficient. Strict P4 closes three failure channels: the ψ millicharge, the monopoles' Witten-effect charge and re-thermalization of the hidden sector. Claude decided under Paul's delegation; Paul keeps the veto.",
      "tag": "decision (delegated); P4 is [P]",
      "status": "ruling",
-     "source": "review/round3-adjudication.md:97-112; papers/broken-born-checkpoint-v2.md:45",
+     "source": "review/round3-adjudication.md:97-112; wiki/papers/broken-born-checkpoint-v2.md:45",
      "quote": "It is the program's own postulate P4 (\"gauge forces do not cross polarizations\") taken at face value.",
      "topic": "P4 strict sector separation"
     },
@@ -6128,7 +6128,7 @@
      "claim": "Cross-reference, #11 v2.1 §12 obituary: v2.0 listed topological solitons of a p-local gauge sector as a third DM candidate, separate from the χ particles. It also claimed they slip through the clumping loophole, since topology would localize them in momentum. Survivors: a weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]; the adjoint-only sector is excluded by W′ overclosure [V]; the clumping loophole 'remains untested, but has no candidate'. The [V] numbers are gated in soliton_obituary.py.",
      "tag": "[T], [V], [28S], [29S] as written in #11",
      "status": "dead",
-     "source": "papers/broken-born-checkpoint-v2.md:132,137-155",
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:132,137-155",
      "quote": "v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge.",
      "topic": "#11 §12 obituary (cross-reference)"
     }
@@ -6347,7 +6347,7 @@
     {
      "quantity": "Gravity-only kinetic mixing",
      "value": "ε ≲ 1e-13 (six loops or more); 0 if hidden C is exact or gauged",
-     "source": "notes/knot-dark-matter-standalone.md:35; review/round3-adjudication.md:102-103; papers/broken-born-checkpoint-v2.md:45",
+     "source": "notes/knot-dark-matter-standalone.md:35; review/round3-adjudication.md:102-103; wiki/papers/broken-born-checkpoint-v2.md:45",
      "provenance": "literature (Gherghetta et al. 2019, [27S] in #11); not executed"
     },
     {
@@ -6365,7 +6365,7 @@
     {
      "quantity": "Hidden-monopole viability scale",
      "value": "v ≲ 100 PeV (1e8 GeV) unless diluted (e.g. by early matter domination)",
-     "source": "review/round3-adjudication.md:32; review/round3/referee/audit-notes.md:212; papers/broken-born-checkpoint-v2.md:147",
+     "source": "review/round3-adjudication.md:32; review/round3/referee/audit-notes.md:212; wiki/papers/broken-born-checkpoint-v2.md:147",
      "provenance": "literature, Liveoak–Maharana–Wells arXiv:2607.20843 abstract ([29S] in #11); not executed"
     },
     {
@@ -6472,7 +6472,7 @@
     {
      "when": "2026-10-19",
      "event": "#11 goes to v2.1: soliton candidate retired in §12, P4 strict in §4, compatibility theorem re-attributed in §5",
-     "source": "papers/broken-born-checkpoint-v2.md:8"
+     "source": "wiki/papers/broken-born-checkpoint-v2.md:8"
     }
    ],
    "tensions": [
@@ -6498,7 +6498,7 @@
       "review/round3/referee/step4.out:24-41",
       "review/round3/referee/audit-notes.md:169-173",
       "review/round3-adjudication.md:32",
-      "papers/broken-born-checkpoint-v2.md:146"
+      "wiki/papers/broken-born-checkpoint-v2.md:146"
      ]
     },
     {
@@ -6581,7 +6581,7 @@
     {
      "description": "#11 §12's plain-language passage calls the objects 'topological knots' and 'heavy knots'. Round 1 renamed 'knots' to π₂ monopole-class, and v2 calls them 'not knot solitons in the pi_3/Hopfion sense'. The file names still say 'knot'.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:126",
+      "wiki/papers/broken-born-checkpoint-v2.md:126",
       "HANDOFF.md:88",
       "review/skeptic-review-console.html:53"
      ]
@@ -6589,8 +6589,8 @@
     {
      "description": "Mild, cross-reference: #11 §12 says the clumping loophole 'remains untested, but has no candidate', while #11 §14 item 8 says the soliton-spectrum and p-localization items 'are closed by the §12 obituary'. Possibly reconcilable: an open problem closed for want of a candidate, while the loophole itself stays untested.",
      "sources": [
-      "papers/broken-born-checkpoint-v2.md:154",
-      "papers/broken-born-checkpoint-v2.md:192"
+      "wiki/papers/broken-born-checkpoint-v2.md:154",
+      "wiki/papers/broken-born-checkpoint-v2.md:192"
      ]
     },
     {
@@ -6620,7 +6620,7 @@
    "open_items": [
     {
      "item": "Acceptance criterion 1: an action in which ρ is a spontaneously broken Noether symmetry and η selects both the position polarization and the hidden sector's electric description (v2: 'the electric sublattice'). Deriving H from it would make alpha_d a prediction. #11 §14 item 8 carries the related '[O] formalize §11.3's unification'.",
-     "source": "notes/knot-dark-matter-standalone.md:110; review/skeptic-review-console.html:81; papers/broken-born-checkpoint-v2.md:192",
+     "source": "notes/knot-dark-matter-standalone.md:110; review/skeptic-review-console.html:81; wiki/papers/broken-born-checkpoint-v2.md:192",
      "queued": "The toy Lagrangian was queued by decision 4 (2026-10-19) and is since done per CLAUDE.md. The electric-sublattice part is not in the current CLAUDE.md queue."
     },
     {
@@ -6640,7 +6640,7 @@
     },
     {
      "item": "The topological clumping loophole (topology localizing individual solitons in momentum) has never been tested and now has no candidate.",
-     "source": "review/skeptic-review-console.html:79; HANDOFF.md:29; papers/broken-born-checkpoint-v2.md:154",
+     "source": "review/skeptic-review-console.html:79; HANDOFF.md:29; wiki/papers/broken-born-checkpoint-v2.md:154",
      "queued": "not queued"
     },
     {

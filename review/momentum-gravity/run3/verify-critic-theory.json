@@ -25,7 +25,7 @@
    "claim_id": "c6D",
    "verdict": "corrected",
    "reason": "The canonical map is exact; my sympy output is identical to the critic's (the '2*m*U' is the common denominator 2m). Four corrections:\n(1) 'An interaction depending only on momenta exerts no force (pdot = 0)' holds in any external potential: Hamilton gives pdot_a = -dPhi/dx_a with no U term. What holds only in free space or a uniform field is the consequence: U cannot change relative momenta, so f(p) cannot be reorganized. In a curved potential (harmonic or quartic), U changes momenta indirectly through the anomalous velocity. The qualifier 'in free space or a homogeneous medium' therefore belongs on that consequence, not on 'exerts no force'. C7 already states its premise ('If f and eps are both uniform in x'). What C7 gets wrong is its sentence that physical matter lacks the exchanged Hamiltonian, which the harmonic map contradicts.\n(2) '#13 sec. 5's x^2/2m~' is a misattribution. #13 contains no such Hamiltonian (/usr/bin/grep finds none). The exchanged form x^2/2m' + U(p-p') appears in clumping C7, and as [T] on the wiki pages born-reciprocity and borns-question.\n(3) The exact map needs a fixed, exactly harmonic potential and equal m and Omega. It holds for orbits confined to a uniform-density core. Self-gravity of a clumping component, and orbits that leave the core, break it.\n(4) The energy-ratio point is exact, not only a scaling argument: the map preserves H, so every energy ratio is invariant. The record's interaction (contact in x, gated in p) maps to one that is contact in P and gated in X, still local in both.",
-   "independent_check": "v5_harmonic_map.py.\n- sympy: '{X1,P1} = 1  {X2,P2} = 1  {X1,X2} = 0  {P1,P2} = 0  {X1,P2} = 0'; 'H in (X,P): (Omega**2*X1**2*m**2 + Omega**2*X2**2*m**2 + P1**2 + P2**2 + 2*m*U(Omega*m*(X1 - X2)))/(2*m)'; 'general Phi: pdot1 = -dH/dx1 = -Derivative(Phi(x1), x1)'.\n- Numerics, U = -0.3 exp(-(p1-p2)^2/2), RK4, t <= 20. Free space: '|(p1-p2)_withU - (p1-p2)_noU| = 0.000e+00'. Uniform field: '0.000e+00'. Harmonic: '2.564e+00'. Quartic: '1.629e+00'. Mapped vs original harmonic trajectories: '0.00e+00'.\n- Critic's c6 (D) prints the same brackets and Hamiltonian.\n- /usr/bin/grep of papers/conjugate-special-relativity.md for x^2/2m forms or m~: no match.\n- Read C7 and C20 in round3-inputs/clumping-analysis.json.",
+   "independent_check": "v5_harmonic_map.py.\n- sympy: '{X1,P1} = 1  {X2,P2} = 1  {X1,X2} = 0  {P1,P2} = 0  {X1,P2} = 0'; 'H in (X,P): (Omega**2*X1**2*m**2 + Omega**2*X2**2*m**2 + P1**2 + P2**2 + 2*m*U(Omega*m*(X1 - X2)))/(2*m)'; 'general Phi: pdot1 = -dH/dx1 = -Derivative(Phi(x1), x1)'.\n- Numerics, U = -0.3 exp(-(p1-p2)^2/2), RK4, t <= 20. Free space: '|(p1-p2)_withU - (p1-p2)_noU| = 0.000e+00'. Uniform field: '0.000e+00'. Harmonic: '2.564e+00'. Quartic: '1.629e+00'. Mapped vs original harmonic trajectories: '0.00e+00'.\n- Critic's c6 (D) prints the same brackets and Hamiltonian.\n- /usr/bin/grep of wiki/papers/conjugate-special-relativity.md for x^2/2m forms or m~: no match.\n- Read C7 and C20 in round3-inputs/clumping-analysis.json.",
    "corrected_statement": "For identical particles in a fixed, exactly harmonic potential, X = p/(m Omega), P = -m Omega x is canonical. It maps sum[p^2/2m + m Omega^2 x^2/2] + U(p_a - p_b) to sum[P^2/2m + m Omega^2 X^2/2] + U(m Omega (X_a - X_b)) [D, sympy].\nA momentum-only interaction never contributes to pdot, in any potential. It leaves relative momenta unchanged only in free space or a uniform field. In a harmonic core, the founding image's x <-> v exchange is realized exactly for orbits that stay inside the core.\nThe map preserves H, so the contact gate's interaction-to-thermal shortfall (round-2 C6: 3.3e-28 dwarf, 8.7e-31 MW) is unchanged."
   }
  ],
@@ -37,7 +37,7 @@
    "basis": "Lorentz covariance of a three-point vertex with on-shell external legs: the only invariants are p1^2 = p3^2 = m^2 and t. The pole residue factorizes into two such vertices joined by the spin-J polarization sum (textbook S-matrix factorization, [T] dagger).",
    "confidence": "high",
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 8 ('the variable no x-local mediator produces')"
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 8 ('the variable no x-local mediator produces')"
    ]
   },
   {
@@ -61,7 +61,7 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 8"
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 8"
    ]
   },
   {
@@ -121,7 +121,7 @@
     "arXiv:1811.01952 [S]",
     "arXiv:0804.4672 [S]",
     "Phys. Rev. 135, B1049 [S abstract]",
-    "papers/broken-born-checkpoint-v2.md sec. 7.1"
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 7.1"
    ]
   },
   {
@@ -167,7 +167,7 @@
    "basis": "T6 computation with the medium replaced by the mediator's rest frame.",
    "confidence": "medium",
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 8"
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 8"
    ]
   },
   {
@@ -185,9 +185,9 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 7.5, sec. 10",
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 7.5, sec. 10",
     "notes/geometric-core.md (field content; open item 4)",
-    "papers/phase-space-diameter.md sec. 8.5"
+    "wiki/papers/phase-space-diameter.md sec. 8.5"
    ]
   },
   {
@@ -259,10 +259,10 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 7.1, 7.5, 8, 14 item 4",
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 7.1, 7.5, 8, 14 item 4",
     "notes/x-classification.md sec. 4",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md",
-    "papers/phase-space-diameter.md sec. 8.2"
+    "wiki/papers/phase-space-diameter.md sec. 8.2"
    ]
   }
  ],

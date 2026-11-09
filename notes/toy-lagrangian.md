@@ -501,7 +501,7 @@ coset toy plus a τ-type potential:
 
 ## Write-up and review (2026-10-19/20)
 
-- The note: [papers/reciprocity-toy-models.md](../papers/reciprocity-toy-models.md).
+- The note: [wiki/papers/reciprocity-toy-models.md](../wiki/papers/reciprocity-toy-models.md).
 - Round-4 blind review: verdict B. Adjudication in
   [review/round4-adjudication.md](../review/round4-adjudication.md).
 - **v2 applies every accepted revision:**

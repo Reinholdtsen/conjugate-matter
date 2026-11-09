@@ -7,7 +7,7 @@ and momentum space. Speculate and work through the consequences if so."
 
 Deliverables:
 
-- `papers/phase-space-diameter.md`: the note, house format.
+- `wiki/papers/phase-space-diameter.md`: the note, house format.
 - `verify/phase_space_diameter.py`: every number in the note, with anchors
   independent of the note, wired into `scripts/check.sh`.
 - A blind review round, pre-registered before dispatch, then an adjudication.
@@ -103,7 +103,7 @@ Deliverables:
     the Yang model, which bears on the toy note's "no model breaks ρ
     itself"; Shlivko–Steinhardt 2024 and Hur et al. 2025 bear on reading
     DESI's CPL quadrant against strict w ≥ −1.
-- 2026-10-26 15:55: chunk 2 done. `papers/phase-space-diameter.md` v1.0
+- 2026-10-26 15:55: chunk 2 done. `wiki/papers/phase-space-diameter.md` v1.0
   written; `verify/phase_space_diameter.py` written and wired into
   `scripts/check.sh`; full gate passes. The script caught two of my own
   numbers (ln A₀ = 213.5, not 213.8; the two-region aspect 8×10²⁹, not

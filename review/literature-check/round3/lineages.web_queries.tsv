@@ -1,7 +1,7 @@
 time	tool	query	result
 2026-11-02	WebFetch	https://doi.org/10.26076/cec1-e114 (Hazboun dissertation DOI)	302 redirect to digitalcommons.usu.edu/etd/3856
 2026-11-02	WebFetch	https://digitalcommons.usu.edu/etd/3856	Hazboun, "Conformal Gravity and Time", PhD dissertation, Utah State Univ., 2014; abstract paraphrased by tool; mentions dark matter and dark energy; no momentum/phase space in abstract
-2026-11-02	WebFetch	https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1938.0060 (Born 1938)	HTTP 403; Born 1938 already read for papers/phase-space-diameter.md §4
+2026-11-02	WebFetch	https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1938.0060 (Born 1938)	HTTP 403; Born 1938 already read for wiki/papers/phase-space-diameter.md §4
 2026-11-02	WebFetch	https://www.nature.com/articles/164281b0 (Born, Cheng, Green 1949)	redirect to login; INSPIRE first paragraph only
 2026-11-02	WebFetch	https://link.springer.com/article/10.1007/BF00690297 (Assis 1989)	redirect to login
 2026-11-02	WebSearch (extended)	Kadyshevsky Mateev Mir-Kasimov "charge quantization" de Sitter momentum space 1975	OSTI records only (JINR-E2-8892, 1975); no abstract or text

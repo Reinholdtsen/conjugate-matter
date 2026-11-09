@@ -5,15 +5,15 @@ status: alive
 description: "The phase-space box [l_P, L] × [ħ/L, ħ/l_P], from the Planck length to the horizon, is mapped onto itself by Born reciprocity for one Born length, √(l_P L) = 47–84 μm: the Cohen–Kaplan–Nelson cutoff and the Born-geometry cell length, both prior art; its match to the dark-energy scale is the Friedmann equation, and de Sitter space is its self-dual state by construction."
 provenance: [T, D, V]
 sources:
-  - "papers/phase-space-diameter.md §7"
-  - "papers/phase-space-diameter.md §4"
-  - "papers/phase-space-diameter.md §5"
-  - "papers/phase-space-diameter.md §2"
-  - "papers/phase-space-diameter.md §8"
-  - "papers/phase-space-diameter.md §8.1"
-  - "papers/phase-space-diameter.md §8.6"
-  - "papers/phase-space-diameter.md §9"
-  - "papers/phase-space-diameter.md 'References'"
+  - "wiki/papers/phase-space-diameter.md §7"
+  - "wiki/papers/phase-space-diameter.md §4"
+  - "wiki/papers/phase-space-diameter.md §5"
+  - "wiki/papers/phase-space-diameter.md §2"
+  - "wiki/papers/phase-space-diameter.md §8"
+  - "wiki/papers/phase-space-diameter.md §8.1"
+  - "wiki/papers/phase-space-diameter.md §8.6"
+  - "wiki/papers/phase-space-diameter.md §9"
+  - "wiki/papers/phase-space-diameter.md 'References'"
   - "verify/phase_space_diameter.py 'Extent, resolution and the published answers (note §4)'"
   - "verify/phase_space_diameter.py 'The self-dual box (note §7)'"
   - "review/round5-adjudication.md 'Rulings' R6–R10, R15"
@@ -27,21 +27,21 @@ sources:
   - "review/wiki-build-flags.md item 72"
 ---
 
-*The self-dual cosmic box is the range of scales of the universe drawn as a rectangle in [phase space](/wiki/phase-space), the space of positions and momenta taken together. In position it runs from the [Planck length](/wiki/gravity/spin-2-fields/planck-units) l_P to a cosmic length L, such as the radius of the Hubble sphere; in momentum it runs from ħ/L, the finest momentum a region of size L can resolve, to the Planck momentum ħ/l_P. A recorded waveform has the same two limits: its duration sets how finely its spectrum can be resolved, and its sampling interval sets how far the spectrum reaches. [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the exchange of position and momentum, needs a reference length to turn a length into a momentum, the [Born length](/wiki/phase-space/reciprocity/born-length) λ, and it maps this box onto itself for exactly one value of λ: the geometric mean √(l_P L), between 47 and 84 micrometres depending on the cosmic length chosen. The length is already in the published literature, from a bound on field theory in a box the size of the universe to the Born-geometry papers this program builds on. It lies within a factor of two of the length scale of dark energy, an agreement that restates the Friedmann equation, and with it held fixed the box approaches exact symmetry as the universe approaches the empty [de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space) of its far future, by construction. None of this predicts anything unless the Born length is fixed by other physics. The program's phase-space-diameter note tested √(l_P L) in the two places where a Born length could enter the program, the [maximum force](/wiki/conjugate-relativity/maximum-force) of its dual special relativity and the range of its [momentum graviton X](/wiki/gravity/momentum-graviton), and found that this length fails in both ([Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary)).*
+*The self-dual cosmic box is the range of scales of the universe drawn as a rectangle in [phase space](../../phase-space/_index.md), the space of positions and momenta taken together. In position it runs from the [Planck length](../../gravity/spin-2-fields/planck-units.md) l_P to a cosmic length L, such as the radius of the Hubble sphere; in momentum it runs from ħ/L, the finest momentum a region of size L can resolve, to the Planck momentum ħ/l_P. A recorded waveform has the same two limits: its duration sets how finely its spectrum can be resolved, and its sampling interval sets how far the spectrum reaches. [Born reciprocity](../../phase-space/reciprocity/born-reciprocity.md), the exchange of position and momentum, needs a reference length to turn a length into a momentum, the [Born length](../../phase-space/reciprocity/born-length.md) λ, and it maps this box onto itself for exactly one value of λ: the geometric mean √(l_P L), between 47 and 84 micrometres depending on the cosmic length chosen. The length is already in the published literature, from a bound on field theory in a box the size of the universe to the Born-geometry papers this program builds on. It lies within a factor of two of the length scale of dark energy, an agreement that restates the Friedmann equation, and with it held fixed the box approaches exact symmetry as the universe approaches the empty [de Sitter space](../dark-energy/de-sitter-space.md) of its far future, by construction. None of this predicts anything unless the Born length is fixed by other physics. The program's phase-space-diameter note tested √(l_P L) in the two places where a Born length could enter the program, the [maximum force](../../conjugate-relativity/maximum-force.md) of its dual special relativity and the range of its [momentum graviton X](../../gravity/momentum-graviton/_index.md), and found that this length fails in both ([Under review: the self-dual length as a program scale](self-dual-length-obituary.md)).*
 
-**Status:** Alive, as a restatement of published results — the self-dual length [T][V] and its prior art [T], with live-searched citations [S]; its equality with the Cohen–Kaplan–Nelson cutoff [T][V]; the dark-energy match, the aspect ratio A(t) = √Ω_Λ(t) and Λ = 3l_P²/λ⁴ [D][V] (`papers/phase-space-diameter.md` §7, §9) — every number is printed by `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)), and the note was graded B by both referees of [round 5](/wiki/method/review/round-5), with version 1.1 applying the revisions. In the note's words, "none of it predicts anything unless the reference length is fixed by something other than the cosmological constant itself" (§7).
+**Status:** Alive, as a restatement of published results — the self-dual length [T][V] and its prior art [T], with live-searched citations [S]; its equality with the Cohen–Kaplan–Nelson cutoff [T][V]; the dark-energy match, the aspect ratio A(t) = √Ω_Λ(t) and Λ = 3l_P²/λ⁴ [D][V] ([`wiki/papers/phase-space-diameter.md` §7](../../papers/phase-space-diameter.md#7-a-self-dual-cosmic-box), [§9](../../papers/phase-space-diameter.md#9-summary)) — every number is printed by [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py) ([the phase-space-diameter script](../../method/verification/phase-space-diameter-script.md)), and the note was graded B by both referees of [round 5](../../method/review/round-5.md), with version 1.1 applying the revisions. In the note's words, "none of it predicts anything unless the reference length is fixed by something other than the cosmological constant itself" (§7).
 
 ## The box
 
 ### Its edges and its cells [T][V]
 
-The phase-space-diameter note pairs a size in position with a size in momentum in four ways (§2). The box is the pairing of extent with resolution, and the note introduces it with a signal analogy: "A waveform of duration T can be resolved in frequency only to about 1/T, and a waveform sampled at intervals τ has a spectrum that reaches only to about 1/τ; the number of independent samples is the same in both descriptions" (§4, plain-language passage; [the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform#the-timebandwidth-product)). For the universe the size L plays the duration and the Planck length the sampling interval:
+The phase-space-diameter note pairs a size in position with a size in momentum in four ways ([§2](../../papers/phase-space-diameter.md#2-three-meanings-of-size-in-momentum-space)). The box is the pairing of extent with resolution, and the note introduces it with a signal analogy: "A waveform of duration T can be resolved in frequency only to about 1/T, and a waveform sampled at intervals τ has a spectrum that reaches only to about 1/τ; the number of independent samples is the same in both descriptions" ([§4](../../papers/phase-space-diameter.md#4-extent-and-resolution-and-the-published-answers), plain-language passage; [the Fourier transform](../../phase-space/reciprocity/fourier-transform.md#the-timebandwidth-product)). For the universe the size L plays the duration and the Planck length the sampling interval:
 
 ```text
 the Fourier box:    l_P ≤ x ≤ L,        ħ/L ≤ p ≤ ħ/l_P
 ```
 
-"A region of position extent L resolved to a length ℓ has momentum extent ħ/ℓ resolved to ħ/L: L/ℓ cells of area ħ per axis in either description (L/2πℓ cells of area h)" (§4) [T]. With L = c/H₀ = 1.37×10²⁶ m, the Hubble radius of [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology), and ℓ = l_P = 1.616×10⁻³⁵ m, there are L/l_P = 8.49×10⁶⁰ cells per axis [V]. The box grows with L. Its area is therefore not conserved, unlike the area of the radiation rectangle in [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), which stays fixed for a fixed comoving region (§2's table).
+"A region of position extent L resolved to a length ℓ has momentum extent ħ/ℓ resolved to ħ/L: L/ℓ cells of area ħ per axis in either description (L/2πℓ cells of area h)" (§4) [T]. With L = c/H₀ = 1.37×10²⁶ m, the Hubble radius of [Friedmann cosmology](friedmann-cosmology.md), and ℓ = l_P = 1.616×10⁻³⁵ m, there are L/l_P = 8.49×10⁶⁰ cells per axis [V]. The box grows with L. Its area is therefore not conserved, unlike the area of the radiation rectangle in [the phase-space diameter relation](phase-space-diameter.md), which stays fixed for a fixed comoving region (§2's table).
 
 Gravity limits how many of these cells are independent [T][V]. The cube of the per-axis count, 6.12×10¹⁸², is not the number of independent states. A horizon of radius L carries the Gibbons–Hawking entropy πL²/l_P² [S: Gibbons–Hawking 1977; [Bousso 2000](https://arxiv.org/abs/hep-th/0010252)]: 3.31×10¹²² for the de Sitter radius L_Λ = c/(H₀√Ω_Λ) = 1.66×10²⁶ m, and 3.0×10¹²² for today's cosmic event horizon, 16.7 Gly (billion light-years). Here Ω_Λ is the fraction of the critical density, the total density of a spatially flat universe, that is in dark energy. Bousso's N-bound states that "a universe with Λ > 0 cannot have entropy greater than N = 3π/Λ" in Planck units, which is the same horizon entropy [S: Bousso 2000] (§4).
 
@@ -59,7 +59,7 @@ For the box, ρ_λ sends the largest momentum, ħ/l_P, to the length λ²/l_P, a
 
 > "By §5 the Fourier box [l_P, L] × [ħ/L, ħ/l_P] maps onto itself under ρ_λ exactly when λ² = l_P L." (§7)
 
-The box's aspect ratio in units of λ is A = L l_P/λ² (§7's formula, with L in place of c/H). At the Planck value λ = l_P, which the program's paper on [conjugate special relativity](/wiki/conjugate-relativity), #13, adopts, the box is far from self-dual: "A = L/l_P = 8.5×10⁶⁰ for the Hubble radius" (§8.1).
+The box's aspect ratio in units of λ is A = L l_P/λ² (§7's formula, with L in place of c/H). At the Planck value λ = l_P, which the program's paper on [conjugate special relativity](../../conjugate-relativity/_index.md), [#13](../../papers/conjugate-special-relativity.md), adopts, the box is far from self-dual: "A = L/l_P = 8.5×10⁶⁰ for the Hubble radius" (§8.1).
 
 ## The self-dual length [T][V]
 
@@ -71,7 +71,7 @@ The length that makes the box self-dual, for three choices of L (§7):
 | de Sitter radius L_Λ = 1.66×10²⁶ m | 51.8 μm | 3.81 meV |
 | particle horizon, 4.36×10²⁶ m | 84.0 μm | 2.35 meV |
 
-The Hubble radius is set by today's expansion rate H₀; the de Sitter radius is the Hubble radius of a universe holding only the [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant); the particle horizon is the distance light can have travelled since the expansion began [T]. The last column is the energy that belongs to the length. `verify/phase_space_diameter.py` prints all six values.
+The Hubble radius is set by today's expansion rate H₀; the de Sitter radius is the Hubble radius of a universe holding only the [cosmological constant](../dark-energy/cosmological-constant.md); the particle horizon is the distance light can have travelled since the expansion began [T]. The last column is the energy that belongs to the length. [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py) prints all six values.
 
 ## The length in the literature [T]
 
@@ -81,19 +81,19 @@ The Hubble radius is set by today's expansion rate H₀; the de Sitter radius is
 
 Born set up the question of how the universe's size in position is related to its size in momentum (§4). In "A suggestion for unifying quantum theory and relativity" he notes that Einstein's static closed universe has "an upper limit for the distance between two points, given by the radius a of the universe", and writes: "Let us transfer this consideration to the p-space." Momentum space gets its own Einstein-type equations, with their own constants, and "for systems of some kind there is an upper limit for momenta, determined by the radius b of the hypersphere", so the number of states in a volume V is finite. He does not connect the two radii: "Whether these nuclear constants are connected with the corresponding molar constants λ, κ cannot be decided yet." (λ and κ are Born's symbols for the constants of the position-space equations; this λ is not the Born length.)
 
-He fixes b from the classical electron radius r₀ by r₀ = h/(πb), so bc = 2ħc/r₀ ≈ 1.4×10⁸ eV [V], a particle scale, and leaves open "whether the constant b is universal, or characteristic for each energetically closed system". He opens by rejecting Eddington's attempt "to link the properties of the smallest particles to those of the whole universe". In 1949 he splits ħ = ab into a length and a momentum and fixes the length from particle masses. Neither paper uses the Planck length (§4). Both papers had been cited across the record from model memory (†); for this note they were retrieved and read (root `CLAUDE.md`, "Since the handoff", queue item 1; `notes/phase-space-diameter-worklog.md`, entry of 2026-10-26, 15:30; [the † literature battery](/wiki/method/literature-battery)).
+He fixes b from the classical electron radius r₀ by r₀ = h/(πb), so bc = 2ħc/r₀ ≈ 1.4×10⁸ eV [V], a particle scale, and leaves open "whether the constant b is universal, or characteristic for each energetically closed system". He opens by rejecting Eddington's attempt "to link the properties of the smallest particles to those of the whole universe". In 1949 he splits ħ = ab into a length and a momentum and fixes the length from particle masses. Neither paper uses the Planck length (§4). Both papers had been cited across the record from model memory (†); for this note they were retrieved and read (root [`CLAUDE.md`](../../../CLAUDE.md), "Since the handoff", queue item 1; [`notes/phase-space-diameter-worklog.md`](../../../notes/phase-space-diameter-worklog.md), entry of 2026-10-26, 15:30; [the † literature battery](../../method/literature-battery.md)).
 
 ### The Cohen–Kaplan–Nelson bound
 
-The Cohen–Kaplan–Nelson (CKN) bound requires that an effective field theory in a box of size L, cut off at energy Λ_UV, hold no more energy than a black hole of the same size: "L³Λ⁴ ≲ L M_P²", so Λ_UV ≲ (M_P/L)^{1/2} in natural units, with M_P the unreduced Planck mass. For an infrared cutoff at the present horizon they find "Λ ∼ 10^{−2.5} eV"; with L = c/H₀ the bound is 4.19 meV [V]. In their formulas Λ is the ultraviolet cutoff, not the cosmological constant. They add: "This observation does not predict the cosmological constant's value" [S: CKN 1999] (§4). The bound and its place in the vacuum-energy problem are set out on [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem#ultraviolet-and-infrared-cutoffs-tied-by-gravity-t).
+The Cohen–Kaplan–Nelson (CKN) bound requires that an effective field theory in a box of size L, cut off at energy Λ_UV, hold no more energy than a black hole of the same size: "L³Λ⁴ ≲ L M_P²", so Λ_UV ≲ (M_P/L)^{1/2} in natural units, with M_P the unreduced Planck mass. For an infrared cutoff at the present horizon they find "Λ ∼ 10^{−2.5} eV"; with L = c/H₀ the bound is 4.19 meV [V]. In their formulas Λ is the ultraviolet cutoff, not the cosmological constant. They add: "This observation does not predict the cosmological constant's value" [S: CKN 1999] (§4). The bound and its place in the vacuum-energy problem are set out on [the cosmological-constant problem](../../gravity/spin-2-fields/cosmological-constant-problem.md#ultraviolet-and-infrared-cutoffs-tied-by-gravity-t).
 
 ### The program's toy model II
 
-In the Grosse–Wulkenhaar model, the program's [toy model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), the strength Ω of the harmonic term sets the minimal momentum, and Grosse and Wulkenhaar "identify the parameter √Ω with the ratio of the Planck length to the size of the (finite!) universe" [S: Grosse–Wulkenhaar 2005]. The model is self-dual under the exchange of position and momentum at Ω = 1, a universe of Planck size; for L = c/H₀, Ω = (l_P/L)² = 1.4×10⁻¹²² [V] (§4).
+In the Grosse–Wulkenhaar model, the program's [toy model II](../../symmetry-breaking/toy-models/grosse-wulkenhaar/_index.md), the strength Ω of the harmonic term sets the minimal momentum, and Grosse and Wulkenhaar "identify the parameter √Ω with the ratio of the Planck length to the size of the (finite!) universe" [S: Grosse–Wulkenhaar 2005]. The model is self-dual under the exchange of position and momentum at Ω = 1, a universe of Planck size; for L = c/H₀, Ω = (l_P/L)² = 1.4×10⁻¹²² [V] (§4).
 
 ### Born geometry
 
-Freidel–Kowalski-Glikman–Leigh–Minic (FKGLM) work in the modular, or Born, geometry that this program builds on ([Born geometry](/wiki/phase-space/born-geometry)). They fix only the area of a phase-space cell: "λε = 2πℏ … the quantum area constraint. Whereas the area of the modular cell is fixed by this quantum constraint, its shape is not". They write the position and momentum cutoffs as L = N_q λ and M = N_p ε, and find
+Freidel–Kowalski-Glikman–Leigh–Minic (FKGLM) work in the modular, or Born, geometry that this program builds on ([Born geometry](../../phase-space/born-geometry/_index.md)). They fix only the area of a phase-space cell: "λε = 2πℏ … the quantum area constraint. Whereas the area of the modular cell is fixed by this quantum constraint, its shape is not". They write the position and momentum cutoffs as L = N_q λ and M = N_p ε, and find
 
 ```text
 LM/2πℏ = N^(1/4)
@@ -125,7 +125,7 @@ The energy that belongs to the self-dual length is the CKN bound (§7):
 ħc/√(l_P L) = √(E_P ħc/L)
 ```
 
-which is the cutoff (M_P/L)^{1/2} of the previous section with E_P the unreduced Planck energy ([two conventions for the Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-conventions-for-the-planck-mass-t)). Other conventions change it by a factor of order one [V]:
+which is the cutoff (M_P/L)^{1/2} of the previous section with E_P the unreduced Planck energy ([two conventions for the Planck mass](../../gravity/spin-2-fields/planck-units.md#two-conventions-for-the-planck-mass-t)). Other conventions change it by a factor of order one [V]:
 
 | Convention | Factor |
 | --- | --- |
@@ -134,11 +134,11 @@ which is the cutoff (M_P/L)^{1/2} of the previous section with E_P the unreduced
 | an explicit black-hole mass for a cube of size L (r_s = L) | 0.84 |
 | the vacuum energy taken as one scalar field's zero-point energy Λ⁴/16π² | 2.08 |
 
-The factors are printed by `verify/phase_space_diameter.py`; round-5 ruling R9 asked for the assumption behind the last one to be stated.
+The factors are printed by [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py); round-5 ruling R9 asked for the assumption behind the last one to be stated.
 
 ## The dark-energy match is the Friedmann equation [D][V]
 
-The [dark-energy](/wiki/cosmology/dark-energy) density is ρ_Λ = 3Ω_Λ M̄_P² H₀² (natural units, M̄_P the reduced Planck mass), so (§7)
+The [dark-energy](../dark-energy/_index.md) density is ρ_Λ = 3Ω_Λ M̄_P² H₀² (natural units, M̄_P the reduced Planck mass), so (§7)
 
 ```text
 ρ_Λ^(1/4) / (ħc/√(l_P c/H₀)) = (3Ω_Λ/8π)^(1/4) = 0.535
@@ -154,11 +154,11 @@ Fix λ² = l_P L_Λ and let the box follow the Hubble radius. Its aspect ratio i
 A(t) = (c/H(t)) l_P / λ² = H_Λ/H(t) = √Ω_Λ(t)
 ```
 
-exactly, in any Friedmann–Lemaître–Robertson–Walker universe, with H_Λ = c/L_Λ and Ω_Λ(t) = Λc²/3H². The aspect ratio is 0.83 today. It was far below one in the radiation and matter eras, and it tends to one as the universe approaches empty de Sitter space; at a turnaround of the expansion it diverges. In this language de Sitter space is the box's self-dual fixed point, and the coincidence that Ω_Λ ~ 1 today becomes the observation that the box is near self-duality now. "The statement holds by construction, because λ was built from L_Λ." `verify/phase_space_diameter.py` checks the identity at several epochs of the ΛCDM expansion history and finds it holding to rounding error.
+exactly, in any Friedmann–Lemaître–Robertson–Walker universe, with H_Λ = c/L_Λ and Ω_Λ(t) = Λc²/3H². The aspect ratio is 0.83 today. It was far below one in the radiation and matter eras, and it tends to one as the universe approaches empty de Sitter space; at a turnaround of the expansion it diverges. In this language de Sitter space is the box's self-dual fixed point, and the coincidence that Ω_Λ ~ 1 today becomes the observation that the box is near self-duality now. "The statement holds by construction, because λ was built from L_Λ." [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py) checks the identity at several epochs of the ΛCDM expansion history and finds it holding to rounding error.
 
-The turnaround is the far-future event the program reads as [the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), whose premise the record leaves unresolved (flag 27 in `review/wiki-build-flags.md`). The flag's addendum (2026-10-27) finds that with τ's potential as written the turnaround needs a closed universe ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)).
+The turnaround is the far-future event the program reads as [the conjugate bounce](conjugate-bounce.md), whose premise the record leaves unresolved (flag 27 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md)). The flag's addendum (2026-10-27) finds that with τ's potential as written the turnaround needs a closed universe ([a closed Comatter universe](closed-universe.md)).
 
-Related models are in the literature [T] (§7). A box that instead follows c/H(t) with λ² = l_P c/H(t) gives a vacuum energy that tracks the matter density, which is excluded [S: [Hsu 2004](https://arxiv.org/abs/hep-th/0403052)]; holographic dark energy with the event horizon as its infrared length is the variant that survives [S: [Li 2004](https://arxiv.org/abs/hep-th/0403127)]. And "a dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI" [S: [Hur, Jejjala, Kavic, Minic and Takeuchi 2025](https://arxiv.org/abs/2503.20854)]. Here w, dark energy's pressure divided by its energy density, is its [equation of state](/wiki/cosmology/dark-energy/quintessence), −1 is the value for a cosmological constant, and DESI is the survey of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi). The quoted sentence gives the second of the paper's two models. Under an ultraviolet–infrared relation from its authors' earlier work the same paper finds the opposite sign, "Clearly, w(a)<-1 for all a as anticipated", and "this model is clearly disfavored" by DESI's second data release (the paper's §3.3); only the alternative relation gives w(a) ≥ −1 (its §3.4). The sign follows from an assumed relation, so the authors make no fixed prediction on the program's [row 4](/wiki/predictions/dark-energy-drift) (`notes/dual-sector.md` §9; flag 72, pending; [further overlaps with the program](/wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program)).
+Related models are in the literature [T] (§7). A box that instead follows c/H(t) with λ² = l_P c/H(t) gives a vacuum energy that tracks the matter density, which is excluded [S: [Hsu 2004](https://arxiv.org/abs/hep-th/0403052)]; holographic dark energy with the event horizon as its infrared length is the variant that survives [S: [Li 2004](https://arxiv.org/abs/hep-th/0403127)]. And "a dual-spacetime model with ultraviolet–infrared mixing, in the Born-geometry lineage, gives a dark energy that varies in time with w > −1, which its authors find compatible with DESI" [S: [Hur, Jejjala, Kavic, Minic and Takeuchi 2025](https://arxiv.org/abs/2503.20854)]. Here w, dark energy's pressure divided by its energy density, is its [equation of state](../dark-energy/quintessence.md), −1 is the value for a cosmological constant, and DESI is the survey of the [Dark Energy Spectroscopic Instrument](../dark-energy/desi.md). The quoted sentence gives the second of the paper's two models. Under an ultraviolet–infrared relation from its authors' earlier work the same paper finds the opposite sign, "Clearly, w(a)<-1 for all a as anticipated", and "this model is clearly disfavored" by DESI's second data release (the paper's §3.3); only the alternative relation gives w(a) ≥ −1 (its §3.4). The sign follows from an assumed relation, so the authors make no fixed prediction on the program's [row 4](../../predictions/dark-energy-drift.md) ([`notes/dual-sector.md` §9](../../../notes/dual-sector.md#9-other-overlaps); flag 72, pending; [further overlaps with the program](../../dark-matter/conjugate-matter/dual-standard-model.md#further-overlaps-with-the-program)).
 
 ## The cosmological constant as a reciprocity image [T][D]
 
@@ -168,17 +168,17 @@ Equivalently, L_Λ = λ²/l_P: the de Sitter radius is where ρ_λ sends the Pla
 Λ = 3 l_P² / λ⁴,        λ/l_P = 3.2×10³⁰ = √(L_Λ/l_P)
 ```
 
-[D][V], which is BHM's λ_cc = l_P²/l_Λ⁴ "up to the factor 3 they drop" [S]. The [cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), Λl_P² ~ 10⁻¹²², becomes the hierarchy λ/l_P = 3.2×10³⁰. The script prints log₁₀(Λl_P²) = −121.5 against log₁₀(λ/l_P) = 30.5. The note's verdict: "This takes the fourth root of the problem and explains nothing while λ is defined through Λ. It would predict Λ only if λ were fixed by other physics." (§7)
+[D][V], which is BHM's λ_cc = l_P²/l_Λ⁴ "up to the factor 3 they drop" [S]. The [cosmological-constant problem](../../gravity/spin-2-fields/cosmological-constant-problem.md), Λl_P² ~ 10⁻¹²², becomes the hierarchy λ/l_P = 3.2×10³⁰. The script prints log₁₀(Λl_P²) = −121.5 against log₁₀(λ/l_P) = 30.5. The note's verdict: "This takes the fourth root of the problem and explains nothing while λ is defined through Λ. It would predict Λ only if λ were fixed by other physics." (§7)
 
 ## Numerology lies close at hand [V]
 
 The note records three coincidences and gives none of them a mechanism (§7):
 
-- **A TeV square.** In units of λ = √(l_P L_Λ), today's radiation rectangle would be square at k_BT ≈ 1.0 TeV, near the electroweak scale, counting the Standard Model's g_s, the effective number of species in the entropy ([the radiation era](/wiki/cosmology/early-universe/radiation-era)); for the photons alone it is 1.7 TeV.
+- **A TeV square.** In units of λ = √(l_P L_Λ), today's radiation rectangle would be square at k_BT ≈ 1.0 TeV, near the electroweak scale, counting the Standard Model's g_s, the effective number of species in the entropy ([the radiation era](../early-universe/radiation-era.md)); for the photons alone it is 1.7 TeV.
 - **Two geometric means.** That number is √(k_BT₀E_P) = 1.7 TeV up to the g_s factor, "a different geometric mean from the 5.2 TeV, √(ρ_Λ^{1/4}E_P), of Berglund, Hübsch and Minic's see-saw" [S].
 - **A solar-system length.** The Born length that makes today's radiation rectangle itself square is √(ħD_x/D_p) = 3.7×10¹¹ m, about 2.5 au, the au (astronomical unit) being the mean Earth–Sun distance.
 
-"Nothing here gives such coincidences a mechanism, and this note claims none." (§7) Round-5 ruling R6 corrected the first two items in version 1.1. The radiation rectangle is square, in Planck units, only before the radiation existed ([Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)).
+"Nothing here gives such coincidences a mechanism, and this note claims none." (§7) Round-5 ruling R6 corrected the first two items in version 1.1. The radiation rectangle is square, in Planck units, only before the radiation existed ([Under review: the square rectangle at the bounce](square-at-the-bounce.md)).
 
 ## Why the program cannot choose the length by context
 
@@ -188,9 +188,9 @@ FKGLM's length depends on the system. The note draws the contrast at the head of
 
 Born left the same choice open in 1938, "whether the constant b is universal, or characteristic for each energetically closed system", which the note calls "the contextual choice that FKGLM make" (§4). Reciprocities with different Born lengths are different maps, which differ by a squeeze, ρ_{λ₁}ρ_{λ₂}⁻¹ = diag((λ₁/λ₂)², (λ₂/λ₁)²) [D][V] (§5).
 
-The program's dynamics do not fix the length either [D] (§5). Its geometric action is invariant under the rigid Sp(2d, ℝ), which acts transitively on the [Siegel domain](/wiki/phase-space/modular-field/siegel-domain) and so moves the self-dual point Z = i anywhere, and "the action therefore singles out no Born length". A length enters only through reference structures: the reference axes of the [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), [matter's coupling to the polarization](/wiki/symmetry-breaking/matter-coupling), and #13, which sets λ = l_P "in one untagged sentence" (§5).
+The program's dynamics do not fix the length either [D] (§5). Its geometric action is invariant under the rigid Sp(2d, ℝ), which acts transitively on the [Siegel domain](../../phase-space/modular-field/siegel-domain.md) and so moves the self-dual point Z = i anywhere, and "the action therefore singles out no Born length". A length enters only through reference structures: the reference axes of the [ρ-preserving potential](../../symmetry-breaking/rho-preserving-potential.md), [matter's coupling to the polarization](../../symmetry-breaking/matter-coupling.md), and #13, which sets λ = l_P "in one untagged sentence" ([§5](../../papers/conjugate-special-relativity.md#5-inertia-dualized)).
 
-The two places one Born length would enter are the [maximum force](/wiki/conjugate-relativity/maximum-force) of #13 and the range of the [momentum graviton X](/wiki/gravity/momentum-graviton). The note excludes the self-dual length in both: the maximum force would be 1.4×10⁻¹⁷ N, and in the program's aligned bimetric vacuum X's force would sit where torsion balances exclude a gravitational-strength force ([Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary)). The second exclusion leaves a bound, [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound).
+The two places one Born length would enter are the [maximum force](../../conjugate-relativity/maximum-force.md) of #13 and the range of the [momentum graviton X](../../gravity/momentum-graviton/_index.md). The note excludes the self-dual length in both: the maximum force would be 1.4×10⁻¹⁷ N, and in the program's aligned bimetric vacuum X's force would sit where torsion balances exclude a gravitational-strength force ([Under review: the self-dual length as a program scale](self-dual-length-obituary.md)). The second exclusion leaves a bound, [the laboratory bound on X's range](../../gravity/momentum-graviton/range-bound.md).
 
 ## What would make it a prediction
 
@@ -198,23 +198,23 @@ The note: "§7's reformulation of Λ would become a prediction only if the progr
 
 ## History
 
-- **The question.** P.R. asked whether the size of the universe in position space is related to its size in momentum space, and what follows if so (`notes/phase-space-diameter-worklog.md`).
+- **The question.** P.R. asked whether the size of the universe in position space is related to its size in momentum space, and what follows if so ([`notes/phase-space-diameter-worklog.md`](../../../notes/phase-space-diameter-worklog.md)).
 - **The literature sweep.** Run for the note before its first version, it found the length in FKGLM 2023 and in Berglund–Hübsch–Minic, Padmanabhan, the Snyder–de Sitter algebra and Cohen–Kaplan–Nelson, and Born 1938 was read in full, with its pairing of the two radii; the worklog records that the section "is now [T]" (entry of 2026-10-26, 15:30).
-- **Round 5.** The pre-registration predicted "no prior art for the self-dual length beyond what §4 and §7 already cite". The referees found more: Bambi–Urban and Bolen–Cavaglià as explicit prior art, and Sundrum and Kapner et al. for the test at the dark-energy length. The adjudication scored the prediction a miss. Rulings R6 to R10 and R15 corrected the TeV numerology, replaced "halves the exponent" by the fourth root, recorded that BHM write the relation without the factor 3, spelled out the CKN conventions, made Mignemi implicit prior art, and added the omitted references ([round 5](/wiki/method/review/round-5)).
+- **Round 5.** The pre-registration predicted "no prior art for the self-dual length beyond what §4 and §7 already cite". The referees found more: Bambi–Urban and Bolen–Cavaglià as explicit prior art, and Sundrum and Kapner et al. for the test at the dark-energy length. The adjudication scored the prediction a miss. Rulings R6 to R10 and R15 corrected the TeV numerology, replaced "halves the exponent" by the fourth root, recorded that BHM write the relation without the factor 3, spelled out the CKN conventions, made Mignemi implicit prior art, and added the omitted references ([round 5](../../method/review/round-5.md)).
 - **Version 1.1** (2026-10-26) applies the rulings.
 
 ## Sources
 
-- `papers/phase-space-diameter.md` §7 — the box, the self-dual length and its table, the CKN identity and its conventions, the Friedmann identity 0.535, A(t) = √Ω_Λ(t), Λ = 3l_P²/λ⁴, the numerology, Hsu 2004, Li 2004 and Hur et al. 2025
-- `papers/phase-space-diameter.md` §4 — the sampling count, holography, the CKN bound, Born 1938 and 1949, Grosse–Wulkenhaar, the Born-geometry literature and the extended uncertainty relations, with the quotations
-- `papers/phase-space-diameter.md` §5 — ρ_λ on a rectangle; the squeeze between two Born lengths; the program fixes no λ
-- `papers/phase-space-diameter.md` §2 — the four pairings of a size in position with a size in momentum
-- `papers/phase-space-diameter.md` §8, §8.1, §8.6 — the contextual length against one exact reciprocity; A = L/l_P at λ = l_P; what would make the reformulation a prediction
-- `papers/phase-space-diameter.md` §9, 'References' — the summary tags; the citations, all [S]
-- `verify/phase_space_diameter.py` — sections "Extent, resolution and the published answers (note §4)" and "The self-dual box (note §7)"
-- `review/round5-adjudication.md` 'Rulings' R6–R10, R15, 'Pre-registration scored' — the corrections and the novelty prediction
-- `review/round5-preregistration.md` 'Predictions' — the novelty prediction
-- `notes/phase-space-diameter-worklog.md` 'Status' — the question and the literature sweep
-- `CLAUDE.md` 'Since the handoff' — the self-dual length as prior art; Born 1938 and 1949 retrieved for the note
-- `review/wiki-build-flags.md` item 27 — the turnaround's premise (pending); its addendum and `notes/closed-universe.md` §2 — the turnaround in a closed universe
-- `notes/dual-sector.md` §9; `review/wiki-build-flags.md` item 72 — Hur et al. 2025's two models, w(a) < −1 under the group's earlier ultraviolet–infrared relation and w(a) ≥ −1 under the alternative, of which the diameter note's §7 quotes the second (pending)
+- [`wiki/papers/phase-space-diameter.md` §7](../../papers/phase-space-diameter.md#7-a-self-dual-cosmic-box) — the box, the self-dual length and its table, the CKN identity and its conventions, the Friedmann identity 0.535, A(t) = √Ω_Λ(t), Λ = 3l_P²/λ⁴, the numerology, Hsu 2004, Li 2004 and Hur et al. 2025
+- [`wiki/papers/phase-space-diameter.md` §4](../../papers/phase-space-diameter.md#4-extent-and-resolution-and-the-published-answers) — the sampling count, holography, the CKN bound, Born 1938 and 1949, Grosse–Wulkenhaar, the Born-geometry literature and the extended uncertainty relations, with the quotations
+- [`wiki/papers/phase-space-diameter.md` §5](../../papers/phase-space-diameter.md#5-what-reciprocity-adds-invariant-area-inverted-shape) — ρ_λ on a rectangle; the squeeze between two Born lengths; the program fixes no λ
+- [`wiki/papers/phase-space-diameter.md` §2](../../papers/phase-space-diameter.md#2-three-meanings-of-size-in-momentum-space) — the four pairings of a size in position with a size in momentum
+- [`wiki/papers/phase-space-diameter.md` §8](../../papers/phase-space-diameter.md#8-consequences-for-the-program), [§8.1](../../papers/phase-space-diameter.md#81-not-the-born-length-of-the-dual-special-relativity-dv), [§8.6](../../papers/phase-space-diameter.md#86-what-would-test-this) — the contextual length against one exact reciprocity; A = L/l_P at λ = l_P; what would make the reformulation a prediction
+- [`wiki/papers/phase-space-diameter.md` §9](../../papers/phase-space-diameter.md#9-summary), 'References' — the summary tags; the citations, all [S]
+- [`verify/phase_space_diameter.py`](../../../verify/phase_space_diameter.py) — sections "Extent, resolution and the published answers (note §4)" and "The self-dual box (note §7)"
+- [`review/round5-adjudication.md`](../../../review/round5-adjudication.md) 'Rulings' R6–R10, R15, 'Pre-registration scored' — the corrections and the novelty prediction
+- [`review/round5-preregistration.md`](../../../review/round5-preregistration.md) 'Predictions' — the novelty prediction
+- [`notes/phase-space-diameter-worklog.md`](../../../notes/phase-space-diameter-worklog.md) 'Status' — the question and the literature sweep
+- [`CLAUDE.md`](../../../CLAUDE.md) 'Since the handoff' — the self-dual length as prior art; Born 1938 and 1949 retrieved for the note
+- [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) item 27 — the turnaround's premise (pending); its addendum and [`notes/closed-universe.md` §2](../../../notes/closed-universe.md#2-the-premise-and-the-turnaround-it-buys) — the turnaround in a closed universe
+- [`notes/dual-sector.md` §9](../../../notes/dual-sector.md#9-other-overlaps); [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) item 72 — Hur et al. 2025's two models, w(a) < −1 under the group's earlier ultraviolet–infrared relation and w(a) ≥ −1 under the alternative, of which the [diameter note's §7](../../papers/phase-space-diameter.md#7-a-self-dual-cosmic-box) quotes the second (pending)

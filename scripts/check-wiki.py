@@ -3,9 +3,12 @@ r"""Verify the wiki in wiki/ against the rules in wiki/CLAUDE.md.
 
 Checks, in order of severity:
 
-  link         an internal link points at a wiki page that does not exist, or
-               is not an absolute /wiki/ link
-  anchor       a link points at a heading that does not exist
+  link         an internal link is not a path relative to its file, or names a
+               file or folder that does not exist (a folder of the wiki is
+               linked by its _index.md, any other folder with a trailing /)
+  anchor       a link points at a heading that does not exist, or at a wiki
+               heading whose ID GitHub spells differently from Hugo, so that the
+               link would work on the site and not on GitHub
   heading      a heading holds a link, an image, a bare URL, emphasis or an
                attribute block, whose ID the gate does not compute (Hugo uses
                only part of the marked-up text, or the {#id})
@@ -52,6 +55,22 @@ Anchors are checked against heading IDs computed the way Hugo computes them (see
 slugify), for every heading the `heading` check lets through. That is an
 emulation; the built-site check is the authority on the IDs Hugo actually writes.
 
+Links are relative file paths, so that one link works on the site, on GitHub and
+in an editor (wiki/CLAUDE.md, Links). A link to a wiki page (a .md file under
+wiki/ other than CLAUDE.md) is a page of the site; a link to any other file or
+folder of the repository is served by GitHub, where the site's link hook sends it
+(site/layouts/_markup/render-link.html). Anchors on GitHub are computed by
+github_slug, whose rule was checked against GitHub's own anchors.
+
+The documents in wiki/papers/ (RECORD_DIRS) are the program's papers, published
+in full beside the wiki. They are the record the wiki is derived from, not wiki
+pages, and keep their own wording and house style. The checks that keep the built
+site sound apply to them as to any page: link, anchor, heading, map, source,
+frontmatter (title, weight, description, and status `record`), weight, section,
+star, h1 and fence. The rules for a wiki page's shape, status, wording and
+citations do not: sources, gist, statusline, status, voice, summary, acronym,
+symbol and paper. The section's _index.md is a wiki page and gets every check.
+
 Exit status is 1 if any error is found, 0 otherwise.
 
 Usage:
@@ -62,6 +81,7 @@ Usage:
 """
 
 import csv
+import os
 import re
 import string
 import sys
@@ -124,6 +144,9 @@ CITED_TITLES = ("Working with Paul", "Recommendations to Paul", "The checkpoint:
 # versions may label a physics correction, and pages of document history may date things.
 VERSION_RE = re.compile(r"#11,? \(?v2\.[345]\b|\(v2\.[345]\)|\b(?:[Ss]ince|[Uu]ntil) (?:#11 )?v2\.[345]\b")
 HISTORY_PAGES = ("history/", "predictions/table-history.md", "method/review/", "status/superseded.md")
+# Folders under wiki/ that publish the record itself, not wiki pages (see the docstring). Their files get
+# the checks that keep the built site sound and none of the rules for a wiki page's shape, status or wording.
+RECORD_DIRS = ("papers/",)
 
 SUMMARY_MAX_WORDS = 800
 SUMMARY_CONJECTURES = (
@@ -601,6 +624,64 @@ def page_url(path):
     return "/" + "/".join(parts)
 
 
+def github_slug(text):
+    """The ID GitHub gives a heading of a rendered Markdown file: the heading's text (a link or image by its
+    label, a code span by its content, an escaped character as itself), lowercased, keeping letters, marks,
+    decimal digits, connector punctuation, spaces and hyphens, each space a hyphen. Hugo drops marks (the
+    tilde of c̃), so the two differ there. Checked against GitHub's anchors for all 4,555 headings of the
+    repository's Markdown files on 2026-11-07."""
+    t = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    t = re.sub(r"`([^`]*)`", r"\1", t)
+    t = ESCAPED_PUNCT_RE.sub(lambda m: m.group(0)[1], t).lower()
+    return "".join(c for c in t if c in " -" or unicodedata.category(c)[0] in "LM"
+                   or unicodedata.category(c) in ("Nd", "Pc")).replace(" ", "-")
+
+
+_GITHUB_IDS = {}
+
+
+def github_ids(path):
+    """GitHub's heading IDs for a Markdown file, in order; a repeated ID gets -1, -2, ..."""
+    if path not in _GITHUB_IDS:
+        _, body, offset = split_frontmatter(path.read_text(encoding="utf-8"))
+        clean, _ = strip_code(body, offset)
+        used, ids = {}, []
+        for _, line in clean:
+            m = HEADING_RE.match(line)
+            if m and m.group(2).strip():
+                base = github_slug(m.group(2))
+                n = used.get(base, 0)
+                ids.append(base if n == 0 else f"{base}-{n}")
+                used[base] = n + 1
+        _GITHUB_IDS[path] = ids
+    return _GITHUB_IDS[path]
+
+
+def resolve(f, target):
+    """What a link in wiki file f points at, as (kind, path, anchor): ("external", None, "") for a URL;
+    ("page", path, anchor) for a wiki page, f itself for '#anchor'; ("repo", path, anchor) for any other file
+    or folder of the repository, which the site links on GitHub; ("bad", None, why) otherwise."""
+    if re.match(r"^(?:https?:|mailto:)", target):
+        return ("external", None, "")
+    raw, _, anchor = target.partition("#")
+    if not raw:
+        return ("page", f, anchor)
+    if raw.startswith("/") or re.match(r"^[A-Za-z][A-Za-z0-9+.-]*:", raw):
+        return ("bad", None, "not a path relative to this file (wiki/CLAUDE.md, Links)")
+    p = Path(os.path.normpath(f.parent / urllib.parse.unquote(raw)))
+    if not p.is_relative_to(ROOT):
+        return ("bad", None, "a path outside the repository")
+    if not p.exists():
+        return ("bad", None, "no such file or folder")
+    if p.is_relative_to(WIKI) and p.is_dir():
+        return ("bad", None, "a folder of the wiki; link its _index.md")
+    if p.is_dir() != raw.endswith("/"):
+        return ("bad", None, "a folder's path ends with /, and only a folder's")
+    if p.is_relative_to(WIKI) and p.suffix == ".md" and p.name != "CLAUDE.md":
+        return ("page", p, anchor)
+    return ("repo", p, anchor)
+
+
 def parent_index(path):
     """The _index.md whose map must link to this file (None for the home page)."""
     if path == WIKI / "_index.md":
@@ -644,19 +725,20 @@ def main(argv):
         fm_lines, body, offset = split_frontmatter(text)
         fm, fm_errors = parse_frontmatter(fm_lines)
         clean, fences = strip_code(body, offset)
-        anchors = set()
+        anchors, on_github = set(), {}  # Hugo's heading IDs; Hugo's ID -> GitHub's for the same heading
+        gh = iter(github_ids(f))
         for _, line in clean:
             m = HEADING_RE.match(line)
             if m and m.group(2).strip():
-                slug = slugify(m.group(2))
+                slug, gh_id = slugify(m.group(2)), next(gh)
                 if slug is not None:
-                    heading_id(slug, anchors)
+                    on_github[heading_id(slug, anchors)] = gh_id
         url = page_url(f)
         # Hugo lowercases URLs, so a.md and a/_index.md, or A.md and a.md, collide.
         twin = by_url.setdefault(url.lower(), f)
         if twin != f:
             err("section", f, 1, f"serves at {url} like {twin.relative_to(ROOT)}; Hugo builds only one of them")
-        pages[url] = {"anchors": anchors, "path": f}
+        pages[url] = {"anchors": anchors, "github": on_github, "path": f}
         parsed[f] = (fm, fm_lines, fm_errors, clean, fences)
 
     targets = set(parsed)
@@ -670,10 +752,9 @@ def main(argv):
         links = set()
         for _, line in clean:
             for target in LINK_RE.findall(INLINE_CODE_RE.sub(" ", line)):
-                if target.startswith("/wiki"):
-                    base = "/" + target.partition("#")[0].strip("/")
-                    if base != page_url(f):
-                        links.add(base)
+                kind, path, _ = resolve(f, target)
+                if kind == "page" and path != f and path in parsed:
+                    links.add(page_url(path))
         outbound[f] = links
 
     siblings = {}  # folder -> [(weight, path)]
@@ -696,6 +777,8 @@ def main(argv):
     for f in sorted(targets):
         fm, fm_lines, fm_errors, clean, fences = parsed[f]
         is_index = f.name == "_index.md"
+        rel = f.relative_to(WIKI).as_posix()
+        record = rel.startswith(RECORD_DIRS) and not is_index  # a published document, not a wiki page
 
         # --- frontmatter -------------------------------------------------
         if not fm_lines:
@@ -715,6 +798,10 @@ def main(argv):
         if is_index:
             if fm.get("bookCollapseSection") != "true":
                 err("frontmatter", f, 1, "section index needs `bookCollapseSection: true`")
+        elif record:
+            if status != "record":
+                err("frontmatter", f, 1, f"a document in {', '.join('wiki/' + d for d in RECORD_DIRS)} "
+                    f"has status `record`, got {status!r}")
         else:
             src = fm.get("sources")
             if not isinstance(src, list) or not src:
@@ -735,9 +822,9 @@ def main(argv):
 
         # --- body shape -------------------------------------------------
         first = next((line for _, line in clean if line.strip()), "")
-        if not re.match(r"^\s*(\*(?!\*)|_(?!_))", first):
+        if not record and not re.match(r"^\s*(\*(?!\*)|_(?!_))", first):
             err("gist", f, 1, "body must open with an italic plain-language passage")
-        if not is_index and not any(line.lstrip().startswith("**Status:**") for _, line in clean):
+        if not is_index and not record and not any(line.lstrip().startswith("**Status:**") for _, line in clean):
             err("statusline", f, 1, "page has no `**Status:**` line")
 
         # --- status: title, status line, register -----------------------
@@ -746,7 +833,7 @@ def main(argv):
         if pattern and isinstance(title, str) and not re.search(pattern, title):
             err("status", f, 1, f"status {status} needs a title matching {pattern!r}, got {title!r}")
         word = WORD_OF_STATUS.get(status)
-        if word and not is_index:
+        if word and not is_index and not record:
             line = next((s.lstrip() for _, s in clean if s.lstrip().startswith("**Status:**")), None)
             if line and not line.removeprefix("**Status:**").lstrip().startswith(word):
                 err("status", f, 1, f"status {status}: the **Status:** line must open with {word!r}")
@@ -756,9 +843,8 @@ def main(argv):
                 err("status", f, 1, f"status {status}: not linked from its register {register}")
 
         # --- voice --------------------------------------------------------
-        rel = f.relative_to(WIKI).as_posix()
         desc = fm.get("description")
-        for lineno, line in ([(1, desc)] if isinstance(desc, str) else []) + clean:
+        for lineno, line in ([] if record else ([(1, desc)] if isinstance(desc, str) else []) + clean):
             seen = prose(line)
             for cited in CITED_TITLES:
                 seen = seen.replace(cited, " ")
@@ -816,25 +902,31 @@ def main(argv):
                     err("source", f, lineno, f"inline path names a missing file: {code}")
 
             for target in LINK_RE.findall(INLINE_CODE_RE.sub(" ", line)):
-                if re.match(r"^(https?:|mailto:)", target):
+                kind, path, anchor = resolve(f, target)
+                if kind == "external":
                     continue
-                if target.startswith("#"):
-                    anchor = target[1:].lower()
-                    if anchor and anchor not in pages[page_url(f)]["anchors"]:
-                        err("anchor", f, lineno, f"no such heading on this page: {target}")
+                if kind == "bad":
+                    err("link", f, lineno, f"{target}: {anchor}")
                     continue
-                if not target.startswith("/wiki"):
-                    err("link", f, lineno,
-                        f"not an absolute /wiki/ link: {target} (cite repo files as inline code paths)")
+                if not anchor:
                     continue
-                base, _, anchor = target.partition("#")
-                base = "/" + base.strip("/")
-                if base not in pages:
-                    err("link", f, lineno, f"no such page: {target}")
-                elif anchor and anchor.lower() not in pages[base]["anchors"]:
-                    err("anchor", f, lineno, f"no such heading on {base}: #{anchor}")
+                if kind == "page":
+                    page = pages.get(page_url(path))
+                    if page is None or anchor.lower() not in page["anchors"]:
+                        err("anchor", f, lineno, f"no such heading on {path.relative_to(ROOT)}: #{anchor}")
+                    elif page["github"][anchor.lower()] != anchor.lower():
+                        err("anchor", f, lineno,
+                            f"#{anchor}: GitHub gives this heading the ID #{page['github'][anchor.lower()]}, so the "
+                            f"link would fail there; reword the heading so that the two agree (github_slug)")
+                elif path.suffix == ".md":
+                    if anchor not in github_ids(path):
+                        err("anchor", f, lineno, f"no such heading on {path.relative_to(ROOT)} (on GitHub): #{anchor}")
+                elif not re.fullmatch(r"L\d+(?:-L\d+)?", anchor):
+                    err("anchor", f, lineno, f"#{anchor}: a file that is not Markdown takes only a line anchor (#L12, #L12-L20)")
 
             # --- paper links: every identifier links to its paper ---------------
+            if record:
+                continue
             text = INLINE_CODE_RE.sub(lambda c: " " * len(c.group(0)), line)  # code blanked, offsets kept
             spans = []
             for lm in LINK_FULL_RE.finditer(text):
@@ -882,7 +974,7 @@ def main(argv):
             for label in LINK_LABEL_RE.findall(INLINE_CODE_RE.sub(" ", line)):
                 linked.update(ACRONYM_RE.findall(label))
         first_use = {}
-        for lineno, line in clean:
+        for lineno, line in ([] if record else clean):
             for acro in ACRONYM_RE.findall(prose(line)):
                 if sum(c.isalpha() for c in acro) < 2:
                     continue
@@ -899,7 +991,7 @@ def main(argv):
                 f"{acro!r} is never spelled out beside a use on this page (expected {expansion!r}) or linked")
 
         # --- symbols ------------------------------------------------------
-        if rel not in SYMBOL_REGISTERS:
+        if rel not in SYMBOL_REGISTERS and not record:
             parts, starts, pos = [], [], 0  # starts: (offset in text, line number) per line
             for lineno, line in clean:
                 parts.append(prose(line))

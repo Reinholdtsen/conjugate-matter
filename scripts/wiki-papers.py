@@ -32,6 +32,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
+RECORD_DIRS = ("papers/",)  # as in scripts/check-wiki.py
 REGISTRY = ROOT / "scripts" / "wiki-papers.tsv"
 COLUMNS = ("id", "surname", "years", "title", "source", "retrieved")
 UA = "conjugate-matter-wiki-papers/1.0 (research script; python urllib)"
@@ -195,6 +196,10 @@ def wiki_ids():
     link_re = re.compile(r"\]\((https?://[^)\s]+)\)")
     for f in WIKI.rglob("*.md"):
         if f.name == "CLAUDE.md":
+            continue
+        # The documents in wiki/papers/ are published as written, and the `paper` check of
+        # scripts/check-wiki.py does not apply to them (its RECORD_DIRS); their citations are not the wiki's.
+        if f.relative_to(WIKI).as_posix().startswith(RECORD_DIRS) and f.name != "_index.md":
             continue
         text = f.read_text(encoding="utf-8")
         for m in ID_RE.finditer(text):

@@ -18,12 +18,20 @@ It is written for three readers:
 - The papers, notes, review records and `verify/` scripts are the record. The wiki
   explains and indexes them and adds no results. When the wiki and a source disagree,
   the source wins and the wiki gets fixed.
+- **The papers live here but are not wiki pages.** `wiki/papers/` holds the four current
+  reference documents (#11, the toy-model note, the phase-space-diameter note, #13), so that
+  the site publishes them in full at `/wiki/papers/<name>`. They are the record and keep their
+  own wording and house style; nothing in this file about a page's shape, status, voice,
+  acronyms, symbols or paper links applies to them. Each carries Hugo frontmatter in place of
+  its `# H1`: `title` (the paper's title), `weight`, `status: record` and a `description`.
+  Edit a paper as the source document it is, never to fit the wiki's rules. Only
+  `wiki/papers/_index.md`, the section's map, is a wiki page.
 - **Source precedence**, most current first:
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.5), `papers/reciprocity-toy-models.md` (v2) and
-     `papers/phase-space-diameter.md` (v1.2);
+  2. `wiki/papers/broken-born-checkpoint-v2.md` (#11, v2.5), `wiki/papers/reciprocity-toy-models.md` (v2) and
+     `wiki/papers/phase-space-diameter.md` (v1.2);
   3. `review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`;
-  4. `papers/conjugate-special-relativity.md` (#13);
+  4. `wiki/papers/conjugate-special-relativity.md` (#13);
   5. `HANDOFF.md` (its §2 soliton candidate and its §8 queue are superseded);
   6. `notes/`: calc notes #2–#8 are final for their own scope; `notes/closed-universe.md`
      (2026-10-27, not reviewed) is current for its scope, a closed universe; `notes/velocity-gated-gravity.md`
@@ -55,8 +63,8 @@ It is written for three readers:
 ## URLs
 
 `wiki/a/b.md` serves at `/wiki/a/b`. `wiki/a/_index.md` is the section page `/wiki/a`.
-`wiki/_index.md` is `/wiki`. Moving a page breaks every inbound link, so place a page
-deliberately the first time.
+`wiki/_index.md` is `/wiki`. Moving a page breaks every inbound link and every relative
+link on the page itself, so place a page deliberately the first time.
 
 ## The tree
 
@@ -79,6 +87,7 @@ what is known and what is claimed read as a sequence.
 | `method/` | Lakatos, the collaboration, provenance, verification (one page per script family), blind review |
 | `history/` | timeline, the three main problems, the documents and the conflicts between them |
 | `summary`, `glossary`, `notation`, `references` | single register pages; `summary` (weight 5, first in the menu) is the executive summary, the program's standing on one page |
+| `papers/` | the four papers in full, as written (weight 160, last in the menu): the record itself, not wiki pages (see "The wiki is derivative") |
 
 **Status is visible in titles.**
 
@@ -136,7 +145,8 @@ documents) have status `record`.
 ## Taxonomy rules
 
 1. A node is a subject, not a container, and a section's name predicts its contents.
-   No form-named sections ("background", "misc", "notes", "reference").
+   No form-named sections ("background", "misc", "notes", "reference"). `papers/` is the
+   one exception: it is not a subject node but the record itself, published beside the wiki.
 2. The top level is for fields or major subjects. Named things (a model, a paper, a
    theorem) go inside the field that explains them.
 3. Siblings are the same kind of thing and comparable in grain.
@@ -167,7 +177,7 @@ status: alive
 description: "With ω and η both rigid, the only positive generalized metrics are H = diag(g, g⁻¹)."
 provenance: [T, V]
 sources:
-  - "papers/broken-born-checkpoint-v2.md §5"
+  - "wiki/papers/broken-born-checkpoint-v2.md §5"
   - "notes/geometric-core.md §A"
   - "verify/battery.py T1"
 ---
@@ -182,7 +192,7 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
 ...technical sections, at ## and ###...
 
 ## Sources
-- `papers/broken-born-checkpoint-v2.md` §5 — current statement and attribution
+- `wiki/papers/broken-born-checkpoint-v2.md` §5 — current statement and attribution
 ```
 
 - **Frontmatter** (the gate checks it):
@@ -283,13 +293,28 @@ gate checks for this. Code spans and `text` fences need no escaping.
 
 ## Links
 
-- Internal links are absolute `/wiki/...` links only. Repo files are not linked; cite them as inline
-  code paths (`papers/broken-born-checkpoint-v2.md` §5), which the gate checks exist.
-  The prefix is a settled choice (Paul, 2026-10-22), matching `bitsy-services/wiki`; do not
-  switch forms. The trade-off: these links do not resolve when the raw Markdown is browsed
-  (on GitHub, for example). In a Hugo site they work as written at the domain root. Under a
-  subpath they work in `site/`, whose `BookPortableLinks = 'error'` resolves each link to its
-  page's URL (`site/CLAUDE.md`).
+- **Every link is a path relative to the file that holds it** (Paul, 2026-11-07, replacing the
+  absolute `/wiki/...` form chosen on 2026-10-22), so that one link works on the site, on GitHub and
+  in an editor. A wiki page links another page by its file, a section by its `_index.md`, and a
+  heading by its anchor: `[the velocity gate](../conjugate-matter/velocity-gate.md)`,
+  `[dark matter](../_index.md)`, `[#11 §9](../../papers/broken-born-checkpoint-v2.md#9-momentum-clumping-the-founding-image-tested)`.
+  On the site such a link is the page's URL; `BookPortableLinks = 'error'` resolves it and fails
+  the build on a missing page.
+- **Repository files are links too.** A path to a file or folder outside the wiki (`notes/`,
+  `review/`, `verify/`, `HANDOFF.md`, `CLAUDE.md`, `wiki/CLAUDE.md`) is written as a link whose
+  label is the inline-code path: ``[`notes/closed-universe.md` §4](../../notes/closed-universe.md#4-how-small-momentum-space-gets)``.
+  The site's link hook (`site/layouts/_markup/render-link.html`) sends it to the file on GitHub at
+  `main`, since those files are not built; a folder's path ends with `/`. Code paths in headings
+  and in frontmatter `sources` stay unlinked. Before a deploy, `scripts/check-pushed.sh` refuses
+  unless `main` is committed and pushed, so that GitHub holds the files the site links.
+- **A section citation links to its section.** "#11 §9", "`notes/x.md` §4", "HANDOFF §8", "the toy
+  note §2" and the further sections of the same citation ("§9 and §10") each link the section's
+  heading in that document. The artifact numbers #1–#15 are `HANDOFF.md` §3's
+  ([Documents](history/documents/_index.md) lists their files); the first mention of each on a
+  page links its document. A section number whose document the sentence does not make certain
+  (an outside paper's §5, a bare "(§4)" on a page citing several documents) stays plain text:
+  a link to the wrong document is worse than none. An anchor into a Markdown file outside the
+  wiki is GitHub's heading ID (`github_slug` in `scripts/check-wiki.py`).
 - **A cited paper links to itself** (Paul, 2026-11-06: "whenever referenced include a link to the
   paper itself if possible"). Every paper identifier in prose is a link to the paper:
   `[arXiv:2003.00318](https://arxiv.org/abs/2003.00318)`, `[doi:10.1103/PhysRevLett.45.1](https://doi.org/10.1103/PhysRevLett.45.1)`,
@@ -305,13 +330,16 @@ gate checks for this. Code spans and `text` fences need no escaping.
   `scripts/wiki-papers.py` adds a new identifier to the registry from INSPIRE, arXiv or Crossref (it
   needs the network; the gate does not).
 - Link every wiki concept on its first mention on each page. When the concept is a
-  section of a larger page, deep-link the section (`/wiki/a/b#heading-slug`). Slugs are
+  section of a larger page, deep-link the section (`b.md#heading-slug`). Slugs are
   Hugo's GitHub-style IDs: lowercase, punctuation dropped, each space a hyphen. Letters of
   any script and `_` stay, but subscript and superscript digits are dropped: the heading
-  "What w₀ and wₐ mean" has the slug `what-w-and-wₐ-mean`. The gate computes slugs the
-  way Hugo does. Headings are plain text, and code spans in them are fine. A link,
-  emphasis or a `{#id}` block in a heading fails the gate: Hugo builds such a heading's ID
-  from only part of its text, or takes the `{#id}`, and the gate does not reproduce that.
+  "What w₀ and wₐ mean" has the slug `what-w-and-wₐ-mean`. GitHub spells the same IDs,
+  except that it keeps a combining mark (the tilde of c̃) that Hugo drops; the gate rejects a
+  link to a heading on which the two differ, so reword that heading if it must be linked. The
+  gate computes slugs the way Hugo does. Headings are plain text, and code spans in them are
+  fine. A link, emphasis or a `{#id}` block in a heading fails the gate: Hugo builds such a
+  heading's ID from only part of its text, or takes the `{#id}`, and the gate does not
+  reproduce that.
 - Every page is linked from its parent section's map, which the gate checks. Aim for at
   least 3 inbound links from other pages; `scripts/check-wiki.py --stats` lists the
   pages short of that.
@@ -352,9 +380,9 @@ words of the definition must appear. Standard wordings, to fit to the sentence:
 A quotation stays verbatim: define the symbol in the sentence that introduces it or in a
 short parenthesis after it. Link the concept on its first mention as well, as for any wiki
 concept: the equation of state
-(`/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state`), the CPL form
-(`/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean`), redshift
-(`/wiki/cosmology/scale-factor-duality/redshift`). Never drop or rename a symbol to pass the
+(`wiki/cosmology/dark-energy/quintessence.md#dark-energy-and-the-equation-of-state`, linked by its path from the page), the CPL form
+(`wiki/cosmology/dark-energy/cpl-parametrization.md#what-w-and-wₐ-mean`), redshift
+(`wiki/cosmology/scale-factor-duality/redshift.md`). Never drop or rename a symbol to pass the
 check. The glossary and the notation page define each symbol in its own entry and are not
 checked. Where a letter stands for another quantity on a page (z for a point of the upper
 half-plane, w for a fiber weight), `SYMBOLS` lists the page and the quantity; the gate fails
@@ -367,6 +395,10 @@ in headings, section maps, source paths, frontmatter, the italic opening, the st
 page's title, status line and register against its status, the wording of "State the claim, not
 the discussion", the summary's length and links, fences, acronyms, symbols and paper links. Run it on the files you touched with
 `.venv/bin/python scripts/check-wiki.py wiki/x/y.md`; links still resolve wiki-wide.
+The papers in `wiki/papers/` (its `RECORD_DIRS`) get only the checks that keep the site
+sound: links, anchors, heading markup, the section map, repo paths, frontmatter (with
+`status: record`), weights, starred symbols, H1s and fences. `scripts/check-site.py` checks
+their built pages like every other.
 `scripts/check.sh` must pass before work is called finished. Do not weaken a check to
 make it pass.
 
@@ -377,12 +409,14 @@ pages are written here and never copied into `site/`. Building, checking, previe
 deploying are in `site/CLAUDE.md`. Paul publishes by hand: `npx wrangler login` once per
 machine, then `npm run deploy` in `site/`. Its gate, `npm run check`, runs
 `scripts/check.sh` first, then builds the site and checks every link and anchor in the
-HTML, that every page was built, and that every heading got the ID this gate computes.
+HTML (each GitHub link must name a tracked file and an existing heading), that every page
+was built, and that every heading got the ID this gate computes. The deploy then runs
+`scripts/check-pushed.sh`, which refuses unless `main` is committed and equal to `origin/main`.
 
 ## Keeping it current
 
 - **A source document changes.** Find the dependent pages with
-  `grep -rl 'papers/broken-born-checkpoint-v2.md' wiki/` (frontmatter sources), update
+  `grep -rl 'wiki/papers/broken-born-checkpoint-v2.md' wiki/` (frontmatter sources), update
   them, and update the status registers.
 - **A claim dies.** Only when theory and data kill it and Paul explicitly concurs, asked for that
   death alone and recorded with the date in the source document; the death is its own change, never

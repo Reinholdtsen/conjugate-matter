@@ -15,7 +15,7 @@ import re, subprocess
 HERE = "/tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/f914ff8b-9e54-489b-92fe-c443048774ac/scratchpad/audit"
 REPO = "/home/paul/git/reinholdtsen/conjugate-matter"
 ADJ = open(f"{REPO}/review/round3-adjudication.md", encoding="utf-8").read()
-CPL = open(f"{REPO}/papers/broken-born-checkpoint-v2.md", encoding="utf-8").read().splitlines()
+CPL = open(f"{REPO}/wiki/papers/broken-born-checkpoint-v2.md", encoding="utf-8").read().splitlines()
 SRC = open(f"{REPO}/verify/soliton_obituary.py", encoding="utf-8").read()
 OLD = open(f"{HERE}/knot_numbers_96f58da.py", encoding="utf-8").read()
 a = next(i for i, l in enumerate(CPL) if l.startswith("## 12."))

@@ -67,7 +67,7 @@
     "claim_id": "C11",
     "verdict": "confirmed",
     "reason": "[D] argument checked against the record. #1 \u00a76 defines \u00e3 as the p-space scale factor. Under the section condition H depends on x only. The fibre metric g^ij(x)dp_i dp_j has p-independent coefficients, so its Riemann tensor vanishes and the fibre is flat R^3. This holds on the X = 0 slice (slaving, #11 \u00a75) and also for X \u2260 0, since the pp-block is still a function of x alone. Not machine-checkable beyond this; the conclusion depends on the record's identification of the dual frame with the fibre.",
-    "independent_check": "Read notes/broken-born-theory.md \u00a72 ('Field dependence is restricted to a Lagrangian leaf by a section condition'), \u00a76 ('p-space scale factor \u00e3'); papers/broken-born-checkpoint-v2.md \u00a75 ('g\u0303 = g\u207b\u00b9 slaved'), \u00a76 (X = 0 vacuum slice). No script."
+    "independent_check": "Read notes/broken-born-theory.md \u00a72 ('Field dependence is restricted to a Lagrangian leaf by a section condition'), \u00a76 ('p-space scale factor \u00e3'); wiki/papers/broken-born-checkpoint-v2.md \u00a75 ('g\u0303 = g\u207b\u00b9 slaved'), \u00a76 (X = 0 vacuum slice). No script."
    },
    {
     "claim_id": "C12",
@@ -79,7 +79,7 @@
     "claim_id": "C13",
     "verdict": "confirmed",
     "reason": "Under \u03c1_\u03bb (p\u2032 = \u2212(\u0127/\u03bb\u00b2)x) an x-sphere of radius R maps to a p\u2032-sphere of radius \u0127R/\u03bb\u00b2. The image's position space is x\u2032 = (\u03bb\u00b2/\u0127)p, our flat fibre. [D], with arithmetic by inspection of the linear map.",
-    "independent_check": "Linear map from papers/phase-space-diameter.md \u00a75 (read): radius scales by \u0127/\u03bb\u00b2. No separate script."
+    "independent_check": "Linear map from wiki/papers/phase-space-diameter.md \u00a75 (read): radius scales by \u0127/\u03bb\u00b2. No separate script."
    },
    {
     "claim_id": "C14",
@@ -122,7 +122,7 @@
     "claim_id": "C20",
     "verdict": "confirmed",
     "reason": "[D] follows from C11\u2013C13, which I accept. #1 \u00a710 lists k\u0303 as an optional knob, and #11 \u00a713 row 10 says 'closed dual curvature \u21d2 negative \u0394N_eff' with 'Knob-bounded' (both read).",
-    "independent_check": "Read papers/broken-born-checkpoint-v2.md \u00a713 row 10 and notes/broken-born-theory.md \u00a710. Consistent with vm_minisuperspace.py C6."
+    "independent_check": "Read wiki/papers/broken-born-checkpoint-v2.md \u00a713 row 10 and notes/broken-born-theory.md \u00a710. Consistent with vm_minisuperspace.py C6."
    },
    {
     "claim_id": "C21",
@@ -241,7 +241,7 @@
    {
     "claim_id": "C40",
     "verdict": "confirmed",
-    "reason": "Area R\u00b7Mc/h and log10 A reproduced. The chat-claim numbers (10\u00b3\u2070 h, 10\u2079\u00b2) are as quoted in papers/phase-space-diameter.md \u00a72.",
+    "reason": "Area R\u00b7Mc/h and log10 A reproduced. The chat-claim numbers (10\u00b3\u2070 h, 10\u2079\u00b2) are as quoted in wiki/papers/phase-space-diameter.md \u00a72.",
     "independent_check": "vm_numbers.py: '|Ok|=0.01: ... log10 A = -2.377; area = 10^125.4 h'; '|Ok|=1.0e-5: ... log10 A = -5.372; area = 10^131.4 h'"
    },
    {

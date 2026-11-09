@@ -26,7 +26,7 @@ const COMMON = `Read work/literature-check/BRIEF.md first: it defines P.R.'s con
   `with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), "related" and "collisions" in brief, and the ` +
   `searchers' and verifiers' "not_found_statements". You are a judge, not a searcher: do not hunt for new papers. You may and should read the ` +
   `cited passages yourself (python3 work/literature-check/tools/lit.py text ID --grep REGEX, or lit.py show ID) and the conjecture's sources in ` +
-  `the repository (#11 is papers/broken-born-checkpoint-v2.md; the wiki page named in the brief). A conjecture's verdict is the strongest relation ` +
+  `the repository (#11 is wiki/papers/broken-born-checkpoint-v2.md; the wiki page named in the brief). A conjecture's verdict is the strongest relation ` +
   `that survives your reading: anticipated (a work states the conjecture in substance), partly anticipated (a work states a central part, one of ` +
   `its forms, or a close variant), related only, or nothing relevant. Dispute any label you read differently, in either direction, with reasons. ` +
   `Then say plainly what of the conjecture is published (by whom, since when) and what it states that the literature found does not.`

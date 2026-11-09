@@ -475,7 +475,7 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §8, §9 (iii)",
+    "wiki/papers/broken-born-checkpoint-v2.md §8, §9 (iii)",
     "notes/wave-island.md 'Scenario B'"
    ]
   },
@@ -513,8 +513,8 @@
     }
    ],
    "sources": [
-    "papers/broken-born-checkpoint-v2.md §7.5, §8, §4 (P4)",
-    "papers/phase-space-diameter.md §8.2",
+    "wiki/papers/broken-born-checkpoint-v2.md §7.5, §8, §4 (P4)",
+    "wiki/papers/phase-space-diameter.md §8.2",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'",
     "review/wiki-build-flags.md item 29",
     "HANDOFF.md §4"
@@ -570,7 +570,7 @@
    "numbers": [],
    "sources": [
     "wiki/dark-matter/momentum-clumping/founding-image.md",
-    "papers/broken-born-checkpoint-v2.md §9",
+    "wiki/papers/broken-born-checkpoint-v2.md §9",
     "notes/stream-stability.md",
     "notes/ufd-endpoint.md 'Verdict and closure'"
    ]

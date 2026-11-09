@@ -265,7 +265,7 @@
    "id": "2503.20854",
    "citation": "S. Hur, V. Jejjala, M. J. Kavic, D. Minic, T. Takeuchi, \"Dynamical dark energy, dual spacetime, and DESI\", JCAP 11 (2025) 054, arXiv:2503.20854",
    "relation": "partial",
-   "summary": "Dark energy 'stems from the curvature of the dual spacetime' of the metastring, and Λ/G_N 'will evolve together with the evolution of the x̃-spacetime'. The vacuum energy is an integral over dual energies between UV and IR cutoffs that depend on our scale factor a, using δx δx̃ ~ λ² to convert our volume to a dual one (so the dual cutoffs run inversely to ours, e.g. Ẽ_UV proportional to a); with infinite statistics this gives w₀, wₐ compared with DESI. The record cites this paper in papers/phase-space-diameter.md for another purpose.",
+   "summary": "Dark energy 'stems from the curvature of the dual spacetime' of the metastring, and Λ/G_N 'will evolve together with the evolution of the x̃-spacetime'. The vacuum energy is an integral over dual energies between UV and IR cutoffs that depend on our scale factor a, using δx δx̃ ~ λ² to convert our volume to a dual one (so the dual cutoffs run inversely to ours, e.g. Ẽ_UV proportional to a); with infinite statistics this gives w₀, wₐ compared with DESI. The record cites this paper in wiki/papers/phase-space-diameter.md for another purpose.",
    "difference": "Dark energy from the curvature of the dual spacetime, its evolution set by UV/IR cutoff relations, not from the gravitational collapse or contents of a contracting conjugate universe; no statement that the dual spacetime contracts and no dictionary w_eff = −w̃ (searched the full text for contract/shrink/collaps: none apply to the dual spacetime).",
    "quotes": [
     {

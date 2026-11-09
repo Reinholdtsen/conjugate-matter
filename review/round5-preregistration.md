@@ -7,7 +7,7 @@ authorization. Its SHA-256, and that of the manuscript copy sent to the
 referees, were written into `notes/phase-space-diameter-worklog.md` and into
 the session transcript before dispatch.
 
-- **Manuscript:** `papers/phase-space-diameter.md` v1.0 (the
+- **Manuscript:** `wiki/papers/phase-space-diameter.md` v1.0 (the
   phase-space-diameter note).
 - **Referees:** two fresh subagents with shell, Python (numpy, sympy, mpmath)
   and web. Each gets only a copy of the manuscript and the protocol, and is

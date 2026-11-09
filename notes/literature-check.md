@@ -269,7 +269,7 @@ where the program's particle form predicts no such scattering.*
   momentum (C2).
 
 **Already in the record.** The phase-space-diameter note cites Berglund, Hübsch and Minic 2023 [S] for the
-cosmological constant as a reciprocity image (`papers/phase-space-diameter.md` §7). The same paper's §6.5 states
+cosmological constant as a reciprocity image (`wiki/papers/phase-space-diameter.md` §7). The same paper's §6.5 states
 the identification. The record cited the paper for another result and did not note this one.
 
 **Two data papers on the χ form** [S]. They bear on #11 §13 row 1, "zero cluster signal (particle χ)", not on the
@@ -828,8 +828,8 @@ All retrieved by live search for this note [S]; metadata in `review/literature-c
 
 ## Sources
 
-- #11 `papers/broken-born-checkpoint-v2.md` §3, §4 (P4, P5), §8, §9, §10, §11.1–§11.4, §12, §13 rows 1 and 7, §14 item 10, §15, App. A
-  items 3, 4, 5, 9, 11, References [3], [13], [18], [26], [28]; `notes/broken-born-theory.md` (v0.1 header; §5.2, §6, §9); `notes/velocity-gated-gravity.md` §4, §5, §6; `papers/phase-space-diameter.md`
+- #11 `wiki/papers/broken-born-checkpoint-v2.md` §3, §4 (P4, P5), §8, §9, §10, §11.1–§11.4, §12, §13 rows 1 and 7, §14 item 10, §15, App. A
+  items 3, 4, 5, 9, 11, References [3], [13], [18], [26], [28]; `notes/broken-born-theory.md` (v0.1 header; §5.2, §6, §9); `notes/velocity-gated-gravity.md` §4, §5, §6; `wiki/papers/phase-space-diameter.md`
   §4, §7.
 - `review/literature-check/`: `findings.json`, `recheck.out`, `sources.json`, `quotes.json`, `screen/screen.json`,
   `round1/*.verify.json`, `round3/`, `round5/`, `panel/*.out.json`, `brief.md`, `preregistration.md`, `checks/`,

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-phase_space_diameter.py — every number that papers/phase-space-diameter.md (the
+phase_space_diameter.py — every number that wiki/papers/phase-space-diameter.md (the
 phase-space-diameter note) computes, recomputed and checked. Figures the note
 quotes from the literature (Egan and Lineweaver's entropies, the squeezing
 values, FKGLM's estimates) are not recomputed, except where a check below

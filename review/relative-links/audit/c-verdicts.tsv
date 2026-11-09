@@ -1,0 +1,101 @@
+id	verdict	cited_document	reason
+C1	correct	notes/closed-universe.md	The bullet opens with "`notes/closed-universe.md` §5", and "Born 1938 goes the other way ... gives momentum space a hypersphere" sits in that note's §2 (line 50).
+C2	correct	notes/geometric-core.md	The bullet cites `notes/geometric-core.md`, and its §F lists "unimodularity of H (det H = 1) as the geometric face of ℏ-rigidity" and "(3) the origin of τ's potential under P2′" as open.
+C3	correct	HANDOFF.md	"`HANDOFF.md`, whose §2 soliton candidate and §8 queue are superseded" names the handoff, whose §8 is the "Ranked next-actions queue".
+C4	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet opens with #11 §14 item 7, and #11 §12 says the 5.4 : 1 question "applies to all three" and records the failure of #14's model.
+C5	correct	notes/geometric-core.md	The quotation is "in calc note #5's words", and "No Kalb–Ramond analog ... stiffer than DFT" is corollary 2 in #5 §A.
+C6	correct	wiki/papers/broken-born-checkpoint-v2.md	The paragraph is about #11 §11.3 and §11.4, and #11 §11.1 reads "only the shared-photon form of §11.4 contests this ground".
+C7	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §13 row 7, and "P4 and its strict reading [P], [27S]" is #11 §4 ("taken strictly since v2.1 ... [27S]").
+C8	correct	wiki/papers/phase-space-diameter.md	The cell names "the phase-space-diameter note, whose §4 records" Born 1938, and that note's §4 has "Born, 1938 [T][S] ... an upper limit for the distance".
+C9	correct	notes/geometric-core.md	"Calc note #5: 'The gate shape is the X propagator's structure on the momentum fibers — open [O]'" is word for word in #5 §E.
+C10	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 adopts the result in P4, taken strictly [P]" matches #11 §4's P4, "taken strictly since v2.1".
+C11	correct	notes/geometric-core.md	The bullet cites `notes/geometric-core.md`, and "outcome 2 gives it most cheaply" is in #5 §E.
+C12	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet opens with #11 §10, and "§13 row 4 for the kill condition" is #11's predictions table.
+C13	correct	wiki/papers/conjugate-special-relativity.md	"#13 uses ... a different one in §6, E = c|p|": #13 §6 has "our massless dispersion E = c|p| is the dual null cone" (both §6 occurrences link #13 §6).
+C14	correct	wiki/papers/reciprocity-toy-models.md	The bullet cites the toy note, and its §4 holds both the ρ-preserving potential and "Nothing supplies a volume factor".
+C15	correct	notes/closed-universe.md	The bullet cites `notes/closed-universe.md`, whose §8 Topology item gives "π₁(Λ(4)) = ℤ [T][V] and π₂(Λ(4)) = ℤ₂ [T]".
+C16	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §11 item 3 is "Stream-instability growth rate γ vs. orbital phase-mixing", the original open problem.
+C17	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 v2.1 made the change: §5 now tags the theorem [T][V]": the current #11 §5 still has that tag and "the positivity step is not needed for C = 0".
+C18	correct	notes/x-classification.md	"#6 calls its §1–§3 'the Euclidean-rigorous skeleton'": the phrase is in #6 §3 ("The chain of §1–§3 is the Euclidean-rigorous skeleton").
+C19	correct	notes/geometric-core.md	"Calc note #5: 'The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle'" is word for word in #5 §C.
+C20	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 enters the conjecture as the third row of its table of dark-matter candidates": #11 §12's table has "Conjugate monopoles" as its third row.
+C21	correct	notes/closed-universe.md	"The closed-universe note asks what follows if the universe's space is closed" is the note's §1, "The question, the reading, the method".
+C22	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 states it in one line: 'the dual-superconductor picture of confinement ...'" is word for word in #11 §11.2.
+C23	correct	wiki/papers/broken-born-checkpoint-v2.md	All three §9 occurrences cite #11, and #11 §9 has "fails by 10²⁸–10³¹ at the scattering benchmark" and "Results (i)–(iii) stand as results".
+C24	wrong	papers/broken-born-checkpoint-v2.md at commit 008c3ee (#11 v2.0) §12	"Git history: #11 v2.0 at commit 008c3ee, §12 — the knot option's abundance" cites v2.0's §12 ("The dark-sector trilemma: particles, condensate, or knots"), which held "the knot option inherits the monopole-abundance machinery"; the current §12 the link lands on no longer has that sentence.
+C25	correct	wiki/papers/conjugate-special-relativity.md	The bullet cites #13, whose §6 says "dual-geometric effects are Yukawa-cut in momentum".
+C26	correct	wiki/papers/reciprocity-toy-models.md	"In the toy-model note's notation for d = 1 the condition reads (§5)": the toy note's §5 states "The section condition ... (d = 1)".
+C27	correct	wiki/papers/broken-born-checkpoint-v2.md	"Checkpoint #11 (§7.2): 'The tuning test [D][V]'" is #11's §7.2 heading.
+C28	correct	wiki/papers/reciprocity-toy-models.md	The bullet cites the toy note, whose §3 (Model II) says "This is explicit, not spontaneous selection, because the real model is not duality-symmetric".
+C29	correct	notes/x-classification.md	The bullet cites `notes/x-classification.md`, whose §4 has "Integrating out massive X between χ bilinears gives the contact four-χ operator".
+C30	correct	notes/knot-dark-matter-standalone.md	"v3's repair ... (§3): 'The fix is the Dirac doublet psi: W'+ can decay to a psi pair.'" is in #14 §3, as #14 §2's "(Sec. 3 shows it is required)" confirms.
+C31	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 carries it into the refinement of P2′: 'A definite polarization needs a ρ-preserving potential ...'" is word for word in #11 §4.
+C32	correct	wiki/papers/phase-space-diameter.md	"The phase-space-diameter note pairs ... in four ways (§2)": the note's §2 table lists four pairings (radiation, Hubble, Fourier box, one cell).
+C33	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §11.2 and §11.3, and "P.R.'s magnetic-mirror conjecture, its separate-photon form" is #11 §11.4.
+C34	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §8 is "Polarization-genesis [O, sketched]".
+C35	correct	notes/geometric-core.md	"#5 counted it the cheapest route ...: 'outcome 2 gives it most cheaply'" is in #5 §E.
+C36	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §12, and "§14 for the open problems" is #11's list of open problems.
+C37	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and "P.R.'s magnetic-mirror conjecture [O], its shared-photon form against P4 as written" is #11 §11.4.
+C38	correct	notes/knot-dark-matter-standalone.md	The bullet cites `notes/knot-dark-matter-standalone.md`, whose §5 item 4 is the strong-coupling relic-calculation exclusion condition.
+C39	correct	wiki/papers/reciprocity-toy-models.md	The bullet cites the toy note ("§4, Abstract, §6"), and its §6 lists "restoration under quantization" and what is not shown.
+C40	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 draws the consequence in its P2′ refinement: 'with only ω rigid, ρ sits inside a continuous U(1) ...'" is word for word in #11 §4.
+C41	correct	notes/tuning-test.md	The bullet cites `notes/tuning-test.md`, whose §5 has "class-certified", the remaining items and "three structural tests in a row".
+C42	correct	notes/dual-sector.md	"The dual-sector note retrieved one more by live search (§9)": that note's §9 lists "Freidel, Leigh and Minic 2014 (Phys. Lett. B)" as [S].
+C43	correct	notes/velocity-gated-gravity.md	The bullet cites `notes/velocity-gated-gravity.md`, whose §10 is "Open", "what is open".
+C44	correct	notes/broken-born-program-v1.md	The bullet cites `notes/broken-born-program-v1.md`, whose §11 (Assessment) says "one over-constraint in the DE sector".
+C45	wrong	notes/gate-mechanism.md	The page reports `notes/gate-mechanism.md`'s channels with "(§2)" throughout, and "Its residue is d-wave, (32/3)G₁²k⁴P₂(cos θ), and vanishes at threshold" is in that note's §2 (line 95); the link goes to #1 §2 "Kinematic core", which has no s channel.
+C46	correct	wiki/papers/broken-born-checkpoint-v2.md	"The row's wording counts two candidates, while §12 lists three" contrasts #11 §13 row 7 with #11 §12's table of three candidates.
+C47	correct	notes/gate-mechanism.md	The bullet cites `notes/gate-mechanism.md`, whose §1 says the record's μ ≈ 20 keV and v* ≈ 120 km/s are read differently by "the two derivations".
+C48	correct	wiki/papers/broken-born-checkpoint-v2.md	"App. A items 7 and 9 — founding suppositions 7 and 9" are #11's Appendix A items.
+C49	correct	wiki/papers/broken-born-checkpoint-v2.md	Both §9 links cite #11, whose §9 (i) has "Mean-field criterion g·n_gate ≥ m·min(σ,v*)²" [D] and puts Scenario A under review.
+C50	correct	wiki/papers/reciprocity-toy-models.md	The bullet cites the toy note, whose §4 has "Mermin–Wagner [13, 14] applies" and "The naive choice ... is unbounded below".
+C51	correct	notes/knot-dark-matter-standalone.md	"the withdrawn soliton manuscript (#14), whose §1 states the chain": #14 §1 (Framework) gives the compatibility theorem and the massive X.
+C52	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 v2.4 ... a third dark-matter candidate (§12)": v2.4's §12 at 9060088 has the same heading as the current §12 ("three candidates, and the failure of one model") and the same third row.
+C53	correct	notes/closed-universe.md	The bullet cites `notes/closed-universe.md` §8, and its §9 item 4 asks "whether the point defects would pose a monopole problem of the program's own".
+C54	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §4 has "Equivalence principle and lensing ... [D]".
+C55	correct	wiki/papers/phase-space-diameter.md	"the phase-space-diameter note finds Δx/Δp = 1/|Z|" is in that note's §5 ("so Δx/Δp = 1/|Z|").
+C56	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §7.5, and "§7 — the closing summary" is #11's massive-momentum-graviton section, which ends with "Born's answer".
+C57	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §7 item 1 has "not an artifact of an assumed ΛCDM background" and item 3 "The turnaround".
+C58	correct	wiki/papers/broken-born-checkpoint-v2.md	Both §9 links cite #11, whose §9 (ii) has the gated wave-kinetic rate with "[13†]; coefficients [O]".
+C59	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §13 row 6, and "the spectrum, the parities and 'satisfied identically'" is #11 §7.5.
+C60	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §5.2 has "an anomalous velocity".
+C61	correct	notes/knot-dark-matter-standalone.md	The referee's "§2(c)(ii) gives the dark matter itself a visible electric charge" and "the decisive constraints act on psi" are #14 §2(c); both §2 occurrences link #14.
+C62	correct	wiki/papers/broken-born-checkpoint-v2.md	"The checkpoint does not say ... §11.4 records ... P.R.'s conjecture that 'momentum matter is similar to position matter ...'" is word for word in #11 §11.4.
+C63	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11, whose §14 item 3 is "Lorentzian dressing of the Euclidean-rigorous skeleton [O]".
+C64	correct	notes/closed-universe.md	The bullet cites `notes/closed-universe.md`, whose §4 has "There are three readings of the question" and the symmetric reading's verdict.
+C65	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and "App. A items 5 and 11 — the founding suppositions" is #11's Appendix A.
+C66	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §5.2 has "below a critical velocity dispersion the core of a halo condenses".
+C67	correct	wiki/papers/broken-born-checkpoint-v2.md	"the checkpoint tags the chain [D + T] (§7.1) and the spectrum [D] (§7.5)" matches #11's headings "7.1 The chain [D + T]" and "7.5 Spectrum [D]".
+C68	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and "§12 — the three candidates" is #11 §12's table.
+C69	correct	notes/beta-coefficients.md	The bullet cites `notes/beta-coefficients.md`, whose §2 gives "the tadpole combination T" and "V(1) = 2T".
+C70	correct	wiki/papers/conjugate-special-relativity.md	The bullet cites #13, whose §1 ("Two causal cones") has "The dual cone bounds trajectories p(t)".
+C71	correct	wiki/papers/phase-space-diameter.md	"The phase-space-diameter note's reading ... (§5)": the note's §5 has "Δx/Δp = 1/|Z|" and "But a·ã = 1 holds along the whole slice".
+C72	correct	notes/literature-check.md	The bullet cites `notes/literature-check.md`, and "§3–§8 — what is published and what is not, by conjecture" opens with its §3 on C1.
+C73	correct	notes/broken-born-theory.md	The bullet cites `notes/broken-born-theory.md`, whose §3 (Action) splits H into "g_μν(x) and a momentum-space metric g̃" and routes the gate through g̃.
+C74	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and "its two forms, what stays open in either, and F2's finding" is #11 §11.4.
+C75	correct	notes/beta-coefficients.md	"Calc note #8 records it in a parenthesis: '(Residual τ–Stückelberg mixing through the potential ...)'" is word for word in #8 §3.
+C76	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11, whose §15 lists among degeneration risks "the §5 re-attribution of the compatibility theorem".
+C77	correct	notes/velocity-gated-gravity.md	The bullet cites `notes/velocity-gated-gravity.md`, whose §3 is "A universal relative-velocity gate between ordinary bodies is excluded".
+C78	correct	wiki/papers/reciprocity-toy-models.md	The bullet cites the toy note, whose §6 has the "Not shown" list.
+C79	correct	notes/x-classification.md	"Calc note #6 ...: '(The Λ(d) moduli, τ included, are not the eaten modes ...)'" is word for word in #6 §3.
+C80	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 tags the toy results ... (§4, the P2′ refinement; §10, 'Toy-model support')": #11 §10 has "Toy-model support (v2.2) [D][V]".
+C81	correct	notes/geometric-core.md	"Calc note #5 left open whether X propagates healthily, is auxiliary, or is a ghost" is #5 §D, "Quadratic spectrum and the ghost question [partial]".
+C82	correct	wiki/papers/broken-born-checkpoint-v2.md	"Checkpoint #11 marks the coefficients '[O]' in §9": #11 §9 (ii) has "coefficients [O]".
+C83	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §4, and "what survives #14's model" is #11 §12's "What survives" list.
+C84	correct	HANDOFF.md	The bullet cites `HANDOFF.md`, whose §4 (chat-only results) has "'dual equivalence principle'".
+C85	correct	wiki/papers/conjugate-special-relativity.md	The sentence quotes "#13 §1", and "§7 lists 'the factor 4' first among its open items" matches #13 §7's "Open [O]: the factor 4; ...".
+C86	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 §15, and "§7.4 — the novelty downgrade" is #11 §7.4 ("the novelty claim is hereby downgraded").
+C87	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and §2 matches "Tier 2" in #11 §2 ("Tier 2 (literature) ... flagged † pending source checks").
+C88	correct	notes/closed-universe.md	The bullet cites `notes/closed-universe.md`, whose §4 item 1 is "Shape: the momentum fibre stays flat".
+C89	correct	notes/geometric-core.md	The bullet cites `notes/geometric-core.md`, whose §E has "gate = momentum-graviton exchange".
+C90	correct	HANDOFF.md	The sentence is about "The handoff", citing `HANDOFF.md` §3 and then "its summary of the scientific state" (§2), which names "massless excluded".
+C91	correct	wiki/papers/broken-born-checkpoint-v2.md	Both §11.3 links cite #11, whose §11.3 has the "Conjecture [O]" and the U-duality analogy [T].
+C92	correct	notes/geometric-core.md	"Calc note #5 writes the metric belonging to each point as (§C)": #5 §C gives H_Z for Z = X + iY.
+C93	correct	notes/x-classification.md	"Calc note #6 resolved X ... which the multi-graviton no-go excludes as a massless field (§2)" is #6 §2, "The gauge structure and the no-go".
+C94	correct	wiki/papers/broken-born-checkpoint-v2.md	"§9's plain-language passage ends with 'one loophole for individual knots ...'": the quotation is word for word in #11 §9's italic passage; all §9 links are #11.
+C95	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and "§6 — reciprocity as Z → −Z⁻¹" is #11 §6's "ρ: Z → −Z⁻¹".
+C96	correct	wiki/papers/broken-born-checkpoint-v2.md	The sentence cites "#11 §7.5" and §7.3, and "the modular inversion of §6" is #11 §6's ρ: Z → −Z⁻¹.
+C97	correct	wiki/papers/broken-born-checkpoint-v2.md	The bullet cites #11 throughout, and "the explanation, open, and the two grounds" is #11 §11.1.
+C98	correct	notes/beta-coefficients.md	The bullet cites `notes/beta-coefficients.md`, whose §4 has "to ordinary matter only at gravitational strength and short range".
+C99	correct	notes/geometric-core.md	"Calc note #5 ...: 'With H = diag(g, g⁻¹), S_H is a functional of g alone ...'" is word for word in #5 §B.
+C100	correct	wiki/papers/broken-born-checkpoint-v2.md	"#11 heads §7 '(the field-equation problem)'" cites #11 §7; the document and section are right, though the current heading is only "The massive momentum graviton" (it read "(Debt 1)" until c12da1b), so the quoted heading wording is out of date.

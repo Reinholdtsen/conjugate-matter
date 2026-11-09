@@ -8,7 +8,7 @@
    "basis": "Hamilton's equations for the pair energy; the C kernel was verified against a direct numpy evaluation and against finite-difference derivatives of H (Q3).",
    "confidence": "high",
    "sources": [
-    "papers/broken-born-checkpoint-v2.md sec. 8",
+    "wiki/papers/broken-born-checkpoint-v2.md sec. 8",
     "round3-inputs/critic-run2.json (gap 1, D1)",
     "round3-inputs/clumping-analysis.json C16"
    ]

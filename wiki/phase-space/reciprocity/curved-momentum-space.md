@@ -5,59 +5,59 @@ status: established
 description: "Snyder's quantized space-time, momenta on a curved group manifold in 2+1 gravity, and relative locality: the literature in which momentum space has geometry; with the soccer-ball (extensivity) problem, open here."
 provenance: [T]
 sources:
-  - "papers/broken-born-checkpoint-v2.md §3"
-  - "papers/broken-born-checkpoint-v2.md refs [4]–[6]"
+  - "wiki/papers/broken-born-checkpoint-v2.md §3"
+  - "wiki/papers/broken-born-checkpoint-v2.md refs [4]–[6]"
   - "notes/broken-born-theory.md §11 item 6"
   - "notes/broken-born-program-v1.md §1"
   - "notes/broken-born-program-v1.md §10"
-  - "papers/broken-born-checkpoint-v2.md §7"
-  - "papers/broken-born-checkpoint-v2.md §14"
+  - "wiki/papers/broken-born-checkpoint-v2.md §7"
+  - "wiki/papers/broken-born-checkpoint-v2.md §14"
   - "notes/broken-born-theory.md §3"
   - "notes/geometric-core.md §A"
   - "notes/geometric-core.md §C"
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/dual-sector.md §9"
   - "review/wiki-build-flags.md item 72"
-  - "papers/broken-born-checkpoint-v2.md App. A item 10"
-  - "papers/broken-born-checkpoint-v2.md §5"
+  - "wiki/papers/broken-born-checkpoint-v2.md App. A item 10"
+  - "wiki/papers/broken-born-checkpoint-v2.md §5"
 ---
 
-*Curved momentum space is the idea, developed in a line of quantum-gravity research, that the space of momenta can carry a geometry of its own instead of being flat. Snyder used it in 1947 to build a quantized space-time; in quantum gravity with two space dimensions, which can be solved exactly, the momenta of a particle live on a curved space; and "relative locality" made the geometry of momentum space a principle. [General relativity](/wiki/gravity/spin-2-fields/general-relativity) curves space-time but leaves momentum space flat, which the program counts as an assumption rather than a measurement; its own version of momentum-space geometry is [the momentum graviton X](/wiki/gravity/momentum-graviton). One known difficulty of the idea, the soccer-ball problem, was listed as open in the [lab notebook](/wiki/history/documents/lab-notebook) and never resolved.*
+*Curved momentum space is the idea, developed in a line of quantum-gravity research, that the space of momenta can carry a geometry of its own instead of being flat. Snyder used it in 1947 to build a quantized space-time; in quantum gravity with two space dimensions, which can be solved exactly, the momenta of a particle live on a curved space; and "relative locality" made the geometry of momentum space a principle. [General relativity](../../gravity/spin-2-fields/general-relativity.md) curves space-time but leaves momentum space flat, which the program counts as an assumption rather than a measurement; its own version of momentum-space geometry is [the momentum graviton X](../../gravity/momentum-graviton/_index.md). One known difficulty of the idea, the soccer-ball problem, was listed as open in the [lab notebook](../../history/documents/lab-notebook.md) and never resolved.*
 
-**Status:** Established — literature [T] (#9 §1), cited in [#11](/wiki/history/documents/checkpoint) from model memory [4†–6†] and not yet source-checked ([the † literature battery](/wiki/method/literature-battery)) — the soccer-ball problem, folded in below, is open [O] (#1 §11 item 6) and absent from #11's open list.
+**Status:** Established — literature [T] ([#9 §1](../../../notes/broken-born-program-v1.md#1-the-question)), cited in [#11](../../history/documents/checkpoint.md) from model memory [4†–6†] and not yet source-checked ([the † literature battery](../../method/literature-battery.md)) — the soccer-ball problem, folded in below, is open [O] ([#1 §11 item 6](../../../notes/broken-born-theory.md#11-open-problems-in-order-of-severity)) and absent from [#11](../../papers/broken-born-checkpoint-v2.md)'s open list.
 
 ## What curved momentum space means
 
 In ordinary physics momentum space is flat [T]. A particle's momentum is a vector, the momenta of independent particles add as vectors, and the total momentum of a body is the sum of its parts. The relativistic energy–momentum relation, the mass shell, is a hyperboloid drawn in this flat space.
 
-In a curved momentum space the set of possible momenta is a curved manifold [T]. Two consequences follow. The mass shell becomes a statement about distance in a curved geometry, and the momenta of two particles no longer combine by simple addition but by a nonlinear composition rule, as displacements on a sphere do not simply add [T]. The size of the departure is set by a curvature scale, a momentum or mass that the literature usually places near the [Planck scale](/wiki/gravity/spin-2-fields/planck-units#the-scale-of-quantum-gravity-t) [T]. For momenta far below that scale the geometry looks flat and the ordinary rules return.
+In a curved momentum space the set of possible momenta is a curved manifold [T]. Two consequences follow. The mass shell becomes a statement about distance in a curved geometry, and the momenta of two particles no longer combine by simple addition but by a nonlinear composition rule, as displacements on a sphere do not simply add [T]. The size of the departure is set by a curvature scale, a momentum or mass that the literature usually places near the [Planck scale](../../gravity/spin-2-fields/planck-units.md#the-scale-of-quantum-gravity-t) [T]. For momenta far below that scale the geometry looks flat and the ordinary rules return.
 
 ## The lineage #11 cites
 
-#11 §3 names three steps, all cited from model memory:
+[#11 §3](../../papers/broken-born-checkpoint-v2.md#3-the-question) names three steps, all cited from model memory:
 
 - **Snyder.** [4]† H. S. Snyder, "Quantized space-time," Phys. Rev. 71, 38 (1947). Snyder made the space-time coordinates non-commuting while keeping Lorentz invariance, by taking momentum space to be a space of constant curvature [T].
-- **Gravity in 2+1 dimensions.** [5]† H.-J. Matschull, M. Welling, "Quantum mechanics of a point particle in 2+1 dimensional gravity," Class. Quantum Grav. 15, 2981 (1998), [gr-qc/9708054](https://arxiv.org/abs/gr-qc/9708054). With two space dimensions, gravity has no propagating waves and can be solved exactly; the momenta of a point particle take values in a group manifold, which is curved [T]. #11's wording: "the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†])". The v1 paper states the same result as [T] without a reference (#9 §1).
+- **Gravity in 2+1 dimensions.** [5]† H.-J. Matschull, M. Welling, "Quantum mechanics of a point particle in 2+1 dimensional gravity," Class. Quantum Grav. 15, 2981 (1998), [gr-qc/9708054](https://arxiv.org/abs/gr-qc/9708054). With two space dimensions, gravity has no propagating waves and can be solved exactly; the momenta of a point particle take values in a group manifold, which is curved [T]. #11's wording: "the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†])". The v1 paper states the same result as [T] without a reference ([#9 §1](../../../notes/broken-born-program-v1.md#1-the-question)).
 - **Relative locality.** [6]† G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "The principle of relative locality," Phys. Rev. D 84, 084010 (2011), [arXiv:1101.0931](https://arxiv.org/abs/1101.0931). It takes momentum space as the primary arena; its geometry fixes how momenta compose, and whether two events coincide can then depend on the observer [T].
 
-None of the three has been checked against its source; they are part of [the † literature battery](/wiki/method/literature-battery) (OP10).
+None of the three has been checked against its source; they are part of [the † literature battery](../../method/literature-battery.md) (OP10).
 
-**Born geometry [S].** The lineage #11 cites leaves out a statement in the Born-geometry papers on which the program builds. [Freidel, Leigh and Minic 2014](https://arxiv.org/abs/1307.7080), the first paper of #11's [3]†, which #11 cites for Born geometry (§5), write that "not only will space-time become curved, but momentum space as well", an idea they trace to Born ([Freidel, Leigh and Minic 2015](https://arxiv.org/abs/1502.08005), §1). Neither #11 §3's lineage nor App. A item 10, "Momentum space has its own gravity", cites them. The program's form of momentum-space geometry, a massive spin-2 field X odd under reciprocity, has no counterpart in their papers (`notes/dual-sector.md` §9; flag 72, pending; [further overlaps with the program](/wiki/dark-matter/conjugate-matter/dual-standard-model#further-overlaps-with-the-program)).
+**Born geometry [S].** The lineage #11 cites leaves out a statement in the Born-geometry papers on which the program builds. [Freidel, Leigh and Minic 2014](https://arxiv.org/abs/1307.7080), the first paper of #11's [3]†, which #11 cites for Born geometry ([§5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem)), write that "not only will space-time become curved, but momentum space as well", an idea they trace to Born ([Freidel, Leigh and Minic 2015](https://arxiv.org/abs/1502.08005), §1). Neither [#11 §3](../../papers/broken-born-checkpoint-v2.md#3-the-question)'s lineage nor [App. A item 10](../../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates), "Momentum space has its own gravity", cites them. The program's form of momentum-space geometry, a massive spin-2 field X odd under reciprocity, has no counterpart in their papers ([`notes/dual-sector.md` §9](../../../notes/dual-sector.md#9-other-overlaps); flag 72, pending; [further overlaps with the program](../../dark-matter/conjugate-matter/dual-standard-model.md#further-overlaps-with-the-program)).
 
 ## The program's framing
 
-#11 §3 cites the lineage to make one point about [Born's question](/wiki/program/borns-question): that the asymmetry between position and momentum lives in the dynamics. Among the dynamical sources of the asymmetry it lists "general relativity's flat momentum fibers — the last an architectural assumption, not a measurement, and false in the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†]; curved momentum space has an independent lineage from Snyder [4†] through relative locality [6†])." The v1 paper says the same, tagged [T]: general relativity "curves x-space while leaving momentum fibers flat — an assumption of the formalism, not a measurement, and one that is *false* in the one exactly solved quantum gravity (2+1 dimensions, where momentum space is a curved group manifold) [T]" (#9 §1).
+[#11 §3](../../papers/broken-born-checkpoint-v2.md#3-the-question) cites the lineage to make one point about [Born's question](../../program/borns-question.md): that the asymmetry between position and momentum lives in the dynamics. Among the dynamical sources of the asymmetry it lists "general relativity's flat momentum fibers — the last an architectural assumption, not a measurement, and false in the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†]; curved momentum space has an independent lineage from Snyder [4†] through relative locality [6†])." The v1 paper says the same, tagged [T]: general relativity "curves x-space while leaving momentum fibers flat — an assumption of the formalism, not a measurement, and one that is *false* in the one exactly solved quantum gravity (2+1 dimensions, where momentum space is a curved group manifold) [T]" ([#9 §1](../../../notes/broken-born-program-v1.md#1-the-question)).
 
-The point is negative: [flat momentum space](/wiki/phase-space/reciprocity/momentum-fibers#flat-fibers-as-an-assumption) is not forced by any measurement. It does not by itself say what geometry momentum space has.
+The point is negative: [flat momentum space](momentum-fibers.md#flat-fibers-as-an-assumption) is not forced by any measurement. It does not by itself say what geometry momentum space has.
 
 ## The program's own momentum-space geometry
 
 The program's answer comes from its phase-space geometry rather than from the Snyder lineage.
 
-1. **Two metrics in one.** The generalized metric H on phase space ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)) contains both: "On the x-tilted vacuum, H decomposes into a spacetime metric g_μν(x) and a momentum-space metric g̃^μν" (#1 §3).
-2. **In the vacuum the momentum metric is not independent.** With the neutral metric held rigid (the [original P2](/wiki/program/postulates/original-p2)), or under [P2′](/wiki/program/postulates/p2-prime) on the vacuum slice X = 0, which #11 §6 identifies with the η-compatible locus, the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) forces H = diag(g, g⁻¹), and "The momentum metric is slaved: g̃ = g⁻¹ pointwise. No independent momentum-space geometry survives." ([#5](/wiki/history/documents/field-equation-notes) §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
-3. **Off the vacuum it lives in X.** Once only ω is rigid, the metric becomes the [modular field Z](/wiki/phase-space/modular-field/modular-field-z) = X + iY, and "any independent momentum-space geometry resides in the fluctuation X" ([#14](/wiki/dark-matter/candidates/soliton-candidate) §1, the withdrawn manuscript). The calc note: "The field-equation problem, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (#5 §C).
-4. **Born's answer.** #11 §7: "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice … Momentum space gravitates, massively and invisibly to everything not polarized its way". See [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer).
+1. **Two metrics in one.** The generalized metric H on phase space ([the structures ω, η, H](../born-geometry/born-structures.md)) contains both: "On the x-tilted vacuum, H decomposes into a spacetime metric g_μν(x) and a momentum-space metric g̃^μν" ([#1 §3](../../../notes/broken-born-theory.md#3-action)).
+2. **In the vacuum the momentum metric is not independent.** With the neutral metric held rigid (the [original P2](../../program/postulates/original-p2.md)), or under [P2′](../../program/postulates/p2-prime.md) on the vacuum slice X = 0, which [#11 §6](../../papers/broken-born-checkpoint-v2.md#6-the-modular-field) identifies with the η-compatible locus, the [compatibility theorem](../born-geometry/compatibility-theorem.md) forces H = diag(g, g⁻¹), and "The momentum metric is slaved: g̃ = g⁻¹ pointwise. No independent momentum-space geometry survives." ([#5](../../history/documents/field-equation-notes.md) [§A](../../../notes/geometric-core.md#a-the-compatibility-theorem-d--rigorous); [the corollaries](../born-geometry/compatibility-corollaries.md)).
+3. **Off the vacuum it lives in X.** Once only ω is rigid, the metric becomes the [modular field Z](../modular-field/modular-field-z.md) = X + iY, and "any independent momentum-space geometry resides in the fluctuation X" ([#14](../../dark-matter/candidates/soliton-candidate/_index.md) [§1](../../../notes/knot-dark-matter-standalone.md#1-framework), the withdrawn manuscript). The calc note: "The field-equation problem, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" ([#5 §C](../../../notes/geometric-core.md#c-the-modular-field-d--structural-math-facts-standard)).
+4. **Born's answer.** [#11 §7](../../papers/broken-born-checkpoint-v2.md#7-the-massive-momentum-graviton): "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice … Momentum space gravitates, massively and invisibly to everything not polarized its way". See [Born's answer: momentum space gravitates](../../gravity/momentum-graviton/borns-answer.md).
 
 The program's momentum geometry is thus a dynamical metric on momentum space, short-ranged because X is massive. No document compares it in detail with the Snyder or relative-locality constructions; the one place they meet is the open problem below.
 
@@ -65,9 +65,9 @@ The program's momentum geometry is thus a dynamical metric on momentum space, sh
 
 **The problem in general [T].** If momenta compose nonlinearly, with corrections set by a Planck-scale momentum, the corrections are negligible for an elementary particle but not for the total momentum of a macroscopic body. A kicked ball can carry more momentum than the Planck scale. If the deformed rules applied to such a total, everyday bodies would show large departures from ordinary momentum addition, and they do not. Any theory with curved momentum space has to explain why the curvature does not show up for macroscopic momenta.
 
-**As the program states it.** The lab notebook's sixth open problem: "**Extensivity (the soccer ball)**: why macroscopic momenta don't probe g̃ curvature; patched by standard coproduct rescaling, which is ad hoc here as everywhere. **[O]**" (#1 §11 item 6). Here g̃ is the program's momentum-space metric. The "coproduct" is the rule, in the algebraic description of deformed symmetries, that combines the momenta of subsystems; rescaling it makes the effective curvature scale grow with the number of constituents, so a body of many particles behaves classically [T]. #1 calls the patch ad hoc in every theory that uses it, the program's included.
+**As the program states it.** The lab notebook's sixth open problem: "**Extensivity (the soccer ball)**: why macroscopic momenta don't probe g̃ curvature; patched by standard coproduct rescaling, which is ad hoc here as everywhere. **[O]**" ([#1 §11 item 6](../../../notes/broken-born-theory.md#11-open-problems-in-order-of-severity)). Here g̃ is the program's momentum-space metric. The "coproduct" is the rule, in the algebraic description of deformed symmetries, that combines the momenta of subsystems; rescaling it makes the effective curvature scale grow with the number of constituents, so a body of many particles behaves classically [T]. #1 calls the patch ad hoc in every theory that uses it, the program's included.
 
-**Fate.** The item was dropped from later open-problem lists without a resolution. It is absent from #9 §10 and from #11 §14, and no document returns to it. Its status is therefore still open [O], on the lab notebook's authority. It qualifies the program's claim that momentum-space geometry is dynamical ([Born's answer](/wiki/gravity/momentum-graviton/borns-answer)); whether it arises for the massive, short-ranged X in the same form as for Snyder-type models is not analysed anywhere. See [open problems and the queue](/wiki/status/open-problems).
+**Fate.** The item was dropped from later open-problem lists without a resolution. It is absent from [#9 §10](../../../notes/broken-born-program-v1.md#10-open-problems) and from [#11 §14](../../papers/broken-born-checkpoint-v2.md#14-open-problems), and no document returns to it. Its status is therefore still open [O], on the lab notebook's authority. It qualifies the program's claim that momentum-space geometry is dynamical ([Born's answer](../../gravity/momentum-graviton/borns-answer.md)); whether it arises for the massive, short-ranged X in the same form as for Snyder-type models is not analysed anywhere. See [open problems and the queue](../../status/open-problems.md).
 
 ## Standard references
 
@@ -75,24 +75,24 @@ The program's momentum geometry is thus a dynamical metric on momentum space, sh
 
 - G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "Relative locality and the soccer ball problem" (2011)†.
 
-The dual-sector note retrieved one more by live search (§9):
+The dual-sector note retrieved one more by live search ([§9](../../../notes/dual-sector.md#9-other-overlaps)):
 
 - [S] L. Freidel, R. G. Leigh, D. Minic, "Born Reciprocity in String Theory and the Nature of Spacetime," Phys. Lett. B 730, 302 (2014), [arXiv:1307.7080](https://arxiv.org/abs/1307.7080) — the first paper of #11's [3]†, there cited for Born geometry.
 
 ## Used by
 
-- [Born's question](/wiki/program/borns-question) — general relativity's flat momentum fibers as one source of the asymmetry.
-- [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) — the program's dynamical momentum-space geometry.
-- [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — X as the carrier of independent momentum-space geometry.
+- [Born's question](../../program/borns-question.md) — general relativity's flat momentum fibers as one source of the asymmetry.
+- [Born's answer: momentum space gravitates](../../gravity/momentum-graviton/borns-answer.md) — the program's dynamical momentum-space geometry.
+- [The modular field Z = X + iY](../modular-field/modular-field-z.md) — X as the carrier of independent momentum-space geometry.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §3 and refs [4]–[6] — the lineage Snyder → 2+1 gravity → relative locality, all †.
-- `papers/broken-born-checkpoint-v2.md` §7 — Born's answer: momentum-space geometry as a massive spin-2 field.
-- `papers/broken-born-checkpoint-v2.md` §14 — the current open-problem list, which does not carry extensivity.
-- `notes/geometric-core.md` §A, §C — g̃ = g⁻¹ slaved; momentum-space geometry as the Re Z sector.
-- `notes/broken-born-program-v1.md` §1, §10 — the 2+1 statement tagged [T]; v1's open-problem list, without extensivity.
-- `notes/broken-born-theory.md` §3, §11 item 6 — H split into g and g̃; the soccer-ball problem as #1 stated it.
-- `notes/knot-dark-matter-standalone.md` §1 — independent momentum-space geometry resides in X (withdrawn paper).
-- `notes/dual-sector.md` §9; `review/wiki-build-flags.md` item 72 — curved momentum space in Freidel, Leigh and Minic 2014, traced to Born in their 2015 paper, uncited in #11 §3 and App. A item 10 (pending)
-- `papers/broken-born-checkpoint-v2.md` App. A item 10 — "Momentum space has its own gravity"; §5 — Born geometry [3†]
+- [`wiki/papers/broken-born-checkpoint-v2.md` §3](../../papers/broken-born-checkpoint-v2.md#3-the-question) and refs [4]–[6] — the lineage Snyder → 2+1 gravity → relative locality, all †.
+- [`wiki/papers/broken-born-checkpoint-v2.md` §7](../../papers/broken-born-checkpoint-v2.md#7-the-massive-momentum-graviton) — Born's answer: momentum-space geometry as a massive spin-2 field.
+- [`wiki/papers/broken-born-checkpoint-v2.md` §14](../../papers/broken-born-checkpoint-v2.md#14-open-problems) — the current open-problem list, which does not carry extensivity.
+- [`notes/geometric-core.md` §A](../../../notes/geometric-core.md#a-the-compatibility-theorem-d--rigorous), [§C](../../../notes/geometric-core.md#c-the-modular-field-d--structural-math-facts-standard) — g̃ = g⁻¹ slaved; momentum-space geometry as the Re Z sector.
+- [`notes/broken-born-program-v1.md` §1](../../../notes/broken-born-program-v1.md#1-the-question), [§10](../../../notes/broken-born-program-v1.md#10-open-problems) — the 2+1 statement tagged [T]; v1's open-problem list, without extensivity.
+- [`notes/broken-born-theory.md` §3](../../../notes/broken-born-theory.md#3-action), [§11 item 6](../../../notes/broken-born-theory.md#11-open-problems-in-order-of-severity) — H split into g and g̃; the soccer-ball problem as #1 stated it.
+- [`notes/knot-dark-matter-standalone.md` §1](../../../notes/knot-dark-matter-standalone.md#1-framework) — independent momentum-space geometry resides in X (withdrawn paper).
+- [`notes/dual-sector.md` §9](../../../notes/dual-sector.md#9-other-overlaps); [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md) item 72 — curved momentum space in Freidel, Leigh and Minic 2014, traced to Born in their 2015 paper, uncited in [#11 §3](../../papers/broken-born-checkpoint-v2.md#3-the-question) and [App. A item 10](../../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) (pending)
+- [`wiki/papers/broken-born-checkpoint-v2.md` App. A item 10](../../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) — "Momentum space has its own gravity"; [§5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem) — Born geometry [3†]

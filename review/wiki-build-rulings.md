@@ -31,7 +31,7 @@ wiki stay. Nothing in the sources changes until Paul rules.
 **Reading the entries.** Document numbers are HANDOFF §3's: #1 the lab notebook, #2–#4 the clumping problem
 calc notes, #5–#8 the field-equation calc notes, #9 the superseded program paper (v1), #10 and #12 the
 popular articles, #11 the checkpoint, #13 conjugate special relativity, #14 the withdrawn knot
-dark-matter note. The toy note is `papers/reciprocity-toy-models.md` and the toy worklog
+dark-matter note. The toy note is `wiki/papers/reciprocity-toy-models.md` and the toy worklog
 `notes/toy-lagrangian.md`; the adjudications, the round-3 pre-registration and the round-4
 referee's notes are under `review/`. "Wiki pages (N)" counts the wiki pages that point to the
 flag. Where an entry compares that list with "the task's grep" (or the requested, given or
@@ -101,7 +101,7 @@ entries below keep this order.
 - (a) The potential as written, V₀[1 + cos(τ/f)], whose minimum is 0:
   - `notes/broken-born-theory.md` line 89 (§3, Polarization sector), with its tag sentence on line 92
   - `notes/broken-born-program-v1.md` line 90 (§8, Dark energy)
-  - `papers/broken-born-checkpoint-v2.md` line 107 (§10, Dark energy)
+  - `wiki/papers/broken-born-checkpoint-v2.md` line 107 (§10, Dark energy)
 - (b) Statements that need V < 0: the turnaround, "goes negative", and t_turn in the over-constraint:
   - `notes/broken-born-theory.md` line 202 (§7 heading). The flag and the audit do not list it.
   - `notes/broken-born-theory.md` line 208 (§7 item 3)
@@ -114,17 +114,17 @@ entries below keep this order.
   - `notes/broken-born-program-v1.md` line 90 (§8; its t_turn sentence is in group (a))
   - `notes/broken-born-program-v1.md` line 102 (§9 row 5)
   - `notes/broken-born-program-v1.md` line 128 (§11, the over-constraint as a progressive sign)
-  - `papers/broken-born-checkpoint-v2.md` line 105 (§10, plain-language passage)
-  - `papers/broken-born-checkpoint-v2.md` line 107 (§10; its t_turn sentence is in group (a))
-  - `papers/broken-born-checkpoint-v2.md` line 168 (§13 row 5)
-  - `papers/broken-born-checkpoint-v2.md` line 206 (§15, the over-constraint as a progressive sign)
-  - `papers/broken-born-checkpoint-v2.md` line 218 (App. A item 7)
+  - `wiki/papers/broken-born-checkpoint-v2.md` line 105 (§10, plain-language passage)
+  - `wiki/papers/broken-born-checkpoint-v2.md` line 107 (§10; its t_turn sentence is in group (a))
+  - `wiki/papers/broken-born-checkpoint-v2.md` line 168 (§13 row 5)
+  - `wiki/papers/broken-born-checkpoint-v2.md` line 206 (§15, the over-constraint as a progressive sign)
+  - `wiki/papers/broken-born-checkpoint-v2.md` line 218 (App. A item 7)
   - `HANDOFF.md` line 23 (§2)
   - `notes/ufd-endpoint.md` line 43
   - `popsci/angle-of-the-mirror.md` line 33 (#10)
   - `popsci/universes-other-half.md` line 55 (#12)
   - `popsci/universes-other-half.md` line 73 (#12)
-- Not the flagged statement, no change: the toy models' −2μ(1 + cos 2φ) and −(μ/2)(1 + cos 2φ) (`papers/reciprocity-toy-models.md` line 116, `notes/toy-lagrangian.md` line 320, `verify/toy_s4.py`, `verify/toy_coset.py`). The second auditor calls them a different object: a lattice potential taken "up to a constant", with no gravity.
+- Not the flagged statement, no change: the toy models' −2μ(1 + cos 2φ) and −(μ/2)(1 + cos 2φ) (`wiki/papers/reciprocity-toy-models.md` line 116, `notes/toy-lagrangian.md` line 320, `verify/toy_s4.py`, `verify/toy_coset.py`). The second auditor calls them a different object: a lattice potential taken "up to a constant", with no gravity.
 
 **Now reads:**
 
@@ -137,7 +137,7 @@ entries below keep this order.
 `notes/broken-born-program-v1.md` line 90:
 > τ is hilltop quintessence on the Maslov circle: V = V₀[1 + cos(τ/f)], periodicity by topology, V₀ fixed by Ω_DE, two remaining parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint. Strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1+w₀).
 
-`papers/broken-born-checkpoint-v2.md` line 107:
+`wiki/papers/broken-born-checkpoint-v2.md` line 107:
 > **Dark energy [D + T]:** τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1 + w₀); two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint.
 
 (b)
@@ -175,19 +175,19 @@ entries below keep this order.
 `notes/broken-born-program-v1.md` line 128 (§11, the over-constraint as a progressive sign):
 > **Progressive signs** — forced convergence onto consistency islands (no-go → Higgs → HR class → palindrome); novel predictions not previously posed (island discriminant; knee shape; even-eigenstate masslessness as a bimetric-parity statement); an unsolicited theorem (Λ_wedge = 0); one over-constraint in the DE sector.
 
-`papers/broken-born-checkpoint-v2.md` line 105 (§10, plain-language passage):
+`wiki/papers/broken-born-checkpoint-v2.md` line 105 (§10, plain-language passage):
 > Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so it must drift, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate description is a collapsing universe rebounding.
 
-`papers/broken-born-checkpoint-v2.md` line 107 (§10; its t_turn sentence is in group (a)):
+`wiki/papers/broken-born-checkpoint-v2.md` line 107 (§10; its t_turn sentence is in group (a)):
 > The turnaround is the conjugate bounce by constraint identity.
 
-`papers/broken-born-checkpoint-v2.md` line 168 (§13 row 5):
+`wiki/papers/broken-born-checkpoint-v2.md` line 168 (§13 row 5):
 > | 5 | Fate of expansion | Eternal de Sitter | Turnaround = conjugate bounce | (Long horizon; near-term test is row 4) |
 
-`papers/broken-born-checkpoint-v2.md` line 206 (§15, the over-constraint as a progressive sign):
+`wiki/papers/broken-born-checkpoint-v2.md` line 206 (§15, the over-constraint as a progressive sign):
 > **Progressive signs:** forced convergence onto consistency islands; predictions not previously posed (rows 3, 11); an unsolicited identity (§7.3); one over-constraint (DE sector); the §11.3 unification generating new questions.
 
-`papers/broken-born-checkpoint-v2.md` line 218 (App. A item 7):
+`wiki/papers/broken-born-checkpoint-v2.md` line 218 (App. A item 7):
 > 7. Our expansion reverses at their bounce — **alive, corrected**: one event, two descriptions; live at DESI DR3.
 
 `HANDOFF.md` line 23 (§2):
@@ -218,7 +218,7 @@ entries below keep this order.
 `notes/broken-born-program-v1.md` line 90:
 > τ is hilltop quintessence on the Maslov circle: V = V₀cos(τ/f) (negative minimum −V₀, posited [P], not derived), periodicity by topology, V₀ fixed by Ω_DE, two remaining parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint. Strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1+w₀).
 
-`papers/broken-born-checkpoint-v2.md` line 107:
+`wiki/papers/broken-born-checkpoint-v2.md` line 107:
 > **Dark energy [D + T]:** τ is hilltop quintessence on the Maslov circle, V = V₀cos(τ/f) (negative minimum −V₀, posited [P], not derived), periodicity by topology; strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1 + w₀); two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint.
 
 *Option B: keep V₀[1 + cos(τ/f)] and withdraw the turnaround.* This is the audit's alternative, given as instructions rather than drafted text:
@@ -262,7 +262,7 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 **Audit:** confirmed (2 independent checks). This audit is recorded in `review/wiki-build-flags.md` and `review/wiki-build-checks/corridor/`. `flag-audit.json` has no entry for flag 43.
 
 **Where it appears:**
-- `papers/broken-born-checkpoint-v2.md` line 107 (§10). It states the corridor, and DR2's crossing, in one paragraph without relating them.
+- `wiki/papers/broken-born-checkpoint-v2.md` line 107 (§10). It states the corridor, and DR2's crossing, in one paragraph without relating them.
 - `notes/broken-born-theory.md` line 207 (§7 item 2). It compares signs only.
 - `notes/broken-born-program-v1.md` line 90 (§8). It states the corridor but not DR2's crossing.
 - Not the flagged statement, no change:
@@ -272,7 +272,7 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **Now reads:**
 
-`papers/broken-born-checkpoint-v2.md` line 107 (the corridor, and DR2's crossing):
+`wiki/papers/broken-born-checkpoint-v2.md` line 107 (the corridor, and DR2's crossing):
 > **Dark energy [D + T]:** τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1 + w₀); two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint.
 
 > **Under pressure (v2.1):** DESI DR2 itself reports that in every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4", and that this preference "is thus rather independent of parametrization choices made in the analysis" [21S]. The framework's strict w ≥ −1 therefore stands against the direct reading of the data.
@@ -285,7 +285,7 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **Proposed:** neither the flags file nor `flag-audit.json` gives suggested wording for flag 43. The text below states only what the flag establishes, and it uses #11's own "z ≃ 0.4" rather than the audit's DR2 Table 5 numbers. No source document uses the name "CPL", so the text writes the line w₀ + wₐ(1 − a) instead. In #1 the inserted [D] keeps the item's closing [T] from covering the derived crossing.
 
-`papers/broken-born-checkpoint-v2.md` line 107 (three sentences inserted after "[21S]."):
+`wiki/papers/broken-born-checkpoint-v2.md` line 107 (three sentences inserted after "[21S]."):
 > **Under pressure (v2.1):** DESI DR2 itself reports that in every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4", and that this preference "is thus rather independent of parametrization choices made in the analysis" [21S]. The thawing corridor lies in the same quadrant as DR2's (w₀, wₐ) fits [21S], w₀ > −1 with w₀ + wₐ < −1 (on the corridor w₀ + wₐ + 1 = −(1 + w₀)/2), where the line w₀ + wₐ(1 − a) passes below −1 in the past; (w₀, wₐ) fits to fields that never fall below −1 can land there too [D]. What separates the two is the slope: the corridor's line crosses −1 at z = 2 for every w₀ [D], DR2's fits near z ≃ 0.4. The pressure rests on that crossing redshift, not on the quadrant. The framework's strict w ≥ −1 therefore stands against the direct reading of the data.
 
 `notes/broken-born-theory.md` line 207:
@@ -314,11 +314,11 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **Where it appears:** The statement appears in 14 places. The flag names #11 §6 and §10, #5 §C, #1 v0.3 and HANDOFF §2. The first auditor found the other nine: #11 lines 63, 105 and 217, #5 lines 58 and 82, and #9 lines 44, 50, 86 and 88.
 
-- `papers/broken-born-checkpoint-v2.md` line 63 (#11 §6, plain-language passage)
-- `papers/broken-born-checkpoint-v2.md` line 65 (#11 §6)
-- `papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain-language passage)
-- `papers/broken-born-checkpoint-v2.md` line 107 (#11 §10)
-- `papers/broken-born-checkpoint-v2.md` line 217 (#11 Appendix A item 6)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 63 (#11 §6, plain-language passage)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 65 (#11 §6)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain-language passage)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 107 (#11 §10)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 217 (#11 Appendix A item 6)
 - `notes/geometric-core.md` line 55 (#5 §C)
 - `notes/geometric-core.md` line 58 (#5 §C)
 - `notes/geometric-core.md` line 82 (#5 §F)
@@ -331,23 +331,23 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **Now reads:**
 
-`papers/broken-born-checkpoint-v2.md` line 63 (#11 §6, plain):
+`wiki/papers/broken-born-checkpoint-v2.md` line 63 (#11 §6, plain):
 
 > the circle |Z| = 1 is the duality between our expanding universe and its contracting conjugate;
 
-`papers/broken-born-checkpoint-v2.md` line 65 (#11 §6):
+`wiki/papers/broken-born-checkpoint-v2.md` line 65 (#11 §6):
 
 > **ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹, and the cosmological constraint a·ã = 1 (§10) is the |Z| = 1 locus.
 
-`papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain):
+`wiki/papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain):
 
 > Our expanding universe and its contracting conjugate are one motion written twice, like a number and its reciprocal — a relation forced by the constancy of Planck's constant and identical to the |Z| = 1 circle of the modular field.
 
-`papers/broken-born-checkpoint-v2.md` line 107 (#11 §10):
+`wiki/papers/broken-born-checkpoint-v2.md` line 107 (#11 §10):
 
 > **Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus.
 
-`papers/broken-born-checkpoint-v2.md` line 217 (#11 App. A item 6):
+`wiki/papers/broken-born-checkpoint-v2.md` line 217 (#11 App. A item 6):
 
 > Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus).
 
@@ -389,23 +389,23 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **Proposed:** The wording comes from the two auditors' suggestions and makes three points. First, a·ã = 1 holds along the whole vacuum slice X = 0, where it is det H = 1. Second, at X = 0, ρ carries a to ã = 1/a by inversion in the circle |Z| = 1, and that circle meets the slice only at Z = i. Third, in the plain-language passages the circle becomes the duality's mirror. The wording avoids "the circle is where a = ã", which holds under some readings of (a, ã) and not others (audit, `review/wiki-build-checks/audit/flag23_readings.out`). No number changes.
 
-`papers/broken-born-checkpoint-v2.md` line 63 (#11 §6, plain):
+`wiki/papers/broken-born-checkpoint-v2.md` line 63 (#11 §6, plain):
 
 > the circle |Z| = 1 is the mirror of the duality between our expanding universe and its contracting conjugate;
 
-`papers/broken-born-checkpoint-v2.md` line 65 (#11 §6):
+`wiki/papers/broken-born-checkpoint-v2.md` line 65 (#11 §6):
 
 > **ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹, which carries a to ã = 1/a by inversion in the circle |Z| = 1. The cosmological constraint a·ã = 1 (§10) holds along the whole slice X = 0, where it is det H = 1, and the circle meets the slice only at the self-dual vacuum Z = i.
 
-`papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain):
+`wiki/papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain):
 
 > Our expanding universe and its contracting conjugate are one motion written twice, like a number and its reciprocal — a relation forced by the constancy of Planck's constant, whose mirror is the |Z| = 1 circle of the modular field.
 
-`papers/broken-born-checkpoint-v2.md` line 107 (#11 §10):
+`wiki/papers/broken-born-checkpoint-v2.md` line 107 (#11 §10):
 
 > **Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — det H = 1, satisfied along the whole vacuum slice X = 0, where ρ maps a to ã = 1/a by inversion in the circle |Z| = 1.
 
-`papers/broken-born-checkpoint-v2.md` line 217 (#11 App. A item 6):
+`wiki/papers/broken-born-checkpoint-v2.md` line 217 (#11 App. A item 6):
 
 > Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; on the vacuum slice X = 0 it is det H = 1).
 
@@ -470,8 +470,8 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 **Where it appears:** The parity statements below hold under the frame exchange g ↔ f, and not under §6's Z → −Z⁻¹ if the graviton is the fluctuation of Im Z (audit).
 
 - `notes/beta-coefficients.md` line 34 (#8 §3)
-- `papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5)
-- `papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6)
 - `notes/broken-born-program-v1.md` line 64 (#9 §5 item 6)
 - `notes/broken-born-program-v1.md` line 103 (#9 §9, row 6)
 - `notes/broken-born-program-v1.md` line 128 (#9 §11)
@@ -490,11 +490,11 @@ X is odd under both actions (audit), so the statements that X is "reciprocity-od
 
 > **Eigenstates and parity:** the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices.
 
-`papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5):
+`wiki/papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5):
 
 > Massless graviton = reciprocity-even (GW graviton-mass bounds satisfied identically); X = reciprocity-odd; SM couplings gravitational-strength and Yukawa-cut at 1/M_X; τ un-eaten (compact J-sector, not the Stückelberg sector).
 
-`papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6, the BBT cell):
+`wiki/papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6, the BBT cell):
 
 > Massless eigenstate exactly massless (reciprocity-even)
 
@@ -522,11 +522,11 @@ Option A names the action wherever a parity is stated and records the gap once, 
 
 > **Eigenstates and parity** (reciprocity as the frame exchange of §1): the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices.
 
-`papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5):
+`wiki/papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5):
 
 > Under reciprocity as the frame exchange of §7.3: massless graviton = reciprocity-even (GW graviton-mass bounds satisfied identically); X = reciprocity-odd. Under §6's ρ: Z → −Z⁻¹, which linearizes to −1 at Z = i, the metric fluctuation is odd as well; relating the two actions waits on the wedge reduction from S_H (§14 item 1) [O]. SM couplings gravitational-strength and Yukawa-cut at 1/M_X; τ un-eaten (compact J-sector, not the Stückelberg sector).
 
-`papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6):
+`wiki/papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6):
 
 > Massless eigenstate exactly massless (reciprocity-even under the frame exchange, §7.3)
 
@@ -570,7 +570,7 @@ The audit does not choose between them. Both checks find the parities right unde
 1. `notes/tuning-test.md` line 26 (§2, consequence 1): the statement itself.
 2. `notes/tuning-test.md` line 7 (§1): the definition the flag also cites. Both audits leave it as written: one calls it true, the other takes it as the definition that consequence 1 contradicts.
 
-No other source states this zero set. #9 §4 (`notes/broken-born-program-v1.md` line 48) and #11 §6 (`papers/broken-born-checkpoint-v2.md` line 65) speak of "the η-compatible locus X = 0", and #5 §C (`notes/geometric-core.md` line 53) of "the η-compatible locus of Theorem A" at X = 0. That is Theorem A's notion, a different one, and neither audit proposes changing it.
+No other source states this zero set. #9 §4 (`notes/broken-born-program-v1.md` line 48) and #11 §6 (`wiki/papers/broken-born-checkpoint-v2.md` line 65) speak of "the η-compatible locus X = 0", and #5 §C (`notes/geometric-core.md` line 53) of "the η-compatible locus of Theorem A" at X = 0. That is Theorem A's notion, a different one, and neither audit proposes changing it.
 
 **Now reads:**
 
@@ -640,7 +640,7 @@ Neither audit tested #8's frame-tier potential; one says so explicitly.
 
 The flag names #1 v0.6, #10, #11 §1, §7 and §7.3, #9 §5 and #8 §2's closing sentence. The two audits add the other places below; each is marked (flag), (both audits) or (one audit).
 
-- #11, `papers/broken-born-checkpoint-v2.md`:
+- #11, `wiki/papers/broken-born-checkpoint-v2.md`:
   - (1) line 15 (§1, plain-language passage) (flag)
   - (2) line 71 (§7, plain-language passage) (flag)
   - (3) line 77 (§7.3) (flag)
@@ -683,27 +683,27 @@ The audits judge these accurate as written, so they get no change:
 
 **Now reads:**
 
-(1) `papers/broken-born-checkpoint-v2.md` line 15:
+(1) `wiki/papers/broken-born-checkpoint-v2.md` line 15:
 
 > gravity acquires a hidden massive twin whose vacuum energy cancels by symmetry;
 
-(2) `papers/broken-born-checkpoint-v2.md` line 71:
+(2) `wiki/papers/broken-born-checkpoint-v2.md` line 71:
 
 > X's entire contribution to the energy of empty space cancels exactly, by symmetry.
 
-(3) `papers/broken-born-checkpoint-v2.md` line 77:
+(3) `wiki/papers/broken-born-checkpoint-v2.md` line 77:
 
 > *the wedge sector contributes zero cosmological constant, by symmetry.*
 
-(4) `papers/broken-born-checkpoint-v2.md` line 83:
+(4) `wiki/papers/broken-born-checkpoint-v2.md` line 83:
 
 > its wedge vacuum energy zero by identity.
 
-(5) `papers/broken-born-checkpoint-v2.md` line 107:
+(5) `wiki/papers/broken-born-checkpoint-v2.md` line 107:
 
 > §7.3 guarantees the wedge sector contributes nothing that competes with τ.
 
-(6) `papers/broken-born-checkpoint-v2.md` line 204:
+(6) `wiki/papers/broken-born-checkpoint-v2.md` line 204:
 
 > the last one yielding a vacuum-energy cancellation nobody ordered
 
@@ -964,7 +964,7 @@ Every replacement below rests on the same audited statement. Under the palindrom
 **Where it appears:**
 
 - `notes/geometric-core.md` line 27 (#5 §B)
-- `papers/broken-born-checkpoint-v2.md` line 57 (#11 §5)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 57 (#11 §5)
 - `notes/broken-born-program-v1.md` line 40 (#9 §3)
 - `notes/broken-born-theory.md` line 281 (#1 addendum v0.3). The flag does not list this place; the first auditor found it.
 
@@ -974,7 +974,7 @@ Every replacement below rests on the same audited statement. Under the palindrom
 
 > The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is **discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2.
 
-`papers/broken-born-checkpoint-v2.md` line 57 (#11 §5):
+`wiki/papers/broken-born-checkpoint-v2.md` line 57 (#11 §5):
 
 > Under strict P2 the compatible polarizations are discrete, so no Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent.
 
@@ -992,7 +992,7 @@ Every replacement below rests on the same audited statement. Under the palindrom
 
 > The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is the set of splittings V ⊕ V^⊥ (V in x-space, V^⊥ in p-space): d + 1 Grassmannians Gr(k, d), continuous for 0 < k < d, with det² = (−1)^(d−k) constant on each and the x-polarization isolated. No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2.
 
-`papers/broken-born-checkpoint-v2.md` line 57 (#11 §5):
+`wiki/papers/broken-born-checkpoint-v2.md` line 57 (#11 §5):
 
 > Under strict P2 the compatible polarizations carry a constant Maslov phase (det² = ±1 on each of their families), with the x-polarization isolated, so no Lagrangian Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent.
 
@@ -1036,12 +1036,12 @@ The audit proposes no change to four related lines:
 - `verify/soliton_obituary.py` line 14 ("What is checked here is the corrected record."). The audit notes that "the corrected record" includes ruling 6's ≳ 20–30 MeV, which is not checked, but offers no wording for this line.
 - `notes/knot-dark-matter-standalone.md` line 3 (#14's banner: "The corrected numbers are in [review/round3-adjudication.md](../review/round3-adjudication.md), checked by `verify/soliton_obituary.py`."). The banner's preceding sentences name the Kibble normalization, the mass band, the benchmark and the ψ relic window. The script checks the corrected figures for all four. The audit notes that the banner, like line 14 and adjudication line 12, says "corrected" of a record that still contains ruling 6's ≳ 20–30 MeV, which is not checked; it offers no wording for the banner.
 - Root `CLAUDE.md` line 27 (Layout: "`soliton_obituary.py` (the round-3 record)"). The audit read the file and proposes no change; flag 38 concerns the same line for another reason.
-- `papers/broken-born-checkpoint-v2.md` line 154 (#11 §12, "The [V] numbers here are gated"). The audit finds this accurate: all 4 of the [V] numbers are gated.
+- `wiki/papers/broken-born-checkpoint-v2.md` line 154 (#11 §12, "The [V] numbers here are gated"). The audit finds this accurate: all 4 of the [V] numbers are gated.
 
 **Now reads:**
 1. `verify/soliton_obituary.py` lines 3–5:
 > soliton_obituary.py — every number that review/round3-adjudication.md and the
-> §12 obituary of papers/broken-born-checkpoint-v2.md (v2.1) quote
+> §12 obituary of wiki/papers/broken-born-checkpoint-v2.md (v2.1) quote
 > for the withdrawn soliton candidate (#14 v3), recomputed and checked.
 2. `verify/soliton_obituary.py` line 114:
 > print("\nOK — every number the round-3 record quotes reproduces.")
@@ -1065,7 +1065,7 @@ The audit proposes no change to four related lines:
 1. `verify/soliton_obituary.py` lines 3–5 (the audit's wording, rewrapped):
 > soliton_obituary.py — the figures review/round3-adjudication.md computes
 > itself (rulings 1, 2, 4, 5; the lesson-2 anchors) and every [V] number of the
-> §12 obituary of papers/broken-born-checkpoint-v2.md (v2.1), for the withdrawn
+> §12 obituary of wiki/papers/broken-born-checkpoint-v2.md (v2.1), for the withdrawn
 > soliton candidate (#14 v3), recomputed and checked. Not recomputed here:
 > figures the record quotes from the referee or the literature, or accepts
 > without re-checking (rulings 3, 6, 9, 10; the omitted-constraints list), and
@@ -1132,13 +1132,13 @@ Places 2–4 differ from the audit's wording by one word each. Place 2 adds "rec
 
 - (1) `review/round4-adjudication.md` line 66 (the heading of 'Revisions for v2 of the note').
 - (2) `notes/toy-lagrangian.md` line 507 ('Write-up and review (2026-10-19/20)'). Its list, lines 508–521, names no comparison.
-- (3) `papers/broken-born-checkpoint-v2.md` line 198 (#11 §14 item 11). The audit says the same qualifier belongs here.
+- (3) `wiki/papers/broken-born-checkpoint-v2.md` line 198 (#11 §14 item 11). The audit says the same qualifier belongs here.
 - (4) `CLAUDE.md` line 19 (Layout). The audit says the same qualifier belongs here.
 
 The facts:
 
 - Revision 4 (`review/round4-adjudication.md` lines 85–87) asks v2 to "compare with Langmann–Szabo–Zarembo".
-- v2 §4 (`papers/reciprocity-toy-models.md` line 103) says: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." Reference [8] is Langmann–Szabo–Zarembo (line 189).
+- v2 §4 (`wiki/papers/reciprocity-toy-models.md` line 103) says: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." Reference [8] is Langmann–Szabo–Zarembo (line 189).
 - The flag's quoted "not carried out" paraphrases v2's actual words, "We have not carried it out" (an audit note).
 
 **Now reads:**
@@ -1151,7 +1151,7 @@ The facts:
 
 > - **v2 applies every accepted revision:**
 
-(3) `papers/broken-born-checkpoint-v2.md` line 198 (excerpt):
+(3) `wiki/papers/broken-born-checkpoint-v2.md` line 198 (excerpt):
 
 > Round-4 blind review: verdict B; v2 applies the accepted revisions.
 
@@ -1209,18 +1209,18 @@ The facts:
 
 **Where it appears:**
 
-- (1) `papers/reciprocity-toy-models.md` line 159 and line 165 (§6, "Shown (each by executed code)", item 5).
+- (1) `wiki/papers/reciprocity-toy-models.md` line 159 and line 165 (§6, "Shown (each by executed code)", item 5).
 - The tags elsewhere already match the audit:
   - `notes/toy-lagrangian.md` line 297 tags the result [D], "by an exact argument", with only its premise gated (line 300);
   - §4 (lines 95–103) gives the argument with no script pointer.
 
 **Now reads:**
 
-(1) `papers/reciprocity-toy-models.md` line 159:
+(1) `wiki/papers/reciprocity-toy-models.md` line 159:
 
 > **Shown** (each by executed code):
 
-`papers/reciprocity-toy-models.md` line 165:
+`wiki/papers/reciprocity-toy-models.md` line 165:
 
 > - Model II: complex fields — classical breaking along a flat polarization angle, and restoration under quantization.
 
@@ -1255,7 +1255,7 @@ A possible modification: §4's argument has a second premise, that "Nothing supp
 
 **Where it appears:**
 
-1. `papers/broken-born-checkpoint-v2.md` line 81 (§7.5)
+1. `wiki/papers/broken-born-checkpoint-v2.md` line 81 (§7.5)
 2. `notes/broken-born-program-v1.md` line 64 (§5 item 6)
 
 Two places are correct as written and need no change (both audits):
@@ -1265,7 +1265,7 @@ Two places are correct as written and need no change (both audits):
 
 **Now reads:**
 
-(1) `papers/broken-born-checkpoint-v2.md` line 81:
+(1) `wiki/papers/broken-born-checkpoint-v2.md` line 81:
 
 > **7.5 Spectrum [D].** Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape).
 
@@ -1318,17 +1318,17 @@ Both audits give the same wording.
 **Audit:** confirmed (2 independent checks)
 
 **Where it appears:**
-- `papers/broken-born-checkpoint-v2.md` line 117 (§11.2). This is the only place a source writes 4π/e² for our magnetic coupling. #14 v2's soliton mass M ~ (4π/e_d²)Λ_c uses the dark charge e_d and is a different formula (`review/skeptic-review-console.html` line 53; `review/v3-worklog.md` line 53, finding F2).
+- `wiki/papers/broken-born-checkpoint-v2.md` line 117 (§11.2). This is the only place a source writes 4π/e² for our magnetic coupling. #14 v2's soliton mass M ~ (4π/e_d²)Λ_c uses the dark charge e_d and is a different formula (`review/skeptic-review-console.html` line 53; `review/v3-worklog.md` line 53, finding F2).
 - Not the flagged statement, no change: `popsci/universes-other-half.md` line 41 gives the number without a formula ("about 34, against our 1/137"). The α_d ≈ 34 of the dead soliton episode (`HANDOFF.md` lines 32, 36 and 90; #14; `review/v3-worklog.md` R2) is a different quantity, as the flag says.
 
 **Now reads:**
 
-`papers/broken-born-checkpoint-v2.md` line 117:
+`wiki/papers/broken-born-checkpoint-v2.md` line 117:
 > Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.
 
 **Proposed:**
 
-`papers/broken-born-checkpoint-v2.md` line 117 (the second auditor's wording; the first differs only in where "g²/4π" sits):
+`wiki/papers/broken-born-checkpoint-v2.md` line 117 (the second auditor's wording; the first differs only in where "g²/4π" sits):
 > Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near g²/4π = π/e² = 1/(4α) ≈ 34 (α = e²/4π) — the magnetic world is our strong-coupling mirror, heavy and bound.
 
 The bare minimum, changing the formula only:
@@ -1347,18 +1347,18 @@ The bare minimum, changing the formula only:
 
 **Where it appears:**
 
-- (1) `papers/reciprocity-toy-models.md` line 152 (§5, "A coupling built from (H, K)"). This is the flagged sentence.
+- (1) `wiki/papers/reciprocity-toy-models.md` line 152 (§5, "A coupling built from (H, K)"). This is the flagged sentence.
 - (2) `review/round4-adjudication.md` line 32 (Rulings, F3). It gives I_K as its example of "a coupling odd in K". The flag says F3's usage is fine. The audit says F3 "shares the slip". **The flag and the audit disagree here.**
 - (3) `review/round4/referee/audit-notes.md` line 105 (Step 3, Internal consistency, C1). The referee also calls I_K "a K-odd coupling". Neither the flag nor the audit cites this line.
 - (4) Places that use "a coupling odd in K" only as a requirement. The flag says this usage is fine, and the audit does not address these lines:
-  - `papers/reciprocity-toy-models.md` line 10 (Abstract);
-  - `papers/reciprocity-toy-models.md` line 54 (§2, Vacua);
+  - `wiki/papers/reciprocity-toy-models.md` line 10 (Abstract);
+  - `wiki/papers/reciprocity-toy-models.md` line 54 (§2, Vacua);
   - `review/round4-adjudication.md` lines 77–78 (Revisions for v2, item 2);
   - `review/round4/referee/audit-notes.md` line 127 (Step 4, Verdict), the referee's own record.
 
 **Now reads:**
 
-(1) `papers/reciprocity-toy-models.md` line 152:
+(1) `wiki/papers/reciprocity-toy-models.md` line 152:
 
 > - For ψ ∝ e^{−(x−1.3)²/0.7} + 0.6 e^{−(x+1.3)²/0.7}, the two vacua give 0.4070 and 0.3600. **I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2).
 
@@ -1370,11 +1370,11 @@ The bare minimum, changing the formula only:
 
 > Sec. 2's "no vacuum is rho-invariant" is true for rho alone; "Born reciprocity is broken" in model I is a labelling choice until a K-odd coupling (Sec. 5's I_K: K->-K alone changes it by -0.046925) is added.
 
-(4) `papers/reciprocity-toy-models.md` line 10:
+(4) `wiki/papers/reciprocity-toy-models.md` line 10:
 
 > - Because the action is also invariant under K → −K, a twisted combination of ρ with that flip leaves the vacuum invariant. Breaking ρ becomes physical only once a coupling odd in K is present.
 
-`papers/reciprocity-toy-models.md` line 54:
+`wiki/papers/reciprocity-toy-models.md` line 54:
 
 > - But the twisted element ρ∘(K → −K) maps (1, K₀) to itself. So within the full symmetry group, the vacuum keeps an element that acts on H exactly as ρ does. Breaking ρ is physical only once a coupling odd in K is present (§5).
 
@@ -1485,8 +1485,8 @@ The expansion of A is right as written; the audit checked it exactly at d = 2.
 
 **Where it appears:**
 
-1. `papers/broken-born-checkpoint-v2.md` line 73 (§7.1 (iii))
-2. `papers/broken-born-checkpoint-v2.md` line 204 (§15, plain-language passage)
+1. `wiki/papers/broken-born-checkpoint-v2.md` line 73 (§7.1 (iii))
+2. `wiki/papers/broken-born-checkpoint-v2.md` line 204 (§15, plain-language passage)
 3. `notes/x-classification.md` line 48 (§5)
 4. `notes/broken-born-program-v1.md` line 61 (§5 item 3)
 5. `HANDOFF.md` line 12 (§1)
@@ -1501,11 +1501,11 @@ Three places keep "known" and need no change:
 
 **Now reads:**
 
-(1) `papers/broken-born-checkpoint-v2.md` line 73:
+(1) `wiki/papers/broken-born-checkpoint-v2.md` line 73:
 
 > The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†].
 
-(2) `papers/broken-born-checkpoint-v2.md` line 204:
+(2) `wiki/papers/broken-born-checkpoint-v2.md` line 204:
 
 > four consecutive consistency tests each forced the theory onto the unique consistent structure available,
 
@@ -1637,17 +1637,17 @@ That is the only place. #7 line 42's "fewer free functions", the "predictive tru
 **Audit:** confirmed (1 independent check)
 
 **Where it appears:**
-- `papers/broken-born-checkpoint-v2.md` line 253 (References, entry [24][S]).
+- `wiki/papers/broken-born-checkpoint-v2.md` line 253 (References, entry [24][S]).
 - Not the flagged statement, no change: #11's in-text citations [24S] at line 17 (§1, technical abstract), line 79 (§7.4) and line 185 (§14 item 2); `HANDOFF.md` line 21 (§2) and line 112 (§8 item 5), which cite the arXiv number alone.
 
 **Now reads:**
 
-`papers/broken-born-checkpoint-v2.md` line 253:
+`wiki/papers/broken-born-checkpoint-v2.md` line 253:
 > [24][S] Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515.
 
 **Proposed:**
 
-`papers/broken-born-checkpoint-v2.md` line 253 (the audit's wording; same layout as [22] and [25]):
+`wiki/papers/broken-born-checkpoint-v2.md` line 253 (the audit's wording; same layout as [22] and [25]):
 > [24][S] L. Apolo, S. F. Hassan, A. Lundkvist, "Gauge and global symmetries of the candidate partially massless bimetric gravity," Phys. Rev. D 94, 124055 (2016), arXiv:1609.09515.
 
 Authors, title and journal come from the audit's live fetch of the arXiv abstract page, so the [S] mark stays. The audit checked the record and the abstract's subject. It did not check that the paper contains what #11 §7.4 cites [24S] for (the partially-massless point's βₙ values and the proportional de Sitter solutions with an undetermined ratio). That check belongs to the partially-massless comparison, current queue item 1.
@@ -1780,7 +1780,7 @@ Authors, title and journal come from the audit's live fetch of the arXiv abstrac
 
 **Where it appears:**
 
-- (1) `papers/reciprocity-toy-models.md` line 101 (§4, model II restoration, first caveat) says "ln N".
+- (1) `wiki/papers/reciprocity-toy-models.md` line 101 (§4, model II restoration, first caveat) says "ln N".
 - (2) `review/round4-adjudication.md` line 35 (Rulings, F6) says "2 ln N".
 - (3) `review/round4-adjudication.md` lines 85–87 (Revisions for v2, item 4) says "2 ln N".
 - (4) `review/round4/referee/audit-notes.md` line 87 (Step 2(c), F6) and line 113 (Step 3, Model II) say "2 ln N". Line 87 gives the averaged vertex as 2 Σ_k (G₀ₖ + Gₖ₀) and quotes T₀(N) − 2 ln N → −0.8455. T₀ itself, T₀(N) = Σ_k [G₀ₖ + Gₖ₀], a sum of two harmonic sums, is defined in the referee's script `review/round4/referee/ref_model2_quantum.py` (lines 33–37).
@@ -1789,7 +1789,7 @@ Authors, title and journal come from the audit's live fetch of the arXiv abstrac
 
 **Now reads:**
 
-(1) `papers/reciprocity-toy-models.md` line 101:
+(1) `wiki/papers/reciprocity-toy-models.md` line 101:
 
 > - The bare μ² is itself renormalized. The level-0 tadpole grows as ln N (it is a harmonic sum), so fixed bare μ² is not a consistent large-N limit.
 
@@ -1881,7 +1881,7 @@ The audit proposes no wording and **states no preference between A and B**.
 - (1) `review/round4-adjudication.md` line 31 (Rulings, F2).
 - (2) `review/round4-adjudication.md` lines 69–70 (Revisions for v2, item 1).
 - Already correct, no change needed:
-  - `papers/reciprocity-toy-models.md` line 114 (§4), "not symmetry-protected";
+  - `wiki/papers/reciprocity-toy-models.md` line 114 (§4), "not symmetry-protected";
   - the referee's `review/round4/referee/audit-notes.md` line 107 (C3), "breaks the residual boosts explicitly";
   - `verify/toy_coset.py` line 183, which checks only that the line is flat.
 
@@ -1942,13 +1942,13 @@ To keep the arbitration as it was written, both corrections could go in a dated 
 
 **Where it appears:**
 
-- (1) `papers/reciprocity-toy-models.md` line 125 (§4, Monte Carlo table, first row).
+- (1) `wiki/papers/reciprocity-toy-models.md` line 125 (§4, Monte Carlo table, first row).
 - (2) `verify/toy_s4.py` lines 74–75 (the gate's "quoted:" check). Its label repeats the note's wording, but its test is standard error < 0.0002.
 - Not affected: `notes/toy-lagrangian.md` line 325 gives 0.954 with no error bar.
 
 **Now reads:**
 
-(1) `papers/reciprocity-toy-models.md` line 125:
+(1) `wiki/papers/reciprocity-toy-models.md` line 125:
 
 > ```
 > | With the potential (J = h = 1), T = 0.6 | ⟨\|m\|⟩ = 0.954 ± 0.0001 at every size; Binder cumulant 0.667 | Ordered ℤ₂ phase |
@@ -2082,7 +2082,7 @@ The audit closes with the two edits as its "disambiguating edit" and calls the f
 **Where it appears:**
 1. `HANDOFF.md` line 29 (§2, "Dead"): the clumping figure carries ✓. Line 16 (§2) defines ✓ as machine-verified.
 
-The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.md` line 51 (§3, artifact #2); `notes/stream-stability.md` line 53 ("Numbers at the scattering benchmark"); `notes/broken-born-theory.md` line 271 (addendum v0.2); `notes/broken-born-program-v1.md` line 80 (§7); `papers/broken-born-checkpoint-v2.md` line 99 (§9, tagged [D]). Two more state it in words and need no change either: `papers/broken-born-checkpoint-v2.md` line 97 (§9's plain-language passage, "thirty orders of magnitude") and `popsci/angle-of-the-mirror.md` line 17 (#10, "a factor of ten to the thirtieth").
+The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.md` line 51 (§3, artifact #2); `notes/stream-stability.md` line 53 ("Numbers at the scattering benchmark"); `notes/broken-born-theory.md` line 271 (addendum v0.2); `notes/broken-born-program-v1.md` line 80 (§7); `wiki/papers/broken-born-checkpoint-v2.md` line 99 (§9, tagged [D]). Two more state it in words and need no change either: `wiki/papers/broken-born-checkpoint-v2.md` line 97 (§9's plain-language passage, "thirty orders of magnitude") and `popsci/angle-of-the-mirror.md` line 17 (#10, "a factor of ten to the thirtieth").
 
 **Now reads:**
 1. `HANDOFF.md` line 29 (§2):
@@ -2116,9 +2116,9 @@ The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.
 1. `notes/x-classification.md` line 40 (#6 §4): the overlap form e^{−(p₁−p₂)²/2μ²}. The note does not say whether it applies to the amplitude or to the rate.
 2. `notes/broken-born-theory.md` lines 99 and 102 (#1 §3): the amplitude gate e^{−k²/μ²}, with k = m_χv_rel/2.
 3. `notes/broken-born-theory.md` lines 127 and 138 (#1 §5.1): v* ≡ √2μ/m_χ and μ ≈ 20 keV.
-4. `papers/conjugate-special-relativity.md` line 73 (#13 §4): μ as the momentum-space width, used with v* = √2μ/m_χ.
+4. `wiki/papers/conjugate-special-relativity.md` line 73 (#13 §4): μ as the momentum-space width, used with v* = √2μ/m_χ.
 
-Five more places state the documents' convention that #1's μ is the fiber width. None changes under any option: `notes/broken-born-theory.md` line 291 (addendum v0.4); `notes/beta-coefficients.md` line 47 (#8 §5); `notes/broken-born-program-v1.md` line 72 (#9 §6); `papers/broken-born-checkpoint-v2.md` line 91 (#11 §8); `HANDOFF.md` line 24 (§2). `notes/broken-born-theory.md` line 253 (#1 §11, open problem 2) restates the amplitude gate as e^{−k²/μ²}; it does not change under any option either.
+Five more places state the documents' convention that #1's μ is the fiber width. None changes under any option: `notes/broken-born-theory.md` line 291 (addendum v0.4); `notes/beta-coefficients.md` line 47 (#8 §5); `notes/broken-born-program-v1.md` line 72 (#9 §6); `wiki/papers/broken-born-checkpoint-v2.md` line 91 (#11 §8); `HANDOFF.md` line 24 (§2). `notes/broken-born-theory.md` line 253 (#1 §11, open problem 2) restates the amplitude gate as e^{−k²/μ²}; it does not change under any option either.
 
 **Now reads:**
 1. `notes/x-classification.md` line 40 (#6 §4):
@@ -2133,7 +2133,7 @@ Five more places state the documents' convention that #1's μ is the fiber width
 
    `notes/broken-born-theory.md` line 138 (#1 §5.1):
 > m_\chi \approx 70\ \mathrm{MeV} \times \tilde\alpha^{2/3}\left(\frac{\sigma_0/m}{30\ \mathrm{cm^2 g^{-1}}}\right)^{-1/3}, \qquad \mu = \frac{m_\chi v_*}{\sqrt 2} \approx 20\ \mathrm{keV}\ (\tilde\alpha \approx 1).
-4. `papers/conjugate-special-relativity.md` line 73 (#13 §4):
+4. `wiki/papers/conjugate-special-relativity.md` line 73 (#13 §4):
 > The conjugate quantum's invariant extent fixes its intrinsic momentum-space width μ ~ ℏ/λ_χ — which is precisely the gate scale of the dark-matter sector, v* = √2 μ/m_χ.
 
 **Proposed:** At most one place changes, #6 §4. Places 2–4 (#1 and #13) stay as they are under every option.
@@ -2184,7 +2184,7 @@ Five more places state the documents' convention that #1's μ is the fiber width
 **Where it appears:**
 1. `notes/stream-stability.md` line 57 (#2, "Corollary (the classicality theorem)"): the broad-gate formula, evaluated "for MW conditions". #2 itself puts the Milky Way in the narrow-gate regime in two places. Line 34 heads Limit 2 as the "MW/cluster regime". The MW row of the table, line 51, is computed with the narrow form, which the audit reproduces.
 
-Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes under any option: `papers/broken-born-checkpoint-v2.md` line 99 (#11 §9); `notes/broken-born-program-v1.md` line 80 (#9 §7); `HANDOFF.md` line 51 (§3, artifact #2); `notes/wave-island.md` line 7 (#3). `notes/broken-born-theory.md` line 271 (#1 addendum v0.2) states the corollary without a number.
+Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes under any option: `wiki/papers/broken-born-checkpoint-v2.md` line 99 (#11 §9); `notes/broken-born-program-v1.md` line 80 (#9 §7); `HANDOFF.md` line 51 (§3, artifact #2); `notes/wave-island.md` line 7 (#3). `notes/broken-born-theory.md` line 271 (#1 addendum v0.2) states the corollary without a number.
 
 **Now reads:**
 1. `notes/stream-stability.md` line 57 (#2, Corollary):
@@ -2218,14 +2218,14 @@ Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes und
 **Audit:** confirmed (1 independent check)
 
 **Where it appears:**
-1. `papers/broken-born-checkpoint-v2.md` line 252 (#11, References, [23]). The entry is cited at line 132 (§12, "[23†]"). That citation needs no change unless the mark changes.
+1. `wiki/papers/broken-born-checkpoint-v2.md` line 252 (#11, References, [23]). The entry is cited at line 132 (§12, "[23†]"). That citation needs no change unless the mark changes.
 
 **Now reads:**
-1. `papers/broken-born-checkpoint-v2.md` line 252 (#11, References):
+1. `wiki/papers/broken-born-checkpoint-v2.md` line 252 (#11, References):
 > [23]† E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), arXiv:1607.03497.
 
 **Proposed:**
-1. `papers/broken-born-checkpoint-v2.md` line 252. Only the arXiv number changes; the † stays (see "Also"):
+1. `wiki/papers/broken-born-checkpoint-v2.md` line 252. Only the arXiv number changes; the † stays (see "Also"):
 > [23]† E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), arXiv:1604.08564.
 
 **If accepted, also:**
@@ -2379,27 +2379,27 @@ The audit's evidence is a live fetch of the abstract of [21S] (arXiv:2503.14738)
 
 **Where it appears:**
 
-- `papers/conjugate-special-relativity.md` line 26 (#13 §1)
-- `papers/conjugate-special-relativity.md` line 85 (#13 §6)
+- `wiki/papers/conjugate-special-relativity.md` line 26 (#13 §1)
+- `wiki/papers/conjugate-special-relativity.md` line 85 (#13 §6)
 - The momentum reading has one source, `HANDOFF.md` line 75 (§4, chat-only): "dual Newtonian limit = Yukawa in momentum = the gate". #11 §7.5 (line 81) and #8 §3 (line 34) say "Yukawa-cut at 1/M_X", which is a range in position. #13 §6's plain-language passage (line 83, "theirs is short-ranged") restates the claim without a tag.
 
 **Now reads:**
 
-`papers/conjugate-special-relativity.md` line 26 (#13 §1):
+`wiki/papers/conjugate-special-relativity.md` line 26 (#13 §1):
 
 > One refinement from the main program: the dual cone is the causal structure of the *slaved* geometry g⁻¹; the independently dynamical part of momentum-space geometry is the massive field X, which modifies the dual cone only at short range in momentum [D — §7 of the checkpoint].
 
-`papers/conjugate-special-relativity.md` line 85 (#13 §6):
+`wiki/papers/conjugate-special-relativity.md` line 85 (#13 §6):
 
 > Broken: the long-range/short-range asymmetry — our null structure is policed by massless gravity, the dual structure's dynamical part by the massive X, so dual-geometric effects are Yukawa-cut in momentum [D — checkpoint §7].
 
 **Proposed:** This is the audit's suggested tag. Only the tag changes.
 
-`papers/conjugate-special-relativity.md` line 26 (#13 §1):
+`wiki/papers/conjugate-special-relativity.md` line 26 (#13 §1):
 
 > One refinement from the main program: the dual cone is the causal structure of the *slaved* geometry g⁻¹; the independently dynamical part of momentum-space geometry is the massive field X, which modifies the dual cone only at short range in momentum [O — chat-only, HANDOFF §4; not in the checkpoint].
 
-`papers/conjugate-special-relativity.md` line 85 (#13 §6):
+`wiki/papers/conjugate-special-relativity.md` line 85 (#13 §6):
 
 > Broken: the long-range/short-range asymmetry — our null structure is policed by massless gravity, the dual structure's dynamical part by the massive X, so dual-geometric effects are Yukawa-cut in momentum [O — chat-only, HANDOFF §4; not in the checkpoint].
 
@@ -2422,11 +2422,11 @@ A narrower variant keeps the [D] and changes only the pointer, to "[D — chat-o
 
 **Where it appears:**
 
-- `papers/conjugate-special-relativity.md` line 14 (#13 §1). The convention in question is #13's header (line 4): "The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout." The theorem takes g ∈ Sym⁺(d) (#11 §5, line 55). The Lorentzian dressing is open (#11 §14 item 3, line 186).
+- `wiki/papers/conjugate-special-relativity.md` line 14 (#13 §1). The convention in question is #13's header (line 4): "The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout." The theorem takes g ∈ Sym⁺(d) (#11 §5, line 55). The Lorentzian dressing is open (#11 §14 item 3, line 186).
 
 **Now reads:**
 
-`papers/conjugate-special-relativity.md` line 14 (#13 §1):
+`wiki/papers/conjugate-special-relativity.md` line 14 (#13 §1):
 
 > The broken vacuum equips phase space with H = diag(g, g⁻¹) [D — compatibility theorem]: position space carries the metric g and momentum space its inverse. Each metric defines a null cone.
 
@@ -2490,14 +2490,14 @@ When ruling, name the option (A or B) in the notes.
 **Audit:** unclear (model memory); the flag itself calls it a lead, not a source error.
 
 **Where it appears:**
-- `papers/broken-born-checkpoint-v2.md` line 173 (§13 row 10)
+- `wiki/papers/broken-born-checkpoint-v2.md` line 173 (§13 row 10)
 - `notes/broken-born-program-v1.md` line 107 (§9 row 10)
 - `notes/broken-born-theory.md` line 234 (§9 row 10)
 - `review/skeptic-review-console.html` line 63: §4 of the withdrawn #14, as embedded in the console. The flag and the audit do not list it.
 
 **Now reads:**
 
-`papers/broken-born-checkpoint-v2.md` line 173:
+`wiki/papers/broken-born-checkpoint-v2.md` line 173:
 > | 10 | Early universe | Standard G, N_eff | Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff | (Knob-bounded; CMB-S4 probes) |
 
 `notes/broken-born-program-v1.md` line 107:
@@ -2552,7 +2552,7 @@ When ruling, name the option (A or B) in the notes.
 **Where it appears:**
 
 1. `verify/battery.py` lines 12–14 (module docstring)
-2. `papers/broken-born-checkpoint-v2.md` line 75 (§7.2)
+2. `wiki/papers/broken-born-checkpoint-v2.md` line 75 (§7.2)
 
 The figures appear in `HANDOFF.md` line 84 (§5) and in #11 line 75 (§7.2) itself. #11 line 25 (§2) prints only "rms residual 3.29".
 
@@ -2561,10 +2561,10 @@ The figures appear in `HANDOFF.md` line 84 (§5) and in #11 line 75 (§7.2) itse
 (1) `verify/battery.py` lines 12–14:
 
 > The computations, seeds and RNG call order are Appendix A's, unchanged, so
-> the printed figures are the ones quoted in papers/broken-born-checkpoint-v2.md
+> the printed figures are the ones quoted in wiki/papers/broken-born-checkpoint-v2.md
 > §2 (66.58 vs 63.72; rms 3.29). Those quoted figures are checked as well
 
-(2) `papers/broken-born-checkpoint-v2.md` line 75:
+(2) `wiki/papers/broken-born-checkpoint-v2.md` line 75:
 
 > (non-FP at linear order — the 66.58-vs-63.72 test of §2)
 
@@ -2574,7 +2574,7 @@ The figures appear in `HANDOFF.md` line 84 (§5) and in #11 line 75 (§7.2) itse
 
 > The computations, seeds and RNG call order are Appendix A's, unchanged, so
 > the printed figures are the ones quoted in HANDOFF.md §5 and
-> papers/broken-born-checkpoint-v2.md §7.2 (66.58 vs 63.72) and §2 (rms 3.29).
+> wiki/papers/broken-born-checkpoint-v2.md §7.2 (66.58 vs 63.72) and §2 (rms 3.29).
 > Those quoted figures are checked as well
 
 (2) Line 75, in the audit's wording without its inner parentheses:

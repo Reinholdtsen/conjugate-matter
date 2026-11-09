@@ -448,7 +448,7 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
    **Audit (2026-10-27): raised by 1 agent (the run-3 theory verifier), upheld by the final
    critic.**
 57. **The diameter note's Vainshtein radius uses the formula for a massless mode (low;
-    `papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py:383–384`).** The check
+    `wiki/papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py:383–384`).** The check
     uses r_V³ = 2r_S λ², which is Enander and Mörtsell's eq. 43 and assumes one mode mass m₁ = 0. In
     the program's palindromic vacuum that would make X massless. Their eqs. 40–41, which apply,
     give 1.5–3.8×10⁻¹² m for 1 kg at a 50 μm range; under eq. 41 the check's rounding to 10⁻¹² m
@@ -617,7 +617,7 @@ checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verd
     or only by gravity are published without reciprocity (mirror and twin matter); joined to the identification they
     were not found. Neither of #11 §12's forms,
     χ with a velocity gate or conjugate monopoles localized in momentum, was found in the literature. The record already cites
-    Berglund, Hübsch and Minic 2023 [S] for another result (`papers/phase-space-diameter.md` §7); that paper's §6.5
+    Berglund, Hübsch and Minic 2023 [S] for another result (`wiki/papers/phase-space-diameter.md` §7); that paper's §6.5
     states the identification. Suggested: cite the 2020 and 2021 papers [S] at App. A item 4 and §12, with the
     difference; the conjecture keeps its status.
    **Audit (2026-11-02): anticipated by the pre-registered rule.** Found by the round-1 searcher for conjugate
@@ -716,7 +716,7 @@ checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verd
     remains of the duality group of self-dual nonlinear electrodynamics "is an example of Born-reciprocity". The
     conjecture itself, one enlarged modular structure in which one vacuum event selects both polarizations, was not
     found. Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod.
-    Phys. D 32, 2330002 (2023), which `papers/phase-space-diameter.md` cites) make the heterotic string's two E8
+    Phys. D 32, 2330002 (2023), which `wiki/papers/phase-space-diameter.md` cites) make the heterotic string's two E8
     factors each other's Langlands, electric–magnetic, duals through the Born-geometry pairing, both with visible
     fields and each with a dark dual in the same algebra, for gauge groups only: in the round-1 verifier's reading
     prior art for §11.3's identification, not for §11.4's mirror, and in the panel judge's the closest published
@@ -798,7 +798,7 @@ Crossref records. The record is in `review/dual-sector/`.*
     call the choice of polarization immaterial in ordinary quantum mechanics ([26S] §1), so the mandatory argument is
     the program's in three judges' reading (note §8). Suggested: cite these [S], and narrow "This program's
     addition" to the spontaneous breaking of the exact, ω-preserving ρ, with η as order parameter, a ρ-preserving
-    potential and a Goldstone angle, and the explicit actions of `papers/reciprocity-toy-models.md`; the hard core
+    potential and a Goldstone angle, and the explicit actions of `wiki/papers/reciprocity-toy-models.md`; the hard core
     keeps its status [P].
    **Audit (2026-11-06): found by the readers of the vacuum (r7) and of the foundations (r6), and confirmed in part by
    their verifiers; the r7 verifier finds the "kinematical" point weaker against #11 than against the record's
@@ -817,7 +817,7 @@ Crossref records. The record is in `review/dual-sector/`.*
    content and identity judges a close variant.**
    **Ruling: pending.**
 72. **Published overlaps with derived or cited results of #11, #13 and the diameter note are uncited (low; #11 §3,
-    §10, App. A item 10; #13; `papers/phase-space-diameter.md` §7).**
+    §10, App. A item 10; #13; `wiki/papers/phase-space-diameter.md` §7).**
     - a·ã = 1 (#11 §10): the group's inverse scalings, the symplectic map (x, x̃) → (ax, a⁻¹x̃), which "squeezes the
       modular cell along the momentum direction and stretches it in the space direction" (Freidel, Leigh and Minic
       2016 §1.4), its tie to the cosmic scale factor (Freidel, Kowalski-Glikman, Leigh and Minic 2021), and Hur,

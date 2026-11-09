@@ -7,7 +7,7 @@ v2 section 4, is the diagonal squeeze S = diag(s, 1/s) (acting H -> S^T H S, K -
 toy note section 2 action) an exact symmetry of model I (round-4 adjudication F2 and revision 1),
 or is the zero mode an unprotected flat line (toy note v2 section 4)?
 
-Definitions are taken from papers/reciprocity-toy-models.md sections 2 and 4 only.
+Definitions are taken from wiki/papers/reciprocity-toy-models.md sections 2 and 4 only.
 My own coordinates: H = H(X, Y), K = [[alpha, b], [c, -alpha]], alpha = sqrt(1 - b c) near K_ref.
 """
 import sympy as sp
