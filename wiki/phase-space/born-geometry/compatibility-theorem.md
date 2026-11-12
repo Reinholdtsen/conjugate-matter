@@ -49,7 +49,7 @@ Checkpoint [#11](../../history/documents/checkpoint.md) [§5](../../papers/broke
 
 Sym⁺(d) is the set of real symmetric positive-definite d × d matrices [T]. The calc note that gave the program's proof, [#5](../../history/documents/field-equation-notes.md) [§A](../../../notes/geometric-core.md#a-the-compatibility-theorem-d--rigorous), states the setting: "On flat phase space with ω and η both in standard form", the positive generalized metrics "satisfying the full Born algebra — (η⁻¹H)² = +1 **and** (ω⁻¹H)² = −1" are exactly those block-diagonal matrices. In the notation of [the structures ω, η, H](born-structures.md), the two conditions are J² = 1 and I² = −1.
 
-The theorem concerns one tangent space at a time. The withdrawn manuscript [#14](../../dark-matter/candidates/soliton-candidate/_index.md) calls it "pointwise, in a flat frame" ([§1](../../../notes/knot-dark-matter-standalone.md#1-framework)), and the round-3 referee "a pointwise linear-algebra fact" (audit notes, Step 3).
+The theorem concerns one tangent space at a time. A withdrawn paper on monopole dark matter calls it "pointwise, in a flat frame" ([its §1](../../../notes/knot-dark-matter-standalone.md#1-framework)), and the round-3 referee "a pointwise linear-algebra fact" (audit notes, Step 3).
 
 ## What the two conditions mean [T]
 
@@ -99,7 +99,7 @@ T1a draws one positive-definite g and checks the converse direction on H = diag(
 
 ## Round 3's independent re-derivation
 
-The round-3 referee, a blind subagent with Python and web access reviewing the withdrawn manuscript [#14](../../../notes/knot-dark-matter-standalone.md), re-derived the theorem from scratch (audit notes, Step 3; scripts and outputs in [`review/round3/referee/`](../../../review/round3/referee/)). Its setup: "omega=[[0,1],[-1,0]], eta=[[0,1],[1,0]] (d x d blocks), H=[[A,C],[C^T,B]], A,B symmetric, C general." It writes E1 = (η⁻¹H)² − 1 and E2 = (ω⁻¹H)² + 1 for the two residual matrices.
+The round-3 referee, a blind subagent with Python and web access reviewing [a withdrawn paper on monopole dark matter](../../../notes/knot-dark-matter-standalone.md), re-derived the theorem from scratch (audit notes, Step 3; scripts and outputs in [`review/round3/referee/`](../../../review/round3/referee/)). Its setup: "omega=[[0,1],[-1,0]], eta=[[0,1],[1,0]] (d x d blocks), H=[[A,C],[C^T,B]], A,B symmetric, C general." It writes E1 = (η⁻¹H)² − 1 and E2 = (ω⁻¹H)² + 1 for the two residual matrices.
 
 ### Symbolic checks at d = 1 and d = 2
 
@@ -165,14 +165,14 @@ The documents written before round 3 treat the theorem as the program's own resu
 - calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the [notebook](../../history/documents/lab-notebook.md)'s v0.3 addendum reports that the [field-equation problem](../../history/main-problems.md) groundwork "produced a rigorous compatibility theorem";
 - the v1 program paper tags it "Compatibility theorem [D]" ([#9 §3](../../../notes/broken-born-program-v1.md#3-the-kinematic-core-and-the-compatibility-theorem));
 - [#13](../../conjugate-relativity/_index.md) builds on it with the tag "[D — compatibility theorem]" ([#13 §1](../../papers/conjugate-special-relativity.md#1-two-causal-cones); see flag 30 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md));
-- the withdrawn #14 lists it under "Derived within the framework or by standard methods" as "the compatibility theorem (elementary; machine-verified numerically in both directions)" ([#14 §6](../../../notes/knot-dark-matter-standalone.md#6-status-of-claims-and-acceptance-criteria));
+- the withdrawn paper lists it under "Derived within the framework or by standard methods" as "the compatibility theorem (elementary; machine-verified numerically in both directions)" ([its §6](../../../notes/knot-dark-matter-standalone.md#6-status-of-claims-and-acceptance-criteria));
 - [the handoff](../../history/documents/handoff.md) lists it among the alive results, "derived, machine-verified where marked ✓", with the ✓ ([`HANDOFF.md` §2](../../../HANDOFF.md#2-scientific-state-one-screen)).
 
 Round 1's referee "insinuated the compatibility theorem might be false (it is machine-verified)", one of the reviewer errors that the machine check settled ([`HANDOFF.md` §6](../../../HANDOFF.md#6-review-history-and-the-measured-failure-mode); [review rounds 1 and 2](../../method/review/rounds-one-and-two.md)).
 
 Round 3 found the prior art. Under "Uncited claims / prior art that should be cited" the referee wrote: "The compatibility theorem is the known 'Born geometry' structure of Freidel-Leigh-Minic: [1502.08005](https://arxiv.org/abs/1502.08005) (JHEP 06 (2015) 006), p.11", and quoted the passage that defines Born geometries (audit notes, Step 1). The adjudication: "Unless a comparison shows otherwise, the checkpoint's '[D] derived here' tag on it should become [T] with that citation." Decision 4 then scheduled the cleanup: "check the Freidel–Leigh–Minic prior art and re-tag the compatibility theorem if confirmed".
 
-[#11 §5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem) tags the statement [T][V] and credits it: "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root [`CLAUDE.md`](../../../CLAUDE.md) records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". [#11 §15](../../papers/broken-born-checkpoint-v2.md#15-assessment) counts the re-attribution among the program's degeneration risks: "the novelty demotion of §7.4 as a standing caution", joined by "the failure of #14's soliton model (§12) and the §5 re-attribution of the compatibility theorem".
+[#11 §5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem) tags the statement [T][V] and credits it: "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root [`CLAUDE.md`](../../../CLAUDE.md) records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". [#11 §15](../../papers/broken-born-checkpoint-v2.md#15-assessment) counts the re-attribution among the program's degeneration risks: "the novelty demotion of §7.4 as a standing caution", joined by "the failure of a withdrawn paper's monopole model (§12) and the §5 re-attribution of the compatibility theorem".
 
 The statement [#11 §5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem) cites, [26S, §2.1], is made for a Lorentzian H with the B-field set to zero. The positive form is in the same authors' paper of 2016, in group language [S]: "the group of transformations that preserves the symplectic structure and the polarization metric" η is GL(d) = Sp(2d) ∩ O(d, d), whose frames are "determining the vacuum metric" H = diag(q, q⁻¹), with q positive, the theorem's g ([Freidel, Leigh and Minic 2016](https://arxiv.org/abs/1606.01829), §2). They assert it without the block proof, so the proof and battery test T1 stay the program's ([`notes/dual-sector.md` §9](../../../notes/dual-sector.md#9-other-overlaps); flag 71, pending).
 
@@ -184,7 +184,7 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 
 - **Euclidean only.** The theorem is proven for positive-definite H. Calc note [#6 §3](../../../notes/x-classification.md#3-the-mass-mechanism-and-the-endpoint-d--structural): "the compatibility theorem and Siegel parametrization were derived for positive H". The extension to spacetime signature is open problem 3 of #11 ([Open: Lorentzian dressing](lorentzian-dressing.md)).
 - **Pointwise.** It is a statement about one tangent space, in a flat frame.
-- **No physics by itself.** In the round-3 referee's words, "it does not by itself establish any physics". In #14 it did no further work: "The compatibility theorem (true) is never used after Sec. 1" (audit notes, Step 4(d)), part of [the 'framework does no work' critique](../../program/framework-does-no-work.md).
+- **No physics by itself.** In the round-3 referee's words, "it does not by itself establish any physics". In the withdrawn paper it did no further work: "The compatibility theorem (true) is never used after Sec. 1" (audit notes, Step 4(d)), part of [the 'framework does no work' critique](../../program/framework-does-no-work.md).
 
 ## What follows
 
@@ -210,7 +210,6 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - [Conjugate monopoles as ontology](../../electric-magnetic-duality/conjugate-monopoles.md) — on the vacuum slice, universal coupling to H includes coupling to g.
 - [Two causal cones](../../conjugate-relativity/two-causal-cones.md) — #13 builds its two light cones on H = diag(g, g⁻¹) (see flag 30 in [`review/wiki-build-flags.md`](../../../review/wiki-build-flags.md)).
 - [Two gravitational charges and the conjugate field equations (chat-only)](../../gravity/momentum-graviton/chat-only-results.md) — corollary 3 as the documented counterpart of the slaved layer.
-- [Obituary: #14's superheavy-soliton model](../../dark-matter/candidates/soliton-candidate/obituary.md) — the one framework result the withdrawn manuscript cited, re-derived by the round-3 referee.
 
 ## Sources
 

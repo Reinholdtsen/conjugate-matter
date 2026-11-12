@@ -28,7 +28,7 @@ It is written for three readers:
   `wiki/papers/_index.md`, the section's map, is a wiki page.
 - **Source precedence**, most current first:
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. `wiki/papers/broken-born-checkpoint-v2.md` (#11, v2.5), `wiki/papers/reciprocity-toy-models.md` (v2) and
+  2. `wiki/papers/broken-born-checkpoint-v2.md` (#11, v2.6), `wiki/papers/reciprocity-toy-models.md` (v2) and
      `wiki/papers/phase-space-diameter.md` (v1.2);
   3. `review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`;
   4. `wiki/papers/conjugate-special-relativity.md` (#13);
@@ -239,7 +239,7 @@ candidate of monopoles localized in momentum, and the wiki does not present its 
 website of this position localized momentum particles. It is thoroughly confusing.").
 
 - No page covers the model or any of its pieces: the hidden SU(2) → U(1) sector, ψ, W′, the Kibble abundance and
-  benchmark mass, the √N floor, the dimension-five operator, kinetic mixing, α_d fixed through our photon (hypothesis H),
+  benchmark mass, the √N floor, the dimension-five operator, α_d fixed through our photon (hypothesis H),
   its thermal history and its gravitational-wave signal. The model stays dead and its pieces under review in the record
   (root `CLAUDE.md`), without wiki pages.
 - Where a page needs it, one plain mention: "a withdrawn paper on monopole dark matter", which placed its monopoles at
@@ -247,7 +247,8 @@ website of this position localized momentum particles. It is thoroughly confusin
 - The review-method pages may use the paper's Kibble error as their example of a check that reproduces a paper's own
   number, naming the paper as above and leaving out its physics.
 - Established-physics pages keep the physics (Dirac's condition, the Kibble mechanism, the Parker bound, the
-  't Hooft–Polyakov monopole) and list in "Used by" only the program's own claims.
+  't Hooft–Polyakov monopole, and kinetic mixing, which P4's strict reading excludes) and list in "Used by" only the
+  program's own claims.
 
 ## Voice
 

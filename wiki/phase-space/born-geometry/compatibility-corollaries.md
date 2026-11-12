@@ -95,7 +95,7 @@ The three corollaries fare differently there:
 
 - **det H = 1** is claimed for the whole family ([#11 §5](../../papers/broken-born-checkpoint-v2.md#5-the-kinematic-core-and-the-compatibility-theorem)), checked at one point (T2), and tagged [D] here, as above.
 - **The off-diagonal block** is XY⁻¹, the place where the momentum graviton enters ([the momentum graviton X](../../gravity/momentum-graviton/_index.md)).
-- **g̃ = g⁻¹** holds on the slice X = 0. The withdrawn manuscript [#14](../../../notes/knot-dark-matter-standalone.md) puts it this way: "Consequently the baseline momentum-space geometry is slaved (g-tilde = g^-1, det H = 1), and any independent momentum-space geometry resides in the fluctuation X of the off-vacuum modular parameter Z = X + iY on Sp(2d,R)/U(d)" ([#14 §1](../../../notes/knot-dark-matter-standalone.md#1-framework)).
+- **g̃ = g⁻¹** holds on the slice X = 0. A withdrawn paper on monopole dark matter puts it this way: "Consequently the baseline momentum-space geometry is slaved (g-tilde = g^-1, det H = 1), and any independent momentum-space geometry resides in the fluctuation X of the off-vacuum modular parameter Z = X + iY on Sp(2d,R)/U(d)" ([its §1](../../../notes/knot-dark-matter-standalone.md#1-framework)).
 
 ## Chat-only: the slaved layer is algebraic
 
