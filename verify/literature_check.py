@@ -48,6 +48,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 import tempfile
 import unicodedata
@@ -389,6 +390,12 @@ def section_f(quotes):
     items = re.findall(r"^(\d+)\. \*\*", part, flags=re.M)
     check("the scan holds flags 64–69 and no other item", items == [str(n) for n in range(64, 70)], ", ".join(items))
     docs = {k: v for k, v in repo_texts().items() if k != os.path.relpath(path, ROOT)}
+    # Flag 68 quotes #11 v2.5 §12, a passage that v2.6 (2026-11-12) removed with its account of #14's model.
+    # Quotations are therefore also checked against v2.5 itself, read from git at the last commit that holds it.
+    v25 = "09726cf:wiki/papers/broken-born-checkpoint-v2.md"
+    blob = subprocess.run(["git", "-C", ROOT, "show", v25], capture_output=True, text=True, encoding="utf-8")
+    check(f"#11 v2.5 loads from git ({v25})", blob.returncode == 0 and "*Version 2.5 (checkpoint)" in blob.stdout)
+    docs[v25] = norm(blob.stdout)
     lit = [norm(q["text"]) for q in quotes]
     spans = [s for s in re.findall(r'"([^"]+)"', part, flags=re.S) if len(s.split()) >= 3]
     for s in spans:

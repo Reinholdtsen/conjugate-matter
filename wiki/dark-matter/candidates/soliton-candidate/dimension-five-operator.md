@@ -127,7 +127,7 @@ The adjudication counted the coefficient among the numerical indictments the pre
 
 - **The operator and the relation.** Φ^a F^a_μν B^μν/M_\* exists in the literature (Baumgart et al.'s footnote; Chen–Cline–Frey eq. 1; Brümmer–Jaeckel eq. 25), and gives ε ~ v/M_\*.
 - **The rest of #14's mixing section.** The gravity-only bound and the absence of visible magnetic flux while U(1)_d is unbroken survive v3: "The kinetic-mixing literature points (a) and (c)" (adjudication, 'What survives v3'; [kinetic mixing between sectors](kinetic-mixing.md)).
-- **Not among the survivors.** Neither [#11 §12](../../../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model)'s "What survives" nor the adjudication's 'What survives v3' includes the ε ~ 10⁻⁷–10⁻⁶ estimate, the millicharged-ψ window built on it or exclusion condition 3. The estimate is under review. The window and the condition belonged to #14's model, which failed on its recomputed abundance ([Obituary: #14's superheavy-soliton model](obituary.md)).
+- **Not among the survivors.** Neither [#11 §12](../../../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates)'s "What survives" nor the adjudication's 'What survives v3' includes the ε ~ 10⁻⁷–10⁻⁶ estimate, the millicharged-ψ window built on it or exclusion condition 3. The estimate is under review. The window and the condition belonged to #14's model, which failed on its recomputed abundance ([Obituary: #14's superheavy-soliton model](obituary.md)).
 
 ## History
 
@@ -145,5 +145,5 @@ The adjudication counted the coefficient among the numerical indictments the pre
 - [`review/round3-preregistration.md`](../../../../review/round3-preregistration.md) 'Predictions' — the millicharge runner-up
 - [`review/v3-worklog.md`](../../../../review/v3-worklog.md) 'Round-2 pending list' (R4) — the worklog's estimate and planned wording
 - [`notes/knot-dark-matter-standalone.md` §2](../../../../notes/knot-dark-matter-standalone.md#2-the-hidden-sector-and-its-coupling) — sector separation and point (b); [§4](../../../../notes/knot-dark-matter-standalone.md#4-observational-consistency) — the millicharged ψ; [§5](../../../../notes/knot-dark-matter-standalone.md#5-exclusion-conditions) — exclusion condition 3; [§6](../../../../notes/knot-dark-matter-standalone.md#6-status-of-claims-and-acceptance-criteria) — acceptance criterion (2) and the conjectural claims
-- [`wiki/papers/broken-born-checkpoint-v2.md` §4](../../../papers/broken-born-checkpoint-v2.md#4-postulates) — P4 taken strictly; [§12](../../../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) — what survives #14's model
+- [`wiki/papers/broken-born-checkpoint-v2.md` §4](../../../papers/broken-born-checkpoint-v2.md#4-postulates) — P4 taken strictly; [§12](../../../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) — what survives #14's model
 - [`HANDOFF.md` §6](../../../../HANDOFF.md#6-review-history-and-the-measured-failure-mode) — the round-2 dispute over gravity-induced mixing

@@ -101,7 +101,7 @@ The wave-island suppression law answers the re-derivation for the knee's tail on
 
 ## Where the row is used
 
-- **The candidates.** [#11 §12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) lists "isotropic scattering" among the distinctive handles of [the χ-particle candidate](../dark-matter/candidates/chi-particles.md), with "knee at v\*, sharp tail" and "permanent direct-detection null". The handles of [the X-condensate](../dark-matter/candidates/x-condensate.md) do not include it.
+- **The candidates.** [#11 §12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) lists "isotropic scattering" among the distinctive handles of [the χ-particle candidate](../dark-matter/candidates/chi-particles.md), with "knee at v\*, sharp tail" and "permanent direct-detection null". The handles of [the X-condensate](../dark-matter/candidates/x-condensate.md) do not include it.
 - **Row 11.** Rows 1–3 are the discriminators of [row 11, particles or condensate](dark-sector-microstructure.md): "Particles vs condensate, separable via rows 1–3 + coherence signatures" ([#11 §13](../papers/broken-born-checkpoint-v2.md#13-predictions-and-kill-conditions)).
 - **The neighbouring rows.** [Row 1](self-interaction-knee.md) tests the strength of the same scattering, and [row 3, the island discriminant](island-discriminant.md), the shape of its tail.
 
@@ -117,7 +117,7 @@ v0.1's standard expectation read "Forward-peaked (light mediator)", and v1 and #
 
 ## Sources
 
-- [`wiki/papers/broken-born-checkpoint-v2.md` §13 row 2](../papers/broken-born-checkpoint-v2.md#13-predictions-and-kill-conditions) — the row; [§8](../papers/broken-born-checkpoint-v2.md#8-conjugate-matter-and-the-gate) — the amplitude, its tags and "isotropic below the gate versus Yukawa forward-peaking"; [§12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) — the χ-particle handles; [§15](../papers/broken-born-checkpoint-v2.md#15-assessment) — the near-term exposure rows
+- [`wiki/papers/broken-born-checkpoint-v2.md` §13 row 2](../papers/broken-born-checkpoint-v2.md#13-predictions-and-kill-conditions) — the row; [§8](../papers/broken-born-checkpoint-v2.md#8-conjugate-matter-and-the-gate) — the amplitude, its tags and "isotropic below the gate versus Yukawa forward-peaking"; [§12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) — the χ-particle handles; [§15](../papers/broken-born-checkpoint-v2.md#15-assessment) — the near-term exposure rows
 - [`notes/broken-born-theory.md` §5.1](../../notes/broken-born-theory.md#51-the-scattering-law-d) — the derivation of isotropy [D], the heavy-mediator assumption, the Born caveat and the transport remark; [§3](../../notes/broken-born-theory.md#3-action) — the v0.1 amplitude and k; [§9](../../notes/broken-born-theory.md#9-predictions) — the v0.1 row 2; 'Addendum (v0.2, after the clumping notes)' — rows 1–2 among the live content
 - [`notes/broken-born-program-v1.md` §6](../../notes/broken-born-program-v1.md#6-conjugate-matter-and-the-gate-the-gate-problem-mechanism-found), [§9](../../notes/broken-born-program-v1.md#9-predictions-and-kill-conditions) — v1's statement and row 2
 - [`notes/stream-stability.md`](../../notes/stream-stability.md) 'Consequences for the predictions table' — rows 1–2 survive on the particle island, to be re-derived for waves

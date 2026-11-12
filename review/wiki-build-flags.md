@@ -737,7 +737,7 @@ checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verd
    judge for C4 lists Gibbons and Herdeiro among the closest work, and the further works as reaching parts of §15's
    unification.
    **Ruling: pending.**
-68. **§12's exclusion of the minimal hidden sector was published first, independently (low; #11 §12: "The minimal
+68. **§12's exclusion of the minimal hidden sector was published first, independently (low; #11 v2.5 §12: "The minimal
     adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms").** Brümmer, Ferrante, Fischer and
     Frigerio, Phys. Rev. D 113, L091701 (2026) (arXiv:2509.21924, posted 2025-09-26, before #14 v3 of 2026-10-19),
     find for the minimal 't Hooft–Polyakov model that
@@ -748,6 +748,10 @@ checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verd
    **Audit (2026-11-02): found by the round-1 searcher for monopoles, who labeled it evidence against; its verifier
    kept that label, scoped to #14's model, and the panel judge for C2 relabeled it related, since it reaches only
    #14's model.**
+   **Note (2026-11-12):** #11 v2.6 no longer states the exclusion, since its account of #14's model is now one
+   paragraph (root `CLAUDE.md`, 'Since the handoff', 2026-11-12). The exclusion stands in
+   `review/round3-adjudication.md` and `verify/soliton_obituary.py`, where the suggested citation would now go.
+   `verify/literature_check.py` section F checks the quotation above against v2.5 in git.
    **Ruling: pending.**
 69. **Row 1's "zero cluster signal" meets two fits (low; #11 §13 row 1).** Kaplinghat, Tulin and Yu, Phys. Rev.
     Lett. 116, 041302 (2016): "Our results prefer a mildly velocity-dependent cross section", from about 2 cm²/g on

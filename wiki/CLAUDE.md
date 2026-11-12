@@ -78,7 +78,7 @@ what is known and what is claimed read as a sequence.
 | `phase-space/` | Born reciprocity, Born geometry and its theorems, the modular field |
 | `symmetry-breaking/` | the mechanism of the hard core: order parameter, Goldstone angle, ρ-preserving potential, matter locality, the two toy models |
 | `gravity/` | spin-2 theory (massless and massive) and the field-equation results on the momentum graviton X |
-| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), momentum clumping: the founding image, P.R.'s open conjecture, and the calculations that tested it (the clumping problem), the three candidates (among them P.R.'s conjecture of monopoles abundant in momentum space) and #14's failed soliton model |
+| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), momentum clumping: the founding image, P.R.'s open conjecture, and the calculations that tested it (the clumping problem), the three candidates (among them P.R.'s conjecture of monopoles abundant in momentum space) |
 | `cosmology/` | scale-factor duality, dark energy, early-universe physics |
 | `electric-magnetic-duality/` | monopoles, dualities, charge lattices, the polarization identification |
 | `conjugate-relativity/` | #13: the kinematics of the momentum polarization |
@@ -165,7 +165,8 @@ documents) have status `record`.
 12. Established physics gets its own pages (status `established`), placed in the field
     it belongs to.
 13. Every dead claim has its own obituary page, and the graveyard register indexes them.
-    Every claim under review keeps its page, and `/wiki/status/under-review` indexes them.
+    Every claim under review keeps its page, and `/wiki/status/under-review` indexes them. The one exception is
+    #14's model and its pieces (see "The withdrawn monopole paper").
 
 ## Page anatomy
 
@@ -230,6 +231,24 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
   sections, most authoritative first. The gate checks that every inline-code repo path
   exists.
 
+## The withdrawn monopole paper
+
+#14 (`notes/knot-dark-matter-standalone.md`, withdrawn) described its monopoles with ordinary kinematics, at points in
+space. An object localized in momentum is spread out in position, so its monopoles are a different object from P.R.'s
+candidate of monopoles localized in momentum, and the wiki does not present its model (Paul, 2026-11-12: "purge the
+website of this position localized momentum particles. It is thoroughly confusing.").
+
+- No page covers the model or any of its pieces: the hidden SU(2) → U(1) sector, ψ, W′, the Kibble abundance and
+  benchmark mass, the √N floor, the dimension-five operator, kinetic mixing, α_d fixed through our photon (hypothesis H),
+  its thermal history and its gravitational-wave signal. The model stays dead and its pieces under review in the record
+  (root `CLAUDE.md`), without wiki pages.
+- Where a page needs it, one plain mention: "a withdrawn paper on monopole dark matter", which placed its monopoles at
+  points in space, a different object, and is no test of the candidate. No numbers of the model appear.
+- The review-method pages may use the paper's Kibble error as their example of a check that reproduces a paper's own
+  number, naming the paper as above and leaving out its physics.
+- Established-physics pages keep the physics (Dirac's condition, the Kibble mechanism, the Parker bound, the
+  't Hooft–Polyakov monopole) and list in "Used by" only the program's own claims.
+
 ## Voice
 
 Write as a serious scientist explaining abstract material in plain language. Three tests
@@ -244,6 +263,9 @@ Rules on wording:
 - **No anthropomorphizing.** A field does not *want*, nature does not *forbid* or *play
   favorites*, and a theory does not *refuse to die*. Some of #11's italic passages do
   this. Do not copy those passages.
+- **Say what a term means.** Jargon that names nothing concrete is replaced by what it means: not "hidden sector" but
+  "particles that interact with ours only through gravity" or "a separate copy of electromagnetism" (Paul, 2026-11-12,
+  found "hidden sector" confusing). A quotation keeps its wording, glossed beside it.
 - **No moralizing, no hype, no detective-story reveals.** Words like "remarkably",
   "crucially", "the culprit" and "it turns out" do not belong. Show significance as a
   consequence: the number, the failure it causes, what it makes possible.
@@ -344,7 +366,7 @@ gate checks for this. Code spans and `text` fences need no escaping.
   least 3 inbound links from other pages; `scripts/check-wiki.py --stats` lists the
   pages short of that.
 - Program pages link to the established physics they use, and established-physics pages
-  link to the program pages that use them. Every mention of a dead claim links to its
+  link to the program pages that use them. Apart from #14's model, which has no page, every mention of a dead claim links to its
   obituary, and every mention of a claim under review links to its page.
 
 ## Acronyms

@@ -81,7 +81,7 @@ The problem was found while the soliton manuscript [#14](../../notes/knot-dark-m
 
 > "Before any paper claims more: fix #13's two cones and settle which construction governs"
 
-[#11 §12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) quotes the same sentence of [#14 §1](../../notes/knot-dark-matter-standalone.md#1-framework). #14's model did not treat localization in momentum, so the candidate itself has not been tested: conjugate monopoles localized in momentum are P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](../dark-matter/candidates/momentum-space-monopoles.md)).
+[#11 §12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) quotes the same sentence of [#14 §1](../../notes/knot-dark-matter-standalone.md#1-framework). #14's model did not treat localization in momentum, so the candidate itself has not been tested: conjugate monopoles localized in momentum are P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](../dark-matter/candidates/momentum-space-monopoles.md)).
 
 ## What settling it involves
 
@@ -97,7 +97,7 @@ The item appears only in the worklog. It is not among [#11 §14](../papers/broke
 
 - [`review/v3-worklog.md`](../../review/v3-worklog.md) 'New open items' — item O3: the two cones, the dark-sector kinematics, the dark-photon question, the v3 decision and the two tasks.
 - [`wiki/papers/conjugate-special-relativity.md` §1](../papers/conjugate-special-relativity.md#1-two-causal-cones), [§2](../papers/conjugate-special-relativity.md#2-force-boosts) — the 3+1 cone and the dual interval; [§4](../papers/conjugate-special-relativity.md#4-invariants-the-mass-shell-and-the-length-shell) for the invariant length; [§6](../papers/conjugate-special-relativity.md#6-what-is-shared-what-is-broken-what-is-open) for E = c|p| as the dual null cone, the photon-dispersion argument, the open four-dimensional map and the 3+1 presentation; preamble for the inherited Euclidean/Lorentzian caveat.
-- [`wiki/papers/broken-born-checkpoint-v2.md` §12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) — #14's ordinary kinematics, which left the candidate it modeled untested; §13 row 9 — #11's own photon-dispersion requirement; [§14](../papers/broken-born-checkpoint-v2.md#14-open-problems) for the open problems, which do not include this item.
+- [`wiki/papers/broken-born-checkpoint-v2.md` §12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) — #14's ordinary kinematics, which left the candidate it modeled untested; §13 row 9 — #11's own photon-dispersion requirement; [§14](../papers/broken-born-checkpoint-v2.md#14-open-problems) for the open problems, which do not include this item.
 - [`notes/broken-born-theory.md` §4](../../notes/broken-born-theory.md#4-consistency-with-everything-already-measured) — the Fermi-LAT bounds on linear dispersion (superseded as a reference).
 - [`notes/knot-dark-matter-standalone.md` §1](../../notes/knot-dark-matter-standalone.md#1-framework) — #14's ordinary kinematics (withdrawn).
 - [`CLAUDE.md`](../../CLAUDE.md) 'Since the handoff' — the current queue.

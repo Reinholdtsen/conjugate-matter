@@ -25,7 +25,7 @@ The seven conjectures, as the record states them:
 | | Conjecture | Where the record states it |
 | --- | --- | --- |
 | C1 | [dark matter is conjugate matter](../program/founding-suppositions.md#4-dark-matter-is-conjugate-matter) | [#11 App. A item 4](../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) |
-| C2 | [magnetic monopoles abundant in momentum space](../dark-matter/candidates/momentum-space-monopoles.md) | [#11 §11.1](../papers/broken-born-checkpoint-v2.md#111-the-monopole-audit-revised-d), [§12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) |
+| C2 | [magnetic monopoles abundant in momentum space](../dark-matter/candidates/momentum-space-monopoles.md) | [#11 §11.1](../papers/broken-born-checkpoint-v2.md#111-the-monopole-audit-revised-d), [§12](../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) |
 | C3 | [that is why none has been found](../electric-magnetic-duality/monopole-explanation.md) | [#11 App. A item 5](../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) |
 | C4 | [the momentum sector as the magnetic mirror](../electric-magnetic-duality/magnetic-identification.md) | [#11 §11.4](../papers/broken-born-checkpoint-v2.md#114-the-magnetic-mirror-conjecture-o-pr-v23) |
 | C5 | [conjugate collapse powers our expansion](../cosmology/scale-factor-duality/collapse-powered-expansion.md) | [#11 §10](../papers/broken-born-checkpoint-v2.md#10-cosmology), [App. A item 9](../papers/broken-born-checkpoint-v2.md#appendix-a-audit-of-founding-suppositions-pr-with-fates) |

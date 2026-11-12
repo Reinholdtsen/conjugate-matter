@@ -90,7 +90,7 @@ Added by the wiki from model memory (†):
 
 ## Sources
 
-- [`wiki/papers/broken-born-checkpoint-v2.md` §9](../../papers/broken-born-checkpoint-v2.md#9-momentum-clumping-the-founding-image-tested), ref [13] — "LPT-style [13†]"; coefficients [O]; the reference; Scenario A under review; [§12](../../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates-and-the-failure-of-one-model) — the third candidate, and the failure of [#14](../../../notes/knot-dark-matter-standalone.md)'s model of it
+- [`wiki/papers/broken-born-checkpoint-v2.md` §9](../../papers/broken-born-checkpoint-v2.md#9-momentum-clumping-the-founding-image-tested), ref [13] — "LPT-style [13†]"; coefficients [O]; the reference; Scenario A under review; [§12](../../papers/broken-born-checkpoint-v2.md#12-the-dark-sector-question-three-candidates) — the third candidate, and the failure of [#14](../../../notes/knot-dark-matter-standalone.md)'s model of it
 - [`notes/wave-island.md`](../../../notes/wave-island.md) 'Setup', 'The rate' — the wave-kinetic rate, the mechanism, the gated rate, the gravitational channel, the calibration to-do
 - [`notes/stream-stability.md`](../../../notes/stream-stability.md) 'Consequences for the predictions table', 'Next chunk (3b)' — Levkov–Panin–Tkachev as the known anchor; power flowing into narrow-momentum streams; anchoring the coefficients
 - [`notes/ufd-endpoint.md`](../../../notes/ufd-endpoint.md) 'Sharpened input numbers' — the t^{1/2} growth slowdown; no timescale refuge in Segue 1

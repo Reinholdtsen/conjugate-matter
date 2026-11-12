@@ -27,7 +27,9 @@ below gives their paths.
   - #2–#8 calc notes: #2–#4 `stream-stability`, `wave-island`, `ufd-endpoint` (the clumping problem);
     #5–#8 `geometric-core`, `x-classification`, `tuning-test`, `beta-coefficients` (the field-equation problem).
   - #9 `broken-born-program-v1.md` — superseded by #11.
-  - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
+  - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review. Its monopoles sit at points in
+    space, a different object from P.R.'s candidate of monopoles localized in momentum; the site no longer presents its
+    model (2026-11-12).
   - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
   - `velocity-gated-gravity.md` — the momentum-gravity note (2026-10-28): whether the velocity-clumping obituary is premature, and whether momentum gravity is a relative-velocity perturbation of gravity. Computed and verified by independent agents; not reviewed. Its record is `review/momentum-gravity/`.
   - `gate-mechanism.md` — whether exchanging X produces #11 §8's dark-matter gate (2026-10-28). Two derivations, the second blind; not reviewed. Its record is `review/momentum-gravity/`; its result is flag 55.
@@ -51,8 +53,9 @@ only as a task needs them.
   superheavy soliton candidate in HANDOFF §2 is **dead** as a program-native
   proposal. The framework is merely compatible with known PeV-scale
   topological dark matter (prior art). (Narrowed 2026-10-29: this covers #14's
-  model, which used ordinary kinematics; the candidate it modeled, conjugate
-  monopoles localized in momentum, is P.R.'s open conjecture, #11 v2.4 §12.)
+  model, which used ordinary kinematics; the candidate it set out to model, conjugate
+  monopoles localized in momentum, is P.R.'s open conjecture, #11 v2.4 §12. On 2026-11-12 Paul ruled that #14's
+  monopoles, at points in space, are a different object, so #14 is no test of the candidate.)
 - Strict sector separation (P4 at face value) is in force.
 - #11 is now v2.1: soliton obituary (§12); compatibility theorem re-tagged
   [T] (Freidel–Leigh–Minic); P4 strict (§4); DESI DR2 favors a phantom
@@ -302,6 +305,22 @@ only as a task needs them.
     4,555 headings of the repository's Markdown on 2026-11-07. Hugo and GitHub differ only on combining marks (3
     headings), and the gate rejects a link to such a heading. `scripts/check-site.py` checks every GitHub link (11,050)
     against tracked files and GitHub's headings.
+- 2026-11-12: the position-space monopole model taken off the site (Paul: "I want you to purge the website of this
+  position localized momentum particles. It is thoroughly confusing." His reason: "it makes zero sense, and is in fact
+  contradictory to hypothesize a moment[um] monopole localize[d] in position. It is like saying a spatially localized
+  frequency of sound." Then: "Do it in chunks and commit intermediate work please."). Branch `purge-position-model`.
+  No claim's status changed. Its results:
+  - #14 described its monopoles with ordinary kinematics, at points in space. An object localized in momentum is spread
+    out in position, so #14's monopoles are a different object from P.R.'s candidate, and #14 is no test of it;
+  - #11 is v2.6: §12 states this in one paragraph in place of its account of #14's model, its heading is now "The
+    dark-sector question: three candidates", and the abstract, §2, §11.1, §11.4, §13, §14 item 8, §15 and App. A item 5
+    follow;
+  - #14's model stays dead (concurred 2026-10-29), and its six pieces and hypothesis H stay under review, listed in the
+    2026-10-29 entries above, without wiki pages. The record of the model is `notes/knot-dark-matter-standalone.md`,
+    `review/round3-adjudication.md`, `verify/soliton_obituary.py` (still in the gate) and git;
+  - the wiki keeps at most one plain mention of "a withdrawn paper on monopole dark matter" where a page needs it
+    (`wiki/CLAUDE.md`, 'The withdrawn monopole paper'), and the review-method pages keep its Kibble error as their
+    example of a circular check. Paul also found "hidden sector" confusing: wiki prose says what it means.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
